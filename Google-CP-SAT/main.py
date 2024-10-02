@@ -36,4 +36,14 @@ def solve_graph(n, edges):
     else:
         print("No solution found.")
 
-solve_graph(3, [(0,1), (1,2)])
+def snake_edges(n):
+    return [(i, i + 1) for i in range(n - 1)]
+
+# 3 snake (0.005s)
+# solve_graph(3, snake_edges(3))
+
+# 100 snake (1s)
+# solve_graph(100, snake_edges(100))
+
+# 1000 snake (426s)
+# solve_graph(1000, snake_edges(1000))
