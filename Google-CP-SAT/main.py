@@ -39,11 +39,11 @@ def solve_graph(n, edges):
 def path_edges(n):
     return [(i, i + 1) for i in range(n - 1)]
 
-# 3 path graph (0.005s)
+# 3 node path graph (0.005s)
 # solve_graph(3, path_edges(3))
 
-# 100 path graph (1s)
+# 100 node path graph (1s)
 # solve_graph(100, path_edges(100))
 
-# 1000 path graph (426s)
+# 1000 node path graph (426s)
 # solve_graph(1000, path_edges(1000))
