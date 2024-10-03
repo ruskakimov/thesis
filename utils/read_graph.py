@@ -22,7 +22,7 @@ def read_all_graphs():
     graphs = []
 
     for file_path in graphs_dir.iterdir():
-        if file_path.is_file():
+        if file_path.is_file() and file_path.suffix == ".graph":
             graphs.append(read_graph(file_path))
 
     # Sort by name and number of nodes
