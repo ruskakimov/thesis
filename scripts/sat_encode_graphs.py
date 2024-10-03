@@ -1,7 +1,7 @@
 from pathlib import Path
 from utils.read_graph import read_all_graphs
 
-cnf_dir = Path(__file__).resolve().parent.parent / 'graphs'
+cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
 
 def naive_sat_encode_graph(graph):
     """
