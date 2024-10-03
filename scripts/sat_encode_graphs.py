@@ -49,6 +49,11 @@ def naive_sat_encode_graph(graph):
         clauses.append(clause)
 
     # Constraint: At most one node has label `i`
+    for v in range(n):
+        for w in range(v+1, n):
+            for i in range(m+1):
+                clause = [-X(v, i), -X(w, i)]
+                clauses.append(clause)
 
     # Constraint: At most one edge has label `j`
 
