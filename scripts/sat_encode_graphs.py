@@ -8,13 +8,11 @@ def naive_sat_encode_graph(graph):
     Encodes graceful labeling of a given graph into CNF.
     Based on "Vertex-edge encoding" (Kraayenbrink 2011).
 
-    Constants:
+    Legend:
         n - number of nodes
         m - number of edges
-    
-    Variables:
         i - node label. Range is [0, m].
-        j - edge label. Range is [1, m].
+        j - calculated edge label. Range is [1, m].
 
     CNF variables:
         X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
@@ -30,12 +28,9 @@ def naive_sat_encode_graph(graph):
     num_vars = n*(m+1)+1 + m*m
     clauses = []
 
-    edge_index = {}
-    for i, v, w in enumerate(graph.edges):
-        edge_index[(min(v,w), max(v,w))] = i
-
+    # Note: all variables start from `0` here.
     X = lambda v, i: 1 + v*(m+1) + i
-    Y = lambda v, w, j: X(n-1, m) + 1 + edge_index[(min(v,w), max(v,w))]*m + j
+    Y = lambda vw, j: X(n-1, m) + 1 + vw*m + j
 
     # Constraint: Node `v` has at least one label
     for v in range(n):
@@ -43,9 +38,8 @@ def naive_sat_encode_graph(graph):
         clauses.append(clause)
     
     # Constraint: Edge `v,w` has at least one label
-    for edge in graph.edges:
-        v, w = edge
-        clause = [Y(v, w, j) for j in range(m)]
+    for vw, v, w in enumerate(graph.edges):
+        clause = [Y(vw, j) for j in range(m)]
         clauses.append(clause)
 
     # Constraint: At most one node has label `i`
@@ -58,6 +52,12 @@ def naive_sat_encode_graph(graph):
     # Constraint: At most one edge has label `j`
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
+    for vw, v, w in enumerate(graph.edges):
+        for i in range(m+1):
+            for j in range(m+1):
+                if i != j:
+                    clause = [-X(v-1, i), -X(w-1, j), Y(vw, abs(i-j)-1)]
+                    clauses.append(clause)
     
     return (num_vars, clauses)
 
