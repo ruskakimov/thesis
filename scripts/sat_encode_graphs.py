@@ -3,7 +3,30 @@ from utils.read_graph import read_all_graphs
 
 cnf_dir = Path(__file__).resolve().parent.parent / 'graphs'
 
-def sat_encode_graph(graph):
+def naive_sat_encode_graph(graph):
+    """
+    Encodes graceful labeling of a given graph into CNF.
+
+    Constants:
+        n - number of nodes
+        m - number of edges
+    
+    Variables:
+        i - node label. Range is [0, m].
+        j - edge label. Range is [1, m].
+
+    CNF variables:
+        X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
+        Y_vw_j - edge `v,w` has label `j`. Range is [n*(m+1)+1, n*(m+1)+1 + m*m].
+    
+    Returns:
+        int: number of variables
+        List[List[int]]: list of disjunctive clauses
+    """
+
+    n = graph.num_nodes
+    m = len(graph.edges)
+    
     pass
 
 def write_cnf_to_file(num_vars, clauses, name):
@@ -15,5 +38,5 @@ def write_cnf_to_file(num_vars, clauses, name):
 graphs = read_all_graphs()
 
 for graph in graphs:
-    num_vars, clauses = sat_encode_graph(graph)
+    num_vars, clauses = naive_sat_encode_graph(graph)
     write_cnf_to_file(num_vars, clauses, graph.name)
