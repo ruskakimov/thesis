@@ -1,0 +1,29 @@
+snake_2
+Time taken: 0.0094 seconds
+
+snake_4
+Time taken: 0.004471 seconds
+
+snake_8
+Time taken: 0.007883000000000001 seconds
+
+snake_16
+Time taken: 0.023476 seconds
+
+snake_32
+Time taken: 0.08236700000000001 seconds
+
+snake_64
+Time taken: 0.409121 seconds
+
+snake_128
+Time taken: 1.77905 seconds
+
+snake_256
+Time taken: 19.49382 seconds
+
+snake_512
+Time taken: 105.99739000000001 seconds
+
+snake_1024
+Time taken: 463.07596600000005 seconds
