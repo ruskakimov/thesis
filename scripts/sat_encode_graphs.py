@@ -26,8 +26,28 @@ def naive_sat_encode_graph(graph):
 
     n = graph.num_nodes
     m = len(graph.edges)
+    num_vars = n*(m+1)+1 + m*m
+    clauses = []
+
+    # Node `v` has at least one label
+    for v in range(n):
+        clause = []
+        
+        for i in range(m+1):
+            X_v_i = 1 + v*(m+1) + i
+            clause.append(X_v_i)
+
+        clauses.append(clause)
     
-    pass
+    # Edge `v,w` has at least one label
+
+    # At most one node has label `i`
+
+    # At most one edge has label `j`
+
+    # If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
+    
+    return (num_vars, clauses)
 
 def write_cnf_to_file(num_vars, clauses, name):
     with open(cnf_dir / f'{name}.cnf', 'w') as file:
