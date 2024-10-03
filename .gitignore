@@ -1,2 +1,6 @@
 __pycache__/
 .DS_Store
+
+# These .cnf files are too large to be stored on GitHub
+*_256.cnf
+*_512.cnf
