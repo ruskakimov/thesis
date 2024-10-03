@@ -6,6 +6,7 @@ cnf_dir = Path(__file__).resolve().parent.parent / 'graphs'
 def naive_sat_encode_graph(graph):
     """
     Encodes graceful labeling of a given graph into CNF.
+    Based on "Vertex-edge encoding" (Kraayenbrink 2011).
 
     Constants:
         n - number of nodes
@@ -29,22 +30,29 @@ def naive_sat_encode_graph(graph):
     num_vars = n*(m+1)+1 + m*m
     clauses = []
 
-    X = lambda v, i: 1 + v*(m+1) + i
+    edge_index = {}
+    for i, v, w in enumerate(graph.edges):
+        edge_index[(min(v,w), max(v,w))] = i
 
-    # Node `v` has at least one label
+    X = lambda v, i: 1 + v*(m+1) + i
+    Y = lambda v, w, j: X(n-1, m) + 1 + edge_index[(min(v,w), max(v,w))]*m + j
+
+    # Constraint: Node `v` has at least one label
     for v in range(n):
         clause = [X(v, i) for i in range(m+1)]
         clauses.append(clause)
     
-    # Edge `v,w` has at least one label
-    for edge in edges:
-        pass
+    # Constraint: Edge `v,w` has at least one label
+    for edge in graph.edges:
+        v, w = edge
+        clause = [Y(v, w, j) for j in range(m)]
+        clauses.append(clause)
 
-    # At most one node has label `i`
+    # Constraint: At most one node has label `i`
 
-    # At most one edge has label `j`
+    # Constraint: At most one edge has label `j`
 
-    # If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
+    # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     
     return (num_vars, clauses)
 
