@@ -1,5 +1,7 @@
 from pathlib import Path
 
+graphs_dir = Path(__file__).resolve().parent.parent / 'graphs'
+
 class Graph:
     def __init__(self, name, num_nodes, edges):
         self.name = name
@@ -26,3 +28,15 @@ def read_graph(file_path):
             edges.append((u, v))
 
     return Graph(name=file_path.name.split('.')[0], num_nodes=num_nodes, edges=edges)
+
+def read_all_graphs():
+    graphs = []
+
+    for file_path in graphs_dir.iterdir():
+        if file_path.is_file():
+            graphs.append(read_graph(file_path))
+
+    # Sort by name and number of nodes
+    graphs.sort(key=lambda g: (g.name.split('_')[0], int(g.name.split('_')[1])))
+
+    return graphs
