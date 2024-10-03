@@ -73,6 +73,7 @@ def write_cnf_to_file(num_vars, clauses, name):
             file.write(' '.join(map(str, clause)) + " 0\n")
 
 graphs = read_all_graphs()
+graphs.sort(key=lambda g: g.num_nodes)
 
 for graph in graphs:
     num_vars, clauses = naive_sat_encode_graph(graph)
