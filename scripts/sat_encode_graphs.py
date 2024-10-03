@@ -29,17 +29,16 @@ def naive_sat_encode_graph(graph):
     num_vars = n*(m+1)+1 + m*m
     clauses = []
 
+    X = lambda v, i: 1 + v*(m+1) + i
+
     # Node `v` has at least one label
     for v in range(n):
-        clause = []
-        
-        for i in range(m+1):
-            X_v_i = 1 + v*(m+1) + i
-            clause.append(X_v_i)
-
+        clause = [X(v, i) for i in range(m+1)]
         clauses.append(clause)
     
     # Edge `v,w` has at least one label
+    for edge in edges:
+        pass
 
     # At most one node has label `i`
 
