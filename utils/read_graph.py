@@ -1,18 +1,7 @@
 from pathlib import Path
+from data_structures.graph import Graph
 
 graphs_dir = Path(__file__).resolve().parent.parent / 'graphs'
-
-class Graph:
-    def __init__(self, name, num_nodes, edges):
-        self.name = name
-        self.num_nodes = num_nodes
-        self.edges = edges
-
-    def __str__(self):
-        return f"Graph(name={self.name}, num_nodes={self.num_nodes}, edges={self.edges})"
-
-    def __repr__(self):
-        return self.__str__()
     
 def read_graph(file_path):
     file_path = Path(file_path)
