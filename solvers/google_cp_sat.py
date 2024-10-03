@@ -19,7 +19,7 @@ def solve_graph(n, edges):
     for i in range(m):
         a, b = edges[i]
         edge_weights[i] = model.new_int_var(1, m, f"edge_{a}_{b}")
-        model.AddAbsEquality(edge_weights[i], labels[a] - labels[b])
+        model.AddAbsEquality(edge_weights[i], labels[a-1] - labels[b-1])
     
     # Edges must be unique
     for i in range(m):
@@ -31,13 +31,13 @@ def solve_graph(n, edges):
 
     if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
         print(f'Time taken: {solver.WallTime()} seconds')
-        for i in range(n):
-            print(f"label for node {i} is {solver.value(labels[i])}")
+        # for i in range(n):
+        #     print(f"label for node {i} is {solver.value(labels[i])}")
     else:
         print("No solution found.")
 
-def path_edges(n):
-    return [(i, i + 1) for i in range(n - 1)]
+# def path_edges(n):
+#     return [(i, i + 1) for i in range(n - 1)]
 
 # 3 node path graph (0.005s)
 # solve_graph(3, path_edges(3))
