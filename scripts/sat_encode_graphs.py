@@ -50,6 +50,11 @@ def naive_sat_encode_graph(graph):
                 clauses.append(clause)
 
     # Constraint: At most one edge has label `j`
+    for vw1 in range(m):
+        for vw2 in range(vw1+1, m):
+            for j in range(m):
+                clause = [-Y(vw1, j), -Y(vw2, j)]
+                clauses.append(clause)
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, v, w in enumerate(graph.edges):
