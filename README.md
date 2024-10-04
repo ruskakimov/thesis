@@ -23,7 +23,7 @@ All timings are recorded in seconds. If the graph was not solved in a reasonable
 3 2
 ```
 
-First line is `n`, the number of nodes/vertices. Following lines are edges `u v` where `u` and `v` fall in the range `[1, n]`.
+First line is `n`, the number of nodes/vertices. Following lines are edges `u v` where `u` and `v` fall in the range `[0, n-1]`.
 
 ---
 
