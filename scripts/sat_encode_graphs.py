@@ -16,7 +16,7 @@ def naive_sat_encode_graph(graph):
 
     CNF variables:
         X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
-        Y_vw_j - edge `v,w` has label `j`. Range is [n*(m+1)+1, n*(m+1)+1 + m*m].
+        Y_vw_j - edge `v,w` has label `j`. Range is [n*(m+1)+1, n*(m+1)+m*m].
     
     Returns:
         int: number of variables
@@ -25,7 +25,7 @@ def naive_sat_encode_graph(graph):
 
     n = graph.num_nodes
     m = len(graph.edges)
-    num_vars = n*(m+1)+1 + m*m
+    num_vars = n*(m+1) + m*m
     clauses = []
 
     # Note: all variables start from `0` here.
