@@ -1,3 +1,10 @@
+Run `sat_encode_graphs.py` script with PyPy for a significant speed boost.
+
+Run it as a module for imports to work:
+`pypy3 -m scripts.sat_encode_graphs`
+
+---
+
 `.graph` file example:
 
 ```
