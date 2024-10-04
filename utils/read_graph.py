@@ -25,7 +25,6 @@ def read_all_graphs():
         if file_path.is_file() and file_path.suffix == ".graph":
             graphs.append(read_graph(file_path))
 
-    # Sort by name and number of nodes
-    graphs.sort(key=lambda g: (g.name.split('_')[0], int(g.name.split('_')[1])))
+    graphs.sort(key=lambda g: g.num_nodes)
 
     return graphs

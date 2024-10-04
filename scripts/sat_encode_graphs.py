@@ -38,7 +38,7 @@ def naive_sat_encode_graph(graph):
         clauses.append(clause)
     
     # Constraint: Edge `v,w` has at least one label
-    for vw, (v, w) in enumerate(graph.edges):
+    for vw in range(m):
         clause = [Y(vw, j) for j in range(m)]
         clauses.append(clause)
 
@@ -61,7 +61,7 @@ def naive_sat_encode_graph(graph):
         for i in range(m+1):
             for j in range(m+1):
                 if i != j:
-                    clause = [-X(v-1, i), -X(w-1, j), Y(vw, abs(i-j)-1)]
+                    clause = [-X(v, i), -X(w, j), Y(vw, abs(i-j)-1)]
                     clauses.append(clause)
     
     return (num_vars, clauses)
@@ -73,7 +73,6 @@ def write_cnf_to_file(num_vars, clauses, name):
             file.write(' '.join(map(str, clause)) + " 0\n")
 
 graphs = read_all_graphs()
-graphs.sort(key=lambda g: g.num_nodes)
 
 for graph in graphs:
     num_vars, clauses = naive_sat_encode_graph(graph)
