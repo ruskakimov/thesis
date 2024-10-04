@@ -23,7 +23,7 @@ def write_tree_img_to_file(n, tree):
 # Generate snakes
 for i in range(10):
     n = 2 ** (i+1)
-    edges = [(i, i + 1) for i in range(1, n)]
+    edges = [(i-1, i) for i in range(1, n)]
     write_graph_to_file(n, edges, 'snake')
 
 # Generate trees
