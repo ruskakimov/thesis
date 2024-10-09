@@ -1,59 +1,48 @@
-import itertools
 from pysat.formula import CNF
 from pysat.solvers import Solver
 import networkx as nx
 from dataset import rome_graphs
 
-def encode_kuratowski_planarity(vertices, edges):
+def encode_planarity_with_left(graph):
     """
-    Encodes the Kuratowski-based planarity testing problem into a SAT formula.
+    Encodes planarity testing based on left-orientation into a SAT problem.
     
     :param graph: A networkx graph.
     :return: CNF object representing the SAT problem.
     """
     cnf = CNF()
+    V = len(graph.nodes)
+    edges = [tuple(sorted((int(u), int(v)))) for u, v in graph.edges()]
+    left_vars = {}
 
-    # Create a dictionary for edge variables
-    edge_vars = {e: i + 1 for i, e in enumerate(edges)}
+    # Create variables for left relationships Lx_uv
+    var_count = 1
+    for x in range(V):
+        for u in range(V):
+            for v in range(u+1, V):
+                left_vars[(x, u, v)] = var_count
+                var_count += 1
+    
+    L = lambda x, y, z: left_vars[(x, y, z)] if y <= z else -left_vars[(x, z, y)]
 
-    # Generate clauses to detect forbidden K5 or K3,3 subgraphs
-    for subset in itertools.combinations(vertices, 5):
-        # Check if the subset can form a K5 structure
-        k5_edges = itertools.combinations(subset, 2)
-        clause = [-edge_vars[(u, v)] if (u, v) in edge_vars else -edge_vars[(v, u)]
-                  for u, v in k5_edges if (u, v) in edge_vars or (v, u) in edge_vars]
-        if clause:
-            cnf.append(clause)
-
-    for subset in itertools.combinations(vertices, 6):
-        # Check if the subset can form a K3,3 structure
-        for partition in itertools.combinations(subset, 3):
-            part1 = set(partition)
-            part2 = set(subset) - part1
-            k33_edges = itertools.product(part1, part2)
-            clause = [-edge_vars[(u, v)] if (u, v) in edge_vars else -edge_vars[(v, u)]
-                      for u, v in k33_edges if (u, v) in edge_vars or (v, u) in edge_vars]
-            if clause:
-                cnf.append(clause)
+    # No edge crossings
+    # not (L(cba) and L(dab) and L(dac) and L(dcb))
+    # and
+    # not (L(cab) and L(dba) and L(dca) and L(dbc))
+    for (a, b) in edges:
+        for (c, d) in edges:
+            if len(set([a, b, c, d])) == 4:
+                cnf.append([-L(c,b,a), -L(d,a,b), -L(d,a,c), -L(d,c,b)])
+                cnf.append([-L(c,a,b), -L(d,b,a), -L(d,c,a), -L(d,b,c)])
 
     return cnf
 
 def verify_sat(graph):
-    """
-    Compares the planarity result of a SAT-based method with networkx's method.
-    
-    :param graph: A networkx graph.
-    :param filename: The name of the GML file for reporting.
-    """
-    # Get the vertices and edges of the graph
-    vertices = list(graph.nodes)
-    edges = list(graph.edges)
-
     # Perform networkx planarity test
     is_true_planar, _ = nx.check_planarity(graph)
 
     # Encode the problem as a SAT formula
-    cnf = encode_kuratowski_planarity(vertices, edges)
+    cnf = encode_planarity_with_left(graph)
 
     # Use a SAT solver to check satisfiability
     solver = Solver()
