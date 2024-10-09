@@ -76,7 +76,7 @@ def encode_planarity(vertices, edges):
 
     return cnf
 
-def compare_planarity(graph):
+def verify_sat(graph):
     """
     Compares the planarity result of a SAT-based method with networkx's method.
     
@@ -99,14 +99,16 @@ def compare_planarity(graph):
     is_sat_planar = solver.solve()
     solver.delete()
 
-    # Compare results
-    if is_sat_planar != is_true_planar:
-        print(f"Discrepancy found in {graph.name}:")
-        print(f"  NetworkX says: {'Planar' if is_true_planar else 'Not Planar'}")
-        print(f"  SAT says: {'Planar' if is_sat_planar else 'Not Planar'}")
-    # else:
-    #     print(f"{graph.name} was correctly classified as {'planar' if is_true_planar else 'not planar'} by both methods.")
+    return is_sat_planar == is_true_planar
 
-# Example usage:
+correct = 0
+wrong = 0
+
 for graph in rome_graphs():
-    compare_planarity(graph)
+    if verify_sat(graph):
+        correct += 1
+    else:
+        wrong += 1
+    
+print(f'Correct: {correct}')
+print(f'Wrong: {wrong}')
