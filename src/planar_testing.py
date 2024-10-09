@@ -109,6 +109,5 @@ for graph in rome_graphs():
         correct += 1
     else:
         wrong += 1
-    
-print(f'Correct: {correct}')
-print(f'Wrong: {wrong}')
+        
+    print(f"\rCorrect: {correct}, Wrong: {wrong}", end="")
