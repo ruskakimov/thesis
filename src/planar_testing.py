@@ -109,5 +109,7 @@ for graph in rome_graphs():
         correct += 1
     else:
         wrong += 1
-        
+
     print(f"\rCorrect: {correct}, Wrong: {wrong}", end="")
+
+print()
