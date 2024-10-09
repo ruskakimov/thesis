@@ -15,6 +15,7 @@ def rome_graphs():
     for gml_file in rome_dir.glob('*.gml'):
         try:
             G = nx.read_gml(gml_file)
+            G.name = gml_file.name
             yield G
         except Exception as e:
             print(f"Failed to read {gml_file.name}: {e}")
@@ -31,6 +32,7 @@ def north_graphs():
     for gml_file in north_dir.glob('*.gml'):
         try:
             G = nx.read_gml(gml_file)
+            G.name = gml_file.name
             yield G
         except Exception as e:
             print(f"Failed to read {gml_file.name}: {e}")

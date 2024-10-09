@@ -1,6 +1,7 @@
 from pysat.formula import CNF
 from pysat.solvers import Solver
 import networkx as nx
+from dataset import rome_graphs
 
 def encode_planarity(vertices, edges):
     """
@@ -75,26 +76,37 @@ def encode_planarity(vertices, edges):
 
     return cnf
 
+def compare_planarity(graph):
+    """
+    Compares the planarity result of a SAT-based method with networkx's method.
+    
+    :param graph: A networkx graph.
+    :param filename: The name of the GML file for reporting.
+    """
+    # Get the vertices and edges of the graph
+    vertices = list(graph.nodes)
+    edges = list(graph.edges)
+
+    # Perform networkx planarity test
+    is_true_planar, _ = nx.check_planarity(graph)
+
+    # Encode the problem as a SAT formula
+    cnf = encode_planarity(vertices, edges)
+
+    # Use a SAT solver to check satisfiability
+    solver = Solver()
+    solver.append_formula(cnf)
+    is_sat_planar = solver.solve()
+    solver.delete()
+
+    # Compare results
+    if is_sat_planar != is_true_planar:
+        print(f"Discrepancy found in {graph.name}:")
+        print(f"  NetworkX says: {'Planar' if is_true_planar else 'Not Planar'}")
+        print(f"  SAT says: {'Planar' if is_sat_planar else 'Not Planar'}")
+    else:
+        print(f"{graph.name} was correctly classified as {'planar' if is_true_planar else 'not planar'} by both methods.")
+
 # Example usage:
-vertices = ['A', 'B', 'C', 'D']
-edges = [('A', 'B'), ('B', 'C'), ('C', 'D'), ('A', 'D')]
-
-G = nx.Graph()
-G.add_edges_from(edges)
-is_true_planar, embedding = nx.check_planarity(G)
-
-cnf = encode_planarity(vertices, edges)
-
-# Now, use a SAT solver to check satisfiability
-solver = Solver()
-solver.append_formula(cnf)
-
-is_sat_planar = solver.solve()
-
-if is_sat_planar != is_true_planar:
-    print('Oops! Wrong answer by SAT!')
-else:
-    print('SAT was correct!')
-    print('Solution:', solver.get_model())
-
-solver.delete()
+for graph in rome_graphs():
+    compare_planarity(graph)
