@@ -25,6 +25,10 @@ def encode_planarity_with_left(graph):
     
     L = lambda x, y, z: left_vars[(x, y, z)] if y <= z else -left_vars[(x, z, y)]
 
+    # TODO:
+    # Add another node (d') and see if there are any contradictions.
+    # Eliminate contradictions.
+
     # No edge crossings
     # not (L(cba) and L(dab) and L(dac) and L(dcb))
     # and
