@@ -50,17 +50,26 @@ def verify_sat(graph):
     is_sat_planar = solver.solve()
     solver.delete()
 
-    return is_sat_planar == is_true_planar
+    return is_sat_planar, is_true_planar
 
-correct = 0
-wrong = 0
+true_positive = 0
+false_positive = 0
+true_negative = 0
+false_negative = 0
 
 for graph in rome_graphs():
-    if verify_sat(graph):
-        correct += 1
+    actual, correct = verify_sat(graph)
+    if actual == correct:
+        if actual:
+            true_positive += 1
+        else:
+            true_negative += 1
     else:
-        wrong += 1
+        if actual:
+            false_positive += 1
+        else:
+            false_negative += 1
 
-    print(f"\rCorrect: {correct}, Wrong: {wrong}", end="")
+    print(f"\rTP: {true_positive}, TN: {true_negative}, FP: {false_positive}, FN: {false_negative}", end="")
 
 print()
