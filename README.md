@@ -1,3 +1,11 @@
+To run SAT solver, execute the following command with the CNF of your choice:
+
+```
+time ./solvers/kissat --quiet [path_to_cnf_file]
+```
+
+---
+
 Benchmark files are `.csv` files with the following columns:
 
 - `graph` - name of the graph (type and number of nodes separated by an underscrore)
