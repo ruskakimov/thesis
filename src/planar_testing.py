@@ -1,36 +1,40 @@
+import itertools
 from pysat.formula import CNF
 from pysat.solvers import Solver
 import networkx as nx
 from dataset import rome_graphs
 
-def encode_schnyder_planarity(vertices, edges):
+def encode_kuratowski_planarity(vertices, edges):
     """
-    Encodes Schnyder realizer-based planarity checking into a SAT problem.
+    Encodes the Kuratowski-based planarity testing problem into a SAT formula.
     
-    :param graph: A triangulated networkx graph.
+    :param graph: A networkx graph.
     :return: CNF object representing the SAT problem.
     """
     cnf = CNF()
-    
-    # Create variables for edge directions
-    edge_vars = {(u, v): [cnf.nv + 1, cnf.nv + 2, cnf.nv + 3] for u, v in edges}
-    
-    for u, v in edges:
-        d1, d2, d3 = edge_vars[(u, v)]
-        
-        # Ensure each edge (u, v) is assigned to exactly one direction
-        cnf.append([d1, d2, d3])  # At least one direction
-        cnf.append([-d1, -d2])    # Not both d1 and d2
-        cnf.append([-d1, -d3])    # Not both d1 and d3
-        cnf.append([-d2, -d3])    # Not both d2 and d3
 
-    # Constraints to ensure each vertex has exactly one outgoing edge per direction
-    for v in vertices:
-        out_edges = [edge_vars[(v, u)][k] for u in graph.neighbors(v) for k in range(3) if (v, u) in edge_vars]
-        for k in range(3):
-            # For direction k, ensure exactly one outgoing edge from each vertex
-            cnf.append(out_edges)  # At least one outgoing edge in direction k
-            # Further constraints to ensure that there is no more than one can be added with cardinality constraints
+    # Create a dictionary for edge variables
+    edge_vars = {e: i + 1 for i, e in enumerate(edges)}
+
+    # Generate clauses to detect forbidden K5 or K3,3 subgraphs
+    for subset in itertools.combinations(vertices, 5):
+        # Check if the subset can form a K5 structure
+        k5_edges = itertools.combinations(subset, 2)
+        clause = [-edge_vars[(u, v)] if (u, v) in edge_vars else -edge_vars[(v, u)]
+                  for u, v in k5_edges if (u, v) in edge_vars or (v, u) in edge_vars]
+        if clause:
+            cnf.append(clause)
+
+    for subset in itertools.combinations(vertices, 6):
+        # Check if the subset can form a K3,3 structure
+        for partition in itertools.combinations(subset, 3):
+            part1 = set(partition)
+            part2 = set(subset) - part1
+            k33_edges = itertools.product(part1, part2)
+            clause = [-edge_vars[(u, v)] if (u, v) in edge_vars else -edge_vars[(v, u)]
+                      for u, v in k33_edges if (u, v) in edge_vars or (v, u) in edge_vars]
+            if clause:
+                cnf.append(clause)
 
     return cnf
 
@@ -49,7 +53,7 @@ def verify_sat(graph):
     is_true_planar, _ = nx.check_planarity(graph)
 
     # Encode the problem as a SAT formula
-    cnf = encode_schnyder_planarity(vertices, edges)
+    cnf = encode_kuratowski_planarity(vertices, edges)
 
     # Use a SAT solver to check satisfiability
     solver = Solver()
