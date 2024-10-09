@@ -10,7 +10,7 @@ def rome_graphs():
     
     :yield: A networkx graph loaded from a GML file in the 'rome' subdirectory.
     """
-    rome_dir = dataset_dir / 'rome'
+    rome_dir = dataset_dir / 'rome' / 'data'
     
     for gml_file in rome_dir.glob('*.gml'):
         try:
@@ -27,7 +27,7 @@ def north_graphs():
     
     :yield: A networkx graph loaded from a GML file in the 'north' subdirectory.
     """
-    north_dir = dataset_dir / 'north'
+    north_dir = dataset_dir / 'north' / 'data'
     
     for gml_file in north_dir.glob('*.gml'):
         try:

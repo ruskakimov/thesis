@@ -104,8 +104,8 @@ def compare_planarity(graph):
         print(f"Discrepancy found in {graph.name}:")
         print(f"  NetworkX says: {'Planar' if is_true_planar else 'Not Planar'}")
         print(f"  SAT says: {'Planar' if is_sat_planar else 'Not Planar'}")
-    else:
-        print(f"{graph.name} was correctly classified as {'planar' if is_true_planar else 'not planar'} by both methods.")
+    # else:
+    #     print(f"{graph.name} was correctly classified as {'planar' if is_true_planar else 'not planar'} by both methods.")
 
 # Example usage:
 for graph in rome_graphs():
