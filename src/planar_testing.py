@@ -27,26 +27,27 @@ def encode_planarity_with_left(graph):
 
     # cycles = nx.cycle_basis(graph)
     cycles = nx.simple_cycles(graph)
+
+    # Vertex x is inside abc cycle:
+    # Lxab and Lxbc and Lxca
+    
+    # Vertex x is outside abc cycle:
+    # Lxba or Lxcb or Lxac
+
+    # Vertex x is inside or outside of abc cycle:
+    # (Lxab and Lxbc and Lxca) or (Lxba or Lxcb or Lxac)
     
     # Vertex must be inside or outside any given cycle.
     for x in range(V):
         for cycle in cycles:
-            edgesL = []
+            common = []
             for i in range(len(cycle)):
-                u, v = cycle[i-1], cycle[i]
-                edgesL.append(L(x, u, v))
+                u, v = int(cycle[i-1]), int(cycle[i])
+                common.append(L(x, v, u))
 
-            n = len(edgesL)
-            
-            for i in range(n):
-                for j in range(n):
-                    if i != n:
-                        cnf.append([edgesL[i], -edgesL[j]])
-        
-
-    # TODO:
-    # Add another node (d') and see if there are any contradictions.
-    # Eliminate contradictions.
+            for i in range(len(cycle)):
+                u, v = int(cycle[i-1]), int(cycle[i])
+                cnf.append(common + [L(x, u, v)])
 
     # No edge crossings
     # not (L(cba) and L(dab) and L(dac) and L(dcb))
@@ -82,7 +83,7 @@ false_negative = 0
 
 G = nx.complete_graph(5)
 
-for graph in [G]:
+for graph in rome_graphs():
     actual, correct = verify_sat(graph)
     if actual == correct:
         if actual:
