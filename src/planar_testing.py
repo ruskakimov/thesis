@@ -23,7 +23,26 @@ def encode_planarity_with_left(graph):
                 left_vars[(x, u, v)] = var_count
                 var_count += 1
     
-    L = lambda x, y, z: left_vars[(x, y, z)] if y <= z else -left_vars[(x, z, y)]
+    L = lambda x, a, b: left_vars[(x, a, b)] if a <= b else -left_vars[(x, b, a)]
+
+    # cycles = nx.cycle_basis(graph)
+    cycles = nx.simple_cycles(graph)
+    
+    # Vertex must be inside or outside any given cycle.
+    for x in range(V):
+        for cycle in cycles:
+            edgesL = []
+            for i in range(len(cycle)):
+                u, v = cycle[i-1], cycle[i]
+                edgesL.append(L(x, u, v))
+
+            n = len(edgesL)
+            
+            for i in range(n):
+                for j in range(n):
+                    if i != n:
+                        cnf.append([edgesL[i], -edgesL[j]])
+        
 
     # TODO:
     # Add another node (d') and see if there are any contradictions.
@@ -61,7 +80,9 @@ false_positive = 0
 true_negative = 0
 false_negative = 0
 
-for graph in rome_graphs():
+G = nx.complete_graph(5)
+
+for graph in [G]:
     actual, correct = verify_sat(graph)
     if actual == correct:
         if actual:
