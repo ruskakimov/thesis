@@ -24,41 +24,41 @@ def graceful_labeling_cnf(graph):
     """
 
     cnf = CNF()
-    n = len(graph.nodes)
-    m = len(graph.edges())
+    N = len(graph.nodes)
+    M = len(graph.edges())
 
     # Note: all variables start from `0` here.
-    X = lambda v, i: 1 + v*(m+1) + i
-    Y = lambda vw, j: X(n-1, m) + 1 + vw*m + j
+    X = lambda v, i: 1 + v*(M+1) + i
+    Y = lambda vw, j: X(N-1, M) + 1 + vw*M + j
 
     # Constraint: Node `v` has at least one label
-    for v in range(n):
-        clause = [X(v, i) for i in range(m+1)]
+    for v in range(N):
+        clause = [X(v, i) for i in range(M+1)]
         cnf.append(clause)
     
     # Constraint: Edge `v,w` has at least one label
-    for vw in range(m):
-        clause = [Y(vw, j) for j in range(m)]
+    for vw in range(M):
+        clause = [Y(vw, j) for j in range(M)]
         cnf.append(clause)
 
     # Constraint: At most one node has label `i`
-    for v in range(n):
-        for w in range(v+1, n):
-            for i in range(m+1):
+    for v in range(N):
+        for w in range(v+1, N):
+            for i in range(M+1):
                 clause = [-X(v, i), -X(w, i)]
                 cnf.append(clause)
 
     # Constraint: At most one edge has label `j`
-    for vw1 in range(m):
-        for vw2 in range(vw1+1, m):
-            for j in range(m):
+    for vw1 in range(M):
+        for vw2 in range(vw1+1, M):
+            for j in range(M):
                 clause = [-Y(vw1, j), -Y(vw2, j)]
                 cnf.append(clause)
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, (v, w) in enumerate(graph.edges):
-        for i in range(m+1):
-            for j in range(m+1):
+        for i in range(M+1):
+            for j in range(M+1):
                 if i != j:
                     clause = [-X(v, i), -X(w, j), Y(vw, abs(i-j)-1)]
                     cnf.append(clause)
