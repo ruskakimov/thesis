@@ -32,5 +32,15 @@ def book_embedding_cnf(graph, P):
             for k in range(N):
                 if i != j and i != k and j != k:
                     cnf.append([L(i,k), -L(i,j), -L(j,k)])
+    
+    # TODO: The search space of possible satisfying assignments can be reduced by choosing a particular vertex as the first vertex along the spine
+
+    # Every edge to only 1 page
+
+    # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
+
+    # Intermediate variable X - whether two edges belong to the same page
+
+    # Planarity rule for edges on the same page
 
     return CNF
