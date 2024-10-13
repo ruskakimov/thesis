@@ -1,7 +1,7 @@
 import networkx as nx
 from pysat.solvers import Solver
-from dataset import rome_graphs
-from encoders.planarity import planarity_cnf
+from helpers import rome_graphs
+from encoders import planarity_cnf
 
 def verify_sat(graph):
     is_true_planar, _ = nx.check_planarity(graph)
