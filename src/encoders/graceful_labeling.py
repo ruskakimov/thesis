@@ -1,7 +1,7 @@
 def graceful_labeling_cnf(graph):
     """
-    Encodes graceful labeling of a given graph into CNF.
-    Based on "Vertex-edge encoding" (Kraayenbrink 2011).
+    SAT encodes graceful labeling.
+    Based on "Vertex-edge encoding" (Kraayenbrink, 2011).
 
     Variables - n*(m+1) + m^2                            ~ 2(m^2)
     Clauses - n*(m+1) + m^2 + n^2*m + m^3 + m^3          ~ 2(m^2) + 3(m^3)

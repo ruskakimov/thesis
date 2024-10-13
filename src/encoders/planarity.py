@@ -4,9 +4,6 @@ import networkx as nx
 def planarity_cnf(graph):
     """
     Does not work.
-    
-    :param graph: A networkx graph.
-    :return: CNF object representing the SAT problem.
     """
     cnf = CNF()
     V = len(graph.nodes)
