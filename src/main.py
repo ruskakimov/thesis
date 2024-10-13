@@ -38,9 +38,10 @@ def test_graceful_labeling():
     test_cases = [
         ([[0, 1], [1, 2], [2, 3]], True),  # Path graph P4
         ([[0, 1], [0, 2], [0, 3], [0, 4]], True),  # Star graph S4
-        ([[0, 1], [1, 2], [2, 0]], False),  # Triangle graph C3
+        ([[0, 1], [1, 2], [2, 0]], True),  # Triangle graph C3
         ([[0, 1], [2, 3]], False),  # Disconnected graph
-        ([[0, 1]], True)  # Single edge graph
+        ([[0, 1]], True),  # Single edge graph
+        ([[0, 1], [1, 2], [2, 3], [0, 4], [4, 1]], True) # Wiki image graph
     ]
     
     for i, (edges, expected) in enumerate(test_cases):
