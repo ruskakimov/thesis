@@ -25,6 +25,12 @@ def book_embedding_cnf(graph, P):
     L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
 
     # Encode transitivity of L
-    
+    # Implies(And(Lij, Ljk), Lik)
+    # Lik | ~Lij | ~Ljk
+    for i in range(N):
+        for j in range(N):
+            for k in range(N):
+                if i != j and i != k and j != k:
+                    cnf.append([L(i,k), -L(i,j), -L(j,k)])
 
     return CNF

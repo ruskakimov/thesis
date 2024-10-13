@@ -1,4 +1,4 @@
-from sympy import symbols
+from sympy import symbols, Implies, And
 from sympy.logic.boolalg import to_cnf
 
 # abc
@@ -6,8 +6,8 @@ from sympy.logic.boolalg import to_cnf
 # formula = (Lxab & Lxbc & Lxca) | (Lxba | Lxcb | Lxac)
 
 # abcd
-Lxab, Lxbc, Lxcd, Lxda, Lxba, Lxcb, Lxdc, Lxad = symbols('Lxab Lxbc Lxcd Lxda -Lxab -Lxbc -Lxcd -Lxda')
-formula = (Lxab & Lxbc & Lxcd & Lxda) | (Lxba | Lxcb | Lxdc | Lxad)
+Lij, Ljk, Lik = symbols('Lij Ljk Lik')
+formula = Implies(And(Lij, Ljk), Lik)
 
 # Convert to CNF
 cnf_formula = to_cnf(formula)
