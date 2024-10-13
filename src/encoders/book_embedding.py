@@ -3,24 +3,10 @@ from pysat.formula import CNF
 def book_embedding_cnf(graph, P):
     """
     SAT encodes book embedding for P pages.
-    Based on "Vertex-edge encoding" (Kraayenbrink, 2011).
+    Based on Bekos encoding (2015).
 
-    Variables - n*(m+1) + m^2                            ~ 2(m^2)
-    Clauses - n*(m+1) + m^2 + n^2*m + m^3 + m^3          ~ 2(m^2) + 3(m^3)
-
-    Legend:
-        n - number of nodes
-        m - number of edges
-        i - node label. Range is [0, m].
-        j - calculated edge label. Range is [1, m].
-
-    CNF variables:
-        X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
-        Y_vw_j - edge `v,w` has label `j`. Range is [n*(m+1)+1, n*(m+1)+m*m].
-    
-    Returns:
-        int: number of variables
-        List[List[int]]: list of disjunctive clauses
+    Number of variables = n^2 + m^2 + pm
+    Number of clauses = n^3 + m^2
     """
 
     cnf = CNF()
