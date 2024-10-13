@@ -13,4 +13,18 @@ def book_embedding_cnf(graph, P):
     N = len(graph.nodes)
     M = len(graph.edges())
 
+    variable_count = 0
+    is_left_to = {}
+
+    for i in range(N):
+        for j in range(i+1, N):
+            is_left_to[(i, j)] = variable_count
+            variable_count += 1
+
+    # Whether vertex i is to the left of vertex j along the book spine
+    L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
+
+    # Encode transitivity of L
+    
+
     return CNF
