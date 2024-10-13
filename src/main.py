@@ -33,4 +33,32 @@ def test_planarity():
         print(f"\rTP: {true_positive}, TN: {true_negative}, FP: {false_positive}, FN: {false_negative}", end="")
     print()
 
-test_planarity()
+def test_graceful_labeling():
+    # Define 5 test graphs with expected outcomes
+    test_cases = [
+        ([[0, 1], [1, 2], [2, 3]], True),  # Path graph P4
+        ([[0, 1], [0, 2], [0, 3], [0, 4]], True),  # Star graph S4
+        ([[0, 1], [1, 2], [2, 0]], False),  # Triangle graph C3
+        ([[0, 1], [2, 3]], False),  # Disconnected graph
+        ([[0, 1]], True)  # Single edge graph
+    ]
+    
+    for i, (edges, expected) in enumerate(test_cases):
+        # Create a NetworkX graph from the edge list
+        graph = nx.Graph()
+        graph.add_edges_from(edges)
+
+        # Generate CNF from the graph
+        cnf = graceful_labeling_cnf(graph)
+
+        # Solve the CNF
+        with Solver(bootstrap_with=cnf) as solver:
+            sat_result = solver.solve()
+
+            # Print and validate the result
+            result = "SAT" if sat_result else "UNSAT"
+            print(f"Test Case {i + 1}: {result} (Expected: {'SAT' if expected else 'UNSAT'})")
+
+            assert sat_result == expected, f"Test Case {i + 1} failed!"
+
+test_graceful_labeling()
