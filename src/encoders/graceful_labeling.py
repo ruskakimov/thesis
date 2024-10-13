@@ -1,3 +1,5 @@
+from pysat.formula import CNF
+
 def graceful_labeling_cnf(graph):
     """
     SAT encodes graceful labeling.
@@ -21,10 +23,9 @@ def graceful_labeling_cnf(graph):
         List[List[int]]: list of disjunctive clauses
     """
 
-    n = graph.num_nodes
-    m = len(graph.edges)
-    num_vars = n*(m+1) + m*m
-    clauses = []
+    cnf = CNF()
+    n = len(graph.nodes)
+    m = len(graph.edges())
 
     # Note: all variables start from `0` here.
     X = lambda v, i: 1 + v*(m+1) + i
@@ -33,26 +34,26 @@ def graceful_labeling_cnf(graph):
     # Constraint: Node `v` has at least one label
     for v in range(n):
         clause = [X(v, i) for i in range(m+1)]
-        clauses.append(clause)
+        cnf.append(clause)
     
     # Constraint: Edge `v,w` has at least one label
     for vw in range(m):
         clause = [Y(vw, j) for j in range(m)]
-        clauses.append(clause)
+        cnf.append(clause)
 
     # Constraint: At most one node has label `i`
     for v in range(n):
         for w in range(v+1, n):
             for i in range(m+1):
                 clause = [-X(v, i), -X(w, i)]
-                clauses.append(clause)
+                cnf.append(clause)
 
     # Constraint: At most one edge has label `j`
     for vw1 in range(m):
         for vw2 in range(vw1+1, m):
             for j in range(m):
                 clause = [-Y(vw1, j), -Y(vw2, j)]
-                clauses.append(clause)
+                cnf.append(clause)
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, (v, w) in enumerate(graph.edges):
@@ -60,6 +61,6 @@ def graceful_labeling_cnf(graph):
             for j in range(m+1):
                 if i != j:
                     clause = [-X(v, i), -X(w, j), Y(vw, abs(i-j)-1)]
-                    clauses.append(clause)
+                    cnf.append(clause)
     
-    return (num_vars, clauses)
+    return cnf
