@@ -1,8 +1,8 @@
 from pathlib import Path
 import networkx as nx
 
-dataset_dir = Path(__file__).resolve().parent.parent / 'dataset'
-cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
+dataset_dir = Path(__file__).resolve().parent.parent.parent / 'dataset'
+cnf_dir = Path(__file__).resolve().parent.parent.parent / 'cnf'
 
 def write_cnf(num_vars, clauses, name):
     with open(cnf_dir / f'{name}.cnf', 'w') as file:
