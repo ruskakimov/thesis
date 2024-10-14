@@ -62,12 +62,17 @@ def test_graceful_labeling():
 def test_book_embedding():
     print('Testing book embedding SAT encoding.')
 
-    test_cases = [
-        # Single edge graph is embeddable in one or more pages
-        ([[0, 1]], 1, True, 'P1'),
-        ([[0, 1]], 2, True, 'P1'),
-        ([[0, 1]], 3, True, 'P1'),
-    ]
+    test_cases = []
+
+    # Test path graphs, which are always embeddable in 1 page
+    for n in range(2, 11):
+        for p in [1, 2]:
+            test_cases.append((
+                nx.path_graph(n).edges(),
+                p,
+                True,
+                f'P{n}'
+            ))
 
     # Test complete graphs, for which the exact book thickness is known: ceil(N / 2)
     for n in range(4, 21):
