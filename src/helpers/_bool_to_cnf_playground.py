@@ -28,4 +28,4 @@ a, b, c, d, e, f, x = symbols('a, b, c, d, e, f, x')
 formula = Implies((a & b) | (c & d) | (e & f), x)
 
 cnf_formula = to_cnf(formula)
-print(cnf_formula) # (x, ~a | ~b) & (x, ~c | ~d) & (x, ~e | ~f)
+print(cnf_formula) # (x | ~a | ~b) & (x | ~c | ~d) & (x | ~e | ~f)
