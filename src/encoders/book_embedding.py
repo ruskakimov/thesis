@@ -10,23 +10,24 @@ def book_embedding_cnf(graph, P):
     """
 
     cnf = CNF()
+    edges = graph.edges()
     N = len(graph.nodes)
-    M = len(graph.edges())
+    M = len(edges)
 
     variable_count = 0
+    
     is_left_to = {}
-
     for i in range(N):
         for j in range(i+1, N):
             variable_count += 1
             is_left_to[(i, j)] = variable_count
 
-    # Whether vertex i is to the left of vertex j along the book spine
+    # Variable: Whether vertex i is to the left of vertex j along the book spine
     L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
 
-    # Encode transitivity of L
-    # Implies(And(Lij, Ljk), Lik)
-    # Lik | ~Lij | ~Ljk
+    # Rule: Transitivity rule must hold
+    # Lij and Ljk -> Lik
+    # CNF form: Lik | ~Lij | ~Ljk
     for i in range(N):
         for j in range(N):
             for k in range(N):
@@ -35,7 +36,23 @@ def book_embedding_cnf(graph, P):
     
     # TODO: The search space of possible satisfying assignments can be reduced by choosing a particular vertex as the first vertex along the spine
 
-    # Every edge to only 1 page
+    # edge_index = {}
+    # for i, u, v in enumerate(edges):
+    #     edge_index[(u, v)] = i
+    
+    edge_to_page = {}
+    for i in range(M):
+        for p in range(P):
+            variable_count += 1
+            edge_to_page[(i, p)] = variable_count
+
+    # Variable: Whether edge with index i is assigned to page p
+    EP = lambda i, p: edge_to_page[(i, p)]
+
+    # Rule: Every edge is assigned to at least 1 page (TODO: Test if adding restriction of only 1 page helps)
+    for i in range(M):
+        clause = [EP(i, p) for p in range(P)]
+        cnf.append(clause)
 
     # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
 
