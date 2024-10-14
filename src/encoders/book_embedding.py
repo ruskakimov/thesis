@@ -25,6 +25,8 @@ def book_embedding_cnf(graph, P):
     # Variable: Whether vertex i is to the left of vertex j along the book spine
     L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
 
+    # TODO: See if enforcing order for edges (u < w) reduces encoding for forbidden orders below
+
     # Rule: Transitivity rule must hold
     # Lij and Ljk -> Lik
     # CNF form: Lik | ~Lij | ~Ljk
@@ -56,7 +58,7 @@ def book_embedding_cnf(graph, P):
 
     # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
 
-    # Intermediate variable X - whether two edges belong to the same page
+    # Variable: Intermediate variable X - whether two edges belong to the same page
     edges_cross = {}
     for i in range(M):
         for j in range(i+1, M):
@@ -64,9 +66,24 @@ def book_embedding_cnf(graph, P):
             edges_cross[(i, j)] = variable_count
     X = lambda i, j: edges_cross[(i, j)] if i < j else edges_cross[(j, i)]
 
-    # Enforce correct values for X (only true if both edges are assigned to the same page)
+    # Rule: Enforce correct values for X (only true if both edges are assigned to the same page)
     # (EPi1 and EPj1) or (EPi2 and EPj2) or ... or (EPip and EPjp) -> Xij
 
-    # Planarity rule for edges on the same page
+    # Rule: Planarity rule for edges on the same page
+    #
+    # for any 2 edges where i,j,k,l are pairwise different
+    # forbidden orders (with crossing):
+    # i k j l
+    # i l j k
+    # j k i l
+    # j l i k
+    # k i l j
+    # k j l i
+    # l i k j
+    # l j k i
+    #
+    # Xijkl ->
+    # not (Lik and Lkj and Ljl) and
+    # ... same for all forbidden orders ijkl
 
     return cnf
