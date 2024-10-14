@@ -85,5 +85,20 @@ def book_embedding_cnf(graph, P):
     # Xijkl ->
     # not (Lik and Lkj and Ljl) and
     # ... same for all forbidden orders ijkl
-
+    
     return cnf
+
+# Notes:
+#
+# Implication X -> Y is encoded like this in CNF
+# not X or Y
+#
+# X Y X->Y
+# 0 0  1
+# 0 1  1
+# 1 0  0
+# 1 1  1
+#
+# Main it forbids the case where X is true and Y isn't
+# if X is true, Y is true
+# but if X is false, no restriction on Y
