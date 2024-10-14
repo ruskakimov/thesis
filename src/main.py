@@ -34,6 +34,8 @@ def test_planarity():
     print()
 
 def test_graceful_labeling():
+    print('Testing graceful labeling SAT encoding.')
+
     test_cases = [
         ([[0, 1]], True),  # Single edge graph
         ([[0, 1], [2, 3]], False),  # Disconnected graph
