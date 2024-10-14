@@ -18,8 +18,8 @@ def book_embedding_cnf(graph, P):
 
     for i in range(N):
         for j in range(i+1, N):
-            is_left_to[(i, j)] = variable_count
             variable_count += 1
+            is_left_to[(i, j)] = variable_count
 
     # Whether vertex i is to the left of vertex j along the book spine
     L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
@@ -43,4 +43,4 @@ def book_embedding_cnf(graph, P):
 
     # Planarity rule for edges on the same page
 
-    return CNF
+    return cnf

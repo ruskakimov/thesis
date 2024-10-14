@@ -1,4 +1,5 @@
 import networkx as nx
+from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs
 from encoders import planarity_cnf, graceful_labeling_cnf, book_embedding_cnf
@@ -56,19 +57,31 @@ def test_graceful_labeling():
 
         with Solver(bootstrap_with=cnf) as solver:
             sat_result = solver.solve()
-            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {"SAT" if sat_result else "UNSAT"}")
+            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {'SAT' if sat_result else 'UNSAT'}")
 
 def test_book_embedding():
     print('Testing book embedding SAT encoding.')
 
     test_cases = [
-        # Single edge graph is embeddable in P >= 1
-        ([[0, 1]], 1, True),
-        ([[0, 1]], 2, True),
-        ([[0, 1]], 3, True),
+        # Single edge graph is embeddable in one or more pages
+        ([[0, 1]], 1, True, 'P1'),
+        ([[0, 1]], 2, True, 'P1'),
+        ([[0, 1]], 3, True, 'P1'),
     ]
+
+    # Test complete graphs, for which the exact book thickness is known: ceil(N / 2)
+    for n in range(4, 21):
+        min_p = ceil(n / 2)
+
+        for p in range(1, min_p + 1):
+            test_cases.append((
+                nx.complete_graph(n).edges(),
+                p,
+                p >= min_p,
+                f'K{n}'
+            ))
     
-    for i, (edges, pages, expected) in enumerate(test_cases):
+    for i, (edges, pages, expected, graph_name) in enumerate(test_cases):
         graph = nx.Graph()
         graph.add_edges_from(edges)
 
@@ -76,6 +89,10 @@ def test_book_embedding():
 
         with Solver(bootstrap_with=cnf) as solver:
             sat_result = solver.solve()
-            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {"SAT" if sat_result else "UNSAT"}")
+            
+            actual_result = 'SAT' if sat_result else 'UNSAT'
+            expected_result = 'SAT' if expected else 'UNSAT'
+
+            print(f"{'🟢' if sat_result == expected else '🔴'} graph: {graph_name}, pages: {pages}, actual: {actual_result}, expected: {expected_result}")
 
 test_book_embedding()
