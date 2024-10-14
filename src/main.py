@@ -49,45 +49,33 @@ def test_graceful_labeling():
     ]
     
     for i, (edges, expected) in enumerate(test_cases):
-        # Create a NetworkX graph from the edge list
         graph = nx.Graph()
         graph.add_edges_from(edges)
 
-        # Generate CNF from the graph
         cnf = graceful_labeling_cnf(graph)
 
-        # Solve the CNF
         with Solver(bootstrap_with=cnf) as solver:
             sat_result = solver.solve()
-
-            # Print and validate the result
-            result = "SAT" if sat_result else "UNSAT"
-            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {result}")
+            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {"SAT" if sat_result else "UNSAT"}")
 
 def test_book_embedding():
     print('Testing book embedding SAT encoding.')
 
     test_cases = [
-        # Single edge graph is embeddable in P >= 1.
+        # Single edge graph is embeddable in P >= 1
         ([[0, 1]], 1, True),
         ([[0, 1]], 2, True),
         ([[0, 1]], 3, True),
     ]
     
     for i, (edges, pages, expected) in enumerate(test_cases):
-        # Create a NetworkX graph from the edge list
         graph = nx.Graph()
         graph.add_edges_from(edges)
 
-        # Generate CNF from the graph
-        cnf = graceful_labeling_cnf(graph)
+        cnf = book_embedding_cnf(graph, pages)
 
-        # Solve the CNF
         with Solver(bootstrap_with=cnf) as solver:
             sat_result = solver.solve()
-
-            # Print and validate the result
-            result = "SAT" if sat_result else "UNSAT"
-            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {result}")
+            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {"SAT" if sat_result else "UNSAT"}")
 
 test_book_embedding()
