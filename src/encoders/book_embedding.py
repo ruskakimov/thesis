@@ -57,6 +57,15 @@ def book_embedding_cnf(graph, P):
     # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
 
     # Intermediate variable X - whether two edges belong to the same page
+    edges_cross = {}
+    for i in range(M):
+        for j in range(i+1, M):
+            variable_count += 1
+            edges_cross[(i, j)] = variable_count
+    X = lambda i, j: edges_cross[(i, j)] if i < j else edges_cross[(j, i)]
+
+    # Enforce correct values for X (only true if both edges are assigned to the same page)
+    # (EPi1 and EPj1) or (EPi2 and EPj2) or ... or (EPip and EPjp) -> Xij
 
     # Planarity rule for edges on the same page
 
