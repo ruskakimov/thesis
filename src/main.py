@@ -1,7 +1,7 @@
 import networkx as nx
 from pysat.solvers import Solver
 from helpers import rome_graphs
-from encoders import graceful_labeling_cnf, planarity_cnf
+from encoders import planarity_cnf, graceful_labeling_cnf, book_embedding_cnf
 
 def test_planarity():
     true_positive = 0
@@ -34,7 +34,6 @@ def test_planarity():
     print()
 
 def test_graceful_labeling():
-    # Define 5 test graphs with expected outcomes
     test_cases = [
         ([[0, 1]], True),  # Single edge graph
         ([[0, 1], [2, 3]], False),  # Disconnected graph
@@ -63,4 +62,30 @@ def test_graceful_labeling():
             result = "SAT" if sat_result else "UNSAT"
             print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {result}")
 
-test_graceful_labeling()
+def test_book_embedding():
+    print('Testing book embedding SAT encoding.')
+
+    test_cases = [
+        # Single edge graph is embeddable in P >= 1.
+        ([[0, 1]], 1, True),
+        ([[0, 1]], 2, True),
+        ([[0, 1]], 3, True),
+    ]
+    
+    for i, (edges, pages, expected) in enumerate(test_cases):
+        # Create a NetworkX graph from the edge list
+        graph = nx.Graph()
+        graph.add_edges_from(edges)
+
+        # Generate CNF from the graph
+        cnf = graceful_labeling_cnf(graph)
+
+        # Solve the CNF
+        with Solver(bootstrap_with=cnf) as solver:
+            sat_result = solver.solve()
+
+            # Print and validate the result
+            result = "SAT" if sat_result else "UNSAT"
+            print(f"Test {i + 1}: {'🟢' if sat_result == expected else '🔴'} {result}")
+
+test_book_embedding()
