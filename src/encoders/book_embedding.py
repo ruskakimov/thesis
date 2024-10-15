@@ -37,10 +37,6 @@ def book_embedding_cnf(graph, P):
                     cnf.append([L(i,k), -L(i,j), -L(j,k)])
     
     # TODO: The search space of possible satisfying assignments can be reduced by choosing a particular vertex as the first vertex along the spine
-
-    # edge_index = {}
-    # for i, u, v in enumerate(edges):
-    #     edge_index[(u, v)] = i
     
     edge_to_page = {}
     for i in range(M):
@@ -89,6 +85,20 @@ def book_embedding_cnf(graph, P):
     # Xijkl ->
     # not (Lik and Lkj and Ljl) and
     # ... same for all forbidden orders ijkl
+    for a in range(M):
+        for b in range(i+1, M):
+            i, j = edges[a]
+            k, l = edges[b]
+
+            cnf.append([[-X(i, j), -L(i, k), -L(k, j), -L(j, l)]]) # i, k, j, l
+            cnf.append([[-X(i, j), -L(j, k), -L(k, i), -L(i, l)]]) # j, k, i, l
+            cnf.append([[-X(i, j), -L(i, l), -L(l, j), -L(j, k)]]) # i, l, j, k
+            cnf.append([[-X(i, j), -L(j, l), -L(l, i), -L(i, k)]]) # j, l, i, k
+
+            cnf.append([[-X(i, j), -L(k, i), -L(i, l), -L(l, j)]]) # k, i, l, j
+            cnf.append([[-X(i, j), -L(l, i), -L(i, k), -L(k, j)]]) # l, i, k, j
+            cnf.append([[-X(i, j), -L(k, j), -L(j, l), -L(l, i)]]) # k, j, l, i
+            cnf.append([[-X(i, j), -L(l, j), -L(j, k), -L(k, i)]]) # l, j, k, i
     
     return cnf
 
