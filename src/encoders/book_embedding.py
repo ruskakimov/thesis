@@ -96,12 +96,15 @@ def book_embedding_cnf(graph, P):
     # Xijkl ->
     # not (Lik and Lkj and Ljl) and
     # ... same for all forbidden orders ijkl
+    #
+    # Xijkl -> not (Lik and Lkj and Ljl)
+    # not Xijkl or not (Lik and Lkj and Ljl)
+    # -Xijkl, -Lik, -Lkj, -Ljl
     for a in range(M):
         for b in range(i+1, M):
             i, j = edges[a]
             k, l = edges[b]
 
-            # TODO DOUBLE CHECK IF CORRECT
             cnf.append([[-X(i, j), -L(i, k), -L(k, j), -L(j, l)]]) # i, k, j, l
             cnf.append([[-X(i, j), -L(j, k), -L(k, i), -L(i, l)]]) # j, k, i, l
             cnf.append([[-X(i, j), -L(i, l), -L(l, j), -L(j, k)]]) # i, l, j, k
