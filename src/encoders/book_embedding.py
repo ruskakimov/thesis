@@ -34,8 +34,7 @@ def book_embedding_cnf(graph, P):
         for j in range(N):
             for k in range(N):
                 if i != j and i != k and j != k:
-                    # TODO DOUBLE CHECK IF CORRECT
-                    cnf.append([L(i,k), -L(i,j), -L(j,k)])
+                    cnf.append([-L(i,j), -L(j,k), L(i,k)])
     
     # TODO: The search space of possible satisfying assignments can be reduced by choosing a particular vertex as the first vertex along the spine
     
