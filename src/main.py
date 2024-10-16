@@ -80,7 +80,7 @@ def test_book_embedding():
 
         for p in range(1, min_p + 1):
             test_cases.append((
-                nx.complete_graph(n).edges(),
+                list(nx.complete_graph(n).edges()),
                 p,
                 p >= min_p,
                 f'K{n}'
