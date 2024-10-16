@@ -34,6 +34,7 @@ def book_embedding_cnf(graph, P):
         for j in range(N):
             for k in range(N):
                 if i != j and i != k and j != k:
+                    # TODO DOUBLE CHECK IF CORRECT
                     cnf.append([L(i,k), -L(i,j), -L(j,k)])
     
     # TODO: The search space of possible satisfying assignments can be reduced by choosing a particular vertex as the first vertex along the spine
@@ -74,6 +75,7 @@ def book_embedding_cnf(graph, P):
     for i in range(M):
         for j in range(i+1, M):
             for p in range(P):
+                # TODO DOUBLE CHECK IF CORRECT
                 cnf.append([X(i, j), -EP(i, p), -EP(j, p)])
 
     # Rule: Planarity rule for edges on the same page
@@ -97,6 +99,7 @@ def book_embedding_cnf(graph, P):
             i, j = edges[a]
             k, l = edges[b]
 
+            # TODO DOUBLE CHECK IF CORRECT
             cnf.append([[-X(i, j), -L(i, k), -L(k, j), -L(j, l)]]) # i, k, j, l
             cnf.append([[-X(i, j), -L(j, k), -L(k, i), -L(i, l)]]) # j, k, i, l
             cnf.append([[-X(i, j), -L(i, l), -L(l, j), -L(j, k)]]) # i, l, j, k
