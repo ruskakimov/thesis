@@ -1,7 +1,7 @@
 import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
-from helpers import rome_graphs
+from helpers import rome_graphs, write_cnf
 from encoders import planarity_cnf, graceful_labeling_cnf, book_embedding_cnf
 
 def test_planarity():
@@ -100,4 +100,8 @@ def test_book_embedding():
 
             print(f"{'🟢' if sat_result == expected else '🔴'} graph: {graph_name}, pages: {pages}, actual: {actual_result}, expected: {expected_result}")
 
-test_book_embedding()
+# test_book_embedding()
+
+K5 = nx.complete_graph(5)
+cnf = book_embedding_cnf(K5, 2)
+write_cnf(cnf.nv, cnf.clauses, 'K5_2page')

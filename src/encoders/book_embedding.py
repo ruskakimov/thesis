@@ -1,7 +1,7 @@
 from pysat.formula import CNF
 from itertools import combinations
 
-def _book_embedding_cnf(graph, P):
+def book_embedding_cnf(graph, P):
     cnf = CNF()
 
     # Number of vertices and edges
@@ -43,7 +43,7 @@ def _book_embedding_cnf(graph, P):
 
     return cnf
 
-def book_embedding_cnf(graph, P):
+def _book_embedding_cnf(graph, P):
     """
     SAT encodes book embedding for P pages.
     Based on Bekos encoding (2015).
