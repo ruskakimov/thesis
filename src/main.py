@@ -1,3 +1,4 @@
+import time
 import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
@@ -95,15 +96,22 @@ def test_book_embedding():
         number_of_clauses = len(cnf.clauses)
         number_of_vars = cnf.nv
 
+        print(f"{graph_name} in {pages} pages")
         print(f"p cnf {number_of_vars} {number_of_clauses}")
 
         with Solver(bootstrap_with=cnf) as solver:
+            start_time = time.time()
             sat_result = solver.solve()
+            end_time = time.time()
             
             actual_result = 'SAT' if sat_result else 'UNSAT'
             expected_result = 'SAT' if expected else 'UNSAT'
 
-            print(f"{'🟢' if sat_result == expected else '🔴'} graph: {graph_name}, pages: {pages}, actual: {actual_result}, expected: {expected_result}")
+            print(f"{'🟢' if sat_result == expected else '🔴'} actual: {actual_result}, expected: {expected_result}")
+
+            time_taken = end_time - start_time
+            print(f"Time taken: {time_taken:.8f} seconds")
+            print()
 
 test_book_embedding()
 
