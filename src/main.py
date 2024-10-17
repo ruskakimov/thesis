@@ -113,14 +113,15 @@ def test_book_embedding():
             print(f"Time taken: {time_taken:.8f} seconds")
             print()
 
-test_book_embedding()
+# test_book_embedding()
 
-# K5 = nx.complete_graph(5)
-# cnf = book_embedding_cnf(K5, 2)
+# K9 = nx.complete_graph(9)
+# cnf = book_embedding_cnf(K9, 5)
+# write_cnf(cnf, 'K9_5page')
 # with Solver(bootstrap_with=cnf) as solver:
 #     sat_result = solver.solve()
 #     print(sat_result)
 #     print()
 
 #     solution = solver.get_model()
-#     decode_book_embedding(K5, 2, solution)
+#     decode_book_embedding(K9, 2, solution)
