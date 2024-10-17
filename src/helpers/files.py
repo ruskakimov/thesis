@@ -4,10 +4,10 @@ import networkx as nx
 dataset_dir = Path(__file__).resolve().parent.parent.parent / 'dataset'
 cnf_dir = Path(__file__).resolve().parent.parent.parent / 'cnf'
 
-def write_cnf(num_vars, clauses, name):
+def write_cnf(cnf, name):
     with open(cnf_dir / f'{name}.cnf', 'w') as file:
-        file.write(f'p cnf {num_vars} {len(clauses)}\n')
-        for clause in clauses:
+        file.write(f'p cnf {cnf.nv} {len(cnf.clauses)}\n')
+        for clause in cnf.clauses:
             file.write(' '.join(map(str, clause)) + " 0\n")
 
 def rome_graphs():
