@@ -140,7 +140,7 @@ def decode_book_embedding(graph, P, sol_str):
             is_left_to[(j, i)] = -variable_count
     
     for i in range(N):
-        print(f'V{i} is too the left of ', end='')
+        print(f'V{i} is to the left of: ', end='')
         for j in range(N):
             if i == j:
                 continue
