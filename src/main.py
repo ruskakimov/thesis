@@ -99,7 +99,8 @@ def test_book_embedding():
         print(f"{graph_name} in {pages} pages")
         print(f"p cnf {number_of_vars} {number_of_clauses}")
 
-        with Solver(name='Cadical195', bootstrap_with=cnf) as solver:
+        # TODO: Maplesat vs Cadical195
+        with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
             start_time = time.time()
             sat_result = solver.solve()
             end_time = time.time()
