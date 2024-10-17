@@ -91,6 +91,11 @@ def test_book_embedding():
         graph.add_edges_from(edges)
 
         cnf = book_embedding_cnf(graph, pages)
+        
+        number_of_clauses = len(cnf.clauses)
+        number_of_vars = cnf.nv
+
+        print(f"p cnf {number_of_vars} {number_of_clauses}")
 
         with Solver(bootstrap_with=cnf) as solver:
             sat_result = solver.solve()
