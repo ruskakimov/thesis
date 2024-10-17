@@ -139,19 +139,19 @@ def decode_book_embedding(graph, P, solution):
             is_left_to[(i, j)] = variable_count
             is_left_to[(j, i)] = -variable_count
     
-    # for i in range(N):
-    #     print(f'V{i} is to the left of: ', end='')
-    #     for j in range(N):
-    #         if i == j:
-    #             continue
-    #         var_idx = is_left_to[(i, j)]
-    #         if var_values[var_idx]:
-    #             print(f'V{j} ', end='')
-    #     print()
+    for i in range(N):
+        print(f'V{i} is to the left of: ', end='')
+        for j in range(N):
+            if i == j:
+                continue
+            var_idx = is_left_to[(i, j)] - 1
+            if var_values[var_idx]:
+                print(f'V{j} ', end='')
+        print()
     
-    # print()
+    print()
     
-    vertices.sort(key=cmp_to_key(lambda i, j: -1 if var_values[is_left_to[(i, j)]] else 1))
+    vertices.sort(key=cmp_to_key(lambda i, j: -1 if var_values[is_left_to[(i, j)] - 1] else 1))
     print('Book spine:', vertices)
     print()
 
@@ -162,14 +162,29 @@ def decode_book_embedding(graph, P, solution):
             edge_to_page[(i, p)] = variable_count
     
     for i in range(M):
-        pages = [str(p) for p in range(P) if var_values[edge_to_page[(i,p)]]]
+        pages = [str(p) for p in range(P) if var_values[edge_to_page[(i,p)]-1]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
         print(f'E{i} (V{u}, V{v}) belongs to pages {pages_str}')
+
+    print()
+
+    same_page = []
     
-    # def phi(edge, page):
-    #     idx = edges.index(edge)
-    #     return m * page + idx + 1
+    edges_on_same_page = {}
+    for i in range(M):
+        for j in range(i+1, M):
+            variable_count += 1
+            edges_on_same_page[(i, j)] = variable_count
+    X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
+    
+    for i in range(M):
+        pages = [f'E{j}' for j in range(M) if i != j and var_values[X(i,j) - 1]]
+        pages_str = ', '.join(pages)
+        u, v = edges[i]
+        print(f'E{i} is on the same page with {pages_str}')
+    
+    print('  '.join(same_page))
 
 # Notes:
 #
