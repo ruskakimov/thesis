@@ -11,7 +11,7 @@ def book_embedding_cnf(graph, P):
     """
 
     cnf = CNF()
-    edges = graph.edges()
+    edges = list(graph.edges())
     N = len(graph.nodes)
     M = len(edges)
 
@@ -102,19 +102,20 @@ def book_embedding_cnf(graph, P):
     # not Xijkl or not (Lik and Lkj and Ljl)
     # -Xijkl, -Lik, -Lkj, -Ljl
     for a in range(M):
-        for b in range(i+1, M):
+        for b in range(a+1, M):
             i, j = edges[a]
             k, l = edges[b]
+            
+            if len(set([i, j, k, l])) == 4: # pairwise different
+                cnf.append([-X(i, j), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
+                cnf.append([-X(i, j), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
+                cnf.append([-X(i, j), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
+                cnf.append([-X(i, j), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
 
-            cnf.append([[-X(i, j), -L(i, k), -L(k, j), -L(j, l)]]) # i, k, j, l
-            cnf.append([[-X(i, j), -L(j, k), -L(k, i), -L(i, l)]]) # j, k, i, l
-            cnf.append([[-X(i, j), -L(i, l), -L(l, j), -L(j, k)]]) # i, l, j, k
-            cnf.append([[-X(i, j), -L(j, l), -L(l, i), -L(i, k)]]) # j, l, i, k
-
-            cnf.append([[-X(i, j), -L(k, i), -L(i, l), -L(l, j)]]) # k, i, l, j
-            cnf.append([[-X(i, j), -L(l, i), -L(i, k), -L(k, j)]]) # l, i, k, j
-            cnf.append([[-X(i, j), -L(k, j), -L(j, l), -L(l, i)]]) # k, j, l, i
-            cnf.append([[-X(i, j), -L(l, j), -L(j, k), -L(k, i)]]) # l, j, k, i
+                cnf.append([-X(i, j), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
+                cnf.append([-X(i, j), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
+                cnf.append([-X(i, j), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
+                cnf.append([-X(i, j), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
     
     return cnf
 
