@@ -53,12 +53,12 @@ def book_embedding_cnf(graph, P):
         clause = [EP(i, p) for p in range(P)]
         cnf.append(clause)
     
-    # TODO: Test if improves perf
-    # 1 edge to only 1 page
-    for i in range(M):
-        for p1 in range(P):
-            for p2 in range(p1+1, P):
-                cnf.append([-EP(i, p1), -EP(i, p2)])
+    # # TODO: Test if improves perf
+    # # 1 edge to only 1 page
+    # for i in range(M):
+    #     for p1 in range(P):
+    #         for p2 in range(p1+1, P):
+    #             cnf.append([-EP(i, p1), -EP(i, p2)])
 
     # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
 
@@ -164,7 +164,8 @@ def decode_book_embedding(graph, P, sol_str):
     for i in range(M):
         pages = [str(p) for p in range(P) if var_values[edge_to_page[(i,p)]]]
         pages_str = ', '.join(pages)
-        print(f'E{i} belongs to pages {pages_str}')
+        u, v = edges[i]
+        print(f'E{i} (V{u}, V{v}) belongs to pages {pages_str}')
     
     # def phi(edge, page):
     #     idx = edges.index(edge)
