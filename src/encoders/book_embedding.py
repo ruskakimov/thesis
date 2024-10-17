@@ -36,8 +36,14 @@ def book_embedding_cnf(graph, P):
             for k in range(N):
                 if i != j and i != k and j != k:
                     cnf.append([-L(i,j), -L(j,k), L(i,k)])
+
+    # Space reduction: set V0 as first vertex on the spine
+    for i in range(1, N):
+        cnf.append([L(0,i)])
     
-    # TODO: The search space of possible satisfying assignments can be reduced by choosing a particular vertex as the first vertex along the spine
+    # Space reduction: assume V1 is left of V2
+    if N >= 3:
+        cnf.append([L(1, 2)])
     
     edge_to_page = {}
     for i in range(M):
@@ -53,14 +59,17 @@ def book_embedding_cnf(graph, P):
         clause = [EP(i, p) for p in range(P)]
         cnf.append(clause)
     
-    # # TODO: Test if improves perf
-    # # 1 edge to only 1 page
-    # for i in range(M):
-    #     for p1 in range(P):
-    #         for p2 in range(p1+1, P):
-    #             cnf.append([-EP(i, p1), -EP(i, p2)])
+    # TODO: Test if improves perf
+    # 1 edge to only 1 page
+    for i in range(M):
+        for p1 in range(P):
+            for p2 in range(p1+1, P):
+                cnf.append([-EP(i, p1), -EP(i, p2)])
 
-    # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
+    # Space reduction: set edge 0 to page 0
+    cnf.append([EP(0, 0)])
+    for p in range(1, P):
+        cnf.append([-EP(0, p)])
 
     # Variable: Intermediate variable X - whether two edges belong to the same page
     edges_on_same_page = {}
