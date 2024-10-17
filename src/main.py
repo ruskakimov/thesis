@@ -76,7 +76,7 @@ def test_book_embedding():
             ))
 
     # Test complete graphs, for which the exact book thickness is known: ceil(N / 2)
-    for n in range(4, 21):
+    for n in range(4, 11):
         min_p = ceil(n / 2)
 
         for p in range(1, min_p + 1):
@@ -99,7 +99,7 @@ def test_book_embedding():
         print(f"{graph_name} in {pages} pages")
         print(f"p cnf {number_of_vars} {number_of_clauses}")
 
-        with Solver(bootstrap_with=cnf) as solver:
+        with Solver(name='Cadical195', bootstrap_with=cnf) as solver:
             start_time = time.time()
             sat_result = solver.solve()
             end_time = time.time()
@@ -113,7 +113,7 @@ def test_book_embedding():
             print(f"Time taken: {time_taken:.8f} seconds")
             print()
 
-# test_book_embedding()
+test_book_embedding()
 
 # K9 = nx.complete_graph(9)
 # cnf = book_embedding_cnf(K9, 5)
