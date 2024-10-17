@@ -139,20 +139,32 @@ def decode_book_embedding(graph, P, sol_str):
             is_left_to[(i, j)] = variable_count
             is_left_to[(j, i)] = -variable_count
     
-    for i in range(N):
-        print(f'V{i} is to the left of: ', end='')
-        for j in range(N):
-            if i == j:
-                continue
-            var_idx = is_left_to[(i, j)]
-            if var_values[var_idx]:
-                print(f'V{j} ', end='')
-        print()
+    # for i in range(N):
+    #     print(f'V{i} is to the left of: ', end='')
+    #     for j in range(N):
+    #         if i == j:
+    #             continue
+    #         var_idx = is_left_to[(i, j)]
+    #         if var_values[var_idx]:
+    #             print(f'V{j} ', end='')
+    #     print()
     
-    print()
+    # print()
     
     vertices.sort(key=cmp_to_key(lambda i, j: -1 if var_values[is_left_to[(i, j)]] else 1))
     print('Book spine:', vertices)
+    print()
+
+    edge_to_page = {}
+    for i in range(M):
+        for p in range(P):
+            variable_count += 1
+            edge_to_page[(i, p)] = variable_count
+    
+    for i in range(M):
+        pages = [str(p) for p in range(P) if var_values[edge_to_page[(i,p)]]]
+        pages_str = ', '.join(pages)
+        print(f'E{i} belongs to pages {pages_str}')
     
     # def phi(edge, page):
     #     idx = edges.index(edge)
