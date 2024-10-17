@@ -140,7 +140,7 @@ def decode_book_embedding(graph, P, sol_str):
             is_left_to[(j, i)] = -variable_count
     
     for i in range(N):
-        print(f'V{i} less than ', end='')
+        print(f'V{i} is too the left of ', end='')
         for j in range(N):
             if i == j:
                 continue
@@ -148,6 +148,8 @@ def decode_book_embedding(graph, P, sol_str):
             if var_values[var_idx]:
                 print(f'V{j} ', end='')
         print()
+    
+    print()
     
     # vertices.sort(key=cmp_to_key(lambda i, j: var_values[sigma(i, j)]))
     # print(vertices)
