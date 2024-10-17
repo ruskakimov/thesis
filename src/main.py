@@ -2,7 +2,7 @@ import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf
-from encoders import planarity_cnf, graceful_labeling_cnf, book_embedding_cnf
+from encoders import planarity_cnf, graceful_labeling_cnf, book_embedding_cnf, decode_book_embedding
 
 def test_planarity():
     true_positive = 0
@@ -105,3 +105,6 @@ def test_book_embedding():
 K5 = nx.complete_graph(5)
 cnf = book_embedding_cnf(K5, 2)
 write_cnf(cnf.nv, cnf.clauses, 'K5_2page')
+
+
+# decode_book_embedding(K5, 2, '-1 -2 -3 4 -5 6 -7 -8 -9 10 11 12 13 -14 15 -16 17 18 19 -20 21 -22 -23 24 -25')

@@ -1,49 +1,7 @@
 from pysat.formula import CNF
-from itertools import combinations
+from functools import cmp_to_key
 
 def book_embedding_cnf(graph, P):
-    cnf = CNF()
-
-    # Number of vertices and edges
-    vertices = list(graph.nodes)
-    edges = list(graph.edges)
-    n = len(vertices)
-    m = len(edges)
-
-    # Step 1: Asymmetric relative ordering of vertices on the spine
-    # Variables σ(vi, vj) -> vi is before vj on the spine
-    def sigma(i, j):
-        return i * n + j + 1
-
-    # Asymmetry: σ(vi, vj) <-> ¬σ(vj, vi)
-    for i, j in combinations(range(n), 2):
-        cnf.append([sigma(i, j), sigma(j, i)])  # Either σ(vi, vj) or σ(vj, vi)
-        cnf.append([-sigma(i, j), -sigma(j, i)])  # Both can't be true
-
-    # Step 2: Transitivity of σ
-    # σ(vi, vj) ∧ σ(vj, vk) -> σ(vi, vk)
-    for i, j, k in combinations(range(n), 3):
-        cnf.append([-sigma(i, j), -sigma(j, k), sigma(i, k)])
-
-    # Step 3: Page assignment for each edge
-    # Variables φq(ei) -> edge ei is assigned to page q
-    def phi(edge, page):
-        idx = edges.index(edge)
-        return m * page + idx + 1
-
-    # Each edge should be assigned to exactly one page
-    for edge in edges:
-        cnf.append([phi(edge, p) for p in range(P)])
-
-    # Step 4: No crossings on the same page
-    for (vi, vj), (vk, vl) in combinations(edges, 2):
-        for p in range(P):
-            cnf.append([-phi((vi, vj), p), -phi((vk, vl), p), -sigma(min(vi, vk), max(vi, vk)), 
-                        -sigma(min(vj, vl), max(vj, vl))])
-
-    return cnf
-
-def _book_embedding_cnf(graph, P):
     """
     SAT encodes book embedding for P pages.
     Based on Bekos encoding (2015).
@@ -159,6 +117,31 @@ def _book_embedding_cnf(graph, P):
             cnf.append([[-X(i, j), -L(l, j), -L(j, k), -L(k, i)]]) # l, j, k, i
     
     return cnf
+
+def decode_book_embedding(graph, P, sol_str):
+    vertices = list(graph.nodes)
+    edges = list(graph.edges)
+    n = len(vertices)
+    m = len(edges)
+
+    var_values = [x[0] != '-' for x in sol_str.split()]
+
+    print(vertices)
+    print(var_values)
+
+    def sigma(i, j):
+        return i * n + j + 1
+    
+    for i in range(n):
+        for j in range(i+1, n):
+            print(f'V{i} < V{j}', var_values[sigma(i, j)])
+    
+    vertices.sort(key=cmp_to_key(lambda i, j: var_values[sigma(i, j)]))
+    print(vertices)
+    
+    def phi(edge, page):
+        idx = edges.index(edge)
+        return m * page + idx + 1
 
 # Notes:
 #
