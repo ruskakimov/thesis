@@ -151,8 +151,8 @@ def decode_book_embedding(graph, P, sol_str):
     
     print()
     
-    # vertices.sort(key=cmp_to_key(lambda i, j: var_values[sigma(i, j)]))
-    # print(vertices)
+    vertices.sort(key=cmp_to_key(lambda i, j: -1 if var_values[is_left_to[(i, j)]] else 1))
+    print('Book spine:', vertices)
     
     # def phi(edge, page):
     #     idx = edges.index(edge)
