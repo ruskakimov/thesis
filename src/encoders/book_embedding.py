@@ -130,19 +130,24 @@ def decode_book_embedding(graph, P, sol_str):
 
     assert len(var_values) == var_count
 
-    # variable_count = 0
+    variable_count = 0
     
-    # is_left_to = {}
-    # for i in range(N):
-    #     for j in range(i+1, N):
-    #         variable_count += 1
-    #         is_left_to[(i, j)] = variable_count
+    is_left_to = {}
+    for i in range(N):
+        for j in range(i+1, N):
+            variable_count += 1
+            is_left_to[(i, j)] = variable_count
+            is_left_to[(j, i)] = -variable_count
     
-    # for i in range(n):
-    #     print(f'V{i}' less than)
-    #     for j in range(i+1, n):
-    #         if 
-    #         print(f'V{i} < V{j}', , end='')
+    for i in range(N):
+        print(f'V{i} less than ', end='')
+        for j in range(N):
+            if i == j:
+                continue
+            var_idx = is_left_to[(i, j)]
+            if var_values[var_idx]:
+                print(f'V{j} ', end='')
+        print()
     
     # vertices.sort(key=cmp_to_key(lambda i, j: var_values[sigma(i, j)]))
     # print(vertices)
