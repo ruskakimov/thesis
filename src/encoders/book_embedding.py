@@ -105,21 +105,32 @@ def book_embedding_cnf(graph, P):
         for b in range(a+1, M):
             i, j = edges[a]
             k, l = edges[b]
+            # 1i 2j
+            # 3k 4l
+            # 3k 2j 4l 1i
+            # k j l i
             
             if len(set([i, j, k, l])) == 4: # pairwise different
-                cnf.append([-X(i, j), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
-                cnf.append([-X(i, j), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
-                cnf.append([-X(i, j), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
-                cnf.append([-X(i, j), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
+                cnf.append([-X(a, b), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
+                cnf.append([-X(a, b), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
+                cnf.append([-X(a, b), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
+                cnf.append([-X(a, b), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
 
-                cnf.append([-X(i, j), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
-                cnf.append([-X(i, j), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
-                cnf.append([-X(i, j), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
-                cnf.append([-X(i, j), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
+                cnf.append([-X(a, b), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
+                cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
+                cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
+
+                # if i == 1 and j == 2 and k == 3 and l == 4:
+                #     print(a, b, [-X(i, j), -L(k, j), -L(j, l), -L(l, i)])
+
+                cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
     
     return cnf
 
 def decode_book_embedding(graph, P, solution):
+    if not solution:
+        return
+    
     vertices = list(graph.nodes)
     edges = list(graph.edges)
     N = len(vertices)
@@ -132,6 +143,8 @@ def decode_book_embedding(graph, P, solution):
     for var in solution:
         values[abs(var)] = var > 0
         values[-abs(var)] = var < 0
+    
+    print([values[v] for v in [-40, 8, -9, 7]])
 
     variable_count = 0
     
@@ -180,6 +193,8 @@ def decode_book_embedding(graph, P, solution):
             variable_count += 1
             edges_on_same_page[(i, j)] = variable_count
     X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
+
+    print(X(4,9), X(9,4))
     
     for i in range(M):
         pages = [f'E{j}' for j in range(M) if i != j and values[X(i,j)]]

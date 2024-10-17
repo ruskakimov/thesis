@@ -106,5 +106,8 @@ K5 = nx.complete_graph(5)
 cnf = book_embedding_cnf(K5, 2)
 with Solver(bootstrap_with=cnf) as solver:
     sat_result = solver.solve()
+    print(sat_result)
+    print()
+
     solution = solver.get_model()
     decode_book_embedding(K5, 2, solution)
