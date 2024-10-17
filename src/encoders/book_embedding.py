@@ -63,12 +63,12 @@ def book_embedding_cnf(graph, P):
     # TODO: We can again reduce the search space by the fixed page assignment rule, that fixes a single edge on a particular page
 
     # Variable: Intermediate variable X - whether two edges belong to the same page
-    edges_cross = {}
+    edges_on_same_page = {}
     for i in range(M):
         for j in range(i+1, M):
             variable_count += 1
-            edges_cross[(i, j)] = variable_count
-    X = lambda i, j: edges_cross[(i, j)] if i < j else edges_cross[(j, i)]
+            edges_on_same_page[(i, j)] = variable_count
+    X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
 
     # Rule: Enforce correct values for X (only true if both edges are assigned to the same page)
     # (EPi1 and EPj1) or (EPi2 and EPj2) or ... or (EPip and EPjp) -> Xij
@@ -122,27 +122,34 @@ def book_embedding_cnf(graph, P):
 def decode_book_embedding(graph, P, sol_str):
     vertices = list(graph.nodes)
     edges = list(graph.edges)
-    n = len(vertices)
-    m = len(edges)
+    N = len(vertices)
+    M = len(edges)
 
     var_values = [x[0] != '-' for x in sol_str.split()]
+    var_count = N*(N-1)/2 + M*P + M*(M-1)/2
 
-    print(vertices)
-    print(var_values)
+    assert len(var_values) == var_count
 
-    def sigma(i, j):
-        return i * n + j + 1
+    # variable_count = 0
     
-    for i in range(n):
-        for j in range(i+1, n):
-            print(f'V{i} < V{j}', var_values[sigma(i, j)])
+    # is_left_to = {}
+    # for i in range(N):
+    #     for j in range(i+1, N):
+    #         variable_count += 1
+    #         is_left_to[(i, j)] = variable_count
     
-    vertices.sort(key=cmp_to_key(lambda i, j: var_values[sigma(i, j)]))
-    print(vertices)
+    # for i in range(n):
+    #     print(f'V{i}' less than)
+    #     for j in range(i+1, n):
+    #         if 
+    #         print(f'V{i} < V{j}', , end='')
     
-    def phi(edge, page):
-        idx = edges.index(edge)
-        return m * page + idx + 1
+    # vertices.sort(key=cmp_to_key(lambda i, j: var_values[sigma(i, j)]))
+    # print(vertices)
+    
+    # def phi(edge, page):
+    #     idx = edges.index(edge)
+    #     return m * page + idx + 1
 
 # Notes:
 #

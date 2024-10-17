@@ -100,11 +100,11 @@ def test_book_embedding():
 
             print(f"{'🟢' if sat_result == expected else '🔴'} graph: {graph_name}, pages: {pages}, actual: {actual_result}, expected: {expected_result}")
 
-test_book_embedding()
+# test_book_embedding()
 
-# K5 = nx.complete_graph(5)
+K5 = nx.complete_graph(5)
 # cnf = book_embedding_cnf(K5, 2)
 # write_cnf(cnf, 'K5_2page')
 
 
-# decode_book_embedding(K5, 2, '-1 -2 -3 4 -5 6 -7 -8 -9 10 11 12 13 -14 15 -16 17 18 19 -20 21 -22 -23 24 -25')
+decode_book_embedding(K5, 2, '-1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 12 -13 14 15 -16 17 -18 -19 20 -21 22 -23 24 -25 26 -27 28 -29 30 31 -32 -33 34 35 36 37 38 39 -40 -41 42 43 44 45 46 47 48 -49 -50 -51 -52 -53 -54 -55 -56 -57 -58 -59 -60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75')
