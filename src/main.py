@@ -100,14 +100,14 @@ def test_book_embedding():
 
             print(f"{'🟢' if sat_result == expected else '🔴'} graph: {graph_name}, pages: {pages}, actual: {actual_result}, expected: {expected_result}")
 
-# test_book_embedding()
+test_book_embedding()
 
-K5 = nx.complete_graph(5)
-cnf = book_embedding_cnf(K5, 2)
-with Solver(bootstrap_with=cnf) as solver:
-    sat_result = solver.solve()
-    print(sat_result)
-    print()
+# K5 = nx.complete_graph(5)
+# cnf = book_embedding_cnf(K5, 2)
+# with Solver(bootstrap_with=cnf) as solver:
+#     sat_result = solver.solve()
+#     print(sat_result)
+#     print()
 
-    solution = solver.get_model()
-    decode_book_embedding(K5, 2, solution)
+#     solution = solver.get_model()
+#     decode_book_embedding(K5, 2, solution)
