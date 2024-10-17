@@ -125,10 +125,13 @@ def decode_book_embedding(graph, P, solution):
     N = len(vertices)
     M = len(edges)
 
-    var_values = [x > 0 for x in solution]
     var_count = N*(N-1)/2 + M*P + M*(M-1)/2
+    assert len(solution) == var_count
 
-    assert len(var_values) == var_count
+    values = {}
+    for var in solution:
+        values[abs(var)] = var > 0
+        values[-abs(var)] = var < 0
 
     variable_count = 0
     
@@ -144,14 +147,14 @@ def decode_book_embedding(graph, P, solution):
         for j in range(N):
             if i == j:
                 continue
-            var_idx = is_left_to[(i, j)] - 1
-            if var_values[var_idx]:
+            var_idx = is_left_to[(i, j)]
+            if values[var_idx]:
                 print(f'V{j} ', end='')
         print()
     
     print()
     
-    vertices.sort(key=cmp_to_key(lambda i, j: -1 if var_values[is_left_to[(i, j)] - 1] else 1))
+    vertices.sort(key=cmp_to_key(lambda i, j: -1 if values[is_left_to[(i, j)]] else 1))
     print('Book spine:', vertices)
     print()
 
@@ -162,7 +165,7 @@ def decode_book_embedding(graph, P, solution):
             edge_to_page[(i, p)] = variable_count
     
     for i in range(M):
-        pages = [str(p) for p in range(P) if var_values[edge_to_page[(i,p)]-1]]
+        pages = [str(p) for p in range(P) if values[edge_to_page[(i,p)]]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
         print(f'E{i} (V{u}, V{v}) belongs to pages {pages_str}')
@@ -179,7 +182,7 @@ def decode_book_embedding(graph, P, solution):
     X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
     
     for i in range(M):
-        pages = [f'E{j}' for j in range(M) if i != j and var_values[X(i,j) - 1]]
+        pages = [f'E{j}' for j in range(M) if i != j and values[X(i,j)]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
         print(f'E{i} is on the same page with {pages_str}')
