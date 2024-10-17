@@ -119,13 +119,13 @@ def book_embedding_cnf(graph, P):
     
     return cnf
 
-def decode_book_embedding(graph, P, sol_str):
+def decode_book_embedding(graph, P, solution):
     vertices = list(graph.nodes)
     edges = list(graph.edges)
     N = len(vertices)
     M = len(edges)
 
-    var_values = [x[0] != '-' for x in sol_str.split()]
+    var_values = [x > 0 for x in solution]
     var_count = N*(N-1)/2 + M*P + M*(M-1)/2
 
     assert len(var_values) == var_count
