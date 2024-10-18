@@ -163,9 +163,7 @@ def decode_book_embedding(graph, P, solution):
     for i in range(N):
         print(f'V{i} is to the left of: ', end='')
         for j in range(N):
-            if i == j:
-                continue
-            if value_of[L(i, j)]:
+            if i != j and value_of[L(i, j)]:
                 print(f'V{j} ', end='')
         print()
     
