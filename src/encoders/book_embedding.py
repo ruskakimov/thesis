@@ -161,11 +161,8 @@ def decode_book_embedding(graph, P, solution):
         value_of[-abs(var)] = var < 0
     
     for i in range(N):
-        print(f'V{i} is to the left of: ', end='')
-        for j in range(N):
-            if i != j and value_of[L(i, j)]:
-                print(f'V{j} ', end='')
-        print()
+        right_vertices = ' '.join(f'V{j}' for j in range(N) if i != j and value_of[L(i, j)])
+        print(f'V{i} is to the left of: {right_vertices}')
     
     print()
     
