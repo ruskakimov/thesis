@@ -160,31 +160,33 @@ def decode_book_embedding(graph, P, solution):
         value_of[abs(var)] = var > 0
         value_of[-abs(var)] = var < 0
     
+    print('Vertex is to the left of:')
     for i in range(N):
         right_vertices = [f'v{j}' for j in range(N) if i != j and value_of[L(i, j)]]
         right_vertices_str = ', '.join(right_vertices)
-        print(f'v{i} is left of: {right_vertices_str}')
-    
+        print(f'v{i} - {right_vertices_str}')
     print()
     
+    print('Book spine vertex order:')
     vertices.sort(key=cmp_to_key(lambda i, j: -1 if value_of[L(i, j)] else 1))
-    print(f'Book spine: {vertices}')
+    vertices_str = ', '.join(f'v{i}' for i in vertices)
+    print(vertices_str)
     print()
     
-    print('Page assignment:')
+    print('Edge to page assignment:')
     for i in range(M):
         pages = [f'p{p}' for p in range(P) if value_of[EP(i, p)]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
-        print(f'e{i} (v{u}, v{v}) to {pages_str}')
-
+        print(f'e{i} (v{u}, v{v}) - {pages_str}')
     print()
     
-    print('On the same page with:')
+    print('Edge is on the same page with:')
     for i in range(M):
         pages = [f'e{j}' for j in range(M) if i != j and value_of[X(i,j)]]
         pages_str = ', '.join(pages)
-        print(f'e{i} with {pages_str}')
+        print(f'e{i} - {pages_str}')
+    print()
 
 # Notes:
 #
