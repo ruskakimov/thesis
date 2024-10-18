@@ -179,16 +179,12 @@ def decode_book_embedding(graph, P, solution):
         print(f'e{i} (v{u}, v{v}) to {pages_str}')
 
     print()
-
-    same_page = []
     
     print('On the same page with:')
     for i in range(M):
         pages = [f'e{j}' for j in range(M) if i != j and value_of[X(i,j)]]
         pages_str = ', '.join(pages)
         print(f'e{i} with {pages_str}')
-    
-    print('  '.join(same_page))
 
 # Notes:
 #
