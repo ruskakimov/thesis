@@ -1,32 +1,34 @@
 True
 
-V0 is to the left of: V1 V2 V3 V4
-V1 is to the left of: V2 V3
-V2 is to the left of: 
-V3 is to the left of: V2
-V4 is to the left of: V1 V2 V3
+v0 is left of: v1, v2, v3, v4
+v1 is left of: v2, v3
+v2 is left of: 
+v3 is left of: v2
+v4 is left of: v1, v2, v3
 
 Book spine: [0, 4, 1, 3, 2]
 
-E0 (V0, V1) belongs to pages 0
-E1 (V0, V2) belongs to pages 2
-E2 (V0, V3) belongs to pages 0
-E3 (V0, V4) belongs to pages 2
-E4 (V1, V2) belongs to pages 2
-E5 (V1, V3) belongs to pages 1
-E6 (V1, V4) belongs to pages 0
-E7 (V2, V3) belongs to pages 0
-E8 (V2, V4) belongs to pages 2
-E9 (V3, V4) belongs to pages 1
+Page assignment:
+e0 (v0, v1) to p0
+e1 (v0, v2) to p2
+e2 (v0, v3) to p0
+e3 (v0, v4) to p2
+e4 (v1, v2) to p2
+e5 (v1, v3) to p1
+e6 (v1, v4) to p0
+e7 (v2, v3) to p0
+e8 (v2, v4) to p2
+e9 (v3, v4) to p1
 
-E0 is on the same page with E1, E2, E3, E4, E5, E6, E7
-E1 is on the same page with E0, E3, E4, E8
-E2 is on the same page with E0, E6, E7
-E3 is on the same page with E0, E1, E4, E5, E6, E8
-E4 is on the same page with E0, E1, E3, E5, E8
-E5 is on the same page with E0, E3, E4, E6, E8, E9
-E6 is on the same page with E0, E2, E3, E5, E7
-E7 is on the same page with E0, E2, E6
-E8 is on the same page with E1, E3, E4, E5
-E9 is on the same page with E5
+On the same page with:
+e0 with e1, e2, e3, e4, e5, e6, e7
+e1 with e0, e3, e4, e8
+e2 with e0, e6, e7
+e3 with e0, e1, e4, e5, e6, e8
+e4 with e0, e1, e3, e5, e8
+e5 with e0, e3, e4, e6, e8, e9
+e6 with e0, e2, e3, e5, e7
+e7 with e0, e2, e6
+e8 with e1, e3, e4, e5
+e9 with e5
 

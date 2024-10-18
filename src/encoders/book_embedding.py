@@ -161,8 +161,9 @@ def decode_book_embedding(graph, P, solution):
         value_of[-abs(var)] = var < 0
     
     for i in range(N):
-        right_vertices = ' '.join(f'V{j}' for j in range(N) if i != j and value_of[L(i, j)])
-        print(f'V{i} is to the left of: {right_vertices}')
+        right_vertices = [f'v{j}' for j in range(N) if i != j and value_of[L(i, j)]]
+        right_vertices_str = ', '.join(right_vertices)
+        print(f'v{i} is left of: {right_vertices_str}')
     
     print()
     
@@ -170,21 +171,22 @@ def decode_book_embedding(graph, P, solution):
     print(f'Book spine: {vertices}')
     print()
     
+    print('Page assignment:')
     for i in range(M):
-        pages = [str(p) for p in range(P) if value_of[EP(i, p)]]
+        pages = [f'p{p}' for p in range(P) if value_of[EP(i, p)]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
-        print(f'E{i} (V{u}, V{v}) belongs to pages {pages_str}')
+        print(f'e{i} (v{u}, v{v}) to {pages_str}')
 
     print()
 
     same_page = []
     
+    print('On the same page with:')
     for i in range(M):
-        pages = [f'E{j}' for j in range(M) if i != j and value_of[X(i,j)]]
+        pages = [f'e{j}' for j in range(M) if i != j and value_of[X(i,j)]]
         pages_str = ', '.join(pages)
-        u, v = edges[i]
-        print(f'E{i} is on the same page with {pages_str}')
+        print(f'e{i} with {pages_str}')
     
     print('  '.join(same_page))
 
