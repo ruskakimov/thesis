@@ -22,12 +22,13 @@ def get_variables(N, M, P):
     # Variable: Whether edge with index i is assigned to page p
     EP = lambda i, p: edge_to_page[(i, p)]
 
-    # Variable: Intermediate variable X - whether two edges belong to the same page
     edges_on_same_page = {}
     for i in range(M):
         for j in range(i+1, M):
             variable_count += 1
             edges_on_same_page[(i, j)] = variable_count
+
+    # Intermediate variable: Whether two edges belong to the same page
     X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
 
     return (L, EP, X)
