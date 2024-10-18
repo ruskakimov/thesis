@@ -1,0 +1,34 @@
+True
+
+[True, False, True, False]
+V0 is to the left of: V1 V2 V3 V4 
+V1 is to the left of: V2 V3 
+V2 is to the left of: 
+V3 is to the left of: V2 
+V4 is to the left of: V1 V2 V3 
+
+Book spine: [0, 4, 1, 3, 2]
+
+E0 (V0, V1) belongs to pages 0
+E1 (V0, V2) belongs to pages 2
+E2 (V0, V3) belongs to pages 0
+E3 (V0, V4) belongs to pages 2
+E4 (V1, V2) belongs to pages 2
+E5 (V1, V3) belongs to pages 1
+E6 (V1, V4) belongs to pages 0
+E7 (V2, V3) belongs to pages 0
+E8 (V2, V4) belongs to pages 2
+E9 (V3, V4) belongs to pages 1
+
+75 75
+E0 is on the same page with E1, E2, E3, E4, E5, E6, E7
+E1 is on the same page with E0, E3, E4, E8
+E2 is on the same page with E0, E6, E7
+E3 is on the same page with E0, E1, E4, E5, E6, E8
+E4 is on the same page with E0, E1, E3, E5, E8
+E5 is on the same page with E0, E3, E4, E6, E8, E9
+E6 is on the same page with E0, E2, E3, E5, E7
+E7 is on the same page with E0, E2, E6
+E8 is on the same page with E1, E3, E4, E5
+E9 is on the same page with E5
+
