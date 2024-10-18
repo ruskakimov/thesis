@@ -1,7 +1,7 @@
 from pysat.formula import CNF
 import networkx as nx
 
-def planarity_cnf(graph):
+def encode_planarity(graph):
     """
     Does not work.
     """

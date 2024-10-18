@@ -3,7 +3,7 @@ import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf
-from encoders import planarity_cnf, graceful_labeling_cnf, book_embedding_cnf, decode_book_embedding
+from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding
 
 def test_planarity():
     true_positive = 0
@@ -12,7 +12,7 @@ def test_planarity():
     false_negative = 0
 
     for graph in rome_graphs():
-        cnf = planarity_cnf(graph)
+        cnf = encode_planarity(graph)
         solver = Solver()
         solver.append_formula(cnf)
         
@@ -54,7 +54,7 @@ def test_graceful_labeling():
         graph = nx.Graph()
         graph.add_edges_from(edges)
 
-        cnf = graceful_labeling_cnf(graph)
+        cnf = encode_graceful_labeling(graph)
 
         with Solver(bootstrap_with=cnf) as solver:
             sat_result = solver.solve()
@@ -91,7 +91,7 @@ def test_book_embedding():
         graph = nx.Graph()
         graph.add_edges_from(edges)
 
-        cnf = book_embedding_cnf(graph, pages)
+        cnf = encode_book_embedding(graph, pages)
         
         number_of_clauses = len(cnf.clauses)
         number_of_vars = cnf.nv
@@ -118,7 +118,7 @@ def test_book_embedding():
 
 K5 = nx.complete_graph(5)
 P = 3
-cnf = book_embedding_cnf(K5, P)
+cnf = encode_book_embedding(K5, P)
 # write_cnf(cnf, 'K9_5page')
 
 with Solver(bootstrap_with=cnf) as solver:

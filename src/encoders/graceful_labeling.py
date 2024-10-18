@@ -1,6 +1,6 @@
 from pysat.formula import CNF
 
-def graceful_labeling_cnf(graph):
+def encode_graceful_labeling(graph):
     """
     SAT encodes graceful labeling.
     Based on "Vertex-edge encoding" (Kraayenbrink, 2011).

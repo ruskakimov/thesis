@@ -32,7 +32,7 @@ def get_variables(N, M, P):
 
     return (L, EP, X)
 
-def book_embedding_cnf(graph, P):
+def encode_book_embedding(graph, P):
     """
     SAT encodes book embedding for P pages.
     Based on Bekos encoding (2015).
