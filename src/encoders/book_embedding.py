@@ -170,7 +170,7 @@ def decode_book_embedding(graph, P, solution):
     print()
     
     vertices.sort(key=cmp_to_key(lambda i, j: -1 if value_of[L(i, j)] else 1))
-    print('Book spine:', vertices)
+    print(f'Book spine: {vertices}')
     print()
     
     for i in range(M):
