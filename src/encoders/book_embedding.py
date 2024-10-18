@@ -1,6 +1,37 @@
 from pysat.formula import CNF
 from functools import cmp_to_key
 
+def get_variables(N, M, P):
+    variable_count = 0
+    
+    is_left_to = {}
+    for i in range(N):
+        for j in range(i+1, N):
+            variable_count += 1
+            is_left_to[(i, j)] = variable_count
+    
+    # Variable: Whether vertex i is to the left of vertex j along the book spine
+    L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
+
+    edge_to_page = {}
+    for i in range(M):
+        for p in range(P):
+            variable_count += 1
+            edge_to_page[(i, p)] = variable_count
+    
+    # Variable: Whether edge with index i is assigned to page p
+    EP = lambda i, p: edge_to_page[(i, p)]
+
+    # Variable: Intermediate variable X - whether two edges belong to the same page
+    edges_on_same_page = {}
+    for i in range(M):
+        for j in range(i+1, M):
+            variable_count += 1
+            edges_on_same_page[(i, j)] = variable_count
+    X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
+
+    return (L, EP, X)
+
 def book_embedding_cnf(graph, P):
     """
     SAT encodes book embedding for P pages.
@@ -15,16 +46,7 @@ def book_embedding_cnf(graph, P):
     N = len(graph.nodes)
     M = len(edges)
 
-    variable_count = 0
-    
-    is_left_to = {}
-    for i in range(N):
-        for j in range(i+1, N):
-            variable_count += 1
-            is_left_to[(i, j)] = variable_count
-
-    # Variable: Whether vertex i is to the left of vertex j along the book spine
-    L = lambda i, j: is_left_to[(i, j)] if i < j else -is_left_to[(j, i)]
+    L, EP, X = get_variables(N, M, P)
 
     # TODO: See if enforcing order for edges (u < w) reduces encoding for forbidden orders below
 
@@ -44,15 +66,6 @@ def book_embedding_cnf(graph, P):
     # Space reduction: assume V1 is left of V2
     if N >= 3:
         cnf.append([L(1, 2)])
-    
-    edge_to_page = {}
-    for i in range(M):
-        for p in range(P):
-            variable_count += 1
-            edge_to_page[(i, p)] = variable_count
-
-    # Variable: Whether edge with index i is assigned to page p
-    EP = lambda i, p: edge_to_page[(i, p)]
 
     # Rule: Every edge is assigned to at least 1 page
     for i in range(M):
@@ -70,14 +83,6 @@ def book_embedding_cnf(graph, P):
     cnf.append([EP(0, 0)])
     for p in range(1, P):
         cnf.append([-EP(0, p)])
-
-    # Variable: Intermediate variable X - whether two edges belong to the same page
-    edges_on_same_page = {}
-    for i in range(M):
-        for j in range(i+1, M):
-            variable_count += 1
-            edges_on_same_page[(i, j)] = variable_count
-    X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
 
     # Rule: Enforce correct values for X (only true if both edges are assigned to the same page)
     # (EPi1 and EPj1) or (EPi2 and EPj2) or ... or (EPip and EPjp) -> Xij
