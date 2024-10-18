@@ -153,46 +153,30 @@ def decode_book_embedding(graph, P, solution):
     var_count = N*(N-1)/2 + M*P + M*(M-1)/2
     assert len(solution) == var_count
 
+    L, EP, X = get_variables(N, M, P)
+
     values = {}
     for var in solution:
         values[abs(var)] = var > 0
         values[-abs(var)] = var < 0
-    
-    print([values[v] for v in [-40, 8, -9, 7]])
-
-    variable_count = 0
-    
-    is_left_to = {}
-    for i in range(N):
-        for j in range(i+1, N):
-            variable_count += 1
-            is_left_to[(i, j)] = variable_count
-            is_left_to[(j, i)] = -variable_count
     
     for i in range(N):
         print(f'V{i} is to the left of: ', end='')
         for j in range(N):
             if i == j:
                 continue
-            var_idx = is_left_to[(i, j)]
-            if values[var_idx]:
+            if values[L(i, j)]:
                 print(f'V{j} ', end='')
         print()
     
     print()
     
-    vertices.sort(key=cmp_to_key(lambda i, j: -1 if values[is_left_to[(i, j)]] else 1))
+    vertices.sort(key=cmp_to_key(lambda i, j: -1 if values[L(i, j)] else 1))
     print('Book spine:', vertices)
     print()
-
-    edge_to_page = {}
-    for i in range(M):
-        for p in range(P):
-            variable_count += 1
-            edge_to_page[(i, p)] = variable_count
     
     for i in range(M):
-        pages = [str(p) for p in range(P) if values[edge_to_page[(i,p)]]]
+        pages = [str(p) for p in range(P) if values[EP(i, p)]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
         print(f'E{i} (V{u}, V{v}) belongs to pages {pages_str}')
@@ -200,15 +184,6 @@ def decode_book_embedding(graph, P, solution):
     print()
 
     same_page = []
-    
-    edges_on_same_page = {}
-    for i in range(M):
-        for j in range(i+1, M):
-            variable_count += 1
-            edges_on_same_page[(i, j)] = variable_count
-    X = lambda i, j: edges_on_same_page[(i, j)] if i < j else edges_on_same_page[(j, i)]
-
-    print(X(4,9), X(9,4))
     
     for i in range(M):
         pages = [f'E{j}' for j in range(M) if i != j and values[X(i,j)]]

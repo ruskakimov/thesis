@@ -1,6 +1,5 @@
 True
 
-[True, False, True, False]
 V0 is to the left of: V1 V2 V3 V4 
 V1 is to the left of: V2 V3 
 V2 is to the left of: 
@@ -20,7 +19,6 @@ E7 (V2, V3) belongs to pages 0
 E8 (V2, V4) belongs to pages 2
 E9 (V3, V4) belongs to pages 1
 
-75 75
 E0 is on the same page with E1, E2, E3, E4, E5, E6, E7
 E1 is on the same page with E0, E3, E4, E8
 E2 is on the same page with E0, E6, E7
