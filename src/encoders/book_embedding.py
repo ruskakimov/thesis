@@ -120,10 +120,6 @@ def encode_book_embedding(graph, P):
         for b in range(a+1, M):
             i, j = edges[a]
             k, l = edges[b]
-            # 1i 2j
-            # 3k 4l
-            # 3k 2j 4l 1i
-            # k j l i
             
             if len(set([i, j, k, l])) == 4: # pairwise different
                 cnf.append([-X(a, b), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
@@ -134,10 +130,6 @@ def encode_book_embedding(graph, P):
                 cnf.append([-X(a, b), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
                 cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
                 cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
-
-                # if i == 1 and j == 2 and k == 3 and l == 4:
-                #     print(a, b, [-X(i, j), -L(k, j), -L(j, l), -L(l, i)])
-
                 cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
     
     return cnf
