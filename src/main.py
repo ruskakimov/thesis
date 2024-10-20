@@ -114,17 +114,34 @@ def test_book_embedding():
             print(f"Time taken: {time_taken:.8f} seconds")
             print()
 
-test_book_embedding()
+# test_book_embedding()
 
 # K5 = nx.complete_graph(5)
 # P = 3
 # cnf = encode_book_embedding(K5, P)
 # # write_cnf(cnf, 'K9_5page')
 
-# with Solver(bootstrap_with=cnf) as solver:
+
+
+G = nx.read_gml('need4stacks275.gml')
+P = 4
+print(f'Number of nodes: {len(G.nodes)}')
+print(f'Number of edges: {len(G.edges)}')
+
+start_time = time.time()
+cnf = encode_book_embedding(G, P)
+end_time = time.time()
+
+print(f"Time taken: {end_time - start_time:.8f} seconds")
+
+print(f"p cnf {cnf.nv} {len(cnf.clauses)}")
+write_cnf(cnf, f'need4stacks275_{P}page')
+
+
+# with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
 #     sat_result = solver.solve()
 #     print(sat_result)
 #     print()
 
-#     solution = solver.get_model()
-#     decode_book_embedding(K5, P, solution)
+#     # solution = solver.get_model()
+#     # decode_book_embedding(K5, P, solution)
