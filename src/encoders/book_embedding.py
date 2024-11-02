@@ -137,6 +137,10 @@ def encode_book_embedding(graph, P):
     
     return cnf
 
+def encode_upward_book_embedding(digraph, P):
+    cnf = CNF()
+    return cnf
+
 def decode_book_embedding(graph, P, solution):
     if not solution:
         return

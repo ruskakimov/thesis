@@ -3,7 +3,8 @@ import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf
-from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding
+from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
+from graph_generators import generate_path_dag
 
 def test_planarity():
     true_positive = 0
@@ -114,6 +115,47 @@ def test_book_embedding():
             print(f"Time taken: {time_taken:.8f} seconds")
             print()
 
+def test_upward_book_embedding():
+    print('Testing Upward Book Embedding (kUBE) SAT encoding.')
+
+    test_cases = []
+
+    # Test directed path graphs, which are always embeddable in 1 page
+    for n in range(2, 11):
+        for p in [1, 2]:
+            test_cases.append((
+                generate_path_dag(n),
+                p,
+                True,
+                f'P{n}'
+            ))
+    
+    for digraph, pages, expected, graph_name in test_cases:
+        cnf = encode_upward_book_embedding(digraph, pages)
+        
+        number_of_clauses = len(cnf.clauses)
+        number_of_vars = cnf.nv
+
+        print(f"{graph_name} in {pages} pages")
+        print(f"p cnf {number_of_vars} {number_of_clauses}")
+
+        # TODO: Maplesat vs Cadical195
+        with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
+            start_time = time.time()
+            sat_result = solver.solve()
+            end_time = time.time()
+            
+            actual_result = 'SAT' if sat_result else 'UNSAT'
+            expected_result = 'SAT' if expected else 'UNSAT'
+
+            print(f"{'🟢' if sat_result == expected else '🔴'} actual: {actual_result}, expected: {expected_result}")
+
+            time_taken = end_time - start_time
+            print(f"Time taken: {time_taken:.8f} seconds")
+            print()
+
+test_upward_book_embedding()
+
 # test_book_embedding()
 
 # K5 = nx.complete_graph(5)
@@ -122,20 +164,19 @@ def test_book_embedding():
 # # write_cnf(cnf, 'K9_5page')
 
 
+# G = nx.read_gml('need4stacks275.gml')
+# P = 4
+# print(f'Number of nodes: {len(G.nodes)}')
+# print(f'Number of edges: {len(G.edges)}')
 
-G = nx.read_gml('need4stacks275.gml')
-P = 4
-print(f'Number of nodes: {len(G.nodes)}')
-print(f'Number of edges: {len(G.edges)}')
+# start_time = time.time()
+# cnf = encode_book_embedding(G, P)
+# end_time = time.time()
 
-start_time = time.time()
-cnf = encode_book_embedding(G, P)
-end_time = time.time()
+# print(f"Time taken: {end_time - start_time:.8f} seconds")
 
-print(f"Time taken: {end_time - start_time:.8f} seconds")
-
-print(f"p cnf {cnf.nv} {len(cnf.clauses)}")
-write_cnf(cnf, f'need4stacks275_{P}page')
+# print(f"p cnf {cnf.nv} {len(cnf.clauses)}")
+# write_cnf(cnf, f'need4stacks275_{P}page')
 
 
 # with Solver(name='Maplesat', bootstrap_with=cnf) as solver:

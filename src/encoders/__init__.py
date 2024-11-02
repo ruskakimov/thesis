@@ -1,3 +1,3 @@
 from .graceful_labeling import encode_graceful_labeling
 from .planarity import encode_planarity
-from .book_embedding import encode_book_embedding, decode_book_embedding
+from .book_embedding import encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
