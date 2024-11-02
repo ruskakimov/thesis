@@ -167,14 +167,6 @@ def encode_upward_book_embedding(digraph, P):
         j = node_index[v]
         cnf.append([L(i, j)])
 
-    # Space reduction: set V0 as first vertex on the spine
-    for i in range(1, N):
-        cnf.append([L(0,i)])
-    
-    # Space reduction: assume V1 is left of V2
-    if N >= 3:
-        cnf.append([L(1, 2)])
-
     # Rule: Every edge is assigned to at least 1 page
     for i in range(M):
         clause = [EP(i, p) for p in range(P)]
