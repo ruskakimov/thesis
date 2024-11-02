@@ -138,7 +138,77 @@ def encode_book_embedding(graph, P):
     return cnf
 
 def encode_upward_book_embedding(digraph, P):
+    """
+    SAT encodes Upward Book Embedding for P pages.
+    """
+
     cnf = CNF()
+    nodes = list(digraph.nodes)
+    edges = list(digraph.edges())
+    N = len(digraph.nodes)
+    M = len(edges)
+
+    node_index = {nodes[i]: i for i in range(N)}
+
+    L, EP, X = get_variables(N, M, P)
+
+    # Rule: Transitivity rule must hold
+    # Lij and Ljk -> Lik
+    # CNF form: Lik | ~Lij | ~Ljk
+    for i in range(N):
+        for j in range(N):
+            for k in range(N):
+                if i != j and i != k and j != k:
+                    cnf.append([-L(i,j), -L(j,k), L(i,k)])
+
+    # Space reduction: set V0 as first vertex on the spine
+    for i in range(1, N):
+        cnf.append([L(0,i)])
+    
+    # Space reduction: assume V1 is left of V2
+    if N >= 3:
+        cnf.append([L(1, 2)])
+
+    # Rule: Every edge is assigned to at least 1 page
+    for i in range(M):
+        clause = [EP(i, p) for p in range(P)]
+        cnf.append(clause)
+    
+    # TODO: Test if improves perf
+    # 1 edge to only 1 page
+    for i in range(M):
+        for p1 in range(P):
+            for p2 in range(p1+1, P):
+                cnf.append([-EP(i, p1), -EP(i, p2)])
+
+    # Space reduction: set edge 0 to page 0
+    cnf.append([EP(0, 0)])
+    for p in range(1, P):
+        cnf.append([-EP(0, p)])
+
+    # Rule: Enforce correct values for X (only true if both edges are assigned to the same page)
+    for i in range(M):
+        for j in range(i+1, M):
+            for p in range(P):
+                cnf.append([X(i, j), -EP(i, p), -EP(j, p)])
+
+    # Rule: Planarity rule for edges on the same page
+    for a in range(M):
+        for b in range(a+1, M):
+            i, j = map(lambda x: node_index[x], edges[a])
+            k, l = map(lambda x: node_index[x], edges[b])
+            
+            if len(set([i, j, k, l])) == 4: # pairwise different
+                cnf.append([-X(a, b), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
+                cnf.append([-X(a, b), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
+                cnf.append([-X(a, b), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
+                cnf.append([-X(a, b), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
+
+                cnf.append([-X(a, b), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
+                cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
+                cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
+                cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
+    
     return cnf
 
 def decode_book_embedding(graph, P, solution):
