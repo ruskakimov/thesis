@@ -4,7 +4,7 @@ from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
-from graph_generators import generate_path_dag
+from graph_generators import generate_path_dag, generate_directed_cycle_graph
 
 def test_planarity():
     true_positive = 0
@@ -128,6 +128,16 @@ def test_upward_book_embedding():
                 p,
                 True,
                 f'P{n}'
+            ))
+    
+    # Test directed cycle graphs, which are never topologically embeddable
+    for n in [3, 4, 5]:
+        for p in range(1, 4):
+            test_cases.append((
+                generate_directed_cycle_graph(n),
+                p,
+                False,
+                f'C{n}'
             ))
     
     for digraph, pages, expected, graph_name in test_cases:

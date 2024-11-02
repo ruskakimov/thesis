@@ -1,1 +1,2 @@
 from .path_dag import generate_path_dag
+from .directed_cycle_graph import generate_directed_cycle_graph
