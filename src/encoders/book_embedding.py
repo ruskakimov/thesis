@@ -160,6 +160,12 @@ def encode_upward_book_embedding(digraph, P):
             for k in range(N):
                 if i != j and i != k and j != k:
                     cnf.append([-L(i,j), -L(j,k), L(i,k)])
+    
+    # Rule: Nodes are topologically ordered
+    for u, v in edges:
+        i = node_index[u]
+        j = node_index[v]
+        cnf.append([L(i, j)])
 
     # Space reduction: set V0 as first vertex on the spine
     for i in range(1, N):
