@@ -4,7 +4,7 @@ from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
-from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence
+from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag
 
 def test_planarity():
     true_positive = 0
@@ -148,6 +148,18 @@ def test_upward_book_embedding():
                 p,
                 True,
                 f'BA{n}'
+            ))
+    
+    # Test complete directed graphs (tournament), for which the exact book thickness is known: ceil(N / 2)
+    for n in range(4, 16):
+        min_p = ceil(n / 2)
+
+        for p in range(1, min_p + 1):
+            test_cases.append((
+                generate_tournament_dag(n),
+                p,
+                p >= min_p,
+                f'T{n}'
             ))
     
     for digraph, pages, expected, graph_name in test_cases:
