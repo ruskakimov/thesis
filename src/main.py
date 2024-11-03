@@ -140,7 +140,7 @@ def test_upward_book_embedding():
                 f'C{n}'
             ))
     
-    # Test complete binary arborescence graphs
+    # Test complete binary arborescence graphs, which are always embeddable in 1 page
     for levels in [2, 3, 4, 5]:
         for p in [1, 2]:
             test_cases.append((
