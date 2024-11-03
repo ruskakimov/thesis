@@ -4,7 +4,7 @@ from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
-from graph_generators import generate_path_dag, generate_directed_cycle_graph
+from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence
 
 def test_planarity():
     true_positive = 0
@@ -138,6 +138,16 @@ def test_upward_book_embedding():
                 p,
                 False,
                 f'C{n}'
+            ))
+    
+    # Test complete binary arborescence graphs
+    for levels in [2, 3, 4, 10]:
+        for p in [1, 2]:
+            test_cases.append((
+                generate_complete_binary_arborescence(levels),
+                p,
+                True,
+                f'BA{n}'
             ))
     
     for digraph, pages, expected, graph_name in test_cases:
