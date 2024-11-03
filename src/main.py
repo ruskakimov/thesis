@@ -141,7 +141,7 @@ def test_upward_book_embedding():
             ))
     
     # Test complete binary arborescence graphs
-    for levels in [2, 3, 4]:
+    for levels in [2, 3, 4, 5]:
         for p in [1, 2]:
             test_cases.append((
                 generate_complete_binary_arborescence(levels),
