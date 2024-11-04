@@ -1,0 +1,225 @@
+Testing Upward Book Embedding (kUBE) SAT encoding.
+P2 in 1 pages
+p cnf 2 3
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00002003 seconds
+
+P2 in 2 pages
+p cnf 3 5
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001311 seconds
+
+P3 in 1 pages
+p cnf 6 12
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001001 seconds
+
+P3 in 2 pages
+p cnf 8 16
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001311 seconds
+
+P4 in 1 pages
+p cnf 12 42
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00003505 seconds
+
+P4 in 2 pages
+p cnf 15 49
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001884 seconds
+
+P5 in 1 pages
+p cnf 20 99
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001311 seconds
+
+P5 in 2 pages
+p cnf 24 110
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00004101 seconds
+
+P6 in 1 pages
+p cnf 30 189
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001526 seconds
+
+P6 in 2 pages
+p cnf 35 205
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00003004 seconds
+
+P7 in 1 pages
+p cnf 42 318
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00001693 seconds
+
+P7 in 2 pages
+p cnf 48 340
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00004101 seconds
+
+P8 in 1 pages
+p cnf 56 492
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00002265 seconds
+
+P8 in 2 pages
+p cnf 63 521
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00005698 seconds
+
+P9 in 1 pages
+p cnf 72 717
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00002408 seconds
+
+P9 in 2 pages
+p cnf 80 754
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00006390 seconds
+
+P10 in 1 pages
+p cnf 90 999
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00002527 seconds
+
+P10 in 2 pages
+p cnf 99 1045
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00009084 seconds
+
+C3 in 1 pages
+p cnf 9 16
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00001097 seconds
+
+C3 in 2 pages
+p cnf 12 23
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000715 seconds
+
+C3 in 3 pages
+p cnf 15 33
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000596 seconds
+
+C4 in 1 pages
+p cnf 16 55
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000691 seconds
+
+C4 in 2 pages
+p cnf 20 66
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000596 seconds
+
+C4 in 3 pages
+p cnf 24 81
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000596 seconds
+
+C5 in 1 pages
+p cnf 25 121
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000596 seconds
+
+C5 in 2 pages
+p cnf 30 137
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000691 seconds
+
+C5 in 3 pages
+p cnf 35 158
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00000715 seconds
+
+BA5 in 1 pages
+p cnf 42 302
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00003004 seconds
+
+BA5 in 2 pages
+p cnf 48 324
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00005198 seconds
+
+BA5 in 1 pages
+p cnf 210 3426
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00016117 seconds
+
+BA5 in 2 pages
+p cnf 224 3532
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00023890 seconds
+
+BA5 in 1 pages
+p cnf 930 30602
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00122786 seconds
+
+BA5 in 2 pages
+p cnf 960 31068
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00139785 seconds
+
+BA5 in 1 pages
+p cnf 3906 254682
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00484586 seconds
+
+BA5 in 2 pages
+p cnf 3968 256636
+🟢 actual: SAT, expected: SAT
+Time taken: 0.00642323 seconds
+
+T20 in 1 pages
+p cnf 18335 141456
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00001407 seconds
+
+T20 in 2 pages
+p cnf 18525 159602
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00175476 seconds
+
+T20 in 3 pages
+p cnf 18715 177938
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00359702 seconds
+
+T20 in 4 pages
+p cnf 18905 196464
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.03229785 seconds
+
+T20 in 5 pages
+p cnf 19095 215180
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.02756524 seconds
+
+T20 in 6 pages
+p cnf 19285 234086
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.07066488 seconds
+
+T20 in 7 pages
+p cnf 19475 253182
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.12483692 seconds
+
+T20 in 8 pages
+p cnf 19665 272468
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.74473977 seconds
+
+T20 in 9 pages
+p cnf 19855 291944
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 4.97007585 seconds
+
+T20 in 10 pages
+p cnf 20045 311610
+🟢 actual: SAT, expected: SAT
+Time taken: 0.09921312 seconds
