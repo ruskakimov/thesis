@@ -56,4 +56,4 @@ Time taken: 468.79518986 seconds
 T30 in 12 pages
 p cnf 100050 1844412
 🟢 actual: UNSAT, expected: UNSAT
-Time taken: 251.85823298 seconds
+Time taken: 251.85823298 seconds (46min kissat, 941s plingeling, 3544.96s treengeling)
