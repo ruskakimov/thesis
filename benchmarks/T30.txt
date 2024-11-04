@@ -1,0 +1,59 @@
+T30 in 1 pages
+p cnf 95265 777346
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00002289 seconds
+
+T30 in 2 pages
+p cnf 95700 872177
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.00928211 seconds
+
+T30 in 3 pages
+p cnf 96135 967443
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.01756406 seconds
+
+T30 in 4 pages
+p cnf 96570 1063144
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.12106419 seconds
+
+T30 in 5 pages
+p cnf 97005 1159280
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.06407809 seconds
+
+T30 in 6 pages
+p cnf 97440 1255851
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.16203189 seconds
+
+T30 in 7 pages
+p cnf 97875 1352857
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 0.19720912 seconds
+
+T30 in 8 pages
+p cnf 98310 1450298
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 1.68193626 seconds
+
+T30 in 9 pages
+p cnf 98745 1548174
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 7.79998589 seconds
+
+T30 in 10 pages
+p cnf 99180 1646485
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 194.70537686 seconds
+
+T30 in 11 pages
+p cnf 99615 1745231
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 468.79518986 seconds
+
+T30 in 12 pages
+p cnf 100050 1844412
+🟢 actual: UNSAT, expected: UNSAT
+Time taken: 251.85823298 seconds

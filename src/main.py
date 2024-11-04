@@ -151,7 +151,7 @@ def test_upward_book_embedding():
             ))
     
     # Test complete directed graphs (tournament), for which the exact book thickness is known: ceil(N / 2)
-    for n in range(4, 16):
+    for n in [30]:
         min_p = ceil(n / 2)
 
         for p in range(1, min_p + 1):
