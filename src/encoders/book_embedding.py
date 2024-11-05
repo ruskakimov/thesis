@@ -180,9 +180,9 @@ def encode_upward_book_embedding(digraph, P):
                 cnf.append([-EP(i, p1), -EP(i, p2)])
 
     # Space reduction: set edge 0 to page 0
-    cnf.append([EP(0, 0)])
-    for p in range(1, P):
-        cnf.append([-EP(0, p)])
+    # cnf.append([EP(0, 0)])
+    # for p in range(1, P):
+    #     cnf.append([-EP(0, p)])
 
     # Rule: Enforce correct values for X (only true if both edges are assigned to the same page)
     for i in range(M):
