@@ -1,3 +1,4 @@
+graph, edges, result, time
 G10_10, 4, SAT, 0.00006795s
 G10_20, 9, SAT, 0.00011277s
 G10_30, 13, SAT, 0.00013900s
