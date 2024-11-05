@@ -2,3 +2,4 @@ from .path_dag import generate_path_dag
 from .directed_cycle_graph import generate_directed_cycle_graph
 from .complete_binary_arborescence import generate_complete_binary_arborescence
 from .tournament_dag import generate_tournament_dag
+from .random_dag import random_dag_with_density
