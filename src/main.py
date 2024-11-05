@@ -154,7 +154,7 @@ def test_upward_book_embedding():
     for n in [30]:
         min_p = ceil(n / 2)
 
-        for p in range(1, min_p + 1):
+        for p in [15, 12, 13, 14]:
             test_cases.append((
                 generate_tournament_dag(n),
                 p,
@@ -188,12 +188,10 @@ def test_upward_book_embedding():
 
 test_upward_book_embedding()
 
-# test_book_embedding()
-
-# K5 = nx.complete_graph(5)
-# P = 3
-# cnf = encode_book_embedding(K5, P)
-# # write_cnf(cnf, 'K9_5page')
+# T30 = generate_tournament_dag(30)
+# for k in [12, 13, 14, 15]:
+#     cnf = encode_upward_book_embedding(T30, k)
+#     write_cnf(cnf, f'T30_{k}page')
 
 
 # G = nx.read_gml('need4stacks275.gml')

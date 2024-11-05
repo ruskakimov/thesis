@@ -57,3 +57,13 @@ T30 in 12 pages
 p cnf 100050 1844412
 🟢 actual: UNSAT, expected: UNSAT
 Time taken: 251.85823298 seconds (46min kissat, 941s plingeling, 3544.96s treengeling)
+
+T30 in 13 pages
+p cnf 100485 1944028
+🔴 actual: Timed out, expected: UNSAT
+> 5h MapleSAT, > 5h kissat
+
+T30 in 15 pages
+p cnf 101355 2144565
+🟢 actual: SAT, expected: SAT
+Time taken: 2.90540600 seconds (0.54s kissat)
