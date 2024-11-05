@@ -2,7 +2,7 @@ import time
 import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
-from helpers import rome_graphs, write_cnf
+from helpers import rome_graphs, write_cnf, T
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density
 
@@ -207,14 +207,23 @@ for n in range(94, 100+1):
     for density in range(10, 100+1, 10):
         G = random_dag_with_density(n, density)
         E = len(G.edges)
+
+        print()
+        print()
+        T.start(f"Encode")
         cnf = encode_upward_book_embedding(G, 2)
+        T.stop(f"Encode")
+
+
+        T.start("Load")
         with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-            start_time = time.time()
+            T.stop("Load")
+
+            T.start("Solve")
             sat_result = solver.solve()
-            end_time = time.time()
+            time_taken = T.stop("Solve")
             
             result = 'SAT' if sat_result else 'UNSAT'
-            time_taken = end_time - start_time
             
             print(", ".join([f"G{n}_{density}", str(E), result, f"{time_taken:.8f}s"]))
 
