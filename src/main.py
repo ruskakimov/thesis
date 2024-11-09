@@ -4,7 +4,7 @@ from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
-from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density
+from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag
 
 def test_planarity():
     true_positive = 0
@@ -188,6 +188,33 @@ def test_upward_book_embedding():
 
 # test_upward_book_embedding()
 
+for n in range(2, 100):
+    G = generate_grid_dag(n, n)
+    print(f"Grid DAG {n}x{n}")
+
+    p = 2
+
+    while True:
+        cnf = encode_upward_book_embedding(G, p)
+        
+        with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
+            start_time = time.time()
+            sat_result = solver.solve()
+            end_time = time.time()
+            
+            result = 'SAT' if sat_result else 'UNSAT'
+            time_taken = end_time - start_time
+            
+            # print(", ".join([f"G{n}x{n}", result, f"{time_taken:.8f}s"]))
+
+            if sat_result:
+                break
+        
+        p += 1
+        # print()
+    
+    print(f"G{n}x{n} book thickness: {p}")
+    print()
 
 
 # # Path graph
@@ -203,29 +230,29 @@ def test_upward_book_embedding():
         
 #         print(", ".join([f"P{n}", result, f"{time_taken:.8f}s"]))
 
-for n in range(94, 100+1):
-    for density in range(10, 100+1, 10):
-        G = random_dag_with_density(n, density)
-        E = len(G.edges)
+# for n in range(94, 100+1):
+#     for density in range(10, 100+1, 10):
+#         G = random_dag_with_density(n, density)
+#         E = len(G.edges)
 
-        print()
-        print()
-        T.start(f"Encode")
-        cnf = encode_upward_book_embedding(G, 2)
-        T.stop(f"Encode")
+#         print()
+#         print()
+#         T.start(f"Encode")
+#         cnf = encode_upward_book_embedding(G, 2)
+#         T.stop(f"Encode")
 
 
-        T.start("Load")
-        with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-            T.stop("Load")
+#         T.start("Load")
+#         with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
+#             T.stop("Load")
 
-            T.start("Solve")
-            sat_result = solver.solve()
-            time_taken = T.stop("Solve")
+#             T.start("Solve")
+#             sat_result = solver.solve()
+#             time_taken = T.stop("Solve")
             
-            result = 'SAT' if sat_result else 'UNSAT'
+#             result = 'SAT' if sat_result else 'UNSAT'
             
-            print(", ".join([f"G{n}_{density}", str(E), result, f"{time_taken:.8f}s"]))
+#             print(", ".join([f"G{n}_{density}", str(E), result, f"{time_taken:.8f}s"]))
 
 # T30 = generate_tournament_dag(30)
 # for k in [12, 13, 14, 15]:
