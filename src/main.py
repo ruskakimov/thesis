@@ -188,33 +188,12 @@ def test_upward_book_embedding():
 
 # test_upward_book_embedding()
 
-for n in range(2, 100):
+for n in range(2, 100+1):
     G = generate_grid_dag(n, n)
     print(f"Grid DAG {n}x{n}")
 
-    p = 2
-
-    while True:
-        cnf = encode_upward_book_embedding(G, p)
-        
-        with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-            start_time = time.time()
-            sat_result = solver.solve()
-            end_time = time.time()
-            
-            result = 'SAT' if sat_result else 'UNSAT'
-            time_taken = end_time - start_time
-            
-            # print(", ".join([f"G{n}x{n}", result, f"{time_taken:.8f}s"]))
-
-            if sat_result:
-                break
-        
-        p += 1
-        # print()
-    
-    print(f"G{n}x{n} book thickness: {p}")
-    print()
+    cnf = encode_upward_book_embedding(G, 2)
+    write_cnf(cnf, f'grid_dag_{n}x{n}')
 
 
 # # Path graph
