@@ -188,7 +188,7 @@ def test_upward_book_embedding():
 
 # test_upward_book_embedding()
 
-for n in range(2, 100+1):
+for n in range(21, 100+1):
     G = generate_grid_dag(n, n)
     print(f"Grid DAG {n}x{n}")
 
