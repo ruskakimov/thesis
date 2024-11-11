@@ -4,7 +4,7 @@
 echo "n | Processing Time"
 echo "-----------------------------------------"
 
-for n in {2..25}
+for n in {26..28}
 do
 #   printf "Running for n = %d\n" "$n"
   
