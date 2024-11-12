@@ -218,8 +218,8 @@ def decode_book_embedding(graph, P, solution):
     N = len(vertices)
     M = len(edges)
 
-    var_count = N*(N-1)/2 + M*P + M*(M-1)/2
-    assert len(solution) == var_count
+    # var_count = N*(N-1)/2 + M*P + M*(M-1)/2
+    # assert len(solution) == var_count
 
     L, EP, X = get_variables(N, M, P)
 

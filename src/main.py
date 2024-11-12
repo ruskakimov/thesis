@@ -188,18 +188,32 @@ def test_upward_book_embedding():
 
 # test_upward_book_embedding()
 
-for n in range(2, 29):
-    G = generate_grid_dag(n, n)
-    print(f"Grid DAG {n}x{n}")
+# for n in range(2, 29):
+#     G = generate_grid_dag(n, n)
+#     print(f"Grid DAG {n}x{n}")
 
-    # cnf = encode_upward_book_embedding(G, 2)
-    T.start("Encode")
-    cnf = encode_2UBE(G)
-    T.stop("Encode")
+#     # cnf = encode_upward_book_embedding(G, 2)
+#     T.start("Encode")
+#     cnf = encode_2UBE(G)
+#     T.stop("Encode")
 
-    T.start("Write")
-    write_cnf(cnf, f'grid_dag_v2_{n}x{n}')
-    T.stop("Write")
+#     T.start("Write")
+#     write_cnf(cnf, f'grid_dag_v2_{n}x{n}')
+#     T.stop("Write")
+
+
+
+# for n in [2,3,4]:
+#     G = generate_grid_dag(n, n)
+#     print(f"Grid DAG {n}x{n}")
+
+#     cnf = encode_2UBE(G)
+
+#     T.start("Solve")
+#     with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
+#         solver.solve()
+#         T.stop("Solve")
+#         decode_book_embedding(G, 2, solver.get_model())
 
 
 # # Path graph
