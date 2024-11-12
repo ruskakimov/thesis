@@ -3,7 +3,7 @@ import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
-from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding
+from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag
 
 def test_planarity():
@@ -188,12 +188,18 @@ def test_upward_book_embedding():
 
 # test_upward_book_embedding()
 
-for n in range(26, 100+1):
+for n in range(2, 29):
     G = generate_grid_dag(n, n)
     print(f"Grid DAG {n}x{n}")
 
-    cnf = encode_upward_book_embedding(G, 2)
-    write_cnf(cnf, f'grid_dag_{n}x{n}')
+    # cnf = encode_upward_book_embedding(G, 2)
+    T.start("Encode")
+    cnf = encode_2UBE(G)
+    T.stop("Encode")
+
+    T.start("Write")
+    write_cnf(cnf, f'grid_dag_v2_{n}x{n}')
+    T.stop("Write")
 
 
 # # Path graph

@@ -1,0 +1,95 @@
+Grid DAG 2x2
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.0004 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0005 seconds.
+Grid DAG 3x3
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.0087 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0059 seconds.
+Grid DAG 4x4
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.0450 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0094 seconds.
+Grid DAG 5x5
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.0362 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0065 seconds.
+Grid DAG 6x6
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.0681 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0152 seconds.
+Grid DAG 7x7
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.1027 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0343 seconds.
+Grid DAG 8x8
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.1733 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.0820 seconds.
+Grid DAG 9x9
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.3798 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.1504 seconds.
+Grid DAG 10x10
+'Encode' started.
+'Encode' stopped. Elapsed time: 0.6528 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.3862 seconds.
+Grid DAG 11x11
+'Encode' started.
+'Encode' stopped. Elapsed time: 1.1487 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.5450 seconds.
+Grid DAG 12x12
+'Encode' started.
+'Encode' stopped. Elapsed time: 1.8347 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 0.7950 seconds.
+Grid DAG 13x13
+'Encode' started.
+'Encode' stopped. Elapsed time: 3.3087 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 1.2831 seconds.
+Grid DAG 14x14
+'Encode' started.
+'Encode' stopped. Elapsed time: 4.4636 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 2.4915 seconds.
+Grid DAG 15x15
+'Encode' started.
+'Encode' stopped. Elapsed time: 6.8802 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 2.4694 seconds.
+Grid DAG 16x16
+'Encode' started.
+'Encode' stopped. Elapsed time: 9.4659 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 3.7940 seconds.
+Grid DAG 17x17
+'Encode' started.
+'Encode' stopped. Elapsed time: 15.0307 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 5.3637 seconds.
+Grid DAG 18x18
+'Encode' started.
+'Encode' stopped. Elapsed time: 20.6753 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 10.1272 seconds.
+Grid DAG 19x19
+'Encode' started.
+'Encode' stopped. Elapsed time: 34.4573 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 10.8313 seconds.
+Grid DAG 20x20
+'Encode' started.
+'Encode' stopped. Elapsed time: 77.3288 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 17.3144 seconds.
