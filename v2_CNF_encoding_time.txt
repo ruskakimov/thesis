@@ -93,3 +93,43 @@ Grid DAG 20x20
 'Encode' stopped. Elapsed time: 77.3288 seconds.
 'Write' started.
 'Write' stopped. Elapsed time: 17.3144 seconds.
+Grid DAG 21x21
+'Encode' started.
+'Encode' stopped. Elapsed time: 68.3574 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 20.8384 seconds.
+Grid DAG 22x22
+'Encode' started.
+'Encode' stopped. Elapsed time: 438.8780 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 51.2219 seconds.
+Grid DAG 23x23
+'Encode' started.
+'Encode' stopped. Elapsed time: 921.9725 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 72.8988 seconds.
+Grid DAG 24x24
+'Encode' started.
+'Encode' stopped. Elapsed time: 1493.3948 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 105.4711 seconds.
+Grid DAG 25x25
+'Encode' started.
+'Encode' stopped. Elapsed time: 2748.0993 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 531.4108 seconds.
+Grid DAG 26x26
+'Encode' started.
+'Encode' stopped. Elapsed time: 4841.3198 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 590.6301 seconds.
+Grid DAG 27x27
+'Encode' started.
+'Encode' stopped. Elapsed time: 7750.9076 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 880.8653 seconds.
+Grid DAG 28x28
+'Encode' started.
+'Encode' stopped. Elapsed time: 13553.1449 seconds.
+'Write' started.
+'Write' stopped. Elapsed time: 1331.6355 seconds.
