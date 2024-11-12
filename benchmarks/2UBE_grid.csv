@@ -1,4 +1,4 @@
-n, v1_solve_seconds, v2_solve_seconds, v1_cnf_bytes, v1_cnf_vars, v1_cnf_clauses
+n, v1_solve_seconds, v1_cnf_bytes, v1_cnf_vars, v1_cnf_clauses
 2, 0.004, 685, 20, 64
 3, 0.008, 13704, 126, 1024
 4, 0.036, 84385, 444, 5776
