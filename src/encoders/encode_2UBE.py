@@ -61,4 +61,7 @@ def encode_2UBE(digraph):
                 cnf.append([TOP(a), TOP(b), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
                 cnf.append([TOP(a), TOP(b), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
     
+    # Assign 1 edge to top page
+    cnf.append([TOP(0)])
+    
     return cnf
