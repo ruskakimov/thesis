@@ -298,3 +298,55 @@ Benchmark 2: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_23x23.cnf
 Summary
   ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_23x23.cnf ran
     1.57 ± 0.17 times faster than ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_23x23.cnf
+-----------------------------------------
+Running for n = 24
+Benchmark 1: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_24x24.cnf
+  Time (mean ± σ):     237.621 s ±  3.504 s    [User: 163.475 s, System: 53.535 s]
+  Range (min … max):   231.953 s … 246.041 s    20 runs
+ 
+  Warning: Ignoring non-zero exit code.
+ 
+Benchmark 2: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_24x24.cnf
+  Time (mean ± σ):     143.109 s ±  3.522 s    [User: 84.220 s, System: 41.998 s]
+  Range (min … max):   137.462 s … 151.830 s    20 runs
+ 
+  Warning: Ignoring non-zero exit code.
+ 
+Summary
+  ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_24x24.cnf ran
+    1.66 ± 0.05 times faster than ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_24x24.cnf
+-----------------------------------------
+Running for n = 25
+Benchmark 1: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_25x25.cnf
+  Time (mean ± σ):     377.786 s ±  4.942 s    [User: 214.154 s, System: 102.921 s]
+  Range (min … max):   370.653 s … 389.322 s    20 runs
+ 
+  Warning: Ignoring non-zero exit code.
+ 
+Benchmark 2: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_25x25.cnf
+  Time (mean ± σ):     241.390 s ±  4.812 s    [User: 112.580 s, System: 79.751 s]
+  Range (min … max):   234.587 s … 252.506 s    20 runs
+ 
+  Warning: Ignoring non-zero exit code.
+ 
+Summary
+  ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_25x25.cnf ran
+    1.57 ± 0.04 times faster than ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_25x25.cnf
+-----------------------------------------
+Running for n = 26
+Benchmark 1: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_26x26.cnf
+  Time (mean ± σ):     570.635 s ±  9.668 s    [User: 280.151 s, System: 169.549 s]
+  Range (min … max):   552.684 s … 586.745 s    20 runs
+ 
+  Warning: Ignoring non-zero exit code.
+ 
+Benchmark 2: ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_26x26.cnf
+  Time (mean ± σ):     363.598 s ± 13.889 s    [User: 148.707 s, System: 126.962 s]
+  Range (min … max):   343.225 s … 390.953 s    20 runs
+ 
+  Warning: Ignoring non-zero exit code.
+ 
+Summary
+  ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_v2_26x26.cnf ran
+    1.57 ± 0.07 times faster than ./solvers/kissat-4.0.1-apple-amd64 ./cnf/grid_dag_26x26.cnf
+-----------------------------------------
