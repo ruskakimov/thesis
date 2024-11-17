@@ -4,3 +4,4 @@ from .complete_binary_arborescence import generate_complete_binary_arborescence
 from .tournament_dag import generate_tournament_dag
 from .random_dag import random_dag_with_density
 from .grid_dag import generate_grid_dag
+from .page_3_dags import diamond_graph, manta_ray_graph

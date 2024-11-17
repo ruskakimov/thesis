@@ -1,10 +1,11 @@
+import matplotlib.pyplot as plt
 import time
 import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE
-from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag
+from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph
 
 def test_planarity():
     true_positive = 0
@@ -186,98 +187,15 @@ def test_upward_book_embedding():
             print(f"Time taken: {time_taken:.8f} seconds")
             print()
 
-# test_upward_book_embedding()
-
-for n in range(21, 29):
-    G = generate_grid_dag(n, n)
-    print(f"Grid DAG {n}x{n}")
-
-    # cnf = encode_upward_book_embedding(G, 2)
-    T.start("Encode")
-    cnf = encode_2UBE(G)
-    T.stop("Encode")
-
-    T.start("Write")
-    write_cnf(cnf, f'grid_dag_v2_{n}x{n}')
-    T.stop("Write")
-
-
-
-# for n in [2,3,4]:
-#     G = generate_grid_dag(n, n)
-#     print(f"Grid DAG {n}x{n}")
-
-#     cnf = encode_2UBE(G)
-
-#     T.start("Solve")
-#     with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-#         solver.solve()
-#         T.stop("Solve")
-#         decode_book_embedding(G, 2, solver.get_model())
-
-
-# # Path graph
-# for n in range(2, 1000+1):
-#     cnf = encode_upward_book_embedding(generate_path_dag(n), 2)
-#     with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-#         start_time = time.time()
-#         sat_result = solver.solve()
-#         end_time = time.time()
+def find_upward_book_thickness(graph, max_pages):
+    for p in range(1, max_pages + 1):
+        cnf = encode_upward_book_embedding(graph, p)
         
-#         result = 'SAT' if sat_result else 'UNSAT'
-#         time_taken = end_time - start_time
-        
-#         print(", ".join([f"P{n}", result, f"{time_taken:.8f}s"]))
+        with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
+            sat_result = solver.solve()
+            if sat_result:
+                return p
+    return None
 
-# for n in range(94, 100+1):
-#     for density in range(10, 100+1, 10):
-#         G = random_dag_with_density(n, density)
-#         E = len(G.edges)
-
-#         print()
-#         print()
-#         T.start(f"Encode")
-#         cnf = encode_upward_book_embedding(G, 2)
-#         T.stop(f"Encode")
-
-
-#         T.start("Load")
-#         with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-#             T.stop("Load")
-
-#             T.start("Solve")
-#             sat_result = solver.solve()
-#             time_taken = T.stop("Solve")
-            
-#             result = 'SAT' if sat_result else 'UNSAT'
-            
-#             print(", ".join([f"G{n}_{density}", str(E), result, f"{time_taken:.8f}s"]))
-
-# T30 = generate_tournament_dag(30)
-# for k in [12, 13, 14, 15]:
-#     cnf = encode_upward_book_embedding(T30, k)
-#     write_cnf(cnf, f'T30_{k}page')
-
-
-# G = nx.read_gml('need4stacks275.gml')
-# P = 4
-# print(f'Number of nodes: {len(G.nodes)}')
-# print(f'Number of edges: {len(G.edges)}')
-
-# start_time = time.time()
-# cnf = encode_book_embedding(G, P)
-# end_time = time.time()
-
-# print(f"Time taken: {end_time - start_time:.8f} seconds")
-
-# print(f"p cnf {cnf.nv} {len(cnf.clauses)}")
-# write_cnf(cnf, f'need4stacks275_{P}page')
-
-
-# with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-#     sat_result = solver.solve()
-#     print(sat_result)
-#     print()
-
-#     # solution = solver.get_model()
-#     # decode_book_embedding(K5, P, solution)
+print('Diamond graph book thickness:', find_upward_book_thickness(diamond_graph, 10))
+print('Manta ray graph book thickness:', find_upward_book_thickness(manta_ray_graph, 10))
