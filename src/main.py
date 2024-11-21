@@ -5,7 +5,7 @@ from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE
-from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph
+from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph, generate_cube_dag
 
 def test_planarity():
     true_positive = 0
@@ -197,5 +197,8 @@ def find_upward_book_thickness(graph, max_pages):
                 return p
     return None
 
-print('Diamond graph book thickness:', find_upward_book_thickness(diamond_graph, 10))
-print('Manta ray graph book thickness:', find_upward_book_thickness(manta_ray_graph, 10))
+# print('Diamond graph book thickness:', find_upward_book_thickness(diamond_graph, 10))
+# print('Manta ray graph book thickness:', find_upward_book_thickness(manta_ray_graph, 10))
+
+c3 = find_upward_book_thickness(generate_cube_dag(5), 10)
+print('Cube 3x3x3 graph book thickness:', c3)
