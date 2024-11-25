@@ -1,5 +1,5 @@
 from ortools.sat.python import cp_model
-
+from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag
 
 def encode_graph_constraints(n, edges):
     # Create the model
@@ -79,13 +79,16 @@ def encode_graph_constraints(n, edges):
     # Output results
     if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
         print("Solution found:")
-        for i in range(n):
-            print(f'Node {i}: pos={solver.Value(pos[i])}, page={solver.Value(page[i])}')
+        # Retrieve and sort nodes by position
+        node_positions = [(i, solver.Value(pos[i])) for i in range(n)]
+        node_positions.sort(key=lambda x: x[1])  # Sort by position value
+        print(" ".join(map(str, [node for node, pos in node_positions])))
     else:
         print("No solution found.")
 
-# Example usage
-n = 4  # Number of nodes
-edges = [(0, 1), (2, 1), (2, 3), (0, 2)]  # Directed edges
+# # Example usage
+G = generate_grid_dag(4, 4)
+edges = list(G.edges())
+n = G.number_of_nodes()
 
 encode_graph_constraints(n, edges)
