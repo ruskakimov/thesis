@@ -23,11 +23,54 @@ def encode_graph_constraints(n, edges):
     for i, (u, v) in enumerate(edges):
         for j, (w, x) in enumerate(edges):
             if i != j:
-                # Overlap condition
-                overlap1 = pos[u] < pos[w] < pos[v] < pos[x]
-                overlap2 = pos[w] < pos[u] < pos[x] < pos[v]
+                # Create auxiliary Boolean variables for overlap conditions
+                overlap1 = model.NewBoolVar(f'overlap1_{u}_{v}_{w}_{x}')
+                overlap2 = model.NewBoolVar(f'overlap2_{u}_{v}_{w}_{x}')
 
-                model.AddImplication(page[i] == page[j], not overlap1 and not overlap2)
+                # Create Boolean variables for individual comparisons
+                u_lt_w = model.NewBoolVar(f'u_lt_w_{u}_{w}')
+                w_lt_v = model.NewBoolVar(f'w_lt_v_{w}_{v}')
+                v_lt_x = model.NewBoolVar(f'v_lt_x_{v}_{x}')
+                
+                w_lt_u = model.NewBoolVar(f'w_lt_u_{w}_{u}')
+                u_lt_x = model.NewBoolVar(f'u_lt_x_{u}_{x}')
+                x_lt_v = model.NewBoolVar(f'x_lt_v_{x}_{v}')
+
+                # Define conditions for overlap1: pos[u] < pos[w] < pos[v] < pos[x]
+                model.Add(pos[u] < pos[w]).OnlyEnforceIf(u_lt_w)
+                model.Add(pos[u] >= pos[w]).OnlyEnforceIf(u_lt_w.Not())
+
+                model.Add(pos[w] < pos[v]).OnlyEnforceIf(w_lt_v)
+                model.Add(pos[w] >= pos[v]).OnlyEnforceIf(w_lt_v.Not())
+
+                model.Add(pos[v] < pos[x]).OnlyEnforceIf(v_lt_x)
+                model.Add(pos[v] >= pos[x]).OnlyEnforceIf(v_lt_x.Not())
+
+                # Define overlap1 as a conjunction of the above conditions
+                model.AddBoolAnd([u_lt_w, w_lt_v, v_lt_x]).OnlyEnforceIf(overlap1)
+                model.AddBoolOr([u_lt_w.Not(), w_lt_v.Not(), v_lt_x.Not()]).OnlyEnforceIf(overlap1.Not())
+
+                # Define conditions for overlap2: pos[w] < pos[u] < pos[x] < pos[v]
+                model.Add(pos[w] < pos[u]).OnlyEnforceIf(w_lt_u)
+                model.Add(pos[w] >= pos[u]).OnlyEnforceIf(w_lt_u.Not())
+
+                model.Add(pos[u] < pos[x]).OnlyEnforceIf(u_lt_x)
+                model.Add(pos[u] >= pos[x]).OnlyEnforceIf(u_lt_x.Not())
+
+                model.Add(pos[x] < pos[v]).OnlyEnforceIf(x_lt_v)
+                model.Add(pos[x] >= pos[v]).OnlyEnforceIf(x_lt_v.Not())
+
+                # Define overlap2 as a conjunction of the above conditions
+                model.AddBoolAnd([w_lt_u, u_lt_x, x_lt_v]).OnlyEnforceIf(overlap2)
+                model.AddBoolOr([w_lt_u.Not(), u_lt_x.Not(), x_lt_v.Not()]).OnlyEnforceIf(overlap2.Not())
+
+                # Non-overlap condition: If on the same page, no overlap
+                same_page = model.NewBoolVar(f'same_page_{i}_{j}')
+                model.Add(page[u] == page[w]).OnlyEnforceIf(same_page)
+                model.Add(page[u] != page[w]).OnlyEnforceIf(same_page.Not())
+
+                model.AddImplication(same_page, overlap1.Not())
+                model.AddImplication(same_page, overlap2.Not())
 
     # Solver
     solver = cp_model.CpSolver()
@@ -43,5 +86,6 @@ def encode_graph_constraints(n, edges):
 
 # Example usage
 n = 4  # Number of nodes
-edges = [(0, 1), (1, 2), (2, 3), (0, 2)]  # Directed edges
+edges = [(0, 1), (2, 1), (2, 3), (0, 2)]  # Directed edges
+
 encode_graph_constraints(n, edges)
