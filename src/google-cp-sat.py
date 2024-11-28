@@ -17,7 +17,6 @@ def solve(n, edges):
 
     # Constraints for directed edges
     for u, v in edges:
-        # Enforce directionality: pos[u] < pos[v]
         model.Add(pos_of_node[u] < pos_of_node[v])
 
     # Non-overlapping edges on the same page
@@ -88,10 +87,12 @@ def solve(n, edges):
         print("No solution found.")
 
 # # Example usage
-G = generate_grid_dag(4, 4)
+G = generate_grid_dag(8, 8)
 edges = list(G.edges())
 n = G.number_of_nodes()
 
 T.start('Solve')
 solve(n, edges)
 T.stop('Solve')
+
+# cp1: 30 seconds for 8x8
