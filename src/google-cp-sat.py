@@ -75,8 +75,8 @@ def solve(n, edges):
 
                 # Non-overlap condition: If on the same page, no overlap
                 same_page = model.NewBoolVar(f'same_page_{i}_{j}')
-                model.Add(page_of_edge[u] == page_of_edge[w]).OnlyEnforceIf(same_page)
-                model.Add(page_of_edge[u] != page_of_edge[w]).OnlyEnforceIf(same_page.Not())
+                model.Add(page_of_edge[i] == page_of_edge[j]).OnlyEnforceIf(same_page)
+                model.Add(page_of_edge[i] != page_of_edge[j]).OnlyEnforceIf(same_page.Not())
 
                 model.AddImplication(same_page, overlap1.Not())
                 model.AddImplication(same_page, overlap2.Not())
@@ -98,7 +98,7 @@ def solve(n, edges):
         print("No solution found.")
 
 # # Example usage
-G = generate_grid_dag(4, 4)
+G = generate_grid_dag(8, 8)
 edges = list(G.edges())
 n = G.number_of_nodes()
 
@@ -109,13 +109,12 @@ T.stop('Solve')
 print(node_order)
 print(edge_assignment)
 
-p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
-p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
+# p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
+# p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
 
-print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p1_edges)))
-print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p2_edges)))
-
-# cp1: 30 seconds for 8x8
-# Solution: 0 1 8 16 9 2 3 10 17 24 32 25 18 11 4 5 12 19 26 33 40 48 41 34 27 20 13 6 7 14 21 28 35 42 49 56 57 50 43 36 29 22 15 23 30 37 44 51 58 59 52 45 38 31 39 46 53 60 61 54 47 55 62 63
+# print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p1_edges)))
+# print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p2_edges)))
 
 print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+
+# cp1: 30 seconds for 8x8
