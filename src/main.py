@@ -4,7 +4,7 @@ import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
-from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE
+from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE, solve_2UBE_SAT, verify_2UBE
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph, generate_cube_dag, generate_4d_grid_dag
 
 def test_planarity():
@@ -200,6 +200,18 @@ def find_upward_book_thickness(graph, max_pages):
 # print('Diamond graph book thickness:', find_upward_book_thickness(diamond_graph, 10))
 # print('Manta ray graph book thickness:', find_upward_book_thickness(manta_ray_graph, 10))
 
-for n in range(2, 11):
-    bt = find_upward_book_thickness(generate_4d_grid_dag(n), 10)
-    print(f'4d grid {n} graph book thickness:', bt)
+
+G = generate_grid_dag(4, 4)
+edges = list(G.edges())
+n = G.number_of_nodes()
+
+T.start('Solve')
+node_order, edge_assignment = solve_2UBE_SAT(G)
+print(node_order)
+print(edge_assignment)
+T.stop('Solve')
+
+# CP-1: 30 seconds for 8x8
+# Solution: 0 1 8 16 9 2 3 10 17 24 32 25 18 11 4 5 12 19 26 33 40 48 41 34 27 20 13 6 7 14 21 28 35 42 49 56 57 50 43 36 29 22 15 23 30 37 44 51 58 59 52 45 38 31 39 46 53 60 61 54 47 55 62 63
+
+print('Correct:', verify_2UBE(G, node_order, edge_assignment))

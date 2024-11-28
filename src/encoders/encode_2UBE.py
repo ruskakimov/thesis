@@ -1,4 +1,6 @@
 from pysat.formula import CNF
+from pysat.solvers import Solver
+from functools import cmp_to_key
 
 def get_variables(N):
     variable_count = 0
@@ -65,3 +67,49 @@ def encode_2UBE(digraph):
     cnf.append([TOP(0)])
     
     return cnf
+
+
+# Returns node order and edge assignment
+def solve_2UBE_SAT(digraph):
+    cnf = encode_2UBE(digraph)
+    with Solver('Maplesat', bootstrap_with=cnf) as solver:
+        sat_result = solver.solve()
+        if not sat_result:
+            return None, None
+        else:
+            model = solver.get_model()
+            N = len(digraph.nodes)
+            M = len(digraph.edges())
+            L, TOP = get_variables(N)
+
+            value_of = {}
+            for var in model:
+                value_of[abs(var)] = var > 0
+                value_of[-abs(var)] = var < 0
+
+            node_order = list(digraph.nodes)
+            node_order.sort(key=cmp_to_key(lambda i, j: -1 if value_of[L(i, j)] else 1))
+
+            edge_assignment = [+value_of[TOP(i)] for i in range(M)]
+
+            return node_order, edge_assignment
+
+
+
+def verify_2UBE(G, node_order, edge_assignment):
+    edges = list(G.edges())
+    p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
+    p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
+
+    assert len(p1_edges) + len(p2_edges) == len(edges)
+    
+    for page_edges in [p1_edges, p2_edges]:
+        for i, (u, v) in enumerate(page_edges):
+            for j, (w, x) in enumerate(page_edges):
+                if i != j and len(set([u, v, w, x])) == 4:
+                    overlap1 = node_order[u] < node_order[w] < node_order[v] < node_order[x]
+                    overlap2 = node_order[w] < node_order[u] < node_order[x] < node_order[v]
+                    if overlap1 or overlap2:
+                        print(f"Overlap: {u}-{v} and {w}-{x}")
+                        return False
+    return True

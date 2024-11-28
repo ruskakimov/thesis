@@ -108,20 +108,4 @@ T.stop('Solve')
 # cp1: 30 seconds for 8x8
 # Solution: 0 1 8 16 9 2 3 10 17 24 32 25 18 11 4 5 12 19 26 33 40 48 41 34 27 20 13 6 7 14 21 28 35 42 49 56 57 50 43 36 29 22 15 23 30 37 44 51 58 59 52 45 38 31 39 46 53 60 61 54 47 55 62 63
 
-def verify_2UBE(G, node_order, edge_assignment):
-    edges = list(G.edges())
-    p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
-    p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
-    
-    for page_edges in [p1_edges, p2_edges]:
-        for i, (u, v) in enumerate(page_edges):
-            for j, (w, x) in enumerate(page_edges):
-                if i != j and len(set([u, v, w, x])) == 4:
-                    overlap1 = node_order[u] < node_order[w] < node_order[v] < node_order[x]
-                    overlap2 = node_order[w] < node_order[u] < node_order[x] < node_order[v]
-                    if overlap1 or overlap2:
-                        return False
-
-    return True
-
 print('Correct:', verify_2UBE(G, node_order, edge_assignment))
