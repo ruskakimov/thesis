@@ -22,7 +22,7 @@ def solve(n, edges):
     # Non-overlapping edges on the same page
     for i, (u, v) in enumerate(edges):
         for j, (w, x) in enumerate(edges):
-            if i != j:
+            if i != j and len(set([u, v, w, x])) == 4: # pairwise different
                 # Create auxiliary Boolean variables for overlap conditions
                 overlap1 = model.NewBoolVar(f'overlap1_{u}_{v}_{w}_{x}')
                 overlap2 = model.NewBoolVar(f'overlap2_{u}_{v}_{w}_{x}')
