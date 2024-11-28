@@ -23,6 +23,14 @@ def solve(n, edges):
     for i, (u, v) in enumerate(edges):
         for j, (w, x) in enumerate(edges):
             if i != j and len(set([u, v, w, x])) == 4: # pairwise different
+                # pi = page_of_edge[i]
+                # pj = page_of_edge[j]
+
+                # overlap1 = pos_of_node[u] < pos_of_node[w] < pos_of_node[v] < pos_of_node[x]
+                # overlap2 = pos_of_node[w] < pos_of_node[u] < pos_of_node[x] < pos_of_node[v]
+
+                # model.AddBoolAnd(not overlap1, not overlap2).OnlyEnforceIf(pi == pj)
+
                 # Create auxiliary Boolean variables for overlap conditions
                 overlap1 = model.NewBoolVar(f'overlap1_{u}_{v}_{w}_{x}')
                 overlap2 = model.NewBoolVar(f'overlap2_{u}_{v}_{w}_{x}')
@@ -82,18 +90,38 @@ def solve(n, edges):
         # Retrieve and sort nodes by position
         node_positions = [(i, solver.Value(pos_of_node[i])) for i in range(n)]
         node_positions.sort(key=lambda x: x[1])  # Sort by position value
-        print(" ".join(map(str, [node for node, pos in node_positions])))
+        order = [node for node, pos in node_positions]
+        print(" ".join(map(str, order)))
+        return (order, [solver.Value(page) for page in page_of_edge])
     else:
         print("No solution found.")
 
 # # Example usage
-G = generate_grid_dag(8, 8)
+G = generate_grid_dag(4, 4)
 edges = list(G.edges())
 n = G.number_of_nodes()
 
 T.start('Solve')
-solve(n, edges)
+node_order, edge_assignment = solve(n, edges)
 T.stop('Solve')
 
 # cp1: 30 seconds for 8x8
 # Solution: 0 1 8 16 9 2 3 10 17 24 32 25 18 11 4 5 12 19 26 33 40 48 41 34 27 20 13 6 7 14 21 28 35 42 49 56 57 50 43 36 29 22 15 23 30 37 44 51 58 59 52 45 38 31 39 46 53 60 61 54 47 55 62 63
+
+def verify_2UBE(G, node_order, edge_assignment):
+    edges = list(G.edges())
+    p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
+    p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
+    
+    for page_edges in [p1_edges, p2_edges]:
+        for i, (u, v) in enumerate(page_edges):
+            for j, (w, x) in enumerate(page_edges):
+                if i != j and len(set([u, v, w, x])) == 4:
+                    overlap1 = node_order[u] < node_order[w] < node_order[v] < node_order[x]
+                    overlap2 = node_order[w] < node_order[u] < node_order[x] < node_order[v]
+                    if overlap1 or overlap2:
+                        return False
+
+    return True
+
+print('Correct:', verify_2UBE(G, node_order, edge_assignment))
