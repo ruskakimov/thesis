@@ -101,14 +101,16 @@ def verify_2UBE(G, node_order, edge_assignment):
     p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
     p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
 
+    pos_of_node = {node: i for i, node in enumerate(node_order)}
+
     assert len(p1_edges) + len(p2_edges) == len(edges)
     
     for page_edges in [p1_edges, p2_edges]:
         for i, (u, v) in enumerate(page_edges):
             for j, (w, x) in enumerate(page_edges):
                 if i != j and len(set([u, v, w, x])) == 4:
-                    overlap1 = node_order[u] < node_order[w] < node_order[v] < node_order[x]
-                    overlap2 = node_order[w] < node_order[u] < node_order[x] < node_order[v]
+                    overlap1 = pos_of_node[u] < pos_of_node[w] < pos_of_node[v] < pos_of_node[x]
+                    overlap2 = pos_of_node[w] < pos_of_node[u] < pos_of_node[x] < pos_of_node[v]
                     if overlap1 or overlap2:
                         print(f"Overlap: {u}-{v} and {w}-{x}")
                         return False
