@@ -1,4 +1,5 @@
 from pysat.formula import CNF
+from pysat.solvers import Solver
 from functools import cmp_to_key
 
 def get_variables(N, M, P):
@@ -198,14 +199,14 @@ def encode_upward_book_embedding(digraph, P):
             
             if len(set([i, j, k, l])) == 4: # pairwise different
                 cnf.append([-X(a, b), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
-                cnf.append([-X(a, b), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
-                cnf.append([-X(a, b), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
-                cnf.append([-X(a, b), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
+                # cnf.append([-X(a, b), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
+                # cnf.append([-X(a, b), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
+                # cnf.append([-X(a, b), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
 
                 cnf.append([-X(a, b), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
-                cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
-                cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
-                cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
+                # cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
+                # cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
+                # cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
     
     return cnf
 
@@ -270,3 +271,33 @@ def decode_book_embedding(graph, P, solution):
 # Main it forbids the case where X is true and Y isn't
 # if X is true, Y is true
 # but if X is false, no restriction on Y
+
+def solve_kUBE_SAT(digraph, k):
+    cnf = encode_upward_book_embedding(digraph, k)
+    with Solver('Maplesat', bootstrap_with=cnf) as solver:
+        sat_result = solver.solve()
+        if not sat_result:
+            return None, None
+        else:
+            model = solver.get_model()
+            N = len(digraph.nodes)
+            M = len(digraph.edges())
+            L, EP, X = get_variables(N, M, k)
+
+            value_of = {}
+            for var in model:
+                value_of[abs(var)] = var > 0
+                value_of[-abs(var)] = var < 0
+
+            node_order = list(digraph.nodes)
+            node_order.sort(key=cmp_to_key(lambda i, j: -1 if value_of[L(i, j)] else 1))
+
+            edge_assignment = [0] * M
+            for i in range(M):
+                for p in range(k):
+                    if value_of[EP(i, p)]:
+                        edge_assignment[i] = p
+                        break
+
+            return node_order, edge_assignment
+        

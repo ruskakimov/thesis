@@ -4,7 +4,7 @@ import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
-from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE, solve_2UBE_SAT, verify_2UBE
+from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE, solve_2UBE_SAT, verify_2UBE, solve_kUBE_SAT
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph, generate_cube_dag, generate_4d_grid_dag
 
 def test_planarity():
@@ -207,6 +207,7 @@ n = G.number_of_nodes()
 
 T.start('Solve')
 node_order, edge_assignment = solve_2UBE_SAT(G)
+# node_order, edge_assignment = solve_kUBE_SAT(G, 2)
 print(node_order)
 print(edge_assignment)
 T.stop('Solve')
