@@ -201,13 +201,13 @@ def find_upward_book_thickness(graph, max_pages):
 # print('Manta ray graph book thickness:', find_upward_book_thickness(manta_ray_graph, 10))
 
 
-G = generate_grid_dag(4, 4)
+G = generate_grid_dag(16, 16)
 edges = list(G.edges())
 n = G.number_of_nodes()
 
 T.start('Solve')
-node_order, edge_assignment = solve_2UBE_SAT(G)
-# node_order, edge_assignment = solve_kUBE_SAT(G, 2)
+# node_order, edge_assignment = solve_2UBE_SAT(G)
+node_order, edge_assignment = solve_kUBE_SAT(G, 2)
 print(node_order)
 print(edge_assignment)
 T.stop('Solve')

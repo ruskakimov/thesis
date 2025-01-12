@@ -97,24 +97,38 @@ def solve(n, edges):
     else:
         print("No solution found.")
 
-# # Example usage
-G = generate_grid_dag(8, 8)
-edges = list(G.edges())
-n = G.number_of_nodes()
+# # # Example usage
+# G = generate_grid_dag(8, 8)
+# edges = list(G.edges())
+# n = G.number_of_nodes()
 
-T.start('Solve')
-node_order, edge_assignment = solve(n, edges)
-T.stop('Solve')
+# T.start('Solve')
+# node_order, edge_assignment = solve(n, edges)
+# T.stop('Solve')
 
-print(node_order)
-print(edge_assignment)
+# print(node_order)
+# print(edge_assignment)
 
-# p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
-# p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
+# # p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
+# # p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
 
-# print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p1_edges)))
-# print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p2_edges)))
+# # print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p1_edges)))
+# # print(" ".join(map(lambda x: f"{x[0]}-{x[1]}", p2_edges)))
 
-print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+# print('Correct:', verify_2UBE(G, node_order, edge_assignment))
 
-# cp1: 30 seconds for 8x8
+# # cp1: 30 seconds for 8x8
+
+for n in range(20, 29):
+    G = generate_grid_dag(n, n)
+    edges = list(G.edges())
+    node_count = G.number_of_nodes()
+
+    print('Solving for', n)
+
+    T.start('Solve')
+    node_order, edge_assignment = solve(node_count, edges)
+    T.stop('Solve')
+
+    print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+    print('='*50)

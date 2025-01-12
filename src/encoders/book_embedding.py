@@ -173,12 +173,12 @@ def encode_upward_book_embedding(digraph, P):
         clause = [EP(i, p) for p in range(P)]
         cnf.append(clause)
     
-    # TODO: Test if improves perf
-    # 1 edge to only 1 page
-    for i in range(M):
-        for p1 in range(P):
-            for p2 in range(p1+1, P):
-                cnf.append([-EP(i, p1), -EP(i, p2)])
+    # # TODO: Test if improves perf
+    # # 1 edge to only 1 page
+    # for i in range(M):
+    #     for p1 in range(P):
+    #         for p2 in range(p1+1, P):
+    #             cnf.append([-EP(i, p1), -EP(i, p2)])
 
     # Space reduction: set edge 0 to page 0
     # cnf.append([EP(0, 0)])
@@ -199,14 +199,14 @@ def encode_upward_book_embedding(digraph, P):
             
             if len(set([i, j, k, l])) == 4: # pairwise different
                 cnf.append([-X(a, b), -L(i, k), -L(k, j), -L(j, l)]) # i, k, j, l
-                # cnf.append([-X(a, b), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
-                # cnf.append([-X(a, b), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
-                # cnf.append([-X(a, b), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
+                cnf.append([-X(a, b), -L(j, k), -L(k, i), -L(i, l)]) # j, k, i, l
+                cnf.append([-X(a, b), -L(i, l), -L(l, j), -L(j, k)]) # i, l, j, k
+                cnf.append([-X(a, b), -L(j, l), -L(l, i), -L(i, k)]) # j, l, i, k
 
                 cnf.append([-X(a, b), -L(k, i), -L(i, l), -L(l, j)]) # k, i, l, j
-                # cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
-                # cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
-                # cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
+                cnf.append([-X(a, b), -L(l, i), -L(i, k), -L(k, j)]) # l, i, k, j
+                cnf.append([-X(a, b), -L(k, j), -L(j, l), -L(l, i)]) # k, j, l, i
+                cnf.append([-X(a, b), -L(l, j), -L(j, k), -L(k, i)]) # l, j, k, i
     
     return cnf
 

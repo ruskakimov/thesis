@@ -1,0 +1,111 @@
+Solving for 2
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 0.0109 seconds.
+Correct: True
+==================================================
+Solving for 3
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 0.1007 seconds.
+Correct: True
+==================================================
+Solving for 4
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 0.6595 seconds.
+Correct: True
+==================================================
+Solving for 5
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 3.2400 seconds.
+Correct: True
+==================================================
+Solving for 6
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 7.8882 seconds.
+Correct: True
+==================================================
+Solving for 7
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 15.0825 seconds.
+Correct: True
+==================================================
+Solving for 8
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 28.3582 seconds.
+Correct: True
+==================================================
+Solving for 9
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 46.2965 seconds.
+Correct: True
+==================================================
+Solving for 10
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 74.8024 seconds.
+Correct: True
+==================================================
+Solving for 11
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 108.6383 seconds.
+Correct: True
+==================================================
+Solving for 12
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 148.0552 seconds.
+Correct: True
+==================================================
+Solving for 13
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 183.4610 seconds.
+Correct: True
+==================================================
+Solving for 14
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 334.5505 seconds.
+Correct: True
+==================================================
+Solving for 15
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 538.5593 seconds.
+Correct: True
+==================================================
+Solving for 16
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 798.9257 seconds.
+Correct: True
+==================================================
+Solving for 17
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 1039.6657 seconds.
+Correct: True
+==================================================
+Solving for 18
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 1355.6614 seconds.
+Correct: True
+==================================================
+Solving for 19
+'Solve' started.
+Solution found:
+'Solve' stopped. Elapsed time: 2293.8375 seconds.
+Correct: True
+==================================================
+Solving for 20
+'Solve' started.
+zsh: killed     python ./src/google-cp-sat.py
