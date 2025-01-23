@@ -86,9 +86,13 @@ def solve_2UBE_SAT(digraph):
             for var in model:
                 value_of[abs(var)] = var > 0
                 value_of[-abs(var)] = var < 0
+            
+            nodes = list(digraph.nodes)
 
-            node_order = list(digraph.nodes)
+            node_order = list(range(N))
             node_order.sort(key=cmp_to_key(lambda i, j: -1 if value_of[L(i, j)] else 1))
+
+            node_order = [nodes[i] for i in node_order]
 
             edge_assignment = [+value_of[TOP(i)] for i in range(M)]
 
