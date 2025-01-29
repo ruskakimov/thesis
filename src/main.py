@@ -1,9 +1,11 @@
+import sys
+from pathlib import Path
 import matplotlib.pyplot as plt
 import time
 import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
-from helpers import rome_graphs, write_cnf, T
+from helpers import rome_graphs, north_graphs,  write_cnf, T
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE, solve_2UBE_SAT, verify_2UBE, solve_kUBE_SAT
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph, generate_cube_dag, generate_4d_grid_dag
 
@@ -200,29 +202,44 @@ def find_upward_book_thickness(graph, max_pages):
 # print('Diamond graph book thickness:', find_upward_book_thickness(diamond_graph, 10))
 # print('Manta ray graph book thickness:', find_upward_book_thickness(manta_ray_graph, 10))
 
-G = nx.DiGraph()
+# G = generate_grid_dag(3, 3)
+# edges = list(G.edges())
+# n = G.number_of_nodes()
 
-G.add_edge(1, 2)
-G.add_edge(1, 3)
-G.add_edge(2, 4)
-G.add_edge(4, 3)
-G.add_edge(4, 5)
-G.add_edge(5, 6)
-G.add_edge(5, 7)
-G.add_edge(6, 7)
+# T.start('Solve')
+# node_order, edge_assignment = solve_2UBE_SAT(G)
+# # node_order, edge_assignment = solve_kUBE_SAT(G, 2)
+# print(node_order)
+# print(edge_assignment)
+# T.stop('Solve')
 
-# G = generate_grid_dag(16, 16)
-edges = list(G.edges())
-n = G.number_of_nodes()
+# print([i+1 for i in node_order])
+# for i, p in enumerate(edge_assignment):
+#     u, v = edges[i]
+#     print(u+1, '->', v+1, ':', p)
 
-T.start('Solve')
-node_order, edge_assignment = solve_2UBE_SAT(G)
-# node_order, edge_assignment = solve_kUBE_SAT(G, 2)
-print(node_order)
-print(edge_assignment)
-T.stop('Solve')
+# # CP-1: 30 seconds for 8x8
+# # Solution: 0 1 8 16 9 2 3 10 17 24 32 25 18 11 4 5 12 19 26 33 40 48 41 34 27 20 13 6 7 14 21 28 35 42 49 56 57 50 43 36 29 22 15 23 30 37 44 51 58 59 52 45 38 31 39 46 53 60 61 54 47 55 62 63
 
-# CP-1: 30 seconds for 8x8
-# Solution: 0 1 8 16 9 2 3 10 17 24 32 25 18 11 4 5 12 19 26 33 40 48 41 34 27 20 13 6 7 14 21 28 35 42 49 56 57 50 43 36 29 22 15 23 30 37 44 51 58 59 52 45 38 31 39 46 53 60 61 54 47 55 62 63
+# print('Correct:', verify_2UBE(G, node_order, edge_assignment))
 
-print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
+print(cnf_dir)
+
+i = 0
+
+for G in north_graphs():
+    i += 1
+    print(i)
+    print(f"Working on graph {i}", file=sys.stderr)
+
+    T.start(G.name)
+
+    cnf1 = encode_upward_book_embedding(G, 2)
+    write_cnf(cnf1, cnf_dir / 'north_SAT1' / f'{G.name}.cnf')
+    
+    cnf2 = encode_2UBE(G)
+    write_cnf(cnf2, cnf_dir / 'north_SAT2' / f'{G.name}.cnf')
+    
+    T.stop(G.name)
+    print('---')
