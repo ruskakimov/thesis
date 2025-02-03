@@ -19,15 +19,37 @@ def process_gml_log(file_path):
         
         results[filename] = {
             'nodes': nodes,
-            'time': elapsed_time,
+            'cp': elapsed_time,
             'result': result
         }
     
     return results
 
+def process_sat_benchmark(file_path, results):
+    with open(file_path, 'r') as file:
+        content = file.read()
+    
+    benchmark_pattern = re.compile(
+        r"Running for file: (?P<filename>g\.\d+\.\d+\.gml)\.cnf"  # Match filename
+        r".*?Benchmark 1:.*?\n.*?Time \(mean ± σ\):\s+(?P<sat1>\d+\.\d+) ms"  # SAT1 time
+        r".*?Benchmark 2:.*?\n.*?Time \(mean ± σ\):\s+(?P<sat2>\d+\.\d+) ms",  # SAT2 time
+        re.DOTALL
+    )
+    
+    for match in benchmark_pattern.finditer(content):
+        filename = match.group('filename').replace('.cnf', '')  # Remove .cnf extension
+        sat1_time = float(match.group('sat1')) / 1000  # Convert to seconds
+        sat2_time = float(match.group('sat2')) / 1000  # Convert to seconds
+        
+        if filename in results:
+            results[filename]['sat1'] = sat1_time
+            results[filename]['sat2'] = sat2_time
+    
+    return results
+
 def plot_scatter(data):
-    sat_times = [(entry['nodes'], entry['time']) for entry in data.values() if entry['result'] == 'SAT']
-    unsat_times = [(entry['nodes'], entry['time']) for entry in data.values() if entry['result'] == 'UNSAT']
+    sat_times = [(entry['nodes'], entry['cp']) for entry in data.values() if entry['result'] == 'SAT']
+    unsat_times = [(entry['nodes'], entry['cp']) for entry in data.values() if entry['result'] == 'UNSAT']
     
     if sat_times:
         plt.scatter(*zip(*sat_times), color='blue', label='SAT', alpha=0.7)
@@ -41,6 +63,10 @@ def plot_scatter(data):
     plt.show()
 
 # Example usage
-file_path = "north__cp_result.txt"  # Change this to the actual file path
-data = process_gml_log(file_path)
+cp_file_path = "north__cp_result.txt"  # Change this to the CP solver log file
+sat_file_path = "north__v1_v2_compare.txt"  # Change this to the SAT benchmark file
+
+data = process_gml_log(cp_file_path)
+data = process_sat_benchmark(sat_file_path, data)
+print(data)
 plot_scatter(data)
