@@ -55,16 +55,31 @@ def process_sat_benchmark(file_path, results):
     
     return results
 
+def parse_stat_file(file_path):
+    data = {}
+    
+    with open(file_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split()
+            if len(parts) == 3:
+                name, n, m = parts
+                data[name] = {
+                    'n': int(n),
+                    'm': int(m)
+                }
+    
+    return data
+
 def plot_scatter(data, key, title):
-    sat_times = [(entry['nodes'], entry[key]) for entry in data.values() if entry['result'] == 'SAT' and key in entry]
-    unsat_times = [(entry['nodes'], entry[key]) for entry in data.values() if entry['result'] == 'UNSAT' and key in entry]
+    sat_times = [(entry['n+m'], entry[key]) for entry in data.values() if entry['result'] == 'SAT' and key in entry]
+    unsat_times = [(entry['n+m'], entry[key]) for entry in data.values() if entry['result'] == 'UNSAT' and key in entry]
     
     if sat_times:
         plt.scatter(*zip(*sat_times), color='green', label='SAT', alpha=0.7)
     if unsat_times:
         plt.scatter(*zip(*unsat_times), color='red', label='UNSAT', alpha=0.7)
     
-    plt.xlabel("Number of Nodes")
+    plt.xlabel("n+m")
     plt.ylabel("Elapsed Time (seconds)")
     plt.title(title)
     plt.legend()
@@ -75,7 +90,22 @@ cp_file_path = "north__cp_result.txt"  # Change this to the CP solver log file
 sat_file_path = "north__v1_v2_compare.txt"  # Change this to the SAT benchmark file
 
 data = process_gml_log(cp_file_path)
-data = process_sat_benchmark(sat_file_path, data)
+process_sat_benchmark(sat_file_path, data)
+
+graph_stats = parse_stat_file("north_graph_stats.txt")
+
+for name, stats in graph_stats.items():
+    n = stats['n']
+    m = stats['m']
+
+    if name not in data:
+        print('graph not found', name)
+    elif data[name]['nodes'] != n:
+        print('number of nodes mismatch', name)
+    else:
+        data[name]['n'] = n
+        data[name]['m'] = m
+        data[name]['n+m'] = n + m
 
 # Plot each separately
 plot_scatter(data, 'cp', "CP Runtime")
