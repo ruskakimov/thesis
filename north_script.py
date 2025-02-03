@@ -47,18 +47,18 @@ def process_sat_benchmark(file_path, results):
     
     return results
 
-def plot_scatter(data):
-    sat_times = [(entry['nodes'], entry['cp']) for entry in data.values() if entry['result'] == 'SAT']
-    unsat_times = [(entry['nodes'], entry['cp']) for entry in data.values() if entry['result'] == 'UNSAT']
+def plot_scatter(data, key, title):
+    sat_times = [(entry['nodes'], entry[key]) for entry in data.values() if entry['result'] == 'SAT']
+    unsat_times = [(entry['nodes'], entry[key]) for entry in data.values() if entry['result'] == 'UNSAT']
     
     if sat_times:
-        plt.scatter(*zip(*sat_times), color='blue', label='SAT', alpha=0.7)
+        plt.scatter(*zip(*sat_times), color='green', label='SAT', alpha=0.7)
     if unsat_times:
         plt.scatter(*zip(*unsat_times), color='red', label='UNSAT', alpha=0.7)
     
     plt.xlabel("Number of Nodes")
     plt.ylabel("Elapsed Time (seconds)")
-    plt.title("Scatter Plot of Elapsed Time vs. Number of Nodes")
+    plt.title(title)
     plt.legend()
     plt.show()
 
@@ -68,5 +68,10 @@ sat_file_path = "north__v1_v2_compare.txt"  # Change this to the SAT benchmark f
 
 data = process_gml_log(cp_file_path)
 data = process_sat_benchmark(sat_file_path, data)
-print(data)
-plot_scatter(data)
+
+# print(data)
+
+# Plot each separately
+plot_scatter(data, 'cp', "CP Runtime")
+plot_scatter(data, 'sat1', "SAT1 Runtime")
+plot_scatter(data, 'sat2', "SAT2 Runtime")
