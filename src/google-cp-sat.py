@@ -1,5 +1,6 @@
+import sys
 from ortools.sat.python import cp_model
-from helpers import T
+from helpers import T, north_graphs
 from encoders import verify_2UBE
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag
 
@@ -119,16 +120,36 @@ def solve(n, edges):
 
 # # cp1: 30 seconds for 8x8
 
-for n in range(20, 29):
-    G = generate_grid_dag(n, n)
-    edges = list(G.edges())
+# for n in range(20, 29):
+#     G = generate_grid_dag(n, n)
+#     edges = list(G.edges())
+#     node_count = G.number_of_nodes()
+
+#     print('Solving for', n)
+
+#     T.start('Solve')
+#     node_order, edge_assignment = solve(node_count, edges)
+#     T.stop('Solve')
+
+#     print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+#     print('='*50)
+
+
+i = 0
+
+for G in north_graphs():
+    i += 1
+    print(f"Working on graph {i}", file=sys.stderr)
+
+    edges = [(int(u), int(v)) for u, v in G.edges()]
     node_count = G.number_of_nodes()
 
-    print('Solving for', n)
+    T.start(G.name)
+    solution = solve(node_count, edges)
+    T.stop(G.name)
 
-    T.start('Solve')
-    node_order, edge_assignment = solve(node_count, edges)
-    T.stop('Solve')
-
-    print('Correct:', verify_2UBE(G, node_order, edge_assignment))
-    print('='*50)
+    if solution:
+        node_order, edge_assignment = solution
+        print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+    
+    print('---')

@@ -101,7 +101,7 @@ def solve_2UBE_SAT(digraph):
 
 
 def verify_2UBE(G, node_order, edge_assignment):
-    edges = list(G.edges())
+    edges = [(int(u), int(v)) for u, v in G.edges()]
     p1_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 0]
     p2_edges = [edges[i] for i, page in enumerate(edge_assignment) if page == 1]
 

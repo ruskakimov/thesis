@@ -4,3 +4,5 @@ __pycache__/
 # These .cnf files are too large to be stored on GitHub
 need4stacks275_*
 grid_dag_*
+
+cnf/north_*

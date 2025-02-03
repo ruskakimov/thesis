@@ -1,0 +1,5908 @@
+'g.23.37.gml' started.
+Solution found:
+'g.23.37.gml' stopped. Elapsed time: 0.7730 seconds.
+Correct: True
+---
+'g.24.16.gml' started.
+Solution found:
+'g.24.16.gml' stopped. Elapsed time: 1.4699 seconds.
+Correct: True
+---
+'g.45.7.gml' started.
+Solution found:
+'g.45.7.gml' stopped. Elapsed time: 6.6428 seconds.
+Correct: True
+---
+'g.39.47.gml' started.
+No solution found.
+'g.39.47.gml' stopped. Elapsed time: 5.9872 seconds.
+---
+'g.39.53.gml' started.
+No solution found.
+'g.39.53.gml' stopped. Elapsed time: 8.9416 seconds.
+---
+'g.26.4.gml' started.
+Solution found:
+'g.26.4.gml' stopped. Elapsed time: 1.1038 seconds.
+Correct: True
+---
+'g.11.46.gml' started.
+Solution found:
+'g.11.46.gml' stopped. Elapsed time: 0.1147 seconds.
+Correct: True
+---
+'g.47.5.gml' started.
+Solution found:
+'g.47.5.gml' stopped. Elapsed time: 11.4947 seconds.
+Correct: True
+---
+'g.34.13.gml' started.
+Solution found:
+'g.34.13.gml' stopped. Elapsed time: 2.6073 seconds.
+Correct: True
+---
+'g.24.6.gml' started.
+Solution found:
+'g.24.6.gml' stopped. Elapsed time: 1.4733 seconds.
+Correct: True
+---
+'g.47.16.gml' started.
+No solution found.
+'g.47.16.gml' stopped. Elapsed time: 11.3708 seconds.
+---
+'g.15.22.gml' started.
+No solution found.
+'g.15.22.gml' stopped. Elapsed time: 0.4761 seconds.
+---
+'g.31.37.gml' started.
+No solution found.
+'g.31.37.gml' stopped. Elapsed time: 4.7980 seconds.
+---
+'g.87.5.gml' started.
+No solution found.
+'g.87.5.gml' stopped. Elapsed time: 90.6799 seconds.
+---
+'g.67.0.gml' started.
+Solution found:
+'g.67.0.gml' stopped. Elapsed time: 5.0680 seconds.
+Correct: True
+---
+'g.22.0.gml' started.
+Solution found:
+'g.22.0.gml' stopped. Elapsed time: 1.3666 seconds.
+Correct: True
+---
+'g.17.9.gml' started.
+Solution found:
+'g.17.9.gml' stopped. Elapsed time: 0.2462 seconds.
+Correct: True
+---
+'g.41.3.gml' started.
+No solution found.
+'g.41.3.gml' stopped. Elapsed time: 12.3856 seconds.
+---
+'g.36.16.gml' started.
+No solution found.
+'g.36.16.gml' stopped. Elapsed time: 14.3692 seconds.
+---
+'g.12.141.gml' started.
+Solution found:
+'g.12.141.gml' stopped. Elapsed time: 0.1862 seconds.
+Correct: True
+---
+'g.17.33.gml' started.
+Solution found:
+'g.17.33.gml' stopped. Elapsed time: 0.3539 seconds.
+Correct: True
+---
+'g.19.22.gml' started.
+No solution found.
+'g.19.22.gml' stopped. Elapsed time: 1.2810 seconds.
+---
+'g.42.26.gml' started.
+Solution found:
+'g.42.26.gml' stopped. Elapsed time: 3.0067 seconds.
+Correct: True
+---
+'g.42.32.gml' started.
+No solution found.
+'g.42.32.gml' stopped. Elapsed time: 13.3733 seconds.
+---
+'g.10.12.gml' started.
+Solution found:
+'g.10.12.gml' stopped. Elapsed time: 0.0984 seconds.
+Correct: True
+---
+'g.19.6.gml' started.
+Solution found:
+'g.19.6.gml' stopped. Elapsed time: 0.8078 seconds.
+Correct: True
+---
+'g.19.36.gml' started.
+Solution found:
+'g.19.36.gml' stopped. Elapsed time: 0.7255 seconds.
+Correct: True
+---
+'g.13.94.gml' started.
+No solution found.
+'g.13.94.gml' stopped. Elapsed time: 0.4266 seconds.
+---
+'g.13.80.gml' started.
+Solution found:
+'g.13.80.gml' stopped. Elapsed time: 0.1937 seconds.
+Correct: True
+---
+'g.28.16.gml' started.
+Solution found:
+'g.28.16.gml' stopped. Elapsed time: 1.4051 seconds.
+Correct: True
+---
+'g.20.2.gml' started.
+No solution found.
+'g.20.2.gml' stopped. Elapsed time: 1.5226 seconds.
+---
+'g.23.117.gml' started.
+No solution found.
+'g.23.117.gml' stopped. Elapsed time: 1.5865 seconds.
+---
+'g.26.13.gml' started.
+No solution found.
+'g.26.13.gml' stopped. Elapsed time: 2.4879 seconds.
+---
+'g.43.1.gml' started.
+No solution found.
+'g.43.1.gml' stopped. Elapsed time: 5.5961 seconds.
+---
+'g.33.8.gml' started.
+No solution found.
+'g.33.8.gml' stopped. Elapsed time: 26.7711 seconds.
+---
+'g.23.103.gml' started.
+No solution found.
+'g.23.103.gml' stopped. Elapsed time: 1.5328 seconds.
+---
+'g.13.57.gml' started.
+Solution found:
+'g.13.57.gml' stopped. Elapsed time: 0.0548 seconds.
+Correct: True
+---
+'g.14.62.gml' started.
+No solution found.
+'g.14.62.gml' stopped. Elapsed time: 1.2339 seconds.
+---
+'g.13.42.gml' started.
+Solution found:
+'g.13.42.gml' stopped. Elapsed time: 0.1511 seconds.
+Correct: True
+---
+'g.43.0.gml' started.
+No solution found.
+'g.43.0.gml' stopped. Elapsed time: 6.5036 seconds.
+---
+'g.23.102.gml' started.
+Solution found:
+'g.23.102.gml' stopped. Elapsed time: 1.0801 seconds.
+Correct: True
+---
+'g.20.3.gml' started.
+Solution found:
+'g.20.3.gml' stopped. Elapsed time: 0.4305 seconds.
+Correct: True
+---
+'g.26.12.gml' started.
+Solution found:
+'g.26.12.gml' stopped. Elapsed time: 0.7199 seconds.
+Correct: True
+---
+'g.13.81.gml' started.
+Solution found:
+'g.13.81.gml' stopped. Elapsed time: 0.1218 seconds.
+Correct: True
+---
+'g.21.33.gml' started.
+No solution found.
+'g.21.33.gml' stopped. Elapsed time: 1.3994 seconds.
+---
+'g.21.27.gml' started.
+No solution found.
+'g.21.27.gml' stopped. Elapsed time: 3.7382 seconds.
+---
+'g.13.95.gml' started.
+No solution found.
+'g.13.95.gml' stopped. Elapsed time: 0.2572 seconds.
+---
+'g.19.7.gml' started.
+No solution found.
+'g.19.7.gml' stopped. Elapsed time: 2.7713 seconds.
+---
+'g.10.13.gml' started.
+Solution found:
+'g.10.13.gml' stopped. Elapsed time: 0.0868 seconds.
+Correct: True
+---
+'g.19.23.gml' started.
+Solution found:
+'g.19.23.gml' stopped. Elapsed time: 0.4051 seconds.
+Correct: True
+---
+'g.42.27.gml' started.
+Solution found:
+'g.42.27.gml' stopped. Elapsed time: 3.8051 seconds.
+Correct: True
+---
+'g.17.26.gml' started.
+Solution found:
+'g.17.26.gml' stopped. Elapsed time: 0.3416 seconds.
+Correct: True
+---
+'g.17.32.gml' started.
+Solution found:
+'g.17.32.gml' stopped. Elapsed time: 0.5658 seconds.
+Correct: True
+---
+'g.12.140.gml' started.
+Solution found:
+'g.12.140.gml' stopped. Elapsed time: 0.2925 seconds.
+Correct: True
+---
+'g.36.17.gml' started.
+No solution found.
+'g.36.17.gml' stopped. Elapsed time: 14.4038 seconds.
+---
+'g.22.62.gml' started.
+No solution found.
+'g.22.62.gml' stopped. Elapsed time: 2.0162 seconds.
+---
+'g.41.2.gml' started.
+No solution found.
+'g.41.2.gml' stopped. Elapsed time: 10.8319 seconds.
+---
+'g.22.76.gml' started.
+No solution found.
+'g.22.76.gml' stopped. Elapsed time: 1.5664 seconds.
+---
+'g.67.1.gml' started.
+Solution found:
+'g.67.1.gml' stopped. Elapsed time: 21.7412 seconds.
+Correct: True
+---
+'g.17.8.gml' started.
+Solution found:
+'g.17.8.gml' stopped. Elapsed time: 0.6595 seconds.
+Correct: True
+---
+'g.87.4.gml' started.
+No solution found.
+'g.87.4.gml' stopped. Elapsed time: 87.5576 seconds.
+---
+'g.38.12.gml' started.
+No solution found.
+'g.38.12.gml' stopped. Elapsed time: 6.8599 seconds.
+---
+'g.25.43.gml' started.
+No solution found.
+'g.25.43.gml' stopped. Elapsed time: 2.4553 seconds.
+---
+'g.31.36.gml' started.
+No solution found.
+'g.31.36.gml' stopped. Elapsed time: 4.7422 seconds.
+---
+'g.49.12.gml' started.
+No solution found.
+'g.49.12.gml' stopped. Elapsed time: 17.1062 seconds.
+---
+'g.40.22.gml' started.
+No solution found.
+'g.40.22.gml' stopped. Elapsed time: 11.5632 seconds.
+---
+'g.15.23.gml' started.
+No solution found.
+'g.15.23.gml' stopped. Elapsed time: 0.6552 seconds.
+---
+'g.47.17.gml' started.
+Solution found:
+'g.47.17.gml' stopped. Elapsed time: 6.8309 seconds.
+Correct: True
+---
+'g.34.12.gml' started.
+Solution found:
+'g.34.12.gml' stopped. Elapsed time: 2.0719 seconds.
+Correct: True
+---
+'g.61.7.gml' started.
+No solution found.
+'g.61.7.gml' stopped. Elapsed time: 19.1949 seconds.
+---
+'g.24.7.gml' started.
+Solution found:
+'g.24.7.gml' stopped. Elapsed time: 1.5320 seconds.
+Correct: True
+---
+'g.58.3.gml' started.
+No solution found.
+'g.58.3.gml' stopped. Elapsed time: 17.8376 seconds.
+---
+'g.16.66.gml' started.
+No solution found.
+'g.16.66.gml' stopped. Elapsed time: 1.0817 seconds.
+---
+'g.26.5.gml' started.
+Solution found:
+'g.26.5.gml' stopped. Elapsed time: 1.7518 seconds.
+Correct: True
+---
+'g.24.17.gml' started.
+Solution found:
+'g.24.17.gml' stopped. Elapsed time: 0.8782 seconds.
+Correct: True
+---
+'g.39.46.gml' started.
+No solution found.
+'g.39.46.gml' stopped. Elapsed time: 5.5724 seconds.
+---
+'g.23.22.gml' started.
+Solution found:
+'g.23.22.gml' stopped. Elapsed time: 0.6301 seconds.
+Correct: True
+---
+'g.23.20.gml' started.
+Solution found:
+'g.23.20.gml' stopped. Elapsed time: 1.3695 seconds.
+Correct: True
+---
+'g.24.29.gml' started.
+Solution found:
+'g.24.29.gml' stopped. Elapsed time: 1.1120 seconds.
+Correct: True
+---
+'g.39.44.gml' started.
+No solution found.
+'g.39.44.gml' stopped. Elapsed time: 7.9034 seconds.
+---
+'g.24.15.gml' started.
+Solution found:
+'g.24.15.gml' stopped. Elapsed time: 1.0163 seconds.
+Correct: True
+---
+'g.45.4.gml' started.
+Solution found:
+'g.45.4.gml' stopped. Elapsed time: 3.4029 seconds.
+Correct: True
+---
+'g.11.45.gml' started.
+Solution found:
+'g.11.45.gml' stopped. Elapsed time: 0.0757 seconds.
+Correct: True
+---
+'g.16.58.gml' started.
+Solution found:
+'g.16.58.gml' stopped. Elapsed time: 0.2603 seconds.
+Correct: True
+---
+'g.11.51.gml' started.
+Solution found:
+'g.11.51.gml' stopped. Elapsed time: 0.0475 seconds.
+Correct: True
+---
+'g.16.70.gml' started.
+Solution found:
+'g.16.70.gml' stopped. Elapsed time: 0.1839 seconds.
+Correct: True
+---
+'g.16.64.gml' started.
+No solution found.
+'g.16.64.gml' stopped. Elapsed time: 0.4061 seconds.
+---
+'g.28.8.gml' started.
+Solution found:
+'g.28.8.gml' stopped. Elapsed time: 1.0828 seconds.
+Correct: True
+---
+'g.81.0.gml' started.
+No solution found.
+'g.81.0.gml' stopped. Elapsed time: 27.1669 seconds.
+---
+'g.61.11.gml' started.
+No solution found.
+'g.61.11.gml' stopped. Elapsed time: 18.6590 seconds.
+---
+'g.61.39.gml' started.
+Solution found:
+'g.61.39.gml' stopped. Elapsed time: 11.0637 seconds.
+Correct: True
+---
+'g.47.6.gml' started.
+Solution found:
+'g.47.6.gml' stopped. Elapsed time: 7.2300 seconds.
+Correct: True
+---
+'g.15.21.gml' started.
+Solution found:
+'g.15.21.gml' stopped. Elapsed time: 0.2949 seconds.
+Correct: True
+---
+'g.15.35.gml' started.
+Solution found:
+'g.15.35.gml' stopped. Elapsed time: 0.1541 seconds.
+Correct: True
+---
+'g.47.15.gml' started.
+Solution found:
+'g.47.15.gml' stopped. Elapsed time: 6.5134 seconds.
+Correct: True
+---
+'g.39.0.gml' started.
+Solution found:
+'g.39.0.gml' stopped. Elapsed time: 3.3285 seconds.
+Correct: True
+---
+'g.49.9.gml' started.
+Solution found:
+'g.49.9.gml' stopped. Elapsed time: 8.1076 seconds.
+Correct: True
+---
+'g.40.20.gml' started.
+Solution found:
+'g.40.20.gml' stopped. Elapsed time: 7.3190 seconds.
+Correct: True
+---
+'g.87.6.gml' started.
+Solution found:
+'g.87.6.gml' stopped. Elapsed time: 23.9066 seconds.
+Correct: True
+---
+'g.36.29.gml' started.
+Solution found:
+'g.36.29.gml' stopped. Elapsed time: 3.1155 seconds.
+Correct: True
+---
+'g.25.55.gml' started.
+No solution found.
+'g.25.55.gml' stopped. Elapsed time: 4.2758 seconds.
+---
+'g.31.34.gml' started.
+No solution found.
+'g.31.34.gml' stopped. Elapsed time: 3.1870 seconds.
+---
+'g.22.60.gml' started.
+Solution found:
+'g.22.60.gml' stopped. Elapsed time: 0.7741 seconds.
+Correct: True
+---
+'g.41.0.gml' started.
+Solution found:
+'g.41.0.gml' stopped. Elapsed time: 4.3622 seconds.
+Correct: True
+---
+'g.36.15.gml' started.
+Solution found:
+'g.36.15.gml' stopped. Elapsed time: 0.3608 seconds.
+Correct: True
+---
+'g.31.9.gml' started.
+No solution found.
+'g.31.9.gml' stopped. Elapsed time: 6.4921 seconds.
+---
+'g.17.24.gml' started.
+Solution found:
+'g.17.24.gml' stopped. Elapsed time: 0.2135 seconds.
+Correct: True
+---
+'g.10.39.gml' started.
+No solution found.
+'g.10.39.gml' stopped. Elapsed time: 0.1654 seconds.
+---
+'g.17.30.gml' started.
+No solution found.
+'g.17.30.gml' stopped. Elapsed time: 8.7958 seconds.
+---
+'g.19.35.gml' started.
+Solution found:
+'g.19.35.gml' stopped. Elapsed time: 0.3607 seconds.
+Correct: True
+---
+'g.17.18.gml' started.
+Solution found:
+'g.17.18.gml' stopped. Elapsed time: 0.2064 seconds.
+Correct: True
+---
+'g.10.11.gml' started.
+Solution found:
+'g.10.11.gml' stopped. Elapsed time: 0.1155 seconds.
+Correct: True
+---
+'g.42.25.gml' started.
+Solution found:
+'g.42.25.gml' stopped. Elapsed time: 2.9841 seconds.
+Correct: True
+---
+'g.19.21.gml' started.
+Solution found:
+'g.19.21.gml' stopped. Elapsed time: 0.4422 seconds.
+Correct: True
+---
+'g.21.31.gml' started.
+Solution found:
+'g.21.31.gml' stopped. Elapsed time: 0.4820 seconds.
+Correct: True
+---
+'g.13.83.gml' started.
+Solution found:
+'g.13.83.gml' stopped. Elapsed time: 0.1105 seconds.
+Correct: True
+---
+'g.13.97.gml' started.
+Solution found:
+'g.13.97.gml' stopped. Elapsed time: 0.1899 seconds.
+Correct: True
+---
+'g.23.100.gml' started.
+No solution found.
+'g.23.100.gml' stopped. Elapsed time: 1.7410 seconds.
+---
+'g.28.29.gml' started.
+No solution found.
+'g.28.29.gml' stopped. Elapsed time: 6.4948 seconds.
+---
+'g.50.8.gml' started.
+Solution found:
+'g.50.8.gml' stopped. Elapsed time: 7.4026 seconds.
+Correct: True
+---
+'g.26.10.gml' started.
+Solution found:
+'g.26.10.gml' stopped. Elapsed time: 0.0148 seconds.
+Correct: True
+---
+'g.65.1.gml' started.
+Solution found:
+'g.65.1.gml' stopped. Elapsed time: 17.4715 seconds.
+Correct: True
+---
+'g.15.8.gml' started.
+Solution found:
+'g.15.8.gml' stopped. Elapsed time: 0.2856 seconds.
+Correct: True
+---
+'g.20.1.gml' started.
+No solution found.
+'g.20.1.gml' stopped. Elapsed time: 2.4965 seconds.
+---
+'g.13.54.gml' started.
+No solution found.
+'g.13.54.gml' stopped. Elapsed time: 0.3661 seconds.
+---
+'g.13.68.gml' started.
+Solution found:
+'g.13.68.gml' stopped. Elapsed time: 0.0499 seconds.
+Correct: True
+---
+'g.14.61.gml' started.
+Solution found:
+'g.14.61.gml' stopped. Elapsed time: 0.2321 seconds.
+Correct: True
+---
+'g.13.69.gml' started.
+Solution found:
+'g.13.69.gml' stopped. Elapsed time: 0.1216 seconds.
+Correct: True
+---
+'g.14.60.gml' started.
+Solution found:
+'g.14.60.gml' stopped. Elapsed time: 0.2188 seconds.
+Correct: True
+---
+'g.13.55.gml' started.
+Solution found:
+'g.13.55.gml' stopped. Elapsed time: 0.0489 seconds.
+Correct: True
+---
+'g.13.41.gml' started.
+Solution found:
+'g.13.41.gml' stopped. Elapsed time: 0.1231 seconds.
+Correct: True
+---
+'g.65.0.gml' started.
+No solution found.
+'g.65.0.gml' stopped. Elapsed time: 43.2891 seconds.
+---
+'g.26.11.gml' started.
+Solution found:
+'g.26.11.gml' stopped. Elapsed time: 1.3532 seconds.
+Correct: True
+---
+'g.50.9.gml' started.
+No solution found.
+'g.50.9.gml' stopped. Elapsed time: 13.7349 seconds.
+---
+'g.23.115.gml' started.
+No solution found.
+'g.23.115.gml' stopped. Elapsed time: 1.4660 seconds.
+---
+'g.15.9.gml' started.
+Solution found:
+'g.15.9.gml' stopped. Elapsed time: 0.2230 seconds.
+Correct: True
+---
+'g.43.3.gml' started.
+No solution found.
+'g.43.3.gml' stopped. Elapsed time: 83.6713 seconds.
+---
+'g.13.96.gml' started.
+Solution found:
+'g.13.96.gml' stopped. Elapsed time: 0.2070 seconds.
+Correct: True
+---
+'g.21.24.gml' started.
+Solution found:
+'g.21.24.gml' stopped. Elapsed time: 1.0547 seconds.
+Correct: True
+---
+'g.21.30.gml' started.
+Solution found:
+'g.21.30.gml' stopped. Elapsed time: 0.4379 seconds.
+Correct: True
+---
+'g.28.14.gml' started.
+Solution found:
+'g.28.14.gml' stopped. Elapsed time: 1.1986 seconds.
+Correct: True
+---
+'g.19.20.gml' started.
+Solution found:
+'g.19.20.gml' stopped. Elapsed time: 0.4021 seconds.
+Correct: True
+---
+'g.19.34.gml' started.
+No solution found.
+'g.19.34.gml' stopped. Elapsed time: 0.8715 seconds.
+---
+'g.19.4.gml' started.
+Solution found:
+'g.19.4.gml' stopped. Elapsed time: 0.6228 seconds.
+Correct: True
+---
+'g.10.38.gml' started.
+No solution found.
+'g.10.38.gml' stopped. Elapsed time: 0.1869 seconds.
+---
+'g.17.31.gml' started.
+Solution found:
+'g.17.31.gml' stopped. Elapsed time: 0.4936 seconds.
+Correct: True
+---
+'g.41.1.gml' started.
+Solution found:
+'g.41.1.gml' stopped. Elapsed time: 6.6164 seconds.
+Correct: True
+---
+'g.31.8.gml' started.
+No solution found.
+'g.31.8.gml' stopped. Elapsed time: 6.7502 seconds.
+---
+'g.25.40.gml' started.
+No solution found.
+'g.25.40.gml' stopped. Elapsed time: 2.2415 seconds.
+---
+'g.22.49.gml' started.
+No solution found.
+'g.22.49.gml' stopped. Elapsed time: 1.1360 seconds.
+---
+'g.40.21.gml' started.
+Solution found:
+'g.40.21.gml' stopped. Elapsed time: 2.2225 seconds.
+Correct: True
+---
+'g.39.1.gml' started.
+Solution found:
+'g.39.1.gml' stopped. Elapsed time: 5.4055 seconds.
+Correct: True
+---
+'g.49.11.gml' started.
+No solution found.
+'g.49.11.gml' stopped. Elapsed time: 17.2929 seconds.
+---
+'g.49.8.gml' started.
+No solution found.
+'g.49.8.gml' stopped. Elapsed time: 6.1885 seconds.
+---
+'g.15.34.gml' started.
+Solution found:
+'g.15.34.gml' stopped. Elapsed time: 0.0430 seconds.
+Correct: True
+---
+'g.15.20.gml' started.
+Solution found:
+'g.15.20.gml' stopped. Elapsed time: 0.1160 seconds.
+Correct: True
+---
+'g.47.7.gml' started.
+No solution found.
+'g.47.7.gml' stopped. Elapsed time: 9.7332 seconds.
+---
+'g.61.4.gml' started.
+No solution found.
+'g.61.4.gml' stopped. Elapsed time: 17.7542 seconds.
+---
+'g.28.9.gml' started.
+Solution found:
+'g.28.9.gml' stopped. Elapsed time: 0.8953 seconds.
+Correct: True
+---
+'g.16.65.gml' started.
+Solution found:
+'g.16.65.gml' stopped. Elapsed time: 0.0936 seconds.
+Correct: True
+---
+'g.59.14.gml' started.
+No solution found.
+'g.59.14.gml' stopped. Elapsed time: 11.6175 seconds.
+---
+'g.58.0.gml' started.
+No solution found.
+'g.58.0.gml' stopped. Elapsed time: 37.1565 seconds.
+---
+'g.16.59.gml' started.
+Solution found:
+'g.16.59.gml' stopped. Elapsed time: 0.4195 seconds.
+Correct: True
+---
+'g.11.50.gml' started.
+Solution found:
+'g.11.50.gml' stopped. Elapsed time: 0.0958 seconds.
+Correct: True
+---
+'g.39.45.gml' started.
+Solution found:
+'g.39.45.gml' stopped. Elapsed time: 3.5749 seconds.
+Correct: True
+---
+'g.45.5.gml' started.
+Solution found:
+'g.45.5.gml' stopped. Elapsed time: 9.0739 seconds.
+Correct: True
+---
+'g.26.6.gml' started.
+Solution found:
+'g.26.6.gml' stopped. Elapsed time: 1.5164 seconds.
+Correct: True
+---
+'g.23.21.gml' started.
+No solution found.
+'g.23.21.gml' stopped. Elapsed time: 0.9871 seconds.
+---
+'g.83.3.gml' started.
+Solution found:
+'g.83.3.gml' stopped. Elapsed time: 20.8546 seconds.
+Correct: True
+---
+'g.26.2.gml' started.
+Solution found:
+'g.26.2.gml' stopped. Elapsed time: 2.1492 seconds.
+Correct: True
+---
+'g.45.1.gml' started.
+Solution found:
+'g.45.1.gml' stopped. Elapsed time: 3.6773 seconds.
+Correct: True
+---
+'g.23.19.gml' started.
+Solution found:
+'g.23.19.gml' stopped. Elapsed time: 0.9768 seconds.
+Correct: True
+---
+'g.24.38.gml' started.
+Solution found:
+'g.24.38.gml' stopped. Elapsed time: 0.5486 seconds.
+Correct: True
+---
+'g.57.29.gml' started.
+No solution found.
+'g.57.29.gml' stopped. Elapsed time: 18.0513 seconds.
+---
+'g.58.4.gml' started.
+No solution found.
+'g.58.4.gml' stopped. Elapsed time: 18.6453 seconds.
+---
+'g.11.68.gml' started.
+Solution found:
+'g.11.68.gml' stopped. Elapsed time: 0.1469 seconds.
+Correct: True
+---
+'g.16.61.gml' started.
+No solution found.
+'g.16.61.gml' stopped. Elapsed time: 0.5053 seconds.
+---
+'g.57.15.gml' started.
+No solution found.
+'g.57.15.gml' stopped. Elapsed time: 17.2776 seconds.
+---
+'g.24.0.gml' started.
+No solution found.
+'g.24.0.gml' stopped. Elapsed time: 1.1382 seconds.
+---
+'g.11.9.gml' started.
+Solution found:
+'g.11.9.gml' stopped. Elapsed time: 0.1242 seconds.
+Correct: True
+---
+'g.47.3.gml' started.
+Solution found:
+'g.47.3.gml' stopped. Elapsed time: 11.2937 seconds.
+Correct: True
+---
+'g.20.48.gml' started.
+No solution found.
+'g.20.48.gml' stopped. Elapsed time: 1.5882 seconds.
+---
+'g.81.5.gml' started.
+Solution found:
+'g.81.5.gml' stopped. Elapsed time: 30.1340 seconds.
+Correct: True
+---
+'g.15.24.gml' started.
+Solution found:
+'g.15.24.gml' stopped. Elapsed time: 0.1430 seconds.
+Correct: True
+---
+'g.40.19.gml' started.
+No solution found.
+'g.40.19.gml' stopped. Elapsed time: 8.3005 seconds.
+---
+'g.64.18.gml' started.
+No solution found.
+'g.64.18.gml' stopped. Elapsed time: 53.5056 seconds.
+---
+'g.38.15.gml' started.
+No solution found.
+'g.38.15.gml' stopped. Elapsed time: 7.8895 seconds.
+---
+'g.31.31.gml' started.
+Solution found:
+'g.31.31.gml' stopped. Elapsed time: 1.8858 seconds.
+Correct: True
+---
+'g.42.34.gml' started.
+No solution found.
+'g.42.34.gml' stopped. Elapsed time: 16.4899 seconds.
+---
+'g.10.14.gml' started.
+Solution found:
+'g.10.14.gml' stopped. Elapsed time: 0.0831 seconds.
+Correct: True
+---
+'g.19.0.gml' started.
+No solution found.
+'g.19.0.gml' stopped. Elapsed time: 0.6915 seconds.
+---
+'g.19.24.gml' started.
+Solution found:
+'g.19.24.gml' stopped. Elapsed time: 0.4407 seconds.
+Correct: True
+---
+'g.42.20.gml' started.
+No solution found.
+'g.42.20.gml' stopped. Elapsed time: 13.4534 seconds.
+---
+'g.10.28.gml' started.
+Solution found:
+'g.10.28.gml' stopped. Elapsed time: 0.1276 seconds.
+Correct: True
+---
+'g.17.21.gml' started.
+Solution found:
+'g.17.21.gml' stopped. Elapsed time: 0.5738 seconds.
+Correct: True
+---
+'g.19.18.gml' started.
+Solution found:
+'g.19.18.gml' stopped. Elapsed time: 0.2603 seconds.
+Correct: True
+---
+'g.43.7.gml' started.
+Solution found:
+'g.43.7.gml' stopped. Elapsed time: 9.0032 seconds.
+Correct: True
+---
+'g.20.4.gml' started.
+Solution found:
+'g.20.4.gml' stopped. Elapsed time: 0.5195 seconds.
+Correct: True
+---
+'g.13.86.gml' started.
+No solution found.
+'g.13.86.gml' stopped. Elapsed time: 0.3116 seconds.
+---
+'g.85.1.gml' started.
+No solution found.
+'g.85.1.gml' stopped. Elapsed time: 44.0474 seconds.
+---
+'g.21.34.gml' started.
+Solution found:
+'g.21.34.gml' stopped. Elapsed time: 0.5680 seconds.
+Correct: True
+---
+'g.26.29.gml' started.
+No solution found.
+'g.26.29.gml' stopped. Elapsed time: 2.1549 seconds.
+---
+'g.13.92.gml' started.
+Solution found:
+'g.13.92.gml' stopped. Elapsed time: 0.1997 seconds.
+Correct: True
+---
+'g.13.79.gml' started.
+No solution found.
+'g.13.79.gml' stopped. Elapsed time: 0.2888 seconds.
+---
+'g.13.45.gml' started.
+Solution found:
+'g.13.45.gml' stopped. Elapsed time: 0.0785 seconds.
+Correct: True
+---
+'g.14.58.gml' started.
+No solution found.
+'g.14.58.gml' stopped. Elapsed time: 0.3881 seconds.
+---
+'g.13.51.gml' started.
+No solution found.
+'g.13.51.gml' stopped. Elapsed time: 1.2803 seconds.
+---
+'g.14.59.gml' started.
+Solution found:
+'g.14.59.gml' stopped. Elapsed time: 0.1617 seconds.
+Correct: True
+---
+'g.13.44.gml' started.
+Solution found:
+'g.13.44.gml' stopped. Elapsed time: 0.2502 seconds.
+Correct: True
+---
+'g.14.65.gml' started.
+Solution found:
+'g.14.65.gml' stopped. Elapsed time: 0.1317 seconds.
+Correct: True
+---
+'g.78.0.gml' started.
+Solution found:
+'g.78.0.gml' stopped. Elapsed time: 24.2901 seconds.
+Correct: True
+---
+'g.13.78.gml' started.
+Solution found:
+'g.13.78.gml' stopped. Elapsed time: 0.1656 seconds.
+Correct: True
+---
+'g.13.93.gml' started.
+Solution found:
+'g.13.93.gml' stopped. Elapsed time: 0.2019 seconds.
+Correct: True
+---
+'g.100.3.gml' started.
+No solution found.
+'g.100.3.gml' stopped. Elapsed time: 40.9532 seconds.
+---
+'g.13.87.gml' started.
+Solution found:
+'g.13.87.gml' stopped. Elapsed time: 0.2682 seconds.
+Correct: True
+---
+'g.21.35.gml' started.
+No solution found.
+'g.21.35.gml' stopped. Elapsed time: 2.1921 seconds.
+---
+'g.20.5.gml' started.
+Solution found:
+'g.20.5.gml' stopped. Elapsed time: 0.5036 seconds.
+Correct: True
+---
+'g.43.6.gml' started.
+Solution found:
+'g.43.6.gml' stopped. Elapsed time: 7.2284 seconds.
+Correct: True
+---
+'g.17.34.gml' started.
+No solution found.
+'g.17.34.gml' stopped. Elapsed time: 0.5153 seconds.
+---
+'g.19.19.gml' started.
+Solution found:
+'g.19.19.gml' stopped. Elapsed time: 0.2576 seconds.
+Correct: True
+---
+'g.12.146.gml' started.
+No solution found.
+'g.12.146.gml' stopped. Elapsed time: 0.3011 seconds.
+---
+'g.10.29.gml' started.
+No solution found.
+'g.10.29.gml' stopped. Elapsed time: 0.2493 seconds.
+---
+'g.17.20.gml' started.
+Solution found:
+'g.17.20.gml' stopped. Elapsed time: 0.4487 seconds.
+Correct: True
+---
+'g.19.25.gml' started.
+Solution found:
+'g.19.25.gml' stopped. Elapsed time: 0.6801 seconds.
+Correct: True
+---
+'g.42.21.gml' started.
+Solution found:
+'g.42.21.gml' stopped. Elapsed time: 2.1522 seconds.
+Correct: True
+---
+'g.10.15.gml' started.
+Solution found:
+'g.10.15.gml' stopped. Elapsed time: 0.0703 seconds.
+Correct: True
+---
+'g.19.31.gml' started.
+No solution found.
+'g.19.31.gml' stopped. Elapsed time: 0.6867 seconds.
+---
+'g.25.45.gml' started.
+No solution found.
+'g.25.45.gml' stopped. Elapsed time: 2.2838 seconds.
+---
+'g.25.51.gml' started.
+Solution found:
+'g.25.51.gml' stopped. Elapsed time: 0.8165 seconds.
+Correct: True
+---
+'g.22.70.gml' started.
+No solution found.
+'g.22.70.gml' stopped. Elapsed time: 1.9966 seconds.
+---
+'g.22.7.gml' started.
+Solution found:
+'g.22.7.gml' stopped. Elapsed time: 1.2180 seconds.
+Correct: True
+---
+'g.41.4.gml' started.
+Solution found:
+'g.41.4.gml' stopped. Elapsed time: 3.8016 seconds.
+Correct: True
+---
+'g.40.18.gml' started.
+Solution found:
+'g.40.18.gml' stopped. Elapsed time: 3.6900 seconds.
+Correct: True
+---
+'g.15.31.gml' started.
+Solution found:
+'g.15.31.gml' stopped. Elapsed time: 0.1923 seconds.
+Correct: True
+---
+'g.39.4.gml' started.
+No solution found.
+'g.39.4.gml' stopped. Elapsed time: 16.4535 seconds.
+---
+'g.61.15.gml' started.
+No solution found.
+'g.61.15.gml' stopped. Elapsed time: 19.3134 seconds.
+---
+'g.20.49.gml' started.
+No solution found.
+'g.20.49.gml' stopped. Elapsed time: 1.2332 seconds.
+---
+'g.47.2.gml' started.
+No solution found.
+'g.47.2.gml' stopped. Elapsed time: 11.0921 seconds.
+---
+'g.54.8.gml' started.
+No solution found.
+'g.54.8.gml' stopped. Elapsed time: 13.5334 seconds.
+---
+'g.24.1.gml' started.
+Solution found:
+'g.24.1.gml' stopped. Elapsed time: 0.5362 seconds.
+Correct: True
+---
+'g.11.55.gml' started.
+Solution found:
+'g.11.55.gml' stopped. Elapsed time: 0.0643 seconds.
+Correct: True
+---
+'g.57.14.gml' started.
+No solution found.
+'g.57.14.gml' stopped. Elapsed time: 17.5563 seconds.
+---
+'g.11.69.gml' started.
+Solution found:
+'g.11.69.gml' stopped. Elapsed time: 0.1549 seconds.
+Correct: True
+---
+'g.16.60.gml' started.
+No solution found.
+'g.16.60.gml' stopped. Elapsed time: 1.0609 seconds.
+---
+'g.57.28.gml' started.
+No solution found.
+'g.57.28.gml' stopped. Elapsed time: 15.7147 seconds.
+---
+'g.24.39.gml' started.
+No solution found.
+'g.24.39.gml' stopped. Elapsed time: 8.9805 seconds.
+---
+'g.45.0.gml' started.
+Solution found:
+'g.45.0.gml' stopped. Elapsed time: 11.8845 seconds.
+Correct: True
+---
+'g.23.18.gml' started.
+Solution found:
+'g.23.18.gml' stopped. Elapsed time: 0.5667 seconds.
+Correct: True
+---
+'g.35.9.gml' started.
+No solution found.
+'g.35.9.gml' stopped. Elapsed time: 35.9159 seconds.
+---
+'g.26.3.gml' started.
+Solution found:
+'g.26.3.gml' stopped. Elapsed time: 1.3113 seconds.
+Correct: True
+---
+'g.63.1.gml' started.
+No solution found.
+'g.63.1.gml' stopped. Elapsed time: 20.5797 seconds.
+---
+'g.39.56.gml' started.
+Solution found:
+'g.39.56.gml' stopped. Elapsed time: 5.6500 seconds.
+Correct: True
+---
+'g.26.1.gml' started.
+No solution found.
+'g.26.1.gml' stopped. Elapsed time: 1.8425 seconds.
+---
+'g.16.62.gml' started.
+Solution found:
+'g.16.62.gml' stopped. Elapsed time: 0.0076 seconds.
+Correct: True
+---
+'g.58.7.gml' started.
+Solution found:
+'g.58.7.gml' stopped. Elapsed time: 9.7389 seconds.
+Correct: True
+---
+'g.16.76.gml' started.
+Solution found:
+'g.16.76.gml' stopped. Elapsed time: 0.1948 seconds.
+Correct: True
+---
+'g.11.57.gml' started.
+Solution found:
+'g.11.57.gml' stopped. Elapsed time: 0.0819 seconds.
+Correct: True
+---
+'g.37.9.gml' started.
+Solution found:
+'g.37.9.gml' stopped. Elapsed time: 4.1701 seconds.
+Correct: True
+---
+'g.24.3.gml' started.
+Solution found:
+'g.24.3.gml' stopped. Elapsed time: 1.3760 seconds.
+Correct: True
+---
+'g.61.3.gml' started.
+No solution found.
+'g.61.3.gml' stopped. Elapsed time: 24.1413 seconds.
+---
+'g.49.16.gml' started.
+No solution found.
+'g.49.16.gml' stopped. Elapsed time: 15.1724 seconds.
+---
+'g.15.33.gml' started.
+Solution found:
+'g.15.33.gml' stopped. Elapsed time: 0.0731 seconds.
+Correct: True
+---
+'g.22.66.gml' started.
+Solution found:
+'g.22.66.gml' stopped. Elapsed time: 1.0382 seconds.
+Correct: True
+---
+'g.31.32.gml' started.
+No solution found.
+'g.31.32.gml' stopped. Elapsed time: 3.8618 seconds.
+---
+'g.25.47.gml' started.
+Solution found:
+'g.25.47.gml' stopped. Elapsed time: 1.1163 seconds.
+Correct: True
+---
+'g.38.16.gml' started.
+Solution found:
+'g.38.16.gml' stopped. Elapsed time: 4.9700 seconds.
+Correct: True
+---
+'g.87.0.gml' started.
+No solution found.
+'g.87.0.gml' stopped. Elapsed time: 52.7914 seconds.
+---
+'g.25.53.gml' started.
+Solution found:
+'g.25.53.gml' stopped. Elapsed time: 1.6900 seconds.
+Correct: True
+---
+'g.42.23.gml' started.
+No solution found.
+'g.42.23.gml' stopped. Elapsed time: 7.8361 seconds.
+---
+'g.19.27.gml' started.
+Solution found:
+'g.19.27.gml' stopped. Elapsed time: 0.5715 seconds.
+Correct: True
+---
+'g.10.17.gml' started.
+Solution found:
+'g.10.17.gml' stopped. Elapsed time: 0.0541 seconds.
+Correct: True
+---
+'g.17.36.gml' started.
+No solution found.
+'g.17.36.gml' stopped. Elapsed time: 0.5001 seconds.
+---
+'g.23.112.gml' started.
+Solution found:
+'g.23.112.gml' stopped. Elapsed time: 0.5500 seconds.
+Correct: True
+---
+'g.20.7.gml' started.
+No solution found.
+'g.20.7.gml' stopped. Elapsed time: 0.4600 seconds.
+---
+'g.23.106.gml' started.
+No solution found.
+'g.23.106.gml' stopped. Elapsed time: 1.4829 seconds.
+---
+'g.13.91.gml' started.
+Solution found:
+'g.13.91.gml' stopped. Elapsed time: 0.1845 seconds.
+Correct: True
+---
+'g.21.23.gml' started.
+Solution found:
+'g.21.23.gml' stopped. Elapsed time: 1.1233 seconds.
+Correct: True
+---
+'g.21.37.gml' started.
+No solution found.
+'g.21.37.gml' stopped. Elapsed time: 1.2630 seconds.
+---
+'g.13.85.gml' started.
+Solution found:
+'g.13.85.gml' stopped. Elapsed time: 0.0999 seconds.
+Correct: True
+---
+'g.100.1.gml' started.
+No solution found.
+'g.100.1.gml' stopped. Elapsed time: 92.2705 seconds.
+---
+'g.85.2.gml' started.
+No solution found.
+'g.85.2.gml' stopped. Elapsed time: 54.6151 seconds.
+---
+'g.14.67.gml' started.
+Solution found:
+'g.14.67.gml' stopped. Elapsed time: 0.3276 seconds.
+Correct: True
+---
+'g.13.52.gml' started.
+No solution found.
+'g.13.52.gml' stopped. Elapsed time: 1.1713 seconds.
+---
+'g.13.46.gml' started.
+Solution found:
+'g.13.46.gml' stopped. Elapsed time: 0.1550 seconds.
+Correct: True
+---
+'g.55.13.gml' started.
+No solution found.
+'g.55.13.gml' stopped. Elapsed time: 15.8655 seconds.
+---
+'g.13.47.gml' started.
+Solution found:
+'g.13.47.gml' stopped. Elapsed time: 0.1148 seconds.
+Correct: True
+---
+'g.13.53.gml' started.
+No solution found.
+'g.13.53.gml' stopped. Elapsed time: 1.0065 seconds.
+---
+'g.78.3.gml' started.
+Solution found:
+'g.78.3.gml' stopped. Elapsed time: 20.5717 seconds.
+Correct: True
+---
+'g.14.66.gml' started.
+Solution found:
+'g.14.66.gml' stopped. Elapsed time: 0.2710 seconds.
+Correct: True
+---
+'g.28.12.gml' started.
+Solution found:
+'g.28.12.gml' stopped. Elapsed time: 1.3149 seconds.
+Correct: True
+---
+'g.85.3.gml' started.
+No solution found.
+'g.85.3.gml' stopped. Elapsed time: 32.2085 seconds.
+---
+'g.100.0.gml' started.
+No solution found.
+'g.100.0.gml' stopped. Elapsed time: 92.7870 seconds.
+---
+'g.13.84.gml' started.
+Solution found:
+'g.13.84.gml' stopped. Elapsed time: 0.2226 seconds.
+Correct: True
+---
+'g.96.9.gml' started.
+Solution found:
+'g.96.9.gml' stopped. Elapsed time: 34.1044 seconds.
+Correct: True
+---
+'g.21.22.gml' started.
+Solution found:
+'g.21.22.gml' stopped. Elapsed time: 1.3619 seconds.
+Correct: True
+---
+'g.23.107.gml' started.
+No solution found.
+'g.23.107.gml' stopped. Elapsed time: 1.5632 seconds.
+---
+'g.43.5.gml' started.
+Solution found:
+'g.43.5.gml' stopped. Elapsed time: 4.1798 seconds.
+Correct: True
+---
+'g.26.17.gml' started.
+Solution found:
+'g.26.17.gml' stopped. Elapsed time: 1.1278 seconds.
+Correct: True
+---
+'g.20.6.gml' started.
+No solution found.
+'g.20.6.gml' stopped. Elapsed time: 0.7530 seconds.
+---
+'g.17.23.gml' started.
+Solution found:
+'g.17.23.gml' stopped. Elapsed time: 0.2058 seconds.
+Correct: True
+---
+'g.17.37.gml' started.
+Solution found:
+'g.17.37.gml' stopped. Elapsed time: 0.2187 seconds.
+Correct: True
+---
+'g.12.145.gml' started.
+No solution found.
+'g.12.145.gml' stopped. Elapsed time: 0.4694 seconds.
+---
+'g.19.32.gml' started.
+Solution found:
+'g.19.32.gml' stopped. Elapsed time: 0.3865 seconds.
+Correct: True
+---
+'g.10.16.gml' started.
+Solution found:
+'g.10.16.gml' stopped. Elapsed time: 0.0721 seconds.
+Correct: True
+---
+'g.19.26.gml' started.
+Solution found:
+'g.19.26.gml' stopped. Elapsed time: 0.6865 seconds.
+Correct: True
+---
+'g.25.52.gml' started.
+Solution found:
+'g.25.52.gml' stopped. Elapsed time: 0.6922 seconds.
+Correct: True
+---
+'g.25.46.gml' started.
+Solution found:
+'g.25.46.gml' stopped. Elapsed time: 1.0629 seconds.
+Correct: True
+---
+'g.38.17.gml' started.
+Solution found:
+'g.38.17.gml' stopped. Elapsed time: 2.3843 seconds.
+Correct: True
+---
+'g.22.67.gml' started.
+Solution found:
+'g.22.67.gml' stopped. Elapsed time: 0.9108 seconds.
+Correct: True
+---
+'g.41.7.gml' started.
+Solution found:
+'g.41.7.gml' stopped. Elapsed time: 6.8724 seconds.
+Correct: True
+---
+'g.22.4.gml' started.
+Solution found:
+'g.22.4.gml' stopped. Elapsed time: 1.0461 seconds.
+Correct: True
+---
+'g.15.26.gml' started.
+Solution found:
+'g.15.26.gml' stopped. Elapsed time: 0.1370 seconds.
+Correct: True
+---
+'g.15.32.gml' started.
+Solution found:
+'g.15.32.gml' stopped. Elapsed time: 0.1801 seconds.
+Correct: True
+---
+'g.39.7.gml' started.
+No solution found.
+'g.39.7.gml' stopped. Elapsed time: 69.2583 seconds.
+---
+'g.49.17.gml' started.
+Solution found:
+'g.49.17.gml' stopped. Elapsed time: 6.8010 seconds.
+Correct: True
+---
+'g.40.27.gml' started.
+Solution found:
+'g.40.27.gml' stopped. Elapsed time: 1.0874 seconds.
+Correct: True
+---
+'g.24.2.gml' started.
+Solution found:
+'g.24.2.gml' stopped. Elapsed time: 1.3503 seconds.
+Correct: True
+---
+'g.34.17.gml' started.
+No solution found.
+'g.34.17.gml' stopped. Elapsed time: 4.6629 seconds.
+---
+'g.61.2.gml' started.
+No solution found.
+'g.61.2.gml' stopped. Elapsed time: 17.4265 seconds.
+---
+'g.47.1.gml' started.
+No solution found.
+'g.47.1.gml' stopped. Elapsed time: 29.7645 seconds.
+---
+'g.37.8.gml' started.
+No solution found.
+'g.37.8.gml' stopped. Elapsed time: 8.6937 seconds.
+---
+'g.16.63.gml' started.
+No solution found.
+'g.16.63.gml' stopped. Elapsed time: 0.5987 seconds.
+---
+'g.59.12.gml' started.
+No solution found.
+'g.59.12.gml' stopped. Elapsed time: 16.7472 seconds.
+---
+'g.58.6.gml' started.
+No solution found.
+'g.58.6.gml' stopped. Elapsed time: 10.8953 seconds.
+---
+'g.63.0.gml' started.
+No solution found.
+'g.63.0.gml' stopped. Elapsed time: 18.9058 seconds.
+---
+'g.56.9.gml' started.
+Solution found:
+'g.56.9.gml' stopped. Elapsed time: 16.1962 seconds.
+Correct: True
+---
+'g.26.0.gml' started.
+Solution found:
+'g.26.0.gml' stopped. Elapsed time: 1.0232 seconds.
+Correct: True
+---
+'g.39.57.gml' started.
+No solution found.
+'g.39.57.gml' stopped. Elapsed time: 8.7023 seconds.
+---
+'g.13.9.gml' started.
+Solution found:
+'g.13.9.gml' stopped. Elapsed time: 0.1231 seconds.
+Correct: True
+---
+'g.23.40.gml' started.
+Solution found:
+'g.23.40.gml' stopped. Elapsed time: 0.8119 seconds.
+Correct: True
+---
+'g.30.28.gml' started.
+Solution found:
+'g.30.28.gml' stopped. Elapsed time: 2.7550 seconds.
+Correct: True
+---
+'g.42.2.gml' started.
+No solution found.
+'g.42.2.gml' stopped. Elapsed time: 10.2732 seconds.
+---
+'g.21.1.gml' started.
+No solution found.
+'g.21.1.gml' stopped. Elapsed time: 10.3834 seconds.
+---
+'g.39.30.gml' started.
+No solution found.
+'g.39.30.gml' stopped. Elapsed time: 7.6035 seconds.
+---
+'g.99.1.gml' started.
+No solution found.
+'g.99.1.gml' stopped. Elapsed time: 73.0086 seconds.
+---
+'g.18.15.gml' started.
+Solution found:
+'g.18.15.gml' stopped. Elapsed time: 0.2840 seconds.
+Correct: True
+---
+'g.23.83.gml' started.
+No solution found.
+'g.23.83.gml' stopped. Elapsed time: 4.1966 seconds.
+---
+'g.11.25.gml' started.
+No solution found.
+'g.11.25.gml' stopped. Elapsed time: 0.2863 seconds.
+---
+'g.18.29.gml' started.
+Solution found:
+'g.18.29.gml' stopped. Elapsed time: 0.4288 seconds.
+Correct: True
+---
+'g.11.19.gml' started.
+Solution found:
+'g.11.19.gml' stopped. Elapsed time: 0.0904 seconds.
+Correct: True
+---
+'g.20.39.gml' started.
+Solution found:
+'g.20.39.gml' stopped. Elapsed time: 1.1700 seconds.
+Correct: True
+---
+'g.30.9.gml' started.
+Solution found:
+'g.30.9.gml' stopped. Elapsed time: 2.7269 seconds.
+Correct: True
+---
+'g.40.0.gml' started.
+Solution found:
+'g.40.0.gml' stopped. Elapsed time: 0.6376 seconds.
+Correct: True
+---
+'g.66.3.gml' started.
+No solution found.
+'g.66.3.gml' stopped. Elapsed time: 11.9263 seconds.
+---
+'g.12.48.gml' started.
+Solution found:
+'g.12.48.gml' stopped. Elapsed time: 0.1352 seconds.
+Correct: True
+---
+'g.15.41.gml' started.
+No solution found.
+'g.15.41.gml' stopped. Elapsed time: 0.5890 seconds.
+---
+'g.18.5.gml' started.
+Solution found:
+'g.18.5.gml' stopped. Elapsed time: 0.3507 seconds.
+Correct: True
+---
+'g.12.60.gml' started.
+No solution found.
+'g.12.60.gml' stopped. Elapsed time: 0.4317 seconds.
+---
+'g.25.21.gml' started.
+Solution found:
+'g.25.21.gml' stopped. Elapsed time: 1.0939 seconds.
+Correct: True
+---
+'g.22.14.gml' started.
+Solution found:
+'g.22.14.gml' stopped. Elapsed time: 1.2272 seconds.
+Correct: True
+---
+'g.25.5.gml' started.
+Solution found:
+'g.25.5.gml' stopped. Elapsed time: 1.3887 seconds.
+Correct: True
+---
+'g.46.6.gml' started.
+Solution found:
+'g.46.6.gml' stopped. Elapsed time: 6.0472 seconds.
+Correct: True
+---
+'g.12.122.gml' started.
+Solution found:
+'g.12.122.gml' stopped. Elapsed time: 0.1502 seconds.
+Correct: True
+---
+'g.48.9.gml' started.
+No solution found.
+'g.48.9.gml' stopped. Elapsed time: 8.6559 seconds.
+---
+'g.19.41.gml' started.
+Solution found:
+'g.19.41.gml' stopped. Elapsed time: 0.6294 seconds.
+Correct: True
+---
+'g.10.71.gml' started.
+Solution found:
+'g.10.71.gml' stopped. Elapsed time: 0.0185 seconds.
+Correct: True
+---
+'g.21.45.gml' started.
+Solution found:
+'g.21.45.gml' stopped. Elapsed time: 0.8271 seconds.
+Correct: True
+---
+'g.35.24.gml' started.
+Solution found:
+'g.35.24.gml' stopped. Elapsed time: 2.3168 seconds.
+Correct: True
+---
+'g.27.7.gml' started.
+Solution found:
+'g.27.7.gml' stopped. Elapsed time: 0.8324 seconds.
+Correct: True
+---
+'g.62.7.gml' started.
+Solution found:
+'g.62.7.gml' stopped. Elapsed time: 11.0617 seconds.
+Correct: True
+---
+'g.44.4.gml' started.
+Solution found:
+'g.44.4.gml' stopped. Elapsed time: 4.6991 seconds.
+Correct: True
+---
+'g.32.11.gml' started.
+No solution found.
+'g.32.11.gml' stopped. Elapsed time: 8.0698 seconds.
+---
+'g.13.34.gml' started.
+No solution found.
+'g.13.34.gml' stopped. Elapsed time: 1.3386 seconds.
+---
+'g.48.24.gml' started.
+Solution found:
+'g.48.24.gml' stopped. Elapsed time: 8.1045 seconds.
+Correct: True
+---
+'g.14.15.gml' started.
+Solution found:
+'g.14.15.gml' stopped. Elapsed time: 0.1298 seconds.
+Correct: True
+---
+'g.48.18.gml' started.
+Solution found:
+'g.48.18.gml' stopped. Elapsed time: 7.0960 seconds.
+Correct: True
+---
+'g.48.19.gml' started.
+No solution found.
+'g.48.19.gml' stopped. Elapsed time: 9.3628 seconds.
+---
+'g.59.0.gml' started.
+No solution found.
+'g.59.0.gml' stopped. Elapsed time: 40.4817 seconds.
+---
+'g.14.14.gml' started.
+Solution found:
+'g.14.14.gml' stopped. Elapsed time: 0.2111 seconds.
+Correct: True
+---
+'g.29.9.gml' started.
+No solution found.
+'g.29.9.gml' stopped. Elapsed time: 20.4646 seconds.
+---
+'g.14.28.gml' started.
+No solution found.
+'g.14.28.gml' stopped. Elapsed time: 0.4123 seconds.
+---
+'g.13.21.gml' started.
+Solution found:
+'g.13.21.gml' stopped. Elapsed time: 0.1779 seconds.
+Correct: True
+---
+'g.13.35.gml' started.
+Solution found:
+'g.13.35.gml' stopped. Elapsed time: 0.2288 seconds.
+Correct: True
+---
+'g.48.31.gml' started.
+Solution found:
+'g.48.31.gml' stopped. Elapsed time: 7.3729 seconds.
+Correct: True
+---
+'g.44.5.gml' started.
+Solution found:
+'g.44.5.gml' stopped. Elapsed time: 5.4460 seconds.
+Correct: True
+---
+'g.32.10.gml' started.
+No solution found.
+'g.32.10.gml' stopped. Elapsed time: 9.7478 seconds.
+---
+'g.62.6.gml' started.
+Solution found:
+'g.62.6.gml' stopped. Elapsed time: 12.7584 seconds.
+Correct: True
+---
+'g.35.25.gml' started.
+Solution found:
+'g.35.25.gml' stopped. Elapsed time: 2.5972 seconds.
+Correct: True
+---
+'g.10.70.gml' started.
+Solution found:
+'g.10.70.gml' stopped. Elapsed time: 0.0597 seconds.
+Correct: True
+---
+'g.48.8.gml' started.
+Solution found:
+'g.48.8.gml' stopped. Elapsed time: 10.3768 seconds.
+Correct: True
+---
+'g.19.40.gml' started.
+Solution found:
+'g.19.40.gml' stopped. Elapsed time: 0.3556 seconds.
+Correct: True
+---
+'g.17.45.gml' started.
+Solution found:
+'g.17.45.gml' stopped. Elapsed time: 0.3689 seconds.
+Correct: True
+---
+'g.10.58.gml' started.
+Solution found:
+'g.10.58.gml' stopped. Elapsed time: 0.1696 seconds.
+Correct: True
+---
+'g.12.123.gml' started.
+Solution found:
+'g.12.123.gml' stopped. Elapsed time: 0.0943 seconds.
+Correct: True
+---
+'g.25.4.gml' started.
+Solution found:
+'g.25.4.gml' stopped. Elapsed time: 1.0196 seconds.
+Correct: True
+---
+'g.22.15.gml' started.
+Solution found:
+'g.22.15.gml' stopped. Elapsed time: 0.6154 seconds.
+Correct: True
+---
+'g.25.34.gml' started.
+No solution found.
+'g.25.34.gml' stopped. Elapsed time: 3.3182 seconds.
+---
+'g.80.1.gml' started.
+No solution found.
+'g.80.1.gml' stopped. Elapsed time: 25.7871 seconds.
+---
+'g.12.75.gml' started.
+No solution found.
+'g.12.75.gml' stopped. Elapsed time: 0.8298 seconds.
+---
+'g.18.4.gml' started.
+Solution found:
+'g.18.4.gml' stopped. Elapsed time: 0.4286 seconds.
+Correct: True
+---
+'g.12.49.gml' started.
+Solution found:
+'g.12.49.gml' stopped. Elapsed time: 0.1259 seconds.
+Correct: True
+---
+'g.15.40.gml' started.
+No solution found.
+'g.15.40.gml' stopped. Elapsed time: 0.5750 seconds.
+---
+'g.23.2.gml' started.
+Solution found:
+'g.23.2.gml' stopped. Elapsed time: 0.5636 seconds.
+Correct: True
+---
+'g.30.8.gml' started.
+Solution found:
+'g.30.8.gml' stopped. Elapsed time: 2.0867 seconds.
+Correct: True
+---
+'g.79.5.gml' started.
+No solution found.
+'g.79.5.gml' stopped. Elapsed time: 43.3431 seconds.
+---
+'g.18.28.gml' started.
+Solution found:
+'g.18.28.gml' stopped. Elapsed time: 0.3061 seconds.
+Correct: True
+---
+'g.11.24.gml' started.
+Solution found:
+'g.11.24.gml' stopped. Elapsed time: 0.1410 seconds.
+Correct: True
+---
+'g.23.96.gml' started.
+No solution found.
+'g.23.96.gml' stopped. Elapsed time: 8.1853 seconds.
+---
+'g.44.19.gml' started.
+No solution found.
+'g.44.19.gml' stopped. Elapsed time: 9.8487 seconds.
+---
+'g.18.14.gml' started.
+Solution found:
+'g.18.14.gml' stopped. Elapsed time: 0.4257 seconds.
+Correct: True
+---
+'g.99.0.gml' started.
+No solution found.
+'g.99.0.gml' stopped. Elapsed time: 49.5583 seconds.
+---
+'g.11.30.gml' started.
+Solution found:
+'g.11.30.gml' stopped. Elapsed time: 0.1256 seconds.
+Correct: True
+---
+'g.21.0.gml' started.
+Solution found:
+'g.21.0.gml' stopped. Elapsed time: 0.0730 seconds.
+Correct: True
+---
+'g.30.15.gml' started.
+Solution found:
+'g.30.15.gml' stopped. Elapsed time: 2.1434 seconds.
+Correct: True
+---
+'g.14.9.gml' started.
+Solution found:
+'g.14.9.gml' stopped. Elapsed time: 0.1143 seconds.
+Correct: True
+---
+'g.23.69.gml' started.
+Solution found:
+'g.23.69.gml' stopped. Elapsed time: 0.4667 seconds.
+Correct: True
+---
+'g.42.3.gml' started.
+No solution found.
+'g.42.3.gml' stopped. Elapsed time: 10.2712 seconds.
+---
+'g.37.20.gml' started.
+No solution found.
+'g.37.20.gml' stopped. Elapsed time: 9.2984 seconds.
+---
+'g.23.41.gml' started.
+Solution found:
+'g.23.41.gml' stopped. Elapsed time: 0.4923 seconds.
+Correct: True
+---
+'g.24.48.gml' started.
+Solution found:
+'g.24.48.gml' stopped. Elapsed time: 1.8017 seconds.
+Correct: True
+---
+'g.23.43.gml' started.
+Solution found:
+'g.23.43.gml' stopped. Elapsed time: 0.5069 seconds.
+Correct: True
+---
+'g.30.17.gml' started.
+No solution found.
+'g.30.17.gml' stopped. Elapsed time: 7.1237 seconds.
+---
+'g.21.2.gml' started.
+Solution found:
+'g.21.2.gml' stopped. Elapsed time: 0.5003 seconds.
+Correct: True
+---
+'g.32.8.gml' started.
+Solution found:
+'g.32.8.gml' stopped. Elapsed time: 0.6009 seconds.
+Correct: True
+---
+'g.42.1.gml' started.
+No solution found.
+'g.42.1.gml' stopped. Elapsed time: 10.3968 seconds.
+---
+'g.43.12.gml' started.
+Solution found:
+'g.43.12.gml' stopped. Elapsed time: 5.4357 seconds.
+Correct: True
+---
+'g.99.2.gml' started.
+No solution found.
+'g.99.2.gml' stopped. Elapsed time: 61.7883 seconds.
+---
+'g.18.16.gml' started.
+Solution found:
+'g.18.16.gml' stopped. Elapsed time: 0.2798 seconds.
+Correct: True
+---
+'g.79.7.gml' started.
+No solution found.
+'g.79.7.gml' stopped. Elapsed time: 47.7450 seconds.
+---
+'g.12.88.gml' started.
+No solution found.
+'g.12.88.gml' stopped. Elapsed time: 0.9875 seconds.
+---
+'g.86.5.gml' started.
+No solution found.
+'g.86.5.gml' stopped. Elapsed time: 38.2203 seconds.
+---
+'g.16.9.gml' started.
+No solution found.
+'g.16.9.gml' stopped. Elapsed time: 0.4631 seconds.
+---
+'g.53.9.gml' started.
+No solution found.
+'g.53.9.gml' stopped. Elapsed time: 16.7948 seconds.
+---
+'g.40.3.gml' started.
+Solution found:
+'g.40.3.gml' stopped. Elapsed time: 3.6372 seconds.
+Correct: True
+---
+'g.15.56.gml' started.
+Solution found:
+'g.15.56.gml' stopped. Elapsed time: 0.1717 seconds.
+Correct: True
+---
+'g.12.77.gml' started.
+No solution found.
+'g.12.77.gml' stopped. Elapsed time: 0.2968 seconds.
+---
+'g.12.63.gml' started.
+No solution found.
+'g.12.63.gml' stopped. Elapsed time: 0.7761 seconds.
+---
+'g.18.6.gml' started.
+Solution found:
+'g.18.6.gml' stopped. Elapsed time: 0.4142 seconds.
+Correct: True
+---
+'g.25.36.gml' started.
+No solution found.
+'g.25.36.gml' stopped. Elapsed time: 5.2232 seconds.
+---
+'g.25.22.gml' started.
+Solution found:
+'g.25.22.gml' stopped. Elapsed time: 1.1204 seconds.
+Correct: True
+---
+'g.46.5.gml' started.
+No solution found.
+'g.46.5.gml' stopped. Elapsed time: 24.4427 seconds.
+---
+'g.22.17.gml' started.
+Solution found:
+'g.22.17.gml' stopped. Elapsed time: 0.7740 seconds.
+Correct: True
+---
+'g.25.6.gml' started.
+Solution found:
+'g.25.6.gml' stopped. Elapsed time: 1.0953 seconds.
+Correct: True
+---
+'g.12.135.gml' started.
+Solution found:
+'g.12.135.gml' stopped. Elapsed time: 0.0756 seconds.
+Correct: True
+---
+'g.12.121.gml' started.
+No solution found.
+'g.12.121.gml' stopped. Elapsed time: 0.2228 seconds.
+---
+'g.10.72.gml' started.
+Solution found:
+'g.10.72.gml' stopped. Elapsed time: 0.0903 seconds.
+Correct: True
+---
+'g.12.109.gml' started.
+Solution found:
+'g.12.109.gml' stopped. Elapsed time: 0.0884 seconds.
+Correct: True
+---
+'g.38.3.gml' started.
+Solution found:
+'g.38.3.gml' stopped. Elapsed time: 4.7274 seconds.
+Correct: True
+---
+'g.35.27.gml' started.
+No solution found.
+'g.35.27.gml' stopped. Elapsed time: 8.0497 seconds.
+---
+'g.82.1.gml' started.
+Solution found:
+'g.82.1.gml' stopped. Elapsed time: 19.5284 seconds.
+Correct: True
+---
+'g.32.12.gml' started.
+Solution found:
+'g.32.12.gml' stopped. Elapsed time: 2.6119 seconds.
+Correct: True
+---
+'g.44.7.gml' started.
+No solution found.
+'g.44.7.gml' stopped. Elapsed time: 9.8231 seconds.
+---
+'g.62.4.gml' started.
+No solution found.
+'g.62.4.gml' stopped. Elapsed time: 19.9751 seconds.
+---
+'g.27.4.gml' started.
+Solution found:
+'g.27.4.gml' stopped. Elapsed time: 0.8933 seconds.
+Correct: True
+---
+'g.13.37.gml' started.
+Solution found:
+'g.13.37.gml' stopped. Elapsed time: 0.1811 seconds.
+Correct: True
+---
+'g.14.16.gml' started.
+Solution found:
+'g.14.16.gml' stopped. Elapsed time: 0.1431 seconds.
+Correct: True
+---
+'g.59.2.gml' started.
+No solution found.
+'g.59.2.gml' stopped. Elapsed time: 205.6153 seconds.
+---
+'g.14.17.gml' started.
+Solution found:
+'g.14.17.gml' stopped. Elapsed time: 0.2430 seconds.
+Correct: True
+---
+'g.13.36.gml' started.
+Solution found:
+'g.13.36.gml' stopped. Elapsed time: 0.2117 seconds.
+Correct: True
+---
+'g.62.5.gml' started.
+Solution found:
+'g.62.5.gml' stopped. Elapsed time: 14.4665 seconds.
+Correct: True
+---
+'g.32.13.gml' started.
+Solution found:
+'g.32.13.gml' stopped. Elapsed time: 2.7334 seconds.
+Correct: True
+---
+'g.35.32.gml' started.
+No solution found.
+'g.35.32.gml' stopped. Elapsed time: 15.2842 seconds.
+---
+'g.35.26.gml' started.
+No solution found.
+'g.35.26.gml' stopped. Elapsed time: 4.7484 seconds.
+---
+'g.38.2.gml' started.
+Solution found:
+'g.38.2.gml' stopped. Elapsed time: 3.1406 seconds.
+Correct: True
+---
+'g.19.43.gml' started.
+Solution found:
+'g.19.43.gml' stopped. Elapsed time: 0.3657 seconds.
+Correct: True
+---
+'g.12.108.gml' started.
+No solution found.
+'g.12.108.gml' stopped. Elapsed time: 0.2384 seconds.
+---
+'g.12.134.gml' started.
+No solution found.
+'g.12.134.gml' stopped. Elapsed time: 0.3024 seconds.
+---
+'g.25.7.gml' started.
+Solution found:
+'g.25.7.gml' stopped. Elapsed time: 1.2178 seconds.
+Correct: True
+---
+'g.46.4.gml' started.
+Solution found:
+'g.46.4.gml' stopped. Elapsed time: 16.4870 seconds.
+Correct: True
+---
+'g.25.37.gml' started.
+Solution found:
+'g.25.37.gml' stopped. Elapsed time: 0.7757 seconds.
+Correct: True
+---
+'g.12.62.gml' started.
+No solution found.
+'g.12.62.gml' stopped. Elapsed time: 0.3959 seconds.
+---
+'g.18.7.gml' started.
+Solution found:
+'g.18.7.gml' stopped. Elapsed time: 0.3359 seconds.
+Correct: True
+---
+'g.12.76.gml' started.
+No solution found.
+'g.12.76.gml' stopped. Elapsed time: 0.6322 seconds.
+---
+'g.15.43.gml' started.
+Solution found:
+'g.15.43.gml' stopped. Elapsed time: 0.0877 seconds.
+Correct: True
+---
+'g.20.13.gml' started.
+No solution found.
+'g.20.13.gml' stopped. Elapsed time: 10.6102 seconds.
+---
+'g.16.8.gml' started.
+Solution found:
+'g.16.8.gml' stopped. Elapsed time: 0.2579 seconds.
+Correct: True
+---
+'g.23.1.gml' started.
+Solution found:
+'g.23.1.gml' stopped. Elapsed time: 0.9766 seconds.
+Correct: True
+---
+'g.86.4.gml' started.
+No solution found.
+'g.86.4.gml' stopped. Elapsed time: 89.8699 seconds.
+---
+'g.12.89.gml' started.
+No solution found.
+'g.12.89.gml' stopped. Elapsed time: 0.1572 seconds.
+---
+'g.79.6.gml' started.
+Solution found:
+'g.79.6.gml' stopped. Elapsed time: 30.8441 seconds.
+Correct: True
+---
+'g.23.81.gml' started.
+No solution found.
+'g.23.81.gml' stopped. Elapsed time: 6.8047 seconds.
+---
+'g.18.17.gml' started.
+Solution found:
+'g.18.17.gml' stopped. Elapsed time: 0.3568 seconds.
+Correct: True
+---
+'g.32.9.gml' started.
+Solution found:
+'g.32.9.gml' stopped. Elapsed time: 1.6357 seconds.
+Correct: True
+---
+'g.42.0.gml' started.
+No solution found.
+'g.42.0.gml' stopped. Elapsed time: 11.1118 seconds.
+---
+'g.39.26.gml' started.
+Solution found:
+'g.39.26.gml' stopped. Elapsed time: 4.7079 seconds.
+Correct: True
+---
+'g.21.3.gml' started.
+Solution found:
+'g.21.3.gml' stopped. Elapsed time: 0.4367 seconds.
+Correct: True
+---
+'g.30.12.gml' started.
+Solution found:
+'g.30.12.gml' stopped. Elapsed time: 2.2555 seconds.
+Correct: True
+---
+'g.64.7.gml' started.
+No solution found.
+'g.64.7.gml' stopped. Elapsed time: 46.1874 seconds.
+---
+'g.42.4.gml' started.
+Solution found:
+'g.42.4.gml' stopped. Elapsed time: 12.2176 seconds.
+Correct: True
+---
+'g.84.2.gml' started.
+Solution found:
+'g.84.2.gml' stopped. Elapsed time: 33.0957 seconds.
+Correct: True
+---
+'g.16.16.gml' started.
+Solution found:
+'g.16.16.gml' stopped. Elapsed time: 0.4752 seconds.
+Correct: True
+---
+'g.44.22.gml' started.
+No solution found.
+'g.44.22.gml' stopped. Elapsed time: 10.3697 seconds.
+---
+'g.11.23.gml' started.
+No solution found.
+'g.11.23.gml' stopped. Elapsed time: 0.4309 seconds.
+---
+'g.18.13.gml' started.
+Solution found:
+'g.18.13.gml' stopped. Elapsed time: 0.1331 seconds.
+Correct: True
+---
+'g.23.85.gml' started.
+No solution found.
+'g.23.85.gml' stopped. Elapsed time: 8.1423 seconds.
+---
+'g.43.17.gml' started.
+No solution found.
+'g.43.17.gml' stopped. Elapsed time: 7.4138 seconds.
+---
+'g.11.37.gml' started.
+Solution found:
+'g.11.37.gml' stopped. Elapsed time: 0.1641 seconds.
+Correct: True
+---
+'g.23.5.gml' started.
+Solution found:
+'g.23.5.gml' stopped. Elapsed time: 1.0054 seconds.
+Correct: True
+---
+'g.86.0.gml' started.
+Solution found:
+'g.86.0.gml' stopped. Elapsed time: 37.6417 seconds.
+Correct: True
+---
+'g.12.99.gml' started.
+Solution found:
+'g.12.99.gml' stopped. Elapsed time: 0.1925 seconds.
+Correct: True
+---
+'g.12.66.gml' started.
+Solution found:
+'g.12.66.gml' stopped. Elapsed time: 0.1015 seconds.
+Correct: True
+---
+'g.15.47.gml' started.
+Solution found:
+'g.15.47.gml' stopped. Elapsed time: 0.1633 seconds.
+Correct: True
+---
+'g.36.9.gml' started.
+Solution found:
+'g.36.9.gml' stopped. Elapsed time: 3.1427 seconds.
+Correct: True
+---
+'g.73.9.gml' started.
+Solution found:
+'g.73.9.gml' stopped. Elapsed time: 61.0112 seconds.
+Correct: True
+---
+'g.22.12.gml' started.
+Solution found:
+'g.22.12.gml' stopped. Elapsed time: 0.6105 seconds.
+Correct: True
+---
+'g.80.6.gml' started.
+Solution found:
+'g.80.6.gml' stopped. Elapsed time: 24.8802 seconds.
+Correct: True
+---
+'g.10.88.gml' started.
+No solution found.
+'g.10.88.gml' stopped. Elapsed time: 0.1809 seconds.
+---
+'g.25.33.gml' started.
+No solution found.
+'g.25.33.gml' stopped. Elapsed time: 2.6748 seconds.
+---
+'g.12.118.gml' started.
+No solution found.
+'g.12.118.gml' stopped. Elapsed time: 0.3067 seconds.
+---
+'g.38.6.gml' started.
+Solution found:
+'g.38.6.gml' stopped. Elapsed time: 8.6049 seconds.
+Correct: True
+---
+'g.17.42.gml' started.
+Solution found:
+'g.17.42.gml' stopped. Elapsed time: 0.2144 seconds.
+Correct: True
+---
+'g.12.124.gml' started.
+Solution found:
+'g.12.124.gml' stopped. Elapsed time: 0.0926 seconds.
+Correct: True
+---
+'g.32.17.gml' started.
+Solution found:
+'g.32.17.gml' stopped. Elapsed time: 0.0182 seconds.
+Correct: True
+---
+'g.12.8.gml' started.
+No solution found.
+'g.12.8.gml' stopped. Elapsed time: 0.4410 seconds.
+---
+'g.27.1.gml' started.
+Solution found:
+'g.27.1.gml' stopped. Elapsed time: 1.2686 seconds.
+Correct: True
+---
+'g.57.8.gml' started.
+No solution found.
+'g.57.8.gml' stopped. Elapsed time: 18.5266 seconds.
+---
+'g.62.1.gml' started.
+Solution found:
+'g.62.1.gml' stopped. Elapsed time: 11.7208 seconds.
+Correct: True
+---
+'g.82.4.gml' started.
+No solution found.
+'g.82.4.gml' stopped. Elapsed time: 62.0543 seconds.
+---
+'g.14.13.gml' started.
+Solution found:
+'g.14.13.gml' stopped. Elapsed time: 0.2355 seconds.
+Correct: True
+---
+'g.13.26.gml' started.
+Solution found:
+'g.13.26.gml' stopped. Elapsed time: 0.1260 seconds.
+Correct: True
+---
+'g.41.12.gml' started.
+Solution found:
+'g.41.12.gml' stopped. Elapsed time: 5.4394 seconds.
+Correct: True
+---
+'g.41.13.gml' started.
+No solution found.
+'g.41.13.gml' stopped. Elapsed time: 11.0769 seconds.
+---
+'g.48.23.gml' started.
+Solution found:
+'g.48.23.gml' stopped. Elapsed time: 6.7166 seconds.
+Correct: True
+---
+'g.13.120.gml' started.
+Solution found:
+'g.13.120.gml' stopped. Elapsed time: 0.1017 seconds.
+Correct: True
+---
+'g.14.12.gml' started.
+Solution found:
+'g.14.12.gml' stopped. Elapsed time: 0.1888 seconds.
+Correct: True
+---
+'g.82.5.gml' started.
+No solution found.
+'g.82.5.gml' stopped. Elapsed time: 61.7703 seconds.
+---
+'g.35.23.gml' started.
+No solution found.
+'g.35.23.gml' stopped. Elapsed time: 6.8650 seconds.
+---
+'g.27.0.gml' started.
+Solution found:
+'g.27.0.gml' stopped. Elapsed time: 1.9694 seconds.
+Correct: True
+---
+'g.12.9.gml' started.
+Solution found:
+'g.12.9.gml' stopped. Elapsed time: 0.2251 seconds.
+Correct: True
+---
+'g.62.0.gml' started.
+No solution found.
+'g.62.0.gml' stopped. Elapsed time: 37.3381 seconds.
+---
+'g.57.9.gml' started.
+No solution found.
+'g.57.9.gml' stopped. Elapsed time: 17.4239 seconds.
+---
+'g.44.3.gml' started.
+No solution found.
+'g.44.3.gml' stopped. Elapsed time: 39.8686 seconds.
+---
+'g.10.62.gml' started.
+No solution found.
+'g.10.62.gml' stopped. Elapsed time: 0.2632 seconds.
+---
+'g.38.7.gml' started.
+Solution found:
+'g.38.7.gml' stopped. Elapsed time: 3.4800 seconds.
+Correct: True
+---
+'g.25.26.gml' started.
+No solution found.
+'g.25.26.gml' stopped. Elapsed time: 2.4929 seconds.
+---
+'g.25.32.gml' started.
+No solution found.
+'g.25.32.gml' stopped. Elapsed time: 2.8968 seconds.
+---
+'g.10.89.gml' started.
+Solution found:
+'g.10.89.gml' stopped. Elapsed time: 0.1021 seconds.
+Correct: True
+---
+'g.36.8.gml' started.
+Solution found:
+'g.36.8.gml' stopped. Elapsed time: 7.2286 seconds.
+Correct: True
+---
+'g.73.8.gml' started.
+No solution found.
+'g.73.8.gml' stopped. Elapsed time: 24.5300 seconds.
+---
+'g.15.52.gml' started.
+Solution found:
+'g.15.52.gml' stopped. Elapsed time: 0.3638 seconds.
+Correct: True
+---
+'g.53.13.gml' started.
+No solution found.
+'g.53.13.gml' stopped. Elapsed time: 10.5362 seconds.
+---
+'g.18.2.gml' started.
+No solution found.
+'g.18.2.gml' stopped. Elapsed time: 0.6030 seconds.
+---
+'g.12.98.gml' started.
+No solution found.
+'g.12.98.gml' stopped. Elapsed time: 0.2977 seconds.
+---
+'g.86.1.gml' started.
+Solution found:
+'g.86.1.gml' stopped. Elapsed time: 33.1573 seconds.
+Correct: True
+---
+'g.40.7.gml' started.
+Solution found:
+'g.40.7.gml' stopped. Elapsed time: 6.9199 seconds.
+Correct: True
+---
+'g.23.4.gml' started.
+Solution found:
+'g.23.4.gml' stopped. Elapsed time: 1.0516 seconds.
+Correct: True
+---
+'g.18.12.gml' started.
+Solution found:
+'g.18.12.gml' stopped. Elapsed time: 0.5047 seconds.
+Correct: True
+---
+'g.11.36.gml' started.
+Solution found:
+'g.11.36.gml' stopped. Elapsed time: 0.0696 seconds.
+Correct: True
+---
+'g.11.22.gml' started.
+Solution found:
+'g.11.22.gml' stopped. Elapsed time: 0.0780 seconds.
+Correct: True
+---
+'g.23.90.gml' started.
+No solution found.
+'g.23.90.gml' stopped. Elapsed time: 4.4250 seconds.
+---
+'g.79.3.gml' started.
+Solution found:
+'g.79.3.gml' stopped. Elapsed time: 22.8686 seconds.
+Correct: True
+---
+'g.16.17.gml' started.
+Solution found:
+'g.16.17.gml' stopped. Elapsed time: 0.2637 seconds.
+Correct: True
+---
+'g.42.5.gml' started.
+No solution found.
+'g.42.5.gml' stopped. Elapsed time: 23.3714 seconds.
+---
+'g.39.23.gml' started.
+Solution found:
+'g.39.23.gml' stopped. Elapsed time: 4.2170 seconds.
+Correct: True
+---
+'g.21.6.gml' started.
+Solution found:
+'g.21.6.gml' stopped. Elapsed time: 0.3720 seconds.
+Correct: True
+---
+'g.42.7.gml' started.
+Solution found:
+'g.42.7.gml' stopped. Elapsed time: 4.4318 seconds.
+Correct: True
+---
+'g.37.18.gml' started.
+Solution found:
+'g.37.18.gml' stopped. Elapsed time: 3.6618 seconds.
+Correct: True
+---
+'g.30.11.gml' started.
+Solution found:
+'g.30.11.gml' stopped. Elapsed time: 3.3474 seconds.
+Correct: True
+---
+'g.21.4.gml' started.
+Solution found:
+'g.21.4.gml' stopped. Elapsed time: 0.6749 seconds.
+Correct: True
+---
+'g.23.45.gml' started.
+Solution found:
+'g.23.45.gml' stopped. Elapsed time: 0.6196 seconds.
+Correct: True
+---
+'g.84.1.gml' started.
+No solution found.
+'g.84.1.gml' stopped. Elapsed time: 33.0333 seconds.
+---
+'g.44.21.gml' started.
+Solution found:
+'g.44.21.gml' stopped. Elapsed time: 5.0238 seconds.
+Correct: True
+---
+'g.79.1.gml' started.
+Solution found:
+'g.79.1.gml' stopped. Elapsed time: 12.3072 seconds.
+Correct: True
+---
+'g.18.38.gml' started.
+No solution found.
+'g.18.38.gml' stopped. Elapsed time: 0.8178 seconds.
+---
+'g.43.14.gml' started.
+No solution found.
+'g.43.14.gml' stopped. Elapsed time: 7.3646 seconds.
+---
+'g.18.10.gml' started.
+Solution found:
+'g.18.10.gml' stopped. Elapsed time: 0.4508 seconds.
+Correct: True
+---
+'g.23.86.gml' started.
+No solution found.
+'g.23.86.gml' stopped. Elapsed time: 8.1423 seconds.
+---
+'g.23.92.gml' started.
+Solution found:
+'g.23.92.gml' stopped. Elapsed time: 1.7581 seconds.
+Correct: True
+---
+'g.11.20.gml' started.
+Solution found:
+'g.11.20.gml' stopped. Elapsed time: 0.0863 seconds.
+Correct: True
+---
+'g.40.5.gml' started.
+Solution found:
+'g.40.5.gml' stopped. Elapsed time: 9.8316 seconds.
+Correct: True
+---
+'g.20.14.gml' started.
+No solution found.
+'g.20.14.gml' stopped. Elapsed time: 0.9033 seconds.
+---
+'g.66.6.gml' started.
+No solution found.
+'g.66.6.gml' stopped. Elapsed time: 44.8186 seconds.
+---
+'g.86.3.gml' started.
+No solution found.
+'g.86.3.gml' stopped. Elapsed time: 93.0528 seconds.
+---
+'g.20.28.gml' started.
+Solution found:
+'g.20.28.gml' stopped. Elapsed time: 0.8238 seconds.
+Correct: True
+---
+'g.18.0.gml' started.
+Solution found:
+'g.18.0.gml' stopped. Elapsed time: 0.3664 seconds.
+Correct: True
+---
+'g.15.50.gml' started.
+Solution found:
+'g.15.50.gml' stopped. Elapsed time: 0.4253 seconds.
+Correct: True
+---
+'g.25.0.gml' started.
+No solution found.
+'g.25.0.gml' stopped. Elapsed time: 1.5098 seconds.
+---
+'g.10.9.gml' started.
+Solution found:
+'g.10.9.gml' stopped. Elapsed time: 0.0446 seconds.
+Correct: True
+---
+'g.60.0.gml' started.
+No solution found.
+'g.60.0.gml' stopped. Elapsed time: 22.1714 seconds.
+---
+'g.55.9.gml' started.
+No solution found.
+'g.55.9.gml' stopped. Elapsed time: 16.1903 seconds.
+---
+'g.25.18.gml' started.
+No solution found.
+'g.25.18.gml' stopped. Elapsed time: 3.1817 seconds.
+---
+'g.46.3.gml' started.
+No solution found.
+'g.46.3.gml' stopped. Elapsed time: 38.5310 seconds.
+---
+'g.80.5.gml' started.
+No solution found.
+'g.80.5.gml' stopped. Elapsed time: 20.5080 seconds.
+---
+'g.22.39.gml' started.
+Solution found:
+'g.22.39.gml' stopped. Elapsed time: 0.5389 seconds.
+Correct: True
+---
+'g.19.44.gml' started.
+Solution found:
+'g.19.44.gml' stopped. Elapsed time: 0.3230 seconds.
+Correct: True
+---
+'g.38.5.gml' started.
+Solution found:
+'g.38.5.gml' stopped. Elapsed time: 10.7623 seconds.
+Correct: True
+---
+'g.10.60.gml' started.
+Solution found:
+'g.10.60.gml' stopped. Elapsed time: 0.2124 seconds.
+Correct: True
+---
+'g.10.74.gml' started.
+Solution found:
+'g.10.74.gml' stopped. Elapsed time: 0.1003 seconds.
+Correct: True
+---
+'g.12.133.gml' started.
+Solution found:
+'g.12.133.gml' stopped. Elapsed time: 0.1737 seconds.
+Correct: True
+---
+'g.17.41.gml' started.
+No solution found.
+'g.17.41.gml' stopped. Elapsed time: 0.8523 seconds.
+---
+'g.62.2.gml' started.
+No solution found.
+'g.62.2.gml' stopped. Elapsed time: 19.7673 seconds.
+---
+'g.32.14.gml' started.
+Solution found:
+'g.32.14.gml' stopped. Elapsed time: 4.2555 seconds.
+Correct: True
+---
+'g.34.8.gml' started.
+No solution found.
+'g.34.8.gml' stopped. Elapsed time: 5.0104 seconds.
+---
+'g.44.1.gml' started.
+No solution found.
+'g.44.1.gml' stopped. Elapsed time: 19.6082 seconds.
+---
+'g.21.40.gml' started.
+Solution found:
+'g.21.40.gml' stopped. Elapsed time: 0.4420 seconds.
+Correct: True
+---
+'g.32.28.gml' started.
+No solution found.
+'g.32.28.gml' stopped. Elapsed time: 28.0330 seconds.
+---
+'g.14.38.gml' started.
+No solution found.
+'g.14.38.gml' stopped. Elapsed time: 0.3850 seconds.
+---
+'g.48.35.gml' started.
+Solution found:
+'g.48.35.gml' stopped. Elapsed time: 6.4798 seconds.
+Correct: True
+---
+'g.13.31.gml' started.
+No solution found.
+'g.13.31.gml' stopped. Elapsed time: 0.3165 seconds.
+---
+'g.13.25.gml' started.
+Solution found:
+'g.13.25.gml' stopped. Elapsed time: 0.1054 seconds.
+Correct: True
+---
+'g.46.19.gml' started.
+No solution found.
+'g.46.19.gml' stopped. Elapsed time: 13.6752 seconds.
+---
+'g.14.39.gml' started.
+Solution found:
+'g.14.39.gml' stopped. Elapsed time: 0.1294 seconds.
+Correct: True
+---
+'g.13.30.gml' started.
+Solution found:
+'g.13.30.gml' stopped. Elapsed time: 0.1684 seconds.
+Correct: True
+---
+'g.35.20.gml' started.
+Solution found:
+'g.35.20.gml' stopped. Elapsed time: 1.5862 seconds.
+Correct: True
+---
+'g.21.41.gml' started.
+No solution found.
+'g.21.41.gml' stopped. Elapsed time: 1.2624 seconds.
+---
+'g.32.15.gml' started.
+Solution found:
+'g.32.15.gml' stopped. Elapsed time: 2.5552 seconds.
+Correct: True
+---
+'g.34.9.gml' started.
+No solution found.
+'g.34.9.gml' stopped. Elapsed time: 4.1056 seconds.
+---
+'g.44.0.gml' started.
+Solution found:
+'g.44.0.gml' stopped. Elapsed time: 8.0353 seconds.
+Correct: True
+---
+'g.62.3.gml' started.
+No solution found.
+'g.62.3.gml' stopped. Elapsed time: 20.3041 seconds.
+---
+'g.27.3.gml' started.
+Solution found:
+'g.27.3.gml' stopped. Elapsed time: 1.0183 seconds.
+Correct: True
+---
+'g.17.40.gml' started.
+No solution found.
+'g.17.40.gml' stopped. Elapsed time: 0.7239 seconds.
+---
+'g.12.126.gml' started.
+Solution found:
+'g.12.126.gml' stopped. Elapsed time: 0.1550 seconds.
+Correct: True
+---
+'g.10.75.gml' started.
+Solution found:
+'g.10.75.gml' stopped. Elapsed time: 0.0869 seconds.
+Correct: True
+---
+'g.38.4.gml' started.
+No solution found.
+'g.38.4.gml' stopped. Elapsed time: 12.0056 seconds.
+---
+'g.19.45.gml' started.
+Solution found:
+'g.19.45.gml' stopped. Elapsed time: 0.4212 seconds.
+Correct: True
+---
+'g.10.61.gml' started.
+No solution found.
+'g.10.61.gml' stopped. Elapsed time: 0.2008 seconds.
+---
+'g.80.4.gml' started.
+No solution found.
+'g.80.4.gml' stopped. Elapsed time: 26.2635 seconds.
+---
+'g.10.8.gml' started.
+Solution found:
+'g.10.8.gml' stopped. Elapsed time: 0.0798 seconds.
+Correct: True
+---
+'g.25.1.gml' started.
+No solution found.
+'g.25.1.gml' stopped. Elapsed time: 63.8660 seconds.
+---
+'g.55.8.gml' started.
+No solution found.
+'g.55.8.gml' stopped. Elapsed time: 17.1126 seconds.
+---
+'g.60.1.gml' started.
+No solution found.
+'g.60.1.gml' stopped. Elapsed time: 16.8910 seconds.
+---
+'g.12.64.gml' started.
+Solution found:
+'g.12.64.gml' stopped. Elapsed time: 0.1147 seconds.
+Correct: True
+---
+'g.18.1.gml' started.
+No solution found.
+'g.18.1.gml' stopped. Elapsed time: 1.1598 seconds.
+---
+'g.86.2.gml' started.
+No solution found.
+'g.86.2.gml' stopped. Elapsed time: 52.3517 seconds.
+---
+'g.20.29.gml' started.
+Solution found:
+'g.20.29.gml' stopped. Elapsed time: 1.0896 seconds.
+Correct: True
+---
+'g.23.7.gml' started.
+Solution found:
+'g.23.7.gml' stopped. Elapsed time: 0.8284 seconds.
+Correct: True
+---
+'g.66.7.gml' started.
+No solution found.
+'g.66.7.gml' stopped. Elapsed time: 16.4572 seconds.
+---
+'g.16.28.gml' started.
+Solution found:
+'g.16.28.gml' stopped. Elapsed time: 0.5063 seconds.
+Correct: True
+---
+'g.11.21.gml' started.
+Solution found:
+'g.11.21.gml' stopped. Elapsed time: 0.0047 seconds.
+Correct: True
+---
+'g.11.35.gml' started.
+Solution found:
+'g.11.35.gml' stopped. Elapsed time: 0.0609 seconds.
+Correct: True
+---
+'g.43.15.gml' started.
+Solution found:
+'g.43.15.gml' stopped. Elapsed time: 1.6135 seconds.
+Correct: True
+---
+'g.18.11.gml' started.
+Solution found:
+'g.18.11.gml' stopped. Elapsed time: 0.8089 seconds.
+Correct: True
+---
+'g.79.0.gml' started.
+No solution found.
+'g.79.0.gml' stopped. Elapsed time: 27.9667 seconds.
+---
+'g.44.20.gml' started.
+No solution found.
+'g.44.20.gml' stopped. Elapsed time: 13.6490 seconds.
+---
+'g.84.0.gml' started.
+Solution found:
+'g.84.0.gml' stopped. Elapsed time: 6.3780 seconds.
+Correct: True
+---
+'g.23.44.gml' started.
+Solution found:
+'g.23.44.gml' stopped. Elapsed time: 0.0108 seconds.
+Correct: True
+---
+'g.37.19.gml' started.
+No solution found.
+'g.37.19.gml' stopped. Elapsed time: 7.9700 seconds.
+---
+'g.21.5.gml' started.
+Solution found:
+'g.21.5.gml' stopped. Elapsed time: 0.2565 seconds.
+Correct: True
+---
+'g.64.8.gml' started.
+No solution found.
+'g.64.8.gml' stopped. Elapsed time: 20.8596 seconds.
+---
+'g.37.14.gml' started.
+No solution found.
+'g.37.14.gml' stopped. Elapsed time: 6.0314 seconds.
+---
+'g.21.8.gml' started.
+Solution found:
+'g.21.8.gml' stopped. Elapsed time: 0.5129 seconds.
+Correct: True
+---
+'g.14.1.gml' started.
+Solution found:
+'g.14.1.gml' stopped. Elapsed time: 0.2217 seconds.
+Correct: True
+---
+'g.32.2.gml' started.
+Solution found:
+'g.32.2.gml' stopped. Elapsed time: 4.1897 seconds.
+Correct: True
+---
+'g.23.75.gml' started.
+Solution found:
+'g.23.75.gml' stopped. Elapsed time: 0.7604 seconds.
+Correct: True
+---
+'g.77.2.gml' started.
+Solution found:
+'g.77.2.gml' stopped. Elapsed time: 26.3945 seconds.
+Correct: True
+---
+'g.18.34.gml' started.
+Solution found:
+'g.18.34.gml' stopped. Elapsed time: 0.5003 seconds.
+Correct: True
+---
+'g.11.10.gml' started.
+Solution found:
+'g.11.10.gml' stopped. Elapsed time: 0.0999 seconds.
+Correct: True
+---
+'g.43.24.gml' started.
+Solution found:
+'g.43.24.gml' stopped. Elapsed time: 2.9166 seconds.
+Correct: True
+---
+'g.18.20.gml' started.
+Solution found:
+'g.18.20.gml' stopped. Elapsed time: 0.0084 seconds.
+Correct: True
+---
+'g.16.25.gml' started.
+Solution found:
+'g.16.25.gml' stopped. Elapsed time: 0.1939 seconds.
+Correct: True
+---
+'g.11.38.gml' started.
+Solution found:
+'g.11.38.gml' stopped. Elapsed time: 0.1100 seconds.
+Correct: True
+---
+'g.43.18.gml' started.
+Solution found:
+'g.43.18.gml' stopped. Elapsed time: 3.5618 seconds.
+Correct: True
+---
+'g.44.11.gml' started.
+Solution found:
+'g.44.11.gml' stopped. Elapsed time: 9.2392 seconds.
+Correct: True
+---
+'g.16.31.gml' started.
+No solution found.
+'g.16.31.gml' stopped. Elapsed time: 0.4406 seconds.
+---
+'g.53.3.gml' started.
+No solution found.
+'g.53.3.gml' stopped. Elapsed time: 15.0850 seconds.
+---
+'g.75.0.gml' started.
+No solution found.
+'g.75.0.gml' stopped. Elapsed time: 21.2997 seconds.
+---
+'g.27.11.gml' started.
+Solution found:
+'g.27.11.gml' stopped. Elapsed time: 0.0165 seconds.
+Correct: True
+---
+'g.40.9.gml' started.
+Solution found:
+'g.40.9.gml' stopped. Elapsed time: 10.1530 seconds.
+Correct: True
+---
+'g.30.0.gml' started.
+No solution found.
+'g.30.0.gml' stopped. Elapsed time: 2.9540 seconds.
+---
+'g.20.30.gml' started.
+Solution found:
+'g.20.30.gml' stopped. Elapsed time: 1.1817 seconds.
+Correct: True
+---
+'g.29.14.gml' started.
+No solution found.
+'g.29.14.gml' stopped. Elapsed time: 2.3106 seconds.
+---
+'g.15.48.gml' started.
+No solution found.
+'g.15.48.gml' stopped. Elapsed time: 0.4859 seconds.
+---
+'g.88.0.gml' started.
+Solution found:
+'g.88.0.gml' stopped. Elapsed time: 41.6981 seconds.
+Correct: True
+---
+'g.12.55.gml' started.
+Solution found:
+'g.12.55.gml' stopped. Elapsed time: 0.2555 seconds.
+Correct: True
+---
+'g.10.5.gml' started.
+Solution found:
+'g.10.5.gml' stopped. Elapsed time: 0.1233 seconds.
+Correct: True
+---
+'g.22.35.gml' started.
+No solution found.
+'g.22.35.gml' stopped. Elapsed time: 2.2739 seconds.
+---
+'g.22.21.gml' started.
+Solution found:
+'g.22.21.gml' stopped. Elapsed time: 0.7026 seconds.
+Correct: True
+---
+'g.10.93.gml' started.
+Solution found:
+'g.10.93.gml' stopped. Elapsed time: 0.0878 seconds.
+Correct: True
+---
+'g.25.28.gml' started.
+No solution found.
+'g.25.28.gml' stopped. Elapsed time: 2.9394 seconds.
+---
+'g.10.78.gml' started.
+Solution found:
+'g.10.78.gml' stopped. Elapsed time: 0.0866 seconds.
+Correct: True
+---
+'g.38.9.gml' started.
+No solution found.
+'g.38.9.gml' stopped. Elapsed time: 6.7851 seconds.
+---
+'g.12.117.gml' started.
+Solution found:
+'g.12.117.gml' stopped. Elapsed time: 0.1424 seconds.
+Correct: True
+---
+'g.48.0.gml' started.
+No solution found.
+'g.48.0.gml' stopped. Elapsed time: 51.9610 seconds.
+---
+'g.56.11.gml' started.
+No solution found.
+'g.56.11.gml' stopped. Elapsed time: 14.2577 seconds.
+---
+'g.10.50.gml' started.
+Solution found:
+'g.10.50.gml' stopped. Elapsed time: 0.0935 seconds.
+Correct: True
+---
+'g.34.4.gml' started.
+Solution found:
+'g.34.4.gml' stopped. Elapsed time: 4.3513 seconds.
+Correct: True
+---
+'g.32.18.gml' started.
+Solution found:
+'g.32.18.gml' stopped. Elapsed time: 1.2644 seconds.
+Correct: True
+---
+'g.12.7.gml' started.
+Solution found:
+'g.12.7.gml' stopped. Elapsed time: 0.1985 seconds.
+Correct: True
+---
+'g.91.1.gml' started.
+Solution found:
+'g.91.1.gml' stopped. Elapsed time: 21.0445 seconds.
+Correct: True
+---
+'g.29.1.gml' started.
+Solution found:
+'g.29.1.gml' stopped. Elapsed time: 2.1115 seconds.
+Correct: True
+---
+'g.13.29.gml' started.
+Solution found:
+'g.13.29.gml' stopped. Elapsed time: 0.1757 seconds.
+Correct: True
+---
+'g.14.20.gml' started.
+No solution found.
+'g.14.20.gml' stopped. Elapsed time: 0.5787 seconds.
+---
+'g.14.34.gml' started.
+No solution found.
+'g.14.34.gml' stopped. Elapsed time: 0.3816 seconds.
+---
+'g.14.35.gml' started.
+Solution found:
+'g.14.35.gml' stopped. Elapsed time: 0.1182 seconds.
+Correct: True
+---
+'g.14.21.gml' started.
+No solution found.
+'g.14.21.gml' stopped. Elapsed time: 0.3492 seconds.
+---
+'g.59.9.gml' started.
+No solution found.
+'g.59.9.gml' stopped. Elapsed time: 16.6771 seconds.
+---
+'g.48.10.gml' started.
+Solution found:
+'g.48.10.gml' stopped. Elapsed time: 8.9741 seconds.
+Correct: True
+---
+'g.91.0.gml' started.
+Solution found:
+'g.91.0.gml' stopped. Elapsed time: 38.3330 seconds.
+Correct: True
+---
+'g.32.25.gml' started.
+No solution found.
+'g.32.25.gml' stopped. Elapsed time: 30.0251 seconds.
+---
+'g.57.6.gml' started.
+Solution found:
+'g.57.6.gml' stopped. Elapsed time: 13.3044 seconds.
+Correct: True
+---
+'g.32.19.gml' started.
+No solution found.
+'g.32.19.gml' stopped. Elapsed time: 1.9735 seconds.
+---
+'g.71.5.gml' started.
+No solution found.
+'g.71.5.gml' stopped. Elapsed time: 20.3574 seconds.
+---
+'g.35.10.gml' started.
+Solution found:
+'g.35.10.gml' stopped. Elapsed time: 3.6467 seconds.
+Correct: True
+---
+'g.10.45.gml' started.
+Solution found:
+'g.10.45.gml' stopped. Elapsed time: 0.1017 seconds.
+Correct: True
+---
+'g.56.10.gml' started.
+No solution found.
+'g.56.10.gml' stopped. Elapsed time: 13.6246 seconds.
+---
+'g.38.8.gml' started.
+Solution found:
+'g.38.8.gml' stopped. Elapsed time: 3.4400 seconds.
+Correct: True
+---
+'g.10.79.gml' started.
+No solution found.
+'g.10.79.gml' stopped. Elapsed time: 0.1850 seconds.
+---
+'g.12.102.gml' started.
+Solution found:
+'g.12.102.gml' stopped. Elapsed time: 0.0737 seconds.
+Correct: True
+---
+'g.22.20.gml' started.
+Solution found:
+'g.22.20.gml' stopped. Elapsed time: 1.0711 seconds.
+Correct: True
+---
+'g.10.92.gml' started.
+Solution found:
+'g.10.92.gml' stopped. Elapsed time: 0.0370 seconds.
+Correct: True
+---
+'g.10.86.gml' started.
+No solution found.
+'g.10.86.gml' stopped. Elapsed time: 0.1266 seconds.
+---
+'g.10.4.gml' started.
+Solution found:
+'g.10.4.gml' stopped. Elapsed time: 0.0413 seconds.
+Correct: True
+---
+'g.73.7.gml' started.
+No solution found.
+'g.73.7.gml' stopped. Elapsed time: 22.0294 seconds.
+---
+'g.36.7.gml' started.
+Solution found:
+'g.36.7.gml' stopped. Elapsed time: 4.0019 seconds.
+Correct: True
+---
+'g.15.49.gml' started.
+Solution found:
+'g.15.49.gml' stopped. Elapsed time: 0.1983 seconds.
+Correct: True
+---
+'g.12.40.gml' started.
+No solution found.
+'g.12.40.gml' stopped. Elapsed time: 0.7145 seconds.
+---
+'g.68.4.gml' started.
+Solution found:
+'g.68.4.gml' stopped. Elapsed time: 19.3898 seconds.
+Correct: True
+---
+'g.20.31.gml' started.
+No solution found.
+'g.20.31.gml' stopped. Elapsed time: 1.5270 seconds.
+---
+'g.29.15.gml' started.
+No solution found.
+'g.29.15.gml' stopped. Elapsed time: 28.6328 seconds.
+---
+'g.40.8.gml' started.
+No solution found.
+'g.40.8.gml' stopped. Elapsed time: 26.2082 seconds.
+---
+'g.75.1.gml' started.
+No solution found.
+'g.75.1.gml' stopped. Elapsed time: 27.9378 seconds.
+---
+'g.30.1.gml' started.
+No solution found.
+'g.30.1.gml' stopped. Elapsed time: 3.3607 seconds.
+---
+'g.43.19.gml' started.
+Solution found:
+'g.43.19.gml' stopped. Elapsed time: 8.7125 seconds.
+Correct: True
+---
+'g.44.10.gml' started.
+Solution found:
+'g.44.10.gml' stopped. Elapsed time: 8.2171 seconds.
+Correct: True
+---
+'g.43.25.gml' started.
+Solution found:
+'g.43.25.gml' stopped. Elapsed time: 2.9671 seconds.
+Correct: True
+---
+'g.18.21.gml' started.
+No solution found.
+'g.18.21.gml' stopped. Elapsed time: 0.6545 seconds.
+---
+'g.18.35.gml' started.
+Solution found:
+'g.18.35.gml' stopped. Elapsed time: 0.3918 seconds.
+Correct: True
+---
+'g.16.18.gml' started.
+Solution found:
+'g.16.18.gml' stopped. Elapsed time: 0.3477 seconds.
+Correct: True
+---
+'g.24.41.gml' started.
+No solution found.
+'g.24.41.gml' stopped. Elapsed time: 3.8983 seconds.
+---
+'g.23.48.gml' started.
+Solution found:
+'g.23.48.gml' stopped. Elapsed time: 0.6412 seconds.
+Correct: True
+---
+'g.30.20.gml' started.
+Solution found:
+'g.30.20.gml' stopped. Elapsed time: 2.3454 seconds.
+Correct: True
+---
+'g.23.74.gml' started.
+Solution found:
+'g.23.74.gml' stopped. Elapsed time: 0.6931 seconds.
+Correct: True
+---
+'g.51.0.gml' started.
+Solution found:
+'g.51.0.gml' stopped. Elapsed time: 11.4059 seconds.
+Correct: True
+---
+'g.64.9.gml' started.
+Solution found:
+'g.64.9.gml' stopped. Elapsed time: 15.8842 seconds.
+Correct: True
+---
+'g.37.15.gml' started.
+Solution found:
+'g.37.15.gml' stopped. Elapsed time: 4.8193 seconds.
+Correct: True
+---
+'g.14.0.gml' started.
+Solution found:
+'g.14.0.gml' stopped. Elapsed time: 0.1746 seconds.
+Correct: True
+---
+'g.21.9.gml' started.
+Solution found:
+'g.21.9.gml' stopped. Elapsed time: 0.5423 seconds.
+Correct: True
+---
+'g.42.8.gml' started.
+No solution found.
+'g.42.8.gml' stopped. Elapsed time: 15.5477 seconds.
+---
+'g.23.76.gml' started.
+No solution found.
+'g.23.76.gml' stopped. Elapsed time: 2.3098 seconds.
+---
+'g.77.1.gml' started.
+Solution found:
+'g.77.1.gml' stopped. Elapsed time: 26.1298 seconds.
+Correct: True
+---
+'g.32.1.gml' started.
+Solution found:
+'g.32.1.gml' stopped. Elapsed time: 2.9742 seconds.
+Correct: True
+---
+'g.14.2.gml' started.
+Solution found:
+'g.14.2.gml' stopped. Elapsed time: 0.1138 seconds.
+Correct: True
+---
+'g.37.17.gml' started.
+Solution found:
+'g.37.17.gml' stopped. Elapsed time: 4.0303 seconds.
+Correct: True
+---
+'g.51.2.gml' started.
+No solution found.
+'g.51.2.gml' stopped. Elapsed time: 51.8739 seconds.
+---
+'g.24.43.gml' started.
+No solution found.
+'g.24.43.gml' stopped. Elapsed time: 9.1639 seconds.
+---
+'g.18.37.gml' started.
+Solution found:
+'g.18.37.gml' stopped. Elapsed time: 0.2344 seconds.
+Correct: True
+---
+'g.30.3.gml' started.
+No solution found.
+'g.30.3.gml' stopped. Elapsed time: 3.9082 seconds.
+---
+'g.75.3.gml' started.
+No solution found.
+'g.75.3.gml' stopped. Elapsed time: 21.4281 seconds.
+---
+'g.27.12.gml' started.
+Solution found:
+'g.27.12.gml' stopped. Elapsed time: 2.0345 seconds.
+Correct: True
+---
+'g.23.9.gml' started.
+Solution found:
+'g.23.9.gml' stopped. Elapsed time: 0.8580 seconds.
+Correct: True
+---
+'g.55.6.gml' started.
+No solution found.
+'g.55.6.gml' stopped. Elapsed time: 21.4850 seconds.
+---
+'g.10.6.gml' started.
+Solution found:
+'g.10.6.gml' stopped. Elapsed time: 0.0585 seconds.
+Correct: True
+---
+'g.36.5.gml' started.
+Solution found:
+'g.36.5.gml' stopped. Elapsed time: 5.2716 seconds.
+Correct: True
+---
+'g.10.90.gml' started.
+Solution found:
+'g.10.90.gml' stopped. Elapsed time: 0.0821 seconds.
+Correct: True
+---
+'g.93.0.gml' started.
+Solution found:
+'g.93.0.gml' stopped. Elapsed time: 32.5790 seconds.
+Correct: True
+---
+'g.22.36.gml' started.
+Solution found:
+'g.22.36.gml' stopped. Elapsed time: 0.4336 seconds.
+Correct: True
+---
+'g.48.3.gml' started.
+No solution found.
+'g.48.3.gml' stopped. Elapsed time: 30.2683 seconds.
+---
+'g.12.114.gml' started.
+Solution found:
+'g.12.114.gml' stopped. Elapsed time: 0.1640 seconds.
+Correct: True
+---
+'g.12.128.gml' started.
+Solution found:
+'g.12.128.gml' stopped. Elapsed time: 0.2162 seconds.
+Correct: True
+---
+'g.35.12.gml' started.
+Solution found:
+'g.35.12.gml' stopped. Elapsed time: 2.3328 seconds.
+Correct: True
+---
+'g.34.7.gml' started.
+Solution found:
+'g.34.7.gml' stopped. Elapsed time: 2.1035 seconds.
+Correct: True
+---
+'g.32.27.gml' started.
+Solution found:
+'g.32.27.gml' stopped. Elapsed time: 1.2910 seconds.
+Correct: True
+---
+'g.13.105.gml' started.
+Solution found:
+'g.13.105.gml' stopped. Elapsed time: 0.2552 seconds.
+Correct: True
+---
+'g.29.2.gml' started.
+Solution found:
+'g.29.2.gml' stopped. Elapsed time: 2.0240 seconds.
+Correct: True
+---
+'g.41.36.gml' started.
+No solution found.
+'g.41.36.gml' stopped. Elapsed time: 9.4782 seconds.
+---
+'g.13.111.gml' started.
+Solution found:
+'g.13.111.gml' stopped. Elapsed time: 0.2345 seconds.
+Correct: True
+---
+'g.46.17.gml' started.
+No solution found.
+'g.46.17.gml' stopped. Elapsed time: 8.6462 seconds.
+---
+'g.14.37.gml' started.
+Solution found:
+'g.14.37.gml' stopped. Elapsed time: 0.1462 seconds.
+Correct: True
+---
+'g.14.23.gml' started.
+No solution found.
+'g.14.23.gml' stopped. Elapsed time: 0.3306 seconds.
+---
+'g.14.22.gml' started.
+No solution found.
+'g.14.22.gml' stopped. Elapsed time: 0.4448 seconds.
+---
+'g.14.36.gml' started.
+Solution found:
+'g.14.36.gml' stopped. Elapsed time: 0.1815 seconds.
+Correct: True
+---
+'g.46.16.gml' started.
+No solution found.
+'g.46.16.gml' stopped. Elapsed time: 7.8231 seconds.
+---
+'g.13.17.gml' started.
+Solution found:
+'g.13.17.gml' stopped. Elapsed time: 0.1020 seconds.
+Correct: True
+---
+'g.29.3.gml' started.
+No solution found.
+'g.29.3.gml' stopped. Elapsed time: 3.6386 seconds.
+---
+'g.57.5.gml' started.
+No solution found.
+'g.57.5.gml' stopped. Elapsed time: 54.3796 seconds.
+---
+'g.10.46.gml' started.
+No solution found.
+'g.10.46.gml' stopped. Elapsed time: 0.1634 seconds.
+---
+'g.12.101.gml' started.
+Solution found:
+'g.12.101.gml' stopped. Elapsed time: 0.1677 seconds.
+Correct: True
+---
+'g.22.37.gml' started.
+Solution found:
+'g.22.37.gml' stopped. Elapsed time: 0.5876 seconds.
+Correct: True
+---
+'g.10.85.gml' started.
+No solution found.
+'g.10.85.gml' stopped. Elapsed time: 0.1919 seconds.
+---
+'g.10.91.gml' started.
+Solution found:
+'g.10.91.gml' stopped. Elapsed time: 0.0696 seconds.
+Correct: True
+---
+'g.22.23.gml' started.
+Solution found:
+'g.22.23.gml' stopped. Elapsed time: 0.1124 seconds.
+Correct: True
+---
+'g.36.4.gml' started.
+Solution found:
+'g.36.4.gml' stopped. Elapsed time: 5.7308 seconds.
+Correct: True
+---
+'g.73.4.gml' started.
+No solution found.
+'g.73.4.gml' stopped. Elapsed time: 32.9618 seconds.
+---
+'g.25.16.gml' started.
+Solution found:
+'g.25.16.gml' stopped. Elapsed time: 1.3830 seconds.
+Correct: True
+---
+'g.10.7.gml' started.
+Solution found:
+'g.10.7.gml' stopped. Elapsed time: 0.0754 seconds.
+Correct: True
+---
+'g.88.2.gml' started.
+Solution found:
+'g.88.2.gml' stopped. Elapsed time: 30.2096 seconds.
+Correct: True
+---
+'g.12.43.gml' started.
+Solution found:
+'g.12.43.gml' stopped. Elapsed time: 0.1284 seconds.
+Correct: True
+---
+'g.29.16.gml' started.
+No solution found.
+'g.29.16.gml' stopped. Elapsed time: 1.3033 seconds.
+---
+'g.20.26.gml' started.
+No solution found.
+'g.20.26.gml' stopped. Elapsed time: 1.9637 seconds.
+---
+'g.12.94.gml' started.
+Solution found:
+'g.12.94.gml' stopped. Elapsed time: 0.1405 seconds.
+Correct: True
+---
+'g.66.8.gml' started.
+No solution found.
+'g.66.8.gml' stopped. Elapsed time: 17.0546 seconds.
+---
+'g.23.8.gml' started.
+Solution found:
+'g.23.8.gml' stopped. Elapsed time: 1.0993 seconds.
+Correct: True
+---
+'g.30.2.gml' started.
+No solution found.
+'g.30.2.gml' stopped. Elapsed time: 3.7354 seconds.
+---
+'g.75.2.gml' started.
+Solution found:
+'g.75.2.gml' stopped. Elapsed time: 23.7881 seconds.
+Correct: True
+---
+'g.16.27.gml' started.
+Solution found:
+'g.16.27.gml' stopped. Elapsed time: 0.1739 seconds.
+Correct: True
+---
+'g.23.88.gml' started.
+Solution found:
+'g.23.88.gml' stopped. Elapsed time: 1.3709 seconds.
+Correct: True
+---
+'g.18.36.gml' started.
+Solution found:
+'g.18.36.gml' stopped. Elapsed time: 0.4340 seconds.
+Correct: True
+---
+'g.18.22.gml' started.
+No solution found.
+'g.18.22.gml' stopped. Elapsed time: 0.7719 seconds.
+---
+'g.43.26.gml' started.
+Solution found:
+'g.43.26.gml' stopped. Elapsed time: 2.7581 seconds.
+Correct: True
+---
+'g.30.23.gml' started.
+Solution found:
+'g.30.23.gml' stopped. Elapsed time: 2.5318 seconds.
+Correct: True
+---
+'g.77.0.gml' started.
+Solution found:
+'g.77.0.gml' stopped. Elapsed time: 24.7693 seconds.
+Correct: True
+---
+'g.23.77.gml' started.
+No solution found.
+'g.23.77.gml' stopped. Elapsed time: 2.2615 seconds.
+---
+'g.42.9.gml' started.
+Solution found:
+'g.42.9.gml' stopped. Elapsed time: 5.3121 seconds.
+Correct: True
+---
+'g.24.46.gml' started.
+No solution found.
+'g.24.46.gml' stopped. Elapsed time: 1.3036 seconds.
+---
+'g.97.1.gml' started.
+No solution found.
+'g.97.1.gml' stopped. Elapsed time: 64.1998 seconds.
+---
+'g.37.12.gml' started.
+Solution found:
+'g.37.12.gml' stopped. Elapsed time: 4.1017 seconds.
+Correct: True
+---
+'g.23.67.gml' started.
+Solution found:
+'g.23.67.gml' stopped. Elapsed time: 0.4691 seconds.
+Correct: True
+---
+'g.14.7.gml' started.
+Solution found:
+'g.14.7.gml' stopped. Elapsed time: 0.0064 seconds.
+Correct: True
+---
+'g.16.23.gml' started.
+Solution found:
+'g.16.23.gml' stopped. Elapsed time: 0.1953 seconds.
+Correct: True
+---
+'g.23.98.gml' started.
+Solution found:
+'g.23.98.gml' stopped. Elapsed time: 0.7392 seconds.
+Correct: True
+---
+'g.18.26.gml' started.
+Solution found:
+'g.18.26.gml' stopped. Elapsed time: 0.3100 seconds.
+Correct: True
+---
+'g.11.16.gml' started.
+No solution found.
+'g.11.16.gml' stopped. Elapsed time: 0.9671 seconds.
+---
+'g.12.90.gml' started.
+No solution found.
+'g.12.90.gml' stopped. Elapsed time: 0.2490 seconds.
+---
+'g.20.22.gml' started.
+Solution found:
+'g.20.22.gml' stopped. Elapsed time: 0.3420 seconds.
+Correct: True
+---
+'g.20.36.gml' started.
+No solution found.
+'g.20.36.gml' stopped. Elapsed time: 3.3246 seconds.
+---
+'g.29.12.gml' started.
+Solution found:
+'g.29.12.gml' stopped. Elapsed time: 1.8648 seconds.
+Correct: True
+---
+'g.95.3.gml' started.
+Solution found:
+'g.95.3.gml' stopped. Elapsed time: 28.2505 seconds.
+Correct: True
+---
+'g.75.6.gml' started.
+Solution found:
+'g.75.6.gml' stopped. Elapsed time: 18.0633 seconds.
+Correct: True
+---
+'g.30.6.gml' started.
+Solution found:
+'g.30.6.gml' stopped. Elapsed time: 1.7006 seconds.
+Correct: True
+---
+'g.16.5.gml' started.
+Solution found:
+'g.16.5.gml' stopped. Elapsed time: 0.2218 seconds.
+Correct: True
+---
+'g.53.5.gml' started.
+No solution found.
+'g.53.5.gml' stopped. Elapsed time: 99.6723 seconds.
+---
+'g.22.27.gml' started.
+Solution found:
+'g.22.27.gml' stopped. Elapsed time: 0.5150 seconds.
+Correct: True
+---
+'g.10.3.gml' started.
+Solution found:
+'g.10.3.gml' stopped. Elapsed time: 0.0630 seconds.
+Correct: True
+---
+'g.25.12.gml' started.
+Solution found:
+'g.25.12.gml' stopped. Elapsed time: 0.9520 seconds.
+Correct: True
+---
+'g.46.9.gml' started.
+No solution found.
+'g.46.9.gml' stopped. Elapsed time: 11.4949 seconds.
+---
+'g.36.0.gml' started.
+Solution found:
+'g.36.0.gml' stopped. Elapsed time: 4.7743 seconds.
+Correct: True
+---
+'g.10.56.gml' started.
+Solution found:
+'g.10.56.gml' stopped. Elapsed time: 0.0816 seconds.
+Correct: True
+---
+'g.10.42.gml' started.
+Solution found:
+'g.10.42.gml' stopped. Elapsed time: 0.0643 seconds.
+Correct: True
+---
+'g.12.111.gml' started.
+No solution found.
+'g.12.111.gml' stopped. Elapsed time: 0.3244 seconds.
+---
+'g.48.6.gml' started.
+Solution found:
+'g.48.6.gml' stopped. Elapsed time: 8.8708 seconds.
+Correct: True
+---
+'g.81.15.gml' started.
+Solution found:
+'g.81.15.gml' stopped. Elapsed time: 25.1652 seconds.
+Correct: True
+---
+'g.12.105.gml' started.
+Solution found:
+'g.12.105.gml' stopped. Elapsed time: 0.1727 seconds.
+Correct: True
+---
+'g.60.16.gml' started.
+No solution found.
+'g.60.16.gml' stopped. Elapsed time: 16.9840 seconds.
+---
+'g.32.22.gml' started.
+Solution found:
+'g.32.22.gml' stopped. Elapsed time: 3.0276 seconds.
+Correct: True
+---
+'g.34.2.gml' started.
+Solution found:
+'g.34.2.gml' stopped. Elapsed time: 3.0006 seconds.
+Correct: True
+---
+'g.71.2.gml' started.
+Solution found:
+'g.71.2.gml' stopped. Elapsed time: 25.0102 seconds.
+Correct: True
+---
+'g.46.12.gml' started.
+Solution found:
+'g.46.12.gml' stopped. Elapsed time: 6.8343 seconds.
+Correct: True
+---
+'g.14.26.gml' started.
+No solution found.
+'g.14.26.gml' stopped. Elapsed time: 0.3741 seconds.
+---
+'g.29.7.gml' started.
+Solution found:
+'g.29.7.gml' stopped. Elapsed time: 1.5396 seconds.
+Correct: True
+---
+'g.13.114.gml' started.
+Solution found:
+'g.13.114.gml' stopped. Elapsed time: 0.1124 seconds.
+Correct: True
+---
+'g.13.12.gml' started.
+Solution found:
+'g.13.12.gml' stopped. Elapsed time: 0.1541 seconds.
+Correct: True
+---
+'g.29.6.gml' started.
+Solution found:
+'g.29.6.gml' stopped. Elapsed time: 1.9395 seconds.
+Correct: True
+---
+'g.48.16.gml' started.
+No solution found.
+'g.48.16.gml' stopped. Elapsed time: 12.2109 seconds.
+---
+'g.41.26.gml' started.
+No solution found.
+'g.41.26.gml' stopped. Elapsed time: 9.0794 seconds.
+---
+'g.14.27.gml' started.
+No solution found.
+'g.14.27.gml' stopped. Elapsed time: 0.3046 seconds.
+---
+'g.14.33.gml' started.
+No solution found.
+'g.14.33.gml' stopped. Elapsed time: 0.3195 seconds.
+---
+'g.34.3.gml' started.
+No solution found.
+'g.34.3.gml' stopped. Elapsed time: 11.3905 seconds.
+---
+'g.57.0.gml' started.
+No solution found.
+'g.57.0.gml' stopped. Elapsed time: 40.0998 seconds.
+---
+'g.12.0.gml' started.
+Solution found:
+'g.12.0.gml' stopped. Elapsed time: 0.1907 seconds.
+Correct: True
+---
+'g.27.9.gml' started.
+Solution found:
+'g.27.9.gml' stopped. Elapsed time: 1.1502 seconds.
+Correct: True
+---
+'g.32.23.gml' started.
+Solution found:
+'g.32.23.gml' stopped. Elapsed time: 2.2077 seconds.
+Correct: True
+---
+'g.12.104.gml' started.
+Solution found:
+'g.12.104.gml' stopped. Elapsed time: 0.1386 seconds.
+Correct: True
+---
+'g.12.110.gml' started.
+Solution found:
+'g.12.110.gml' stopped. Elapsed time: 0.0759 seconds.
+Correct: True
+---
+'g.12.138.gml' started.
+No solution found.
+'g.12.138.gml' stopped. Elapsed time: 0.3465 seconds.
+---
+'g.10.57.gml' started.
+Solution found:
+'g.10.57.gml' stopped. Elapsed time: 0.1631 seconds.
+Correct: True
+---
+'g.36.1.gml' started.
+Solution found:
+'g.36.1.gml' stopped. Elapsed time: 4.3131 seconds.
+Correct: True
+---
+'g.10.2.gml' started.
+Solution found:
+'g.10.2.gml' stopped. Elapsed time: 0.1007 seconds.
+Correct: True
+---
+'g.25.13.gml' started.
+Solution found:
+'g.25.13.gml' stopped. Elapsed time: 1.2265 seconds.
+Correct: True
+---
+'g.10.80.gml' started.
+No solution found.
+'g.10.80.gml' stopped. Elapsed time: 0.1639 seconds.
+---
+'g.22.26.gml' started.
+Solution found:
+'g.22.26.gml' stopped. Elapsed time: 0.4329 seconds.
+Correct: True
+---
+'g.10.94.gml' started.
+No solution found.
+'g.10.94.gml' stopped. Elapsed time: 0.1968 seconds.
+---
+'g.12.52.gml' started.
+Solution found:
+'g.12.52.gml' stopped. Elapsed time: 0.1193 seconds.
+Correct: True
+---
+'g.27.16.gml' started.
+No solution found.
+'g.27.16.gml' stopped. Elapsed time: 3.2454 seconds.
+---
+'g.75.7.gml' started.
+Solution found:
+'g.75.7.gml' stopped. Elapsed time: 18.0651 seconds.
+Correct: True
+---
+'g.20.37.gml' started.
+Solution found:
+'g.20.37.gml' stopped. Elapsed time: 0.3804 seconds.
+Correct: True
+---
+'g.95.2.gml' started.
+Solution found:
+'g.95.2.gml' stopped. Elapsed time: 25.3504 seconds.
+Correct: True
+---
+'g.29.13.gml' started.
+Solution found:
+'g.29.13.gml' stopped. Elapsed time: 0.8069 seconds.
+Correct: True
+---
+'g.12.91.gml' started.
+No solution found.
+'g.12.91.gml' stopped. Elapsed time: 0.4464 seconds.
+---
+'g.11.17.gml' started.
+No solution found.
+'g.11.17.gml' stopped. Elapsed time: 0.9765 seconds.
+---
+'g.43.23.gml' started.
+Solution found:
+'g.43.23.gml' stopped. Elapsed time: 3.8499 seconds.
+Correct: True
+---
+'g.23.99.gml' started.
+Solution found:
+'g.23.99.gml' stopped. Elapsed time: 0.7170 seconds.
+Correct: True
+---
+'g.16.36.gml' started.
+No solution found.
+'g.16.36.gml' stopped. Elapsed time: 2.6318 seconds.
+---
+'g.44.16.gml' started.
+No solution found.
+'g.44.16.gml' stopped. Elapsed time: 9.7470 seconds.
+---
+'g.14.6.gml' started.
+Solution found:
+'g.14.6.gml' stopped. Elapsed time: 0.2988 seconds.
+Correct: True
+---
+'g.32.5.gml' started.
+Solution found:
+'g.32.5.gml' stopped. Elapsed time: 0.7573 seconds.
+Correct: True
+---
+'g.77.5.gml' started.
+No solution found.
+'g.77.5.gml' stopped. Elapsed time: 40.2775 seconds.
+---
+'g.23.72.gml' started.
+Solution found:
+'g.23.72.gml' stopped. Elapsed time: 0.5338 seconds.
+Correct: True
+---
+'g.30.26.gml' started.
+No solution found.
+'g.30.26.gml' stopped. Elapsed time: 4.1752 seconds.
+---
+'g.24.47.gml' started.
+No solution found.
+'g.24.47.gml' stopped. Elapsed time: 2.6773 seconds.
+---
+'g.30.24.gml' started.
+Solution found:
+'g.30.24.gml' stopped. Elapsed time: 1.3782 seconds.
+Correct: True
+---
+'g.24.45.gml' started.
+Solution found:
+'g.24.45.gml' stopped. Elapsed time: 0.5983 seconds.
+Correct: True
+---
+'g.51.4.gml' started.
+Solution found:
+'g.51.4.gml' stopped. Elapsed time: 7.3774 seconds.
+Correct: True
+---
+'g.39.28.gml' started.
+Solution found:
+'g.39.28.gml' stopped. Elapsed time: 1.8351 seconds.
+Correct: True
+---
+'g.11.29.gml' started.
+No solution found.
+'g.11.29.gml' stopped. Elapsed time: 0.2705 seconds.
+---
+'g.44.14.gml' started.
+Solution found:
+'g.44.14.gml' stopped. Elapsed time: 7.9172 seconds.
+Correct: True
+---
+'g.16.34.gml' started.
+Solution found:
+'g.16.34.gml' stopped. Elapsed time: 0.0853 seconds.
+Correct: True
+---
+'g.18.19.gml' started.
+Solution found:
+'g.18.19.gml' stopped. Elapsed time: 0.5316 seconds.
+Correct: True
+---
+'g.18.31.gml' started.
+Solution found:
+'g.18.31.gml' stopped. Elapsed time: 0.3745 seconds.
+Correct: True
+---
+'g.95.0.gml' started.
+No solution found.
+'g.95.0.gml' stopped. Elapsed time: 32.2135 seconds.
+---
+'g.12.93.gml' started.
+Solution found:
+'g.12.93.gml' stopped. Elapsed time: 0.2076 seconds.
+Correct: True
+---
+'g.53.6.gml' started.
+Solution found:
+'g.53.6.gml' stopped. Elapsed time: 11.8179 seconds.
+Correct: True
+---
+'g.61.55.gml' started.
+No solution found.
+'g.61.55.gml' stopped. Elapsed time: 17.6770 seconds.
+---
+'g.30.5.gml' started.
+Solution found:
+'g.30.5.gml' stopped. Elapsed time: 1.8416 seconds.
+Correct: True
+---
+'g.75.5.gml' started.
+Solution found:
+'g.75.5.gml' stopped. Elapsed time: 18.0352 seconds.
+Correct: True
+---
+'g.27.14.gml' started.
+No solution found.
+'g.27.14.gml' stopped. Elapsed time: 2.3421 seconds.
+---
+'g.15.59.gml' started.
+Solution found:
+'g.15.59.gml' stopped. Elapsed time: 0.3397 seconds.
+Correct: True
+---
+'g.12.50.gml' started.
+Solution found:
+'g.12.50.gml' stopped. Elapsed time: 0.1296 seconds.
+Correct: True
+---
+'g.12.78.gml' started.
+No solution found.
+'g.12.78.gml' stopped. Elapsed time: 0.2366 seconds.
+---
+'g.18.9.gml' started.
+Solution found:
+'g.18.9.gml' stopped. Elapsed time: 0.3907 seconds.
+Correct: True
+---
+'g.22.30.gml' started.
+Solution found:
+'g.22.30.gml' stopped. Elapsed time: 0.4997 seconds.
+Correct: True
+---
+'g.10.82.gml' started.
+No solution found.
+'g.10.82.gml' stopped. Elapsed time: 0.1930 seconds.
+---
+'g.22.24.gml' started.
+Solution found:
+'g.22.24.gml' stopped. Elapsed time: 0.4826 seconds.
+Correct: True
+---
+'g.36.3.gml' started.
+Solution found:
+'g.36.3.gml' stopped. Elapsed time: 4.7199 seconds.
+Correct: True
+---
+'g.55.0.gml' started.
+Solution found:
+'g.55.0.gml' stopped. Elapsed time: 12.2382 seconds.
+Correct: True
+---
+'g.60.9.gml' started.
+No solution found.
+'g.60.9.gml' stopped. Elapsed time: 17.3214 seconds.
+---
+'g.10.0.gml' started.
+Solution found:
+'g.10.0.gml' stopped. Elapsed time: 0.0872 seconds.
+Correct: True
+---
+'g.22.18.gml' started.
+Solution found:
+'g.22.18.gml' stopped. Elapsed time: 1.3130 seconds.
+Correct: True
+---
+'g.25.9.gml' started.
+Solution found:
+'g.25.9.gml' stopped. Elapsed time: 1.2148 seconds.
+Correct: True
+---
+'g.10.41.gml' started.
+No solution found.
+'g.10.41.gml' stopped. Elapsed time: 0.1621 seconds.
+---
+'g.12.106.gml' started.
+Solution found:
+'g.12.106.gml' stopped. Elapsed time: 0.1175 seconds.
+Correct: True
+---
+'g.81.16.gml' started.
+Solution found:
+'g.81.16.gml' stopped. Elapsed time: 26.7931 seconds.
+Correct: True
+---
+'g.10.69.gml' started.
+Solution found:
+'g.10.69.gml' stopped. Elapsed time: 0.1342 seconds.
+Correct: True
+---
+'g.12.112.gml' started.
+No solution found.
+'g.12.112.gml' stopped. Elapsed time: 0.3654 seconds.
+---
+'g.32.21.gml' started.
+No solution found.
+'g.32.21.gml' stopped. Elapsed time: 7.1698 seconds.
+---
+'g.34.1.gml' started.
+Solution found:
+'g.34.1.gml' stopped. Elapsed time: 3.1546 seconds.
+Correct: True
+---
+'g.14.25.gml' started.
+No solution found.
+'g.14.25.gml' stopped. Elapsed time: 0.3019 seconds.
+---
+'g.13.38.gml' started.
+Solution found:
+'g.13.38.gml' stopped. Elapsed time: 0.1839 seconds.
+Correct: True
+---
+'g.46.11.gml' started.
+Solution found:
+'g.46.11.gml' stopped. Elapsed time: 7.5226 seconds.
+Correct: True
+---
+'g.14.31.gml' started.
+Solution found:
+'g.14.31.gml' stopped. Elapsed time: 0.1570 seconds.
+Correct: True
+---
+'g.14.19.gml' started.
+Solution found:
+'g.14.19.gml' stopped. Elapsed time: 0.1715 seconds.
+Correct: True
+---
+'g.29.4.gml' started.
+Solution found:
+'g.29.4.gml' stopped. Elapsed time: 2.1438 seconds.
+Correct: True
+---
+'g.13.117.gml' started.
+No solution found.
+'g.13.117.gml' stopped. Elapsed time: 0.3995 seconds.
+---
+'g.13.102.gml' started.
+Solution found:
+'g.13.102.gml' stopped. Elapsed time: 0.2007 seconds.
+Correct: True
+---
+'g.41.25.gml' started.
+No solution found.
+'g.41.25.gml' stopped. Elapsed time: 21.1396 seconds.
+---
+'g.13.116.gml' started.
+Solution found:
+'g.13.116.gml' stopped. Elapsed time: 0.2873 seconds.
+Correct: True
+---
+'g.29.5.gml' started.
+Solution found:
+'g.29.5.gml' stopped. Elapsed time: 2.5735 seconds.
+Correct: True
+---
+'g.48.29.gml' started.
+Solution found:
+'g.48.29.gml' stopped. Elapsed time: 7.1967 seconds.
+Correct: True
+---
+'g.14.24.gml' started.
+No solution found.
+'g.14.24.gml' stopped. Elapsed time: 0.4949 seconds.
+---
+'g.44.9.gml' started.
+Solution found:
+'g.44.9.gml' stopped. Elapsed time: 4.2789 seconds.
+Correct: True
+---
+'g.35.15.gml' started.
+No solution found.
+'g.35.15.gml' stopped. Elapsed time: 9.6718 seconds.
+---
+'g.32.20.gml' started.
+No solution found.
+'g.32.20.gml' stopped. Elapsed time: 6.9648 seconds.
+---
+'g.48.4.gml' started.
+No solution found.
+'g.48.4.gml' stopped. Elapsed time: 13.0955 seconds.
+---
+'g.58.10.gml' started.
+No solution found.
+'g.58.10.gml' stopped. Elapsed time: 19.1801 seconds.
+---
+'g.10.68.gml' started.
+Solution found:
+'g.10.68.gml' stopped. Elapsed time: 0.0901 seconds.
+Correct: True
+---
+'g.12.113.gml' started.
+Solution found:
+'g.12.113.gml' stopped. Elapsed time: 0.1890 seconds.
+Correct: True
+---
+'g.12.107.gml' started.
+No solution found.
+'g.12.107.gml' stopped. Elapsed time: 0.3558 seconds.
+---
+'g.10.40.gml' started.
+No solution found.
+'g.10.40.gml' stopped. Elapsed time: 0.1748 seconds.
+---
+'g.25.8.gml' started.
+Solution found:
+'g.25.8.gml' stopped. Elapsed time: 1.1996 seconds.
+Correct: True
+---
+'g.22.19.gml' started.
+Solution found:
+'g.22.19.gml' stopped. Elapsed time: 0.9753 seconds.
+Correct: True
+---
+'g.10.1.gml' started.
+Solution found:
+'g.10.1.gml' stopped. Elapsed time: 0.0789 seconds.
+Correct: True
+---
+'g.22.25.gml' started.
+Solution found:
+'g.22.25.gml' stopped. Elapsed time: 0.4571 seconds.
+Correct: True
+---
+'g.22.31.gml' started.
+No solution found.
+'g.22.31.gml' stopped. Elapsed time: 2.1030 seconds.
+---
+'g.10.83.gml' started.
+Solution found:
+'g.10.83.gml' stopped. Elapsed time: 0.1338 seconds.
+Correct: True
+---
+'g.25.38.gml' started.
+Solution found:
+'g.25.38.gml' stopped. Elapsed time: 0.7209 seconds.
+Correct: True
+---
+'g.18.8.gml' started.
+Solution found:
+'g.18.8.gml' stopped. Elapsed time: 0.5888 seconds.
+Correct: True
+---
+'g.68.1.gml' started.
+Solution found:
+'g.68.1.gml' stopped. Elapsed time: 15.3539 seconds.
+Correct: True
+---
+'g.12.79.gml' started.
+No solution found.
+'g.12.79.gml' stopped. Elapsed time: 0.4267 seconds.
+---
+'g.12.51.gml' started.
+Solution found:
+'g.12.51.gml' stopped. Elapsed time: 0.1214 seconds.
+Correct: True
+---
+'g.12.45.gml' started.
+Solution found:
+'g.12.45.gml' stopped. Elapsed time: 0.1222 seconds.
+Correct: True
+---
+'g.30.4.gml' started.
+Solution found:
+'g.30.4.gml' stopped. Elapsed time: 2.9811 seconds.
+Correct: True
+---
+'g.61.40.gml' started.
+Solution found:
+'g.61.40.gml' stopped. Elapsed time: 11.1175 seconds.
+Correct: True
+---
+'g.27.15.gml' started.
+Solution found:
+'g.27.15.gml' stopped. Elapsed time: 2.1371 seconds.
+Correct: True
+---
+'g.75.4.gml' started.
+No solution found.
+'g.75.4.gml' stopped. Elapsed time: 32.5126 seconds.
+---
+'g.61.54.gml' started.
+No solution found.
+'g.61.54.gml' stopped. Elapsed time: 17.8438 seconds.
+---
+'g.12.92.gml' started.
+Solution found:
+'g.12.92.gml' stopped. Elapsed time: 0.0063 seconds.
+Correct: True
+---
+'g.95.1.gml' started.
+No solution found.
+'g.95.1.gml' stopped. Elapsed time: 29.8088 seconds.
+---
+'g.20.34.gml' started.
+Solution found:
+'g.20.34.gml' stopped. Elapsed time: 0.4407 seconds.
+Correct: True
+---
+'g.18.24.gml' started.
+No solution found.
+'g.18.24.gml' stopped. Elapsed time: 0.7202 seconds.
+---
+'g.43.20.gml' started.
+Solution found:
+'g.43.20.gml' stopped. Elapsed time: 3.8718 seconds.
+Correct: True
+---
+'g.18.30.gml' started.
+No solution found.
+'g.18.30.gml' stopped. Elapsed time: 0.4728 seconds.
+---
+'g.18.18.gml' started.
+Solution found:
+'g.18.18.gml' stopped. Elapsed time: 0.3307 seconds.
+Correct: True
+---
+'g.44.15.gml' started.
+No solution found.
+'g.44.15.gml' stopped. Elapsed time: 8.4829 seconds.
+---
+'g.11.28.gml' started.
+Solution found:
+'g.11.28.gml' stopped. Elapsed time: 0.0808 seconds.
+Correct: True
+---
+'g.16.21.gml' started.
+Solution found:
+'g.16.21.gml' stopped. Elapsed time: 0.2820 seconds.
+Correct: True
+---
+'g.39.29.gml' started.
+Solution found:
+'g.39.29.gml' stopped. Elapsed time: 4.6037 seconds.
+Correct: True
+---
+'g.77.6.gml' started.
+Solution found:
+'g.77.6.gml' stopped. Elapsed time: 25.2218 seconds.
+Correct: True
+---
+'g.23.71.gml' started.
+Solution found:
+'g.23.71.gml' stopped. Elapsed time: 0.9556 seconds.
+Correct: True
+---
+'g.32.6.gml' started.
+Solution found:
+'g.32.6.gml' stopped. Elapsed time: 0.5767 seconds.
+Correct: True
+---
+'g.30.19.gml' started.
+Solution found:
+'g.30.19.gml' stopped. Elapsed time: 1.1224 seconds.
+Correct: True
+---
+'g.51.5.gml' started.
+No solution found.
+'g.51.5.gml' stopped. Elapsed time: 55.4361 seconds.
+---
+'g.30.31.gml' started.
+No solution found.
+'g.30.31.gml' stopped. Elapsed time: 7.1537 seconds.
+---
+'g.24.44.gml' started.
+Solution found:
+'g.24.44.gml' stopped. Elapsed time: 0.7285 seconds.
+Correct: True
+---
+'g.30.25.gml' started.
+Solution found:
+'g.30.25.gml' stopped. Elapsed time: 1.1000 seconds.
+Correct: True
+---
+'g.56.4.gml' started.
+No solution found.
+'g.56.4.gml' stopped. Elapsed time: 17.0327 seconds.
+---
+'g.35.7.gml' started.
+Solution found:
+'g.35.7.gml' stopped. Elapsed time: 3.8076 seconds.
+Correct: True
+---
+'g.23.16.gml' started.
+Solution found:
+'g.23.16.gml' stopped. Elapsed time: 1.0420 seconds.
+Correct: True
+---
+'g.24.37.gml' started.
+Solution found:
+'g.24.37.gml' stopped. Elapsed time: 0.5812 seconds.
+Correct: True
+---
+'g.90.2.gml' started.
+Solution found:
+'g.90.2.gml' stopped. Elapsed time: 21.4700 seconds.
+Correct: True
+---
+'g.16.91.gml' started.
+No solution found.
+'g.16.91.gml' stopped. Elapsed time: 0.6499 seconds.
+---
+'g.11.73.gml' started.
+Solution found:
+'g.11.73.gml' stopped. Elapsed time: 0.1222 seconds.
+Correct: True
+---
+'g.57.26.gml' started.
+No solution found.
+'g.57.26.gml' stopped. Elapsed time: 122.3148 seconds.
+---
+'g.28.2.gml' started.
+No solution found.
+'g.28.2.gml' stopped. Elapsed time: 11.6882 seconds.
+---
+'g.16.52.gml' started.
+Solution found:
+'g.16.52.gml' stopped. Elapsed time: 0.2091 seconds.
+Correct: True
+---
+'g.11.6.gml' started.
+Solution found:
+'g.11.6.gml' stopped. Elapsed time: 0.1027 seconds.
+Correct: True
+---
+'g.54.6.gml' started.
+Solution found:
+'g.54.6.gml' stopped. Elapsed time: 8.8792 seconds.
+Correct: True
+---
+'g.37.5.gml' started.
+Solution found:
+'g.37.5.gml' stopped. Elapsed time: 4.4181 seconds.
+Correct: True
+---
+'g.92.0.gml' started.
+No solution found.
+'g.92.0.gml' stopped. Elapsed time: 52.0754 seconds.
+---
+'g.20.53.gml' started.
+Solution found:
+'g.20.53.gml' stopped. Elapsed time: 0.4757 seconds.
+Correct: True
+---
+'g.20.47.gml' started.
+No solution found.
+'g.20.47.gml' stopped. Elapsed time: 1.5405 seconds.
+---
+'g.15.17.gml' started.
+Solution found:
+'g.15.17.gml' stopped. Elapsed time: 0.1737 seconds.
+Correct: True
+---
+'g.47.23.gml' started.
+Solution found:
+'g.47.23.gml' stopped. Elapsed time: 8.7189 seconds.
+Correct: True
+---
+'g.12.22.gml' started.
+No solution found.
+'g.12.22.gml' stopped. Elapsed time: 0.3707 seconds.
+---
+'g.40.16.gml' started.
+Solution found:
+'g.40.16.gml' stopped. Elapsed time: 4.7451 seconds.
+Correct: True
+---
+'g.31.3.gml' started.
+Solution found:
+'g.31.3.gml' stopped. Elapsed time: 2.3259 seconds.
+Correct: True
+---
+'g.22.9.gml' started.
+Solution found:
+'g.22.9.gml' stopped. Elapsed time: 0.4728 seconds.
+Correct: True
+---
+'g.63.22.gml' started.
+No solution found.
+'g.63.22.gml' stopped. Elapsed time: 21.2949 seconds.
+---
+'g.52.0.gml' started.
+Solution found:
+'g.52.0.gml' stopped. Elapsed time: 11.7437 seconds.
+Correct: True
+---
+'g.36.23.gml' started.
+Solution found:
+'g.36.23.gml' stopped. Elapsed time: 2.9698 seconds.
+Correct: True
+---
+'g.64.17.gml' started.
+No solution found.
+'g.64.17.gml' stopped. Elapsed time: 14.7105 seconds.
+---
+'g.22.42.gml' started.
+Solution found:
+'g.22.42.gml' stopped. Elapsed time: 0.6166 seconds.
+Correct: True
+---
+'g.17.12.gml' started.
+Solution found:
+'g.17.12.gml' stopped. Elapsed time: 0.0797 seconds.
+Correct: True
+---
+'g.10.27.gml' started.
+No solution found.
+'g.10.27.gml' stopped. Elapsed time: 0.1923 seconds.
+---
+'g.33.1.gml' started.
+No solution found.
+'g.33.1.gml' stopped. Elapsed time: 4.0922 seconds.
+---
+'g.43.8.gml' started.
+No solution found.
+'g.43.8.gml' stopped. Elapsed time: 8.0698 seconds.
+---
+'g.76.1.gml' started.
+No solution found.
+'g.76.1.gml' stopped. Elapsed time: 145.3004 seconds.
+---
+'g.28.23.gml' started.
+Solution found:
+'g.28.23.gml' stopped. Elapsed time: 1.8925 seconds.
+Correct: True
+---
+'g.15.2.gml' started.
+Solution found:
+'g.15.2.gml' stopped. Elapsed time: 0.2001 seconds.
+Correct: True
+---
+'g.21.13.gml' started.
+Solution found:
+'g.21.13.gml' stopped. Elapsed time: 1.2321 seconds.
+Correct: True
+---
+'g.26.32.gml' started.
+Solution found:
+'g.26.32.gml' stopped. Elapsed time: 1.2060 seconds.
+Correct: True
+---
+'g.26.26.gml' started.
+Solution found:
+'g.26.26.gml' stopped. Elapsed time: 1.9963 seconds.
+Correct: True
+---
+'g.96.4.gml' started.
+Solution found:
+'g.96.4.gml' stopped. Elapsed time: 38.9063 seconds.
+Correct: True
+---
+'g.55.23.gml' started.
+No solution found.
+'g.55.23.gml' stopped. Elapsed time: 16.4934 seconds.
+---
+'g.13.76.gml' started.
+Solution found:
+'g.13.76.gml' stopped. Elapsed time: 0.1521 seconds.
+Correct: True
+---
+'g.13.62.gml' started.
+Solution found:
+'g.13.62.gml' stopped. Elapsed time: 0.2826 seconds.
+Correct: True
+---
+'g.14.43.gml' started.
+Solution found:
+'g.14.43.gml' stopped. Elapsed time: 0.1598 seconds.
+Correct: True
+---
+'g.14.57.gml' started.
+No solution found.
+'g.14.57.gml' stopped. Elapsed time: 0.3599 seconds.
+---
+'g.13.63.gml' started.
+No solution found.
+'g.13.63.gml' stopped. Elapsed time: 0.9681 seconds.
+---
+'g.13.77.gml' started.
+Solution found:
+'g.13.77.gml' stopped. Elapsed time: 0.0888 seconds.
+Correct: True
+---
+'g.96.5.gml' started.
+Solution found:
+'g.96.5.gml' stopped. Elapsed time: 40.0720 seconds.
+Correct: True
+---
+'g.26.27.gml' started.
+Solution found:
+'g.26.27.gml' stopped. Elapsed time: 1.8670 seconds.
+Correct: True
+---
+'g.13.88.gml' started.
+Solution found:
+'g.13.88.gml' stopped. Elapsed time: 0.1730 seconds.
+Correct: True
+---
+'g.21.12.gml' started.
+Solution found:
+'g.21.12.gml' stopped. Elapsed time: 0.3595 seconds.
+Correct: True
+---
+'g.15.3.gml' started.
+Solution found:
+'g.15.3.gml' stopped. Elapsed time: 0.1448 seconds.
+Correct: True
+---
+'g.33.0.gml' started.
+No solution found.
+'g.33.0.gml' stopped. Elapsed time: 5.3647 seconds.
+---
+'g.28.22.gml' started.
+Solution found:
+'g.28.22.gml' stopped. Elapsed time: 0.1397 seconds.
+Correct: True
+---
+'g.43.9.gml' started.
+Solution found:
+'g.43.9.gml' stopped. Elapsed time: 7.4017 seconds.
+Correct: True
+---
+'g.17.13.gml' started.
+Solution found:
+'g.17.13.gml' stopped. Elapsed time: 0.0843 seconds.
+Correct: True
+---
+'g.69.7.gml' started.
+No solution found.
+'g.69.7.gml' stopped. Elapsed time: 24.6864 seconds.
+---
+'g.64.16.gml' started.
+Solution found:
+'g.64.16.gml' stopped. Elapsed time: 17.8697 seconds.
+Correct: True
+---
+'g.36.22.gml' started.
+No solution found.
+'g.36.22.gml' stopped. Elapsed time: 9.4015 seconds.
+---
+'g.22.8.gml' started.
+Solution found:
+'g.22.8.gml' stopped. Elapsed time: 0.2542 seconds.
+Correct: True
+---
+'g.52.1.gml' started.
+Solution found:
+'g.52.1.gml' stopped. Elapsed time: 5.1501 seconds.
+Correct: True
+---
+'g.74.2.gml' started.
+No solution found.
+'g.74.2.gml' stopped. Elapsed time: 112.0459 seconds.
+---
+'g.31.2.gml' started.
+No solution found.
+'g.31.2.gml' stopped. Elapsed time: 2.1941 seconds.
+---
+'g.40.17.gml' started.
+Solution found:
+'g.40.17.gml' stopped. Elapsed time: 5.3521 seconds.
+Correct: True
+---
+'g.20.46.gml' started.
+No solution found.
+'g.20.46.gml' stopped. Elapsed time: 6.3676 seconds.
+---
+'g.20.52.gml' started.
+Solution found:
+'g.20.52.gml' stopped. Elapsed time: 0.3746 seconds.
+Correct: True
+---
+'g.92.1.gml' started.
+No solution found.
+'g.92.1.gml' stopped. Elapsed time: 105.6117 seconds.
+---
+'g.37.4.gml' started.
+No solution found.
+'g.37.4.gml' stopped. Elapsed time: 15.1350 seconds.
+---
+'g.33.12.gml' started.
+Solution found:
+'g.33.12.gml' stopped. Elapsed time: 2.4183 seconds.
+Correct: True
+---
+'g.11.7.gml' started.
+Solution found:
+'g.11.7.gml' stopped. Elapsed time: 0.0934 seconds.
+Correct: True
+---
+'g.61.32.gml' started.
+No solution found.
+'g.61.32.gml' stopped. Elapsed time: 19.9650 seconds.
+---
+'g.54.7.gml' started.
+Solution found:
+'g.54.7.gml' stopped. Elapsed time: 11.3148 seconds.
+Correct: True
+---
+'g.28.3.gml' started.
+Solution found:
+'g.28.3.gml' stopped. Elapsed time: 2.3447 seconds.
+Correct: True
+---
+'g.11.66.gml' started.
+Solution found:
+'g.11.66.gml' stopped. Elapsed time: 0.1404 seconds.
+Correct: True
+---
+'g.11.72.gml' started.
+No solution found.
+'g.11.72.gml' stopped. Elapsed time: 0.3055 seconds.
+---
+'g.57.27.gml' started.
+No solution found.
+'g.57.27.gml' stopped. Elapsed time: 87.2668 seconds.
+---
+'g.90.3.gml' started.
+Solution found:
+'g.90.3.gml' stopped. Elapsed time: 37.5039 seconds.
+Correct: True
+---
+'g.24.36.gml' started.
+Solution found:
+'g.24.36.gml' stopped. Elapsed time: 0.8594 seconds.
+Correct: True
+---
+'g.23.17.gml' started.
+Solution found:
+'g.23.17.gml' stopped. Elapsed time: 1.0518 seconds.
+Correct: True
+---
+'g.56.5.gml' started.
+No solution found.
+'g.56.5.gml' stopped. Elapsed time: 20.2429 seconds.
+---
+'g.35.4.gml' started.
+Solution found:
+'g.35.4.gml' stopped. Elapsed time: 4.6641 seconds.
+Correct: True
+---
+'g.23.15.gml' started.
+Solution found:
+'g.23.15.gml' stopped. Elapsed time: 0.7041 seconds.
+Correct: True
+---
+'g.13.7.gml' started.
+Solution found:
+'g.13.7.gml' stopped. Elapsed time: 0.0060 seconds.
+Correct: True
+---
+'g.56.7.gml' started.
+No solution found.
+'g.56.7.gml' stopped. Elapsed time: 10.9854 seconds.
+---
+'g.24.34.gml' started.
+No solution found.
+'g.24.34.gml' stopped. Elapsed time: 2.6128 seconds.
+---
+'g.90.1.gml' started.
+No solution found.
+'g.90.1.gml' stopped. Elapsed time: 47.0067 seconds.
+---
+'g.11.64.gml' started.
+Solution found:
+'g.11.64.gml' stopped. Elapsed time: 0.1286 seconds.
+Correct: True
+---
+'g.28.1.gml' started.
+No solution found.
+'g.28.1.gml' stopped. Elapsed time: 2.6312 seconds.
+---
+'g.16.79.gml' started.
+Solution found:
+'g.16.79.gml' stopped. Elapsed time: 0.1735 seconds.
+Correct: True
+---
+'g.57.19.gml' started.
+Solution found:
+'g.57.19.gml' stopped. Elapsed time: 8.9142 seconds.
+Correct: True
+---
+'g.37.6.gml' started.
+Solution found:
+'g.37.6.gml' stopped. Elapsed time: 4.5632 seconds.
+Correct: True
+---
+'g.11.5.gml' started.
+Solution found:
+'g.11.5.gml' stopped. Elapsed time: 0.1118 seconds.
+Correct: True
+---
+'g.33.10.gml' started.
+No solution found.
+'g.33.10.gml' stopped. Elapsed time: 43.5059 seconds.
+---
+'g.81.9.gml' started.
+No solution found.
+'g.81.9.gml' stopped. Elapsed time: 60.3097 seconds.
+---
+'g.92.3.gml' started.
+Solution found:
+'g.92.3.gml' stopped. Elapsed time: 25.0278 seconds.
+Correct: True
+---
+'g.20.50.gml' started.
+No solution found.
+'g.20.50.gml' stopped. Elapsed time: 3.0022 seconds.
+---
+'g.49.19.gml' started.
+No solution found.
+'g.49.19.gml' stopped. Elapsed time: 13.9210 seconds.
+---
+'g.15.14.gml' started.
+Solution found:
+'g.15.14.gml' stopped. Elapsed time: 0.2100 seconds.
+Correct: True
+---
+'g.39.9.gml' started.
+No solution found.
+'g.39.9.gml' stopped. Elapsed time: 16.8750 seconds.
+---
+'g.12.35.gml' started.
+No solution found.
+'g.12.35.gml' stopped. Elapsed time: 0.1824 seconds.
+---
+'g.15.28.gml' started.
+No solution found.
+'g.15.28.gml' stopped. Elapsed time: 2.2980 seconds.
+---
+'g.52.3.gml' started.
+Solution found:
+'g.52.3.gml' stopped. Elapsed time: 7.6498 seconds.
+Correct: True
+---
+'g.17.3.gml' started.
+Solution found:
+'g.17.3.gml' stopped. Elapsed time: 0.5695 seconds.
+Correct: True
+---
+'g.31.0.gml' started.
+Solution found:
+'g.31.0.gml' stopped. Elapsed time: 2.1936 seconds.
+Correct: True
+---
+'g.41.9.gml' started.
+No solution found.
+'g.41.9.gml' stopped. Elapsed time: 7.8682 seconds.
+---
+'g.22.69.gml' started.
+No solution found.
+'g.22.69.gml' stopped. Elapsed time: 4.1886 seconds.
+---
+'g.38.19.gml' started.
+Solution found:
+'g.38.19.gml' stopped. Elapsed time: 3.0621 seconds.
+Correct: True
+---
+'g.22.41.gml' started.
+Solution found:
+'g.22.41.gml' stopped. Elapsed time: 0.6336 seconds.
+Correct: True
+---
+'g.64.14.gml' started.
+Solution found:
+'g.64.14.gml' stopped. Elapsed time: 16.7340 seconds.
+Correct: True
+---
+'g.25.48.gml' started.
+Solution found:
+'g.25.48.gml' stopped. Elapsed time: 0.8535 seconds.
+Correct: True
+---
+'g.31.29.gml' started.
+No solution found.
+'g.31.29.gml' stopped. Elapsed time: 3.0486 seconds.
+---
+'g.19.28.gml' started.
+Solution found:
+'g.19.28.gml' stopped. Elapsed time: 0.5879 seconds.
+Correct: True
+---
+'g.69.5.gml' started.
+Solution found:
+'g.69.5.gml' stopped. Elapsed time: 20.0234 seconds.
+Correct: True
+---
+'g.17.11.gml' started.
+Solution found:
+'g.17.11.gml' stopped. Elapsed time: 0.0552 seconds.
+Correct: True
+---
+'g.17.39.gml' started.
+Solution found:
+'g.17.39.gml' stopped. Elapsed time: 0.2467 seconds.
+Correct: True
+---
+'g.89.0.gml' started.
+Solution found:
+'g.89.0.gml' stopped. Elapsed time: 38.8243 seconds.
+Correct: True
+---
+'g.10.30.gml' started.
+No solution found.
+'g.10.30.gml' stopped. Elapsed time: 0.1833 seconds.
+---
+'g.10.24.gml' started.
+Solution found:
+'g.10.24.gml' stopped. Elapsed time: 0.1129 seconds.
+Correct: True
+---
+'g.20.8.gml' started.
+Solution found:
+'g.20.8.gml' stopped. Elapsed time: 0.7533 seconds.
+Correct: True
+---
+'g.21.10.gml' started.
+No solution found.
+'g.21.10.gml' stopped. Elapsed time: 18.9456 seconds.
+---
+'g.26.19.gml' started.
+Solution found:
+'g.26.19.gml' stopped. Elapsed time: 0.9081 seconds.
+Correct: True
+---
+'g.76.2.gml' started.
+Solution found:
+'g.76.2.gml' stopped. Elapsed time: 1.9112 seconds.
+Correct: True
+---
+'g.28.20.gml' started.
+No solution found.
+'g.28.20.gml' stopped. Elapsed time: 39.4459 seconds.
+---
+'g.33.2.gml' started.
+Solution found:
+'g.33.2.gml' stopped. Elapsed time: 3.5909 seconds.
+Correct: True
+---
+'g.23.121.gml' started.
+Solution found:
+'g.23.121.gml' stopped. Elapsed time: 0.7499 seconds.
+Correct: True
+---
+'g.26.31.gml' started.
+Solution found:
+'g.26.31.gml' stopped. Elapsed time: 2.3577 seconds.
+Correct: True
+---
+'g.14.68.gml' started.
+Solution found:
+'g.14.68.gml' stopped. Elapsed time: 0.3207 seconds.
+Correct: True
+---
+'g.13.61.gml' started.
+Solution found:
+'g.13.61.gml' stopped. Elapsed time: 0.2248 seconds.
+Correct: True
+---
+'g.13.49.gml' started.
+No solution found.
+'g.13.49.gml' stopped. Elapsed time: 1.2260 seconds.
+---
+'g.14.40.gml' started.
+Solution found:
+'g.14.40.gml' stopped. Elapsed time: 0.1399 seconds.
+Correct: True
+---
+'g.13.48.gml' started.
+No solution found.
+'g.13.48.gml' stopped. Elapsed time: 1.7817 seconds.
+---
+'g.14.55.gml' started.
+Solution found:
+'g.14.55.gml' stopped. Elapsed time: 0.1231 seconds.
+Correct: True
+---
+'g.13.60.gml' started.
+Solution found:
+'g.13.60.gml' stopped. Elapsed time: 0.1609 seconds.
+Correct: True
+---
+'g.26.30.gml' started.
+Solution found:
+'g.26.30.gml' stopped. Elapsed time: 2.0596 seconds.
+Correct: True
+---
+'g.26.24.gml' started.
+Solution found:
+'g.26.24.gml' stopped. Elapsed time: 1.8443 seconds.
+Correct: True
+---
+'g.28.21.gml' started.
+Solution found:
+'g.28.21.gml' stopped. Elapsed time: 0.8332 seconds.
+Correct: True
+---
+'g.23.108.gml' started.
+No solution found.
+'g.23.108.gml' stopped. Elapsed time: 1.5441 seconds.
+---
+'g.33.3.gml' started.
+Solution found:
+'g.33.3.gml' stopped. Elapsed time: 3.5094 seconds.
+Correct: True
+---
+'g.21.11.gml' started.
+Solution found:
+'g.21.11.gml' stopped. Elapsed time: 0.5552 seconds.
+Correct: True
+---
+'g.20.9.gml' started.
+Solution found:
+'g.20.9.gml' stopped. Elapsed time: 0.3480 seconds.
+Correct: True
+---
+'g.10.25.gml' started.
+No solution found.
+'g.10.25.gml' stopped. Elapsed time: 0.3552 seconds.
+---
+'g.89.1.gml' started.
+Solution found:
+'g.89.1.gml' stopped. Elapsed time: 39.4960 seconds.
+Correct: True
+---
+'g.10.31.gml' started.
+No solution found.
+'g.10.31.gml' stopped. Elapsed time: 0.3505 seconds.
+---
+'g.10.19.gml' started.
+No solution found.
+'g.10.19.gml' stopped. Elapsed time: 0.2159 seconds.
+---
+'g.17.10.gml' started.
+No solution found.
+'g.17.10.gml' stopped. Elapsed time: 2.5806 seconds.
+---
+'g.69.4.gml' started.
+Solution found:
+'g.69.4.gml' stopped. Elapsed time: 19.3935 seconds.
+Correct: True
+---
+'g.19.29.gml' started.
+Solution found:
+'g.19.29.gml' stopped. Elapsed time: 0.6543 seconds.
+Correct: True
+---
+'g.31.28.gml' started.
+Solution found:
+'g.31.28.gml' stopped. Elapsed time: 2.1723 seconds.
+Correct: True
+---
+'g.22.54.gml' started.
+No solution found.
+'g.22.54.gml' stopped. Elapsed time: 0.9934 seconds.
+---
+'g.25.49.gml' started.
+Solution found:
+'g.25.49.gml' stopped. Elapsed time: 0.8471 seconds.
+Correct: True
+---
+'g.31.1.gml' started.
+No solution found.
+'g.31.1.gml' stopped. Elapsed time: 2.0466 seconds.
+---
+'g.22.68.gml' started.
+Solution found:
+'g.22.68.gml' stopped. Elapsed time: 0.8041 seconds.
+Correct: True
+---
+'g.74.1.gml' started.
+No solution found.
+'g.74.1.gml' stopped. Elapsed time: 20.8522 seconds.
+---
+'g.52.2.gml' started.
+Solution found:
+'g.52.2.gml' stopped. Elapsed time: 11.1876 seconds.
+Correct: True
+---
+'g.17.2.gml' started.
+Solution found:
+'g.17.2.gml' stopped. Elapsed time: 0.4147 seconds.
+Correct: True
+---
+'g.15.29.gml' started.
+No solution found.
+'g.15.29.gml' stopped. Elapsed time: 0.5820 seconds.
+---
+'g.12.34.gml' started.
+Solution found:
+'g.12.34.gml' stopped. Elapsed time: 0.1760 seconds.
+Correct: True
+---
+'g.39.8.gml' started.
+No solution found.
+'g.39.8.gml' stopped. Elapsed time: 70.1239 seconds.
+---
+'g.20.51.gml' started.
+Solution found:
+'g.20.51.gml' stopped. Elapsed time: 0.4227 seconds.
+Correct: True
+---
+'g.20.45.gml' started.
+No solution found.
+'g.20.45.gml' stopped. Elapsed time: 2.2537 seconds.
+---
+'g.34.18.gml' started.
+No solution found.
+'g.34.18.gml' stopped. Elapsed time: 7.3240 seconds.
+---
+'g.61.31.gml' started.
+No solution found.
+'g.61.31.gml' stopped. Elapsed time: 18.9736 seconds.
+---
+'g.61.25.gml' started.
+No solution found.
+'g.61.25.gml' stopped. Elapsed time: 18.9931 seconds.
+---
+'g.57.18.gml' started.
+No solution found.
+'g.57.18.gml' stopped. Elapsed time: 10.9606 seconds.
+---
+'g.16.50.gml' started.
+Solution found:
+'g.16.50.gml' stopped. Elapsed time: 0.3901 seconds.
+Correct: True
+---
+'g.11.71.gml' started.
+No solution found.
+'g.11.71.gml' stopped. Elapsed time: 0.2563 seconds.
+---
+'g.58.9.gml' started.
+No solution found.
+'g.58.9.gml' stopped. Elapsed time: 27.2563 seconds.
+---
+'g.11.65.gml' started.
+Solution found:
+'g.11.65.gml' stopped. Elapsed time: 0.1392 seconds.
+Correct: True
+---
+'g.18.41.gml' started.
+Solution found:
+'g.18.41.gml' stopped. Elapsed time: 0.2770 seconds.
+Correct: True
+---
+'g.90.0.gml' started.
+No solution found.
+'g.90.0.gml' stopped. Elapsed time: 52.6662 seconds.
+---
+'g.24.35.gml' started.
+No solution found.
+'g.24.35.gml' stopped. Elapsed time: 2.6098 seconds.
+---
+'g.13.6.gml' started.
+Solution found:
+'g.13.6.gml' stopped. Elapsed time: 0.1270 seconds.
+Correct: True
+---
+'g.23.14.gml' started.
+Solution found:
+'g.23.14.gml' stopped. Elapsed time: 1.0164 seconds.
+Correct: True
+---
+'g.35.1.gml' started.
+Solution found:
+'g.35.1.gml' stopped. Elapsed time: 3.6004 seconds.
+Correct: True
+---
+'g.24.19.gml' started.
+Solution found:
+'g.24.19.gml' stopped. Elapsed time: 0.8875 seconds.
+Correct: True
+---
+'g.45.8.gml' started.
+Solution found:
+'g.45.8.gml' stopped. Elapsed time: 9.7557 seconds.
+Correct: True
+---
+'g.70.1.gml' started.
+No solution found.
+'g.70.1.gml' stopped. Elapsed time: 31.2772 seconds.
+---
+'g.56.2.gml' started.
+No solution found.
+'g.56.2.gml' stopped. Elapsed time: 17.2914 seconds.
+---
+'g.11.49.gml' started.
+Solution found:
+'g.11.49.gml' stopped. Elapsed time: 0.0720 seconds.
+Correct: True
+---
+'g.28.4.gml' started.
+Solution found:
+'g.28.4.gml' stopped. Elapsed time: 2.0423 seconds.
+Correct: True
+---
+'g.11.61.gml' started.
+Solution found:
+'g.11.61.gml' stopped. Elapsed time: 0.0706 seconds.
+Correct: True
+---
+'g.11.75.gml' started.
+Solution found:
+'g.11.75.gml' stopped. Elapsed time: 0.1128 seconds.
+Correct: True
+---
+'g.20.41.gml' started.
+No solution found.
+'g.20.41.gml' stopped. Elapsed time: 1.0416 seconds.
+---
+'g.37.3.gml' started.
+No solution found.
+'g.37.3.gml' stopped. Elapsed time: 7.6903 seconds.
+---
+'g.11.0.gml' started.
+Solution found:
+'g.11.0.gml' stopped. Elapsed time: 0.1114 seconds.
+Correct: True
+---
+'g.61.35.gml' started.
+Solution found:
+'g.61.35.gml' stopped. Elapsed time: 11.0204 seconds.
+Correct: True
+---
+'g.24.9.gml' started.
+Solution found:
+'g.24.9.gml' stopped. Elapsed time: 0.9294 seconds.
+Correct: True
+---
+'g.54.0.gml' started.
+Solution found:
+'g.54.0.gml' stopped. Elapsed time: 14.0995 seconds.
+Correct: True
+---
+'g.61.9.gml' started.
+No solution found.
+'g.61.9.gml' stopped. Elapsed time: 18.6847 seconds.
+---
+'g.15.39.gml' started.
+Solution found:
+'g.15.39.gml' stopped. Elapsed time: 0.1081 seconds.
+Correct: True
+---
+'g.47.25.gml' started.
+No solution found.
+'g.47.25.gml' stopped. Elapsed time: 8.8423 seconds.
+---
+'g.49.5.gml' started.
+Solution found:
+'g.49.5.gml' stopped. Elapsed time: 12.6249 seconds.
+Correct: True
+---
+'g.15.11.gml' started.
+Solution found:
+'g.15.11.gml' stopped. Elapsed time: 0.2341 seconds.
+Correct: True
+---
+'g.63.18.gml' started.
+No solution found.
+'g.63.18.gml' stopped. Elapsed time: 20.0785 seconds.
+---
+'g.94.0.gml' started.
+Solution found:
+'g.94.0.gml' stopped. Elapsed time: 40.2928 seconds.
+Correct: True
+---
+'g.22.44.gml' started.
+Solution found:
+'g.22.44.gml' stopped. Elapsed time: 0.5981 seconds.
+Correct: True
+---
+'g.22.50.gml' started.
+Solution found:
+'g.22.50.gml' stopped. Elapsed time: 0.6581 seconds.
+Correct: True
+---
+'g.17.6.gml' started.
+Solution found:
+'g.17.6.gml' stopped. Elapsed time: 0.4581 seconds.
+Correct: True
+---
+'g.38.20.gml' started.
+Solution found:
+'g.38.20.gml' stopped. Elapsed time: 4.9939 seconds.
+Correct: True
+---
+'g.74.5.gml' started.
+No solution found.
+'g.74.5.gml' stopped. Elapsed time: 21.5510 seconds.
+---
+'g.36.19.gml' started.
+No solution found.
+'g.36.19.gml' stopped. Elapsed time: 6.2759 seconds.
+---
+'g.42.15.gml' started.
+No solution found.
+'g.42.15.gml' stopped. Elapsed time: 14.0257 seconds.
+---
+'g.19.11.gml' started.
+Solution found:
+'g.19.11.gml' stopped. Elapsed time: 0.7526 seconds.
+Correct: True
+---
+'g.17.28.gml' started.
+Solution found:
+'g.17.28.gml' stopped. Elapsed time: 0.1989 seconds.
+Correct: True
+---
+'g.19.39.gml' started.
+Solution found:
+'g.19.39.gml' stopped. Elapsed time: 0.3795 seconds.
+Correct: True
+---
+'g.69.0.gml' started.
+Solution found:
+'g.69.0.gml' stopped. Elapsed time: 16.6538 seconds.
+Correct: True
+---
+'g.19.9.gml' started.
+Solution found:
+'g.19.9.gml' stopped. Elapsed time: 0.5073 seconds.
+Correct: True
+---
+'g.26.20.gml' started.
+Solution found:
+'g.26.20.gml' stopped. Elapsed time: 0.8952 seconds.
+Correct: True
+---
+'g.96.2.gml' started.
+No solution found.
+'g.96.2.gml' stopped. Elapsed time: 66.5551 seconds.
+---
+'g.21.29.gml' started.
+Solution found:
+'g.21.29.gml' stopped. Elapsed time: 0.4955 seconds.
+Correct: True
+---
+'g.85.8.gml' started.
+No solution found.
+'g.85.8.gml' stopped. Elapsed time: 32.3024 seconds.
+---
+'g.23.118.gml' started.
+Solution found:
+'g.23.118.gml' stopped. Elapsed time: 1.0430 seconds.
+Correct: True
+---
+'g.21.15.gml' started.
+No solution found.
+'g.21.15.gml' stopped. Elapsed time: 0.8495 seconds.
+---
+'g.33.7.gml' started.
+Solution found:
+'g.33.7.gml' stopped. Elapsed time: 2.8724 seconds.
+Correct: True
+---
+'g.28.25.gml' started.
+Solution found:
+'g.28.25.gml' stopped. Elapsed time: 2.2446 seconds.
+Correct: True
+---
+'g.55.24.gml' started.
+No solution found.
+'g.55.24.gml' stopped. Elapsed time: 15.9671 seconds.
+---
+'g.55.30.gml' started.
+No solution found.
+'g.55.30.gml' stopped. Elapsed time: 39.2292 seconds.
+---
+'g.33.6.gml' started.
+Solution found:
+'g.33.6.gml' stopped. Elapsed time: 3.6619 seconds.
+Correct: True
+---
+'g.28.24.gml' started.
+Solution found:
+'g.28.24.gml' stopped. Elapsed time: 1.3774 seconds.
+Correct: True
+---
+'g.28.30.gml' started.
+Solution found:
+'g.28.30.gml' stopped. Elapsed time: 1.4756 seconds.
+Correct: True
+---
+'g.21.14.gml' started.
+Solution found:
+'g.21.14.gml' stopped. Elapsed time: 0.4063 seconds.
+Correct: True
+---
+'g.23.119.gml' started.
+Solution found:
+'g.23.119.gml' stopped. Elapsed time: 0.4371 seconds.
+Correct: True
+---
+'g.96.3.gml' started.
+Solution found:
+'g.96.3.gml' stopped. Elapsed time: 48.7473 seconds.
+Correct: True
+---
+'g.69.1.gml' started.
+Solution found:
+'g.69.1.gml' stopped. Elapsed time: 12.7200 seconds.
+Correct: True
+---
+'g.19.38.gml' started.
+Solution found:
+'g.19.38.gml' stopped. Elapsed time: 0.1948 seconds.
+Correct: True
+---
+'g.19.8.gml' started.
+Solution found:
+'g.19.8.gml' stopped. Elapsed time: 0.5240 seconds.
+Correct: True
+---
+'g.10.20.gml' started.
+No solution found.
+'g.10.20.gml' stopped. Elapsed time: 0.2456 seconds.
+---
+'g.10.34.gml' started.
+No solution found.
+'g.10.34.gml' stopped. Elapsed time: 0.3302 seconds.
+---
+'g.74.4.gml' started.
+Solution found:
+'g.74.4.gml' stopped. Elapsed time: 21.2180 seconds.
+Correct: True
+---
+'g.36.18.gml' started.
+No solution found.
+'g.36.18.gml' stopped. Elapsed time: 7.2874 seconds.
+---
+'g.31.4.gml' started.
+Solution found:
+'g.31.4.gml' stopped. Elapsed time: 2.5951 seconds.
+Correct: True
+---
+'g.17.7.gml' started.
+Solution found:
+'g.17.7.gml' stopped. Elapsed time: 0.2601 seconds.
+Correct: True
+---
+'g.38.21.gml' started.
+No solution found.
+'g.38.21.gml' stopped. Elapsed time: 7.3176 seconds.
+---
+'g.22.51.gml' started.
+Solution found:
+'g.22.51.gml' stopped. Elapsed time: 0.1333 seconds.
+Correct: True
+---
+'g.15.10.gml' started.
+Solution found:
+'g.15.10.gml' stopped. Elapsed time: 0.3169 seconds.
+Correct: True
+---
+'g.47.30.gml' started.
+No solution found.
+'g.47.30.gml' stopped. Elapsed time: 5.6347 seconds.
+---
+'g.15.38.gml' started.
+Solution found:
+'g.15.38.gml' stopped. Elapsed time: 0.0496 seconds.
+Correct: True
+---
+'g.12.31.gml' started.
+No solution found.
+'g.12.31.gml' stopped. Elapsed time: 0.5195 seconds.
+---
+'g.24.8.gml' started.
+Solution found:
+'g.24.8.gml' stopped. Elapsed time: 1.9557 seconds.
+Correct: True
+---
+'g.61.8.gml' started.
+No solution found.
+'g.61.8.gml' stopped. Elapsed time: 18.8108 seconds.
+---
+'g.54.1.gml' started.
+No solution found.
+'g.54.1.gml' stopped. Elapsed time: 17.3852 seconds.
+---
+'g.37.2.gml' started.
+Solution found:
+'g.37.2.gml' stopped. Elapsed time: 4.5535 seconds.
+Correct: True
+---
+'g.20.40.gml' started.
+No solution found.
+'g.20.40.gml' stopped. Elapsed time: 0.8624 seconds.
+---
+'g.57.21.gml' started.
+Solution found:
+'g.57.21.gml' stopped. Elapsed time: 9.1578 seconds.
+Correct: True
+---
+'g.28.5.gml' started.
+Solution found:
+'g.28.5.gml' stopped. Elapsed time: 1.7855 seconds.
+Correct: True
+---
+'g.11.60.gml' started.
+Solution found:
+'g.11.60.gml' stopped. Elapsed time: 0.0905 seconds.
+Correct: True
+---
+'g.16.55.gml' started.
+Solution found:
+'g.16.55.gml' stopped. Elapsed time: 0.1731 seconds.
+Correct: True
+---
+'g.56.3.gml' started.
+No solution found.
+'g.56.3.gml' stopped. Elapsed time: 16.3324 seconds.
+---
+'g.23.11.gml' started.
+Solution found:
+'g.23.11.gml' stopped. Elapsed time: 0.9578 seconds.
+Correct: True
+---
+'g.35.0.gml' started.
+Solution found:
+'g.35.0.gml' stopped. Elapsed time: 4.1267 seconds.
+Correct: True
+---
+'g.45.9.gml' started.
+Solution found:
+'g.45.9.gml' stopped. Elapsed time: 4.9548 seconds.
+Correct: True
+---
+'g.24.18.gml' started.
+Solution found:
+'g.24.18.gml' stopped. Elapsed time: 1.0054 seconds.
+Correct: True
+---
+'g.24.30.gml' started.
+Solution found:
+'g.24.30.gml' stopped. Elapsed time: 1.1760 seconds.
+Correct: True
+---
+'g.23.39.gml' started.
+Solution found:
+'g.23.39.gml' stopped. Elapsed time: 0.8936 seconds.
+Correct: True
+---
+'g.16.82.gml' started.
+Solution found:
+'g.16.82.gml' stopped. Elapsed time: 0.4767 seconds.
+Correct: True
+---
+'g.16.80.gml' started.
+Solution found:
+'g.16.80.gml' stopped. Elapsed time: 0.5953 seconds.
+Correct: True
+---
+'g.24.26.gml' started.
+Solution found:
+'g.24.26.gml' stopped. Elapsed time: 1.0517 seconds.
+Correct: True
+---
+'g.26.8.gml' started.
+Solution found:
+'g.26.8.gml' stopped. Elapsed time: 1.4257 seconds.
+Correct: True
+---
+'g.63.8.gml' started.
+No solution found.
+'g.63.8.gml' stopped. Elapsed time: 19.9721 seconds.
+---
+'g.56.1.gml' started.
+Solution found:
+'g.56.1.gml' stopped. Elapsed time: 3.8550 seconds.
+Correct: True
+---
+'g.35.2.gml' started.
+Solution found:
+'g.35.2.gml' stopped. Elapsed time: 4.8536 seconds.
+Correct: True
+---
+'g.23.13.gml' started.
+Solution found:
+'g.23.13.gml' stopped. Elapsed time: 1.2957 seconds.
+Correct: True
+---
+'g.16.57.gml' started.
+Solution found:
+'g.16.57.gml' stopped. Elapsed time: 0.3234 seconds.
+Correct: True
+---
+'g.57.23.gml' started.
+Solution found:
+'g.57.23.gml' stopped. Elapsed time: 14.1670 seconds.
+Correct: True
+---
+'g.11.76.gml' started.
+No solution found.
+'g.11.76.gml' stopped. Elapsed time: 0.2691 seconds.
+---
+'g.11.62.gml' started.
+No solution found.
+'g.11.62.gml' stopped. Elapsed time: 0.1721 seconds.
+---
+'g.28.7.gml' started.
+Solution found:
+'g.28.7.gml' stopped. Elapsed time: 0.9743 seconds.
+Correct: True
+---
+'g.20.42.gml' started.
+Solution found:
+'g.20.42.gml' stopped. Elapsed time: 0.9267 seconds.
+Correct: True
+---
+'g.54.3.gml' started.
+No solution found.
+'g.54.3.gml' stopped. Elapsed time: 11.0540 seconds.
+---
+'g.11.3.gml' started.
+Solution found:
+'g.11.3.gml' stopped. Elapsed time: 0.0924 seconds.
+Correct: True
+---
+'g.33.16.gml' started.
+No solution found.
+'g.33.16.gml' stopped. Elapsed time: 7.3082 seconds.
+---
+'g.72.0.gml' started.
+Solution found:
+'g.72.0.gml' stopped. Elapsed time: 0.0908 seconds.
+Correct: True
+---
+'g.47.9.gml' started.
+Solution found:
+'g.47.9.gml' stopped. Elapsed time: 8.0942 seconds.
+Correct: True
+---
+'g.40.13.gml' started.
+Solution found:
+'g.40.13.gml' stopped. Elapsed time: 6.4810 seconds.
+Correct: True
+---
+'g.47.32.gml' started.
+Solution found:
+'g.47.32.gml' stopped. Elapsed time: 6.6250 seconds.
+Correct: True
+---
+'g.49.6.gml' started.
+Solution found:
+'g.49.6.gml' stopped. Elapsed time: 9.7130 seconds.
+Correct: True
+---
+'g.15.12.gml' started.
+Solution found:
+'g.15.12.gml' stopped. Elapsed time: 0.1824 seconds.
+Correct: True
+---
+'g.47.26.gml' started.
+No solution found.
+'g.47.26.gml' stopped. Elapsed time: 13.4063 seconds.
+---
+'g.94.3.gml' started.
+No solution found.
+'g.94.3.gml' stopped. Elapsed time: 54.9529 seconds.
+---
+'g.31.6.gml' started.
+Solution found:
+'g.31.6.gml' stopped. Elapsed time: 2.4337 seconds.
+Correct: True
+---
+'g.10.22.gml' started.
+No solution found.
+'g.10.22.gml' stopped. Elapsed time: 0.3536 seconds.
+---
+'g.19.12.gml' started.
+Solution found:
+'g.19.12.gml' stopped. Elapsed time: 0.4180 seconds.
+Correct: True
+---
+'g.69.3.gml' started.
+Solution found:
+'g.69.3.gml' stopped. Elapsed time: 20.1317 seconds.
+Correct: True
+---
+'g.17.17.gml' started.
+Solution found:
+'g.17.17.gml' stopped. Elapsed time: 0.0854 seconds.
+Correct: True
+---
+'g.26.23.gml' started.
+Solution found:
+'g.26.23.gml' stopped. Elapsed time: 1.7479 seconds.
+Correct: True
+---
+'g.76.4.gml' started.
+No solution found.
+'g.76.4.gml' stopped. Elapsed time: 40.4665 seconds.
+---
+'g.28.26.gml' started.
+No solution found.
+'g.28.26.gml' stopped. Elapsed time: 2.6218 seconds.
+---
+'g.33.4.gml' started.
+Solution found:
+'g.33.4.gml' stopped. Elapsed time: 3.1144 seconds.
+Correct: True
+---
+'g.15.7.gml' started.
+Solution found:
+'g.15.7.gml' stopped. Elapsed time: 0.3221 seconds.
+Correct: True
+---
+'g.50.7.gml' started.
+No solution found.
+'g.50.7.gml' stopped. Elapsed time: 12.4642 seconds.
+---
+'g.55.26.gml' started.
+No solution found.
+'g.55.26.gml' stopped. Elapsed time: 37.1377 seconds.
+---
+'g.55.32.gml' started.
+No solution found.
+'g.55.32.gml' stopped. Elapsed time: 10.4626 seconds.
+---
+'g.13.67.gml' started.
+Solution found:
+'g.13.67.gml' stopped. Elapsed time: 0.0870 seconds.
+Correct: True
+---
+'g.55.33.gml' started.
+Solution found:
+'g.55.33.gml' stopped. Elapsed time: 14.8162 seconds.
+Correct: True
+---
+'g.14.47.gml' started.
+Solution found:
+'g.14.47.gml' stopped. Elapsed time: 0.1381 seconds.
+Correct: True
+---
+'g.21.17.gml' started.
+Solution found:
+'g.21.17.gml' stopped. Elapsed time: 0.8720 seconds.
+Correct: True
+---
+'g.15.6.gml' started.
+Solution found:
+'g.15.6.gml' stopped. Elapsed time: 0.2486 seconds.
+Correct: True
+---
+'g.33.5.gml' started.
+Solution found:
+'g.33.5.gml' stopped. Elapsed time: 1.9701 seconds.
+Correct: True
+---
+'g.26.22.gml' started.
+No solution found.
+'g.26.22.gml' stopped. Elapsed time: 1.2757 seconds.
+---
+'g.13.99.gml' started.
+No solution found.
+'g.13.99.gml' stopped. Elapsed time: 0.3906 seconds.
+---
+'g.69.2.gml' started.
+Solution found:
+'g.69.2.gml' stopped. Elapsed time: 21.0491 seconds.
+Correct: True
+---
+'g.10.37.gml' started.
+Solution found:
+'g.10.37.gml' stopped. Elapsed time: 0.1045 seconds.
+Correct: True
+---
+'g.52.4.gml' started.
+Solution found:
+'g.52.4.gml' stopped. Elapsed time: 7.3663 seconds.
+Correct: True
+---
+'g.17.4.gml' started.
+Solution found:
+'g.17.4.gml' stopped. Elapsed time: 0.4881 seconds.
+Correct: True
+---
+'g.94.2.gml' started.
+No solution found.
+'g.94.2.gml' stopped. Elapsed time: 59.9802 seconds.
+---
+'g.22.52.gml' started.
+Solution found:
+'g.22.52.gml' stopped. Elapsed time: 0.5058 seconds.
+Correct: True
+---
+'g.47.27.gml' started.
+No solution found.
+'g.47.27.gml' stopped. Elapsed time: 14.1722 seconds.
+---
+'g.15.13.gml' started.
+Solution found:
+'g.15.13.gml' stopped. Elapsed time: 0.1774 seconds.
+Correct: True
+---
+'g.40.12.gml' started.
+Solution found:
+'g.40.12.gml' stopped. Elapsed time: 4.4804 seconds.
+Correct: True
+---
+'g.37.1.gml' started.
+Solution found:
+'g.37.1.gml' stopped. Elapsed time: 5.0691 seconds.
+Correct: True
+---
+'g.47.8.gml' started.
+No solution found.
+'g.47.8.gml' stopped. Elapsed time: 9.3394 seconds.
+---
+'g.54.2.gml' started.
+Solution found:
+'g.54.2.gml' stopped. Elapsed time: 9.6246 seconds.
+Correct: True
+---
+'g.11.2.gml' started.
+Solution found:
+'g.11.2.gml' stopped. Elapsed time: 0.1227 seconds.
+Correct: True
+---
+'g.20.43.gml' started.
+Solution found:
+'g.20.43.gml' stopped. Elapsed time: 0.2587 seconds.
+Correct: True
+---
+'g.92.4.gml' started.
+Solution found:
+'g.92.4.gml' stopped. Elapsed time: 36.9503 seconds.
+Correct: True
+---
+'g.11.63.gml' started.
+Solution found:
+'g.11.63.gml' stopped. Elapsed time: 0.1858 seconds.
+Correct: True
+---
+'g.28.6.gml' started.
+Solution found:
+'g.28.6.gml' stopped. Elapsed time: 1.9330 seconds.
+Correct: True
+---
+'g.57.22.gml' started.
+No solution found.
+'g.57.22.gml' stopped. Elapsed time: 26.2335 seconds.
+---
+'g.23.12.gml' started.
+Solution found:
+'g.23.12.gml' stopped. Elapsed time: 1.0208 seconds.
+Correct: True
+---
+'g.35.3.gml' started.
+No solution found.
+'g.35.3.gml' stopped. Elapsed time: 9.2611 seconds.
+---
+'g.26.9.gml' started.
+Solution found:
+'g.26.9.gml' stopped. Elapsed time: 1.4014 seconds.
+Correct: True
+---
+'g.56.0.gml' started.
+Solution found:
+'g.56.0.gml' stopped. Elapsed time: 8.8289 seconds.
+Correct: True
+---
+'g.63.9.gml' started.
+No solution found.
+'g.63.9.gml' stopped. Elapsed time: 20.0040 seconds.
+---
+'g.16.95.gml' started.
+Solution found:
+'g.16.95.gml' stopped. Elapsed time: 0.4309 seconds.
+Correct: True
+---
+'g.16.81.gml' started.
+Solution found:
+'g.16.81.gml' stopped. Elapsed time: 0.3797 seconds.
+Correct: True
+---
+'g.24.33.gml' started.
+Solution found:
+'g.24.33.gml' stopped. Elapsed time: 1.5873 seconds.
+Correct: True
+---

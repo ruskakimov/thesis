@@ -1,0 +1,5109 @@
+/Users/rustemkakimov/Code/thesis_container/thesis/cnf
+1
+'g.23.37.gml' started.
+'g.23.37.gml' stopped. Elapsed time: 0.0694 seconds.
+---
+2
+'g.24.16.gml' started.
+'g.24.16.gml' stopped. Elapsed time: 0.1073 seconds.
+---
+3
+'g.45.7.gml' started.
+'g.45.7.gml' stopped. Elapsed time: 0.4972 seconds.
+---
+4
+'g.39.47.gml' started.
+'g.39.47.gml' stopped. Elapsed time: 0.3167 seconds.
+---
+5
+'g.39.53.gml' started.
+'g.39.53.gml' stopped. Elapsed time: 0.3961 seconds.
+---
+6
+'g.26.4.gml' started.
+'g.26.4.gml' stopped. Elapsed time: 0.1269 seconds.
+---
+7
+'g.11.46.gml' started.
+'g.11.46.gml' stopped. Elapsed time: 0.0084 seconds.
+---
+8
+'g.47.5.gml' started.
+'g.47.5.gml' stopped. Elapsed time: 0.5898 seconds.
+---
+9
+'g.34.13.gml' started.
+'g.34.13.gml' stopped. Elapsed time: 0.2424 seconds.
+---
+10
+'g.24.6.gml' started.
+'g.24.6.gml' stopped. Elapsed time: 0.0834 seconds.
+---
+11
+'g.47.16.gml' started.
+'g.47.16.gml' stopped. Elapsed time: 0.6280 seconds.
+---
+12
+'g.15.22.gml' started.
+'g.15.22.gml' stopped. Elapsed time: 0.0373 seconds.
+---
+13
+'g.31.37.gml' started.
+'g.31.37.gml' stopped. Elapsed time: 0.2044 seconds.
+---
+14
+'g.87.5.gml' started.
+'g.87.5.gml' stopped. Elapsed time: 4.2923 seconds.
+---
+15
+'g.67.0.gml' started.
+'g.67.0.gml' stopped. Elapsed time: 1.5432 seconds.
+---
+16
+'g.22.0.gml' started.
+'g.22.0.gml' stopped. Elapsed time: 0.0922 seconds.
+---
+17
+'g.17.9.gml' started.
+'g.17.9.gml' stopped. Elapsed time: 0.0262 seconds.
+---
+18
+'g.41.3.gml' started.
+'g.41.3.gml' stopped. Elapsed time: 0.4700 seconds.
+---
+19
+'g.36.16.gml' started.
+'g.36.16.gml' stopped. Elapsed time: 0.4814 seconds.
+---
+20
+'g.12.141.gml' started.
+'g.12.141.gml' stopped. Elapsed time: 0.0219 seconds.
+---
+21
+'g.17.33.gml' started.
+'g.17.33.gml' stopped. Elapsed time: 0.0346 seconds.
+---
+22
+'g.19.22.gml' started.
+'g.19.22.gml' stopped. Elapsed time: 0.0571 seconds.
+---
+23
+'g.42.26.gml' started.
+'g.42.26.gml' stopped. Elapsed time: 0.4819 seconds.
+---
+24
+'g.42.32.gml' started.
+'g.42.32.gml' stopped. Elapsed time: 0.4962 seconds.
+---
+25
+'g.10.12.gml' started.
+'g.10.12.gml' stopped. Elapsed time: 0.0150 seconds.
+---
+26
+'g.19.6.gml' started.
+'g.19.6.gml' stopped. Elapsed time: 0.0672 seconds.
+---
+27
+'g.19.36.gml' started.
+'g.19.36.gml' stopped. Elapsed time: 0.0606 seconds.
+---
+28
+'g.13.94.gml' started.
+'g.13.94.gml' stopped. Elapsed time: 0.0310 seconds.
+---
+29
+'g.13.80.gml' started.
+'g.13.80.gml' stopped. Elapsed time: 0.0159 seconds.
+---
+30
+'g.28.16.gml' started.
+'g.28.16.gml' stopped. Elapsed time: 0.1400 seconds.
+---
+31
+'g.20.2.gml' started.
+'g.20.2.gml' stopped. Elapsed time: 0.0932 seconds.
+---
+32
+'g.23.117.gml' started.
+'g.23.117.gml' stopped. Elapsed time: 0.0824 seconds.
+---
+33
+'g.26.13.gml' started.
+'g.26.13.gml' stopped. Elapsed time: 0.1404 seconds.
+---
+34
+'g.43.1.gml' started.
+'g.43.1.gml' stopped. Elapsed time: 0.4924 seconds.
+---
+35
+'g.33.8.gml' started.
+'g.33.8.gml' stopped. Elapsed time: 0.6128 seconds.
+---
+36
+'g.23.103.gml' started.
+'g.23.103.gml' stopped. Elapsed time: 0.0842 seconds.
+---
+37
+'g.13.57.gml' started.
+'g.13.57.gml' stopped. Elapsed time: 0.0129 seconds.
+---
+38
+'g.14.62.gml' started.
+'g.14.62.gml' stopped. Elapsed time: 0.0378 seconds.
+---
+39
+'g.13.42.gml' started.
+'g.13.42.gml' stopped. Elapsed time: 0.0141 seconds.
+---
+40
+'g.43.0.gml' started.
+'g.43.0.gml' stopped. Elapsed time: 0.4075 seconds.
+---
+41
+'g.23.102.gml' started.
+'g.23.102.gml' stopped. Elapsed time: 0.0751 seconds.
+---
+42
+'g.20.3.gml' started.
+'g.20.3.gml' stopped. Elapsed time: 0.0668 seconds.
+---
+43
+'g.26.12.gml' started.
+'g.26.12.gml' stopped. Elapsed time: 0.0831 seconds.
+---
+44
+'g.13.81.gml' started.
+'g.13.81.gml' stopped. Elapsed time: 0.0113 seconds.
+---
+45
+'g.21.33.gml' started.
+'g.21.33.gml' stopped. Elapsed time: 0.0580 seconds.
+---
+46
+'g.21.27.gml' started.
+'g.21.27.gml' stopped. Elapsed time: 0.1034 seconds.
+---
+47
+'g.13.95.gml' started.
+'g.13.95.gml' stopped. Elapsed time: 0.0210 seconds.
+---
+48
+'g.19.7.gml' started.
+'g.19.7.gml' stopped. Elapsed time: 0.0433 seconds.
+---
+49
+'g.10.13.gml' started.
+'g.10.13.gml' stopped. Elapsed time: 0.0064 seconds.
+---
+50
+'g.19.23.gml' started.
+'g.19.23.gml' stopped. Elapsed time: 0.0415 seconds.
+---
+51
+'g.42.27.gml' started.
+'g.42.27.gml' stopped. Elapsed time: 0.4154 seconds.
+---
+52
+'g.17.26.gml' started.
+'g.17.26.gml' stopped. Elapsed time: 0.0360 seconds.
+---
+53
+'g.17.32.gml' started.
+'g.17.32.gml' stopped. Elapsed time: 0.0343 seconds.
+---
+54
+'g.12.140.gml' started.
+'g.12.140.gml' stopped. Elapsed time: 0.0158 seconds.
+---
+55
+'g.36.17.gml' started.
+'g.36.17.gml' stopped. Elapsed time: 0.3578 seconds.
+---
+56
+'g.22.62.gml' started.
+'g.22.62.gml' stopped. Elapsed time: 0.0869 seconds.
+---
+57
+'g.41.2.gml' started.
+'g.41.2.gml' stopped. Elapsed time: 0.4439 seconds.
+---
+58
+'g.22.76.gml' started.
+'g.22.76.gml' stopped. Elapsed time: 0.0735 seconds.
+---
+59
+'g.67.1.gml' started.
+'g.67.1.gml' stopped. Elapsed time: 1.8067 seconds.
+---
+60
+'g.17.8.gml' started.
+'g.17.8.gml' stopped. Elapsed time: 0.0713 seconds.
+---
+61
+'g.87.4.gml' started.
+'g.87.4.gml' stopped. Elapsed time: 4.6143 seconds.
+---
+62
+'g.38.12.gml' started.
+'g.38.12.gml' stopped. Elapsed time: 0.6313 seconds.
+---
+63
+'g.25.43.gml' started.
+'g.25.43.gml' stopped. Elapsed time: 0.1291 seconds.
+---
+64
+'g.31.36.gml' started.
+'g.31.36.gml' stopped. Elapsed time: 0.1546 seconds.
+---
+65
+'g.49.12.gml' started.
+'g.49.12.gml' stopped. Elapsed time: 0.8584 seconds.
+---
+66
+'g.40.22.gml' started.
+'g.40.22.gml' stopped. Elapsed time: 0.5412 seconds.
+---
+67
+'g.15.23.gml' started.
+'g.15.23.gml' stopped. Elapsed time: 0.0377 seconds.
+---
+68
+'g.47.17.gml' started.
+'g.47.17.gml' stopped. Elapsed time: 0.6633 seconds.
+---
+69
+'g.34.12.gml' started.
+'g.34.12.gml' stopped. Elapsed time: 0.3416 seconds.
+---
+70
+'g.61.7.gml' started.
+'g.61.7.gml' stopped. Elapsed time: 1.7324 seconds.
+---
+71
+'g.24.7.gml' started.
+'g.24.7.gml' stopped. Elapsed time: 0.1863 seconds.
+---
+72
+'g.58.3.gml' started.
+'g.58.3.gml' stopped. Elapsed time: 1.4727 seconds.
+---
+73
+'g.16.66.gml' started.
+'g.16.66.gml' stopped. Elapsed time: 0.0634 seconds.
+---
+74
+'g.26.5.gml' started.
+'g.26.5.gml' stopped. Elapsed time: 0.1046 seconds.
+---
+75
+'g.24.17.gml' started.
+'g.24.17.gml' stopped. Elapsed time: 0.0763 seconds.
+---
+76
+'g.39.46.gml' started.
+'g.39.46.gml' stopped. Elapsed time: 0.4582 seconds.
+---
+77
+'g.23.22.gml' started.
+'g.23.22.gml' stopped. Elapsed time: 0.1076 seconds.
+---
+78
+'g.23.20.gml' started.
+'g.23.20.gml' stopped. Elapsed time: 0.0791 seconds.
+---
+79
+'g.24.29.gml' started.
+'g.24.29.gml' stopped. Elapsed time: 0.0816 seconds.
+---
+80
+'g.39.44.gml' started.
+'g.39.44.gml' stopped. Elapsed time: 0.4760 seconds.
+---
+81
+'g.24.15.gml' started.
+'g.24.15.gml' stopped. Elapsed time: 0.0953 seconds.
+---
+82
+'g.45.4.gml' started.
+'g.45.4.gml' stopped. Elapsed time: 0.5930 seconds.
+---
+83
+'g.11.45.gml' started.
+'g.11.45.gml' stopped. Elapsed time: 0.0182 seconds.
+---
+84
+'g.16.58.gml' started.
+'g.16.58.gml' stopped. Elapsed time: 0.0245 seconds.
+---
+85
+'g.11.51.gml' started.
+'g.11.51.gml' stopped. Elapsed time: 0.0092 seconds.
+---
+86
+'g.16.70.gml' started.
+'g.16.70.gml' stopped. Elapsed time: 0.0265 seconds.
+---
+87
+'g.16.64.gml' started.
+'g.16.64.gml' stopped. Elapsed time: 0.0389 seconds.
+---
+88
+'g.28.8.gml' started.
+'g.28.8.gml' stopped. Elapsed time: 0.1730 seconds.
+---
+89
+'g.81.0.gml' started.
+'g.81.0.gml' stopped. Elapsed time: 3.7112 seconds.
+---
+90
+'g.61.11.gml' started.
+'g.61.11.gml' stopped. Elapsed time: 1.5034 seconds.
+---
+91
+'g.61.39.gml' started.
+'g.61.39.gml' stopped. Elapsed time: 1.4751 seconds.
+---
+92
+'g.47.6.gml' started.
+'g.47.6.gml' stopped. Elapsed time: 0.6372 seconds.
+---
+93
+'g.15.21.gml' started.
+'g.15.21.gml' stopped. Elapsed time: 0.0355 seconds.
+---
+94
+'g.15.35.gml' started.
+'g.15.35.gml' stopped. Elapsed time: 0.0553 seconds.
+---
+95
+'g.47.15.gml' started.
+'g.47.15.gml' stopped. Elapsed time: 0.5963 seconds.
+---
+96
+'g.39.0.gml' started.
+'g.39.0.gml' stopped. Elapsed time: 0.3372 seconds.
+---
+97
+'g.49.9.gml' started.
+'g.49.9.gml' stopped. Elapsed time: 0.7579 seconds.
+---
+98
+'g.40.20.gml' started.
+'g.40.20.gml' stopped. Elapsed time: 0.4020 seconds.
+---
+99
+'g.87.6.gml' started.
+'g.87.6.gml' stopped. Elapsed time: 3.8734 seconds.
+---
+100
+'g.36.29.gml' started.
+'g.36.29.gml' stopped. Elapsed time: 0.3332 seconds.
+---
+101
+'g.25.55.gml' started.
+'g.25.55.gml' stopped. Elapsed time: 0.1358 seconds.
+---
+102
+'g.31.34.gml' started.
+'g.31.34.gml' stopped. Elapsed time: 0.1739 seconds.
+---
+103
+'g.22.60.gml' started.
+'g.22.60.gml' stopped. Elapsed time: 0.0637 seconds.
+---
+104
+'g.41.0.gml' started.
+'g.41.0.gml' stopped. Elapsed time: 0.3364 seconds.
+---
+105
+'g.36.15.gml' started.
+'g.36.15.gml' stopped. Elapsed time: 0.2696 seconds.
+---
+106
+'g.31.9.gml' started.
+'g.31.9.gml' stopped. Elapsed time: 0.2392 seconds.
+---
+107
+'g.17.24.gml' started.
+'g.17.24.gml' stopped. Elapsed time: 0.0356 seconds.
+---
+108
+'g.10.39.gml' started.
+'g.10.39.gml' stopped. Elapsed time: 0.0116 seconds.
+---
+109
+'g.17.30.gml' started.
+'g.17.30.gml' stopped. Elapsed time: 0.1687 seconds.
+---
+110
+'g.19.35.gml' started.
+'g.19.35.gml' stopped. Elapsed time: 0.0411 seconds.
+---
+111
+'g.17.18.gml' started.
+'g.17.18.gml' stopped. Elapsed time: 0.0286 seconds.
+---
+112
+'g.10.11.gml' started.
+'g.10.11.gml' stopped. Elapsed time: 0.0083 seconds.
+---
+113
+'g.42.25.gml' started.
+'g.42.25.gml' stopped. Elapsed time: 0.4631 seconds.
+---
+114
+'g.19.21.gml' started.
+'g.19.21.gml' stopped. Elapsed time: 0.0490 seconds.
+---
+115
+'g.21.31.gml' started.
+'g.21.31.gml' stopped. Elapsed time: 0.0568 seconds.
+---
+116
+'g.13.83.gml' started.
+'g.13.83.gml' stopped. Elapsed time: 0.0134 seconds.
+---
+117
+'g.13.97.gml' started.
+'g.13.97.gml' stopped. Elapsed time: 0.0196 seconds.
+---
+118
+'g.23.100.gml' started.
+'g.23.100.gml' stopped. Elapsed time: 0.0737 seconds.
+---
+119
+'g.28.29.gml' started.
+'g.28.29.gml' stopped. Elapsed time: 0.1822 seconds.
+---
+120
+'g.50.8.gml' started.
+'g.50.8.gml' stopped. Elapsed time: 0.7607 seconds.
+---
+121
+'g.26.10.gml' started.
+'g.26.10.gml' stopped. Elapsed time: 0.0965 seconds.
+---
+122
+'g.65.1.gml' started.
+'g.65.1.gml' stopped. Elapsed time: 1.5197 seconds.
+---
+123
+'g.15.8.gml' started.
+'g.15.8.gml' stopped. Elapsed time: 0.0473 seconds.
+---
+124
+'g.20.1.gml' started.
+'g.20.1.gml' stopped. Elapsed time: 0.0849 seconds.
+---
+125
+'g.13.54.gml' started.
+'g.13.54.gml' stopped. Elapsed time: 0.0158 seconds.
+---
+126
+'g.13.68.gml' started.
+'g.13.68.gml' stopped. Elapsed time: 0.0107 seconds.
+---
+127
+'g.14.61.gml' started.
+'g.14.61.gml' stopped. Elapsed time: 0.0162 seconds.
+---
+128
+'g.13.69.gml' started.
+'g.13.69.gml' stopped. Elapsed time: 0.0125 seconds.
+---
+129
+'g.14.60.gml' started.
+'g.14.60.gml' stopped. Elapsed time: 0.0166 seconds.
+---
+130
+'g.13.55.gml' started.
+'g.13.55.gml' stopped. Elapsed time: 0.0117 seconds.
+---
+131
+'g.13.41.gml' started.
+'g.13.41.gml' stopped. Elapsed time: 0.0120 seconds.
+---
+132
+'g.65.0.gml' started.
+'g.65.0.gml' stopped. Elapsed time: 1.7941 seconds.
+---
+133
+'g.26.11.gml' started.
+'g.26.11.gml' stopped. Elapsed time: 0.1866 seconds.
+---
+134
+'g.50.9.gml' started.
+'g.50.9.gml' stopped. Elapsed time: 0.7385 seconds.
+---
+135
+'g.23.115.gml' started.
+'g.23.115.gml' stopped. Elapsed time: 0.0858 seconds.
+---
+136
+'g.15.9.gml' started.
+'g.15.9.gml' stopped. Elapsed time: 0.0204 seconds.
+---
+137
+'g.43.3.gml' started.
+'g.43.3.gml' stopped. Elapsed time: 1.1939 seconds.
+---
+138
+'g.13.96.gml' started.
+'g.13.96.gml' stopped. Elapsed time: 0.0448 seconds.
+---
+139
+'g.21.24.gml' started.
+'g.21.24.gml' stopped. Elapsed time: 0.1253 seconds.
+---
+140
+'g.21.30.gml' started.
+'g.21.30.gml' stopped. Elapsed time: 0.0502 seconds.
+---
+141
+'g.28.14.gml' started.
+'g.28.14.gml' stopped. Elapsed time: 0.1473 seconds.
+---
+142
+'g.19.20.gml' started.
+'g.19.20.gml' stopped. Elapsed time: 0.0408 seconds.
+---
+143
+'g.19.34.gml' started.
+'g.19.34.gml' stopped. Elapsed time: 0.0683 seconds.
+---
+144
+'g.19.4.gml' started.
+'g.19.4.gml' stopped. Elapsed time: 0.0461 seconds.
+---
+145
+'g.10.38.gml' started.
+'g.10.38.gml' stopped. Elapsed time: 0.0130 seconds.
+---
+146
+'g.17.31.gml' started.
+'g.17.31.gml' stopped. Elapsed time: 0.0629 seconds.
+---
+147
+'g.41.1.gml' started.
+'g.41.1.gml' stopped. Elapsed time: 0.4102 seconds.
+---
+148
+'g.31.8.gml' started.
+'g.31.8.gml' stopped. Elapsed time: 0.2585 seconds.
+---
+149
+'g.25.40.gml' started.
+'g.25.40.gml' stopped. Elapsed time: 0.1041 seconds.
+---
+150
+'g.22.49.gml' started.
+'g.22.49.gml' stopped. Elapsed time: 0.0860 seconds.
+---
+151
+'g.40.21.gml' started.
+'g.40.21.gml' stopped. Elapsed time: 0.3505 seconds.
+---
+152
+'g.39.1.gml' started.
+'g.39.1.gml' stopped. Elapsed time: 0.3224 seconds.
+---
+153
+'g.49.11.gml' started.
+'g.49.11.gml' stopped. Elapsed time: 0.8663 seconds.
+---
+154
+'g.49.8.gml' started.
+'g.49.8.gml' stopped. Elapsed time: 0.8313 seconds.
+---
+155
+'g.15.34.gml' started.
+'g.15.34.gml' stopped. Elapsed time: 0.0261 seconds.
+---
+156
+'g.15.20.gml' started.
+'g.15.20.gml' stopped. Elapsed time: 0.0185 seconds.
+---
+157
+'g.47.7.gml' started.
+'g.47.7.gml' stopped. Elapsed time: 0.6147 seconds.
+---
+158
+'g.61.4.gml' started.
+'g.61.4.gml' stopped. Elapsed time: 1.6451 seconds.
+---
+159
+'g.28.9.gml' started.
+'g.28.9.gml' stopped. Elapsed time: 0.1467 seconds.
+---
+160
+'g.16.65.gml' started.
+'g.16.65.gml' stopped. Elapsed time: 0.0463 seconds.
+---
+161
+'g.59.14.gml' started.
+'g.59.14.gml' stopped. Elapsed time: 1.2784 seconds.
+---
+162
+'g.58.0.gml' started.
+'g.58.0.gml' stopped. Elapsed time: 1.2498 seconds.
+---
+163
+'g.16.59.gml' started.
+'g.16.59.gml' stopped. Elapsed time: 0.0507 seconds.
+---
+164
+'g.11.50.gml' started.
+'g.11.50.gml' stopped. Elapsed time: 0.0092 seconds.
+---
+165
+'g.39.45.gml' started.
+'g.39.45.gml' stopped. Elapsed time: 0.3566 seconds.
+---
+166
+'g.45.5.gml' started.
+'g.45.5.gml' stopped. Elapsed time: 0.5441 seconds.
+---
+167
+'g.26.6.gml' started.
+'g.26.6.gml' stopped. Elapsed time: 0.1091 seconds.
+---
+168
+'g.23.21.gml' started.
+'g.23.21.gml' stopped. Elapsed time: 0.0705 seconds.
+---
+169
+'g.83.3.gml' started.
+'g.83.3.gml' stopped. Elapsed time: 3.3887 seconds.
+---
+170
+'g.26.2.gml' started.
+'g.26.2.gml' stopped. Elapsed time: 0.1747 seconds.
+---
+171
+'g.45.1.gml' started.
+'g.45.1.gml' stopped. Elapsed time: 0.3957 seconds.
+---
+172
+'g.23.19.gml' started.
+'g.23.19.gml' stopped. Elapsed time: 0.0676 seconds.
+---
+173
+'g.24.38.gml' started.
+'g.24.38.gml' stopped. Elapsed time: 0.0977 seconds.
+---
+174
+'g.57.29.gml' started.
+'g.57.29.gml' stopped. Elapsed time: 1.3019 seconds.
+---
+175
+'g.58.4.gml' started.
+'g.58.4.gml' stopped. Elapsed time: 1.3263 seconds.
+---
+176
+'g.11.68.gml' started.
+'g.11.68.gml' stopped. Elapsed time: 0.0348 seconds.
+---
+177
+'g.16.61.gml' started.
+'g.16.61.gml' stopped. Elapsed time: 0.0313 seconds.
+---
+178
+'g.57.15.gml' started.
+'g.57.15.gml' stopped. Elapsed time: 1.3684 seconds.
+---
+179
+'g.24.0.gml' started.
+'g.24.0.gml' stopped. Elapsed time: 0.1121 seconds.
+---
+180
+'g.11.9.gml' started.
+'g.11.9.gml' stopped. Elapsed time: 0.0109 seconds.
+---
+181
+'g.47.3.gml' started.
+'g.47.3.gml' stopped. Elapsed time: 0.6213 seconds.
+---
+182
+'g.20.48.gml' started.
+'g.20.48.gml' stopped. Elapsed time: 0.0577 seconds.
+---
+183
+'g.81.5.gml' started.
+'g.81.5.gml' stopped. Elapsed time: 3.3819 seconds.
+---
+184
+'g.15.24.gml' started.
+'g.15.24.gml' stopped. Elapsed time: 0.0899 seconds.
+---
+185
+'g.40.19.gml' started.
+'g.40.19.gml' stopped. Elapsed time: 0.4921 seconds.
+---
+186
+'g.64.18.gml' started.
+'g.64.18.gml' stopped. Elapsed time: 2.6288 seconds.
+---
+187
+'g.38.15.gml' started.
+'g.38.15.gml' stopped. Elapsed time: 0.4184 seconds.
+---
+188
+'g.31.31.gml' started.
+'g.31.31.gml' stopped. Elapsed time: 0.1688 seconds.
+---
+189
+'g.42.34.gml' started.
+'g.42.34.gml' stopped. Elapsed time: 0.6359 seconds.
+---
+190
+'g.10.14.gml' started.
+'g.10.14.gml' stopped. Elapsed time: 0.0205 seconds.
+---
+191
+'g.19.0.gml' started.
+'g.19.0.gml' stopped. Elapsed time: 0.0469 seconds.
+---
+192
+'g.19.24.gml' started.
+'g.19.24.gml' stopped. Elapsed time: 0.0452 seconds.
+---
+193
+'g.42.20.gml' started.
+'g.42.20.gml' stopped. Elapsed time: 0.6008 seconds.
+---
+194
+'g.10.28.gml' started.
+'g.10.28.gml' stopped. Elapsed time: 0.0186 seconds.
+---
+195
+'g.17.21.gml' started.
+'g.17.21.gml' stopped. Elapsed time: 0.0355 seconds.
+---
+196
+'g.19.18.gml' started.
+'g.19.18.gml' stopped. Elapsed time: 0.0607 seconds.
+---
+197
+'g.43.7.gml' started.
+'g.43.7.gml' stopped. Elapsed time: 0.5389 seconds.
+---
+198
+'g.20.4.gml' started.
+'g.20.4.gml' stopped. Elapsed time: 0.1118 seconds.
+---
+199
+'g.13.86.gml' started.
+'g.13.86.gml' stopped. Elapsed time: 0.0267 seconds.
+---
+200
+'g.85.1.gml' started.
+'g.85.1.gml' stopped. Elapsed time: 4.1351 seconds.
+---
+201
+'g.21.34.gml' started.
+'g.21.34.gml' stopped. Elapsed time: 0.1583 seconds.
+---
+202
+'g.26.29.gml' started.
+'g.26.29.gml' stopped. Elapsed time: 0.1214 seconds.
+---
+203
+'g.13.92.gml' started.
+'g.13.92.gml' stopped. Elapsed time: 0.0191 seconds.
+---
+204
+'g.13.79.gml' started.
+'g.13.79.gml' stopped. Elapsed time: 0.0179 seconds.
+---
+205
+'g.13.45.gml' started.
+'g.13.45.gml' stopped. Elapsed time: 0.0162 seconds.
+---
+206
+'g.14.58.gml' started.
+'g.14.58.gml' stopped. Elapsed time: 0.0284 seconds.
+---
+207
+'g.13.51.gml' started.
+'g.13.51.gml' stopped. Elapsed time: 0.0600 seconds.
+---
+208
+'g.14.59.gml' started.
+'g.14.59.gml' stopped. Elapsed time: 0.0202 seconds.
+---
+209
+'g.13.44.gml' started.
+'g.13.44.gml' stopped. Elapsed time: 0.0213 seconds.
+---
+210
+'g.14.65.gml' started.
+'g.14.65.gml' stopped. Elapsed time: 0.0218 seconds.
+---
+211
+'g.78.0.gml' started.
+'g.78.0.gml' stopped. Elapsed time: 2.8879 seconds.
+---
+212
+'g.13.78.gml' started.
+'g.13.78.gml' stopped. Elapsed time: 0.0764 seconds.
+---
+213
+'g.13.93.gml' started.
+'g.13.93.gml' stopped. Elapsed time: 0.0151 seconds.
+---
+214
+'g.100.3.gml' started.
+'g.100.3.gml' stopped. Elapsed time: 6.3273 seconds.
+---
+215
+'g.13.87.gml' started.
+'g.13.87.gml' stopped. Elapsed time: 0.2121 seconds.
+---
+216
+'g.21.35.gml' started.
+'g.21.35.gml' stopped. Elapsed time: 0.0900 seconds.
+---
+217
+'g.20.5.gml' started.
+'g.20.5.gml' stopped. Elapsed time: 0.0485 seconds.
+---
+218
+'g.43.6.gml' started.
+'g.43.6.gml' stopped. Elapsed time: 0.5342 seconds.
+---
+219
+'g.17.34.gml' started.
+'g.17.34.gml' stopped. Elapsed time: 0.0405 seconds.
+---
+220
+'g.19.19.gml' started.
+'g.19.19.gml' stopped. Elapsed time: 0.0433 seconds.
+---
+221
+'g.12.146.gml' started.
+'g.12.146.gml' stopped. Elapsed time: 0.0153 seconds.
+---
+222
+'g.10.29.gml' started.
+'g.10.29.gml' stopped. Elapsed time: 0.0124 seconds.
+---
+223
+'g.17.20.gml' started.
+'g.17.20.gml' stopped. Elapsed time: 0.0602 seconds.
+---
+224
+'g.19.25.gml' started.
+'g.19.25.gml' stopped. Elapsed time: 0.0677 seconds.
+---
+225
+'g.42.21.gml' started.
+'g.42.21.gml' stopped. Elapsed time: 0.4978 seconds.
+---
+226
+'g.10.15.gml' started.
+'g.10.15.gml' stopped. Elapsed time: 0.0163 seconds.
+---
+227
+'g.19.31.gml' started.
+'g.19.31.gml' stopped. Elapsed time: 0.0675 seconds.
+---
+228
+'g.25.45.gml' started.
+'g.25.45.gml' stopped. Elapsed time: 0.1556 seconds.
+---
+229
+'g.25.51.gml' started.
+'g.25.51.gml' stopped. Elapsed time: 0.1806 seconds.
+---
+230
+'g.22.70.gml' started.
+'g.22.70.gml' stopped. Elapsed time: 0.1097 seconds.
+---
+231
+'g.22.7.gml' started.
+'g.22.7.gml' stopped. Elapsed time: 0.0819 seconds.
+---
+232
+'g.41.4.gml' started.
+'g.41.4.gml' stopped. Elapsed time: 0.5183 seconds.
+---
+233
+'g.40.18.gml' started.
+'g.40.18.gml' stopped. Elapsed time: 0.5797 seconds.
+---
+234
+'g.15.31.gml' started.
+'g.15.31.gml' stopped. Elapsed time: 0.0285 seconds.
+---
+235
+'g.39.4.gml' started.
+'g.39.4.gml' stopped. Elapsed time: 0.3740 seconds.
+---
+236
+'g.61.15.gml' started.
+'g.61.15.gml' stopped. Elapsed time: 1.7077 seconds.
+---
+237
+'g.20.49.gml' started.
+'g.20.49.gml' stopped. Elapsed time: 0.0848 seconds.
+---
+238
+'g.47.2.gml' started.
+'g.47.2.gml' stopped. Elapsed time: 0.6132 seconds.
+---
+239
+'g.54.8.gml' started.
+'g.54.8.gml' stopped. Elapsed time: 1.0099 seconds.
+---
+240
+'g.24.1.gml' started.
+'g.24.1.gml' stopped. Elapsed time: 0.0964 seconds.
+---
+241
+'g.11.55.gml' started.
+'g.11.55.gml' stopped. Elapsed time: 0.0109 seconds.
+---
+242
+'g.57.14.gml' started.
+'g.57.14.gml' stopped. Elapsed time: 1.3425 seconds.
+---
+243
+'g.11.69.gml' started.
+'g.11.69.gml' stopped. Elapsed time: 0.0354 seconds.
+---
+244
+'g.16.60.gml' started.
+'g.16.60.gml' stopped. Elapsed time: 0.0395 seconds.
+---
+245
+'g.57.28.gml' started.
+'g.57.28.gml' stopped. Elapsed time: 1.2638 seconds.
+---
+246
+'g.24.39.gml' started.
+'g.24.39.gml' stopped. Elapsed time: 0.1798 seconds.
+---
+247
+'g.45.0.gml' started.
+'g.45.0.gml' stopped. Elapsed time: 0.5785 seconds.
+---
+248
+'g.23.18.gml' started.
+'g.23.18.gml' stopped. Elapsed time: 0.1098 seconds.
+---
+249
+'g.35.9.gml' started.
+'g.35.9.gml' stopped. Elapsed time: 0.7199 seconds.
+---
+250
+'g.26.3.gml' started.
+'g.26.3.gml' stopped. Elapsed time: 0.1053 seconds.
+---
+251
+'g.63.1.gml' started.
+'g.63.1.gml' stopped. Elapsed time: 1.7126 seconds.
+---
+252
+'g.39.56.gml' started.
+'g.39.56.gml' stopped. Elapsed time: 0.4414 seconds.
+---
+253
+'g.26.1.gml' started.
+'g.26.1.gml' stopped. Elapsed time: 0.1308 seconds.
+---
+254
+'g.16.62.gml' started.
+'g.16.62.gml' stopped. Elapsed time: 0.0231 seconds.
+---
+255
+'g.58.7.gml' started.
+'g.58.7.gml' stopped. Elapsed time: 1.1752 seconds.
+---
+256
+'g.16.76.gml' started.
+'g.16.76.gml' stopped. Elapsed time: 0.0448 seconds.
+---
+257
+'g.11.57.gml' started.
+'g.11.57.gml' stopped. Elapsed time: 0.0099 seconds.
+---
+258
+'g.37.9.gml' started.
+'g.37.9.gml' stopped. Elapsed time: 0.2965 seconds.
+---
+259
+'g.24.3.gml' started.
+'g.24.3.gml' stopped. Elapsed time: 0.0851 seconds.
+---
+260
+'g.61.3.gml' started.
+'g.61.3.gml' stopped. Elapsed time: 1.5080 seconds.
+---
+261
+'g.49.16.gml' started.
+'g.49.16.gml' stopped. Elapsed time: 0.8679 seconds.
+---
+262
+'g.15.33.gml' started.
+'g.15.33.gml' stopped. Elapsed time: 0.0305 seconds.
+---
+263
+'g.22.66.gml' started.
+'g.22.66.gml' stopped. Elapsed time: 0.0572 seconds.
+---
+264
+'g.31.32.gml' started.
+'g.31.32.gml' stopped. Elapsed time: 0.1978 seconds.
+---
+265
+'g.25.47.gml' started.
+'g.25.47.gml' stopped. Elapsed time: 0.0845 seconds.
+---
+266
+'g.38.16.gml' started.
+'g.38.16.gml' stopped. Elapsed time: 0.3882 seconds.
+---
+267
+'g.87.0.gml' started.
+'g.87.0.gml' stopped. Elapsed time: 4.4808 seconds.
+---
+268
+'g.25.53.gml' started.
+'g.25.53.gml' stopped. Elapsed time: 0.2286 seconds.
+---
+269
+'g.42.23.gml' started.
+'g.42.23.gml' stopped. Elapsed time: 0.5141 seconds.
+---
+270
+'g.19.27.gml' started.
+'g.19.27.gml' stopped. Elapsed time: 0.0507 seconds.
+---
+271
+'g.10.17.gml' started.
+'g.10.17.gml' stopped. Elapsed time: 0.0089 seconds.
+---
+272
+'g.17.36.gml' started.
+'g.17.36.gml' stopped. Elapsed time: 0.0329 seconds.
+---
+273
+'g.23.112.gml' started.
+'g.23.112.gml' stopped. Elapsed time: 0.0678 seconds.
+---
+274
+'g.20.7.gml' started.
+'g.20.7.gml' stopped. Elapsed time: 0.0736 seconds.
+---
+275
+'g.23.106.gml' started.
+'g.23.106.gml' stopped. Elapsed time: 0.0761 seconds.
+---
+276
+'g.13.91.gml' started.
+'g.13.91.gml' stopped. Elapsed time: 0.0153 seconds.
+---
+277
+'g.21.23.gml' started.
+'g.21.23.gml' stopped. Elapsed time: 0.1029 seconds.
+---
+278
+'g.21.37.gml' started.
+'g.21.37.gml' stopped. Elapsed time: 0.1299 seconds.
+---
+279
+'g.13.85.gml' started.
+'g.13.85.gml' stopped. Elapsed time: 0.0178 seconds.
+---
+280
+'g.100.1.gml' started.
+'g.100.1.gml' stopped. Elapsed time: 6.7943 seconds.
+---
+281
+'g.85.2.gml' started.
+'g.85.2.gml' stopped. Elapsed time: 4.2385 seconds.
+---
+282
+'g.14.67.gml' started.
+'g.14.67.gml' stopped. Elapsed time: 0.1119 seconds.
+---
+283
+'g.13.52.gml' started.
+'g.13.52.gml' stopped. Elapsed time: 0.0306 seconds.
+---
+284
+'g.13.46.gml' started.
+'g.13.46.gml' stopped. Elapsed time: 0.0157 seconds.
+---
+285
+'g.55.13.gml' started.
+'g.55.13.gml' stopped. Elapsed time: 1.1560 seconds.
+---
+286
+'g.13.47.gml' started.
+'g.13.47.gml' stopped. Elapsed time: 0.0350 seconds.
+---
+287
+'g.13.53.gml' started.
+'g.13.53.gml' stopped. Elapsed time: 0.0330 seconds.
+---
+288
+'g.78.3.gml' started.
+'g.78.3.gml' stopped. Elapsed time: 2.9043 seconds.
+---
+289
+'g.14.66.gml' started.
+'g.14.66.gml' stopped. Elapsed time: 0.0867 seconds.
+---
+290
+'g.28.12.gml' started.
+'g.28.12.gml' stopped. Elapsed time: 0.1271 seconds.
+---
+291
+'g.85.3.gml' started.
+'g.85.3.gml' stopped. Elapsed time: 3.7338 seconds.
+---
+292
+'g.100.0.gml' started.
+'g.100.0.gml' stopped. Elapsed time: 7.3044 seconds.
+---
+293
+'g.13.84.gml' started.
+'g.13.84.gml' stopped. Elapsed time: 0.2002 seconds.
+---
+294
+'g.96.9.gml' started.
+'g.96.9.gml' stopped. Elapsed time: 5.5995 seconds.
+---
+295
+'g.21.22.gml' started.
+'g.21.22.gml' stopped. Elapsed time: 0.1640 seconds.
+---
+296
+'g.23.107.gml' started.
+'g.23.107.gml' stopped. Elapsed time: 0.0722 seconds.
+---
+297
+'g.43.5.gml' started.
+'g.43.5.gml' stopped. Elapsed time: 0.4131 seconds.
+---
+298
+'g.26.17.gml' started.
+'g.26.17.gml' stopped. Elapsed time: 0.0951 seconds.
+---
+299
+'g.20.6.gml' started.
+'g.20.6.gml' stopped. Elapsed time: 0.0500 seconds.
+---
+300
+'g.17.23.gml' started.
+'g.17.23.gml' stopped. Elapsed time: 0.0486 seconds.
+---
+301
+'g.17.37.gml' started.
+'g.17.37.gml' stopped. Elapsed time: 0.0287 seconds.
+---
+302
+'g.12.145.gml' started.
+'g.12.145.gml' stopped. Elapsed time: 0.0201 seconds.
+---
+303
+'g.19.32.gml' started.
+'g.19.32.gml' stopped. Elapsed time: 0.0397 seconds.
+---
+304
+'g.10.16.gml' started.
+'g.10.16.gml' stopped. Elapsed time: 0.0077 seconds.
+---
+305
+'g.19.26.gml' started.
+'g.19.26.gml' stopped. Elapsed time: 0.0444 seconds.
+---
+306
+'g.25.52.gml' started.
+'g.25.52.gml' stopped. Elapsed time: 0.0823 seconds.
+---
+307
+'g.25.46.gml' started.
+'g.25.46.gml' stopped. Elapsed time: 0.1066 seconds.
+---
+308
+'g.38.17.gml' started.
+'g.38.17.gml' stopped. Elapsed time: 0.3272 seconds.
+---
+309
+'g.22.67.gml' started.
+'g.22.67.gml' stopped. Elapsed time: 0.0681 seconds.
+---
+310
+'g.41.7.gml' started.
+'g.41.7.gml' stopped. Elapsed time: 0.4452 seconds.
+---
+311
+'g.22.4.gml' started.
+'g.22.4.gml' stopped. Elapsed time: 0.0731 seconds.
+---
+312
+'g.15.26.gml' started.
+'g.15.26.gml' stopped. Elapsed time: 0.0242 seconds.
+---
+313
+'g.15.32.gml' started.
+'g.15.32.gml' stopped. Elapsed time: 0.0254 seconds.
+---
+314
+'g.39.7.gml' started.
+'g.39.7.gml' stopped. Elapsed time: 0.9715 seconds.
+---
+315
+'g.49.17.gml' started.
+'g.49.17.gml' stopped. Elapsed time: 0.7112 seconds.
+---
+316
+'g.40.27.gml' started.
+'g.40.27.gml' stopped. Elapsed time: 0.3800 seconds.
+---
+317
+'g.24.2.gml' started.
+'g.24.2.gml' stopped. Elapsed time: 0.0878 seconds.
+---
+318
+'g.34.17.gml' started.
+'g.34.17.gml' stopped. Elapsed time: 0.3042 seconds.
+---
+319
+'g.61.2.gml' started.
+'g.61.2.gml' stopped. Elapsed time: 1.4944 seconds.
+---
+320
+'g.47.1.gml' started.
+'g.47.1.gml' stopped. Elapsed time: 0.6102 seconds.
+---
+321
+'g.37.8.gml' started.
+'g.37.8.gml' stopped. Elapsed time: 0.3967 seconds.
+---
+322
+'g.16.63.gml' started.
+'g.16.63.gml' stopped. Elapsed time: 0.0343 seconds.
+---
+323
+'g.59.12.gml' started.
+'g.59.12.gml' stopped. Elapsed time: 1.4748 seconds.
+---
+324
+'g.58.6.gml' started.
+'g.58.6.gml' stopped. Elapsed time: 1.3209 seconds.
+---
+325
+'g.63.0.gml' started.
+'g.63.0.gml' stopped. Elapsed time: 1.5767 seconds.
+---
+326
+'g.56.9.gml' started.
+'g.56.9.gml' stopped. Elapsed time: 1.1036 seconds.
+---
+327
+'g.26.0.gml' started.
+'g.26.0.gml' stopped. Elapsed time: 0.1161 seconds.
+---
+328
+'g.39.57.gml' started.
+'g.39.57.gml' stopped. Elapsed time: 0.3784 seconds.
+---
+329
+'g.13.9.gml' started.
+'g.13.9.gml' stopped. Elapsed time: 0.0186 seconds.
+---
+330
+'g.23.40.gml' started.
+'g.23.40.gml' stopped. Elapsed time: 0.0673 seconds.
+---
+331
+'g.30.28.gml' started.
+'g.30.28.gml' stopped. Elapsed time: 0.1796 seconds.
+---
+332
+'g.42.2.gml' started.
+'g.42.2.gml' stopped. Elapsed time: 0.4534 seconds.
+---
+333
+'g.21.1.gml' started.
+'g.21.1.gml' stopped. Elapsed time: 0.1793 seconds.
+---
+334
+'g.39.30.gml' started.
+'g.39.30.gml' stopped. Elapsed time: 0.4104 seconds.
+---
+335
+'g.99.1.gml' started.
+'g.99.1.gml' stopped. Elapsed time: 5.6091 seconds.
+---
+336
+'g.18.15.gml' started.
+'g.18.15.gml' stopped. Elapsed time: 0.1605 seconds.
+---
+337
+'g.23.83.gml' started.
+'g.23.83.gml' stopped. Elapsed time: 0.0932 seconds.
+---
+338
+'g.11.25.gml' started.
+'g.11.25.gml' stopped. Elapsed time: 0.0172 seconds.
+---
+339
+'g.18.29.gml' started.
+'g.18.29.gml' stopped. Elapsed time: 0.0342 seconds.
+---
+340
+'g.11.19.gml' started.
+'g.11.19.gml' stopped. Elapsed time: 0.0095 seconds.
+---
+341
+'g.20.39.gml' started.
+'g.20.39.gml' stopped. Elapsed time: 0.0555 seconds.
+---
+342
+'g.30.9.gml' started.
+'g.30.9.gml' stopped. Elapsed time: 0.1489 seconds.
+---
+343
+'g.40.0.gml' started.
+'g.40.0.gml' stopped. Elapsed time: 0.2942 seconds.
+---
+344
+'g.66.3.gml' started.
+'g.66.3.gml' stopped. Elapsed time: 1.6984 seconds.
+---
+345
+'g.12.48.gml' started.
+'g.12.48.gml' stopped. Elapsed time: 0.0482 seconds.
+---
+346
+'g.15.41.gml' started.
+'g.15.41.gml' stopped. Elapsed time: 0.0276 seconds.
+---
+347
+'g.18.5.gml' started.
+'g.18.5.gml' stopped. Elapsed time: 0.0349 seconds.
+---
+348
+'g.12.60.gml' started.
+'g.12.60.gml' stopped. Elapsed time: 0.0201 seconds.
+---
+349
+'g.25.21.gml' started.
+'g.25.21.gml' stopped. Elapsed time: 0.1099 seconds.
+---
+350
+'g.22.14.gml' started.
+'g.22.14.gml' stopped. Elapsed time: 0.0673 seconds.
+---
+351
+'g.25.5.gml' started.
+'g.25.5.gml' stopped. Elapsed time: 0.1403 seconds.
+---
+352
+'g.46.6.gml' started.
+'g.46.6.gml' stopped. Elapsed time: 0.5088 seconds.
+---
+353
+'g.12.122.gml' started.
+'g.12.122.gml' stopped. Elapsed time: 0.0565 seconds.
+---
+354
+'g.48.9.gml' started.
+'g.48.9.gml' stopped. Elapsed time: 0.6339 seconds.
+---
+355
+'g.19.41.gml' started.
+'g.19.41.gml' stopped. Elapsed time: 0.0498 seconds.
+---
+356
+'g.10.71.gml' started.
+'g.10.71.gml' stopped. Elapsed time: 0.0062 seconds.
+---
+357
+'g.21.45.gml' started.
+'g.21.45.gml' stopped. Elapsed time: 0.0525 seconds.
+---
+358
+'g.35.24.gml' started.
+'g.35.24.gml' stopped. Elapsed time: 0.2319 seconds.
+---
+359
+'g.27.7.gml' started.
+'g.27.7.gml' stopped. Elapsed time: 0.1354 seconds.
+---
+360
+'g.62.7.gml' started.
+'g.62.7.gml' stopped. Elapsed time: 1.4044 seconds.
+---
+361
+'g.44.4.gml' started.
+'g.44.4.gml' stopped. Elapsed time: 0.4626 seconds.
+---
+362
+'g.32.11.gml' started.
+'g.32.11.gml' stopped. Elapsed time: 0.1748 seconds.
+---
+363
+'g.13.34.gml' started.
+'g.13.34.gml' stopped. Elapsed time: 0.0651 seconds.
+---
+364
+'g.48.24.gml' started.
+'g.48.24.gml' stopped. Elapsed time: 0.5894 seconds.
+---
+365
+'g.14.15.gml' started.
+'g.14.15.gml' stopped. Elapsed time: 0.0260 seconds.
+---
+366
+'g.48.18.gml' started.
+'g.48.18.gml' stopped. Elapsed time: 0.5883 seconds.
+---
+367
+'g.48.19.gml' started.
+'g.48.19.gml' stopped. Elapsed time: 0.7114 seconds.
+---
+368
+'g.59.0.gml' started.
+'g.59.0.gml' stopped. Elapsed time: 1.2803 seconds.
+---
+369
+'g.14.14.gml' started.
+'g.14.14.gml' stopped. Elapsed time: 0.0387 seconds.
+---
+370
+'g.29.9.gml' started.
+'g.29.9.gml' stopped. Elapsed time: 0.2784 seconds.
+---
+371
+'g.14.28.gml' started.
+'g.14.28.gml' stopped. Elapsed time: 0.0240 seconds.
+---
+372
+'g.13.21.gml' started.
+'g.13.21.gml' stopped. Elapsed time: 0.0127 seconds.
+---
+373
+'g.13.35.gml' started.
+'g.13.35.gml' stopped. Elapsed time: 0.0351 seconds.
+---
+374
+'g.48.31.gml' started.
+'g.48.31.gml' stopped. Elapsed time: 0.6003 seconds.
+---
+375
+'g.44.5.gml' started.
+'g.44.5.gml' stopped. Elapsed time: 0.4679 seconds.
+---
+376
+'g.32.10.gml' started.
+'g.32.10.gml' stopped. Elapsed time: 0.2088 seconds.
+---
+377
+'g.62.6.gml' started.
+'g.62.6.gml' stopped. Elapsed time: 1.2608 seconds.
+---
+378
+'g.35.25.gml' started.
+'g.35.25.gml' stopped. Elapsed time: 0.2981 seconds.
+---
+379
+'g.10.70.gml' started.
+'g.10.70.gml' stopped. Elapsed time: 0.0123 seconds.
+---
+380
+'g.48.8.gml' started.
+'g.48.8.gml' stopped. Elapsed time: 0.5788 seconds.
+---
+381
+'g.19.40.gml' started.
+'g.19.40.gml' stopped. Elapsed time: 0.0518 seconds.
+---
+382
+'g.17.45.gml' started.
+'g.17.45.gml' stopped. Elapsed time: 0.0292 seconds.
+---
+383
+'g.10.58.gml' started.
+'g.10.58.gml' stopped. Elapsed time: 0.0090 seconds.
+---
+384
+'g.12.123.gml' started.
+'g.12.123.gml' stopped. Elapsed time: 0.0101 seconds.
+---
+385
+'g.25.4.gml' started.
+'g.25.4.gml' stopped. Elapsed time: 0.1049 seconds.
+---
+386
+'g.22.15.gml' started.
+'g.22.15.gml' stopped. Elapsed time: 0.0501 seconds.
+---
+387
+'g.25.34.gml' started.
+'g.25.34.gml' stopped. Elapsed time: 0.0948 seconds.
+---
+388
+'g.80.1.gml' started.
+'g.80.1.gml' stopped. Elapsed time: 2.8367 seconds.
+---
+389
+'g.12.75.gml' started.
+'g.12.75.gml' stopped. Elapsed time: 0.0776 seconds.
+---
+390
+'g.18.4.gml' started.
+'g.18.4.gml' stopped. Elapsed time: 0.0344 seconds.
+---
+391
+'g.12.49.gml' started.
+'g.12.49.gml' stopped. Elapsed time: 0.0111 seconds.
+---
+392
+'g.15.40.gml' started.
+'g.15.40.gml' stopped. Elapsed time: 0.0257 seconds.
+---
+393
+'g.23.2.gml' started.
+'g.23.2.gml' stopped. Elapsed time: 0.0578 seconds.
+---
+394
+'g.30.8.gml' started.
+'g.30.8.gml' stopped. Elapsed time: 0.1705 seconds.
+---
+395
+'g.79.5.gml' started.
+'g.79.5.gml' stopped. Elapsed time: 2.8234 seconds.
+---
+396
+'g.18.28.gml' started.
+'g.18.28.gml' stopped. Elapsed time: 0.0981 seconds.
+---
+397
+'g.11.24.gml' started.
+'g.11.24.gml' stopped. Elapsed time: 0.0106 seconds.
+---
+398
+'g.23.96.gml' started.
+'g.23.96.gml' stopped. Elapsed time: 0.1213 seconds.
+---
+399
+'g.44.19.gml' started.
+'g.44.19.gml' stopped. Elapsed time: 0.4741 seconds.
+---
+400
+'g.18.14.gml' started.
+'g.18.14.gml' stopped. Elapsed time: 0.0403 seconds.
+---
+401
+'g.99.0.gml' started.
+'g.99.0.gml' stopped. Elapsed time: 5.4153 seconds.
+---
+402
+'g.11.30.gml' started.
+'g.11.30.gml' stopped. Elapsed time: 0.1367 seconds.
+---
+403
+'g.21.0.gml' started.
+'g.21.0.gml' stopped. Elapsed time: 0.0449 seconds.
+---
+404
+'g.30.15.gml' started.
+'g.30.15.gml' stopped. Elapsed time: 0.1317 seconds.
+---
+405
+'g.14.9.gml' started.
+'g.14.9.gml' stopped. Elapsed time: 0.0160 seconds.
+---
+406
+'g.23.69.gml' started.
+'g.23.69.gml' stopped. Elapsed time: 0.0600 seconds.
+---
+407
+'g.42.3.gml' started.
+'g.42.3.gml' stopped. Elapsed time: 0.3874 seconds.
+---
+408
+'g.37.20.gml' started.
+'g.37.20.gml' stopped. Elapsed time: 0.2818 seconds.
+---
+409
+'g.23.41.gml' started.
+'g.23.41.gml' stopped. Elapsed time: 0.0841 seconds.
+---
+410
+'g.24.48.gml' started.
+'g.24.48.gml' stopped. Elapsed time: 0.1307 seconds.
+---
+411
+'g.23.43.gml' started.
+'g.23.43.gml' stopped. Elapsed time: 0.0669 seconds.
+---
+412
+'g.30.17.gml' started.
+'g.30.17.gml' stopped. Elapsed time: 0.2166 seconds.
+---
+413
+'g.21.2.gml' started.
+'g.21.2.gml' stopped. Elapsed time: 0.0505 seconds.
+---
+414
+'g.32.8.gml' started.
+'g.32.8.gml' stopped. Elapsed time: 0.1905 seconds.
+---
+415
+'g.42.1.gml' started.
+'g.42.1.gml' stopped. Elapsed time: 0.4320 seconds.
+---
+416
+'g.43.12.gml' started.
+'g.43.12.gml' stopped. Elapsed time: 0.4721 seconds.
+---
+417
+'g.99.2.gml' started.
+'g.99.2.gml' stopped. Elapsed time: 5.4977 seconds.
+---
+418
+'g.18.16.gml' started.
+'g.18.16.gml' stopped. Elapsed time: 0.1688 seconds.
+---
+419
+'g.79.7.gml' started.
+'g.79.7.gml' stopped. Elapsed time: 2.8923 seconds.
+---
+420
+'g.12.88.gml' started.
+'g.12.88.gml' stopped. Elapsed time: 0.0964 seconds.
+---
+421
+'g.86.5.gml' started.
+'g.86.5.gml' stopped. Elapsed time: 3.7335 seconds.
+---
+422
+'g.16.9.gml' started.
+'g.16.9.gml' stopped. Elapsed time: 0.1194 seconds.
+---
+423
+'g.53.9.gml' started.
+'g.53.9.gml' stopped. Elapsed time: 0.9945 seconds.
+---
+424
+'g.40.3.gml' started.
+'g.40.3.gml' stopped. Elapsed time: 0.4182 seconds.
+---
+425
+'g.15.56.gml' started.
+'g.15.56.gml' stopped. Elapsed time: 0.0245 seconds.
+---
+426
+'g.12.77.gml' started.
+'g.12.77.gml' stopped. Elapsed time: 0.0137 seconds.
+---
+427
+'g.12.63.gml' started.
+'g.12.63.gml' stopped. Elapsed time: 0.0239 seconds.
+---
+428
+'g.18.6.gml' started.
+'g.18.6.gml' stopped. Elapsed time: 0.0328 seconds.
+---
+429
+'g.25.36.gml' started.
+'g.25.36.gml' stopped. Elapsed time: 0.1262 seconds.
+---
+430
+'g.25.22.gml' started.
+'g.25.22.gml' stopped. Elapsed time: 0.1103 seconds.
+---
+431
+'g.46.5.gml' started.
+'g.46.5.gml' stopped. Elapsed time: 0.5735 seconds.
+---
+432
+'g.22.17.gml' started.
+'g.22.17.gml' stopped. Elapsed time: 0.0719 seconds.
+---
+433
+'g.25.6.gml' started.
+'g.25.6.gml' stopped. Elapsed time: 0.1160 seconds.
+---
+434
+'g.12.135.gml' started.
+'g.12.135.gml' stopped. Elapsed time: 0.0124 seconds.
+---
+435
+'g.12.121.gml' started.
+'g.12.121.gml' stopped. Elapsed time: 0.0137 seconds.
+---
+436
+'g.10.72.gml' started.
+'g.10.72.gml' stopped. Elapsed time: 0.0074 seconds.
+---
+437
+'g.12.109.gml' started.
+'g.12.109.gml' stopped. Elapsed time: 0.0109 seconds.
+---
+438
+'g.38.3.gml' started.
+'g.38.3.gml' stopped. Elapsed time: 0.3084 seconds.
+---
+439
+'g.35.27.gml' started.
+'g.35.27.gml' stopped. Elapsed time: 0.2846 seconds.
+---
+440
+'g.82.1.gml' started.
+'g.82.1.gml' stopped. Elapsed time: 3.2317 seconds.
+---
+441
+'g.32.12.gml' started.
+'g.32.12.gml' stopped. Elapsed time: 0.2476 seconds.
+---
+442
+'g.44.7.gml' started.
+'g.44.7.gml' stopped. Elapsed time: 0.4672 seconds.
+---
+443
+'g.62.4.gml' started.
+'g.62.4.gml' stopped. Elapsed time: 1.5939 seconds.
+---
+444
+'g.27.4.gml' started.
+'g.27.4.gml' stopped. Elapsed time: 0.1516 seconds.
+---
+445
+'g.13.37.gml' started.
+'g.13.37.gml' stopped. Elapsed time: 0.0164 seconds.
+---
+446
+'g.14.16.gml' started.
+'g.14.16.gml' stopped. Elapsed time: 0.0166 seconds.
+---
+447
+'g.59.2.gml' started.
+'g.59.2.gml' stopped. Elapsed time: 1.3896 seconds.
+---
+448
+'g.14.17.gml' started.
+'g.14.17.gml' stopped. Elapsed time: 0.0462 seconds.
+---
+449
+'g.13.36.gml' started.
+'g.13.36.gml' stopped. Elapsed time: 0.0142 seconds.
+---
+450
+'g.62.5.gml' started.
+'g.62.5.gml' stopped. Elapsed time: 1.2822 seconds.
+---
+451
+'g.32.13.gml' started.
+'g.32.13.gml' stopped. Elapsed time: 0.1784 seconds.
+---
+452
+'g.35.32.gml' started.
+'g.35.32.gml' stopped. Elapsed time: 0.4646 seconds.
+---
+453
+'g.35.26.gml' started.
+'g.35.26.gml' stopped. Elapsed time: 0.2459 seconds.
+---
+454
+'g.38.2.gml' started.
+'g.38.2.gml' stopped. Elapsed time: 0.3029 seconds.
+---
+455
+'g.19.43.gml' started.
+'g.19.43.gml' stopped. Elapsed time: 0.0390 seconds.
+---
+456
+'g.12.108.gml' started.
+'g.12.108.gml' stopped. Elapsed time: 0.0123 seconds.
+---
+457
+'g.12.134.gml' started.
+'g.12.134.gml' stopped. Elapsed time: 0.0143 seconds.
+---
+458
+'g.25.7.gml' started.
+'g.25.7.gml' stopped. Elapsed time: 0.1034 seconds.
+---
+459
+'g.46.4.gml' started.
+'g.46.4.gml' stopped. Elapsed time: 0.6003 seconds.
+---
+460
+'g.25.37.gml' started.
+'g.25.37.gml' stopped. Elapsed time: 0.0933 seconds.
+---
+461
+'g.12.62.gml' started.
+'g.12.62.gml' stopped. Elapsed time: 0.0184 seconds.
+---
+462
+'g.18.7.gml' started.
+'g.18.7.gml' stopped. Elapsed time: 0.0341 seconds.
+---
+463
+'g.12.76.gml' started.
+'g.12.76.gml' stopped. Elapsed time: 0.0262 seconds.
+---
+464
+'g.15.43.gml' started.
+'g.15.43.gml' stopped. Elapsed time: 0.0185 seconds.
+---
+465
+'g.20.13.gml' started.
+'g.20.13.gml' stopped. Elapsed time: 0.1984 seconds.
+---
+466
+'g.16.8.gml' started.
+'g.16.8.gml' stopped. Elapsed time: 0.0258 seconds.
+---
+467
+'g.23.1.gml' started.
+'g.23.1.gml' stopped. Elapsed time: 0.0731 seconds.
+---
+468
+'g.86.4.gml' started.
+'g.86.4.gml' stopped. Elapsed time: 4.0712 seconds.
+---
+469
+'g.12.89.gml' started.
+'g.12.89.gml' stopped. Elapsed time: 0.1083 seconds.
+---
+470
+'g.79.6.gml' started.
+'g.79.6.gml' stopped. Elapsed time: 2.5167 seconds.
+---
+471
+'g.23.81.gml' started.
+'g.23.81.gml' stopped. Elapsed time: 0.1827 seconds.
+---
+472
+'g.18.17.gml' started.
+'g.18.17.gml' stopped. Elapsed time: 0.0357 seconds.
+---
+473
+'g.32.9.gml' started.
+'g.32.9.gml' stopped. Elapsed time: 0.2006 seconds.
+---
+474
+'g.42.0.gml' started.
+'g.42.0.gml' stopped. Elapsed time: 0.4228 seconds.
+---
+475
+'g.39.26.gml' started.
+'g.39.26.gml' stopped. Elapsed time: 0.3430 seconds.
+---
+476
+'g.21.3.gml' started.
+'g.21.3.gml' stopped. Elapsed time: 0.0544 seconds.
+---
+477
+'g.30.12.gml' started.
+'g.30.12.gml' stopped. Elapsed time: 0.1656 seconds.
+---
+478
+'g.64.7.gml' started.
+'g.64.7.gml' stopped. Elapsed time: 1.8503 seconds.
+---
+479
+'g.42.4.gml' started.
+'g.42.4.gml' stopped. Elapsed time: 0.5589 seconds.
+---
+480
+'g.84.2.gml' started.
+'g.84.2.gml' stopped. Elapsed time: 4.5078 seconds.
+---
+481
+'g.16.16.gml' started.
+'g.16.16.gml' stopped. Elapsed time: 0.2059 seconds.
+---
+482
+'g.44.22.gml' started.
+'g.44.22.gml' stopped. Elapsed time: 0.6261 seconds.
+---
+483
+'g.11.23.gml' started.
+'g.11.23.gml' stopped. Elapsed time: 0.0256 seconds.
+---
+484
+'g.18.13.gml' started.
+'g.18.13.gml' stopped. Elapsed time: 0.0319 seconds.
+---
+485
+'g.23.85.gml' started.
+'g.23.85.gml' stopped. Elapsed time: 0.1545 seconds.
+---
+486
+'g.43.17.gml' started.
+'g.43.17.gml' stopped. Elapsed time: 0.5299 seconds.
+---
+487
+'g.11.37.gml' started.
+'g.11.37.gml' stopped. Elapsed time: 0.0180 seconds.
+---
+488
+'g.23.5.gml' started.
+'g.23.5.gml' stopped. Elapsed time: 0.0884 seconds.
+---
+489
+'g.86.0.gml' started.
+'g.86.0.gml' stopped. Elapsed time: 3.8812 seconds.
+---
+490
+'g.12.99.gml' started.
+'g.12.99.gml' stopped. Elapsed time: 0.0928 seconds.
+---
+491
+'g.12.66.gml' started.
+'g.12.66.gml' stopped. Elapsed time: 0.0106 seconds.
+---
+492
+'g.15.47.gml' started.
+'g.15.47.gml' stopped. Elapsed time: 0.0195 seconds.
+---
+493
+'g.36.9.gml' started.
+'g.36.9.gml' stopped. Elapsed time: 0.2770 seconds.
+---
+494
+'g.73.9.gml' started.
+'g.73.9.gml' stopped. Elapsed time: 2.4219 seconds.
+---
+495
+'g.22.12.gml' started.
+'g.22.12.gml' stopped. Elapsed time: 0.1085 seconds.
+---
+496
+'g.80.6.gml' started.
+'g.80.6.gml' stopped. Elapsed time: 2.8984 seconds.
+---
+497
+'g.10.88.gml' started.
+'g.10.88.gml' stopped. Elapsed time: 0.0681 seconds.
+---
+498
+'g.25.33.gml' started.
+'g.25.33.gml' stopped. Elapsed time: 0.1275 seconds.
+---
+499
+'g.12.118.gml' started.
+'g.12.118.gml' stopped. Elapsed time: 0.0175 seconds.
+---
+500
+'g.38.6.gml' started.
+'g.38.6.gml' stopped. Elapsed time: 0.3269 seconds.
+---
+501
+'g.17.42.gml' started.
+'g.17.42.gml' stopped. Elapsed time: 0.0323 seconds.
+---
+502
+'g.12.124.gml' started.
+'g.12.124.gml' stopped. Elapsed time: 0.0110 seconds.
+---
+503
+'g.32.17.gml' started.
+'g.32.17.gml' stopped. Elapsed time: 0.1785 seconds.
+---
+504
+'g.12.8.gml' started.
+'g.12.8.gml' stopped. Elapsed time: 0.0189 seconds.
+---
+505
+'g.27.1.gml' started.
+'g.27.1.gml' stopped. Elapsed time: 0.1109 seconds.
+---
+506
+'g.57.8.gml' started.
+'g.57.8.gml' stopped. Elapsed time: 1.3151 seconds.
+---
+507
+'g.62.1.gml' started.
+'g.62.1.gml' stopped. Elapsed time: 1.4438 seconds.
+---
+508
+'g.82.4.gml' started.
+'g.82.4.gml' stopped. Elapsed time: 3.6493 seconds.
+---
+509
+'g.14.13.gml' started.
+'g.14.13.gml' stopped. Elapsed time: 0.1066 seconds.
+---
+510
+'g.13.26.gml' started.
+'g.13.26.gml' stopped. Elapsed time: 0.0135 seconds.
+---
+511
+'g.41.12.gml' started.
+'g.41.12.gml' stopped. Elapsed time: 0.3504 seconds.
+---
+512
+'g.41.13.gml' started.
+'g.41.13.gml' stopped. Elapsed time: 0.4824 seconds.
+---
+513
+'g.48.23.gml' started.
+'g.48.23.gml' stopped. Elapsed time: 0.6144 seconds.
+---
+514
+'g.13.120.gml' started.
+'g.13.120.gml' stopped. Elapsed time: 0.0223 seconds.
+---
+515
+'g.14.12.gml' started.
+'g.14.12.gml' stopped. Elapsed time: 0.0153 seconds.
+---
+516
+'g.82.5.gml' started.
+'g.82.5.gml' stopped. Elapsed time: 3.5697 seconds.
+---
+517
+'g.35.23.gml' started.
+'g.35.23.gml' stopped. Elapsed time: 0.3251 seconds.
+---
+518
+'g.27.0.gml' started.
+'g.27.0.gml' stopped. Elapsed time: 0.0997 seconds.
+---
+519
+'g.12.9.gml' started.
+'g.12.9.gml' stopped. Elapsed time: 0.0151 seconds.
+---
+520
+'g.62.0.gml' started.
+'g.62.0.gml' stopped. Elapsed time: 1.5032 seconds.
+---
+521
+'g.57.9.gml' started.
+'g.57.9.gml' stopped. Elapsed time: 1.3334 seconds.
+---
+522
+'g.44.3.gml' started.
+'g.44.3.gml' stopped. Elapsed time: 0.6004 seconds.
+---
+523
+'g.10.62.gml' started.
+'g.10.62.gml' stopped. Elapsed time: 0.0184 seconds.
+---
+524
+'g.38.7.gml' started.
+'g.38.7.gml' stopped. Elapsed time: 0.2797 seconds.
+---
+525
+'g.25.26.gml' started.
+'g.25.26.gml' stopped. Elapsed time: 0.0925 seconds.
+---
+526
+'g.25.32.gml' started.
+'g.25.32.gml' stopped. Elapsed time: 0.1312 seconds.
+---
+527
+'g.10.89.gml' started.
+'g.10.89.gml' stopped. Elapsed time: 0.0093 seconds.
+---
+528
+'g.36.8.gml' started.
+'g.36.8.gml' stopped. Elapsed time: 0.2780 seconds.
+---
+529
+'g.73.8.gml' started.
+'g.73.8.gml' stopped. Elapsed time: 2.3097 seconds.
+---
+530
+'g.15.52.gml' started.
+'g.15.52.gml' stopped. Elapsed time: 0.0710 seconds.
+---
+531
+'g.53.13.gml' started.
+'g.53.13.gml' stopped. Elapsed time: 0.9351 seconds.
+---
+532
+'g.18.2.gml' started.
+'g.18.2.gml' stopped. Elapsed time: 0.0561 seconds.
+---
+533
+'g.12.98.gml' started.
+'g.12.98.gml' stopped. Elapsed time: 0.0182 seconds.
+---
+534
+'g.86.1.gml' started.
+'g.86.1.gml' stopped. Elapsed time: 3.5881 seconds.
+---
+535
+'g.40.7.gml' started.
+'g.40.7.gml' stopped. Elapsed time: 0.4134 seconds.
+---
+536
+'g.23.4.gml' started.
+'g.23.4.gml' stopped. Elapsed time: 0.0702 seconds.
+---
+537
+'g.18.12.gml' started.
+'g.18.12.gml' stopped. Elapsed time: 0.0596 seconds.
+---
+538
+'g.11.36.gml' started.
+'g.11.36.gml' stopped. Elapsed time: 0.0097 seconds.
+---
+539
+'g.11.22.gml' started.
+'g.11.22.gml' stopped. Elapsed time: 0.0089 seconds.
+---
+540
+'g.23.90.gml' started.
+'g.23.90.gml' stopped. Elapsed time: 0.1245 seconds.
+---
+541
+'g.79.3.gml' started.
+'g.79.3.gml' stopped. Elapsed time: 2.7215 seconds.
+---
+542
+'g.16.17.gml' started.
+'g.16.17.gml' stopped. Elapsed time: 0.0834 seconds.
+---
+543
+'g.42.5.gml' started.
+'g.42.5.gml' stopped. Elapsed time: 0.6204 seconds.
+---
+544
+'g.39.23.gml' started.
+'g.39.23.gml' stopped. Elapsed time: 0.3668 seconds.
+---
+545
+'g.21.6.gml' started.
+'g.21.6.gml' stopped. Elapsed time: 0.0532 seconds.
+---
+546
+'g.42.7.gml' started.
+'g.42.7.gml' stopped. Elapsed time: 0.3940 seconds.
+---
+547
+'g.37.18.gml' started.
+'g.37.18.gml' stopped. Elapsed time: 0.2856 seconds.
+---
+548
+'g.30.11.gml' started.
+'g.30.11.gml' stopped. Elapsed time: 0.1667 seconds.
+---
+549
+'g.21.4.gml' started.
+'g.21.4.gml' stopped. Elapsed time: 0.0428 seconds.
+---
+550
+'g.23.45.gml' started.
+'g.23.45.gml' stopped. Elapsed time: 0.0581 seconds.
+---
+551
+'g.84.1.gml' started.
+'g.84.1.gml' stopped. Elapsed time: 3.4240 seconds.
+---
+552
+'g.44.21.gml' started.
+'g.44.21.gml' stopped. Elapsed time: 0.4615 seconds.
+---
+553
+'g.79.1.gml' started.
+'g.79.1.gml' stopped. Elapsed time: 2.6754 seconds.
+---
+554
+'g.18.38.gml' started.
+'g.18.38.gml' stopped. Elapsed time: 0.0932 seconds.
+---
+555
+'g.43.14.gml' started.
+'g.43.14.gml' stopped. Elapsed time: 0.4169 seconds.
+---
+556
+'g.18.10.gml' started.
+'g.18.10.gml' stopped. Elapsed time: 0.0751 seconds.
+---
+557
+'g.23.86.gml' started.
+'g.23.86.gml' stopped. Elapsed time: 0.1324 seconds.
+---
+558
+'g.23.92.gml' started.
+'g.23.92.gml' stopped. Elapsed time: 0.0724 seconds.
+---
+559
+'g.11.20.gml' started.
+'g.11.20.gml' stopped. Elapsed time: 0.0092 seconds.
+---
+560
+'g.40.5.gml' started.
+'g.40.5.gml' stopped. Elapsed time: 0.3818 seconds.
+---
+561
+'g.20.14.gml' started.
+'g.20.14.gml' stopped. Elapsed time: 0.0548 seconds.
+---
+562
+'g.66.6.gml' started.
+'g.66.6.gml' stopped. Elapsed time: 2.0268 seconds.
+---
+563
+'g.86.3.gml' started.
+'g.86.3.gml' stopped. Elapsed time: 3.9637 seconds.
+---
+564
+'g.20.28.gml' started.
+'g.20.28.gml' stopped. Elapsed time: 0.1406 seconds.
+---
+565
+'g.18.0.gml' started.
+'g.18.0.gml' stopped. Elapsed time: 0.0561 seconds.
+---
+566
+'g.15.50.gml' started.
+'g.15.50.gml' stopped. Elapsed time: 0.0249 seconds.
+---
+567
+'g.25.0.gml' started.
+'g.25.0.gml' stopped. Elapsed time: 0.0923 seconds.
+---
+568
+'g.10.9.gml' started.
+'g.10.9.gml' stopped. Elapsed time: 0.0074 seconds.
+---
+569
+'g.60.0.gml' started.
+'g.60.0.gml' stopped. Elapsed time: 1.3469 seconds.
+---
+570
+'g.55.9.gml' started.
+'g.55.9.gml' stopped. Elapsed time: 1.0927 seconds.
+---
+571
+'g.25.18.gml' started.
+'g.25.18.gml' stopped. Elapsed time: 0.1796 seconds.
+---
+572
+'g.46.3.gml' started.
+'g.46.3.gml' stopped. Elapsed time: 1.0685 seconds.
+---
+573
+'g.80.5.gml' started.
+'g.80.5.gml' stopped. Elapsed time: 2.9057 seconds.
+---
+574
+'g.22.39.gml' started.
+'g.22.39.gml' stopped. Elapsed time: 0.1281 seconds.
+---
+575
+'g.19.44.gml' started.
+'g.19.44.gml' stopped. Elapsed time: 0.0420 seconds.
+---
+576
+'g.38.5.gml' started.
+'g.38.5.gml' stopped. Elapsed time: 0.3309 seconds.
+---
+577
+'g.10.60.gml' started.
+'g.10.60.gml' stopped. Elapsed time: 0.0134 seconds.
+---
+578
+'g.10.74.gml' started.
+'g.10.74.gml' stopped. Elapsed time: 0.0074 seconds.
+---
+579
+'g.12.133.gml' started.
+'g.12.133.gml' stopped. Elapsed time: 0.0119 seconds.
+---
+580
+'g.17.41.gml' started.
+'g.17.41.gml' stopped. Elapsed time: 0.0371 seconds.
+---
+581
+'g.62.2.gml' started.
+'g.62.2.gml' stopped. Elapsed time: 1.6182 seconds.
+---
+582
+'g.32.14.gml' started.
+'g.32.14.gml' stopped. Elapsed time: 0.2152 seconds.
+---
+583
+'g.34.8.gml' started.
+'g.34.8.gml' stopped. Elapsed time: 0.1966 seconds.
+---
+584
+'g.44.1.gml' started.
+'g.44.1.gml' stopped. Elapsed time: 0.4722 seconds.
+---
+585
+'g.21.40.gml' started.
+'g.21.40.gml' stopped. Elapsed time: 0.0982 seconds.
+---
+586
+'g.32.28.gml' started.
+'g.32.28.gml' stopped. Elapsed time: 0.3848 seconds.
+---
+587
+'g.14.38.gml' started.
+'g.14.38.gml' stopped. Elapsed time: 0.0270 seconds.
+---
+588
+'g.48.35.gml' started.
+'g.48.35.gml' stopped. Elapsed time: 0.7050 seconds.
+---
+589
+'g.13.31.gml' started.
+'g.13.31.gml' stopped. Elapsed time: 0.0303 seconds.
+---
+590
+'g.13.25.gml' started.
+'g.13.25.gml' stopped. Elapsed time: 0.0134 seconds.
+---
+591
+'g.46.19.gml' started.
+'g.46.19.gml' stopped. Elapsed time: 0.5505 seconds.
+---
+592
+'g.14.39.gml' started.
+'g.14.39.gml' stopped. Elapsed time: 0.0266 seconds.
+---
+593
+'g.13.30.gml' started.
+'g.13.30.gml' stopped. Elapsed time: 0.0140 seconds.
+---
+594
+'g.35.20.gml' started.
+'g.35.20.gml' stopped. Elapsed time: 0.2251 seconds.
+---
+595
+'g.21.41.gml' started.
+'g.21.41.gml' stopped. Elapsed time: 0.0604 seconds.
+---
+596
+'g.32.15.gml' started.
+'g.32.15.gml' stopped. Elapsed time: 0.1831 seconds.
+---
+597
+'g.34.9.gml' started.
+'g.34.9.gml' stopped. Elapsed time: 0.2358 seconds.
+---
+598
+'g.44.0.gml' started.
+'g.44.0.gml' stopped. Elapsed time: 0.4829 seconds.
+---
+599
+'g.62.3.gml' started.
+'g.62.3.gml' stopped. Elapsed time: 1.6619 seconds.
+---
+600
+'g.27.3.gml' started.
+'g.27.3.gml' stopped. Elapsed time: 0.1348 seconds.
+---
+601
+'g.17.40.gml' started.
+'g.17.40.gml' stopped. Elapsed time: 0.0364 seconds.
+---
+602
+'g.12.126.gml' started.
+'g.12.126.gml' stopped. Elapsed time: 0.0148 seconds.
+---
+603
+'g.10.75.gml' started.
+'g.10.75.gml' stopped. Elapsed time: 0.0077 seconds.
+---
+604
+'g.38.4.gml' started.
+'g.38.4.gml' stopped. Elapsed time: 0.3019 seconds.
+---
+605
+'g.19.45.gml' started.
+'g.19.45.gml' stopped. Elapsed time: 0.0413 seconds.
+---
+606
+'g.10.61.gml' started.
+'g.10.61.gml' stopped. Elapsed time: 0.0102 seconds.
+---
+607
+'g.80.4.gml' started.
+'g.80.4.gml' stopped. Elapsed time: 2.9697 seconds.
+---
+608
+'g.10.8.gml' started.
+'g.10.8.gml' stopped. Elapsed time: 0.0701 seconds.
+---
+609
+'g.25.1.gml' started.
+'g.25.1.gml' stopped. Elapsed time: 0.6644 seconds.
+---
+610
+'g.55.8.gml' started.
+'g.55.8.gml' stopped. Elapsed time: 1.1514 seconds.
+---
+611
+'g.60.1.gml' started.
+'g.60.1.gml' stopped. Elapsed time: 1.4450 seconds.
+---
+612
+'g.12.64.gml' started.
+'g.12.64.gml' stopped. Elapsed time: 0.0429 seconds.
+---
+613
+'g.18.1.gml' started.
+'g.18.1.gml' stopped. Elapsed time: 0.0476 seconds.
+---
+614
+'g.86.2.gml' started.
+'g.86.2.gml' stopped. Elapsed time: 3.4884 seconds.
+---
+615
+'g.20.29.gml' started.
+'g.20.29.gml' stopped. Elapsed time: 0.2783 seconds.
+---
+616
+'g.23.7.gml' started.
+'g.23.7.gml' stopped. Elapsed time: 0.0646 seconds.
+---
+617
+'g.66.7.gml' started.
+'g.66.7.gml' stopped. Elapsed time: 1.5933 seconds.
+---
+618
+'g.16.28.gml' started.
+'g.16.28.gml' stopped. Elapsed time: 0.0563 seconds.
+---
+619
+'g.11.21.gml' started.
+'g.11.21.gml' stopped. Elapsed time: 0.0084 seconds.
+---
+620
+'g.11.35.gml' started.
+'g.11.35.gml' stopped. Elapsed time: 0.0077 seconds.
+---
+621
+'g.43.15.gml' started.
+'g.43.15.gml' stopped. Elapsed time: 0.3817 seconds.
+---
+622
+'g.18.11.gml' started.
+'g.18.11.gml' stopped. Elapsed time: 0.0415 seconds.
+---
+623
+'g.79.0.gml' started.
+'g.79.0.gml' stopped. Elapsed time: 2.7133 seconds.
+---
+624
+'g.44.20.gml' started.
+'g.44.20.gml' stopped. Elapsed time: 0.6156 seconds.
+---
+625
+'g.84.0.gml' started.
+'g.84.0.gml' stopped. Elapsed time: 3.2259 seconds.
+---
+626
+'g.23.44.gml' started.
+'g.23.44.gml' stopped. Elapsed time: 0.1398 seconds.
+---
+627
+'g.37.19.gml' started.
+'g.37.19.gml' stopped. Elapsed time: 0.3436 seconds.
+---
+628
+'g.21.5.gml' started.
+'g.21.5.gml' stopped. Elapsed time: 0.0453 seconds.
+---
+629
+'g.64.8.gml' started.
+'g.64.8.gml' stopped. Elapsed time: 1.6292 seconds.
+---
+630
+'g.37.14.gml' started.
+'g.37.14.gml' stopped. Elapsed time: 0.3695 seconds.
+---
+631
+'g.21.8.gml' started.
+'g.21.8.gml' stopped. Elapsed time: 0.0593 seconds.
+---
+632
+'g.14.1.gml' started.
+'g.14.1.gml' stopped. Elapsed time: 0.0179 seconds.
+---
+633
+'g.32.2.gml' started.
+'g.32.2.gml' stopped. Elapsed time: 0.1994 seconds.
+---
+634
+'g.23.75.gml' started.
+'g.23.75.gml' stopped. Elapsed time: 0.0617 seconds.
+---
+635
+'g.77.2.gml' started.
+'g.77.2.gml' stopped. Elapsed time: 2.4668 seconds.
+---
+636
+'g.18.34.gml' started.
+'g.18.34.gml' stopped. Elapsed time: 0.0847 seconds.
+---
+637
+'g.11.10.gml' started.
+'g.11.10.gml' stopped. Elapsed time: 0.0092 seconds.
+---
+638
+'g.43.24.gml' started.
+'g.43.24.gml' stopped. Elapsed time: 0.4372 seconds.
+---
+639
+'g.18.20.gml' started.
+'g.18.20.gml' stopped. Elapsed time: 0.0349 seconds.
+---
+640
+'g.16.25.gml' started.
+'g.16.25.gml' stopped. Elapsed time: 0.0226 seconds.
+---
+641
+'g.11.38.gml' started.
+'g.11.38.gml' stopped. Elapsed time: 0.0103 seconds.
+---
+642
+'g.43.18.gml' started.
+'g.43.18.gml' stopped. Elapsed time: 0.4187 seconds.
+---
+643
+'g.44.11.gml' started.
+'g.44.11.gml' stopped. Elapsed time: 0.5137 seconds.
+---
+644
+'g.16.31.gml' started.
+'g.16.31.gml' stopped. Elapsed time: 0.0779 seconds.
+---
+645
+'g.53.3.gml' started.
+'g.53.3.gml' stopped. Elapsed time: 0.8328 seconds.
+---
+646
+'g.75.0.gml' started.
+'g.75.0.gml' stopped. Elapsed time: 2.3887 seconds.
+---
+647
+'g.27.11.gml' started.
+'g.27.11.gml' stopped. Elapsed time: 0.1452 seconds.
+---
+648
+'g.40.9.gml' started.
+'g.40.9.gml' stopped. Elapsed time: 0.4128 seconds.
+---
+649
+'g.30.0.gml' started.
+'g.30.0.gml' stopped. Elapsed time: 0.1370 seconds.
+---
+650
+'g.20.30.gml' started.
+'g.20.30.gml' stopped. Elapsed time: 0.0743 seconds.
+---
+651
+'g.29.14.gml' started.
+'g.29.14.gml' stopped. Elapsed time: 0.1361 seconds.
+---
+652
+'g.15.48.gml' started.
+'g.15.48.gml' stopped. Elapsed time: 0.0240 seconds.
+---
+653
+'g.88.0.gml' started.
+'g.88.0.gml' stopped. Elapsed time: 3.6581 seconds.
+---
+654
+'g.12.55.gml' started.
+'g.12.55.gml' stopped. Elapsed time: 0.1006 seconds.
+---
+655
+'g.10.5.gml' started.
+'g.10.5.gml' stopped. Elapsed time: 0.0088 seconds.
+---
+656
+'g.22.35.gml' started.
+'g.22.35.gml' stopped. Elapsed time: 0.0760 seconds.
+---
+657
+'g.22.21.gml' started.
+'g.22.21.gml' stopped. Elapsed time: 0.0578 seconds.
+---
+658
+'g.10.93.gml' started.
+'g.10.93.gml' stopped. Elapsed time: 0.0233 seconds.
+---
+659
+'g.25.28.gml' started.
+'g.25.28.gml' stopped. Elapsed time: 0.0991 seconds.
+---
+660
+'g.10.78.gml' started.
+'g.10.78.gml' stopped. Elapsed time: 0.0069 seconds.
+---
+661
+'g.38.9.gml' started.
+'g.38.9.gml' stopped. Elapsed time: 0.3197 seconds.
+---
+662
+'g.12.117.gml' started.
+'g.12.117.gml' stopped. Elapsed time: 0.0165 seconds.
+---
+663
+'g.48.0.gml' started.
+'g.48.0.gml' stopped. Elapsed time: 0.5957 seconds.
+---
+664
+'g.56.11.gml' started.
+'g.56.11.gml' stopped. Elapsed time: 1.0940 seconds.
+---
+665
+'g.10.50.gml' started.
+'g.10.50.gml' stopped. Elapsed time: 0.0273 seconds.
+---
+666
+'g.34.4.gml' started.
+'g.34.4.gml' stopped. Elapsed time: 0.2098 seconds.
+---
+667
+'g.32.18.gml' started.
+'g.32.18.gml' stopped. Elapsed time: 0.1983 seconds.
+---
+668
+'g.12.7.gml' started.
+'g.12.7.gml' stopped. Elapsed time: 0.0167 seconds.
+---
+669
+'g.91.1.gml' started.
+'g.91.1.gml' stopped. Elapsed time: 4.1089 seconds.
+---
+670
+'g.29.1.gml' started.
+'g.29.1.gml' stopped. Elapsed time: 0.2881 seconds.
+---
+671
+'g.13.29.gml' started.
+'g.13.29.gml' stopped. Elapsed time: 0.0151 seconds.
+---
+672
+'g.14.20.gml' started.
+'g.14.20.gml' stopped. Elapsed time: 0.0249 seconds.
+---
+673
+'g.14.34.gml' started.
+'g.14.34.gml' stopped. Elapsed time: 0.0199 seconds.
+---
+674
+'g.14.35.gml' started.
+'g.14.35.gml' stopped. Elapsed time: 0.0154 seconds.
+---
+675
+'g.14.21.gml' started.
+'g.14.21.gml' stopped. Elapsed time: 0.0225 seconds.
+---
+676
+'g.59.9.gml' started.
+'g.59.9.gml' stopped. Elapsed time: 1.3336 seconds.
+---
+677
+'g.48.10.gml' started.
+'g.48.10.gml' stopped. Elapsed time: 0.6127 seconds.
+---
+678
+'g.91.0.gml' started.
+'g.91.0.gml' stopped. Elapsed time: 4.0728 seconds.
+---
+679
+'g.32.25.gml' started.
+'g.32.25.gml' stopped. Elapsed time: 0.6245 seconds.
+---
+680
+'g.57.6.gml' started.
+'g.57.6.gml' stopped. Elapsed time: 1.0700 seconds.
+---
+681
+'g.32.19.gml' started.
+'g.32.19.gml' stopped. Elapsed time: 0.1916 seconds.
+---
+682
+'g.71.5.gml' started.
+'g.71.5.gml' stopped. Elapsed time: 2.1246 seconds.
+---
+683
+'g.35.10.gml' started.
+'g.35.10.gml' stopped. Elapsed time: 0.2389 seconds.
+---
+684
+'g.10.45.gml' started.
+'g.10.45.gml' stopped. Elapsed time: 0.0113 seconds.
+---
+685
+'g.56.10.gml' started.
+'g.56.10.gml' stopped. Elapsed time: 1.1278 seconds.
+---
+686
+'g.38.8.gml' started.
+'g.38.8.gml' stopped. Elapsed time: 0.3519 seconds.
+---
+687
+'g.10.79.gml' started.
+'g.10.79.gml' stopped. Elapsed time: 0.0144 seconds.
+---
+688
+'g.12.102.gml' started.
+'g.12.102.gml' stopped. Elapsed time: 0.0099 seconds.
+---
+689
+'g.22.20.gml' started.
+'g.22.20.gml' stopped. Elapsed time: 0.0623 seconds.
+---
+690
+'g.10.92.gml' started.
+'g.10.92.gml' stopped. Elapsed time: 0.0067 seconds.
+---
+691
+'g.10.86.gml' started.
+'g.10.86.gml' stopped. Elapsed time: 0.0082 seconds.
+---
+692
+'g.10.4.gml' started.
+'g.10.4.gml' stopped. Elapsed time: 0.0066 seconds.
+---
+693
+'g.73.7.gml' started.
+'g.73.7.gml' stopped. Elapsed time: 2.2256 seconds.
+---
+694
+'g.36.7.gml' started.
+'g.36.7.gml' stopped. Elapsed time: 0.2761 seconds.
+---
+695
+'g.15.49.gml' started.
+'g.15.49.gml' stopped. Elapsed time: 0.0273 seconds.
+---
+696
+'g.12.40.gml' started.
+'g.12.40.gml' stopped. Elapsed time: 0.0292 seconds.
+---
+697
+'g.68.4.gml' started.
+'g.68.4.gml' stopped. Elapsed time: 1.7721 seconds.
+---
+698
+'g.20.31.gml' started.
+'g.20.31.gml' stopped. Elapsed time: 0.0894 seconds.
+---
+699
+'g.29.15.gml' started.
+'g.29.15.gml' stopped. Elapsed time: 0.4556 seconds.
+---
+700
+'g.40.8.gml' started.
+'g.40.8.gml' stopped. Elapsed time: 0.7350 seconds.
+---
+701
+'g.75.1.gml' started.
+'g.75.1.gml' stopped. Elapsed time: 2.4486 seconds.
+---
+702
+'g.30.1.gml' started.
+'g.30.1.gml' stopped. Elapsed time: 0.1946 seconds.
+---
+703
+'g.43.19.gml' started.
+'g.43.19.gml' stopped. Elapsed time: 0.4207 seconds.
+---
+704
+'g.44.10.gml' started.
+'g.44.10.gml' stopped. Elapsed time: 0.5538 seconds.
+---
+705
+'g.43.25.gml' started.
+'g.43.25.gml' stopped. Elapsed time: 0.4338 seconds.
+---
+706
+'g.18.21.gml' started.
+'g.18.21.gml' stopped. Elapsed time: 0.0796 seconds.
+---
+707
+'g.18.35.gml' started.
+'g.18.35.gml' stopped. Elapsed time: 0.0360 seconds.
+---
+708
+'g.16.18.gml' started.
+'g.16.18.gml' stopped. Elapsed time: 0.0256 seconds.
+---
+709
+'g.24.41.gml' started.
+'g.24.41.gml' stopped. Elapsed time: 0.0969 seconds.
+---
+710
+'g.23.48.gml' started.
+'g.23.48.gml' stopped. Elapsed time: 0.0614 seconds.
+---
+711
+'g.30.20.gml' started.
+'g.30.20.gml' stopped. Elapsed time: 0.1702 seconds.
+---
+712
+'g.23.74.gml' started.
+'g.23.74.gml' stopped. Elapsed time: 0.0733 seconds.
+---
+713
+'g.51.0.gml' started.
+'g.51.0.gml' stopped. Elapsed time: 0.7338 seconds.
+---
+714
+'g.64.9.gml' started.
+'g.64.9.gml' stopped. Elapsed time: 1.6215 seconds.
+---
+715
+'g.37.15.gml' started.
+'g.37.15.gml' stopped. Elapsed time: 0.2973 seconds.
+---
+716
+'g.14.0.gml' started.
+'g.14.0.gml' stopped. Elapsed time: 0.0181 seconds.
+---
+717
+'g.21.9.gml' started.
+'g.21.9.gml' stopped. Elapsed time: 0.0514 seconds.
+---
+718
+'g.42.8.gml' started.
+'g.42.8.gml' stopped. Elapsed time: 0.5041 seconds.
+---
+719
+'g.23.76.gml' started.
+'g.23.76.gml' stopped. Elapsed time: 0.0851 seconds.
+---
+720
+'g.77.1.gml' started.
+'g.77.1.gml' stopped. Elapsed time: 2.5081 seconds.
+---
+721
+'g.32.1.gml' started.
+'g.32.1.gml' stopped. Elapsed time: 0.3359 seconds.
+---
+722
+'g.14.2.gml' started.
+'g.14.2.gml' stopped. Elapsed time: 0.0182 seconds.
+---
+723
+'g.37.17.gml' started.
+'g.37.17.gml' stopped. Elapsed time: 0.2477 seconds.
+---
+724
+'g.51.2.gml' started.
+'g.51.2.gml' stopped. Elapsed time: 0.7265 seconds.
+---
+725
+'g.24.43.gml' started.
+'g.24.43.gml' stopped. Elapsed time: 0.2071 seconds.
+---
+726
+'g.18.37.gml' started.
+'g.18.37.gml' stopped. Elapsed time: 0.0342 seconds.
+---
+727
+'g.30.3.gml' started.
+'g.30.3.gml' stopped. Elapsed time: 0.1801 seconds.
+---
+728
+'g.75.3.gml' started.
+'g.75.3.gml' stopped. Elapsed time: 2.3431 seconds.
+---
+729
+'g.27.12.gml' started.
+'g.27.12.gml' stopped. Elapsed time: 0.1604 seconds.
+---
+730
+'g.23.9.gml' started.
+'g.23.9.gml' stopped. Elapsed time: 0.0681 seconds.
+---
+731
+'g.55.6.gml' started.
+'g.55.6.gml' stopped. Elapsed time: 0.9899 seconds.
+---
+732
+'g.10.6.gml' started.
+'g.10.6.gml' stopped. Elapsed time: 0.0234 seconds.
+---
+733
+'g.36.5.gml' started.
+'g.36.5.gml' stopped. Elapsed time: 0.3250 seconds.
+---
+734
+'g.10.90.gml' started.
+'g.10.90.gml' stopped. Elapsed time: 0.0131 seconds.
+---
+735
+'g.93.0.gml' started.
+'g.93.0.gml' stopped. Elapsed time: 4.2110 seconds.
+---
+736
+'g.22.36.gml' started.
+'g.22.36.gml' stopped. Elapsed time: 0.1654 seconds.
+---
+737
+'g.48.3.gml' started.
+'g.48.3.gml' stopped. Elapsed time: 0.6143 seconds.
+---
+738
+'g.12.114.gml' started.
+'g.12.114.gml' stopped. Elapsed time: 0.0259 seconds.
+---
+739
+'g.12.128.gml' started.
+'g.12.128.gml' stopped. Elapsed time: 0.0126 seconds.
+---
+740
+'g.35.12.gml' started.
+'g.35.12.gml' stopped. Elapsed time: 0.2149 seconds.
+---
+741
+'g.34.7.gml' started.
+'g.34.7.gml' stopped. Elapsed time: 0.2175 seconds.
+---
+742
+'g.32.27.gml' started.
+'g.32.27.gml' stopped. Elapsed time: 0.1957 seconds.
+---
+743
+'g.13.105.gml' started.
+'g.13.105.gml' stopped. Elapsed time: 0.0169 seconds.
+---
+744
+'g.29.2.gml' started.
+'g.29.2.gml' stopped. Elapsed time: 0.1542 seconds.
+---
+745
+'g.41.36.gml' started.
+'g.41.36.gml' stopped. Elapsed time: 0.4442 seconds.
+---
+746
+'g.13.111.gml' started.
+'g.13.111.gml' stopped. Elapsed time: 0.0203 seconds.
+---
+747
+'g.46.17.gml' started.
+'g.46.17.gml' stopped. Elapsed time: 0.5999 seconds.
+---
+748
+'g.14.37.gml' started.
+'g.14.37.gml' stopped. Elapsed time: 0.0243 seconds.
+---
+749
+'g.14.23.gml' started.
+'g.14.23.gml' stopped. Elapsed time: 0.0231 seconds.
+---
+750
+'g.14.22.gml' started.
+'g.14.22.gml' stopped. Elapsed time: 0.0238 seconds.
+---
+751
+'g.14.36.gml' started.
+'g.14.36.gml' stopped. Elapsed time: 0.0173 seconds.
+---
+752
+'g.46.16.gml' started.
+'g.46.16.gml' stopped. Elapsed time: 0.5406 seconds.
+---
+753
+'g.13.17.gml' started.
+'g.13.17.gml' stopped. Elapsed time: 0.0203 seconds.
+---
+754
+'g.29.3.gml' started.
+'g.29.3.gml' stopped. Elapsed time: 0.1224 seconds.
+---
+755
+'g.57.5.gml' started.
+'g.57.5.gml' stopped. Elapsed time: 1.5427 seconds.
+---
+756
+'g.10.46.gml' started.
+'g.10.46.gml' stopped. Elapsed time: 0.0378 seconds.
+---
+757
+'g.12.101.gml' started.
+'g.12.101.gml' stopped. Elapsed time: 0.0121 seconds.
+---
+758
+'g.22.37.gml' started.
+'g.22.37.gml' stopped. Elapsed time: 0.0581 seconds.
+---
+759
+'g.10.85.gml' started.
+'g.10.85.gml' stopped. Elapsed time: 0.0095 seconds.
+---
+760
+'g.10.91.gml' started.
+'g.10.91.gml' stopped. Elapsed time: 0.0070 seconds.
+---
+761
+'g.22.23.gml' started.
+'g.22.23.gml' stopped. Elapsed time: 0.0492 seconds.
+---
+762
+'g.36.4.gml' started.
+'g.36.4.gml' stopped. Elapsed time: 0.2152 seconds.
+---
+763
+'g.73.4.gml' started.
+'g.73.4.gml' stopped. Elapsed time: 2.3665 seconds.
+---
+764
+'g.25.16.gml' started.
+'g.25.16.gml' stopped. Elapsed time: 0.1313 seconds.
+---
+765
+'g.10.7.gml' started.
+'g.10.7.gml' stopped. Elapsed time: 0.0097 seconds.
+---
+766
+'g.88.2.gml' started.
+'g.88.2.gml' stopped. Elapsed time: 3.6320 seconds.
+---
+767
+'g.12.43.gml' started.
+'g.12.43.gml' stopped. Elapsed time: 0.1006 seconds.
+---
+768
+'g.29.16.gml' started.
+'g.29.16.gml' stopped. Elapsed time: 0.1287 seconds.
+---
+769
+'g.20.26.gml' started.
+'g.20.26.gml' stopped. Elapsed time: 0.0613 seconds.
+---
+770
+'g.12.94.gml' started.
+'g.12.94.gml' stopped. Elapsed time: 0.0112 seconds.
+---
+771
+'g.66.8.gml' started.
+'g.66.8.gml' stopped. Elapsed time: 1.6502 seconds.
+---
+772
+'g.23.8.gml' started.
+'g.23.8.gml' stopped. Elapsed time: 0.1018 seconds.
+---
+773
+'g.30.2.gml' started.
+'g.30.2.gml' stopped. Elapsed time: 0.1461 seconds.
+---
+774
+'g.75.2.gml' started.
+'g.75.2.gml' stopped. Elapsed time: 2.2961 seconds.
+---
+775
+'g.16.27.gml' started.
+'g.16.27.gml' stopped. Elapsed time: 0.0686 seconds.
+---
+776
+'g.23.88.gml' started.
+'g.23.88.gml' stopped. Elapsed time: 0.0761 seconds.
+---
+777
+'g.18.36.gml' started.
+'g.18.36.gml' stopped. Elapsed time: 0.0375 seconds.
+---
+778
+'g.18.22.gml' started.
+'g.18.22.gml' stopped. Elapsed time: 0.0362 seconds.
+---
+779
+'g.43.26.gml' started.
+'g.43.26.gml' stopped. Elapsed time: 0.4370 seconds.
+---
+780
+'g.30.23.gml' started.
+'g.30.23.gml' stopped. Elapsed time: 0.1750 seconds.
+---
+781
+'g.77.0.gml' started.
+'g.77.0.gml' stopped. Elapsed time: 2.5548 seconds.
+---
+782
+'g.23.77.gml' started.
+'g.23.77.gml' stopped. Elapsed time: 0.1364 seconds.
+---
+783
+'g.42.9.gml' started.
+'g.42.9.gml' stopped. Elapsed time: 0.3286 seconds.
+---
+784
+'g.24.46.gml' started.
+'g.24.46.gml' stopped. Elapsed time: 0.0843 seconds.
+---
+785
+'g.97.1.gml' started.
+'g.97.1.gml' stopped. Elapsed time: 5.1813 seconds.
+---
+786
+'g.37.12.gml' started.
+'g.37.12.gml' stopped. Elapsed time: 0.3581 seconds.
+---
+787
+'g.23.67.gml' started.
+'g.23.67.gml' stopped. Elapsed time: 0.0606 seconds.
+---
+788
+'g.14.7.gml' started.
+'g.14.7.gml' stopped. Elapsed time: 0.0139 seconds.
+---
+789
+'g.16.23.gml' started.
+'g.16.23.gml' stopped. Elapsed time: 0.0218 seconds.
+---
+790
+'g.23.98.gml' started.
+'g.23.98.gml' stopped. Elapsed time: 0.0631 seconds.
+---
+791
+'g.18.26.gml' started.
+'g.18.26.gml' stopped. Elapsed time: 0.0306 seconds.
+---
+792
+'g.11.16.gml' started.
+'g.11.16.gml' stopped. Elapsed time: 0.0395 seconds.
+---
+793
+'g.12.90.gml' started.
+'g.12.90.gml' stopped. Elapsed time: 0.0121 seconds.
+---
+794
+'g.20.22.gml' started.
+'g.20.22.gml' stopped. Elapsed time: 0.0426 seconds.
+---
+795
+'g.20.36.gml' started.
+'g.20.36.gml' stopped. Elapsed time: 0.0715 seconds.
+---
+796
+'g.29.12.gml' started.
+'g.29.12.gml' stopped. Elapsed time: 0.1115 seconds.
+---
+797
+'g.95.3.gml' started.
+'g.95.3.gml' stopped. Elapsed time: 4.8894 seconds.
+---
+798
+'g.75.6.gml' started.
+'g.75.6.gml' stopped. Elapsed time: 2.2643 seconds.
+---
+799
+'g.30.6.gml' started.
+'g.30.6.gml' stopped. Elapsed time: 0.1716 seconds.
+---
+800
+'g.16.5.gml' started.
+'g.16.5.gml' stopped. Elapsed time: 0.0223 seconds.
+---
+801
+'g.53.5.gml' started.
+'g.53.5.gml' stopped. Elapsed time: 1.4914 seconds.
+---
+802
+'g.22.27.gml' started.
+'g.22.27.gml' stopped. Elapsed time: 0.0870 seconds.
+---
+803
+'g.10.3.gml' started.
+'g.10.3.gml' stopped. Elapsed time: 0.0079 seconds.
+---
+804
+'g.25.12.gml' started.
+'g.25.12.gml' stopped. Elapsed time: 0.0807 seconds.
+---
+805
+'g.46.9.gml' started.
+'g.46.9.gml' stopped. Elapsed time: 0.5609 seconds.
+---
+806
+'g.36.0.gml' started.
+'g.36.0.gml' stopped. Elapsed time: 0.2651 seconds.
+---
+807
+'g.10.56.gml' started.
+'g.10.56.gml' stopped. Elapsed time: 0.0137 seconds.
+---
+808
+'g.10.42.gml' started.
+'g.10.42.gml' stopped. Elapsed time: 0.0064 seconds.
+---
+809
+'g.12.111.gml' started.
+'g.12.111.gml' stopped. Elapsed time: 0.0168 seconds.
+---
+810
+'g.48.6.gml' started.
+'g.48.6.gml' stopped. Elapsed time: 0.6520 seconds.
+---
+811
+'g.81.15.gml' started.
+'g.81.15.gml' stopped. Elapsed time: 2.9967 seconds.
+---
+812
+'g.12.105.gml' started.
+'g.12.105.gml' stopped. Elapsed time: 0.0815 seconds.
+---
+813
+'g.60.16.gml' started.
+'g.60.16.gml' stopped. Elapsed time: 1.2869 seconds.
+---
+814
+'g.32.22.gml' started.
+'g.32.22.gml' stopped. Elapsed time: 0.2713 seconds.
+---
+815
+'g.34.2.gml' started.
+'g.34.2.gml' stopped. Elapsed time: 0.1982 seconds.
+---
+816
+'g.71.2.gml' started.
+'g.71.2.gml' stopped. Elapsed time: 2.0173 seconds.
+---
+817
+'g.46.12.gml' started.
+'g.46.12.gml' stopped. Elapsed time: 0.5900 seconds.
+---
+818
+'g.14.26.gml' started.
+'g.14.26.gml' stopped. Elapsed time: 0.0332 seconds.
+---
+819
+'g.29.7.gml' started.
+'g.29.7.gml' stopped. Elapsed time: 0.1522 seconds.
+---
+820
+'g.13.114.gml' started.
+'g.13.114.gml' stopped. Elapsed time: 0.0154 seconds.
+---
+821
+'g.13.12.gml' started.
+'g.13.12.gml' stopped. Elapsed time: 0.0141 seconds.
+---
+822
+'g.29.6.gml' started.
+'g.29.6.gml' stopped. Elapsed time: 0.1313 seconds.
+---
+823
+'g.48.16.gml' started.
+'g.48.16.gml' stopped. Elapsed time: 0.6364 seconds.
+---
+824
+'g.41.26.gml' started.
+'g.41.26.gml' stopped. Elapsed time: 0.4624 seconds.
+---
+825
+'g.14.27.gml' started.
+'g.14.27.gml' stopped. Elapsed time: 0.0287 seconds.
+---
+826
+'g.14.33.gml' started.
+'g.14.33.gml' stopped. Elapsed time: 0.0419 seconds.
+---
+827
+'g.34.3.gml' started.
+'g.34.3.gml' stopped. Elapsed time: 0.2201 seconds.
+---
+828
+'g.57.0.gml' started.
+'g.57.0.gml' stopped. Elapsed time: 1.2365 seconds.
+---
+829
+'g.12.0.gml' started.
+'g.12.0.gml' stopped. Elapsed time: 0.0368 seconds.
+---
+830
+'g.27.9.gml' started.
+'g.27.9.gml' stopped. Elapsed time: 0.1107 seconds.
+---
+831
+'g.32.23.gml' started.
+'g.32.23.gml' stopped. Elapsed time: 0.1500 seconds.
+---
+832
+'g.12.104.gml' started.
+'g.12.104.gml' stopped. Elapsed time: 0.0151 seconds.
+---
+833
+'g.12.110.gml' started.
+'g.12.110.gml' stopped. Elapsed time: 0.0100 seconds.
+---
+834
+'g.12.138.gml' started.
+'g.12.138.gml' stopped. Elapsed time: 0.0152 seconds.
+---
+835
+'g.10.57.gml' started.
+'g.10.57.gml' stopped. Elapsed time: 0.0325 seconds.
+---
+836
+'g.36.1.gml' started.
+'g.36.1.gml' stopped. Elapsed time: 0.2775 seconds.
+---
+837
+'g.10.2.gml' started.
+'g.10.2.gml' stopped. Elapsed time: 0.0115 seconds.
+---
+838
+'g.25.13.gml' started.
+'g.25.13.gml' stopped. Elapsed time: 0.0802 seconds.
+---
+839
+'g.10.80.gml' started.
+'g.10.80.gml' stopped. Elapsed time: 0.0081 seconds.
+---
+840
+'g.22.26.gml' started.
+'g.22.26.gml' stopped. Elapsed time: 0.0540 seconds.
+---
+841
+'g.10.94.gml' started.
+'g.10.94.gml' stopped. Elapsed time: 0.0095 seconds.
+---
+842
+'g.12.52.gml' started.
+'g.12.52.gml' stopped. Elapsed time: 0.0121 seconds.
+---
+843
+'g.27.16.gml' started.
+'g.27.16.gml' stopped. Elapsed time: 0.1441 seconds.
+---
+844
+'g.75.7.gml' started.
+'g.75.7.gml' stopped. Elapsed time: 2.3194 seconds.
+---
+845
+'g.20.37.gml' started.
+'g.20.37.gml' stopped. Elapsed time: 0.0876 seconds.
+---
+846
+'g.95.2.gml' started.
+'g.95.2.gml' stopped. Elapsed time: 4.4262 seconds.
+---
+847
+'g.29.13.gml' started.
+'g.29.13.gml' stopped. Elapsed time: 0.2828 seconds.
+---
+848
+'g.12.91.gml' started.
+'g.12.91.gml' stopped. Elapsed time: 0.0227 seconds.
+---
+849
+'g.11.17.gml' started.
+'g.11.17.gml' stopped. Elapsed time: 0.0390 seconds.
+---
+850
+'g.43.23.gml' started.
+'g.43.23.gml' stopped. Elapsed time: 0.3953 seconds.
+---
+851
+'g.23.99.gml' started.
+'g.23.99.gml' stopped. Elapsed time: 0.0655 seconds.
+---
+852
+'g.16.36.gml' started.
+'g.16.36.gml' stopped. Elapsed time: 0.0827 seconds.
+---
+853
+'g.44.16.gml' started.
+'g.44.16.gml' stopped. Elapsed time: 0.5244 seconds.
+---
+854
+'g.14.6.gml' started.
+'g.14.6.gml' stopped. Elapsed time: 0.0262 seconds.
+---
+855
+'g.32.5.gml' started.
+'g.32.5.gml' stopped. Elapsed time: 0.1898 seconds.
+---
+856
+'g.77.5.gml' started.
+'g.77.5.gml' stopped. Elapsed time: 2.6322 seconds.
+---
+857
+'g.23.72.gml' started.
+'g.23.72.gml' stopped. Elapsed time: 0.1317 seconds.
+---
+858
+'g.30.26.gml' started.
+'g.30.26.gml' stopped. Elapsed time: 0.1395 seconds.
+---
+859
+'g.24.47.gml' started.
+'g.24.47.gml' stopped. Elapsed time: 0.0967 seconds.
+---
+860
+'g.30.24.gml' started.
+'g.30.24.gml' stopped. Elapsed time: 0.1573 seconds.
+---
+861
+'g.24.45.gml' started.
+'g.24.45.gml' stopped. Elapsed time: 0.0707 seconds.
+---
+862
+'g.51.4.gml' started.
+'g.51.4.gml' stopped. Elapsed time: 0.7138 seconds.
+---
+863
+'g.39.28.gml' started.
+'g.39.28.gml' stopped. Elapsed time: 0.4145 seconds.
+---
+864
+'g.11.29.gml' started.
+'g.11.29.gml' stopped. Elapsed time: 0.0181 seconds.
+---
+865
+'g.44.14.gml' started.
+'g.44.14.gml' stopped. Elapsed time: 0.4564 seconds.
+---
+866
+'g.16.34.gml' started.
+'g.16.34.gml' stopped. Elapsed time: 0.0297 seconds.
+---
+867
+'g.18.19.gml' started.
+'g.18.19.gml' stopped. Elapsed time: 0.0375 seconds.
+---
+868
+'g.18.31.gml' started.
+'g.18.31.gml' stopped. Elapsed time: 0.0368 seconds.
+---
+869
+'g.95.0.gml' started.
+'g.95.0.gml' stopped. Elapsed time: 4.8063 seconds.
+---
+870
+'g.12.93.gml' started.
+'g.12.93.gml' stopped. Elapsed time: 0.1288 seconds.
+---
+871
+'g.53.6.gml' started.
+'g.53.6.gml' stopped. Elapsed time: 0.7223 seconds.
+---
+872
+'g.61.55.gml' started.
+'g.61.55.gml' stopped. Elapsed time: 1.5441 seconds.
+---
+873
+'g.30.5.gml' started.
+'g.30.5.gml' stopped. Elapsed time: 0.2716 seconds.
+---
+874
+'g.75.5.gml' started.
+'g.75.5.gml' stopped. Elapsed time: 2.4140 seconds.
+---
+875
+'g.27.14.gml' started.
+'g.27.14.gml' stopped. Elapsed time: 0.2186 seconds.
+---
+876
+'g.15.59.gml' started.
+'g.15.59.gml' stopped. Elapsed time: 0.0263 seconds.
+---
+877
+'g.12.50.gml' started.
+'g.12.50.gml' stopped. Elapsed time: 0.0120 seconds.
+---
+878
+'g.12.78.gml' started.
+'g.12.78.gml' stopped. Elapsed time: 0.0133 seconds.
+---
+879
+'g.18.9.gml' started.
+'g.18.9.gml' stopped. Elapsed time: 0.0335 seconds.
+---
+880
+'g.22.30.gml' started.
+'g.22.30.gml' stopped. Elapsed time: 0.0576 seconds.
+---
+881
+'g.10.82.gml' started.
+'g.10.82.gml' stopped. Elapsed time: 0.0113 seconds.
+---
+882
+'g.22.24.gml' started.
+'g.22.24.gml' stopped. Elapsed time: 0.0577 seconds.
+---
+883
+'g.36.3.gml' started.
+'g.36.3.gml' stopped. Elapsed time: 0.2635 seconds.
+---
+884
+'g.55.0.gml' started.
+'g.55.0.gml' stopped. Elapsed time: 0.9613 seconds.
+---
+885
+'g.60.9.gml' started.
+'g.60.9.gml' stopped. Elapsed time: 1.4869 seconds.
+---
+886
+'g.10.0.gml' started.
+'g.10.0.gml' stopped. Elapsed time: 0.0397 seconds.
+---
+887
+'g.22.18.gml' started.
+'g.22.18.gml' stopped. Elapsed time: 0.0646 seconds.
+---
+888
+'g.25.9.gml' started.
+'g.25.9.gml' stopped. Elapsed time: 0.0844 seconds.
+---
+889
+'g.10.41.gml' started.
+'g.10.41.gml' stopped. Elapsed time: 0.0117 seconds.
+---
+890
+'g.12.106.gml' started.
+'g.12.106.gml' stopped. Elapsed time: 0.0097 seconds.
+---
+891
+'g.81.16.gml' started.
+'g.81.16.gml' stopped. Elapsed time: 2.8767 seconds.
+---
+892
+'g.10.69.gml' started.
+'g.10.69.gml' stopped. Elapsed time: 0.0746 seconds.
+---
+893
+'g.12.112.gml' started.
+'g.12.112.gml' stopped. Elapsed time: 0.0193 seconds.
+---
+894
+'g.32.21.gml' started.
+'g.32.21.gml' stopped. Elapsed time: 0.2201 seconds.
+---
+895
+'g.34.1.gml' started.
+'g.34.1.gml' stopped. Elapsed time: 0.2098 seconds.
+---
+896
+'g.14.25.gml' started.
+'g.14.25.gml' stopped. Elapsed time: 0.0196 seconds.
+---
+897
+'g.13.38.gml' started.
+'g.13.38.gml' stopped. Elapsed time: 0.0126 seconds.
+---
+898
+'g.46.11.gml' started.
+'g.46.11.gml' stopped. Elapsed time: 0.5143 seconds.
+---
+899
+'g.14.31.gml' started.
+'g.14.31.gml' stopped. Elapsed time: 0.0231 seconds.
+---
+900
+'g.14.19.gml' started.
+'g.14.19.gml' stopped. Elapsed time: 0.0159 seconds.
+---
+901
+'g.29.4.gml' started.
+'g.29.4.gml' stopped. Elapsed time: 0.1456 seconds.
+---
+902
+'g.13.117.gml' started.
+'g.13.117.gml' stopped. Elapsed time: 0.0164 seconds.
+---
+903
+'g.13.102.gml' started.
+'g.13.102.gml' stopped. Elapsed time: 0.0132 seconds.
+---
+904
+'g.41.25.gml' started.
+'g.41.25.gml' stopped. Elapsed time: 0.4768 seconds.
+---
+905
+'g.13.116.gml' started.
+'g.13.116.gml' stopped. Elapsed time: 0.0229 seconds.
+---
+906
+'g.29.5.gml' started.
+'g.29.5.gml' stopped. Elapsed time: 0.1418 seconds.
+---
+907
+'g.48.29.gml' started.
+'g.48.29.gml' stopped. Elapsed time: 0.5998 seconds.
+---
+908
+'g.14.24.gml' started.
+'g.14.24.gml' stopped. Elapsed time: 0.0271 seconds.
+---
+909
+'g.44.9.gml' started.
+'g.44.9.gml' stopped. Elapsed time: 0.4384 seconds.
+---
+910
+'g.35.15.gml' started.
+'g.35.15.gml' stopped. Elapsed time: 0.2997 seconds.
+---
+911
+'g.32.20.gml' started.
+'g.32.20.gml' stopped. Elapsed time: 0.2219 seconds.
+---
+912
+'g.48.4.gml' started.
+'g.48.4.gml' stopped. Elapsed time: 0.6733 seconds.
+---
+913
+'g.58.10.gml' started.
+'g.58.10.gml' stopped. Elapsed time: 1.2905 seconds.
+---
+914
+'g.10.68.gml' started.
+'g.10.68.gml' stopped. Elapsed time: 0.0322 seconds.
+---
+915
+'g.12.113.gml' started.
+'g.12.113.gml' stopped. Elapsed time: 0.0121 seconds.
+---
+916
+'g.12.107.gml' started.
+'g.12.107.gml' stopped. Elapsed time: 0.0168 seconds.
+---
+917
+'g.10.40.gml' started.
+'g.10.40.gml' stopped. Elapsed time: 0.0110 seconds.
+---
+918
+'g.25.8.gml' started.
+'g.25.8.gml' stopped. Elapsed time: 0.0822 seconds.
+---
+919
+'g.22.19.gml' started.
+'g.22.19.gml' stopped. Elapsed time: 0.0557 seconds.
+---
+920
+'g.10.1.gml' started.
+'g.10.1.gml' stopped. Elapsed time: 0.0071 seconds.
+---
+921
+'g.22.25.gml' started.
+'g.22.25.gml' stopped. Elapsed time: 0.0510 seconds.
+---
+922
+'g.22.31.gml' started.
+'g.22.31.gml' stopped. Elapsed time: 0.0579 seconds.
+---
+923
+'g.10.83.gml' started.
+'g.10.83.gml' stopped. Elapsed time: 0.0080 seconds.
+---
+924
+'g.25.38.gml' started.
+'g.25.38.gml' stopped. Elapsed time: 0.0779 seconds.
+---
+925
+'g.18.8.gml' started.
+'g.18.8.gml' stopped. Elapsed time: 0.0337 seconds.
+---
+926
+'g.68.1.gml' started.
+'g.68.1.gml' stopped. Elapsed time: 1.7610 seconds.
+---
+927
+'g.12.79.gml' started.
+'g.12.79.gml' stopped. Elapsed time: 0.0506 seconds.
+---
+928
+'g.12.51.gml' started.
+'g.12.51.gml' stopped. Elapsed time: 0.0107 seconds.
+---
+929
+'g.12.45.gml' started.
+'g.12.45.gml' stopped. Elapsed time: 0.0109 seconds.
+---
+930
+'g.30.4.gml' started.
+'g.30.4.gml' stopped. Elapsed time: 0.1630 seconds.
+---
+931
+'g.61.40.gml' started.
+'g.61.40.gml' stopped. Elapsed time: 1.2873 seconds.
+---
+932
+'g.27.15.gml' started.
+'g.27.15.gml' stopped. Elapsed time: 0.1293 seconds.
+---
+933
+'g.75.4.gml' started.
+'g.75.4.gml' stopped. Elapsed time: 2.4675 seconds.
+---
+934
+'g.61.54.gml' started.
+'g.61.54.gml' stopped. Elapsed time: 1.3656 seconds.
+---
+935
+'g.12.92.gml' started.
+'g.12.92.gml' stopped. Elapsed time: 0.0362 seconds.
+---
+936
+'g.95.1.gml' started.
+'g.95.1.gml' stopped. Elapsed time: 4.6050 seconds.
+---
+937
+'g.20.34.gml' started.
+'g.20.34.gml' stopped. Elapsed time: 0.2156 seconds.
+---
+938
+'g.18.24.gml' started.
+'g.18.24.gml' stopped. Elapsed time: 0.0383 seconds.
+---
+939
+'g.43.20.gml' started.
+'g.43.20.gml' stopped. Elapsed time: 0.3787 seconds.
+---
+940
+'g.18.30.gml' started.
+'g.18.30.gml' stopped. Elapsed time: 0.0448 seconds.
+---
+941
+'g.18.18.gml' started.
+'g.18.18.gml' stopped. Elapsed time: 0.0573 seconds.
+---
+942
+'g.44.15.gml' started.
+'g.44.15.gml' stopped. Elapsed time: 0.4685 seconds.
+---
+943
+'g.11.28.gml' started.
+'g.11.28.gml' stopped. Elapsed time: 0.0170 seconds.
+---
+944
+'g.16.21.gml' started.
+'g.16.21.gml' stopped. Elapsed time: 0.0228 seconds.
+---
+945
+'g.39.29.gml' started.
+'g.39.29.gml' stopped. Elapsed time: 0.3252 seconds.
+---
+946
+'g.77.6.gml' started.
+'g.77.6.gml' stopped. Elapsed time: 2.5180 seconds.
+---
+947
+'g.23.71.gml' started.
+'g.23.71.gml' stopped. Elapsed time: 0.1257 seconds.
+---
+948
+'g.32.6.gml' started.
+'g.32.6.gml' stopped. Elapsed time: 0.1703 seconds.
+---
+949
+'g.30.19.gml' started.
+'g.30.19.gml' stopped. Elapsed time: 0.1373 seconds.
+---
+950
+'g.51.5.gml' started.
+'g.51.5.gml' stopped. Elapsed time: 0.7906 seconds.
+---
+951
+'g.30.31.gml' started.
+'g.30.31.gml' stopped. Elapsed time: 0.2368 seconds.
+---
+952
+'g.24.44.gml' started.
+'g.24.44.gml' stopped. Elapsed time: 0.0748 seconds.
+---
+953
+'g.30.25.gml' started.
+'g.30.25.gml' stopped. Elapsed time: 0.1463 seconds.
+---
+954
+'g.56.4.gml' started.
+'g.56.4.gml' stopped. Elapsed time: 1.1238 seconds.
+---
+955
+'g.35.7.gml' started.
+'g.35.7.gml' stopped. Elapsed time: 0.2916 seconds.
+---
+956
+'g.23.16.gml' started.
+'g.23.16.gml' stopped. Elapsed time: 0.0729 seconds.
+---
+957
+'g.24.37.gml' started.
+'g.24.37.gml' stopped. Elapsed time: 0.0695 seconds.
+---
+958
+'g.90.2.gml' started.
+'g.90.2.gml' stopped. Elapsed time: 3.8098 seconds.
+---
+959
+'g.16.91.gml' started.
+'g.16.91.gml' stopped. Elapsed time: 0.1276 seconds.
+---
+960
+'g.11.73.gml' started.
+'g.11.73.gml' stopped. Elapsed time: 0.0111 seconds.
+---
+961
+'g.57.26.gml' started.
+'g.57.26.gml' stopped. Elapsed time: 2.1422 seconds.
+---
+962
+'g.28.2.gml' started.
+'g.28.2.gml' stopped. Elapsed time: 0.1716 seconds.
+---
+963
+'g.16.52.gml' started.
+'g.16.52.gml' stopped. Elapsed time: 0.0231 seconds.
+---
+964
+'g.11.6.gml' started.
+'g.11.6.gml' stopped. Elapsed time: 0.0099 seconds.
+---
+965
+'g.54.6.gml' started.
+'g.54.6.gml' stopped. Elapsed time: 0.8309 seconds.
+---
+966
+'g.37.5.gml' started.
+'g.37.5.gml' stopped. Elapsed time: 0.3021 seconds.
+---
+967
+'g.92.0.gml' started.
+'g.92.0.gml' stopped. Elapsed time: 4.7001 seconds.
+---
+968
+'g.20.53.gml' started.
+'g.20.53.gml' stopped. Elapsed time: 0.2072 seconds.
+---
+969
+'g.20.47.gml' started.
+'g.20.47.gml' stopped. Elapsed time: 0.0551 seconds.
+---
+970
+'g.15.17.gml' started.
+'g.15.17.gml' stopped. Elapsed time: 0.0175 seconds.
+---
+971
+'g.47.23.gml' started.
+'g.47.23.gml' stopped. Elapsed time: 0.4857 seconds.
+---
+972
+'g.12.22.gml' started.
+'g.12.22.gml' stopped. Elapsed time: 0.0243 seconds.
+---
+973
+'g.40.16.gml' started.
+'g.40.16.gml' stopped. Elapsed time: 0.3083 seconds.
+---
+974
+'g.31.3.gml' started.
+'g.31.3.gml' stopped. Elapsed time: 0.1842 seconds.
+---
+975
+'g.22.9.gml' started.
+'g.22.9.gml' stopped. Elapsed time: 0.0576 seconds.
+---
+976
+'g.63.22.gml' started.
+'g.63.22.gml' stopped. Elapsed time: 1.5129 seconds.
+---
+977
+'g.52.0.gml' started.
+'g.52.0.gml' stopped. Elapsed time: 0.8379 seconds.
+---
+978
+'g.36.23.gml' started.
+'g.36.23.gml' stopped. Elapsed time: 0.3595 seconds.
+---
+979
+'g.64.17.gml' started.
+'g.64.17.gml' stopped. Elapsed time: 1.8176 seconds.
+---
+980
+'g.22.42.gml' started.
+'g.22.42.gml' stopped. Elapsed time: 0.0988 seconds.
+---
+981
+'g.17.12.gml' started.
+'g.17.12.gml' stopped. Elapsed time: 0.0337 seconds.
+---
+982
+'g.10.27.gml' started.
+'g.10.27.gml' stopped. Elapsed time: 0.0121 seconds.
+---
+983
+'g.33.1.gml' started.
+'g.33.1.gml' stopped. Elapsed time: 0.2366 seconds.
+---
+984
+'g.43.8.gml' started.
+'g.43.8.gml' stopped. Elapsed time: 0.5030 seconds.
+---
+985
+'g.76.1.gml' started.
+'g.76.1.gml' stopped. Elapsed time: 2.5518 seconds.
+---
+986
+'g.28.23.gml' started.
+'g.28.23.gml' stopped. Elapsed time: 0.1745 seconds.
+---
+987
+'g.15.2.gml' started.
+'g.15.2.gml' stopped. Elapsed time: 0.0195 seconds.
+---
+988
+'g.21.13.gml' started.
+'g.21.13.gml' stopped. Elapsed time: 0.0579 seconds.
+---
+989
+'g.26.32.gml' started.
+'g.26.32.gml' stopped. Elapsed time: 0.0807 seconds.
+---
+990
+'g.26.26.gml' started.
+'g.26.26.gml' stopped. Elapsed time: 0.0909 seconds.
+---
+991
+'g.96.4.gml' started.
+'g.96.4.gml' stopped. Elapsed time: 4.6551 seconds.
+---
+992
+'g.55.23.gml' started.
+'g.55.23.gml' stopped. Elapsed time: 1.2233 seconds.
+---
+993
+'g.13.76.gml' started.
+'g.13.76.gml' stopped. Elapsed time: 0.0349 seconds.
+---
+994
+'g.13.62.gml' started.
+'g.13.62.gml' stopped. Elapsed time: 0.0154 seconds.
+---
+995
+'g.14.43.gml' started.
+'g.14.43.gml' stopped. Elapsed time: 0.0148 seconds.
+---
+996
+'g.14.57.gml' started.
+'g.14.57.gml' stopped. Elapsed time: 0.0201 seconds.
+---
+997
+'g.13.63.gml' started.
+'g.13.63.gml' stopped. Elapsed time: 0.0271 seconds.
+---
+998
+'g.13.77.gml' started.
+'g.13.77.gml' stopped. Elapsed time: 0.0130 seconds.
+---
+999
+'g.96.5.gml' started.
+'g.96.5.gml' stopped. Elapsed time: 4.5436 seconds.
+---
+1000
+'g.26.27.gml' started.
+'g.26.27.gml' stopped. Elapsed time: 0.2136 seconds.
+---
+1001
+'g.13.88.gml' started.
+'g.13.88.gml' stopped. Elapsed time: 0.0152 seconds.
+---
+1002
+'g.21.12.gml' started.
+'g.21.12.gml' stopped. Elapsed time: 0.0479 seconds.
+---
+1003
+'g.15.3.gml' started.
+'g.15.3.gml' stopped. Elapsed time: 0.0181 seconds.
+---
+1004
+'g.33.0.gml' started.
+'g.33.0.gml' stopped. Elapsed time: 0.1744 seconds.
+---
+1005
+'g.28.22.gml' started.
+'g.28.22.gml' stopped. Elapsed time: 0.0864 seconds.
+---
+1006
+'g.43.9.gml' started.
+'g.43.9.gml' stopped. Elapsed time: 0.4318 seconds.
+---
+1007
+'g.17.13.gml' started.
+'g.17.13.gml' stopped. Elapsed time: 0.0887 seconds.
+---
+1008
+'g.69.7.gml' started.
+'g.69.7.gml' stopped. Elapsed time: 1.9799 seconds.
+---
+1009
+'g.64.16.gml' started.
+'g.64.16.gml' stopped. Elapsed time: 1.5278 seconds.
+---
+1010
+'g.36.22.gml' started.
+'g.36.22.gml' stopped. Elapsed time: 0.2932 seconds.
+---
+1011
+'g.22.8.gml' started.
+'g.22.8.gml' stopped. Elapsed time: 0.0571 seconds.
+---
+1012
+'g.52.1.gml' started.
+'g.52.1.gml' stopped. Elapsed time: 0.7879 seconds.
+---
+1013
+'g.74.2.gml' started.
+'g.74.2.gml' stopped. Elapsed time: 2.4108 seconds.
+---
+1014
+'g.31.2.gml' started.
+'g.31.2.gml' stopped. Elapsed time: 0.2044 seconds.
+---
+1015
+'g.40.17.gml' started.
+'g.40.17.gml' stopped. Elapsed time: 0.3099 seconds.
+---
+1016
+'g.20.46.gml' started.
+'g.20.46.gml' stopped. Elapsed time: 0.1058 seconds.
+---
+1017
+'g.20.52.gml' started.
+'g.20.52.gml' stopped. Elapsed time: 0.0605 seconds.
+---
+1018
+'g.92.1.gml' started.
+'g.92.1.gml' stopped. Elapsed time: 4.2997 seconds.
+---
+1019
+'g.37.4.gml' started.
+'g.37.4.gml' stopped. Elapsed time: 0.5062 seconds.
+---
+1020
+'g.33.12.gml' started.
+'g.33.12.gml' stopped. Elapsed time: 0.1546 seconds.
+---
+1021
+'g.11.7.gml' started.
+'g.11.7.gml' stopped. Elapsed time: 0.0110 seconds.
+---
+1022
+'g.61.32.gml' started.
+'g.61.32.gml' stopped. Elapsed time: 1.3913 seconds.
+---
+1023
+'g.54.7.gml' started.
+'g.54.7.gml' stopped. Elapsed time: 0.8927 seconds.
+---
+1024
+'g.28.3.gml' started.
+'g.28.3.gml' stopped. Elapsed time: 0.1242 seconds.
+---
+1025
+'g.11.66.gml' started.
+'g.11.66.gml' stopped. Elapsed time: 0.0126 seconds.
+---
+1026
+'g.11.72.gml' started.
+'g.11.72.gml' stopped. Elapsed time: 0.0113 seconds.
+---
+1027
+'g.57.27.gml' started.
+'g.57.27.gml' stopped. Elapsed time: 1.6985 seconds.
+---
+1028
+'g.90.3.gml' started.
+'g.90.3.gml' stopped. Elapsed time: 4.0567 seconds.
+---
+1029
+'g.24.36.gml' started.
+'g.24.36.gml' stopped. Elapsed time: 0.1776 seconds.
+---
+1030
+'g.23.17.gml' started.
+'g.23.17.gml' stopped. Elapsed time: 0.0690 seconds.
+---
+1031
+'g.56.5.gml' started.
+'g.56.5.gml' stopped. Elapsed time: 0.8645 seconds.
+---
+1032
+'g.35.4.gml' started.
+'g.35.4.gml' stopped. Elapsed time: 0.2949 seconds.
+---
+1033
+'g.23.15.gml' started.
+'g.23.15.gml' stopped. Elapsed time: 0.0634 seconds.
+---
+1034
+'g.13.7.gml' started.
+'g.13.7.gml' stopped. Elapsed time: 0.0111 seconds.
+---
+1035
+'g.56.7.gml' started.
+'g.56.7.gml' stopped. Elapsed time: 0.9960 seconds.
+---
+1036
+'g.24.34.gml' started.
+'g.24.34.gml' stopped. Elapsed time: 0.1500 seconds.
+---
+1037
+'g.90.1.gml' started.
+'g.90.1.gml' stopped. Elapsed time: 4.2578 seconds.
+---
+1038
+'g.11.64.gml' started.
+'g.11.64.gml' stopped. Elapsed time: 0.1120 seconds.
+---
+1039
+'g.28.1.gml' started.
+'g.28.1.gml' stopped. Elapsed time: 0.1287 seconds.
+---
+1040
+'g.16.79.gml' started.
+'g.16.79.gml' stopped. Elapsed time: 0.0232 seconds.
+---
+1041
+'g.57.19.gml' started.
+'g.57.19.gml' stopped. Elapsed time: 0.9246 seconds.
+---
+1042
+'g.37.6.gml' started.
+'g.37.6.gml' stopped. Elapsed time: 0.3306 seconds.
+---
+1043
+'g.11.5.gml' started.
+'g.11.5.gml' stopped. Elapsed time: 0.0136 seconds.
+---
+1044
+'g.33.10.gml' started.
+'g.33.10.gml' stopped. Elapsed time: 0.6060 seconds.
+---
+1045
+'g.81.9.gml' started.
+'g.81.9.gml' stopped. Elapsed time: 3.3565 seconds.
+---
+1046
+'g.92.3.gml' started.
+'g.92.3.gml' stopped. Elapsed time: 4.0485 seconds.
+---
+1047
+'g.20.50.gml' started.
+'g.20.50.gml' stopped. Elapsed time: 0.1759 seconds.
+---
+1048
+'g.49.19.gml' started.
+'g.49.19.gml' stopped. Elapsed time: 0.6179 seconds.
+---
+1049
+'g.15.14.gml' started.
+'g.15.14.gml' stopped. Elapsed time: 0.0296 seconds.
+---
+1050
+'g.39.9.gml' started.
+'g.39.9.gml' stopped. Elapsed time: 0.4681 seconds.
+---
+1051
+'g.12.35.gml' started.
+'g.12.35.gml' stopped. Elapsed time: 0.0201 seconds.
+---
+1052
+'g.15.28.gml' started.
+'g.15.28.gml' stopped. Elapsed time: 0.0846 seconds.
+---
+1053
+'g.52.3.gml' started.
+'g.52.3.gml' stopped. Elapsed time: 0.7431 seconds.
+---
+1054
+'g.17.3.gml' started.
+'g.17.3.gml' stopped. Elapsed time: 0.0464 seconds.
+---
+1055
+'g.31.0.gml' started.
+'g.31.0.gml' stopped. Elapsed time: 0.1935 seconds.
+---
+1056
+'g.41.9.gml' started.
+'g.41.9.gml' stopped. Elapsed time: 0.3737 seconds.
+---
+1057
+'g.22.69.gml' started.
+'g.22.69.gml' stopped. Elapsed time: 0.1309 seconds.
+---
+1058
+'g.38.19.gml' started.
+'g.38.19.gml' stopped. Elapsed time: 0.3249 seconds.
+---
+1059
+'g.22.41.gml' started.
+'g.22.41.gml' stopped. Elapsed time: 0.0586 seconds.
+---
+1060
+'g.64.14.gml' started.
+'g.64.14.gml' stopped. Elapsed time: 1.4408 seconds.
+---
+1061
+'g.25.48.gml' started.
+'g.25.48.gml' stopped. Elapsed time: 0.1754 seconds.
+---
+1062
+'g.31.29.gml' started.
+'g.31.29.gml' stopped. Elapsed time: 0.2031 seconds.
+---
+1063
+'g.19.28.gml' started.
+'g.19.28.gml' stopped. Elapsed time: 0.0407 seconds.
+---
+1064
+'g.69.5.gml' started.
+'g.69.5.gml' stopped. Elapsed time: 1.7175 seconds.
+---
+1065
+'g.17.11.gml' started.
+'g.17.11.gml' stopped. Elapsed time: 0.0731 seconds.
+---
+1066
+'g.17.39.gml' started.
+'g.17.39.gml' stopped. Elapsed time: 0.0405 seconds.
+---
+1067
+'g.89.0.gml' started.
+'g.89.0.gml' stopped. Elapsed time: 3.9548 seconds.
+---
+1068
+'g.10.30.gml' started.
+'g.10.30.gml' stopped. Elapsed time: 0.1066 seconds.
+---
+1069
+'g.10.24.gml' started.
+'g.10.24.gml' stopped. Elapsed time: 0.0083 seconds.
+---
+1070
+'g.20.8.gml' started.
+'g.20.8.gml' stopped. Elapsed time: 0.0460 seconds.
+---
+1071
+'g.21.10.gml' started.
+'g.21.10.gml' stopped. Elapsed time: 0.2658 seconds.
+---
+1072
+'g.26.19.gml' started.
+'g.26.19.gml' stopped. Elapsed time: 0.1083 seconds.
+---
+1073
+'g.76.2.gml' started.
+'g.76.2.gml' stopped. Elapsed time: 2.4011 seconds.
+---
+1074
+'g.28.20.gml' started.
+'g.28.20.gml' stopped. Elapsed time: 0.5719 seconds.
+---
+1075
+'g.33.2.gml' started.
+'g.33.2.gml' stopped. Elapsed time: 0.2265 seconds.
+---
+1076
+'g.23.121.gml' started.
+'g.23.121.gml' stopped. Elapsed time: 0.0612 seconds.
+---
+1077
+'g.26.31.gml' started.
+'g.26.31.gml' stopped. Elapsed time: 0.1243 seconds.
+---
+1078
+'g.14.68.gml' started.
+'g.14.68.gml' stopped. Elapsed time: 0.0174 seconds.
+---
+1079
+'g.13.61.gml' started.
+'g.13.61.gml' stopped. Elapsed time: 0.0216 seconds.
+---
+1080
+'g.13.49.gml' started.
+'g.13.49.gml' stopped. Elapsed time: 0.0577 seconds.
+---
+1081
+'g.14.40.gml' started.
+'g.14.40.gml' stopped. Elapsed time: 0.0170 seconds.
+---
+1082
+'g.13.48.gml' started.
+'g.13.48.gml' stopped. Elapsed time: 0.0563 seconds.
+---
+1083
+'g.14.55.gml' started.
+'g.14.55.gml' stopped. Elapsed time: 0.0156 seconds.
+---
+1084
+'g.13.60.gml' started.
+'g.13.60.gml' stopped. Elapsed time: 0.0130 seconds.
+---
+1085
+'g.26.30.gml' started.
+'g.26.30.gml' stopped. Elapsed time: 0.1039 seconds.
+---
+1086
+'g.26.24.gml' started.
+'g.26.24.gml' stopped. Elapsed time: 0.0829 seconds.
+---
+1087
+'g.28.21.gml' started.
+'g.28.21.gml' stopped. Elapsed time: 0.0954 seconds.
+---
+1088
+'g.23.108.gml' started.
+'g.23.108.gml' stopped. Elapsed time: 0.0930 seconds.
+---
+1089
+'g.33.3.gml' started.
+'g.33.3.gml' stopped. Elapsed time: 0.2338 seconds.
+---
+1090
+'g.21.11.gml' started.
+'g.21.11.gml' stopped. Elapsed time: 0.0518 seconds.
+---
+1091
+'g.20.9.gml' started.
+'g.20.9.gml' stopped. Elapsed time: 0.0347 seconds.
+---
+1092
+'g.10.25.gml' started.
+'g.10.25.gml' stopped. Elapsed time: 0.0142 seconds.
+---
+1093
+'g.89.1.gml' started.
+'g.89.1.gml' stopped. Elapsed time: 3.6489 seconds.
+---
+1094
+'g.10.31.gml' started.
+'g.10.31.gml' stopped. Elapsed time: 0.1029 seconds.
+---
+1095
+'g.10.19.gml' started.
+'g.10.19.gml' stopped. Elapsed time: 0.0115 seconds.
+---
+1096
+'g.17.10.gml' started.
+'g.17.10.gml' stopped. Elapsed time: 0.0682 seconds.
+---
+1097
+'g.69.4.gml' started.
+'g.69.4.gml' stopped. Elapsed time: 1.8447 seconds.
+---
+1098
+'g.19.29.gml' started.
+'g.19.29.gml' stopped. Elapsed time: 0.0728 seconds.
+---
+1099
+'g.31.28.gml' started.
+'g.31.28.gml' stopped. Elapsed time: 0.1441 seconds.
+---
+1100
+'g.22.54.gml' started.
+'g.22.54.gml' stopped. Elapsed time: 0.0593 seconds.
+---
+1101
+'g.25.49.gml' started.
+'g.25.49.gml' stopped. Elapsed time: 0.0772 seconds.
+---
+1102
+'g.31.1.gml' started.
+'g.31.1.gml' stopped. Elapsed time: 0.2311 seconds.
+---
+1103
+'g.22.68.gml' started.
+'g.22.68.gml' stopped. Elapsed time: 0.0606 seconds.
+---
+1104
+'g.74.1.gml' started.
+'g.74.1.gml' stopped. Elapsed time: 2.2891 seconds.
+---
+1105
+'g.52.2.gml' started.
+'g.52.2.gml' stopped. Elapsed time: 0.8201 seconds.
+---
+1106
+'g.17.2.gml' started.
+'g.17.2.gml' stopped. Elapsed time: 0.0448 seconds.
+---
+1107
+'g.15.29.gml' started.
+'g.15.29.gml' stopped. Elapsed time: 0.0288 seconds.
+---
+1108
+'g.12.34.gml' started.
+'g.12.34.gml' stopped. Elapsed time: 0.0136 seconds.
+---
+1109
+'g.39.8.gml' started.
+'g.39.8.gml' stopped. Elapsed time: 0.8882 seconds.
+---
+1110
+'g.20.51.gml' started.
+'g.20.51.gml' stopped. Elapsed time: 0.0602 seconds.
+---
+1111
+'g.20.45.gml' started.
+'g.20.45.gml' stopped. Elapsed time: 0.1191 seconds.
+---
+1112
+'g.34.18.gml' started.
+'g.34.18.gml' stopped. Elapsed time: 0.2769 seconds.
+---
+1113
+'g.61.31.gml' started.
+'g.61.31.gml' stopped. Elapsed time: 1.4869 seconds.
+---
+1114
+'g.61.25.gml' started.
+'g.61.25.gml' stopped. Elapsed time: 1.5424 seconds.
+---
+1115
+'g.57.18.gml' started.
+'g.57.18.gml' stopped. Elapsed time: 1.0814 seconds.
+---
+1116
+'g.16.50.gml' started.
+'g.16.50.gml' stopped. Elapsed time: 0.0534 seconds.
+---
+1117
+'g.11.71.gml' started.
+'g.11.71.gml' stopped. Elapsed time: 0.0138 seconds.
+---
+1118
+'g.58.9.gml' started.
+'g.58.9.gml' stopped. Elapsed time: 1.3621 seconds.
+---
+1119
+'g.11.65.gml' started.
+'g.11.65.gml' stopped. Elapsed time: 0.0324 seconds.
+---
+1120
+'g.18.41.gml' started.
+'g.18.41.gml' stopped. Elapsed time: 0.0325 seconds.
+---
+1121
+'g.90.0.gml' started.
+'g.90.0.gml' stopped. Elapsed time: 4.2483 seconds.
+---
+1122
+'g.24.35.gml' started.
+'g.24.35.gml' stopped. Elapsed time: 0.1895 seconds.
+---
+1123
+'g.13.6.gml' started.
+'g.13.6.gml' stopped. Elapsed time: 0.0149 seconds.
+---
+1124
+'g.23.14.gml' started.
+'g.23.14.gml' stopped. Elapsed time: 0.0671 seconds.
+---
+1125
+'g.35.1.gml' started.
+'g.35.1.gml' stopped. Elapsed time: 0.1997 seconds.
+---
+1126
+'g.24.19.gml' started.
+'g.24.19.gml' stopped. Elapsed time: 0.0660 seconds.
+---
+1127
+'g.45.8.gml' started.
+'g.45.8.gml' stopped. Elapsed time: 0.4182 seconds.
+---
+1128
+'g.70.1.gml' started.
+'g.70.1.gml' stopped. Elapsed time: 2.1271 seconds.
+---
+1129
+'g.56.2.gml' started.
+'g.56.2.gml' stopped. Elapsed time: 1.1910 seconds.
+---
+1130
+'g.11.49.gml' started.
+'g.11.49.gml' stopped. Elapsed time: 0.0331 seconds.
+---
+1131
+'g.28.4.gml' started.
+'g.28.4.gml' stopped. Elapsed time: 0.1244 seconds.
+---
+1132
+'g.11.61.gml' started.
+'g.11.61.gml' stopped. Elapsed time: 0.0099 seconds.
+---
+1133
+'g.11.75.gml' started.
+'g.11.75.gml' stopped. Elapsed time: 0.0093 seconds.
+---
+1134
+'g.20.41.gml' started.
+'g.20.41.gml' stopped. Elapsed time: 0.0540 seconds.
+---
+1135
+'g.37.3.gml' started.
+'g.37.3.gml' stopped. Elapsed time: 0.3069 seconds.
+---
+1136
+'g.11.0.gml' started.
+'g.11.0.gml' stopped. Elapsed time: 0.0139 seconds.
+---
+1137
+'g.61.35.gml' started.
+'g.61.35.gml' stopped. Elapsed time: 1.2476 seconds.
+---
+1138
+'g.24.9.gml' started.
+'g.24.9.gml' stopped. Elapsed time: 0.0997 seconds.
+---
+1139
+'g.54.0.gml' started.
+'g.54.0.gml' stopped. Elapsed time: 0.8633 seconds.
+---
+1140
+'g.61.9.gml' started.
+'g.61.9.gml' stopped. Elapsed time: 1.6162 seconds.
+---
+1141
+'g.15.39.gml' started.
+'g.15.39.gml' stopped. Elapsed time: 0.0489 seconds.
+---
+1142
+'g.47.25.gml' started.
+'g.47.25.gml' stopped. Elapsed time: 0.5800 seconds.
+---
+1143
+'g.49.5.gml' started.
+'g.49.5.gml' stopped. Elapsed time: 0.6792 seconds.
+---
+1144
+'g.15.11.gml' started.
+'g.15.11.gml' stopped. Elapsed time: 0.0310 seconds.
+---
+1145
+'g.63.18.gml' started.
+'g.63.18.gml' stopped. Elapsed time: 1.6455 seconds.
+---
+1146
+'g.94.0.gml' started.
+'g.94.0.gml' stopped. Elapsed time: 4.4445 seconds.
+---
+1147
+'g.22.44.gml' started.
+'g.22.44.gml' stopped. Elapsed time: 0.1680 seconds.
+---
+1148
+'g.22.50.gml' started.
+'g.22.50.gml' stopped. Elapsed time: 0.0598 seconds.
+---
+1149
+'g.17.6.gml' started.
+'g.17.6.gml' stopped. Elapsed time: 0.0306 seconds.
+---
+1150
+'g.38.20.gml' started.
+'g.38.20.gml' stopped. Elapsed time: 0.2530 seconds.
+---
+1151
+'g.74.5.gml' started.
+'g.74.5.gml' stopped. Elapsed time: 2.2565 seconds.
+---
+1152
+'g.36.19.gml' started.
+'g.36.19.gml' stopped. Elapsed time: 0.2770 seconds.
+---
+1153
+'g.42.15.gml' started.
+'g.42.15.gml' stopped. Elapsed time: 0.5155 seconds.
+---
+1154
+'g.19.11.gml' started.
+'g.19.11.gml' stopped. Elapsed time: 0.0498 seconds.
+---
+1155
+'g.17.28.gml' started.
+'g.17.28.gml' stopped. Elapsed time: 0.0285 seconds.
+---
+1156
+'g.19.39.gml' started.
+'g.19.39.gml' stopped. Elapsed time: 0.0427 seconds.
+---
+1157
+'g.69.0.gml' started.
+'g.69.0.gml' stopped. Elapsed time: 1.7623 seconds.
+---
+1158
+'g.19.9.gml' started.
+'g.19.9.gml' stopped. Elapsed time: 0.0750 seconds.
+---
+1159
+'g.26.20.gml' started.
+'g.26.20.gml' stopped. Elapsed time: 0.0911 seconds.
+---
+1160
+'g.96.2.gml' started.
+'g.96.2.gml' stopped. Elapsed time: 5.1638 seconds.
+---
+1161
+'g.21.29.gml' started.
+'g.21.29.gml' stopped. Elapsed time: 0.2996 seconds.
+---
+1162
+'g.85.8.gml' started.
+'g.85.8.gml' stopped. Elapsed time: 3.4184 seconds.
+---
+1163
+'g.23.118.gml' started.
+'g.23.118.gml' stopped. Elapsed time: 0.2978 seconds.
+---
+1164
+'g.21.15.gml' started.
+'g.21.15.gml' stopped. Elapsed time: 0.0551 seconds.
+---
+1165
+'g.33.7.gml' started.
+'g.33.7.gml' stopped. Elapsed time: 0.1669 seconds.
+---
+1166
+'g.28.25.gml' started.
+'g.28.25.gml' stopped. Elapsed time: 0.1096 seconds.
+---
+1167
+'g.55.24.gml' started.
+'g.55.24.gml' stopped. Elapsed time: 1.0227 seconds.
+---
+1168
+'g.55.30.gml' started.
+'g.55.30.gml' stopped. Elapsed time: 1.2743 seconds.
+---
+1169
+'g.33.6.gml' started.
+'g.33.6.gml' stopped. Elapsed time: 0.2127 seconds.
+---
+1170
+'g.28.24.gml' started.
+'g.28.24.gml' stopped. Elapsed time: 0.1142 seconds.
+---
+1171
+'g.28.30.gml' started.
+'g.28.30.gml' stopped. Elapsed time: 0.1317 seconds.
+---
+1172
+'g.21.14.gml' started.
+'g.21.14.gml' stopped. Elapsed time: 0.0488 seconds.
+---
+1173
+'g.23.119.gml' started.
+'g.23.119.gml' stopped. Elapsed time: 0.0644 seconds.
+---
+1174
+'g.96.3.gml' started.
+'g.96.3.gml' stopped. Elapsed time: 4.6277 seconds.
+---
+1175
+'g.69.1.gml' started.
+'g.69.1.gml' stopped. Elapsed time: 1.9920 seconds.
+---
+1176
+'g.19.38.gml' started.
+'g.19.38.gml' stopped. Elapsed time: 0.0748 seconds.
+---
+1177
+'g.19.8.gml' started.
+'g.19.8.gml' stopped. Elapsed time: 0.0385 seconds.
+---
+1178
+'g.10.20.gml' started.
+'g.10.20.gml' stopped. Elapsed time: 0.0138 seconds.
+---
+1179
+'g.10.34.gml' started.
+'g.10.34.gml' stopped. Elapsed time: 0.0139 seconds.
+---
+1180
+'g.74.4.gml' started.
+'g.74.4.gml' stopped. Elapsed time: 2.0180 seconds.
+---
+1181
+'g.36.18.gml' started.
+'g.36.18.gml' stopped. Elapsed time: 0.2594 seconds.
+---
+1182
+'g.31.4.gml' started.
+'g.31.4.gml' stopped. Elapsed time: 0.1566 seconds.
+---
+1183
+'g.17.7.gml' started.
+'g.17.7.gml' stopped. Elapsed time: 0.0282 seconds.
+---
+1184
+'g.38.21.gml' started.
+'g.38.21.gml' stopped. Elapsed time: 0.3152 seconds.
+---
+1185
+'g.22.51.gml' started.
+'g.22.51.gml' stopped. Elapsed time: 0.0466 seconds.
+---
+1186
+'g.15.10.gml' started.
+'g.15.10.gml' stopped. Elapsed time: 0.0187 seconds.
+---
+1187
+'g.47.30.gml' started.
+'g.47.30.gml' stopped. Elapsed time: 0.6643 seconds.
+---
+1188
+'g.15.38.gml' started.
+'g.15.38.gml' stopped. Elapsed time: 0.0254 seconds.
+---
+1189
+'g.12.31.gml' started.
+'g.12.31.gml' stopped. Elapsed time: 0.0165 seconds.
+---
+1190
+'g.24.8.gml' started.
+'g.24.8.gml' stopped. Elapsed time: 0.0803 seconds.
+---
+1191
+'g.61.8.gml' started.
+'g.61.8.gml' stopped. Elapsed time: 1.4667 seconds.
+---
+1192
+'g.54.1.gml' started.
+'g.54.1.gml' stopped. Elapsed time: 1.0742 seconds.
+---
+1193
+'g.37.2.gml' started.
+'g.37.2.gml' stopped. Elapsed time: 0.2568 seconds.
+---
+1194
+'g.20.40.gml' started.
+'g.20.40.gml' stopped. Elapsed time: 0.0448 seconds.
+---
+1195
+'g.57.21.gml' started.
+'g.57.21.gml' stopped. Elapsed time: 0.9971 seconds.
+---
+1196
+'g.28.5.gml' started.
+'g.28.5.gml' stopped. Elapsed time: 0.1804 seconds.
+---
+1197
+'g.11.60.gml' started.
+'g.11.60.gml' stopped. Elapsed time: 0.0110 seconds.
+---
+1198
+'g.16.55.gml' started.
+'g.16.55.gml' stopped. Elapsed time: 0.0232 seconds.
+---
+1199
+'g.56.3.gml' started.
+'g.56.3.gml' stopped. Elapsed time: 1.1022 seconds.
+---
+1200
+'g.23.11.gml' started.
+'g.23.11.gml' stopped. Elapsed time: 0.1447 seconds.
+---
+1201
+'g.35.0.gml' started.
+'g.35.0.gml' stopped. Elapsed time: 0.2314 seconds.
+---
+1202
+'g.45.9.gml' started.
+'g.45.9.gml' stopped. Elapsed time: 0.4693 seconds.
+---
+1203
+'g.24.18.gml' started.
+'g.24.18.gml' stopped. Elapsed time: 0.0700 seconds.
+---
+1204
+'g.24.30.gml' started.
+'g.24.30.gml' stopped. Elapsed time: 0.0963 seconds.
+---
+1205
+'g.23.39.gml' started.
+'g.23.39.gml' stopped. Elapsed time: 0.0647 seconds.
+---
+1206
+'g.16.82.gml' started.
+'g.16.82.gml' stopped. Elapsed time: 0.0286 seconds.
+---
+1207
+'g.16.80.gml' started.
+'g.16.80.gml' stopped. Elapsed time: 0.0277 seconds.
+---
+1208
+'g.24.26.gml' started.
+'g.24.26.gml' stopped. Elapsed time: 0.0710 seconds.
+---
+1209
+'g.26.8.gml' started.
+'g.26.8.gml' stopped. Elapsed time: 0.1255 seconds.
+---
+1210
+'g.63.8.gml' started.
+'g.63.8.gml' stopped. Elapsed time: 1.6665 seconds.
+---
+1211
+'g.56.1.gml' started.
+'g.56.1.gml' stopped. Elapsed time: 0.9137 seconds.
+---
+1212
+'g.35.2.gml' started.
+'g.35.2.gml' stopped. Elapsed time: 0.2977 seconds.
+---
+1213
+'g.23.13.gml' started.
+'g.23.13.gml' stopped. Elapsed time: 0.0639 seconds.
+---
+1214
+'g.16.57.gml' started.
+'g.16.57.gml' stopped. Elapsed time: 0.0205 seconds.
+---
+1215
+'g.57.23.gml' started.
+'g.57.23.gml' stopped. Elapsed time: 1.0016 seconds.
+---
+1216
+'g.11.76.gml' started.
+'g.11.76.gml' stopped. Elapsed time: 0.0318 seconds.
+---
+1217
+'g.11.62.gml' started.
+'g.11.62.gml' stopped. Elapsed time: 0.0113 seconds.
+---
+1218
+'g.28.7.gml' started.
+'g.28.7.gml' stopped. Elapsed time: 0.1162 seconds.
+---
+1219
+'g.20.42.gml' started.
+'g.20.42.gml' stopped. Elapsed time: 0.0516 seconds.
+---
+1220
+'g.54.3.gml' started.
+'g.54.3.gml' stopped. Elapsed time: 0.8308 seconds.
+---
+1221
+'g.11.3.gml' started.
+'g.11.3.gml' stopped. Elapsed time: 0.0221 seconds.
+---
+1222
+'g.33.16.gml' started.
+'g.33.16.gml' stopped. Elapsed time: 0.2618 seconds.
+---
+1223
+'g.72.0.gml' started.
+'g.72.0.gml' stopped. Elapsed time: 2.0879 seconds.
+---
+1224
+'g.47.9.gml' started.
+'g.47.9.gml' stopped. Elapsed time: 0.5886 seconds.
+---
+1225
+'g.40.13.gml' started.
+'g.40.13.gml' stopped. Elapsed time: 0.3496 seconds.
+---
+1226
+'g.47.32.gml' started.
+'g.47.32.gml' stopped. Elapsed time: 0.5557 seconds.
+---
+1227
+'g.49.6.gml' started.
+'g.49.6.gml' stopped. Elapsed time: 0.6031 seconds.
+---
+1228
+'g.15.12.gml' started.
+'g.15.12.gml' stopped. Elapsed time: 0.0253 seconds.
+---
+1229
+'g.47.26.gml' started.
+'g.47.26.gml' stopped. Elapsed time: 0.6299 seconds.
+---
+1230
+'g.94.3.gml' started.
+'g.94.3.gml' stopped. Elapsed time: 4.5799 seconds.
+---
+1231
+'g.31.6.gml' started.
+'g.31.6.gml' stopped. Elapsed time: 0.2807 seconds.
+---
+1232
+'g.10.22.gml' started.
+'g.10.22.gml' stopped. Elapsed time: 0.0181 seconds.
+---
+1233
+'g.19.12.gml' started.
+'g.19.12.gml' stopped. Elapsed time: 0.0627 seconds.
+---
+1234
+'g.69.3.gml' started.
+'g.69.3.gml' stopped. Elapsed time: 1.8599 seconds.
+---
+1235
+'g.17.17.gml' started.
+'g.17.17.gml' stopped. Elapsed time: 0.0594 seconds.
+---
+1236
+'g.26.23.gml' started.
+'g.26.23.gml' stopped. Elapsed time: 0.0978 seconds.
+---
+1237
+'g.76.4.gml' started.
+'g.76.4.gml' stopped. Elapsed time: 2.6829 seconds.
+---
+1238
+'g.28.26.gml' started.
+'g.28.26.gml' stopped. Elapsed time: 0.1873 seconds.
+---
+1239
+'g.33.4.gml' started.
+'g.33.4.gml' stopped. Elapsed time: 0.1745 seconds.
+---
+1240
+'g.15.7.gml' started.
+'g.15.7.gml' stopped. Elapsed time: 0.0239 seconds.
+---
+1241
+'g.50.7.gml' started.
+'g.50.7.gml' stopped. Elapsed time: 0.7027 seconds.
+---
+1242
+'g.55.26.gml' started.
+'g.55.26.gml' stopped. Elapsed time: 1.1103 seconds.
+---
+1243
+'g.55.32.gml' started.
+'g.55.32.gml' stopped. Elapsed time: 1.0041 seconds.
+---
+1244
+'g.13.67.gml' started.
+'g.13.67.gml' stopped. Elapsed time: 0.0318 seconds.
+---
+1245
+'g.55.33.gml' started.
+'g.55.33.gml' stopped. Elapsed time: 1.0199 seconds.
+---
+1246
+'g.14.47.gml' started.
+'g.14.47.gml' stopped. Elapsed time: 0.0296 seconds.
+---
+1247
+'g.21.17.gml' started.
+'g.21.17.gml' stopped. Elapsed time: 0.0537 seconds.
+---
+1248
+'g.15.6.gml' started.
+'g.15.6.gml' stopped. Elapsed time: 0.0194 seconds.
+---
+1249
+'g.33.5.gml' started.
+'g.33.5.gml' stopped. Elapsed time: 0.2514 seconds.
+---
+1250
+'g.26.22.gml' started.
+'g.26.22.gml' stopped. Elapsed time: 0.0973 seconds.
+---
+1251
+'g.13.99.gml' started.
+'g.13.99.gml' stopped. Elapsed time: 0.0220 seconds.
+---
+1252
+'g.69.2.gml' started.
+'g.69.2.gml' stopped. Elapsed time: 1.9066 seconds.
+---
+1253
+'g.10.37.gml' started.
+'g.10.37.gml' stopped. Elapsed time: 0.0445 seconds.
+---
+1254
+'g.52.4.gml' started.
+'g.52.4.gml' stopped. Elapsed time: 0.7780 seconds.
+---
+1255
+'g.17.4.gml' started.
+'g.17.4.gml' stopped. Elapsed time: 0.0431 seconds.
+---
+1256
+'g.94.2.gml' started.
+'g.94.2.gml' stopped. Elapsed time: 4.8706 seconds.
+---
+1257
+'g.22.52.gml' started.
+'g.22.52.gml' stopped. Elapsed time: 0.1929 seconds.
+---
+1258
+'g.47.27.gml' started.
+'g.47.27.gml' stopped. Elapsed time: 0.6351 seconds.
+---
+1259
+'g.15.13.gml' started.
+'g.15.13.gml' stopped. Elapsed time: 0.0260 seconds.
+---
+1260
+'g.40.12.gml' started.
+'g.40.12.gml' stopped. Elapsed time: 0.3236 seconds.
+---
+1261
+'g.37.1.gml' started.
+'g.37.1.gml' stopped. Elapsed time: 0.3512 seconds.
+---
+1262
+'g.47.8.gml' started.
+'g.47.8.gml' stopped. Elapsed time: 0.6303 seconds.
+---
+1263
+'g.54.2.gml' started.
+'g.54.2.gml' stopped. Elapsed time: 0.8962 seconds.
+---
+1264
+'g.11.2.gml' started.
+'g.11.2.gml' stopped. Elapsed time: 0.0238 seconds.
+---
+1265
+'g.20.43.gml' started.
+'g.20.43.gml' stopped. Elapsed time: 0.0437 seconds.
+---
+1266
+'g.92.4.gml' started.
+'g.92.4.gml' stopped. Elapsed time: 4.0778 seconds.
+---
+1267
+'g.11.63.gml' started.
+'g.11.63.gml' stopped. Elapsed time: 0.1069 seconds.
+---
+1268
+'g.28.6.gml' started.
+'g.28.6.gml' stopped. Elapsed time: 0.1986 seconds.
+---
+1269
+'g.57.22.gml' started.
+'g.57.22.gml' stopped. Elapsed time: 1.0951 seconds.
+---
+1270
+'g.23.12.gml' started.
+'g.23.12.gml' stopped. Elapsed time: 0.1321 seconds.
+---
+1271
+'g.35.3.gml' started.
+'g.35.3.gml' stopped. Elapsed time: 0.2466 seconds.
+---
+1272
+'g.26.9.gml' started.
+'g.26.9.gml' stopped. Elapsed time: 0.4202 seconds.
+---
+1273
+'g.56.0.gml' started.
+'g.56.0.gml' stopped. Elapsed time: 0.9702 seconds.
+---
+1274
+'g.63.9.gml' started.
+'g.63.9.gml' stopped. Elapsed time: 1.7433 seconds.
+---
+1275
+'g.16.95.gml' started.
+'g.16.95.gml' stopped. Elapsed time: 0.0643 seconds.
+---
+1276
+'g.16.81.gml' started.
+'g.16.81.gml' stopped. Elapsed time: 0.0302 seconds.
+---
+1277
+'g.24.33.gml' started.
+'g.24.33.gml' stopped. Elapsed time: 0.0778 seconds.
+---
