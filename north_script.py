@@ -39,9 +39,9 @@ def process_sat_benchmark(file_path, results):
     for match in benchmark_pattern.finditer(content):
         filename = match.group('filename').replace('.cnf', '')  # Remove .cnf extension
         sat1_time = float(match.group('sat1'))
-        sat1_unit = match.group(2)  # ms or s
+        sat1_unit = match.group(3)  # ms or s
         sat2_time = float(match.group('sat2'))
-        sat2_unit = match.group(4)  # ms or s
+        sat2_unit = match.group(5)  # ms or s
         
         # Convert to seconds if necessary
         if sat1_unit == 'ms':
@@ -108,6 +108,29 @@ for name, stats in graph_stats.items():
         data[name]['n+m'] = n + m
 
 # Plot each separately
-plot_scatter(data, 'cp', "CP Runtime")
-plot_scatter(data, 'sat1', "SAT-1 Runtime")
-plot_scatter(data, 'sat2', "SAT-2 Runtime")
+# plot_scatter(data, 'cp', "CP Runtime")
+# plot_scatter(data, 'sat1', "SAT-1 Runtime")
+# plot_scatter(data, 'sat2', "SAT-2 Runtime")
+
+speedups = []
+
+for name, vals in data.items():
+    if not 'sat1' in vals or not 'sat2' in vals:
+        continue
+
+    cp = vals['cp']
+    s1 = vals['sat1']
+    s2 = vals['sat2']
+
+    speedup = s1 / s2
+
+    if speedup > 2:
+        print(name, speedup)
+    speedups.append(speedup)
+
+print('total', len(speedups))
+print('above 2', len([x for x in speedups if x > 1.5]))
+print(min([x for x in speedups if x > 2]), max(speedups))
+
+average_speedup = sum(speedups) / len(speedups)
+print(average_speedup)
