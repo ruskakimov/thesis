@@ -116,6 +116,7 @@ speedups = []
 
 for name, vals in data.items():
     if not 'sat1' in vals or not 'sat2' in vals:
+        print('not found!', name)
         continue
 
     cp = vals['cp']
@@ -124,8 +125,8 @@ for name, vals in data.items():
 
     speedup = s1 / s2
 
-    if speedup > 2:
-        print(name, speedup)
+    # if speedup > 2:
+    #     print(name, speedup)
     speedups.append(speedup)
 
 print('total', len(speedups))
