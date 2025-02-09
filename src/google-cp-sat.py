@@ -1,6 +1,6 @@
 import sys
 from ortools.sat.python import cp_model
-from helpers import T, north_graphs
+from helpers import T, north_graphs, random_dag_graphs
 from encoders import verify_2UBE
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag
 
@@ -137,11 +137,15 @@ def solve(n, edges):
 
 i = 0
 
-for G in north_graphs():
+for G in random_dag_graphs():
     i += 1
+    
+    if i > 10:
+        break
+
     print(f"Working on graph {i}", file=sys.stderr)
 
-    edges = [(int(u), int(v)) for u, v in G.edges()]
+    edges = [(int(u[1:]), int(v[1:])) for u, v in G.edges()]
     node_count = G.number_of_nodes()
 
     T.start(G.name)

@@ -1,0 +1,40 @@
+'g.13.5.graphml' started.
+No solution found.
+'g.13.5.graphml' stopped. Elapsed time: 0.3165 seconds.
+---
+'g.21.7.graphml' started.
+No solution found.
+'g.21.7.graphml' stopped. Elapsed time: 1.6324 seconds.
+---
+'g.57.4.graphml' started.
+No solution found.
+'g.57.4.graphml' stopped. Elapsed time: 13.5025 seconds.
+---
+'g.65.6.graphml' started.
+No solution found.
+'g.65.6.graphml' stopped. Elapsed time: 21.4607 seconds.
+---
+'g.72.2.graphml' started.
+No solution found.
+'g.72.2.graphml' stopped. Elapsed time: 24.1800 seconds.
+---
+'g.67.8.graphml' started.
+No solution found.
+'g.67.8.graphml' stopped. Elapsed time: 28.4291 seconds.
+---
+'g.36.3.graphml' started.
+No solution found.
+'g.36.3.graphml' stopped. Elapsed time: 8.0334 seconds.
+---
+'g.23.9.graphml' started.
+No solution found.
+'g.23.9.graphml' stopped. Elapsed time: 2.7539 seconds.
+---
+'g.69.5.graphml' started.
+No solution found.
+'g.69.5.graphml' stopped. Elapsed time: 21.9721 seconds.
+---
+'g.92.7.graphml' started.
+No solution found.
+'g.92.7.graphml' stopped. Elapsed time: 61.7292 seconds.
+---
