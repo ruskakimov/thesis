@@ -6,5 +6,6 @@ need4stacks275_*
 grid_dag_*
 
 cnf/north_*
+cnf/random_*
 
 ./temp.csv

@@ -230,18 +230,18 @@ i = 0
 
 for G in north_graphs():
     i += 1
-    # print(i)
-    # print(f"Working on graph {i}", file=sys.stderr)
+    print(i)
+    print(f"Working on graph {i}", file=sys.stderr)
 
-    # T.start(G.name)
+    T.start(G.name)
 
-    # cnf1 = encode_upward_book_embedding(G, 2)
-    # write_cnf(cnf1, cnf_dir / 'north_SAT1' / f'{G.name}.cnf')
+    cnf1 = encode_upward_book_embedding(G, 2)
+    write_cnf(cnf1, cnf_dir / 'random_dag_SAT1' / f'{G.name}.cnf')
     
-    # cnf2 = encode_2UBE(G)
-    # write_cnf(cnf2, cnf_dir / 'north_SAT2' / f'{G.name}.cnf')
+    cnf2 = encode_2UBE(G)
+    write_cnf(cnf2, cnf_dir / 'random_dag_SAT2' / f'{G.name}.cnf')
     
-    # T.stop(G.name)
-    # print('---')
+    T.stop(G.name)
+    print('---')
 
-    print(G.name, G.number_of_nodes(), G.number_of_edges())
+    # print(G.name, G.number_of_nodes(), G.number_of_edges())
