@@ -114,7 +114,7 @@ with open('bench_north.csv', newline='') as csvfile:
 # plot_scatter(data, 'sat2', "SAT-2 Runtime")
 
 speedups = []
-threshold = 10 / 1000 # below this time will be more random
+threshold = 5 / 1000 # below this time will be more random
 
 for filename, vals in data.items():
     if not 'sat1' in vals or not 'sat2' in vals:
@@ -125,10 +125,11 @@ for filename, vals in data.items():
     s1 = vals['sat1']
     s2 = vals['sat2']
 
-    speedup = s1 / s2
+    if s1 < threshold or s2 < threshold:
+        continue
 
-    if s1 > threshold or s2 > threshold:
-        speedups.append(speedup)
+    speedup = s1 / s2
+    speedups.append(speedup)
 
 print('total graphs:', len(speedups))
 
