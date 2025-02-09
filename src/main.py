@@ -5,7 +5,7 @@ import time
 import networkx as nx
 from math import ceil
 from pysat.solvers import Solver
-from helpers import rome_graphs, north_graphs,  write_cnf, T
+from helpers import rome_graphs, north_graphs,  write_cnf, random_dag_graphs, T
 from encoders import encode_planarity, encode_graceful_labeling, encode_book_embedding, decode_book_embedding, encode_upward_book_embedding, encode_2UBE, solve_2UBE_SAT, verify_2UBE, solve_kUBE_SAT
 from graph_generators import generate_path_dag, generate_directed_cycle_graph, generate_complete_binary_arborescence, generate_tournament_dag, random_dag_with_density, generate_grid_dag, diamond_graph, manta_ray_graph, generate_cube_dag, generate_4d_grid_dag
 
@@ -228,7 +228,7 @@ cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
 
 i = 0
 
-for G in north_graphs():
+for G in random_dag_graphs():
     i += 1
     print(i)
     print(f"Working on graph {i}", file=sys.stderr)
