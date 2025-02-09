@@ -1,0 +1,3636 @@
+1
+'g.13.5.graphml' started.
+'g.13.5.graphml' stopped. Elapsed time: 0.0150 seconds.
+---
+2
+'g.21.7.graphml' started.
+'g.21.7.graphml' stopped. Elapsed time: 0.0614 seconds.
+---
+3
+'g.57.4.graphml' started.
+'g.57.4.graphml' stopped. Elapsed time: 1.2150 seconds.
+---
+4
+'g.65.6.graphml' started.
+'g.65.6.graphml' stopped. Elapsed time: 1.6459 seconds.
+---
+5
+'g.72.2.graphml' started.
+'g.72.2.graphml' stopped. Elapsed time: 2.3224 seconds.
+---
+6
+'g.67.8.graphml' started.
+'g.67.8.graphml' stopped. Elapsed time: 1.8730 seconds.
+---
+7
+'g.36.3.graphml' started.
+'g.36.3.graphml' stopped. Elapsed time: 0.3173 seconds.
+---
+8
+'g.23.9.graphml' started.
+'g.23.9.graphml' stopped. Elapsed time: 0.0862 seconds.
+---
+9
+'g.69.5.graphml' started.
+'g.69.5.graphml' stopped. Elapsed time: 2.1320 seconds.
+---
+10
+'g.92.7.graphml' started.
+'g.92.7.graphml' stopped. Elapsed time: 4.4058 seconds.
+---
+11
+'g.90.9.graphml' started.
+'g.90.9.graphml' stopped. Elapsed time: 4.2757 seconds.
+---
+12
+'g.85.3.graphml' started.
+'g.85.3.graphml' stopped. Elapsed time: 3.6821 seconds.
+---
+13
+'g.59.9.graphml' started.
+'g.59.9.graphml' stopped. Elapsed time: 1.2744 seconds.
+---
+14
+'g.91.3.graphml' started.
+'g.91.3.graphml' stopped. Elapsed time: 4.4483 seconds.
+---
+15
+'g.84.9.graphml' started.
+'g.84.9.graphml' stopped. Elapsed time: 3.5657 seconds.
+---
+16
+'g.58.3.graphml' started.
+'g.58.3.graphml' stopped. Elapsed time: 1.0624 seconds.
+---
+17
+'g.86.7.graphml' started.
+'g.86.7.graphml' stopped. Elapsed time: 4.0014 seconds.
+---
+18
+'g.39.4.graphml' started.
+'g.39.4.graphml' stopped. Elapsed time: 0.4879 seconds.
+---
+19
+'g.31.10.graphml' started.
+'g.31.10.graphml' stopped. Elapsed time: 0.1711 seconds.
+---
+20
+'g.10.1.graphml' started.
+'g.10.1.graphml' stopped. Elapsed time: 0.0114 seconds.
+---
+21
+'g.37.9.graphml' started.
+'g.37.9.graphml' stopped. Elapsed time: 0.2678 seconds.
+---
+22
+'g.22.3.graphml' started.
+'g.22.3.graphml' stopped. Elapsed time: 0.0692 seconds.
+---
+23
+'g.73.8.graphml' started.
+'g.73.8.graphml' stopped. Elapsed time: 2.6443 seconds.
+---
+24
+'g.66.2.graphml' started.
+'g.66.2.graphml' stopped. Elapsed time: 2.0324 seconds.
+---
+25
+'g.71.6.graphml' started.
+'g.71.6.graphml' stopped. Elapsed time: 3.6032 seconds.
+---
+26
+'g.43.4.graphml' started.
+'g.43.4.graphml' stopped. Elapsed time: 0.8442 seconds.
+---
+27
+'g.64.10.graphml' started.
+'g.64.10.graphml' stopped. Elapsed time: 2.4641 seconds.
+---
+28
+'g.35.7.graphml' started.
+'g.35.7.graphml' stopped. Elapsed time: 0.7344 seconds.
+---
+29
+'g.53.10.graphml' started.
+'g.53.10.graphml' stopped. Elapsed time: 1.3419 seconds.
+---
+30
+'g.28.8.graphml' started.
+'g.28.8.graphml' stopped. Elapsed time: 0.4676 seconds.
+---
+31
+'g.79.3.graphml' started.
+'g.79.3.graphml' stopped. Elapsed time: 4.1173 seconds.
+---
+32
+'g.82.1.graphml' started.
+'g.82.1.graphml' stopped. Elapsed time: 4.2614 seconds.
+---
+33
+'g.95.5.graphml' started.
+'g.95.5.graphml' stopped. Elapsed time: 6.1368 seconds.
+---
+34
+'g.87.10.graphml' started.
+'g.87.10.graphml' stopped. Elapsed time: 4.5910 seconds.
+---
+35
+'g.18.4.graphml' started.
+'g.18.4.graphml' stopped. Elapsed time: 0.1280 seconds.
+---
+36
+'g.16.9.graphml' started.
+'g.16.9.graphml' stopped. Elapsed time: 0.0305 seconds.
+---
+37
+'g.31.1.graphml' started.
+'g.31.1.graphml' stopped. Elapsed time: 0.1675 seconds.
+---
+38
+'g.47.2.graphml' started.
+'g.47.2.graphml' stopped. Elapsed time: 0.4928 seconds.
+---
+39
+'g.52.8.graphml' started.
+'g.52.8.graphml' stopped. Elapsed time: 0.8408 seconds.
+---
+40
+'g.100.2.graphml' started.
+'g.100.2.graphml' stopped. Elapsed time: 6.8726 seconds.
+---
+41
+'g.62.4.graphml' started.
+'g.62.4.graphml' stopped. Elapsed time: 1.7398 seconds.
+---
+42
+'g.50.6.graphml' started.
+'g.50.6.graphml' stopped. Elapsed time: 0.8057 seconds.
+---
+43
+'g.99.6.graphml' started.
+'g.99.6.graphml' stopped. Elapsed time: 6.3941 seconds.
+---
+44
+'g.26.5.graphml' started.
+'g.26.5.graphml' stopped. Elapsed time: 0.2554 seconds.
+---
+45
+'g.14.7.graphml' started.
+'g.14.7.graphml' stopped. Elapsed time: 0.0251 seconds.
+---
+46
+'g.32.5.graphml' started.
+'g.32.5.graphml' stopped. Elapsed time: 0.1851 seconds.
+---
+47
+'g.44.6.graphml' started.
+'g.44.6.graphml' stopped. Elapsed time: 0.4341 seconds.
+---
+48
+'g.76.4.graphml' started.
+'g.76.4.graphml' stopped. Elapsed time: 2.9438 seconds.
+---
+49
+'g.46.8.graphml' started.
+'g.46.8.graphml' stopped. Elapsed time: 0.9019 seconds.
+---
+50
+'g.53.2.graphml' started.
+'g.53.2.graphml' stopped. Elapsed time: 1.1970 seconds.
+---
+51
+'g.25.1.graphml' started.
+'g.25.1.graphml' stopped. Elapsed time: 0.1545 seconds.
+---
+52
+'g.17.3.graphml' started.
+'g.17.3.graphml' stopped. Elapsed time: 0.0713 seconds.
+---
+53
+'g.78.10.graphml' started.
+'g.78.10.graphml' stopped. Elapsed time: 3.4232 seconds.
+---
+54
+'g.81.5.graphml' started.
+'g.81.5.graphml' stopped. Elapsed time: 3.5401 seconds.
+---
+55
+'g.48.5.graphml' started.
+'g.48.5.graphml' stopped. Elapsed time: 0.7349 seconds.
+---
+56
+'g.96.1.graphml' started.
+'g.96.1.graphml' stopped. Elapsed time: 5.4461 seconds.
+---
+57
+'g.78.9.graphml' started.
+'g.78.9.graphml' stopped. Elapsed time: 3.5299 seconds.
+---
+58
+'g.29.2.graphml' started.
+'g.29.2.graphml' stopped. Elapsed time: 0.2543 seconds.
+---
+59
+'g.68.6.graphml' started.
+'g.68.6.graphml' stopped. Elapsed time: 2.2364 seconds.
+---
+60
+'g.93.4.graphml' started.
+'g.93.4.graphml' stopped. Elapsed time: 6.4900 seconds.
+---
+61
+'g.69.10.graphml' started.
+'g.69.10.graphml' stopped. Elapsed time: 2.5721 seconds.
+---
+62
+'g.10.8.graphml' started.
+'g.10.8.graphml' stopped. Elapsed time: 0.0669 seconds.
+---
+63
+'g.73.1.graphml' started.
+'g.73.1.graphml' stopped. Elapsed time: 2.7805 seconds.
+---
+64
+'g.41.3.graphml' started.
+'g.41.3.graphml' stopped. Elapsed time: 0.6357 seconds.
+---
+65
+'g.88.3.graphml' started.
+'g.88.3.graphml' stopped. Elapsed time: 5.1017 seconds.
+---
+66
+'g.54.9.graphml' started.
+'g.54.9.graphml' stopped. Elapsed time: 1.2605 seconds.
+---
+67
+'g.56.7.graphml' started.
+'g.56.7.graphml' stopped. Elapsed time: 1.3736 seconds.
+---
+68
+'g.64.5.graphml' started.
+'g.64.5.graphml' stopped. Elapsed time: 1.9330 seconds.
+---
+69
+'g.12.6.graphml' started.
+'g.12.6.graphml' stopped. Elapsed time: 0.0533 seconds.
+---
+70
+'g.20.4.graphml' started.
+'g.20.4.graphml' stopped. Elapsed time: 0.0647 seconds.
+---
+71
+'g.34.4.graphml' started.
+'g.34.4.graphml' stopped. Elapsed time: 0.2914 seconds.
+---
+72
+'g.70.5.graphml' started.
+'g.70.5.graphml' stopped. Elapsed time: 2.7887 seconds.
+---
+73
+'g.42.7.graphml' started.
+'g.42.7.graphml' stopped. Elapsed time: 0.6723 seconds.
+---
+74
+'g.40.9.graphml' started.
+'g.40.9.graphml' stopped. Elapsed time: 0.4725 seconds.
+---
+75
+'g.89.9.graphml' started.
+'g.89.9.graphml' stopped. Elapsed time: 4.9588 seconds.
+---
+76
+'g.55.3.graphml' started.
+'g.55.3.graphml' stopped. Elapsed time: 1.3974 seconds.
+---
+77
+'g.67.1.graphml' started.
+'g.67.1.graphml' stopped. Elapsed time: 2.2799 seconds.
+---
+78
+'g.11.2.graphml' started.
+'g.11.2.graphml' stopped. Elapsed time: 0.0591 seconds.
+---
+79
+'g.38.7.graphml' started.
+'g.38.7.graphml' stopped. Elapsed time: 0.3977 seconds.
+---
+80
+'g.87.4.graphml' started.
+'g.87.4.graphml' stopped. Elapsed time: 4.8137 seconds.
+---
+81
+'g.96.10.graphml' started.
+'g.96.10.graphml' stopped. Elapsed time: 6.3763 seconds.
+---
+82
+'g.42.10.graphml' started.
+'g.42.10.graphml' stopped. Elapsed time: 0.7499 seconds.
+---
+83
+'g.27.6.graphml' started.
+'g.27.6.graphml' stopped. Elapsed time: 0.1455 seconds.
+---
+84
+'g.15.4.graphml' started.
+'g.15.4.graphml' stopped. Elapsed time: 0.0307 seconds.
+---
+85
+'g.63.7.graphml' started.
+'g.63.7.graphml' stopped. Elapsed time: 1.7784 seconds.
+---
+86
+'g.75.10.graphml' started.
+'g.75.10.graphml' stopped. Elapsed time: 3.1653 seconds.
+---
+87
+'g.51.5.graphml' started.
+'g.51.5.graphml' stopped. Elapsed time: 1.3989 seconds.
+---
+88
+'g.98.5.graphml' started.
+'g.98.5.graphml' stopped. Elapsed time: 6.0106 seconds.
+---
+89
+'g.46.1.graphml' started.
+'g.46.1.graphml' stopped. Elapsed time: 0.6634 seconds.
+---
+90
+'g.74.3.graphml' started.
+'g.74.3.graphml' stopped. Elapsed time: 2.8150 seconds.
+---
+91
+'g.61.9.graphml' started.
+'g.61.9.graphml' stopped. Elapsed time: 1.6170 seconds.
+---
+92
+'g.30.2.graphml' started.
+'g.30.2.graphml' stopped. Elapsed time: 0.2521 seconds.
+---
+93
+'g.25.8.graphml' started.
+'g.25.8.graphml' stopped. Elapsed time: 0.1168 seconds.
+---
+94
+'g.19.7.graphml' started.
+'g.19.7.graphml' stopped. Elapsed time: 0.0573 seconds.
+---
+95
+'g.20.10.graphml' started.
+'g.20.10.graphml' stopped. Elapsed time: 0.0867 seconds.
+---
+96
+'g.94.6.graphml' started.
+'g.94.6.graphml' stopped. Elapsed time: 5.1820 seconds.
+---
+97
+'g.17.10.graphml' started.
+'g.17.10.graphml' stopped. Elapsed time: 0.2123 seconds.
+---
+98
+'g.96.8.graphml' started.
+'g.96.8.graphml' stopped. Elapsed time: 5.5020 seconds.
+---
+99
+'g.83.2.graphml' started.
+'g.83.2.graphml' stopped. Elapsed time: 3.7403 seconds.
+---
+100
+'g.28.1.graphml' started.
+'g.28.1.graphml' stopped. Elapsed time: 0.2706 seconds.
+---
+101
+'g.97.2.graphml' started.
+'g.97.2.graphml' stopped. Elapsed time: 5.2199 seconds.
+---
+102
+'g.82.8.graphml' started.
+'g.82.8.graphml' stopped. Elapsed time: 3.3195 seconds.
+---
+103
+'g.80.6.graphml' started.
+'g.80.6.graphml' stopped. Elapsed time: 3.4762 seconds.
+---
+104
+'g.49.6.graphml' started.
+'g.49.6.graphml' stopped. Elapsed time: 0.8615 seconds.
+---
+105
+'g.31.8.graphml' started.
+'g.31.8.graphml' stopped. Elapsed time: 0.2373 seconds.
+---
+106
+'g.24.2.graphml' started.
+'g.24.2.graphml' stopped. Elapsed time: 0.1073 seconds.
+---
+107
+'g.75.9.graphml' started.
+'g.75.9.graphml' stopped. Elapsed time: 2.8138 seconds.
+---
+108
+'g.60.3.graphml' started.
+'g.60.3.graphml' stopped. Elapsed time: 1.5419 seconds.
+---
+109
+'g.52.1.graphml' started.
+'g.52.1.graphml' stopped. Elapsed time: 0.9147 seconds.
+---
+110
+'g.45.5.graphml' started.
+'g.45.5.graphml' stopped. Elapsed time: 0.7136 seconds.
+---
+111
+'g.77.7.graphml' started.
+'g.77.7.graphml' stopped. Elapsed time: 3.0047 seconds.
+---
+112
+'g.33.6.graphml' started.
+'g.33.6.graphml' stopped. Elapsed time: 0.2607 seconds.
+---
+113
+'g.54.8.graphml' started.
+'g.54.8.graphml' stopped. Elapsed time: 1.0864 seconds.
+---
+114
+'g.88.2.graphml' started.
+'g.88.2.graphml' stopped. Elapsed time: 4.4684 seconds.
+---
+115
+'g.41.2.graphml' started.
+'g.41.2.graphml' stopped. Elapsed time: 0.5963 seconds.
+---
+116
+'g.10.9.graphml' started.
+'g.10.9.graphml' stopped. Elapsed time: 0.0198 seconds.
+---
+117
+'g.37.1.graphml' started.
+'g.37.1.graphml' stopped. Elapsed time: 0.2956 seconds.
+---
+118
+'g.20.5.graphml' started.
+'g.20.5.graphml' stopped. Elapsed time: 0.0663 seconds.
+---
+119
+'g.12.7.graphml' started.
+'g.12.7.graphml' stopped. Elapsed time: 0.0156 seconds.
+---
+120
+'g.64.4.graphml' started.
+'g.64.4.graphml' stopped. Elapsed time: 1.7305 seconds.
+---
+121
+'g.56.6.graphml' started.
+'g.56.6.graphml' stopped. Elapsed time: 1.2881 seconds.
+---
+122
+'g.84.1.graphml' started.
+'g.84.1.graphml' stopped. Elapsed time: 3.7753 seconds.
+---
+123
+'g.93.10.graphml' started.
+'g.93.10.graphml' stopped. Elapsed time: 5.1727 seconds.
+---
+124
+'g.93.5.graphml' started.
+'g.93.5.graphml' stopped. Elapsed time: 5.1941 seconds.
+---
+125
+'g.68.7.graphml' started.
+'g.68.7.graphml' stopped. Elapsed time: 1.9247 seconds.
+---
+126
+'g.87.5.graphml' started.
+'g.87.5.graphml' stopped. Elapsed time: 4.0826 seconds.
+---
+127
+'g.38.6.graphml' started.
+'g.38.6.graphml' stopped. Elapsed time: 0.3865 seconds.
+---
+128
+'g.59.1.graphml' started.
+'g.59.1.graphml' stopped. Elapsed time: 1.4262 seconds.
+---
+129
+'g.90.1.graphml' started.
+'g.90.1.graphml' stopped. Elapsed time: 4.5852 seconds.
+---
+130
+'g.42.6.graphml' started.
+'g.42.6.graphml' stopped. Elapsed time: 0.6380 seconds.
+---
+131
+'g.39.10.graphml' started.
+'g.39.10.graphml' stopped. Elapsed time: 0.3670 seconds.
+---
+132
+'g.70.4.graphml' started.
+'g.70.4.graphml' stopped. Elapsed time: 2.0750 seconds.
+---
+133
+'g.34.5.graphml' started.
+'g.34.5.graphml' stopped. Elapsed time: 0.3303 seconds.
+---
+134
+'g.23.1.graphml' started.
+'g.23.1.graphml' stopped. Elapsed time: 0.0852 seconds.
+---
+135
+'g.11.3.graphml' started.
+'g.11.3.graphml' stopped. Elapsed time: 0.0149 seconds.
+---
+136
+'g.55.2.graphml' started.
+'g.55.2.graphml' stopped. Elapsed time: 1.0375 seconds.
+---
+137
+'g.89.8.graphml' started.
+'g.89.8.graphml' stopped. Elapsed time: 4.6574 seconds.
+---
+138
+'g.40.8.graphml' started.
+'g.40.8.graphml' stopped. Elapsed time: 0.4506 seconds.
+---
+139
+'g.94.7.graphml' started.
+'g.94.7.graphml' stopped. Elapsed time: 5.2916 seconds.
+---
+140
+'g.19.6.graphml' started.
+'g.19.6.graphml' stopped. Elapsed time: 0.1669 seconds.
+---
+141
+'g.83.3.graphml' started.
+'g.83.3.graphml' stopped. Elapsed time: 3.2353 seconds.
+---
+142
+'g.96.9.graphml' started.
+'g.96.9.graphml' stopped. Elapsed time: 5.5396 seconds.
+---
+143
+'g.78.1.graphml' started.
+'g.78.1.graphml' stopped. Elapsed time: 3.1205 seconds.
+---
+144
+'g.98.4.graphml' started.
+'g.98.4.graphml' stopped. Elapsed time: 6.4495 seconds.
+---
+145
+'g.51.4.graphml' started.
+'g.51.4.graphml' stopped. Elapsed time: 1.4757 seconds.
+---
+146
+'g.63.6.graphml' started.
+'g.63.6.graphml' stopped. Elapsed time: 1.8898 seconds.
+---
+147
+'g.15.5.graphml' started.
+'g.15.5.graphml' stopped. Elapsed time: 0.0554 seconds.
+---
+148
+'g.27.7.graphml' started.
+'g.27.7.graphml' stopped. Elapsed time: 0.1375 seconds.
+---
+149
+'g.25.9.graphml' started.
+'g.25.9.graphml' stopped. Elapsed time: 0.1542 seconds.
+---
+150
+'g.30.3.graphml' started.
+'g.30.3.graphml' stopped. Elapsed time: 0.3235 seconds.
+---
+151
+'g.61.8.graphml' started.
+'g.61.8.graphml' stopped. Elapsed time: 1.8553 seconds.
+---
+152
+'g.74.2.graphml' started.
+'g.74.2.graphml' stopped. Elapsed time: 2.8749 seconds.
+---
+153
+'g.60.2.graphml' started.
+'g.60.2.graphml' stopped. Elapsed time: 1.4097 seconds.
+---
+154
+'g.75.8.graphml' started.
+'g.75.8.graphml' stopped. Elapsed time: 2.8925 seconds.
+---
+155
+'g.16.1.graphml' started.
+'g.16.1.graphml' stopped. Elapsed time: 0.0833 seconds.
+---
+156
+'g.24.3.graphml' started.
+'g.24.3.graphml' stopped. Elapsed time: 0.0939 seconds.
+---
+157
+'g.31.9.graphml' started.
+'g.31.9.graphml' stopped. Elapsed time: 0.1972 seconds.
+---
+158
+'g.33.7.graphml' started.
+'g.33.7.graphml' stopped. Elapsed time: 0.2666 seconds.
+---
+159
+'g.70.10.graphml' started.
+'g.70.10.graphml' stopped. Elapsed time: 2.6104 seconds.
+---
+160
+'g.47.10.graphml' started.
+'g.47.10.graphml' stopped. Elapsed time: 0.6983 seconds.
+---
+161
+'g.77.6.graphml' started.
+'g.77.6.graphml' stopped. Elapsed time: 3.2918 seconds.
+---
+162
+'g.45.4.graphml' started.
+'g.45.4.graphml' stopped. Elapsed time: 0.7708 seconds.
+---
+163
+'g.82.9.graphml' started.
+'g.82.9.graphml' stopped. Elapsed time: 4.8160 seconds.
+---
+164
+'g.97.3.graphml' started.
+'g.97.3.graphml' stopped. Elapsed time: 6.5725 seconds.
+---
+165
+'g.12.10.graphml' started.
+'g.12.10.graphml' stopped. Elapsed time: 0.1692 seconds.
+---
+166
+'g.49.7.graphml' started.
+'g.49.7.graphml' stopped. Elapsed time: 0.7907 seconds.
+---
+167
+'g.80.7.graphml' started.
+'g.80.7.graphml' stopped. Elapsed time: 3.7055 seconds.
+---
+168
+'g.25.10.graphml' started.
+'g.25.10.graphml' stopped. Elapsed time: 0.1735 seconds.
+---
+169
+'g.92.6.graphml' started.
+'g.92.6.graphml' stopped. Elapsed time: 5.1498 seconds.
+---
+170
+'g.34.10.graphml' started.
+'g.34.10.graphml' stopped. Elapsed time: 0.3675 seconds.
+---
+171
+'g.69.4.graphml' started.
+'g.69.4.graphml' stopped. Elapsed time: 2.1319 seconds.
+---
+172
+'g.59.8.graphml' started.
+'g.59.8.graphml' stopped. Elapsed time: 1.4811 seconds.
+---
+173
+'g.85.2.graphml' started.
+'g.85.2.graphml' stopped. Elapsed time: 4.0040 seconds.
+---
+174
+'g.90.8.graphml' started.
+'g.90.8.graphml' stopped. Elapsed time: 4.5548 seconds.
+---
+175
+'g.65.7.graphml' started.
+'g.65.7.graphml' stopped. Elapsed time: 1.9139 seconds.
+---
+176
+'g.56.10.graphml' started.
+'g.56.10.graphml' stopped. Elapsed time: 1.1577 seconds.
+---
+177
+'g.57.5.graphml' started.
+'g.57.5.graphml' stopped. Elapsed time: 1.9426 seconds.
+---
+178
+'g.21.6.graphml' started.
+'g.21.6.graphml' stopped. Elapsed time: 0.1148 seconds.
+---
+179
+'g.61.10.graphml' started.
+'g.61.10.graphml' stopped. Elapsed time: 1.5045 seconds.
+---
+180
+'g.13.4.graphml' started.
+'g.13.4.graphml' stopped. Elapsed time: 0.0404 seconds.
+---
+181
+'g.23.8.graphml' started.
+'g.23.8.graphml' stopped. Elapsed time: 0.1096 seconds.
+---
+182
+'g.36.2.graphml' started.
+'g.36.2.graphml' stopped. Elapsed time: 0.2943 seconds.
+---
+183
+'g.89.1.graphml' started.
+'g.89.1.graphml' stopped. Elapsed time: 5.0969 seconds.
+---
+184
+'g.40.1.graphml' started.
+'g.40.1.graphml' stopped. Elapsed time: 0.5236 seconds.
+---
+185
+'g.67.9.graphml' started.
+'g.67.9.graphml' stopped. Elapsed time: 2.0304 seconds.
+---
+186
+'g.72.3.graphml' started.
+'g.72.3.graphml' stopped. Elapsed time: 2.6733 seconds.
+---
+187
+'g.66.3.graphml' started.
+'g.66.3.graphml' stopped. Elapsed time: 2.0051 seconds.
+---
+188
+'g.73.9.graphml' started.
+'g.73.9.graphml' stopped. Elapsed time: 2.7422 seconds.
+---
+189
+'g.54.1.graphml' started.
+'g.54.1.graphml' stopped. Elapsed time: 1.2103 seconds.
+---
+190
+'g.22.2.graphml' started.
+'g.22.2.graphml' stopped. Elapsed time: 0.0920 seconds.
+---
+191
+'g.37.8.graphml' started.
+'g.37.8.graphml' stopped. Elapsed time: 0.3089 seconds.
+---
+192
+'g.35.6.graphml' started.
+'g.35.6.graphml' stopped. Elapsed time: 0.3625 seconds.
+---
+193
+'g.43.5.graphml' started.
+'g.43.5.graphml' stopped. Elapsed time: 0.5189 seconds.
+---
+194
+'g.71.7.graphml' started.
+'g.71.7.graphml' stopped. Elapsed time: 2.4114 seconds.
+---
+195
+'g.58.2.graphml' started.
+'g.58.2.graphml' stopped. Elapsed time: 1.4377 seconds.
+---
+196
+'g.84.8.graphml' started.
+'g.84.8.graphml' stopped. Elapsed time: 3.8001 seconds.
+---
+197
+'g.91.2.graphml' started.
+'g.91.2.graphml' stopped. Elapsed time: 5.5392 seconds.
+---
+198
+'g.39.5.graphml' started.
+'g.39.5.graphml' stopped. Elapsed time: 0.5461 seconds.
+---
+199
+'g.86.6.graphml' started.
+'g.86.6.graphml' stopped. Elapsed time: 3.7042 seconds.
+---
+200
+'g.100.3.graphml' started.
+'g.100.3.graphml' stopped. Elapsed time: 6.4449 seconds.
+---
+201
+'g.75.1.graphml' started.
+'g.75.1.graphml' stopped. Elapsed time: 2.5616 seconds.
+---
+202
+'g.52.9.graphml' started.
+'g.52.9.graphml' stopped. Elapsed time: 0.9187 seconds.
+---
+203
+'g.47.3.graphml' started.
+'g.47.3.graphml' stopped. Elapsed time: 0.6945 seconds.
+---
+204
+'g.16.8.graphml' started.
+'g.16.8.graphml' stopped. Elapsed time: 0.0746 seconds.
+---
+205
+'g.14.6.graphml' started.
+'g.14.6.graphml' stopped. Elapsed time: 0.0260 seconds.
+---
+206
+'g.26.4.graphml' started.
+'g.26.4.graphml' stopped. Elapsed time: 0.1116 seconds.
+---
+207
+'g.99.7.graphml' started.
+'g.99.7.graphml' stopped. Elapsed time: 6.5804 seconds.
+---
+208
+'g.50.7.graphml' started.
+'g.50.7.graphml' stopped. Elapsed time: 0.9959 seconds.
+---
+209
+'g.62.5.graphml' started.
+'g.62.5.graphml' stopped. Elapsed time: 1.6399 seconds.
+---
+210
+'g.28.10.graphml' started.
+'g.28.10.graphml' stopped. Elapsed time: 0.2494 seconds.
+---
+211
+'g.79.2.graphml' started.
+'g.79.2.graphml' stopped. Elapsed time: 3.2944 seconds.
+---
+212
+'g.28.9.graphml' started.
+'g.28.9.graphml' stopped. Elapsed time: 0.2197 seconds.
+---
+213
+'g.18.5.graphml' started.
+'g.18.5.graphml' stopped. Elapsed time: 0.1056 seconds.
+---
+214
+'g.95.4.graphml' started.
+'g.95.4.graphml' stopped. Elapsed time: 5.6981 seconds.
+---
+215
+'g.48.4.graphml' started.
+'g.48.4.graphml' stopped. Elapsed time: 0.8282 seconds.
+---
+216
+'g.81.4.graphml' started.
+'g.81.4.graphml' stopped. Elapsed time: 3.7005 seconds.
+---
+217
+'g.82.10.graphml' started.
+'g.82.10.graphml' stopped. Elapsed time: 3.6601 seconds.
+---
+218
+'g.29.3.graphml' started.
+'g.29.3.graphml' stopped. Elapsed time: 0.2472 seconds.
+---
+219
+'g.78.8.graphml' started.
+'g.78.8.graphml' stopped. Elapsed time: 3.2574 seconds.
+---
+220
+'g.76.5.graphml' started.
+'g.76.5.graphml' stopped. Elapsed time: 2.9806 seconds.
+---
+221
+'g.44.7.graphml' started.
+'g.44.7.graphml' stopped. Elapsed time: 0.6796 seconds.
+---
+222
+'g.32.4.graphml' started.
+'g.32.4.graphml' stopped. Elapsed time: 0.2147 seconds.
+---
+223
+'g.17.2.graphml' started.
+'g.17.2.graphml' stopped. Elapsed time: 0.0744 seconds.
+---
+224
+'g.53.3.graphml' started.
+'g.53.3.graphml' stopped. Elapsed time: 1.0398 seconds.
+---
+225
+'g.46.9.graphml' started.
+'g.46.9.graphml' stopped. Elapsed time: 0.7435 seconds.
+---
+226
+'g.61.1.graphml' started.
+'g.61.1.graphml' stopped. Elapsed time: 1.7770 seconds.
+---
+227
+'g.90.3.graphml' started.
+'g.90.3.graphml' stopped. Elapsed time: 4.8324 seconds.
+---
+228
+'g.85.9.graphml' started.
+'g.85.9.graphml' stopped. Elapsed time: 4.1247 seconds.
+---
+229
+'g.59.3.graphml' started.
+'g.59.3.graphml' stopped. Elapsed time: 1.5110 seconds.
+---
+230
+'g.38.4.graphml' started.
+'g.38.4.graphml' stopped. Elapsed time: 0.3653 seconds.
+---
+231
+'g.87.7.graphml' started.
+'g.87.7.graphml' stopped. Elapsed time: 4.3748 seconds.
+---
+232
+'g.85.10.graphml' started.
+'g.85.10.graphml' stopped. Elapsed time: 4.1402 seconds.
+---
+233
+'g.72.8.graphml' started.
+'g.72.8.graphml' stopped. Elapsed time: 2.6865 seconds.
+---
+234
+'g.67.2.graphml' started.
+'g.67.2.graphml' stopped. Elapsed time: 2.0813 seconds.
+---
+235
+'g.11.1.graphml' started.
+'g.11.1.graphml' stopped. Elapsed time: 0.0540 seconds.
+---
+236
+'g.36.9.graphml' started.
+'g.36.9.graphml' stopped. Elapsed time: 0.2798 seconds.
+---
+237
+'g.23.3.graphml' started.
+'g.23.3.graphml' stopped. Elapsed time: 0.0860 seconds.
+---
+238
+'g.34.7.graphml' started.
+'g.34.7.graphml' stopped. Elapsed time: 0.2827 seconds.
+---
+239
+'g.70.6.graphml' started.
+'g.70.6.graphml' stopped. Elapsed time: 2.4027 seconds.
+---
+240
+'g.42.4.graphml' started.
+'g.42.4.graphml' stopped. Elapsed time: 0.5915 seconds.
+---
+241
+'g.56.4.graphml' started.
+'g.56.4.graphml' stopped. Elapsed time: 1.3257 seconds.
+---
+242
+'g.18.10.graphml' started.
+'g.18.10.graphml' stopped. Elapsed time: 0.1305 seconds.
+---
+243
+'g.64.6.graphml' started.
+'g.64.6.graphml' stopped. Elapsed time: 1.8285 seconds.
+---
+244
+'g.12.5.graphml' started.
+'g.12.5.graphml' stopped. Elapsed time: 0.0463 seconds.
+---
+245
+'g.20.7.graphml' started.
+'g.20.7.graphml' stopped. Elapsed time: 0.0600 seconds.
+---
+246
+'g.37.3.graphml' started.
+'g.37.3.graphml' stopped. Elapsed time: 0.3360 seconds.
+---
+247
+'g.22.9.graphml' started.
+'g.22.9.graphml' stopped. Elapsed time: 0.0873 seconds.
+---
+248
+'g.73.2.graphml' started.
+'g.73.2.graphml' stopped. Elapsed time: 2.6833 seconds.
+---
+249
+'g.66.8.graphml' started.
+'g.66.8.graphml' stopped. Elapsed time: 2.1020 seconds.
+---
+250
+'g.68.5.graphml' started.
+'g.68.5.graphml' stopped. Elapsed time: 2.2272 seconds.
+---
+251
+'g.93.7.graphml' started.
+'g.93.7.graphml' stopped. Elapsed time: 5.1175 seconds.
+---
+252
+'g.91.9.graphml' started.
+'g.91.9.graphml' stopped. Elapsed time: 4.8835 seconds.
+---
+253
+'g.84.3.graphml' started.
+'g.84.3.graphml' stopped. Elapsed time: 3.8913 seconds.
+---
+254
+'g.58.9.graphml' started.
+'g.58.9.graphml' stopped. Elapsed time: 1.5149 seconds.
+---
+255
+'g.99.10.graphml' started.
+'g.99.10.graphml' stopped. Elapsed time: 6.2507 seconds.
+---
+256
+'g.45.6.graphml' started.
+'g.45.6.graphml' stopped. Elapsed time: 0.8307 seconds.
+---
+257
+'g.77.4.graphml' started.
+'g.77.4.graphml' stopped. Elapsed time: 2.9085 seconds.
+---
+258
+'g.33.5.graphml' started.
+'g.33.5.graphml' stopped. Elapsed time: 0.4150 seconds.
+---
+259
+'g.24.1.graphml' started.
+'g.24.1.graphml' stopped. Elapsed time: 0.0995 seconds.
+---
+260
+'g.16.3.graphml' started.
+'g.16.3.graphml' stopped. Elapsed time: 0.0353 seconds.
+---
+261
+'g.100.8.graphml' started.
+'g.100.8.graphml' stopped. Elapsed time: 6.4010 seconds.
+---
+262
+'g.47.8.graphml' started.
+'g.47.8.graphml' stopped. Elapsed time: 0.9238 seconds.
+---
+263
+'g.52.2.graphml' started.
+'g.52.2.graphml' stopped. Elapsed time: 0.9476 seconds.
+---
+264
+'g.80.5.graphml' started.
+'g.80.5.graphml' stopped. Elapsed time: 3.4745 seconds.
+---
+265
+'g.49.5.graphml' started.
+'g.49.5.graphml' stopped. Elapsed time: 0.8576 seconds.
+---
+266
+'g.28.2.graphml' started.
+'g.28.2.graphml' stopped. Elapsed time: 0.1618 seconds.
+---
+267
+'g.97.1.graphml' started.
+'g.97.1.graphml' stopped. Elapsed time: 6.1967 seconds.
+---
+268
+'g.79.9.graphml' started.
+'g.79.9.graphml' stopped. Elapsed time: 3.4489 seconds.
+---
+269
+'g.78.3.graphml' started.
+'g.78.3.graphml' stopped. Elapsed time: 2.7238 seconds.
+---
+270
+'g.83.1.graphml' started.
+'g.83.1.graphml' stopped. Elapsed time: 3.2336 seconds.
+---
+271
+'g.29.8.graphml' started.
+'g.29.8.graphml' stopped. Elapsed time: 0.2232 seconds.
+---
+272
+'g.33.10.graphml' started.
+'g.33.10.graphml' stopped. Elapsed time: 0.2330 seconds.
+---
+273
+'g.19.4.graphml' started.
+'g.19.4.graphml' stopped. Elapsed time: 0.0491 seconds.
+---
+274
+'g.94.5.graphml' started.
+'g.94.5.graphml' stopped. Elapsed time: 4.8033 seconds.
+---
+275
+'g.46.2.graphml' started.
+'g.46.2.graphml' stopped. Elapsed time: 0.6616 seconds.
+---
+276
+'g.53.8.graphml' started.
+'g.53.8.graphml' stopped. Elapsed time: 0.9248 seconds.
+---
+277
+'g.17.9.graphml' started.
+'g.17.9.graphml' stopped. Elapsed time: 0.1032 seconds.
+---
+278
+'g.30.1.graphml' started.
+'g.30.1.graphml' stopped. Elapsed time: 0.1645 seconds.
+---
+279
+'g.27.5.graphml' started.
+'g.27.5.graphml' stopped. Elapsed time: 0.1590 seconds.
+---
+280
+'g.15.7.graphml' started.
+'g.15.7.graphml' stopped. Elapsed time: 0.0294 seconds.
+---
+281
+'g.51.10.graphml' started.
+'g.51.10.graphml' stopped. Elapsed time: 0.8861 seconds.
+---
+282
+'g.66.10.graphml' started.
+'g.66.10.graphml' stopped. Elapsed time: 1.7728 seconds.
+---
+283
+'g.63.4.graphml' started.
+'g.63.4.graphml' stopped. Elapsed time: 1.6507 seconds.
+---
+284
+'g.51.6.graphml' started.
+'g.51.6.graphml' stopped. Elapsed time: 0.8650 seconds.
+---
+285
+'g.98.6.graphml' started.
+'g.98.6.graphml' stopped. Elapsed time: 5.5459 seconds.
+---
+286
+'g.71.5.graphml' started.
+'g.71.5.graphml' stopped. Elapsed time: 2.2158 seconds.
+---
+287
+'g.77.10.graphml' started.
+'g.77.10.graphml' stopped. Elapsed time: 2.6151 seconds.
+---
+288
+'g.43.7.graphml' started.
+'g.43.7.graphml' stopped. Elapsed time: 0.4933 seconds.
+---
+289
+'g.35.4.graphml' started.
+'g.35.4.graphml' stopped. Elapsed time: 0.2810 seconds.
+---
+290
+'g.40.10.graphml' started.
+'g.40.10.graphml' stopped. Elapsed time: 0.3857 seconds.
+---
+291
+'g.10.2.graphml' started.
+'g.10.2.graphml' stopped. Elapsed time: 0.0155 seconds.
+---
+292
+'g.41.9.graphml' started.
+'g.41.9.graphml' stopped. Elapsed time: 0.4127 seconds.
+---
+293
+'g.88.9.graphml' started.
+'g.88.9.graphml' stopped. Elapsed time: 3.9999 seconds.
+---
+294
+'g.54.3.graphml' started.
+'g.54.3.graphml' stopped. Elapsed time: 1.0870 seconds.
+---
+295
+'g.66.1.graphml' started.
+'g.66.1.graphml' stopped. Elapsed time: 2.2145 seconds.
+---
+296
+'g.86.4.graphml' started.
+'g.86.4.graphml' stopped. Elapsed time: 3.8072 seconds.
+---
+297
+'g.15.10.graphml' started.
+'g.15.10.graphml' stopped. Elapsed time: 0.1077 seconds.
+---
+298
+'g.22.10.graphml' started.
+'g.22.10.graphml' stopped. Elapsed time: 0.0874 seconds.
+---
+299
+'g.39.7.graphml' started.
+'g.39.7.graphml' stopped. Elapsed time: 0.3769 seconds.
+---
+300
+'g.69.6.graphml' started.
+'g.69.6.graphml' stopped. Elapsed time: 2.4596 seconds.
+---
+301
+'g.92.4.graphml' started.
+'g.92.4.graphml' stopped. Elapsed time: 5.1294 seconds.
+---
+302
+'g.72.1.graphml' started.
+'g.72.1.graphml' stopped. Elapsed time: 2.6877 seconds.
+---
+303
+'g.40.3.graphml' started.
+'g.40.3.graphml' stopped. Elapsed time: 0.6781 seconds.
+---
+304
+'g.89.3.graphml' started.
+'g.89.3.graphml' stopped. Elapsed time: 5.8387 seconds.
+---
+305
+'g.55.9.graphml' started.
+'g.55.9.graphml' stopped. Elapsed time: 1.3847 seconds.
+---
+306
+'g.11.8.graphml' started.
+'g.11.8.graphml' stopped. Elapsed time: 0.0431 seconds.
+---
+307
+'g.13.6.graphml' started.
+'g.13.6.graphml' stopped. Elapsed time: 0.0248 seconds.
+---
+308
+'g.21.4.graphml' started.
+'g.21.4.graphml' stopped. Elapsed time: 0.0783 seconds.
+---
+309
+'g.57.7.graphml' started.
+'g.57.7.graphml' stopped. Elapsed time: 1.4644 seconds.
+---
+310
+'g.88.10.graphml' started.
+'g.88.10.graphml' stopped. Elapsed time: 4.6385 seconds.
+---
+311
+'g.65.5.graphml' started.
+'g.65.5.graphml' stopped. Elapsed time: 1.9222 seconds.
+---
+312
+'g.96.2.graphml' started.
+'g.96.2.graphml' stopped. Elapsed time: 6.3447 seconds.
+---
+313
+'g.83.8.graphml' started.
+'g.83.8.graphml' stopped. Elapsed time: 4.5498 seconds.
+---
+314
+'g.29.1.graphml' started.
+'g.29.1.graphml' stopped. Elapsed time: 0.2520 seconds.
+---
+315
+'g.81.6.graphml' started.
+'g.81.6.graphml' stopped. Elapsed time: 3.3630 seconds.
+---
+316
+'g.48.6.graphml' started.
+'g.48.6.graphml' stopped. Elapsed time: 0.8612 seconds.
+---
+317
+'g.74.9.graphml' started.
+'g.74.9.graphml' stopped. Elapsed time: 2.7590 seconds.
+---
+318
+'g.61.3.graphml' started.
+'g.61.3.graphml' stopped. Elapsed time: 1.5386 seconds.
+---
+319
+'g.53.1.graphml' started.
+'g.53.1.graphml' stopped. Elapsed time: 0.9453 seconds.
+---
+320
+'g.30.8.graphml' started.
+'g.30.8.graphml' stopped. Elapsed time: 0.2529 seconds.
+---
+321
+'g.25.2.graphml' started.
+'g.25.2.graphml' stopped. Elapsed time: 0.1046 seconds.
+---
+322
+'g.32.6.graphml' started.
+'g.32.6.graphml' stopped. Elapsed time: 0.2285 seconds.
+---
+323
+'g.44.5.graphml' started.
+'g.44.5.graphml' stopped. Elapsed time: 0.6984 seconds.
+---
+324
+'g.76.7.graphml' started.
+'g.76.7.graphml' stopped. Elapsed time: 2.7655 seconds.
+---
+325
+'g.62.7.graphml' started.
+'g.62.7.graphml' stopped. Elapsed time: 1.8262 seconds.
+---
+326
+'g.50.5.graphml' started.
+'g.50.5.graphml' stopped. Elapsed time: 0.7204 seconds.
+---
+327
+'g.99.5.graphml' started.
+'g.99.5.graphml' stopped. Elapsed time: 5.7420 seconds.
+---
+328
+'g.26.6.graphml' started.
+'g.26.6.graphml' stopped. Elapsed time: 0.2628 seconds.
+---
+329
+'g.14.4.graphml' started.
+'g.14.4.graphml' stopped. Elapsed time: 0.0271 seconds.
+---
+330
+'g.31.2.graphml' started.
+'g.31.2.graphml' stopped. Elapsed time: 0.1743 seconds.
+---
+331
+'g.24.8.graphml' started.
+'g.24.8.graphml' stopped. Elapsed time: 0.0882 seconds.
+---
+332
+'g.47.1.graphml' started.
+'g.47.1.graphml' stopped. Elapsed time: 0.5978 seconds.
+---
+333
+'g.100.1.graphml' started.
+'g.100.1.graphml' stopped. Elapsed time: 6.1536 seconds.
+---
+334
+'g.75.3.graphml' started.
+'g.75.3.graphml' stopped. Elapsed time: 2.7380 seconds.
+---
+335
+'g.60.9.graphml' started.
+'g.60.9.graphml' stopped. Elapsed time: 1.5125 seconds.
+---
+336
+'g.94.10.graphml' started.
+'g.94.10.graphml' stopped. Elapsed time: 5.2200 seconds.
+---
+337
+'g.95.6.graphml' started.
+'g.95.6.graphml' stopped. Elapsed time: 5.3190 seconds.
+---
+338
+'g.18.7.graphml' started.
+'g.18.7.graphml' stopped. Elapsed time: 0.1634 seconds.
+---
+339
+'g.97.8.graphml' started.
+'g.97.8.graphml' stopped. Elapsed time: 5.6299 seconds.
+---
+340
+'g.82.2.graphml' started.
+'g.82.2.graphml' stopped. Elapsed time: 3.6297 seconds.
+---
+341
+'g.39.6.graphml' started.
+'g.39.6.graphml' stopped. Elapsed time: 0.5090 seconds.
+---
+342
+'g.86.5.graphml' started.
+'g.86.5.graphml' stopped. Elapsed time: 3.8532 seconds.
+---
+343
+'g.58.1.graphml' started.
+'g.58.1.graphml' stopped. Elapsed time: 1.2958 seconds.
+---
+344
+'g.91.1.graphml' started.
+'g.91.1.graphml' stopped. Elapsed time: 4.5622 seconds.
+---
+345
+'g.35.5.graphml' started.
+'g.35.5.graphml' stopped. Elapsed time: 0.5099 seconds.
+---
+346
+'g.43.6.graphml' started.
+'g.43.6.graphml' stopped. Elapsed time: 0.5877 seconds.
+---
+347
+'g.71.4.graphml' started.
+'g.71.4.graphml' stopped. Elapsed time: 2.1983 seconds.
+---
+348
+'g.54.2.graphml' started.
+'g.54.2.graphml' stopped. Elapsed time: 1.0954 seconds.
+---
+349
+'g.88.8.graphml' started.
+'g.88.8.graphml' stopped. Elapsed time: 4.1371 seconds.
+---
+350
+'g.41.8.graphml' started.
+'g.41.8.graphml' stopped. Elapsed time: 0.6504 seconds.
+---
+351
+'g.22.1.graphml' started.
+'g.22.1.graphml' stopped. Elapsed time: 0.0848 seconds.
+---
+352
+'g.10.3.graphml' started.
+'g.10.3.graphml' stopped. Elapsed time: 0.0193 seconds.
+---
+353
+'g.11.9.graphml' started.
+'g.11.9.graphml' stopped. Elapsed time: 0.0146 seconds.
+---
+354
+'g.36.1.graphml' started.
+'g.36.1.graphml' stopped. Elapsed time: 0.2719 seconds.
+---
+355
+'g.55.8.graphml' started.
+'g.55.8.graphml' stopped. Elapsed time: 1.0847 seconds.
+---
+356
+'g.89.2.graphml' started.
+'g.89.2.graphml' stopped. Elapsed time: 4.6136 seconds.
+---
+357
+'g.40.2.graphml' started.
+'g.40.2.graphml' stopped. Elapsed time: 0.4681 seconds.
+---
+358
+'g.65.4.graphml' started.
+'g.65.4.graphml' stopped. Elapsed time: 1.6772 seconds.
+---
+359
+'g.45.10.graphml' started.
+'g.45.10.graphml' stopped. Elapsed time: 0.7118 seconds.
+---
+360
+'g.57.6.graphml' started.
+'g.57.6.graphml' stopped. Elapsed time: 1.2442 seconds.
+---
+361
+'g.72.10.graphml' started.
+'g.72.10.graphml' stopped. Elapsed time: 2.3134 seconds.
+---
+362
+'g.21.5.graphml' started.
+'g.21.5.graphml' stopped. Elapsed time: 0.2231 seconds.
+---
+363
+'g.13.7.graphml' started.
+'g.13.7.graphml' stopped. Elapsed time: 0.0249 seconds.
+---
+364
+'g.85.1.graphml' started.
+'g.85.1.graphml' stopped. Elapsed time: 3.8236 seconds.
+---
+365
+'g.27.10.graphml' started.
+'g.27.10.graphml' stopped. Elapsed time: 0.2617 seconds.
+---
+366
+'g.92.5.graphml' started.
+'g.92.5.graphml' stopped. Elapsed time: 5.1073 seconds.
+---
+367
+'g.69.7.graphml' started.
+'g.69.7.graphml' stopped. Elapsed time: 2.0963 seconds.
+---
+368
+'g.10.10.graphml' started.
+'g.10.10.graphml' stopped. Elapsed time: 0.0514 seconds.
+---
+369
+'g.17.1.graphml' started.
+'g.17.1.graphml' stopped. Elapsed time: 0.0425 seconds.
+---
+370
+'g.25.3.graphml' started.
+'g.25.3.graphml' stopped. Elapsed time: 0.1052 seconds.
+---
+371
+'g.30.9.graphml' started.
+'g.30.9.graphml' stopped. Elapsed time: 0.1682 seconds.
+---
+372
+'g.61.2.graphml' started.
+'g.61.2.graphml' stopped. Elapsed time: 1.4896 seconds.
+---
+373
+'g.74.8.graphml' started.
+'g.74.8.graphml' stopped. Elapsed time: 2.5447 seconds.
+---
+374
+'g.76.6.graphml' started.
+'g.76.6.graphml' stopped. Elapsed time: 2.7991 seconds.
+---
+375
+'g.44.4.graphml' started.
+'g.44.4.graphml' stopped. Elapsed time: 0.6610 seconds.
+---
+376
+'g.32.7.graphml' started.
+'g.32.7.graphml' stopped. Elapsed time: 0.2045 seconds.
+---
+377
+'g.83.9.graphml' started.
+'g.83.9.graphml' stopped. Elapsed time: 4.1876 seconds.
+---
+378
+'g.96.3.graphml' started.
+'g.96.3.graphml' stopped. Elapsed time: 5.1827 seconds.
+---
+379
+'g.48.7.graphml' started.
+'g.48.7.graphml' stopped. Elapsed time: 0.8931 seconds.
+---
+380
+'g.81.7.graphml' started.
+'g.81.7.graphml' stopped. Elapsed time: 3.1317 seconds.
+---
+381
+'g.91.10.graphml' started.
+'g.91.10.graphml' stopped. Elapsed time: 4.5925 seconds.
+---
+382
+'g.18.6.graphml' started.
+'g.18.6.graphml' stopped. Elapsed time: 0.1406 seconds.
+---
+383
+'g.95.7.graphml' started.
+'g.95.7.graphml' stopped. Elapsed time: 5.2398 seconds.
+---
+384
+'g.59.10.graphml' started.
+'g.59.10.graphml' stopped. Elapsed time: 1.4159 seconds.
+---
+385
+'g.82.3.graphml' started.
+'g.82.3.graphml' stopped. Elapsed time: 3.4246 seconds.
+---
+386
+'g.97.9.graphml' started.
+'g.97.9.graphml' stopped. Elapsed time: 5.6779 seconds.
+---
+387
+'g.79.1.graphml' started.
+'g.79.1.graphml' stopped. Elapsed time: 3.2749 seconds.
+---
+388
+'g.14.5.graphml' started.
+'g.14.5.graphml' stopped. Elapsed time: 0.0869 seconds.
+---
+389
+'g.26.7.graphml' started.
+'g.26.7.graphml' stopped. Elapsed time: 0.1249 seconds.
+---
+390
+'g.99.4.graphml' started.
+'g.99.4.graphml' stopped. Elapsed time: 5.6947 seconds.
+---
+391
+'g.50.4.graphml' started.
+'g.50.4.graphml' stopped. Elapsed time: 0.9683 seconds.
+---
+392
+'g.62.6.graphml' started.
+'g.62.6.graphml' stopped. Elapsed time: 1.4746 seconds.
+---
+393
+'g.60.8.graphml' started.
+'g.60.8.graphml' stopped. Elapsed time: 1.5036 seconds.
+---
+394
+'g.75.2.graphml' started.
+'g.75.2.graphml' stopped. Elapsed time: 2.6912 seconds.
+---
+395
+'g.24.9.graphml' started.
+'g.24.9.graphml' stopped. Elapsed time: 0.1560 seconds.
+---
+396
+'g.31.3.graphml' started.
+'g.31.3.graphml' stopped. Elapsed time: 0.2593 seconds.
+---
+397
+'g.23.2.graphml' started.
+'g.23.2.graphml' stopped. Elapsed time: 0.0838 seconds.
+---
+398
+'g.36.8.graphml' started.
+'g.36.8.graphml' stopped. Elapsed time: 0.2656 seconds.
+---
+399
+'g.67.3.graphml' started.
+'g.67.3.graphml' stopped. Elapsed time: 1.9154 seconds.
+---
+400
+'g.72.9.graphml' started.
+'g.72.9.graphml' stopped. Elapsed time: 2.3058 seconds.
+---
+401
+'g.55.1.graphml' started.
+'g.55.1.graphml' stopped. Elapsed time: 1.0804 seconds.
+---
+402
+'g.42.5.graphml' started.
+'g.42.5.graphml' stopped. Elapsed time: 0.4996 seconds.
+---
+403
+'g.70.7.graphml' started.
+'g.70.7.graphml' stopped. Elapsed time: 2.1357 seconds.
+---
+404
+'g.34.6.graphml' started.
+'g.34.6.graphml' stopped. Elapsed time: 0.2505 seconds.
+---
+405
+'g.59.2.graphml' started.
+'g.59.2.graphml' stopped. Elapsed time: 1.4077 seconds.
+---
+406
+'g.85.8.graphml' started.
+'g.85.8.graphml' stopped. Elapsed time: 3.7497 seconds.
+---
+407
+'g.90.2.graphml' started.
+'g.90.2.graphml' stopped. Elapsed time: 4.2642 seconds.
+---
+408
+'g.48.10.graphml' started.
+'g.48.10.graphml' stopped. Elapsed time: 0.9033 seconds.
+---
+409
+'g.87.6.graphml' started.
+'g.87.6.graphml' stopped. Elapsed time: 3.8742 seconds.
+---
+410
+'g.38.5.graphml' started.
+'g.38.5.graphml' stopped. Elapsed time: 0.3751 seconds.
+---
+411
+'g.80.10.graphml' started.
+'g.80.10.graphml' stopped. Elapsed time: 3.2137 seconds.
+---
+412
+'g.93.6.graphml' started.
+'g.93.6.graphml' stopped. Elapsed time: 4.7498 seconds.
+---
+413
+'g.68.4.graphml' started.
+'g.68.4.graphml' stopped. Elapsed time: 1.8739 seconds.
+---
+414
+'g.58.8.graphml' started.
+'g.58.8.graphml' stopped. Elapsed time: 1.2587 seconds.
+---
+415
+'g.84.2.graphml' started.
+'g.84.2.graphml' stopped. Elapsed time: 3.5281 seconds.
+---
+416
+'g.91.8.graphml' started.
+'g.91.8.graphml' stopped. Elapsed time: 4.7777 seconds.
+---
+417
+'g.20.6.graphml' started.
+'g.20.6.graphml' stopped. Elapsed time: 0.1667 seconds.
+---
+418
+'g.12.4.graphml' started.
+'g.12.4.graphml' stopped. Elapsed time: 0.0219 seconds.
+---
+419
+'g.64.7.graphml' started.
+'g.64.7.graphml' stopped. Elapsed time: 1.4707 seconds.
+---
+420
+'g.56.5.graphml' started.
+'g.56.5.graphml' stopped. Elapsed time: 1.1986 seconds.
+---
+421
+'g.88.1.graphml' started.
+'g.88.1.graphml' stopped. Elapsed time: 4.2163 seconds.
+---
+422
+'g.41.1.graphml' started.
+'g.41.1.graphml' stopped. Elapsed time: 0.5484 seconds.
+---
+423
+'g.66.9.graphml' started.
+'g.66.9.graphml' stopped. Elapsed time: 1.8347 seconds.
+---
+424
+'g.73.3.graphml' started.
+'g.73.3.graphml' stopped. Elapsed time: 2.4168 seconds.
+---
+425
+'g.22.8.graphml' started.
+'g.22.8.graphml' stopped. Elapsed time: 0.1176 seconds.
+---
+426
+'g.37.2.graphml' started.
+'g.37.2.graphml' stopped. Elapsed time: 0.3278 seconds.
+---
+427
+'g.49.4.graphml' started.
+'g.49.4.graphml' stopped. Elapsed time: 0.7703 seconds.
+---
+428
+'g.80.4.graphml' started.
+'g.80.4.graphml' stopped. Elapsed time: 3.2063 seconds.
+---
+429
+'g.36.10.graphml' started.
+'g.36.10.graphml' stopped. Elapsed time: 0.3507 seconds.
+---
+430
+'g.79.8.graphml' started.
+'g.79.8.graphml' stopped. Elapsed time: 2.8956 seconds.
+---
+431
+'g.28.3.graphml' started.
+'g.28.3.graphml' stopped. Elapsed time: 0.2914 seconds.
+---
+432
+'g.33.4.graphml' started.
+'g.33.4.graphml' stopped. Elapsed time: 0.2021 seconds.
+---
+433
+'g.63.10.graphml' started.
+'g.63.10.graphml' stopped. Elapsed time: 1.6156 seconds.
+---
+434
+'g.77.5.graphml' started.
+'g.77.5.graphml' stopped. Elapsed time: 2.7283 seconds.
+---
+435
+'g.45.7.graphml' started.
+'g.45.7.graphml' stopped. Elapsed time: 0.7089 seconds.
+---
+436
+'g.54.10.graphml' started.
+'g.54.10.graphml' stopped. Elapsed time: 1.1531 seconds.
+---
+437
+'g.52.3.graphml' started.
+'g.52.3.graphml' stopped. Elapsed time: 1.0151 seconds.
+---
+438
+'g.47.9.graphml' started.
+'g.47.9.graphml' stopped. Elapsed time: 0.7328 seconds.
+---
+439
+'g.60.1.graphml' started.
+'g.60.1.graphml' stopped. Elapsed time: 1.5278 seconds.
+---
+440
+'g.100.9.graphml' started.
+'g.100.9.graphml' stopped. Elapsed time: 6.0172 seconds.
+---
+441
+'g.16.2.graphml' started.
+'g.16.2.graphml' stopped. Elapsed time: 0.1917 seconds.
+---
+442
+'g.17.8.graphml' started.
+'g.17.8.graphml' stopped. Elapsed time: 0.0459 seconds.
+---
+443
+'g.74.1.graphml' started.
+'g.74.1.graphml' stopped. Elapsed time: 2.2095 seconds.
+---
+444
+'g.53.9.graphml' started.
+'g.53.9.graphml' stopped. Elapsed time: 1.0797 seconds.
+---
+445
+'g.46.3.graphml' started.
+'g.46.3.graphml' stopped. Elapsed time: 0.6925 seconds.
+---
+446
+'g.98.7.graphml' started.
+'g.98.7.graphml' stopped. Elapsed time: 5.4428 seconds.
+---
+447
+'g.51.7.graphml' started.
+'g.51.7.graphml' stopped. Elapsed time: 1.1184 seconds.
+---
+448
+'g.63.5.graphml' started.
+'g.63.5.graphml' stopped. Elapsed time: 1.5489 seconds.
+---
+449
+'g.15.6.graphml' started.
+'g.15.6.graphml' stopped. Elapsed time: 0.0528 seconds.
+---
+450
+'g.27.4.graphml' started.
+'g.27.4.graphml' stopped. Elapsed time: 0.1483 seconds.
+---
+451
+'g.29.9.graphml' started.
+'g.29.9.graphml' stopped. Elapsed time: 0.1448 seconds.
+---
+452
+'g.78.2.graphml' started.
+'g.78.2.graphml' stopped. Elapsed time: 3.1670 seconds.
+---
+453
+'g.94.4.graphml' started.
+'g.94.4.graphml' stopped. Elapsed time: 5.2839 seconds.
+---
+454
+'g.19.5.graphml' started.
+'g.19.5.graphml' stopped. Elapsed time: 0.1987 seconds.
+---
+455
+'g.97.5.graphml' started.
+'g.97.5.graphml' stopped. Elapsed time: 5.5707 seconds.
+---
+456
+'g.28.6.graphml' started.
+'g.28.6.graphml' stopped. Elapsed time: 0.2592 seconds.
+---
+457
+'g.49.1.graphml' started.
+'g.49.1.graphml' stopped. Elapsed time: 0.6100 seconds.
+---
+458
+'g.80.1.graphml' started.
+'g.80.1.graphml' stopped. Elapsed time: 3.0714 seconds.
+---
+459
+'g.60.4.graphml' started.
+'g.60.4.graphml' stopped. Elapsed time: 1.5582 seconds.
+---
+460
+'g.38.10.graphml' started.
+'g.38.10.graphml' stopped. Elapsed time: 0.3983 seconds.
+---
+461
+'g.52.6.graphml' started.
+'g.52.6.graphml' stopped. Elapsed time: 0.9460 seconds.
+---
+462
+'g.24.5.graphml' started.
+'g.24.5.graphml' stopped. Elapsed time: 0.0979 seconds.
+---
+463
+'g.16.7.graphml' started.
+'g.16.7.graphml' stopped. Elapsed time: 0.0347 seconds.
+---
+464
+'g.14.9.graphml' started.
+'g.14.9.graphml' stopped. Elapsed time: 0.0238 seconds.
+---
+465
+'g.33.1.graphml' started.
+'g.33.1.graphml' stopped. Elapsed time: 0.2292 seconds.
+---
+466
+'g.99.8.graphml' started.
+'g.99.8.graphml' stopped. Elapsed time: 6.2012 seconds.
+---
+467
+'g.45.2.graphml' started.
+'g.45.2.graphml' stopped. Elapsed time: 0.8946 seconds.
+---
+468
+'g.50.8.graphml' started.
+'g.50.8.graphml' stopped. Elapsed time: 0.6369 seconds.
+---
+469
+'g.98.2.graphml' started.
+'g.98.2.graphml' stopped. Elapsed time: 5.3951 seconds.
+---
+470
+'g.44.8.graphml' started.
+'g.44.8.graphml' stopped. Elapsed time: 0.8635 seconds.
+---
+471
+'g.51.2.graphml' started.
+'g.51.2.graphml' stopped. Elapsed time: 0.6649 seconds.
+---
+472
+'g.27.1.graphml' started.
+'g.27.1.graphml' stopped. Elapsed time: 0.1275 seconds.
+---
+473
+'g.15.3.graphml' started.
+'g.15.3.graphml' stopped. Elapsed time: 0.0245 seconds.
+---
+474
+'g.30.5.graphml' started.
+'g.30.5.graphml' stopped. Elapsed time: 0.1550 seconds.
+---
+475
+'g.46.6.graphml' started.
+'g.46.6.graphml' stopped. Elapsed time: 0.5943 seconds.
+---
+476
+'g.74.4.graphml' started.
+'g.74.4.graphml' stopped. Elapsed time: 2.6729 seconds.
+---
+477
+'g.94.1.graphml' started.
+'g.94.1.graphml' stopped. Elapsed time: 4.8609 seconds.
+---
+478
+'g.92.10.graphml' started.
+'g.92.10.graphml' stopped. Elapsed time: 4.5119 seconds.
+---
+479
+'g.78.7.graphml' started.
+'g.78.7.graphml' stopped. Elapsed time: 2.9611 seconds.
+---
+480
+'g.83.5.graphml' started.
+'g.83.5.graphml' stopped. Elapsed time: 3.3207 seconds.
+---
+481
+'g.70.2.graphml' started.
+'g.70.2.graphml' stopped. Elapsed time: 2.1267 seconds.
+---
+482
+'g.65.8.graphml' started.
+'g.65.8.graphml' stopped. Elapsed time: 1.8509 seconds.
+---
+483
+'g.100.10.graphml' started.
+'g.100.10.graphml' stopped. Elapsed time: 5.8697 seconds.
+---
+484
+'g.34.3.graphml' started.
+'g.34.3.graphml' stopped. Elapsed time: 0.4119 seconds.
+---
+485
+'g.21.9.graphml' started.
+'g.21.9.graphml' stopped. Elapsed time: 0.0763 seconds.
+---
+486
+'g.71.10.graphml' started.
+'g.71.10.graphml' stopped. Elapsed time: 2.1558 seconds.
+---
+487
+'g.11.5.graphml' started.
+'g.11.5.graphml' stopped. Elapsed time: 0.0502 seconds.
+---
+488
+'g.23.7.graphml' started.
+'g.23.7.graphml' stopped. Elapsed time: 0.1077 seconds.
+---
+489
+'g.55.4.graphml' started.
+'g.55.4.graphml' stopped. Elapsed time: 1.0906 seconds.
+---
+490
+'g.46.10.graphml' started.
+'g.46.10.graphml' stopped. Elapsed time: 0.6334 seconds.
+---
+491
+'g.67.6.graphml' started.
+'g.67.6.graphml' stopped. Elapsed time: 1.8912 seconds.
+---
+492
+'g.92.9.graphml' started.
+'g.92.9.graphml' stopped. Elapsed time: 4.8997 seconds.
+---
+493
+'g.87.3.graphml' started.
+'g.87.3.graphml' stopped. Elapsed time: 3.9029 seconds.
+---
+494
+'g.13.10.graphml' started.
+'g.13.10.graphml' stopped. Elapsed time: 0.1101 seconds.
+---
+495
+'g.24.10.graphml' started.
+'g.24.10.graphml' stopped. Elapsed time: 0.1144 seconds.
+---
+496
+'g.59.7.graphml' started.
+'g.59.7.graphml' stopped. Elapsed time: 1.3595 seconds.
+---
+497
+'g.90.7.graphml' started.
+'g.90.7.graphml' stopped. Elapsed time: 4.5340 seconds.
+---
+498
+'g.84.7.graphml' started.
+'g.84.7.graphml' stopped. Elapsed time: 3.7414 seconds.
+---
+499
+'g.68.1.graphml' started.
+'g.68.1.graphml' stopped. Elapsed time: 2.1893 seconds.
+---
+500
+'g.93.3.graphml' started.
+'g.93.3.graphml' stopped. Elapsed time: 4.7669 seconds.
+---
+501
+'g.86.9.graphml' started.
+'g.86.9.graphml' stopped. Elapsed time: 3.9228 seconds.
+---
+502
+'g.73.6.graphml' started.
+'g.73.6.graphml' stopped. Elapsed time: 2.3933 seconds.
+---
+503
+'g.88.4.graphml' started.
+'g.88.4.graphml' stopped. Elapsed time: 3.9636 seconds.
+---
+504
+'g.41.4.graphml' started.
+'g.41.4.graphml' stopped. Elapsed time: 0.5509 seconds.
+---
+505
+'g.37.7.graphml' started.
+'g.37.7.graphml' stopped. Elapsed time: 0.2849 seconds.
+---
+506
+'g.12.1.graphml' started.
+'g.12.1.graphml' stopped. Elapsed time: 0.0204 seconds.
+---
+507
+'g.35.9.graphml' started.
+'g.35.9.graphml' stopped. Elapsed time: 0.2337 seconds.
+---
+508
+'g.20.3.graphml' started.
+'g.20.3.graphml' stopped. Elapsed time: 0.0587 seconds.
+---
+509
+'g.71.8.graphml' started.
+'g.71.8.graphml' stopped. Elapsed time: 2.3251 seconds.
+---
+510
+'g.64.2.graphml' started.
+'g.64.2.graphml' stopped. Elapsed time: 1.7150 seconds.
+---
+511
+'g.44.1.graphml' started.
+'g.44.1.graphml' stopped. Elapsed time: 0.6551 seconds.
+---
+512
+'g.76.3.graphml' started.
+'g.76.3.graphml' stopped. Elapsed time: 2.7143 seconds.
+---
+513
+'g.63.9.graphml' started.
+'g.63.9.graphml' stopped. Elapsed time: 1.8167 seconds.
+---
+514
+'g.32.2.graphml' started.
+'g.32.2.graphml' stopped. Elapsed time: 0.3167 seconds.
+---
+515
+'g.27.8.graphml' started.
+'g.27.8.graphml' stopped. Elapsed time: 0.1355 seconds.
+---
+516
+'g.25.6.graphml' started.
+'g.25.6.graphml' stopped. Elapsed time: 0.1480 seconds.
+---
+517
+'g.17.4.graphml' started.
+'g.17.4.graphml' stopped. Elapsed time: 0.0470 seconds.
+---
+518
+'g.61.7.graphml' started.
+'g.61.7.graphml' stopped. Elapsed time: 1.6621 seconds.
+---
+519
+'g.53.5.graphml' started.
+'g.53.5.graphml' stopped. Elapsed time: 1.1582 seconds.
+---
+520
+'g.94.8.graphml' started.
+'g.94.8.graphml' stopped. Elapsed time: 4.8656 seconds.
+---
+521
+'g.48.2.graphml' started.
+'g.48.2.graphml' stopped. Elapsed time: 0.9647 seconds.
+---
+522
+'g.81.2.graphml' started.
+'g.81.2.graphml' stopped. Elapsed time: 3.1862 seconds.
+---
+523
+'g.19.9.graphml' started.
+'g.19.9.graphml' stopped. Elapsed time: 0.1135 seconds.
+---
+524
+'g.29.5.graphml' started.
+'g.29.5.graphml' stopped. Elapsed time: 0.1692 seconds.
+---
+525
+'g.96.6.graphml' started.
+'g.96.6.graphml' stopped. Elapsed time: 5.4127 seconds.
+---
+526
+'g.79.4.graphml' started.
+'g.79.4.graphml' stopped. Elapsed time: 3.1817 seconds.
+---
+527
+'g.35.10.graphml' started.
+'g.35.10.graphml' stopped. Elapsed time: 0.3067 seconds.
+---
+528
+'g.82.6.graphml' started.
+'g.82.6.graphml' stopped. Elapsed time: 3.3176 seconds.
+---
+529
+'g.18.3.graphml' started.
+'g.18.3.graphml' stopped. Elapsed time: 0.1008 seconds.
+---
+530
+'g.95.2.graphml' started.
+'g.95.2.graphml' stopped. Elapsed time: 5.1604 seconds.
+---
+531
+'g.49.8.graphml' started.
+'g.49.8.graphml' stopped. Elapsed time: 0.8941 seconds.
+---
+532
+'g.80.8.graphml' started.
+'g.80.8.graphml' stopped. Elapsed time: 2.9727 seconds.
+---
+533
+'g.47.5.graphml' started.
+'g.47.5.graphml' stopped. Elapsed time: 0.8228 seconds.
+---
+534
+'g.57.10.graphml' started.
+'g.57.10.graphml' stopped. Elapsed time: 1.2227 seconds.
+---
+535
+'g.75.7.graphml' started.
+'g.75.7.graphml' stopped. Elapsed time: 2.7197 seconds.
+---
+536
+'g.100.5.graphml' started.
+'g.100.5.graphml' stopped. Elapsed time: 5.9613 seconds.
+---
+537
+'g.60.10.graphml' started.
+'g.60.10.graphml' stopped. Elapsed time: 1.4335 seconds.
+---
+538
+'g.31.6.graphml' started.
+'g.31.6.graphml' stopped. Elapsed time: 0.2621 seconds.
+---
+539
+'g.33.8.graphml' started.
+'g.33.8.graphml' stopped. Elapsed time: 0.2530 seconds.
+---
+540
+'g.26.2.graphml' started.
+'g.26.2.graphml' stopped. Elapsed time: 0.1210 seconds.
+---
+541
+'g.77.9.graphml' started.
+'g.77.9.graphml' stopped. Elapsed time: 2.8316 seconds.
+---
+542
+'g.62.3.graphml' started.
+'g.62.3.graphml' stopped. Elapsed time: 1.4797 seconds.
+---
+543
+'g.99.1.graphml' started.
+'g.99.1.graphml' stopped. Elapsed time: 5.9215 seconds.
+---
+544
+'g.50.1.graphml' started.
+'g.50.1.graphml' stopped. Elapsed time: 0.9125 seconds.
+---
+545
+'g.58.4.graphml' started.
+'g.58.4.graphml' stopped. Elapsed time: 1.2492 seconds.
+---
+546
+'g.91.4.graphml' started.
+'g.91.4.graphml' stopped. Elapsed time: 4.5652 seconds.
+---
+547
+'g.83.10.graphml' started.
+'g.83.10.graphml' stopped. Elapsed time: 3.4107 seconds.
+---
+548
+'g.39.3.graphml' started.
+'g.39.3.graphml' stopped. Elapsed time: 0.4927 seconds.
+---
+549
+'g.68.8.graphml' started.
+'g.68.8.graphml' stopped. Elapsed time: 1.7109 seconds.
+---
+550
+'g.54.7.graphml' started.
+'g.54.7.graphml' stopped. Elapsed time: 1.2458 seconds.
+---
+551
+'g.66.5.graphml' started.
+'g.66.5.graphml' stopped. Elapsed time: 1.8598 seconds.
+---
+552
+'g.10.6.graphml' started.
+'g.10.6.graphml' stopped. Elapsed time: 0.0460 seconds.
+---
+553
+'g.22.4.graphml' started.
+'g.22.4.graphml' stopped. Elapsed time: 0.0757 seconds.
+---
+554
+'g.12.8.graphml' started.
+'g.12.8.graphml' stopped. Elapsed time: 0.0152 seconds.
+---
+555
+'g.71.1.graphml' started.
+'g.71.1.graphml' stopped. Elapsed time: 2.2869 seconds.
+---
+556
+'g.43.3.graphml' started.
+'g.43.3.graphml' stopped. Elapsed time: 0.5922 seconds.
+---
+557
+'g.56.9.graphml' started.
+'g.56.9.graphml' stopped. Elapsed time: 1.0964 seconds.
+---
+558
+'g.42.9.graphml' started.
+'g.42.9.graphml' stopped. Elapsed time: 0.4868 seconds.
+---
+559
+'g.57.3.graphml' started.
+'g.57.3.graphml' stopped. Elapsed time: 1.3336 seconds.
+---
+560
+'g.65.1.graphml' started.
+'g.65.1.graphml' stopped. Elapsed time: 1.7694 seconds.
+---
+561
+'g.13.2.graphml' started.
+'g.13.2.graphml' stopped. Elapsed time: 0.0496 seconds.
+---
+562
+'g.36.4.graphml' started.
+'g.36.4.graphml' stopped. Elapsed time: 0.2959 seconds.
+---
+563
+'g.29.10.graphml' started.
+'g.29.10.graphml' stopped. Elapsed time: 0.1573 seconds.
+---
+564
+'g.72.5.graphml' started.
+'g.72.5.graphml' stopped. Elapsed time: 2.4390 seconds.
+---
+565
+'g.89.7.graphml' started.
+'g.89.7.graphml' stopped. Elapsed time: 4.3012 seconds.
+---
+566
+'g.40.7.graphml' started.
+'g.40.7.graphml' stopped. Elapsed time: 0.4665 seconds.
+---
+567
+'g.69.2.graphml' started.
+'g.69.2.graphml' stopped. Elapsed time: 2.0476 seconds.
+---
+568
+'g.38.9.graphml' started.
+'g.38.9.graphml' stopped. Elapsed time: 0.4313 seconds.
+---
+569
+'g.85.4.graphml' started.
+'g.85.4.graphml' stopped. Elapsed time: 3.8967 seconds.
+---
+570
+'g.19.8.graphml' started.
+'g.19.8.graphml' stopped. Elapsed time: 0.1219 seconds.
+---
+571
+'g.81.3.graphml' started.
+'g.81.3.graphml' stopped. Elapsed time: 3.1471 seconds.
+---
+572
+'g.48.3.graphml' started.
+'g.48.3.graphml' stopped. Elapsed time: 0.8122 seconds.
+---
+573
+'g.94.9.graphml' started.
+'g.94.9.graphml' stopped. Elapsed time: 5.2806 seconds.
+---
+574
+'g.96.7.graphml' started.
+'g.96.7.graphml' stopped. Elapsed time: 5.7931 seconds.
+---
+575
+'g.30.10.graphml' started.
+'g.30.10.graphml' stopped. Elapsed time: 0.3519 seconds.
+---
+576
+'g.29.4.graphml' started.
+'g.29.4.graphml' stopped. Elapsed time: 0.1663 seconds.
+---
+577
+'g.27.9.graphml' started.
+'g.27.9.graphml' stopped. Elapsed time: 0.1289 seconds.
+---
+578
+'g.32.3.graphml' started.
+'g.32.3.graphml' stopped. Elapsed time: 0.2058 seconds.
+---
+579
+'g.63.8.graphml' started.
+'g.63.8.graphml' stopped. Elapsed time: 1.6117 seconds.
+---
+580
+'g.76.2.graphml' started.
+'g.76.2.graphml' stopped. Elapsed time: 3.0509 seconds.
+---
+581
+'g.65.10.graphml' started.
+'g.65.10.graphml' stopped. Elapsed time: 1.8120 seconds.
+---
+582
+'g.53.4.graphml' started.
+'g.53.4.graphml' stopped. Elapsed time: 0.9477 seconds.
+---
+583
+'g.61.6.graphml' started.
+'g.61.6.graphml' stopped. Elapsed time: 1.8704 seconds.
+---
+584
+'g.17.5.graphml' started.
+'g.17.5.graphml' stopped. Elapsed time: 0.0921 seconds.
+---
+585
+'g.52.10.graphml' started.
+'g.52.10.graphml' stopped. Elapsed time: 1.6182 seconds.
+---
+586
+'g.25.7.graphml' started.
+'g.25.7.graphml' stopped. Elapsed time: 0.2536 seconds.
+---
+587
+'g.31.7.graphml' started.
+'g.31.7.graphml' stopped. Elapsed time: 0.2270 seconds.
+---
+588
+'g.75.6.graphml' started.
+'g.75.6.graphml' stopped. Elapsed time: 3.2694 seconds.
+---
+589
+'g.47.4.graphml' started.
+'g.47.4.graphml' stopped. Elapsed time: 0.8872 seconds.
+---
+590
+'g.62.2.graphml' started.
+'g.62.2.graphml' stopped. Elapsed time: 1.7511 seconds.
+---
+591
+'g.77.8.graphml' started.
+'g.77.8.graphml' stopped. Elapsed time: 3.3968 seconds.
+---
+592
+'g.14.1.graphml' started.
+'g.14.1.graphml' stopped. Elapsed time: 0.0870 seconds.
+---
+593
+'g.26.3.graphml' started.
+'g.26.3.graphml' stopped. Elapsed time: 0.1290 seconds.
+---
+594
+'g.33.9.graphml' started.
+'g.33.9.graphml' stopped. Elapsed time: 0.2444 seconds.
+---
+595
+'g.82.7.graphml' started.
+'g.82.7.graphml' stopped. Elapsed time: 4.0534 seconds.
+---
+596
+'g.79.5.graphml' started.
+'g.79.5.graphml' stopped. Elapsed time: 4.1436 seconds.
+---
+597
+'g.80.9.graphml' started.
+'g.80.9.graphml' stopped. Elapsed time: 4.0671 seconds.
+---
+598
+'g.49.9.graphml' started.
+'g.49.9.graphml' stopped. Elapsed time: 1.0584 seconds.
+---
+599
+'g.95.3.graphml' started.
+'g.95.3.graphml' stopped. Elapsed time: 5.6419 seconds.
+---
+600
+'g.18.2.graphml' started.
+'g.18.2.graphml' stopped. Elapsed time: 0.1743 seconds.
+---
+601
+'g.22.5.graphml' started.
+'g.22.5.graphml' stopped. Elapsed time: 0.0849 seconds.
+---
+602
+'g.10.7.graphml' started.
+'g.10.7.graphml' stopped. Elapsed time: 0.0135 seconds.
+---
+603
+'g.66.4.graphml' started.
+'g.66.4.graphml' stopped. Elapsed time: 1.8883 seconds.
+---
+604
+'g.54.6.graphml' started.
+'g.54.6.graphml' stopped. Elapsed time: 1.1415 seconds.
+---
+605
+'g.56.8.graphml' started.
+'g.56.8.graphml' stopped. Elapsed time: 1.1362 seconds.
+---
+606
+'g.43.2.graphml' started.
+'g.43.2.graphml' stopped. Elapsed time: 0.5526 seconds.
+---
+607
+'g.12.9.graphml' started.
+'g.12.9.graphml' stopped. Elapsed time: 0.0869 seconds.
+---
+608
+'g.35.1.graphml' started.
+'g.35.1.graphml' stopped. Elapsed time: 0.3273 seconds.
+---
+609
+'g.91.5.graphml' started.
+'g.91.5.graphml' stopped. Elapsed time: 4.9100 seconds.
+---
+610
+'g.58.5.graphml' started.
+'g.58.5.graphml' stopped. Elapsed time: 1.3422 seconds.
+---
+611
+'g.79.10.graphml' started.
+'g.79.10.graphml' stopped. Elapsed time: 3.1707 seconds.
+---
+612
+'g.68.9.graphml' started.
+'g.68.9.graphml' stopped. Elapsed time: 2.2379 seconds.
+---
+613
+'g.86.1.graphml' started.
+'g.86.1.graphml' stopped. Elapsed time: 4.0979 seconds.
+---
+614
+'g.39.2.graphml' started.
+'g.39.2.graphml' stopped. Elapsed time: 0.4711 seconds.
+---
+615
+'g.38.8.graphml' started.
+'g.38.8.graphml' stopped. Elapsed time: 0.4432 seconds.
+---
+616
+'g.92.1.graphml' started.
+'g.92.1.graphml' stopped. Elapsed time: 5.0698 seconds.
+---
+617
+'g.69.3.graphml' started.
+'g.69.3.graphml' stopped. Elapsed time: 2.2565 seconds.
+---
+618
+'g.86.10.graphml' started.
+'g.86.10.graphml' stopped. Elapsed time: 4.6632 seconds.
+---
+619
+'g.85.5.graphml' started.
+'g.85.5.graphml' stopped. Elapsed time: 3.9421 seconds.
+---
+620
+'g.21.1.graphml' started.
+'g.21.1.graphml' stopped. Elapsed time: 0.1730 seconds.
+---
+621
+'g.13.3.graphml' started.
+'g.13.3.graphml' stopped. Elapsed time: 0.0261 seconds.
+---
+622
+'g.57.2.graphml' started.
+'g.57.2.graphml' stopped. Elapsed time: 1.3410 seconds.
+---
+623
+'g.42.8.graphml' started.
+'g.42.8.graphml' stopped. Elapsed time: 0.4813 seconds.
+---
+624
+'g.40.6.graphml' started.
+'g.40.6.graphml' stopped. Elapsed time: 0.4705 seconds.
+---
+625
+'g.89.6.graphml' started.
+'g.89.6.graphml' stopped. Elapsed time: 4.5777 seconds.
+---
+626
+'g.72.4.graphml' started.
+'g.72.4.graphml' stopped. Elapsed time: 2.0944 seconds.
+---
+627
+'g.36.5.graphml' started.
+'g.36.5.graphml' stopped. Elapsed time: 0.4189 seconds.
+---
+628
+'g.16.6.graphml' started.
+'g.16.6.graphml' stopped. Elapsed time: 0.0419 seconds.
+---
+629
+'g.24.4.graphml' started.
+'g.24.4.graphml' stopped. Elapsed time: 0.1034 seconds.
+---
+630
+'g.52.7.graphml' started.
+'g.52.7.graphml' stopped. Elapsed time: 0.9994 seconds.
+---
+631
+'g.60.5.graphml' started.
+'g.60.5.graphml' stopped. Elapsed time: 1.3661 seconds.
+---
+632
+'g.77.1.graphml' started.
+'g.77.1.graphml' stopped. Elapsed time: 2.9063 seconds.
+---
+633
+'g.50.9.graphml' started.
+'g.50.9.graphml' stopped. Elapsed time: 0.9464 seconds.
+---
+634
+'g.45.3.graphml' started.
+'g.45.3.graphml' stopped. Elapsed time: 0.8473 seconds.
+---
+635
+'g.99.9.graphml' started.
+'g.99.9.graphml' stopped. Elapsed time: 5.6843 seconds.
+---
+636
+'g.14.8.graphml' started.
+'g.14.8.graphml' stopped. Elapsed time: 0.1947 seconds.
+---
+637
+'g.28.7.graphml' started.
+'g.28.7.graphml' stopped. Elapsed time: 0.1668 seconds.
+---
+638
+'g.97.10.graphml' started.
+'g.97.10.graphml' stopped. Elapsed time: 4.9640 seconds.
+---
+639
+'g.97.4.graphml' started.
+'g.97.4.graphml' stopped. Elapsed time: 5.7744 seconds.
+---
+640
+'g.19.1.graphml' started.
+'g.19.1.graphml' stopped. Elapsed time: 0.2186 seconds.
+---
+641
+'g.68.10.graphml' started.
+'g.68.10.graphml' stopped. Elapsed time: 2.4118 seconds.
+---
+642
+'g.83.4.graphml' started.
+'g.83.4.graphml' stopped. Elapsed time: 4.3934 seconds.
+---
+643
+'g.78.6.graphml' started.
+'g.78.6.graphml' stopped. Elapsed time: 2.9618 seconds.
+---
+644
+'g.15.2.graphml' started.
+'g.15.2.graphml' stopped. Elapsed time: 0.0833 seconds.
+---
+645
+'g.51.3.graphml' started.
+'g.51.3.graphml' stopped. Elapsed time: 0.6763 seconds.
+---
+646
+'g.44.9.graphml' started.
+'g.44.9.graphml' stopped. Elapsed time: 0.5340 seconds.
+---
+647
+'g.98.3.graphml' started.
+'g.98.3.graphml' stopped. Elapsed time: 5.9858 seconds.
+---
+648
+'g.63.1.graphml' started.
+'g.63.1.graphml' stopped. Elapsed time: 1.8637 seconds.
+---
+649
+'g.74.5.graphml' started.
+'g.74.5.graphml' stopped. Elapsed time: 2.5199 seconds.
+---
+650
+'g.46.7.graphml' started.
+'g.46.7.graphml' stopped. Elapsed time: 0.6610 seconds.
+---
+651
+'g.30.4.graphml' started.
+'g.30.4.graphml' stopped. Elapsed time: 0.1771 seconds.
+---
+652
+'g.38.1.graphml' started.
+'g.38.1.graphml' stopped. Elapsed time: 0.3962 seconds.
+---
+653
+'g.87.2.graphml' started.
+'g.87.2.graphml' stopped. Elapsed time: 4.4057 seconds.
+---
+654
+'g.92.8.graphml' started.
+'g.92.8.graphml' stopped. Elapsed time: 7.1098 seconds.
+---
+655
+'g.90.6.graphml' started.
+'g.90.6.graphml' stopped. Elapsed time: 4.5324 seconds.
+---
+656
+'g.59.6.graphml' started.
+'g.59.6.graphml' stopped. Elapsed time: 1.3720 seconds.
+---
+657
+'g.21.8.graphml' started.
+'g.21.8.graphml' stopped. Elapsed time: 0.0951 seconds.
+---
+658
+'g.34.2.graphml' started.
+'g.34.2.graphml' stopped. Elapsed time: 0.4143 seconds.
+---
+659
+'g.42.1.graphml' started.
+'g.42.1.graphml' stopped. Elapsed time: 0.5997 seconds.
+---
+660
+'g.65.9.graphml' started.
+'g.65.9.graphml' stopped. Elapsed time: 2.1036 seconds.
+---
+661
+'g.70.3.graphml' started.
+'g.70.3.graphml' stopped. Elapsed time: 2.8214 seconds.
+---
+662
+'g.67.7.graphml' started.
+'g.67.7.graphml' stopped. Elapsed time: 2.7211 seconds.
+---
+663
+'g.55.5.graphml' started.
+'g.55.5.graphml' stopped. Elapsed time: 0.8734 seconds.
+---
+664
+'g.23.6.graphml' started.
+'g.23.6.graphml' stopped. Elapsed time: 0.1212 seconds.
+---
+665
+'g.11.4.graphml' started.
+'g.11.4.graphml' stopped. Elapsed time: 0.0125 seconds.
+---
+666
+'g.43.10.graphml' started.
+'g.43.10.graphml' stopped. Elapsed time: 0.4402 seconds.
+---
+667
+'g.37.6.graphml' started.
+'g.37.6.graphml' stopped. Elapsed time: 0.2885 seconds.
+---
+668
+'g.41.5.graphml' started.
+'g.41.5.graphml' stopped. Elapsed time: 0.4007 seconds.
+---
+669
+'g.88.5.graphml' started.
+'g.88.5.graphml' stopped. Elapsed time: 3.6695 seconds.
+---
+670
+'g.74.10.graphml' started.
+'g.74.10.graphml' stopped. Elapsed time: 2.3855 seconds.
+---
+671
+'g.73.7.graphml' started.
+'g.73.7.graphml' stopped. Elapsed time: 2.2348 seconds.
+---
+672
+'g.64.3.graphml' started.
+'g.64.3.graphml' stopped. Elapsed time: 1.5246 seconds.
+---
+673
+'g.71.9.graphml' started.
+'g.71.9.graphml' stopped. Elapsed time: 1.9836 seconds.
+---
+674
+'g.56.1.graphml' started.
+'g.56.1.graphml' stopped. Elapsed time: 0.9444 seconds.
+---
+675
+'g.20.2.graphml' started.
+'g.20.2.graphml' stopped. Elapsed time: 0.0672 seconds.
+---
+676
+'g.35.8.graphml' started.
+'g.35.8.graphml' stopped. Elapsed time: 0.2949 seconds.
+---
+677
+'g.21.10.graphml' started.
+'g.21.10.graphml' stopped. Elapsed time: 0.0611 seconds.
+---
+678
+'g.16.10.graphml' started.
+'g.16.10.graphml' stopped. Elapsed time: 0.0299 seconds.
+---
+679
+'g.84.6.graphml' started.
+'g.84.6.graphml' stopped. Elapsed time: 3.4977 seconds.
+---
+680
+'g.86.8.graphml' started.
+'g.86.8.graphml' stopped. Elapsed time: 3.5608 seconds.
+---
+681
+'g.93.2.graphml' started.
+'g.93.2.graphml' stopped. Elapsed time: 4.4355 seconds.
+---
+682
+'g.26.1.graphml' started.
+'g.26.1.graphml' stopped. Elapsed time: 0.2229 seconds.
+---
+683
+'g.14.3.graphml' started.
+'g.14.3.graphml' stopped. Elapsed time: 0.0505 seconds.
+---
+684
+'g.99.2.graphml' started.
+'g.99.2.graphml' stopped. Elapsed time: 5.3756 seconds.
+---
+685
+'g.45.8.graphml' started.
+'g.45.8.graphml' stopped. Elapsed time: 0.8004 seconds.
+---
+686
+'g.50.2.graphml' started.
+'g.50.2.graphml' stopped. Elapsed time: 0.6060 seconds.
+---
+687
+'g.44.10.graphml' started.
+'g.44.10.graphml' stopped. Elapsed time: 0.4725 seconds.
+---
+688
+'g.47.6.graphml' started.
+'g.47.6.graphml' stopped. Elapsed time: 0.6709 seconds.
+---
+689
+'g.100.6.graphml' started.
+'g.100.6.graphml' stopped. Elapsed time: 5.6986 seconds.
+---
+690
+'g.75.4.graphml' started.
+'g.75.4.graphml' stopped. Elapsed time: 2.1900 seconds.
+---
+691
+'g.31.5.graphml' started.
+'g.31.5.graphml' stopped. Elapsed time: 0.3045 seconds.
+---
+692
+'g.73.10.graphml' started.
+'g.73.10.graphml' stopped. Elapsed time: 2.1425 seconds.
+---
+693
+'g.95.1.graphml' started.
+'g.95.1.graphml' stopped. Elapsed time: 4.6672 seconds.
+---
+694
+'g.79.7.graphml' started.
+'g.79.7.graphml' stopped. Elapsed time: 2.9571 seconds.
+---
+695
+'g.82.5.graphml' started.
+'g.82.5.graphml' stopped. Elapsed time: 2.9986 seconds.
+---
+696
+'g.26.10.graphml' started.
+'g.26.10.graphml' stopped. Elapsed time: 0.1649 seconds.
+---
+697
+'g.11.10.graphml' started.
+'g.11.10.graphml' stopped. Elapsed time: 0.0149 seconds.
+---
+698
+'g.29.6.graphml' started.
+'g.29.6.graphml' stopped. Elapsed time: 0.1391 seconds.
+---
+699
+'g.96.5.graphml' started.
+'g.96.5.graphml' stopped. Elapsed time: 5.1399 seconds.
+---
+700
+'g.48.1.graphml' started.
+'g.48.1.graphml' stopped. Elapsed time: 0.6722 seconds.
+---
+701
+'g.81.1.graphml' started.
+'g.81.1.graphml' stopped. Elapsed time: 3.0478 seconds.
+---
+702
+'g.25.5.graphml' started.
+'g.25.5.graphml' stopped. Elapsed time: 0.1491 seconds.
+---
+703
+'g.17.7.graphml' started.
+'g.17.7.graphml' stopped. Elapsed time: 0.0351 seconds.
+---
+704
+'g.61.4.graphml' started.
+'g.61.4.graphml' stopped. Elapsed time: 1.3453 seconds.
+---
+705
+'g.53.6.graphml' started.
+'g.53.6.graphml' stopped. Elapsed time: 1.0123 seconds.
+---
+706
+'g.98.8.graphml' started.
+'g.98.8.graphml' stopped. Elapsed time: 5.6038 seconds.
+---
+707
+'g.44.2.graphml' started.
+'g.44.2.graphml' stopped. Elapsed time: 0.5304 seconds.
+---
+708
+'g.51.8.graphml' started.
+'g.51.8.graphml' stopped. Elapsed time: 0.7125 seconds.
+---
+709
+'g.15.9.graphml' started.
+'g.15.9.graphml' stopped. Elapsed time: 0.0412 seconds.
+---
+710
+'g.32.1.graphml' started.
+'g.32.1.graphml' stopped. Elapsed time: 0.2248 seconds.
+---
+711
+'g.58.10.graphml' started.
+'g.58.10.graphml' stopped. Elapsed time: 1.1586 seconds.
+---
+712
+'g.85.7.graphml' started.
+'g.85.7.graphml' stopped. Elapsed time: 3.5055 seconds.
+---
+713
+'g.69.1.graphml' started.
+'g.69.1.graphml' stopped. Elapsed time: 2.1020 seconds.
+---
+714
+'g.92.3.graphml' started.
+'g.92.3.graphml' stopped. Elapsed time: 4.1949 seconds.
+---
+715
+'g.87.9.graphml' started.
+'g.87.9.graphml' stopped. Elapsed time: 3.8255 seconds.
+---
+716
+'g.36.7.graphml' started.
+'g.36.7.graphml' stopped. Elapsed time: 0.3348 seconds.
+---
+717
+'g.72.6.graphml' started.
+'g.72.6.graphml' stopped. Elapsed time: 2.0427 seconds.
+---
+718
+'g.89.4.graphml' started.
+'g.89.4.graphml' stopped. Elapsed time: 3.8477 seconds.
+---
+719
+'g.40.4.graphml' started.
+'g.40.4.graphml' stopped. Elapsed time: 0.5169 seconds.
+---
+720
+'g.70.8.graphml' started.
+'g.70.8.graphml' stopped. Elapsed time: 2.0105 seconds.
+---
+721
+'g.65.2.graphml' started.
+'g.65.2.graphml' stopped. Elapsed time: 1.5746 seconds.
+---
+722
+'g.13.1.graphml' started.
+'g.13.1.graphml' stopped. Elapsed time: 0.0426 seconds.
+---
+723
+'g.34.9.graphml' started.
+'g.34.9.graphml' stopped. Elapsed time: 0.2453 seconds.
+---
+724
+'g.21.3.graphml' started.
+'g.21.3.graphml' stopped. Elapsed time: 0.0672 seconds.
+---
+725
+'g.35.3.graphml' started.
+'g.35.3.graphml' stopped. Elapsed time: 0.2636 seconds.
+---
+726
+'g.20.9.graphml' started.
+'g.20.9.graphml' stopped. Elapsed time: 0.0580 seconds.
+---
+727
+'g.71.2.graphml' started.
+'g.71.2.graphml' stopped. Elapsed time: 2.0887 seconds.
+---
+728
+'g.64.8.graphml' started.
+'g.64.8.graphml' stopped. Elapsed time: 1.5454 seconds.
+---
+729
+'g.54.4.graphml' started.
+'g.54.4.graphml' stopped. Elapsed time: 0.9692 seconds.
+---
+730
+'g.66.6.graphml' started.
+'g.66.6.graphml' stopped. Elapsed time: 1.6479 seconds.
+---
+731
+'g.10.5.graphml' started.
+'g.10.5.graphml' stopped. Elapsed time: 0.0413 seconds.
+---
+732
+'g.22.7.graphml' started.
+'g.22.7.graphml' stopped. Elapsed time: 0.0689 seconds.
+---
+733
+'g.93.9.graphml' started.
+'g.93.9.graphml' stopped. Elapsed time: 4.4546 seconds.
+---
+734
+'g.86.3.graphml' started.
+'g.86.3.graphml' stopped. Elapsed time: 3.6535 seconds.
+---
+735
+'g.58.7.graphml' started.
+'g.58.7.graphml' stopped. Elapsed time: 1.1812 seconds.
+---
+736
+'g.91.7.graphml' started.
+'g.91.7.graphml' stopped. Elapsed time: 4.3093 seconds.
+---
+737
+'g.90.10.graphml' started.
+'g.90.10.graphml' stopped. Elapsed time: 3.9599 seconds.
+---
+738
+'g.81.10.graphml' started.
+'g.81.10.graphml' stopped. Elapsed time: 2.9960 seconds.
+---
+739
+'g.78.4.graphml' started.
+'g.78.4.graphml' stopped. Elapsed time: 2.5382 seconds.
+---
+740
+'g.83.6.graphml' started.
+'g.83.6.graphml' stopped. Elapsed time: 3.1468 seconds.
+---
+741
+'g.94.2.graphml' started.
+'g.94.2.graphml' stopped. Elapsed time: 4.5981 seconds.
+---
+742
+'g.48.8.graphml' started.
+'g.48.8.graphml' stopped. Elapsed time: 0.6246 seconds.
+---
+743
+'g.81.8.graphml' started.
+'g.81.8.graphml' stopped. Elapsed time: 3.0279 seconds.
+---
+744
+'g.19.3.graphml' started.
+'g.19.3.graphml' stopped. Elapsed time: 0.0942 seconds.
+---
+745
+'g.30.6.graphml' started.
+'g.30.6.graphml' stopped. Elapsed time: 0.1451 seconds.
+---
+746
+'g.46.5.graphml' started.
+'g.46.5.graphml' stopped. Elapsed time: 0.4727 seconds.
+---
+747
+'g.74.7.graphml' started.
+'g.74.7.graphml' stopped. Elapsed time: 2.2907 seconds.
+---
+748
+'g.76.9.graphml' started.
+'g.76.9.graphml' stopped. Elapsed time: 2.5306 seconds.
+---
+749
+'g.63.3.graphml' started.
+'g.63.3.graphml' stopped. Elapsed time: 1.5497 seconds.
+---
+750
+'g.98.1.graphml' started.
+'g.98.1.graphml' stopped. Elapsed time: 5.1635 seconds.
+---
+751
+'g.51.1.graphml' started.
+'g.51.1.graphml' stopped. Elapsed time: 0.7636 seconds.
+---
+752
+'g.32.8.graphml' started.
+'g.32.8.graphml' stopped. Elapsed time: 0.1876 seconds.
+---
+753
+'g.27.2.graphml' started.
+'g.27.2.graphml' stopped. Elapsed time: 0.1073 seconds.
+---
+754
+'g.33.2.graphml' started.
+'g.33.2.graphml' stopped. Elapsed time: 0.1855 seconds.
+---
+755
+'g.26.8.graphml' started.
+'g.26.8.graphml' stopped. Elapsed time: 0.1499 seconds.
+---
+756
+'g.45.1.graphml' started.
+'g.45.1.graphml' stopped. Elapsed time: 0.5972 seconds.
+---
+757
+'g.77.3.graphml' started.
+'g.77.3.graphml' stopped. Elapsed time: 2.6758 seconds.
+---
+758
+'g.62.9.graphml' started.
+'g.62.9.graphml' stopped. Elapsed time: 1.3057 seconds.
+---
+759
+'g.60.7.graphml' started.
+'g.60.7.graphml' stopped. Elapsed time: 1.3628 seconds.
+---
+760
+'g.52.5.graphml' started.
+'g.52.5.graphml' stopped. Elapsed time: 0.7674 seconds.
+---
+761
+'g.24.6.graphml' started.
+'g.24.6.graphml' stopped. Elapsed time: 0.1367 seconds.
+---
+762
+'g.16.4.graphml' started.
+'g.16.4.graphml' stopped. Elapsed time: 0.0372 seconds.
+---
+763
+'g.18.9.graphml' started.
+'g.18.9.graphml' stopped. Elapsed time: 0.0411 seconds.
+---
+764
+'g.95.8.graphml' started.
+'g.95.8.graphml' stopped. Elapsed time: 4.7251 seconds.
+---
+765
+'g.49.2.graphml' started.
+'g.49.2.graphml' stopped. Elapsed time: 0.8047 seconds.
+---
+766
+'g.80.2.graphml' started.
+'g.80.2.graphml' stopped. Elapsed time: 2.8898 seconds.
+---
+767
+'g.49.10.graphml' started.
+'g.49.10.graphml' stopped. Elapsed time: 0.7397 seconds.
+---
+768
+'g.97.6.graphml' started.
+'g.97.6.graphml' stopped. Elapsed time: 5.0467 seconds.
+---
+769
+'g.28.5.graphml' started.
+'g.28.5.graphml' stopped. Elapsed time: 0.2418 seconds.
+---
+770
+'g.12.2.graphml' started.
+'g.12.2.graphml' stopped. Elapsed time: 0.0195 seconds.
+---
+771
+'g.43.9.graphml' started.
+'g.43.9.graphml' stopped. Elapsed time: 0.5213 seconds.
+---
+772
+'g.56.3.graphml' started.
+'g.56.3.graphml' stopped. Elapsed time: 1.2544 seconds.
+---
+773
+'g.64.1.graphml' started.
+'g.64.1.graphml' stopped. Elapsed time: 1.7089 seconds.
+---
+774
+'g.73.5.graphml' started.
+'g.73.5.graphml' stopped. Elapsed time: 2.3880 seconds.
+---
+775
+'g.88.7.graphml' started.
+'g.88.7.graphml' stopped. Elapsed time: 3.6782 seconds.
+---
+776
+'g.41.7.graphml' started.
+'g.41.7.graphml' stopped. Elapsed time: 0.5229 seconds.
+---
+777
+'g.37.4.graphml' started.
+'g.37.4.graphml' stopped. Elapsed time: 0.2645 seconds.
+---
+778
+'g.39.9.graphml' started.
+'g.39.9.graphml' stopped. Elapsed time: 0.3778 seconds.
+---
+779
+'g.68.2.graphml' started.
+'g.68.2.graphml' stopped. Elapsed time: 1.9141 seconds.
+---
+780
+'g.84.4.graphml' started.
+'g.84.4.graphml' stopped. Elapsed time: 3.2591 seconds.
+---
+781
+'g.37.10.graphml' started.
+'g.37.10.graphml' stopped. Elapsed time: 0.4560 seconds.
+---
+782
+'g.59.4.graphml' started.
+'g.59.4.graphml' stopped. Elapsed time: 1.0878 seconds.
+---
+783
+'g.90.4.graphml' started.
+'g.90.4.graphml' stopped. Elapsed time: 4.0986 seconds.
+---
+784
+'g.69.8.graphml' started.
+'g.69.8.graphml' stopped. Elapsed time: 1.9141 seconds.
+---
+785
+'g.38.3.graphml' started.
+'g.38.3.graphml' stopped. Elapsed time: 0.3235 seconds.
+---
+786
+'g.11.6.graphml' started.
+'g.11.6.graphml' stopped. Elapsed time: 0.0185 seconds.
+---
+787
+'g.62.10.graphml' started.
+'g.62.10.graphml' stopped. Elapsed time: 1.3114 seconds.
+---
+788
+'g.23.4.graphml' started.
+'g.23.4.graphml' stopped. Elapsed time: 0.0955 seconds.
+---
+789
+'g.55.10.graphml' started.
+'g.55.10.graphml' stopped. Elapsed time: 0.9627 seconds.
+---
+790
+'g.55.7.graphml' started.
+'g.55.7.graphml' stopped. Elapsed time: 0.9818 seconds.
+---
+791
+'g.67.5.graphml' started.
+'g.67.5.graphml' stopped. Elapsed time: 1.7369 seconds.
+---
+792
+'g.70.1.graphml' started.
+'g.70.1.graphml' stopped. Elapsed time: 1.9841 seconds.
+---
+793
+'g.42.3.graphml' started.
+'g.42.3.graphml' stopped. Elapsed time: 0.5271 seconds.
+---
+794
+'g.57.9.graphml' started.
+'g.57.9.graphml' stopped. Elapsed time: 1.0787 seconds.
+---
+795
+'g.13.8.graphml' started.
+'g.13.8.graphml' stopped. Elapsed time: 0.0362 seconds.
+---
+796
+'g.74.6.graphml' started.
+'g.74.6.graphml' stopped. Elapsed time: 2.3223 seconds.
+---
+797
+'g.19.10.graphml' started.
+'g.19.10.graphml' stopped. Elapsed time: 0.0858 seconds.
+---
+798
+'g.46.4.graphml' started.
+'g.46.4.graphml' stopped. Elapsed time: 0.5716 seconds.
+---
+799
+'g.30.7.graphml' started.
+'g.30.7.graphml' stopped. Elapsed time: 0.2177 seconds.
+---
+800
+'g.15.1.graphml' started.
+'g.15.1.graphml' stopped. Elapsed time: 0.0316 seconds.
+---
+801
+'g.27.3.graphml' started.
+'g.27.3.graphml' stopped. Elapsed time: 0.1419 seconds.
+---
+802
+'g.32.9.graphml' started.
+'g.32.9.graphml' stopped. Elapsed time: 0.1723 seconds.
+---
+803
+'g.63.2.graphml' started.
+'g.63.2.graphml' stopped. Elapsed time: 1.4999 seconds.
+---
+804
+'g.76.8.graphml' started.
+'g.76.8.graphml' stopped. Elapsed time: 2.5501 seconds.
+---
+805
+'g.83.7.graphml' started.
+'g.83.7.graphml' stopped. Elapsed time: 3.2606 seconds.
+---
+806
+'g.78.5.graphml' started.
+'g.78.5.graphml' stopped. Elapsed time: 2.5398 seconds.
+---
+807
+'g.19.2.graphml' started.
+'g.19.2.graphml' stopped. Elapsed time: 0.0953 seconds.
+---
+808
+'g.81.9.graphml' started.
+'g.81.9.graphml' stopped. Elapsed time: 2.9141 seconds.
+---
+809
+'g.48.9.graphml' started.
+'g.48.9.graphml' stopped. Elapsed time: 0.7422 seconds.
+---
+810
+'g.94.3.graphml' started.
+'g.94.3.graphml' stopped. Elapsed time: 4.6452 seconds.
+---
+811
+'g.80.3.graphml' started.
+'g.80.3.graphml' stopped. Elapsed time: 2.8194 seconds.
+---
+812
+'g.49.3.graphml' started.
+'g.49.3.graphml' stopped. Elapsed time: 0.6101 seconds.
+---
+813
+'g.95.9.graphml' started.
+'g.95.9.graphml' stopped. Elapsed time: 4.8305 seconds.
+---
+814
+'g.18.8.graphml' started.
+'g.18.8.graphml' stopped. Elapsed time: 0.1450 seconds.
+---
+815
+'g.28.4.graphml' started.
+'g.28.4.graphml' stopped. Elapsed time: 0.1683 seconds.
+---
+816
+'g.84.10.graphml' started.
+'g.84.10.graphml' stopped. Elapsed time: 3.3777 seconds.
+---
+817
+'g.97.7.graphml' started.
+'g.97.7.graphml' stopped. Elapsed time: 4.9240 seconds.
+---
+818
+'g.62.8.graphml' started.
+'g.62.8.graphml' stopped. Elapsed time: 1.4459 seconds.
+---
+819
+'g.77.2.graphml' started.
+'g.77.2.graphml' stopped. Elapsed time: 2.5681 seconds.
+---
+820
+'g.26.9.graphml' started.
+'g.26.9.graphml' stopped. Elapsed time: 0.1419 seconds.
+---
+821
+'g.33.3.graphml' started.
+'g.33.3.graphml' stopped. Elapsed time: 0.2002 seconds.
+---
+822
+'g.16.5.graphml' started.
+'g.16.5.graphml' stopped. Elapsed time: 0.0306 seconds.
+---
+823
+'g.24.7.graphml' started.
+'g.24.7.graphml' stopped. Elapsed time: 0.1058 seconds.
+---
+824
+'g.52.4.graphml' started.
+'g.52.4.graphml' stopped. Elapsed time: 0.8154 seconds.
+---
+825
+'g.60.6.graphml' started.
+'g.60.6.graphml' stopped. Elapsed time: 1.3252 seconds.
+---
+826
+'g.93.1.graphml' started.
+'g.93.1.graphml' stopped. Elapsed time: 4.5112 seconds.
+---
+827
+'g.68.3.graphml' started.
+'g.68.3.graphml' stopped. Elapsed time: 1.8268 seconds.
+---
+828
+'g.39.8.graphml' started.
+'g.39.8.graphml' stopped. Elapsed time: 0.4263 seconds.
+---
+829
+'g.32.10.graphml' started.
+'g.32.10.graphml' stopped. Elapsed time: 0.1668 seconds.
+---
+830
+'g.84.5.graphml' started.
+'g.84.5.graphml' stopped. Elapsed time: 3.2635 seconds.
+---
+831
+'g.56.2.graphml' started.
+'g.56.2.graphml' stopped. Elapsed time: 1.0962 seconds.
+---
+832
+'g.43.8.graphml' started.
+'g.43.8.graphml' stopped. Elapsed time: 0.5022 seconds.
+---
+833
+'g.20.1.graphml' started.
+'g.20.1.graphml' stopped. Elapsed time: 0.0593 seconds.
+---
+834
+'g.12.3.graphml' started.
+'g.12.3.graphml' stopped. Elapsed time: 0.0166 seconds.
+---
+835
+'g.50.10.graphml' started.
+'g.50.10.graphml' stopped. Elapsed time: 0.7435 seconds.
+---
+836
+'g.37.5.graphml' started.
+'g.37.5.graphml' stopped. Elapsed time: 0.3341 seconds.
+---
+837
+'g.41.6.graphml' started.
+'g.41.6.graphml' stopped. Elapsed time: 0.4604 seconds.
+---
+838
+'g.88.6.graphml' started.
+'g.88.6.graphml' stopped. Elapsed time: 3.9870 seconds.
+---
+839
+'g.73.4.graphml' started.
+'g.73.4.graphml' stopped. Elapsed time: 2.0521 seconds.
+---
+840
+'g.67.10.graphml' started.
+'g.67.10.graphml' stopped. Elapsed time: 1.8266 seconds.
+---
+841
+'g.67.4.graphml' started.
+'g.67.4.graphml' stopped. Elapsed time: 1.6339 seconds.
+---
+842
+'g.55.6.graphml' started.
+'g.55.6.graphml' stopped. Elapsed time: 1.0148 seconds.
+---
+843
+'g.98.10.graphml' started.
+'g.98.10.graphml' stopped. Elapsed time: 5.3695 seconds.
+---
+844
+'g.23.5.graphml' started.
+'g.23.5.graphml' stopped. Elapsed time: 0.1960 seconds.
+---
+845
+'g.11.7.graphml' started.
+'g.11.7.graphml' stopped. Elapsed time: 0.0171 seconds.
+---
+846
+'g.13.9.graphml' started.
+'g.13.9.graphml' stopped. Elapsed time: 0.0199 seconds.
+---
+847
+'g.34.1.graphml' started.
+'g.34.1.graphml' stopped. Elapsed time: 0.1968 seconds.
+---
+848
+'g.57.8.graphml' started.
+'g.57.8.graphml' stopped. Elapsed time: 1.0383 seconds.
+---
+849
+'g.42.2.graphml' started.
+'g.42.2.graphml' stopped. Elapsed time: 0.4712 seconds.
+---
+850
+'g.90.5.graphml' started.
+'g.90.5.graphml' stopped. Elapsed time: 4.1255 seconds.
+---
+851
+'g.59.5.graphml' started.
+'g.59.5.graphml' stopped. Elapsed time: 1.2180 seconds.
+---
+852
+'g.38.2.graphml' started.
+'g.38.2.graphml' stopped. Elapsed time: 0.3540 seconds.
+---
+853
+'g.69.9.graphml' started.
+'g.69.9.graphml' stopped. Elapsed time: 1.8719 seconds.
+---
+854
+'g.87.1.graphml' started.
+'g.87.1.graphml' stopped. Elapsed time: 3.8564 seconds.
+---
+855
+'g.18.1.graphml' started.
+'g.18.1.graphml' stopped. Elapsed time: 0.1130 seconds.
+---
+856
+'g.82.4.graphml' started.
+'g.82.4.graphml' stopped. Elapsed time: 3.1119 seconds.
+---
+857
+'g.79.6.graphml' started.
+'g.79.6.graphml' stopped. Elapsed time: 2.7446 seconds.
+---
+858
+'g.50.3.graphml' started.
+'g.50.3.graphml' stopped. Elapsed time: 0.6601 seconds.
+---
+859
+'g.45.9.graphml' started.
+'g.45.9.graphml' stopped. Elapsed time: 0.5427 seconds.
+---
+860
+'g.99.3.graphml' started.
+'g.99.3.graphml' stopped. Elapsed time: 6.1063 seconds.
+---
+861
+'g.62.1.graphml' started.
+'g.62.1.graphml' stopped. Elapsed time: 1.8342 seconds.
+---
+862
+'g.14.2.graphml' started.
+'g.14.2.graphml' stopped. Elapsed time: 0.0572 seconds.
+---
+863
+'g.31.4.graphml' started.
+'g.31.4.graphml' stopped. Elapsed time: 0.2941 seconds.
+---
+864
+'g.75.5.graphml' started.
+'g.75.5.graphml' stopped. Elapsed time: 2.6757 seconds.
+---
+865
+'g.100.7.graphml' started.
+'g.100.7.graphml' stopped. Elapsed time: 5.5239 seconds.
+---
+866
+'g.89.10.graphml' started.
+'g.89.10.graphml' stopped. Elapsed time: 4.6962 seconds.
+---
+867
+'g.47.7.graphml' started.
+'g.47.7.graphml' stopped. Elapsed time: 0.7199 seconds.
+---
+868
+'g.53.7.graphml' started.
+'g.53.7.graphml' stopped. Elapsed time: 1.0581 seconds.
+---
+869
+'g.76.10.graphml' started.
+'g.76.10.graphml' stopped. Elapsed time: 3.3563 seconds.
+---
+870
+'g.61.5.graphml' started.
+'g.61.5.graphml' stopped. Elapsed time: 1.7671 seconds.
+---
+871
+'g.41.10.graphml' started.
+'g.41.10.graphml' stopped. Elapsed time: 0.4107 seconds.
+---
+872
+'g.17.6.graphml' started.
+'g.17.6.graphml' stopped. Elapsed time: 0.0509 seconds.
+---
+873
+'g.25.4.graphml' started.
+'g.25.4.graphml' stopped. Elapsed time: 0.1040 seconds.
+---
+874
+'g.15.8.graphml' started.
+'g.15.8.graphml' stopped. Elapsed time: 0.0248 seconds.
+---
+875
+'g.76.1.graphml' started.
+'g.76.1.graphml' stopped. Elapsed time: 2.5846 seconds.
+---
+876
+'g.51.9.graphml' started.
+'g.51.9.graphml' stopped. Elapsed time: 0.8185 seconds.
+---
+877
+'g.44.3.graphml' started.
+'g.44.3.graphml' stopped. Elapsed time: 0.4765 seconds.
+---
+878
+'g.98.9.graphml' started.
+'g.98.9.graphml' stopped. Elapsed time: 5.3302 seconds.
+---
+879
+'g.14.10.graphml' started.
+'g.14.10.graphml' stopped. Elapsed time: 0.1324 seconds.
+---
+880
+'g.96.4.graphml' started.
+'g.96.4.graphml' stopped. Elapsed time: 4.8284 seconds.
+---
+881
+'g.29.7.graphml' started.
+'g.29.7.graphml' stopped. Elapsed time: 0.2599 seconds.
+---
+882
+'g.23.10.graphml' started.
+'g.23.10.graphml' stopped. Elapsed time: 0.0819 seconds.
+---
+883
+'g.40.5.graphml' started.
+'g.40.5.graphml' stopped. Elapsed time: 0.3280 seconds.
+---
+884
+'g.89.5.graphml' started.
+'g.89.5.graphml' stopped. Elapsed time: 4.0555 seconds.
+---
+885
+'g.72.7.graphml' started.
+'g.72.7.graphml' stopped. Elapsed time: 2.1250 seconds.
+---
+886
+'g.36.6.graphml' started.
+'g.36.6.graphml' stopped. Elapsed time: 0.3660 seconds.
+---
+887
+'g.21.2.graphml' started.
+'g.21.2.graphml' stopped. Elapsed time: 0.0647 seconds.
+---
+888
+'g.34.8.graphml' started.
+'g.34.8.graphml' stopped. Elapsed time: 0.2007 seconds.
+---
+889
+'g.65.3.graphml' started.
+'g.65.3.graphml' stopped. Elapsed time: 1.7297 seconds.
+---
+890
+'g.70.9.graphml' started.
+'g.70.9.graphml' stopped. Elapsed time: 2.0251 seconds.
+---
+891
+'g.57.1.graphml' started.
+'g.57.1.graphml' stopped. Elapsed time: 1.1648 seconds.
+---
+892
+'g.85.6.graphml' started.
+'g.85.6.graphml' stopped. Elapsed time: 3.4208 seconds.
+---
+893
+'g.95.10.graphml' started.
+'g.95.10.graphml' stopped. Elapsed time: 4.7127 seconds.
+---
+894
+'g.87.8.graphml' started.
+'g.87.8.graphml' stopped. Elapsed time: 3.7643 seconds.
+---
+895
+'g.92.2.graphml' started.
+'g.92.2.graphml' stopped. Elapsed time: 4.1704 seconds.
+---
+896
+'g.86.2.graphml' started.
+'g.86.2.graphml' stopped. Elapsed time: 3.5257 seconds.
+---
+897
+'g.93.8.graphml' started.
+'g.93.8.graphml' stopped. Elapsed time: 4.3684 seconds.
+---
+898
+'g.39.1.graphml' started.
+'g.39.1.graphml' stopped. Elapsed time: 0.3894 seconds.
+---
+899
+'g.91.6.graphml' started.
+'g.91.6.graphml' stopped. Elapsed time: 4.1831 seconds.
+---
+900
+'g.58.6.graphml' started.
+'g.58.6.graphml' stopped. Elapsed time: 1.2956 seconds.
+---
+901
+'g.43.1.graphml' started.
+'g.43.1.graphml' stopped. Elapsed time: 0.4192 seconds.
+---
+902
+'g.64.9.graphml' started.
+'g.64.9.graphml' stopped. Elapsed time: 1.5617 seconds.
+---
+903
+'g.71.3.graphml' started.
+'g.71.3.graphml' stopped. Elapsed time: 2.1111 seconds.
+---
+904
+'g.20.8.graphml' started.
+'g.20.8.graphml' stopped. Elapsed time: 0.0824 seconds.
+---
+905
+'g.35.2.graphml' started.
+'g.35.2.graphml' stopped. Elapsed time: 0.2226 seconds.
+---
+906
+'g.22.6.graphml' started.
+'g.22.6.graphml' stopped. Elapsed time: 0.0632 seconds.
+---
+907
+'g.10.4.graphml' started.
+'g.10.4.graphml' stopped. Elapsed time: 0.0136 seconds.
+---
+908
+'g.66.7.graphml' started.
+'g.66.7.graphml' stopped. Elapsed time: 1.7020 seconds.
+---
+909
+'g.54.5.graphml' started.
+'g.54.5.graphml' stopped. Elapsed time: 0.9219 seconds.
+---
