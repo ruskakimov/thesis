@@ -4,16 +4,16 @@
 echo "Filename | Processing Time"
 echo "-----------------------------------------"
 
-echo "command,mean,stddev,median,user,system,min,max" > bench_north.csv
+echo "command,mean,stddev,median,user,system,min,max" > bench_north_random_dag.csv
 
 # Loop through all CNF files in ./cnf/north_SAT1
-for file1 in ./cnf/north_SAT1/*.cnf
+for file1 in ./cnf/random_dag_SAT1/*.cnf
 do
   # Extract just the filename (without path)
   filename=$(basename "$file1")
 
   # Define the corresponding file in ./cnf/north_SAT2
-  file2="./cnf/north_SAT2/$filename"
+  file2="./cnf/random_dag_SAT2/$filename"
 
   # Check if the corresponding file exists
   if [[ -f "$file2" ]]; then
@@ -24,7 +24,7 @@ do
 
     hyperfine --warmup 1 -i --time-unit second --export-csv temp.csv "$v1" "$v2"
 
-    tail -n +2 temp.csv >> bench_north.csv  # Append results without header
+    tail -n +2 temp.csv >> bench_north_random_dag.csv  # Append results without header
 
     echo "-----------------------------------------"
   else
