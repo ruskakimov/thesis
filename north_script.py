@@ -1,7 +1,10 @@
+import csv
+import os
+import re
 import re
 import matplotlib.pyplot as plt
 
-def process_gml_log(file_path):
+def process_cp_result(file_path):
     results = {}
     with open(file_path, 'r') as file:
         content = file.read()
@@ -25,35 +28,6 @@ def process_gml_log(file_path):
     
     return results
 
-def process_sat_benchmark(file_path, results):
-    with open(file_path, 'r') as file:
-        content = file.read()
-    
-    benchmark_pattern = re.compile(
-        r"Running for file: (?P<filename>g\.\d+\.\d+\.gml)\.cnf"  # Match filename
-        r".*?Benchmark 1:.*?\n.*?Time \(mean ± σ\):\s+(?P<sat1>\d+\.\d+) (ms|s)"  # SAT1 time
-        r".*?Benchmark 2:.*?\n.*?Time \(mean ± σ\):\s+(?P<sat2>\d+\.\d+) (ms|s)",  # SAT2 time
-        re.DOTALL
-    )
-    
-    for match in benchmark_pattern.finditer(content):
-        filename = match.group('filename').replace('.cnf', '')  # Remove .cnf extension
-        sat1_time = float(match.group('sat1'))
-        sat1_unit = match.group(3)  # ms or s
-        sat2_time = float(match.group('sat2'))
-        sat2_unit = match.group(5)  # ms or s
-        
-        # Convert to seconds if necessary
-        if sat1_unit == 'ms':
-            sat1_time /= 1000
-        if sat2_unit == 'ms':
-            sat2_time /= 1000
-        
-        if filename in results:
-            results[filename]['sat1'] = sat1_time
-            results[filename]['sat2'] = sat2_time
-    
-    return results
 
 def parse_stat_file(file_path):
     data = {}
@@ -85,53 +59,80 @@ def plot_scatter(data, key, title):
     plt.legend()
     plt.show()
 
-# Example usage
-cp_file_path = "north__cp_result.txt"  # Change this to the CP solver log file
-sat_file_path = "north__v1_v2_compare.txt"  # Change this to the SAT benchmark file
+# Read CP data
+cp_file_path = "north__cp_result.txt"
+data = process_cp_result(cp_file_path)
 
-data = process_gml_log(cp_file_path)
-process_sat_benchmark(sat_file_path, data)
 
+
+
+# Add graph details (n, m, n+m)
 graph_stats = parse_stat_file("north_graph_stats.txt")
-
-for name, stats in graph_stats.items():
+for filename, stats in graph_stats.items():
     n = stats['n']
     m = stats['m']
 
-    if name not in data:
-        print('graph not found', name)
-    elif data[name]['nodes'] != n:
-        print('number of nodes mismatch', name)
+    if filename not in data:
+        print('graph not found', filename)
+    elif data[filename]['nodes'] != n:
+        print('number of nodes mismatch', filename)
     else:
-        data[name]['n'] = n
-        data[name]['m'] = m
-        data[name]['n+m'] = n + m
+        data[filename]['n'] = n
+        data[filename]['m'] = m
+        data[filename]['n+m'] = n + m
 
-# Plot each separately
-# plot_scatter(data, 'cp', "CP Runtime")
-# plot_scatter(data, 'sat1', "SAT-1 Runtime")
-# plot_scatter(data, 'sat2', "SAT-2 Runtime")
 
-speedups = []
 
-for name, vals in data.items():
-    if not 'sat1' in vals or not 'sat2' in vals:
-        print('not found!', name)
-        continue
+with open('bench_north.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        command = row['command']
+        mean = float(row["mean"])
+        median = float(row["median"])
 
-    cp = vals['cp']
-    s1 = vals['sat1']
-    s2 = vals['sat2']
+        # The command field looks like:
+        # "./solvers/kissat-4.0.1-apple-amd64 ./cnf/north_SAT1/g.10.0.gml.cnf"
+        # We assume the second part is the file path.
+        file_path = command.split()[1]
+        
+        # Extract the file name, e.g. "g.10.0.gml.cnf"
+        base = os.path.basename(file_path)
+        # Remove the .cnf extension to get "g.10.0.gml"
+        filename, _ = os.path.splitext(base)
 
-    speedup = s1 / s2
+        
+        if 'north_SAT1' in file_path:
+            data[filename]['sat1'] = mean
+        elif 'north_SAT2' in file_path:
+            data[filename]['sat2'] = mean
+        else:
+            print('failed to match sat1 or sat2')
 
-    # if speedup > 2:
-    #     print(name, speedup)
-    speedups.append(speedup)
 
-print('total', len(speedups))
-print('above 2', len([x for x in speedups if x > 1.5]))
-print(min([x for x in speedups if x > 2]), max(speedups))
+plot_scatter(data, 'cp', "CP Runtime")
+plot_scatter(data, 'sat1', "SAT-1 Runtime")
+plot_scatter(data, 'sat2', "SAT-2 Runtime")
 
-average_speedup = sum(speedups) / len(speedups)
-print(average_speedup)
+# speedups = []
+
+# for filename, vals in data.items():
+#     if not 'sat1' in vals or not 'sat2' in vals:
+#         print('not found!', filename)
+#         continue
+
+#     cp = vals['cp']
+#     s1 = vals['sat1']
+#     s2 = vals['sat2']
+
+#     speedup = s1 / s2
+
+#     # if speedup > 2:
+#     #     print(name, speedup)
+#     speedups.append(speedup)
+
+# print('total', len(speedups))
+# print('above 2', len([x for x in speedups if x > 1.5]))
+# print(min([x for x in speedups if x > 2]), max(speedups))
+
+# average_speedup = sum(speedups) / len(speedups)
+# print(average_speedup)
