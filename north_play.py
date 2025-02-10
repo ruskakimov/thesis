@@ -46,21 +46,23 @@ def parse_stat_file(file_path):
     return data
 
 def plot_scatter(data, key, title):
-    sat_times = [(entry['n+m'], entry[key]) for entry in data.values() if entry['result'] == 'SAT' and key in entry]
-    unsat_times = [(entry['n+m'], entry[key]) for entry in data.values() if entry['result'] == 'UNSAT' and key in entry]
+    y_key = 'n/m'
+
+    sat_times = [(entry['n'] / entry['m'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['result'] == 'SAT' and key in entry]
+    unsat_times = [(entry['n'] / entry['m'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['result'] == 'UNSAT' and key in entry]
     
     if sat_times:
         plt.scatter(*zip(*sat_times), color='green', label='SAT', alpha=0.7)
     if unsat_times:
         plt.scatter(*zip(*unsat_times), color='red', label='UNSAT', alpha=0.7)
     
-    plt.xlabel("n+m")
-    plt.ylabel("time (seconds)")
+    plt.xlabel(y_key)
+    plt.ylabel("speedup")
     # plt.title(title)
     plt.legend()
     # plt.show()
-    plt.savefig(f"{title}.pdf")
-    plt.close('all')
+    plt.savefig("speedup_vs_node_to_edge_ratio.pdf")
+    # plt.close('all')
 
 # Read CP data
 cp_file_path = "north__cp_result.txt"
@@ -113,7 +115,7 @@ with open('bench_north.csv', newline='') as csvfile:
 
 
 # plot_scatter(data, 'cp', "cp_scatter")
-# plot_scatter(data, 'sat1', "sat_1_scatter")
+plot_scatter(data, 'sat1', "sat_1_scatter")
 # plot_scatter(data, 'sat2', "sat_2_scatter")
 
 speedups = []
@@ -150,48 +152,3 @@ print('average speedup:', average_speedup)
 
 
 bins = [0.8, 1.2, 1.6, 2, 4, 8, 16, 32]
-fq = [0] * len(bins)
-
-for x in speedups:
-    for i, right in enumerate(bins):
-        if x < right:
-            fq[i] += 1
-            break
-
-labels = []
-
-for i, r in enumerate(bins):
-    if i == 0:
-        labels.append(f'<{r}x')
-    elif i == len(bins) - 1:
-        l = bins[i-1]
-        labels.append(f'>{l}x')
-    else:
-        l = bins[i-1]
-        labels.append(f'{l}–{r}x')
-
-assert(len(bins) == len(labels))
-
-plt.bar(labels, fq, edgecolor='black', color=['red', 'gray', 'green','green','green','green','green','green'])
-
-# plt.hist(speedups, bins=1000, edgecolor='black')  # 30 bins (one for each value)
-# plt.xlabel('Value')
-# plt.ylabel('Frequency')
-# # plt.title('Histogram of Values (0 to 30)')
-# plt.grid(axis='y', linestyle='--', alpha=0.7)
-# plt.xscale('log')
-
-plt.xticks(rotation=45, ha="right", rotation_mode='anchor', fontsize=12)
-plt.gcf().subplots_adjust(bottom=0.2)
-plt.tight_layout()
-
-legend_handles = [
-    mpatches.Patch(color="red", label="Regression (<0.8x)"),
-    mpatches.Patch(color="gray", label="Comparable (0.8x – 1.2x)"),
-    mpatches.Patch(color="green", label="Improvement (1.2x+)")
-]
-plt.legend(handles=legend_handles, loc="upper right")
-
-# Show plot
-# plt.show()
-plt.savefig("sat2_speedup_histogram.pdf")
