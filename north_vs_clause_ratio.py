@@ -47,20 +47,20 @@ def parse_stat_file(file_path):
 
 def plot_scatter(data):
 
-    sat1_times = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
-    sat2_times = [(entry['sat2_cnf_c'], entry['sat2']) for entry in data.values()]
+    hard_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] < 6]
+    easy_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] > 6]
     
-    if sat1_times:
-        plt.scatter(*zip(*sat1_times), color='blue', label='SAT-1', alpha=0.2)
-    if sat2_times:
-        plt.scatter(*zip(*sat2_times), color='purple', label='SAT-2', alpha=0.2)
+    if hard_times:
+        plt.scatter(*zip(*hard_times), color='red', label='hard', alpha=0.2)
+    if easy_times:
+        plt.scatter(*zip(*easy_times), color='green', label='easy', alpha=0.2)
     
-    plt.xlabel("number of clauses")
-    plt.ylabel("time (seconds)")
+    plt.xlabel("hardness")
+    plt.ylabel("speedup")
     # plt.title(title)
     plt.legend()
     # plt.show()
-    plt.savefig("time_vs_cnf_clause_count.pdf")
+    plt.savefig("speedup_for_hardness.pdf")
     # plt.close('all')
 
 # Read CP data
