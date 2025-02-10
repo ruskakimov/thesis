@@ -16,3 +16,24 @@ total graphs: 638
 min speedup: 0.08413972938509111
 max speedup: 30.277478982702444
 average speedup: 3.751117852263852
+
+
+
+
+>= 5ms (sat1 and sat2 runtime) SAT and UNSAT
+total graphs: 932
+min speedup: 0.08413972938509111
+max speedup: 30.277478982702444
+average speedup: 3.936217930916364
+
+>= 5ms (sat1 and sat2 runtime) SAT only
+total graphs: 529
+min speedup: 0.08413972938509111
+max speedup: 30.277478982702444
+average speedup: 3.9725872955528088
+
+>= 5ms (sat1 and sat2 runtime) UNSAT only
+total graphs: 403
+min speedup: 0.828060808550042
+max speedup: 15.618283968413635
+average speedup: 3.8884774994208855

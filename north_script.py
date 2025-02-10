@@ -133,8 +133,9 @@ for filename, vals in data.items():
     if s1 < threshold or s2 < threshold:
         continue
 
-    speedup = s1 / s2
-    speedups.append(speedup)
+    if sat_result == 'SAT':
+        speedup = s1 / s2
+        speedups.append(speedup)
 
 print('total graphs:', len(speedups))
 
