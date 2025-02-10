@@ -1,4 +1,4 @@
-total graphs: 1277
+total graphs: 1277 (800 SAT, 477 UNSAT)
 min speedup: 0.08413972938509111
 max speedup: 30.277478982702444
 average speedup: 3.4751636458621724
