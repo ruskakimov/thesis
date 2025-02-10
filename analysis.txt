@@ -1,0 +1,18 @@
+total graphs: 1277
+min speedup: 0.08413972938509111
+max speedup: 30.277478982702444
+average speedup: 3.4751636458621724
+
+
+>= 5ms (sat1 and sat2 runtime)
+total graphs: 932
+min speedup: 0.08413972938509111
+max speedup: 30.277478982702444
+average speedup: 3.936217930916364
+
+
+>= 10ms (sat1 and sat2 runtime)
+total graphs: 638
+min speedup: 0.08413972938509111
+max speedup: 30.277478982702444
+average speedup: 3.751117852263852

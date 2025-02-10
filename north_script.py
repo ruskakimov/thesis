@@ -111,34 +111,37 @@ with open('bench_north.csv', newline='') as csvfile:
             print('failed to match sat1 or sat2')
 
 
-plot_scatter(data, 'cp', "cp_scatter")
-plot_scatter(data, 'sat1', "sat_1_scatter")
-plot_scatter(data, 'sat2', "sat_2_scatter")
+# plot_scatter(data, 'cp', "cp_scatter")
+# plot_scatter(data, 'sat1', "sat_1_scatter")
+# plot_scatter(data, 'sat2', "sat_2_scatter")
 
-# speedups = []
-# threshold = 5 / 1000 # below this time will be more random
+speedups = []
+threshold = 10 / 1000 # below this time will be more random
 
-# for filename, vals in data.items():
-#     if not 'sat1' in vals or not 'sat2' in vals:
-#         print('not found!', filename)
-#         continue
+for filename, vals in data.items():
+    if not 'sat1' in vals or not 'sat2' in vals:
+        print('not found!', filename)
+        continue
 
-#     cp = vals['cp']
-#     s1 = vals['sat1']
-#     s2 = vals['sat2']
+    cp = vals['cp']
+    s1 = vals['sat1']
+    s2 = vals['sat2']
+    n = vals['n']
+    m = vals['m']
+    sat_result = vals['result']
 
-#     if s1 < threshold or s2 < threshold:
-#         continue
+    if s1 < threshold or s2 < threshold:
+        continue
 
-#     speedup = s1 / s2
-#     speedups.append(speedup)
+    speedup = s1 / s2
+    speedups.append(speedup)
 
-# print('total graphs:', len(speedups))
+print('total graphs:', len(speedups))
 
-# print('min speedup:', min(speedups))
-# print('max speedup:', max(speedups))
+print('min speedup:', min(speedups))
+print('max speedup:', max(speedups))
 
-# # print('above 1.5:', len([x for x in speedups if x > 1.5]))
+# print('above 1.5:', len([x for x in speedups if x > 1.5]))
 
-# average_speedup = sum(speedups) / len(speedups)
-# print('average speedup:', average_speedup)
+average_speedup = sum(speedups) / len(speedups)
+print('average speedup:', average_speedup)
