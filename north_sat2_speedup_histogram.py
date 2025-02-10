@@ -134,9 +134,9 @@ for filename, vals in data.items():
     if s1 < threshold or s2 < threshold:
         continue
 
-    # if sat_result == 'SAT':
-    speedup = s1 / s2
-    speedups.append(speedup)
+    if sat_result == 'UNSAT':
+        speedup = s1 / s2
+        speedups.append(speedup)
 
 print('total graphs:', len(speedups))
 
@@ -194,4 +194,4 @@ plt.legend(handles=legend_handles, loc="upper right")
 
 # Show plot
 # plt.show()
-plt.savefig("sat2_speedup_histogram.pdf")
+plt.savefig("sat2_speedup_histogram_unsat.pdf")
