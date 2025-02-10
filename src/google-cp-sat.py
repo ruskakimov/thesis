@@ -139,9 +139,6 @@ i = 0
 
 for G in random_dag_graphs():
     i += 1
-    
-    if i > 10:
-        break
 
     print(f"Working on graph {i}", file=sys.stderr)
 
