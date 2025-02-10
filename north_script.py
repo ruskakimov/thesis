@@ -116,7 +116,7 @@ with open('bench_north.csv', newline='') as csvfile:
 # plot_scatter(data, 'sat2', "sat_2_scatter")
 
 speedups = []
-threshold = 10 / 1000 # below this time will be more random
+threshold = 5 / 1000 # below this time will be more random
 
 for filename, vals in data.items():
     if not 'sat1' in vals or not 'sat2' in vals:
