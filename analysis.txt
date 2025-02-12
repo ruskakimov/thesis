@@ -37,3 +37,9 @@ total graphs: 403
 min speedup: 0.828060808550042
 max speedup: 15.618283968413635
 average speedup: 3.8884774994208855
+
+
+Total time taken for whole dataset:
+cp 10126.726200000003
+sat1 522.4851434791727
+sat2 268.5694946876004
