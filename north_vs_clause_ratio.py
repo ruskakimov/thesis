@@ -47,16 +47,16 @@ def parse_stat_file(file_path):
 
 def plot_scatter(data):
 
-    hard_times = [(entry['sat2_cnf_c'], entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] < 6]
-    easy_times = [(entry['sat2_cnf_c'], entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] > 6]
+    hard_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] < 6]
+    easy_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] > 6]
     
     if hard_times:
         plt.scatter(*zip(*hard_times), color='red', label='hard', alpha=0.2)
     if easy_times:
         plt.scatter(*zip(*easy_times), color='green', label='easy', alpha=0.2)
     
-    plt.xlabel("number of clauses")
-    plt.ylabel("time (seconds)")
+    plt.xlabel("SAT-1 tractability")
+    plt.ylabel("speedup")
     # plt.title(title)
     plt.legend()
     plt.show()
