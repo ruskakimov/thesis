@@ -45,22 +45,34 @@ def parse_stat_file(file_path):
     
     return data
 
+plt.rcParams.update({'font.size': 18})
+
 def plot_scatter(data):
 
-    hard_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] < 6]
-    easy_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] > 6]
+    # hard_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] < 6]
+    # easy_times = [(entry['sat1_cnf_c'] / 1e5 / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / 1e5 / entry['sat1'] > 6]
+
+    # if hard_times:
+    #     plt.scatter(*zip(*hard_times), color='blue', label='hard', alpha=0.2, s=60)
+    # if easy_times:
+    #     plt.scatter(*zip(*easy_times), color='blue', label='easy', alpha=0.2, s=60)
+    # plt.xlabel("sat-1 tractability")
+    # plt.ylabel("speedup")
+
+    # Sat-1 Runtimes vs CNF clause count
+    runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
+    plt.scatter(*zip(*runtimes), color='blue', alpha=0.2, s=60)
+    plt.xlabel("number of sat-1 clauses")
+    plt.ylabel("time (seconds)")
+    plt.tight_layout()
+    plt.savefig("north_5_clause_count_scatter.pdf")
     
-    if hard_times:
-        plt.scatter(*zip(*hard_times), color='red', label='hard', alpha=0.2)
-    if easy_times:
-        plt.scatter(*zip(*easy_times), color='green', label='easy', alpha=0.2)
     
-    plt.xlabel("SAT-1 tractability")
-    plt.ylabel("speedup")
     # plt.title(title)
-    plt.legend()
-    plt.show()
-    # plt.savefig("speedup_for_hardness.pdf")
+    # plt.tight_layout()
+    # plt.legend()
+    # plt.show()
+    # plt.savefig("north_chart.pdf")
     # plt.close('all')
 
 # Read CP data
