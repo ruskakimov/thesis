@@ -134,9 +134,9 @@ for filename, vals in data.items():
     if s1 < threshold or s2 < threshold:
         continue
 
-    if sat_result == 'UNSAT':
-        speedup = s1 / s2
-        speedups.append(speedup)
+    # if sat_result == 'SAT':
+    speedup = s1 / s2
+    speedups.append(speedup)
 
 print('total graphs:', len(speedups))
 
@@ -172,6 +172,8 @@ for i, r in enumerate(bins):
 
 assert(len(bins) == len(labels))
 
+plt.rcParams.update({'font.size': 18})
+
 plt.bar(labels, fq, edgecolor='black', color=['red', 'gray', 'green','green','green','green','green','green'])
 
 # plt.hist(speedups, bins=1000, edgecolor='black')  # 30 bins (one for each value)
@@ -181,17 +183,18 @@ plt.bar(labels, fq, edgecolor='black', color=['red', 'gray', 'green','green','gr
 # plt.grid(axis='y', linestyle='--', alpha=0.7)
 # plt.xscale('log')
 
-plt.xticks(rotation=45, ha="right", rotation_mode='anchor', fontsize=12)
-plt.gcf().subplots_adjust(bottom=0.2)
+plt.xticks(rotation=90)
+# plt.gcf().subplots_adjust(bottom=0.2)
 plt.tight_layout()
 
-legend_handles = [
-    mpatches.Patch(color="red", label="Regression (<0.8x)"),
-    mpatches.Patch(color="gray", label="Comparable (0.8x – 1.2x)"),
-    mpatches.Patch(color="green", label="Improvement (1.2x+)")
-]
-plt.legend(handles=legend_handles, loc="upper right")
+# legend_handles = [
+#     mpatches.Patch(color="red", label="Regression (<0.8x)"),
+#     mpatches.Patch(color="gray", label="Comparable (0.8x – 1.2x)"),
+#     mpatches.Patch(color="green", label="Improvement (1.2x+)")
+# ]
+# plt.legend(handles=legend_handles, loc="upper right")
 
 # Show plot
 # plt.show()
-plt.savefig("sat2_speedup_histogram_unsat.pdf")
+
+plt.savefig("north_4_speedup_histogram.pdf")
