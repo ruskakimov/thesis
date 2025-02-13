@@ -105,12 +105,30 @@ for graph in graphs:
         last_time = time[alg][-1] if len(time[alg]) > 0 else 0
         t = data[graph][alg]
         time[alg].append(last_time + t)
+    # print(time['sat1'][-1])
 
 for alg in ['cp', 'sat1', 'sat2']:
     print(alg, time[alg][-1])
 
+solved_instances = [i / 1277 * 100 for i in range(1, len(graphs) + 1)]
 
-# plt.rcParams.update({'font.size': 18})
+plt.rcParams.update({'font.size': 18})
+
+plt.plot(solved_instances, time['cp'], label="CP", linestyle="-", linewidth=3, color='orange')
+plt.plot(solved_instances, time['sat1'], label="SAT-1", linestyle="-", linewidth=3, color='navy')
+plt.plot(solved_instances, time['sat2'], label="SAT-2", linestyle="-", linewidth=3, color='cyan')
+
+# Labels and title
+plt.xlabel("solved instances (%)")
+plt.ylabel("time (seconds)")
+plt.legend()
+plt.grid(True)
+plt.yscale("log")
+
+# Save the plot
+plt.tight_layout()
+plt.show()
+plt.savefig("north_2_cactus.pdf", format="pdf", dpi=300)
 
 # def plot_scatter(data, key, title):
 
