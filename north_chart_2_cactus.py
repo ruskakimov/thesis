@@ -127,7 +127,7 @@ plt.yscale("log")
 
 # Save the plot
 plt.tight_layout()
-plt.show()
+# plt.show()
 plt.savefig("north_2_cactus.pdf", format="pdf", dpi=300)
 
 # def plot_scatter(data, key, title):
