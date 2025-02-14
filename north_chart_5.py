@@ -140,9 +140,9 @@ for sat in ['sat1', 'sat2']:
             data[graph][f'{sat}_cnf_c'] = clause_count
             data[graph][f'{sat}_cv_ratio'] = clause_count / var_count
 
-print(data['g.10.0.gml'])
+# print(data['g.10.0.gml'])
 
-plot_scatter(data)
+# plot_scatter(data)
 
 
 # speedups = []
@@ -208,3 +208,23 @@ test_results = pd.DataFrame({
     'p-value': [levene_p, mann_p, t_p]
 })
 print(test_results)
+
+# 1. Sat-1 Runtimes vs CNF clause count
+# runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
+# plt.scatter(*zip(*runtimes), color='blue', alpha=0.3, s=60)
+# plt.xlabel("number of sat-1 clauses")
+# plt.ylabel("time (seconds)")
+# plt.tight_layout()
+# plt.savefig("north_5_clause_count_scatter.pdf")
+
+# 2. Color groups
+hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.6, s=60, label='hard')
+plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.6, s=60, label='easy')
+plt.xlabel("number of sat-1 clauses")
+plt.ylabel("time (seconds)")
+plt.tight_layout()
+plt.legend()
+# plt.show()
+plt.savefig("north_5_clause_count_scatter_separated.pdf")
