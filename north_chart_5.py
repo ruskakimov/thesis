@@ -218,13 +218,28 @@ print(test_results)
 # plt.savefig("north_5_clause_count_scatter.pdf")
 
 # 2. Color groups
-hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
-easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
-plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.6, s=60, label='hard')
-plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.6, s=60, label='easy')
-plt.xlabel("number of sat-1 clauses")
-plt.ylabel("time (seconds)")
+# hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+# easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+# plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.6, s=60, label='hard')
+# plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.6, s=60, label='easy')
+# plt.xlabel("number of sat-1 clauses")
+# plt.ylabel("time (seconds)")
+# plt.tight_layout()
+# plt.legend()
+# # plt.show()
+# plt.savefig("north_5_clause_count_scatter_separated.pdf")
+
+# 3. Speedup for groups
+hard_runtimes = [(entry['sat1_cnf_c'] / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+easy_runtimes = [(entry['sat1_cnf_c'] / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.1, s=60, label='hard')
+plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.1, s=60, label='easy')
+plt.axhline(1, color="black", linestyle="--", linewidth=1)
+plt.xlabel("sat-1 clause-to-time ratio")
+plt.ylabel("sat-2 speedup")
 plt.tight_layout()
-plt.legend()
+hard_patch = mpatches.Patch(color="crimson", label="hard")
+easy_patch = mpatches.Patch(color="teal", label="easy")
+plt.legend(handles=[hard_patch, easy_patch], loc="upper right")
 # plt.show()
-plt.savefig("north_5_clause_count_scatter_separated.pdf")
+plt.savefig("north_5_speedup_groups.pdf")
