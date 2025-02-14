@@ -4,6 +4,9 @@ import re
 import re
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import numpy as np
+import pandas as pd
+from scipy.stats import levene, mannwhitneyu, ttest_ind
 
 def process_cp_result(file_path):
     results = {}
@@ -163,3 +166,45 @@ plot_scatter(data)
 #     # if sat_result == 'SAT':
 #     speedup = s1 / s2
 #     speedups.append(speedup)
+
+threshold = 6 * 1e5
+
+# [(clauses, runtime), ...]
+below_group = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+above_group = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+
+# Convert to DataFrames
+df1 = pd.DataFrame(below_group, columns=['X', 'Y'])
+df2 = pd.DataFrame(above_group, columns=['X', 'Y'])
+
+# Compute the ratio R = X / Y
+df1['Ratio'] = df1['X'] / df1['Y']
+df2['Ratio'] = df2['X'] / df2['Y']
+
+# Compute summary statistics
+stats = {
+    'Group': ['Below Threshold (R < T)', 'Above Threshold (R ≥ T)'],
+    'Mean': [df1['Ratio'].mean(), df2['Ratio'].mean()],
+    'Median': [df1['Ratio'].median(), df2['Ratio'].median()],
+    'Variance': [df1['Ratio'].var(), df2['Ratio'].var()]
+}
+
+summary_df = pd.DataFrame(stats)
+print(summary_df)
+
+# Variance test (Levene’s test)
+levene_stat, levene_p = levene(df1['Ratio'], df2['Ratio'])
+
+# Non-parametric test for median difference
+mann_stat, mann_p = mannwhitneyu(df1['Ratio'], df2['Ratio'], alternative='two-sided')
+
+# Parametric test for mean difference
+t_stat, t_p = ttest_ind(df1['Ratio'], df2['Ratio'])
+
+# Display test results
+test_results = pd.DataFrame({
+    'Test': ['Levene’s Test (Variance)', 'Mann-Whitney U Test (Median)', 'T-Test (Mean)'],
+    'Statistic': [levene_stat, mann_stat, t_stat],
+    'p-value': [levene_p, mann_p, t_p]
+})
+print(test_results)
