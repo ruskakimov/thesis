@@ -7,6 +7,7 @@ import matplotlib.patches as mpatches
 import numpy as np
 import pandas as pd
 from scipy.stats import levene, mannwhitneyu, ttest_ind
+import seaborn as sns
 
 def process_cp_result(file_path):
     results = {}
@@ -47,8 +48,6 @@ def parse_stat_file(file_path):
                 }
     
     return data
-
-plt.rcParams.update({'font.size': 18})
 
 def plot_scatter(data):
 
@@ -209,6 +208,8 @@ test_results = pd.DataFrame({
 })
 print(test_results)
 
+# plt.rcParams.update({'font.size': 18})
+
 # 1. Sat-1 Runtimes vs CNF clause count
 # runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
 # plt.scatter(*zip(*runtimes), color='blue', alpha=0.3, s=60)
@@ -218,18 +219,18 @@ print(test_results)
 # plt.savefig("north_5_clause_count_scatter.pdf")
 
 # 2. Color groups
-hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
-easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
-plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.3, s=60, label='hard')
-plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.3, s=60, label='easy')
-plt.xlabel("number of sat-1 clauses")
-plt.ylabel("time (seconds)")
-plt.tight_layout()
-hard_patch = mpatches.Patch(color="crimson", label="hard")
-easy_patch = mpatches.Patch(color="teal", label="easy")
-plt.legend(handles=[hard_patch, easy_patch])
-# plt.show()
-plt.savefig("north_5_clause_count_scatter_separated.pdf")
+# hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+# easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+# plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.3, s=60, label='hard')
+# plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.3, s=60, label='easy')
+# plt.xlabel("number of sat-1 clauses")
+# plt.ylabel("time (seconds)")
+# plt.tight_layout()
+# hard_patch = mpatches.Patch(color="crimson", label="hard")
+# easy_patch = mpatches.Patch(color="teal", label="easy")
+# plt.legend(handles=[hard_patch, easy_patch])
+# # plt.show()
+# plt.savefig("north_5_clause_count_scatter_separated.pdf")
 
 # 3. Speedup for groups
 # hard_runtimes = [(entry['sat1_cnf_c'] / entry['sat1'], entry['sat1'] / entry['sat2']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
@@ -245,3 +246,34 @@ plt.savefig("north_5_clause_count_scatter_separated.pdf")
 # plt.legend(handles=[hard_patch, easy_patch], loc="upper right")
 # # plt.show()
 # plt.savefig("north_5_speedup_groups.pdf")
+
+data_list = [
+    {"group": "hard", "speedup": entry['sat1'] / entry['sat2']}
+    for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold
+] + [
+    {"group": "easy", "speedup": entry['sat1'] / entry['sat2']}
+    for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold
+]
+
+# Convert to DataFrame
+df = pd.DataFrame(data_list)
+
+# Create the boxplot
+plt.figure(figsize=(6, 4))
+sns.boxplot(x="group", y="speedup", data=df, palette={"hard": "crimson", "easy": "teal"})
+
+# Add labels and title
+plt.xlabel("Instance Group")
+plt.ylabel("SAT-2 Speedup over SAT-1")
+plt.title("Speedup Comparison: Hard vs Easy Instances")
+
+# Optional: Log-scale for better visibility if needed
+# plt.yscale("log")
+
+# Grid for better readability
+plt.grid(True, linestyle="--", alpha=0.5)
+
+# Save the figure
+plt.tight_layout()
+plt.show()
+# plt.savefig("north_5_speedup_boxplot.pdf", bbox_inches="tight")
