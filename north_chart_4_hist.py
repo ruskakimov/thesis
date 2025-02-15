@@ -134,9 +134,9 @@ for filename, vals in data.items():
     if s1 < threshold or s2 < threshold:
         continue
 
-    if sat_result == 'UNSAT':
-        speedup = s1 / s2
-        speedups.append(speedup)
+    # if sat_result == 'SAT':
+    speedup = s1 / s2
+    speedups.append(speedup)
 
 print('total graphs:', len(speedups))
 
@@ -178,7 +178,6 @@ assert(len(bins) == len(labels))
 plt.rcParams.update({'font.size': 18})
 
 plt.bar(labels, fq_perc, edgecolor='black', color=['red', 'gray', 'green','green','green','green','green','green'])
-
 # plt.hist(speedups, bins=1000, edgecolor='black')  # 30 bins (one for each value)
 plt.xlabel('sat-2 speedup')
 plt.ylabel('instances (%)')
@@ -188,6 +187,8 @@ plt.ylabel('instances (%)')
 
 plt.xticks(rotation=90)
 # plt.gcf().subplots_adjust(bottom=0.2)
+plt.gca().set_axisbelow(True)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
 # legend_handles = [
@@ -200,4 +201,4 @@ plt.tight_layout()
 # Show plot
 # plt.show()
 
-plt.savefig("north_4_speedup_histogram_unsat.pdf")
+plt.savefig("north_4_speedup_histogram.pdf")
