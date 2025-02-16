@@ -112,6 +112,10 @@ for alg in ['cp', 'sat1', 'sat2']:
 
 solved_instances = [i / 1277 * 100 for i in range(1, len(graphs) + 1)]
 
+for i, t in enumerate(time['sat1']):
+    if solved_instances[i] < 6:
+        print(i, solved_instances[i], t)
+
 plt.rcParams.update({'font.size': 18})
 
 plt.plot(solved_instances, time['cp'], label="CP", linestyle="-", linewidth=3, color='orange')
@@ -127,8 +131,8 @@ plt.yscale("log")
 
 # Save the plot
 plt.tight_layout()
-# plt.show()
-plt.savefig("north_2_cactus.pdf", format="pdf", dpi=300)
+plt.show()
+# plt.savefig("north_2_cactus.pdf", format="pdf", dpi=300)
 
 # def plot_scatter(data, key, title):
 
