@@ -208,7 +208,7 @@ test_results = pd.DataFrame({
 })
 print(test_results)
 
-# plt.rcParams.update({'font.size': 18})
+plt.rcParams.update({'font.size': 18})
 
 # 1. Sat-1 Runtimes vs CNF clause count
 # runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
@@ -219,17 +219,20 @@ print(test_results)
 # plt.savefig("north_5_clause_count_scatter.pdf")
 
 # 2. Color groups
-# hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
-# easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
-# plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.3, s=60, label='hard')
-# plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.3, s=60, label='easy')
-# plt.xlabel("number of sat-1 clauses")
-# plt.ylabel("time (seconds)")
-# plt.tight_layout()
-# hard_patch = mpatches.Patch(color="crimson", label="hard")
-# easy_patch = mpatches.Patch(color="teal", label="easy")
-# plt.legend(handles=[hard_patch, easy_patch])
-# # plt.show()
+hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.3, s=60, label='hard')
+plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.3, s=60, label='easy')
+plt.xlabel("number of sat-1 clauses")
+plt.ylabel("time (seconds)")
+plt.tight_layout()
+hard_patch = mpatches.Patch(color="crimson", label="hard")
+easy_patch = mpatches.Patch(color="teal", label="easy")
+plt.legend(handles=[hard_patch, easy_patch])
+# plt.axhline(1, color="black", linestyle="--", linewidth=1)
+plt.axline((0, 0), slope=1 / threshold, linestyle=":", color="black", linewidth=2)
+# plt.plot([0, threshold], [0, 8], linestyle="--", color="black", linewidth=1)
+plt.show()
 # plt.savefig("north_5_clause_count_scatter_separated.pdf")
 
 # 3. Speedup for groups
@@ -247,33 +250,33 @@ print(test_results)
 # # plt.show()
 # plt.savefig("north_5_speedup_groups.pdf")
 
-data_list = [
-    {"group": "hard", "speedup": entry['sat1'] / entry['sat2']}
-    for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold
-] + [
-    {"group": "easy", "speedup": entry['sat1'] / entry['sat2']}
-    for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold
-]
+# data_list = [
+#     {"group": "hard", "speedup": entry['sat1'] / entry['sat2']}
+#     for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold
+# ] + [
+#     {"group": "easy", "speedup": entry['sat1'] / entry['sat2']}
+#     for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold
+# ]
 
-# Convert to DataFrame
-df = pd.DataFrame(data_list)
+# # Convert to DataFrame
+# df = pd.DataFrame(data_list)
 
-# Create the boxplot
-plt.figure(figsize=(6, 4))
-sns.boxplot(x="group", y="speedup", data=df, palette={"hard": "crimson", "easy": "teal"})
+# # Create the boxplot
+# plt.figure(figsize=(6, 4))
+# sns.boxplot(x="group", y="speedup", data=df, palette={"hard": "crimson", "easy": "teal"})
 
-# Add labels and title
-plt.xlabel("Instance Group")
-plt.ylabel("SAT-2 Speedup over SAT-1")
-plt.title("Speedup Comparison: Hard vs Easy Instances")
+# # Add labels and title
+# plt.xlabel("Instance Group")
+# plt.ylabel("SAT-2 Speedup over SAT-1")
+# plt.title("Speedup Comparison: Hard vs Easy Instances")
 
-# Optional: Log-scale for better visibility if needed
-# plt.yscale("log")
+# # Optional: Log-scale for better visibility if needed
+# # plt.yscale("log")
 
-# Grid for better readability
-plt.grid(True, linestyle="--", alpha=0.5)
+# # Grid for better readability
+# plt.grid(True, linestyle="--", alpha=0.5)
 
-# Save the figure
-plt.tight_layout()
-plt.show()
-# plt.savefig("north_5_speedup_boxplot.pdf", bbox_inches="tight")
+# # Save the figure
+# plt.tight_layout()
+# plt.show()
+# # plt.savefig("north_5_speedup_boxplot.pdf", bbox_inches="tight")
