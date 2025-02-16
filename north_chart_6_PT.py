@@ -221,8 +221,8 @@ plt.rcParams.update({'font.size': 18})
 
 
 # 2. Plot mean/median per ratio bins
-# B = 20  # Change this as needed
-# method = 'sat2'
+# B = 12  # Change this as needed
+# method = 'sat1'
 # # Extract data
 # runtimes = [(entry[f'{method}_cv_ratio'], entry[f'{method}']) for entry in data.values()]
 # ratios, times = zip(*runtimes)
@@ -250,3 +250,50 @@ plt.rcParams.update({'font.size': 18})
 # plt.title(f'{method}, {B} buckets')
 # plt.tight_layout()
 # plt.show()
+
+
+B = 8  # Number of bins
+method = 'sat1'
+
+# Extract data
+runtimes = [(entry[f'{method}_cv_ratio'], entry['result']) for entry in data.values()]
+ratios, results = zip(*runtimes)
+
+# Define bins with equal width
+min_ratio, max_ratio = min(ratios), max(ratios)
+bin_edges = np.linspace(min_ratio, max_ratio, B + 1)  # B bins → B+1 edges
+
+# Compute SAT ratio for each bin
+binned_ratios = []
+sat_ratios = []
+
+total_sat = 0
+
+for i in range(B):
+    bin_start, bin_end = bin_edges[i], bin_edges[i + 1]
+    bin_mask = (np.array(ratios) >= bin_start) & (np.array(ratios) < bin_end)
+    
+    bin_results = np.array(results)[bin_mask]
+    sat_count = np.sum(bin_results == 'SAT')
+    total_count = len(bin_results)
+    total_sat += sat_count
+
+    print(total_count)
+
+    if total_count > 0:
+        binned_ratios.append((bin_start + bin_end) / 2)  # Midpoint of the bin
+        sat_ratios.append(sat_count / total_count)  # SAT / (SAT + UNSAT)
+
+print('total SAT:', total_sat)
+
+# Plot SAT ratio per bucket
+plt.plot(binned_ratios, sat_ratios, color='green', marker='o', linestyle='-', linewidth=3, label="SAT Ratio")
+
+# Formatting
+plt.xlabel("clauses-to-variables ratio")
+plt.ylabel("SAT ratio")
+plt.ylim(0, 1)  # Ensure y-axis is in range [0, 1]
+plt.legend()
+plt.title(f'{method}, {B} buckets - SAT ratio')
+plt.tight_layout()
+plt.show()
