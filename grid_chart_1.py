@@ -97,28 +97,31 @@ threshold = 6 * 1e5
 # plt.rcParams.update({'font.size': 18})
 
 # 1. Sat-1 Runtimes vs CNF clause count
-runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
-plt.scatter(*zip(*runtimes), color='blue', alpha=0.3, s=60)
-plt.xlabel("number of sat-1 clauses")
-plt.ylabel("time (seconds)")
-plt.axline((0, 0), slope=1 / threshold, linestyle=":", color="black", linewidth=2)
-plt.tight_layout()
-plt.show()
+# runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values()]
+# plt.scatter(*zip(*runtimes), color='blue', alpha=0.3, s=60)
+# plt.xlabel("number of sat-1 clauses")
+# plt.ylabel("time (seconds)")
+# plt.axvline(1.2 * 10e6, color="black", linestyle="--", linewidth=1)
+# plt.axline((0, 0), slope=1 / threshold, linestyle=":", color="black", linewidth=2)
+# plt.tight_layout()
+# plt.show()
 # plt.savefig("north_5_clause_count_scatter.pdf")
 
 # 2. Color groups
-# hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
-# easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
-# plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.3, s=60, label='hard')
-# plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.3, s=60, label='easy')
-# plt.xlabel("number of sat-1 clauses")
-# plt.ylabel("time (seconds)")
-# plt.tight_layout()
-# hard_patch = mpatches.Patch(color="crimson", label="hard")
-# easy_patch = mpatches.Patch(color="teal", label="easy")
-# plt.legend(handles=[hard_patch, easy_patch])
-# # plt.axhline(1, color="black", linestyle="--", linewidth=1)
+hard_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
+easy_runtimes = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
+plt.scatter(*zip(*hard_runtimes), color='crimson', alpha=0.3, s=60, label='hard')
+plt.scatter(*zip(*easy_runtimes), color='teal', alpha=0.3, s=60, label='easy')
+plt.xlabel("number of sat-1 clauses")
+plt.ylabel("time (seconds)")
+plt.tight_layout()
+plt.axvline(1.2 * 10e6, color="black", linestyle="--", linewidth=1)
+plt.axline((0, 0), slope=1 / threshold, linestyle=":", color="black", linewidth=2)
+hard_patch = mpatches.Patch(color="crimson", label="hard")
+easy_patch = mpatches.Patch(color="teal", label="easy")
+plt.legend(handles=[hard_patch, easy_patch])
+# plt.axhline(1, color="black", linestyle="--", linewidth=1)
 # plt.axline((0, 0), slope=1 / threshold, linestyle=":", color="black", linewidth=2)
-# # plt.plot([0, threshold], [0, 8], linestyle="--", color="black", linewidth=1)
-# plt.show()
+# plt.plot([0, threshold], [0, 8], linestyle="--", color="black", linewidth=1)
+plt.show()
 # # plt.savefig("north_5_clause_count_scatter_separated.pdf")
