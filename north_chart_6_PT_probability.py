@@ -255,7 +255,7 @@ while r < 2.5 + step:
 
 plt.plot(mn_bucket_mid, probs, color='blue', marker='o', linestyle='-', linewidth=3)
 plt.xlabel("m/n")
-plt.ylabel("sat probability")
+plt.ylabel("probability")
 # plt.axhline(0.5)
 plt.axvline(1.34, color='black', linestyle=':', linewidth=2, alpha=0.7)
 # plt.legend()
