@@ -189,7 +189,7 @@ plt.rcParams.update({'font.size': 18})
 # method = 'sat1'
 
 # # Extract data
-runtimes = [(entry['m'] / entry['n'], entry['result']) for entry in data.values()]
+mn_res_time = [(entry['m'] / entry['n'], entry['result'], entry['sat2']) for entry in data.values()]
 # ratios, results = zip(*runtimes)
 
 # # Define bins with equal width
@@ -231,31 +231,33 @@ runtimes = [(entry['m'] / entry['n'], entry['result']) for entry in data.values(
 # plt.tight_layout()
 # plt.show()
 
-print(len([mn for mn, sat in runtimes if sat == 'SAT']))
-print(len([mn for mn, sat in runtimes if sat == 'UNSAT']))
+print('Total SAT:', len([mn for mn, sat, time in mn_res_time if sat == 'SAT']))
+print('Total UNSAT', len([mn for mn, sat, time in mn_res_time if sat == 'UNSAT']))
 
 mn_bucket_mid = []
-probs = []
+runtimes = []
 
 r = 1
 step = 0.1
-while r < 3 + step:
-    all_left = [(mn, sat) for mn, sat in runtimes if (r - step) < mn <= r]
-    sat_count = len([mn for mn, sat in all_left if sat == 'SAT'])
-    # unsat_count = len([mn for mn, sat in all_left if sat == 'UNSAT'])
+while r < 2 + step:
+    bucket = [time for mn, sat, time in mn_res_time if (r - step) < mn <= r]
+    if len(bucket) == 0:
+        r += step
+        continue
 
-    prob = sat_count / len(all_left)
     bucket_mid = r - step/2
+    mean_runtime = sum(bucket) / len(bucket)
     
     mn_bucket_mid.append(bucket_mid)
-    probs.append(prob)
+    runtimes.append(mean_runtime)
 
-    print(f'({r-step:.1f}, {r:.1f}]', f'{prob:.3f}')
+    print(f'({r-step:.1f}, {r:.1f}]', f'{mean_runtime:.3f}')
     r += step
 
-plt.plot(mn_bucket_mid, probs, color='blue', marker='o', linestyle='-', linewidth=3)
+plt.plot(mn_bucket_mid, runtimes, color='red', marker='o', linestyle='-', linewidth=3)
 plt.xlabel("m/n")
-plt.ylabel("sat probability")
+plt.ylabel("time (seconds)")
 # plt.ylim(0, 1)
+plt.title(f'bucket size: {step}')
 plt.tight_layout()
 plt.show()
