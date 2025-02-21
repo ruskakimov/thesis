@@ -153,10 +153,10 @@ plt.rcParams.update({'font.size': 18})
 
 
 # 2. Plot mean/median per ratio bins
-# B = 12  # Change this as needed
-# method = 'sat1'
+# B = 30  # Change this as needed
+# method = 'sat2'
 # # Extract data
-# runtimes = [(entry[f'{method}_cv_ratio'], entry[f'{method}']) for entry in data.values()]
+# runtimes = [(entry['m'] / entry['n'], entry[f'{method}']) for entry in data.values()]
 # ratios, times = zip(*runtimes)
 # # Define bins with equal width
 # min_ratio, max_ratio = min(ratios), max(ratios)
@@ -173,10 +173,11 @@ plt.rcParams.update({'font.size': 18})
 #         binned_ratios.append((bin_start + bin_end) / 2)  # Middle of the bin
 #         binned_mean_values.append(np.mean(bin_times))  # Replace with np.median(bin_times) if needed
 #         binned_median_values.append(np.median(bin_times))
-# plt.scatter(ratios, times, color='gray', alpha=0.3, s=60, label="raw data")
+# # plt.scatter(ratios, times, color='gray', alpha=0.3, s=60, label="raw data")
 # plt.plot(binned_ratios, binned_mean_values, color='red', marker='o', linestyle='-', linewidth=3, label="mean")
-# plt.plot(binned_ratios, binned_median_values, color='blue', marker='s', linestyle='-', linewidth=3, label="median")
-# plt.xlabel("clauses-to-variables ratio")
+# # plt.plot(binned_ratios, binned_median_values, color='blue', marker='s', linestyle='-', linewidth=3, label="median")
+# plt.axvline(1.5)
+# plt.xlabel("m/n")
 # plt.ylabel("time (seconds)")
 # plt.legend()
 # plt.title(f'{method}, {B} buckets')
@@ -184,48 +185,77 @@ plt.rcParams.update({'font.size': 18})
 # plt.show()
 
 
-B = 30  # Number of bins
-method = 'sat1'
+# B = 30  # Number of bins
+# method = 'sat1'
 
-# Extract data
+# # Extract data
 runtimes = [(entry['m'] / entry['n'], entry['result']) for entry in data.values()]
-ratios, results = zip(*runtimes)
+# ratios, results = zip(*runtimes)
 
-# Define bins with equal width
-min_ratio, max_ratio = min(ratios), max(ratios)
-bin_edges = np.linspace(min_ratio, max_ratio, B + 1)  # B bins → B+1 edges
+# # Define bins with equal width
+# min_ratio, max_ratio = min(ratios), max(ratios)
+# bin_edges = np.linspace(min_ratio, max_ratio, B + 1)  # B bins → B+1 edges
 
-# Compute SAT ratio for each bin
-binned_ratios = []
-sat_ratios = []
+# # Compute SAT ratio for each bin
+# binned_ratios = []
+# sat_ratios = []
 
-total_sat = 0
+# total_sat = 0
 
-for i in range(B):
-    bin_start, bin_end = bin_edges[i], bin_edges[i + 1]
-    bin_mask = (np.array(ratios) >= bin_start) & (np.array(ratios) < bin_end)
+# for i in range(B):
+#     bin_start, bin_end = bin_edges[i], bin_edges[i + 1]
+#     bin_mask = (np.array(ratios) >= bin_start) & (np.array(ratios) < bin_end)
     
-    bin_results = np.array(results)[bin_mask]
-    sat_count = np.sum(bin_results == 'SAT')
-    total_count = len(bin_results)
-    total_sat += sat_count
+#     bin_results = np.array(results)[bin_mask]
+#     sat_count = np.sum(bin_results == 'SAT')
+#     total_count = len(bin_results)
+#     total_sat += sat_count
 
-    print(sat_count, '/', total_count)
+#     print(bin_end, ': ', sat_count, '/', total_count)
 
-    if total_count > 0:
-        binned_ratios.append((bin_start + bin_end) / 2)  # Midpoint of the bin
-        sat_ratios.append(sat_count / total_count)  # SAT / (SAT + UNSAT)
+#     if total_count > 0:
+#         binned_ratios.append((bin_start + bin_end) / 2)  # Midpoint of the bin
+#         sat_ratios.append(sat_count / total_count)  # SAT / (SAT + UNSAT)
 
-print('total SAT:', total_sat)
+# print('total SAT:', total_sat)
 
-# Plot SAT ratio per bucket
-plt.plot(binned_ratios, sat_ratios, color='blue', marker='o', linestyle='-', linewidth=3, markersize=9)
+# # Plot SAT ratio per bucket
+# plt.plot(binned_ratios, sat_ratios, color='blue', marker='o', linestyle='-', linewidth=3, markersize=9)
 
-# Formatting
+# # Formatting
+# plt.xlabel("m/n")
+# plt.ylabel("sat probability")
+# plt.ylim(0, 1)  # Ensure y-axis is in range [0, 1]
+# # plt.legend()
+# # plt.title('')
+# plt.tight_layout()
+# plt.show()
+
+print(len([mn for mn, sat in runtimes if sat == 'SAT']))
+print(len([mn for mn, sat in runtimes if sat == 'UNSAT']))
+
+mn_bucket_mid = []
+probs = []
+
+r = 1
+step = 0.1
+while r < 3 + step:
+    all_left = [(mn, sat) for mn, sat in runtimes if (r - step) < mn <= r]
+    sat_count = len([mn for mn, sat in all_left if sat == 'SAT'])
+    # unsat_count = len([mn for mn, sat in all_left if sat == 'UNSAT'])
+
+    prob = sat_count / len(all_left)
+    bucket_mid = r - step/2
+    
+    mn_bucket_mid.append(bucket_mid)
+    probs.append(prob)
+
+    print(f'({r-step:.1f}, {r:.1f}]', f'{prob:.3f}')
+    r += step
+
+plt.plot(mn_bucket_mid, probs, color='blue', marker='o', linestyle='-', linewidth=3)
 plt.xlabel("m/n")
 plt.ylabel("sat probability")
-plt.ylim(0, 1)  # Ensure y-axis is in range [0, 1]
-# plt.legend()
-# plt.title('')
+# plt.ylim(0, 1)
 plt.tight_layout()
 plt.show()
