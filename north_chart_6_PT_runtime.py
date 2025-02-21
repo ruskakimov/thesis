@@ -239,7 +239,7 @@ runtimes = []
 
 r = 1
 step = 0.1
-while r < 2 + step:
+while r < 2.5 + step:
     bucket = [time for mn, sat, time in mn_res_time if (r - step) < mn <= r]
     if len(bucket) == 0:
         r += step
@@ -258,6 +258,7 @@ plt.plot(mn_bucket_mid, runtimes, color='red', marker='o', linestyle='-', linewi
 plt.xlabel("m/n")
 plt.ylabel("time (seconds)")
 # plt.ylim(0, 1)
-plt.title(f'bucket size: {step}')
+# plt.title(f'bucket size: {step}')
 plt.tight_layout()
-plt.show()
+# plt.show()
+plt.savefig("north_6_PT_runtime.pdf")
