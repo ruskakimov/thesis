@@ -139,74 +139,6 @@ for sat in ['sat1', 'sat2']:
             data[graph][f'{sat}_cnf_c'] = clause_count
             data[graph][f'{sat}_cv_ratio'] = clause_count / var_count
 
-# print(data['g.10.0.gml'])
-
-# plot_scatter(data)
-
-
-# speedups = []
-# threshold = 5 / 1000 # below this time will be more random
-
-# for filename, vals in data.items():
-#     if not 'sat1' in vals or not 'sat2' in vals:
-#         print('not found!', filename)
-#         continue
-
-#     cp = vals['cp']
-#     s1 = vals['sat1']
-#     s2 = vals['sat2']
-#     n = vals['n']
-#     m = vals['m']
-#     sat_result = vals['result']
-
-#     if s1 < threshold or s2 < threshold:
-#         continue
-
-#     # if sat_result == 'SAT':
-#     speedup = s1 / s2
-#     speedups.append(speedup)
-
-threshold = 6 * 1e5
-
-# [(clauses, runtime), ...]
-below_group = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] < threshold]
-above_group = [(entry['sat1_cnf_c'], entry['sat1']) for entry in data.values() if entry['sat1_cnf_c'] / entry['sat1'] >= threshold]
-
-# Convert to DataFrames
-df1 = pd.DataFrame(below_group, columns=['X', 'Y'])
-df2 = pd.DataFrame(above_group, columns=['X', 'Y'])
-
-# Compute the ratio R = X / Y
-df1['Ratio'] = df1['X'] / df1['Y']
-df2['Ratio'] = df2['X'] / df2['Y']
-
-# Compute summary statistics
-stats = {
-    'Group': ['Below Threshold (R < T)', 'Above Threshold (R ≥ T)'],
-    'Mean': [df1['Ratio'].mean(), df2['Ratio'].mean()],
-    'Median': [df1['Ratio'].median(), df2['Ratio'].median()],
-    'Variance': [df1['Ratio'].var(), df2['Ratio'].var()]
-}
-
-summary_df = pd.DataFrame(stats)
-print(summary_df)
-
-# Variance test (Levene’s test)
-levene_stat, levene_p = levene(df1['Ratio'], df2['Ratio'])
-
-# Non-parametric test for median difference
-mann_stat, mann_p = mannwhitneyu(df1['Ratio'], df2['Ratio'], alternative='two-sided')
-
-# Parametric test for mean difference
-t_stat, t_p = ttest_ind(df1['Ratio'], df2['Ratio'])
-
-# Display test results
-test_results = pd.DataFrame({
-    'Test': ['Levene’s Test (Variance)', 'Mann-Whitney U Test (Median)', 'T-Test (Mean)'],
-    'Statistic': [levene_stat, mann_stat, t_stat],
-    'p-value': [levene_p, mann_p, t_p]
-})
-print(test_results)
 
 plt.rcParams.update({'font.size': 18})
 
@@ -252,11 +184,11 @@ plt.rcParams.update({'font.size': 18})
 # plt.show()
 
 
-B = 8  # Number of bins
+B = 30  # Number of bins
 method = 'sat1'
 
 # Extract data
-runtimes = [(entry[f'{method}_cv_ratio'], entry['result']) for entry in data.values()]
+runtimes = [(entry['m'] / entry['n'], entry['result']) for entry in data.values()]
 ratios, results = zip(*runtimes)
 
 # Define bins with equal width
@@ -278,7 +210,7 @@ for i in range(B):
     total_count = len(bin_results)
     total_sat += sat_count
 
-    print(total_count)
+    print(sat_count, '/', total_count)
 
     if total_count > 0:
         binned_ratios.append((bin_start + bin_end) / 2)  # Midpoint of the bin
@@ -287,13 +219,13 @@ for i in range(B):
 print('total SAT:', total_sat)
 
 # Plot SAT ratio per bucket
-plt.plot(binned_ratios, sat_ratios, color='green', marker='o', linestyle='-', linewidth=3, label="SAT Ratio")
+plt.plot(binned_ratios, sat_ratios, color='blue', marker='o', linestyle='-', linewidth=3, markersize=9)
 
 # Formatting
-plt.xlabel("clauses-to-variables ratio")
-plt.ylabel("SAT ratio")
+plt.xlabel("m/n")
+plt.ylabel("sat probability")
 plt.ylim(0, 1)  # Ensure y-axis is in range [0, 1]
-plt.legend()
-plt.title(f'{method}, {B} buckets - SAT ratio')
+# plt.legend()
+# plt.title('')
 plt.tight_layout()
 plt.show()
