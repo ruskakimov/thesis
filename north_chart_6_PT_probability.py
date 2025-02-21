@@ -239,7 +239,7 @@ probs = []
 
 r = 1
 step = 0.1
-while r < 3 + step:
+while r < 2.5 + step:
     all_left = [(mn, sat) for mn, sat in runtimes if (r - step) < mn <= r]
     sat_count = len([mn for mn, sat in all_left if sat == 'SAT'])
     # unsat_count = len([mn for mn, sat in all_left if sat == 'UNSAT'])
@@ -256,6 +256,9 @@ while r < 3 + step:
 plt.plot(mn_bucket_mid, probs, color='blue', marker='o', linestyle='-', linewidth=3)
 plt.xlabel("m/n")
 plt.ylabel("sat probability")
+# plt.axhline(0.5)
+plt.axvline(1.34, color='black', linestyle=':', linewidth=2, alpha=0.7)
+# plt.legend()
 # plt.ylim(0, 1)
 plt.tight_layout()
 plt.show()
