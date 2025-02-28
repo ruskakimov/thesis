@@ -231,34 +231,41 @@ mn_res_time = [(entry['m'] / entry['n'], entry['result'], entry['sat2']) for ent
 # plt.tight_layout()
 # plt.show()
 
-print('Total SAT:', len([mn for mn, sat, time in mn_res_time if sat == 'SAT']))
-print('Total UNSAT', len([mn for mn, sat, time in mn_res_time if sat == 'UNSAT']))
+# print('Total SAT:', len([mn for mn, sat, time in mn_res_time if sat == 'SAT']))
+# print('Total UNSAT', len([mn for mn, sat, time in mn_res_time if sat == 'UNSAT']))
 
-mn_bucket_mid = []
-runtimes = []
+# mn_bucket_mid = []
+# runtimes = []
 
-r = 1
-step = 0.1
-while r < 2.5 + step:
-    bucket = [time for mn, sat, time in mn_res_time if (r - step) < mn <= r]
-    if len(bucket) == 0:
-        r += step
-        continue
+# r = 1
+# step = 0.1
+# while r < 2.5 + step:
+#     bucket = [time for mn, sat, time in mn_res_time if (r - step) < mn <= r]
+#     if len(bucket) == 0:
+#         r += step
+#         continue
 
-    bucket_mid = r - step/2
-    mean_runtime = sum(bucket) / len(bucket)
+#     bucket_mid = r - step/2
+#     mean_runtime = sum(bucket) / len(bucket)
     
-    mn_bucket_mid.append(bucket_mid)
-    runtimes.append(mean_runtime)
+#     mn_bucket_mid.append(bucket_mid)
+#     runtimes.append(mean_runtime)
 
-    print(f'({r-step:.1f}, {r:.1f}]', f'{mean_runtime:.3f}')
-    r += step
+#     print(f'({r-step:.1f}, {r:.1f}]', f'{mean_runtime:.3f}')
+#     r += step
 
-plt.plot(mn_bucket_mid, runtimes, color='red', marker='o', linestyle='-', linewidth=3)
-plt.xlabel("m/n")
-plt.ylabel("time (seconds)")
-# plt.ylim(0, 1)
-# plt.title(f'bucket size: {step}')
-plt.tight_layout()
+# plt.plot(mn_bucket_mid, runtimes, color='red', marker='o', linestyle='-', linewidth=3)
+# plt.xlabel("m/n")
+# plt.ylabel("time (seconds)")
+# # plt.ylim(0, 1)
+# # plt.title(f'bucket size: {step}')
+# plt.tight_layout()
 # plt.show()
-plt.savefig("north_6_PT_runtime.pdf")
+# # plt.savefig("north_6_PT_runtime.pdf")
+
+long_mns = [mn for mn, res, t in mn_res_time if t > 1.1]
+
+print(len(long_mns))
+# print('avg:', sum(long_mns) / len(long_mns))
+
+print('mn:', min(long_mns), max(long_mns))
