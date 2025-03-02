@@ -1,0 +1,16 @@
+n = 4;
+k = 3;
+s = 1;
+t = 4;
+
+adj = array2d(1..4, 1..4,
+ [ false, true,  true,  false,
+   true,  false, false, true,
+   true,  false, false, true,
+   false, true,  true,  false ]);
+
+cover = array2d(1..n, 1..k, 
+    [ true,  false, false,  % Node 1 requires obstacle 1
+      true,  true,  false,  % Node 2 requires obstacles 1 and 2
+      true,  false, false,  % Node 3 requires obstacle 1
+      false, false, true ]); % Node 4 requires obstacle 3

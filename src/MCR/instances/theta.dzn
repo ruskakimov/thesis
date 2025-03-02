@@ -1,0 +1,30 @@
+n = 10;  % Number of nodes
+k = 5;   % Number of obstacles
+s = 1;   % Start node
+t = 10;  % Goal node
+
+% Adjacency matrix (undirected graph)
+adj = array2d(1..10, 1..10,
+ [ false, true,  true,  false, false, false, false, false, false, false,
+   true,  false, false, true,  false, false, false, false, false, false,
+   true,  false, false, false, true,  false, false, false, false, false,
+   false, true,  false, false, false, true,  false, false, false, false,
+   false, false, true,  false, false, true,  true,  false, false, false,
+   false, false, false, true,  true,  false, false, true,  false, false,
+   false, false, false, false, true,  false, false, false, true,  false,
+   false, false, false, false, false, true,  false, false, false, true,
+   false, false, false, false, false, false, true,  false, false, true,
+   false, false, false, false, false, false, false, true,  true,  false ]);
+
+% Cover matrix (which obstacles must be removed to visit a node)
+cover = array2d(1..10, 1..5, 
+  [ false, true,  false, false, false,  % Node 1 requires obstacle 2
+    true,  false, false, false, false,  % Node 2 requires obstacle 1
+    false, false, true,  true,  true,   % Node 3 requires obstacles 3,4,5
+    false, false, true,  false, false,  % Node 4 requires obstacle 3
+    false, true,  false, false, false,  % Node 5 requires obstacle 2
+    false, true,  false, false, false,  % Node 6 requires obstacle 2
+    false, false, true,  false, false,  % Node 7 requires obstacle 3
+    false, true,  true,  true,  true,   % Node 8 requires obstacles 2,3,4,5
+    false, false, true,  false, false,  % Node 9 requires obstacle 3
+    false, true,  false, false, false ]); % Node 10 requires obstacle 2

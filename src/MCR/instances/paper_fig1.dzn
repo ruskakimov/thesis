@@ -1,0 +1,46 @@
+n = 18;  % Number of nodes
+k = 5;   % Number of obstacles
+s = 1;   % Start node
+t = 16;  % Goal node
+
+% Adjacency matrix (undirected graph)
+adj = array2d(1..18, 1..18,
+ [ false, true,  true,  true,  false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+   true,  false, false, false, true,  false, true,  false, false, false, false, true,  false, false, false, false, false, false,
+   true,  false, false, false, false, true,  false, false, false, false, false, false, false, false, false, false, false, false,
+   true,  false, false, false, false, false, false, false, false, true,  true,  false, false, false, true,  false, true,  false,
+   false, true,  false, false, false, false, false, true,  true,  false, false, false, false, false, false, false, false, false,
+   false, false, true,  false, false, false, false, true,  false, false, false, false, false, false, false, false, false, false,
+   false, true,  false, false, false, false, false, false, false, false, false, true,  false, false, false, false, false, false,
+   false, false, false, false, true,  true,  false, false, false, true,  false, false, false, false, false, false, false, false,
+   false, false, false, false, true,  false, false, false, false, true,  false, false, true,  false, false, false, false, false,
+   false, false, false, true,  false, false, false, true,  true,  false, false, false, false, true,  false, false, false, false,
+   false, false, false, true,  false, false, false, false, false, false, false, false, false, false, false, false, false, true,
+   false, true,  false, false, false, false, true,  false, false, false, false, false, true,  false, false, false, false, false,
+   false, false, false, false, false, false, false, false, true,  false, false, true,  false, true,  false, false, false, false,
+   false, false, false, false, false, false, false, false, false, true,  false, false, true,  false, true,  false, false, false,
+   false, false, false, true,  false, false, false, false, false, false, false, false, false, true,  false, true,  false, false,
+   false, false, false, false, false, false, false, false, false, false, false, false, false, false, true,  false, true,  false,
+   false, false, false, true,  false, false, false, false, false, false, false, false, false, false, false, true,  false, true,
+   false, false, false, false, false, false, false, false, false, false, true,  false, false, false, false, false, true,  false ]);
+
+% Cover matrix (which obstacles must be removed to visit a node)
+cover = array2d(1..18, 1..5,
+    [ false, false, false, false, false,  % Node 1 (no obstacles)
+      true,  false, false, false, false,  % Node 2 (obstacle 1)
+      false, true,  false, false, false,  % Node 3 (obstacle 2)
+      false, false, true,  false, false,  % Node 4 (obstacle 3)
+      true,  true,  false, false, false,  % Node 5 (obstacles 1,2)
+      false, true,  true,  false, false,  % Node 6 (obstacles 2,3)
+      false, false, false, false, false,  % Node 7 (no obstacles)
+      true,  true,  true,  false, false,  % Node 8 (obstacles 1,2,3)
+      false, false, true,  false, false,  % Node 9 (obstacle 3)
+      true,  false, true,  false, false,  % Node 10 (obstacles 1,3)
+      false, false, true,  true,  false,  % Node 11 (obstacles 3,4)
+      false, false, false, false, true,   % Node 12 (obstacle 5)
+      false, false, true,  false, true,   % Node 13 (obstacles 3,5)
+      true,  false, true,  false, true,   % Node 14 (obstacles 1,3,5)
+      false, false, true,  false, true,   % Node 15 (obstacles 3,5)
+      false, false, false, false, true,   % Node 16 (obstacle 5)
+      false, false, false, false, false,  % Node 17 (no obstacles)
+      false, false, false, true,  false ]); % Node 18 (obstacle 4)
