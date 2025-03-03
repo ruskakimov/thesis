@@ -27,6 +27,17 @@ def rome_graphs():
         except Exception as e:
             print(f"Failed to read {gml_file.name}: {e}")
 
+# def alf_cu(N):
+#     dir = dataset_dir / 'ALF_CU' / f'graphswith{N}nodes'
+    
+#     for gml_file in dir.glob('*.gml'):
+#         try:
+#             G = nx.read_gml(gml_file)
+#             G.name = gml_file.name
+#             yield G
+#         except Exception as e:
+#             print(f"Failed to read {gml_file.name}: {e}")
+
 def north_graphs():
     """
     Generator that reads all GML files from the 'north' subdirectory in the dataset 
