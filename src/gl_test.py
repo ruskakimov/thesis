@@ -10,14 +10,19 @@ def solve(cnf):
     
 for G in rome_graphs():
     N = G.number_of_nodes()
+    
     if N > 10:
         continue
+
+    print(G.name)
+    
     cnf = encode_graceful_labeling(G)
+    
     result, solution = solve(cnf)
+    print('SAT:', result)
     
     node_labels = decode_graceful_labeling(G, solution)
-    print(node_labels)
+    print('Node labels:', node_labels)
 
     print('Correct GL:', is_valid_graceful_labeling(G, node_labels))
-
-    break
+    print('-' * 30)
