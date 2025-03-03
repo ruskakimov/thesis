@@ -19,10 +19,13 @@ def encode_graceful_labeling(graph):
     """
 
     cnf = CNF()
-    N = len(graph.nodes)
+    nodes = list(graph.nodes())
+    N = len(nodes)
     M = len(graph.edges())
 
-    X, Y = get_variables()
+    node_index = {nodes[i]: i for i in range(N)}
+
+    X, Y = get_variables(N, M)
 
     # Constraint: Node `v` has at least one label
     for v in range(N):
@@ -53,7 +56,7 @@ def encode_graceful_labeling(graph):
         for i in range(M+1):
             for j in range(M+1):
                 if i != j:
-                    clause = [-X(v, i), -X(w, j), Y(vw, abs(i-j)-1)]
+                    clause = [-X(node_index[v], i), -X(node_index[w], j), Y(vw, abs(i-j)-1)]
                     cnf.append(clause)
     
     return cnf
@@ -67,7 +70,7 @@ def decode_graceful_labeling(graph, solution):
     N = len(vertices)
     M = len(edges)
 
-    X, Y = get_variables()
+    X, Y = get_variables(N, M)
 
     value_of = {}
     for var in solution:
