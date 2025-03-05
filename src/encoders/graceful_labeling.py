@@ -53,8 +53,8 @@ def encode_graceful_labeling(graph):
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, (v, w) in enumerate(graph.edges):
-        for i in range(M+1):
-            for j in range(M+1):
+        for i in range(M+1): # node v label (i)
+            for j in range(M+1): # node w label (j)
                 if i != j:
                     clause = [-X(node_index[v], i), -X(node_index[w], j), Y(vw, abs(i-j)-1)]
                     cnf.append(clause)
