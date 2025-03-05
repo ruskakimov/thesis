@@ -33,9 +33,9 @@ def generate_dzn(G, s, t, k, filename="graph_instance.dzn"):
     print(f"DZN file saved as {filename}")
 
 for G in rome_graphs():
-    if G.name == 'grafo263.11.gml':
+    if G.name == 'grafo3600.43.gml':
         n = G.number_of_nodes()
-        generate_dzn(G, s='7', t='3', k=5, filename=f'{G.name}.dzn')
+        generate_dzn(G, s='19', t='42', k=5, filename=f'{G.name}.dzn')
 
         # nx.draw(G, with_labels=True, node_color='skyblue', edge_color='gray', node_size=1500, font_size=16)
         # plt.show()
