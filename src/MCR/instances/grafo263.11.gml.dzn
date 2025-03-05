@@ -1,0 +1,6 @@
+n = 11;
+s = 1;
+t = 11;
+k = 5;
+adj = array2d(1..11, 1..11, [false, false, false, false, true, false, true, false, false, false, true, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]);
+cover = array2d(1..11, 1..5, [true, true, true, false, false, false, true, false, true, false, true, true, false, false, false, false, true, false, false, false, true, false, false, false, true, false, true, false, true, false, false, true, false, false, true, false, true, false, false, false, true, false, false, false, true, false, false, true, false, true, true, false, false, false, false]);
