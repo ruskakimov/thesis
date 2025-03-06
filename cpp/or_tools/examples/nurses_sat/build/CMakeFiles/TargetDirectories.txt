@@ -1,8 +1,0 @@
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/nurses_sat.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/test.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/edit_cache.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/rebuild_cache.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/list_install_components.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/install.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/install/local.dir
-/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/nurses_sat/build/CMakeFiles/install/strip.dir
