@@ -1,3 +1,4 @@
+import networkx as nx
 from pathlib import Path
 from pysat.solvers import Solver
 from helpers import rome_graphs, write_cnf, T
@@ -55,6 +56,17 @@ def test_encoding(nodes, max_cases):
         print('Correct GL:', is_valid_graceful_labeling(G, node_labels))
         print('-' * 30)
 
+def test_some_impossible_cases():
+    G = nx.cycle_graph(5)
+
+    cnf = encode_graceful_labeling(G)
+    result, solution = solve(cnf)
+    assert(result == False)
+    
+    print('All passed!')
+
 # test_encoding(nodes=30, max_cases=3)
 
-generate_cnfs(10)
+# generate_cnfs(20)
+
+test_some_impossible_cases()
