@@ -16,6 +16,7 @@ def AMO(cnf, vars, var_count):
     m = math.ceil(n / group_size)
     log_m = math.ceil(math.log(m) / math.log(2))
 
+    # Group `i`
     def G(i): # 0-indexed
         a = i * group_size
         b = a + 1
@@ -24,15 +25,34 @@ def AMO(cnf, vars, var_count):
         else:
             return [a]
     
+    # Aux variables (commander, bin representation)
+    def B(j): # 0-indexed
+        return var_count + 1 + j
+
+    def phi(i, j):
+        b_str = bin(i)[2:][::-1]
+        if b_str[j] == '1':
+            return B(j)
+        else:
+            return -B(j)
+    
     # 1) pairwise AMO
     for i in range(m):
         g = G(i)
         if len(g) < 2:
             continue
-        for a in range(len(g)):
-            for b in range(a+1, len(g)):
-                clause = [-g[a], -g[b]]
+        for h1 in range(len(g)):
+            for h2 in range(h1+1, len(g)):
+                clause = [-g[h1], -g[h2]]
                 cnf.append(clause)
+    
+    # 2) commander variables constraints
+    for i in range(m):
+        g = G(i)
+        for h in range(len(g)):
+            for j in range(log_m):
+                x_i_h = g[h]
+                clause = [-x_i_h, phi(i, j)]
 
     return var_count + log_m
 
