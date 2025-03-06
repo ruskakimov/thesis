@@ -3,7 +3,7 @@ from pysat.formula import CNF
 
 # At-most-one clauses
 # Bimander encoding (Van-Hau Nguyen et. al.)
-def AMO(cnf, vars, var_count):
+def AMO(cnf, vars, var_count, group_size=2):
     n = len(vars)
 
     # pairwise
@@ -12,7 +12,6 @@ def AMO(cnf, vars, var_count):
     #         clause = [-vars[i], -vars[j]]
     #         cnf.append(clause)
 
-    group_size = 2 # most optimal is 2
     m = math.ceil(n / group_size)
     log_m = math.ceil(math.log(m) / math.log(2))
 
@@ -39,6 +38,7 @@ def AMO(cnf, vars, var_count):
         for h1 in range(len(g)):
             for h2 in range(h1+1, len(g)):
                 clause = [-g[h1], -g[h2]]
+                # print('pairwise', clause)
                 cnf.append(clause)
     
     # 2) commander variables constraints
@@ -48,8 +48,14 @@ def AMO(cnf, vars, var_count):
             for j in range(log_m):
                 x_i_h = g[h]
                 clause = [-x_i_h, phi(i, j)]
+                # print(f'{clause[0]} \/ {"-" if clause[1] < 0 else ""}b{abs(clause[1]) - 8}')
+                cnf.append(clause)
 
     return var_count + log_m
+
+test_cnf = []
+AMO(test_cnf, list(range(1,9)), 8, group_size=3)
+assert(test_cnf == [[-1, -2], [-1, -3], [-2, -3], [-4, -5], [-4, -6], [-5, -6], [-7, -8], [-1, -9], [-1, -10], [-2, -9], [-2, -10], [-3, -9], [-3, -10], [-4, 9], [-4, -10], [-5, 9], [-5, -10], [-6, 9], [-6, -10], [-7, -9], [-7, 10], [-8, -9], [-8, 10]])
 
 def get_variables(N, M):
     # X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
