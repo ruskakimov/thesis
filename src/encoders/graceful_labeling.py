@@ -30,8 +30,7 @@ def AMO(cnf, vars, var_count):
         return var_count + 1 + j
 
     def phi(i, j):
-        b_str = bin(i)[2:][::-1]
-        if b_str[j] == '1':
+        if i & (1 << j):
             return B(j)
         else:
             return -B(j)
