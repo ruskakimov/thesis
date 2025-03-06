@@ -1,3 +1,11 @@
+Compile /cpp
+
+```
+g++ -std=c++17 -I/usr/local/or-tools/include \
+    -L/usr/local/or-tools/lib \
+    -lortools -o sample sample.cpp
+```
+
 To run SAT solver, execute the following command with the CNF of your choice:
 
 ```
