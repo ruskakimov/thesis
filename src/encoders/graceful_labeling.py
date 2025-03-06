@@ -37,6 +37,9 @@ def encode_graceful_labeling(graph):
 
     X, Y = get_variables(N, M)
 
+    node_labels = list(range(M+1)) # [0,M]
+    edge_labels = list(range(M))   # [0,M-1] represents [1,M]
+
     var_count = Y(M-1, M-1)
 
     # Constraint: Node `v` has at least one label
@@ -46,21 +49,21 @@ def encode_graceful_labeling(graph):
     
     # Constraint: Edge `v,w` has at least one label
     for vw in range(M):
-        clause = [Y(vw, j) for j in range(M)]
+        clause = [Y(vw, j) for j in edge_labels]
         cnf.append(clause)
 
     # Constraint: At most one node has label `i`
-    for i in range(M+1): # [0,M]
+    for i in node_labels:
         var_count = AMO(cnf, [X(v, i) for v in range(N)], var_count)
 
     # Constraint: At most one edge has label `j`
-    for j in range(M): # [0,M-1] represents [1,M]
+    for j in edge_labels:
         var_count = AMO(cnf, [Y(e, j) for e in range(M)], var_count)
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, (v, w) in enumerate(graph.edges):
-        for i in range(M+1): # node v label (i)
-            for j in range(M+1): # node w label (j)
+        for i in node_labels: # node v label (i)
+            for j in node_labels: # node w label (j)
                 if i != j:
                     clause = [-X(node_index[v], i), -X(node_index[w], j), Y(vw, abs(i-j)-1)]
                     cnf.append(clause)
