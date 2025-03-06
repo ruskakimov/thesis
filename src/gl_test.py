@@ -55,4 +55,4 @@ def test_encoding(nodes, max_cases):
         print('Correct GL:', is_valid_graceful_labeling(G, node_labels))
         print('-' * 30)
 
-test_encoding(nodes=20, max_cases=3)
+# test_encoding(nodes=30, max_cases=3)
