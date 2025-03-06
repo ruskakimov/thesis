@@ -1,13 +1,14 @@
 from pysat.formula import CNF
 
 # At-most-one clauses
-def AMO(cnf, vars):
+def AMO(cnf, vars, var_count):
     n = len(vars)
     # pairwise
     for i in range(n):
         for j in range(i+1, n):
             clause = [-vars[i], -vars[j]]
             cnf.append(clause)
+    return var_count
 
 def get_variables(N, M):
     # X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
@@ -36,6 +37,8 @@ def encode_graceful_labeling(graph):
 
     X, Y = get_variables(N, M)
 
+    var_count = Y(M-1, M-1)
+
     # Constraint: Node `v` has at least one label
     for v in range(N):
         clause = [X(v, i) for i in range(M+1)]
@@ -48,11 +51,11 @@ def encode_graceful_labeling(graph):
 
     # Constraint: At most one node has label `i`
     for i in range(M+1): # [0,M]
-        AMO(cnf, [X(v, i) for v in range(N)])
+        var_count = AMO(cnf, [X(v, i) for v in range(N)], var_count)
 
     # Constraint: At most one edge has label `j`
     for j in range(M): # [0,M-1] represents [1,M]
-        AMO(cnf, [Y(e, j) for e in range(M)])
+        var_count = AMO(cnf, [Y(e, j) for e in range(M)], var_count)
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, (v, w) in enumerate(graph.edges):
