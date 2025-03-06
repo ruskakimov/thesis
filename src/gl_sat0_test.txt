@@ -1,0 +1,27 @@
+grafo1657.10.gml
+'encode' started.
+'encode' stopped. Elapsed time: 0.0090 seconds.
+'solve' started.
+'solve' stopped. Elapsed time: 0.0045 seconds.
+SAT: True
+Node labels: [14, 0, 15, 7, 12, 8, 11, 13, 10, 9]
+Correct GL: True
+------------------------------
+grafo328.10.gml
+'encode' started.
+'encode' stopped. Elapsed time: 0.0032 seconds.
+'solve' started.
+'solve' stopped. Elapsed time: 0.0020 seconds.
+SAT: True
+Node labels: [0, 3, 2, 1, 8, 7, 10, 6, 9, 5]
+Correct GL: True
+------------------------------
+grafo689.10.gml
+'encode' started.
+'encode' stopped. Elapsed time: 0.0027 seconds.
+'solve' started.
+'solve' stopped. Elapsed time: 0.0022 seconds.
+SAT: True
+Node labels: [0, 3, 2, 1, 8, 7, 10, 6, 9, 5]
+Correct GL: True
+------------------------------
