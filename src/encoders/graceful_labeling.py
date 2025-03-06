@@ -21,9 +21,9 @@ def AMO(cnf, vars, var_count):
         a = i * group_size
         b = a + 1
         if b < n:
-            return [a, b]
+            return [vars[a], vars[b]]
         else:
-            return [a]
+            return [vars[a]]
     
     # Aux variables (commander, bin representation)
     def B(j): # 0-indexed
