@@ -1,0 +1,87 @@
+Start testing: Mar 06 13:03 EST
+----------------------------------------------------------
+1/1 Testing: test_simple_ls_program
+1/1 Test: test_simple_ls_program
+Command: "/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/simple_ls_program/build/bin/simple_ls_program"
+Directory: /Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/simple_ls_program/build
+"test_simple_ls_program" start time: Mar 06 13:03 EST
+Output:
+----------------------------------------------------------
+I0306 13:03:36.830910 9527074 simple_ls_program.cc:161] Large Neighborhood Search
+I0306 13:03:36.831004 9527074 search.cc:285] Start search (memory used = 6.34 MB)
+I0306 13:03:36.831029 9527074 search.cc:285] Root node processed (time = 0 ms, constraints = 1, memory used = 6.39 MB)
+I0306 13:03:36.831119 9527074 search.cc:285] Solution #0 (objective = 16, time = 0 ms, branches = 37, failures = 0, depth = 33, memory used = 6.47 MB)
+I0306 13:03:36.831214 9527074 search.cc:285] Solution #1 (objective = 15, objective maximum = 16, time = 0 ms, branches = 41, failures = 2, depth = 33, BaseObject, neighbors = 1, filtered neighbors = 1, accepted neighbors = 1, memory used = 6.51 MB)
+I0306 13:03:36.831291 9527074 search.cc:285] Solution #2 (objective = 14, objective maximum = 16, time = 0 ms, branches = 46, failures = 4, depth = 33, BaseObject, neighbors = 2, filtered neighbors = 2, accepted neighbors = 2, memory used = 6.51 MB)
+I0306 13:03:36.831336 9527074 search.cc:285] Solution #3 (objective = 13, objective maximum = 16, time = 0 ms, branches = 50, failures = 6, depth = 33, BaseObject, neighbors = 3, filtered neighbors = 3, accepted neighbors = 3, memory used = 6.51 MB)
+I0306 13:03:36.831363 9527074 search.cc:285] Solution #4 (objective = 12, objective maximum = 16, time = 0 ms, branches = 55, failures = 8, depth = 33, BaseObject, neighbors = 4, filtered neighbors = 4, accepted neighbors = 4, memory used = 6.51 MB)
+I0306 13:03:36.831397 9527074 search.cc:285] Solution #5 (objective = 11, objective maximum = 16, time = 0 ms, branches = 59, failures = 11, depth = 33, BaseObject, neighbors = 6, filtered neighbors = 6, accepted neighbors = 5, memory used = 6.51 MB)
+I0306 13:03:36.831431 9527074 search.cc:285] Solution #6 (objective = 10, objective maximum = 16, time = 0 ms, branches = 64, failures = 14, depth = 33, BaseObject, neighbors = 8, filtered neighbors = 8, accepted neighbors = 6, memory used = 6.51 MB)
+I0306 13:03:36.831464 9527074 search.cc:285] Solution #7 (objective = 9, objective maximum = 16, time = 0 ms, branches = 68, failures = 17, depth = 33, BaseObject, neighbors = 10, filtered neighbors = 10, accepted neighbors = 7, memory used = 6.51 MB)
+I0306 13:03:36.831498 9527074 search.cc:285] Solution #8 (objective = 8, objective maximum = 16, time = 0 ms, branches = 74, failures = 20, depth = 33, BaseObject, neighbors = 12, filtered neighbors = 12, accepted neighbors = 8, memory used = 6.51 MB)
+I0306 13:03:36.831538 9527074 search.cc:285] Solution #9 (objective = 7, objective maximum = 16, time = 0 ms, branches = 78, failures = 24, depth = 33, BaseObject, neighbors = 15, filtered neighbors = 15, accepted neighbors = 9, memory used = 6.51 MB)
+I0306 13:03:36.831579 9527074 search.cc:285] Solution #10 (objective = 6, objective maximum = 16, time = 0 ms, branches = 83, failures = 28, depth = 33, BaseObject, neighbors = 18, filtered neighbors = 18, accepted neighbors = 10, memory used = 6.51 MB)
+I0306 13:03:36.831619 9527074 search.cc:285] Solution #11 (objective = 5, objective maximum = 16, time = 0 ms, branches = 87, failures = 32, depth = 33, BaseObject, neighbors = 21, filtered neighbors = 21, accepted neighbors = 11, memory used = 6.51 MB)
+I0306 13:03:36.831659 9527074 search.cc:285] Solution #12 (objective = 4, objective maximum = 16, time = 0 ms, branches = 92, failures = 36, depth = 33, BaseObject, neighbors = 24, filtered neighbors = 24, accepted neighbors = 12, memory used = 6.51 MB)
+I0306 13:03:36.831705 9527074 search.cc:285] Solution #13 (objective = 3, objective maximum = 16, time = 0 ms, branches = 96, failures = 41, depth = 33, BaseObject, neighbors = 28, filtered neighbors = 28, accepted neighbors = 13, memory used = 6.51 MB)
+I0306 13:03:36.831752 9527074 search.cc:285] Solution #14 (objective = 2, objective maximum = 16, time = 0 ms, branches = 101, failures = 46, depth = 33, BaseObject, neighbors = 32, filtered neighbors = 32, accepted neighbors = 14, memory used = 6.51 MB)
+I0306 13:03:36.831798 9527074 search.cc:285] Solution #15 (objective = 1, objective maximum = 16, time = 0 ms, branches = 105, failures = 51, depth = 33, BaseObject, neighbors = 36, filtered neighbors = 36, accepted neighbors = 15, memory used = 6.51 MB)
+I0306 13:03:36.831845 9527074 search.cc:285] Solution #16 (objective = 0, objective maximum = 16, time = 0 ms, branches = 112, failures = 56, depth = 33, BaseObject, neighbors = 40, filtered neighbors = 40, accepted neighbors = 16, memory used = 6.51 MB)
+I0306 13:03:36.831924 9527074 search.cc:285] Finished search tree (time = 0 ms, branches = 112, failures = 89, neighbors = 40, filtered neighbors = 40, accepted neigbors = 16, memory used = 6.51 MB)
+I0306 13:03:36.831930 9527074 search.cc:285] End search (time = 1 ms, branches = 112, failures = 89, memory used = 6.51 MB, speed = 112000 branches/s)
+I0306 13:03:36.831932 9527074 simple_ls_program.cc:196] Objective value = 0
+I0306 13:03:36.832080 9527074 simple_ls_program.cc:169] Local Search
+I0306 13:03:36.832107 9527074 search.cc:285] Start search (memory used = 6.54 MB)
+I0306 13:03:36.832117 9527074 search.cc:285] Root node processed (time = 0 ms, constraints = 1, memory used = 6.54 MB)
+I0306 13:03:36.832140 9527074 search.cc:285] Solution #0 (objective = 16, time = 0 ms, branches = 37, failures = 0, depth = 33, memory used = 6.54 MB)
+I0306 13:03:36.832171 9527074 search.cc:285] Solution #1 (objective = 15, objective maximum = 16, time = 0 ms, branches = 40, failures = 2, depth = 33, BaseObject, neighbors = 1, filtered neighbors = 1, accepted neighbors = 1, memory used = 6.54 MB)
+I0306 13:03:36.832206 9527074 search.cc:285] Solution #2 (objective = 14, objective maximum = 16, time = 0 ms, branches = 44, failures = 5, depth = 33, BaseObject, neighbors = 3, filtered neighbors = 3, accepted neighbors = 2, memory used = 6.54 MB)
+I0306 13:03:36.832240 9527074 search.cc:285] Solution #3 (objective = 13, objective maximum = 16, time = 0 ms, branches = 47, failures = 8, depth = 33, BaseObject, neighbors = 5, filtered neighbors = 5, accepted neighbors = 3, memory used = 6.54 MB)
+I0306 13:03:36.832274 9527074 search.cc:285] Solution #4 (objective = 12, objective maximum = 16, time = 0 ms, branches = 52, failures = 11, depth = 33, BaseObject, neighbors = 7, filtered neighbors = 7, accepted neighbors = 4, memory used = 6.54 MB)
+I0306 13:03:36.832306 9527074 search.cc:285] Solution #5 (objective = 11, objective maximum = 16, time = 0 ms, branches = 55, failures = 14, depth = 33, BaseObject, neighbors = 9, filtered neighbors = 9, accepted neighbors = 5, memory used = 6.54 MB)
+I0306 13:03:36.832340 9527074 search.cc:285] Solution #6 (objective = 10, objective maximum = 16, time = 0 ms, branches = 59, failures = 17, depth = 33, BaseObject, neighbors = 11, filtered neighbors = 11, accepted neighbors = 6, memory used = 6.54 MB)
+I0306 13:03:36.832372 9527074 search.cc:285] Solution #7 (objective = 9, objective maximum = 16, time = 0 ms, branches = 62, failures = 20, depth = 33, BaseObject, neighbors = 13, filtered neighbors = 13, accepted neighbors = 7, memory used = 6.54 MB)
+I0306 13:03:36.832406 9527074 search.cc:285] Solution #8 (objective = 8, objective maximum = 16, time = 0 ms, branches = 68, failures = 23, depth = 33, BaseObject, neighbors = 15, filtered neighbors = 15, accepted neighbors = 8, memory used = 6.54 MB)
+I0306 13:03:36.832438 9527074 search.cc:285] Solution #9 (objective = 7, objective maximum = 16, time = 0 ms, branches = 71, failures = 26, depth = 33, BaseObject, neighbors = 17, filtered neighbors = 17, accepted neighbors = 9, memory used = 6.54 MB)
+I0306 13:03:36.832471 9527074 search.cc:285] Solution #10 (objective = 6, objective maximum = 16, time = 0 ms, branches = 75, failures = 29, depth = 33, BaseObject, neighbors = 19, filtered neighbors = 19, accepted neighbors = 10, memory used = 6.54 MB)
+I0306 13:03:36.832504 9527074 search.cc:285] Solution #11 (objective = 5, objective maximum = 16, time = 0 ms, branches = 78, failures = 32, depth = 33, BaseObject, neighbors = 21, filtered neighbors = 21, accepted neighbors = 11, memory used = 6.54 MB)
+I0306 13:03:36.832537 9527074 search.cc:285] Solution #12 (objective = 4, objective maximum = 16, time = 0 ms, branches = 83, failures = 35, depth = 33, BaseObject, neighbors = 23, filtered neighbors = 23, accepted neighbors = 12, memory used = 6.54 MB)
+I0306 13:03:36.832570 9527074 search.cc:285] Solution #13 (objective = 3, objective maximum = 16, time = 0 ms, branches = 86, failures = 38, depth = 33, BaseObject, neighbors = 25, filtered neighbors = 25, accepted neighbors = 13, memory used = 6.54 MB)
+I0306 13:03:36.832604 9527074 search.cc:285] Solution #14 (objective = 2, objective maximum = 16, time = 0 ms, branches = 90, failures = 41, depth = 33, BaseObject, neighbors = 27, filtered neighbors = 27, accepted neighbors = 14, memory used = 6.54 MB)
+I0306 13:03:36.832637 9527074 search.cc:285] Solution #15 (objective = 1, objective maximum = 16, time = 0 ms, branches = 93, failures = 44, depth = 33, BaseObject, neighbors = 29, filtered neighbors = 29, accepted neighbors = 15, memory used = 6.54 MB)
+I0306 13:03:36.832671 9527074 search.cc:285] Solution #16 (objective = 0, objective maximum = 16, time = 0 ms, branches = 100, failures = 47, depth = 33, BaseObject, neighbors = 31, filtered neighbors = 31, accepted neighbors = 16, memory used = 6.54 MB)
+I0306 13:03:36.832749 9527074 search.cc:285] Finished search tree (time = 0 ms, branches = 100, failures = 80, neighbors = 31, filtered neighbors = 31, accepted neigbors = 16, memory used = 6.54 MB)
+I0306 13:03:36.832755 9527074 search.cc:285] End search (time = 1 ms, branches = 100, failures = 80, memory used = 6.54 MB, speed = 100000 branches/s)
+I0306 13:03:36.832757 9527074 simple_ls_program.cc:196] Objective value = 0
+I0306 13:03:36.832885 9527074 simple_ls_program.cc:177] Local Search with Filter
+I0306 13:03:36.832911 9527074 search.cc:285] Start search (memory used = 6.55 MB)
+I0306 13:03:36.832920 9527074 search.cc:285] Root node processed (time = 0 ms, constraints = 1, memory used = 6.55 MB)
+I0306 13:03:36.832943 9527074 search.cc:285] Solution #0 (objective = 16, time = 0 ms, branches = 37, failures = 0, depth = 33, memory used = 6.55 MB)
+I0306 13:03:36.832977 9527074 search.cc:285] Solution #1 (objective = 15, objective maximum = 16, time = 0 ms, branches = 40, failures = 2, depth = 33, BaseObject, neighbors = 1, filtered neighbors = 1, accepted neighbors = 1, memory used = 6.56 MB)
+I0306 13:03:36.833006 9527074 search.cc:285] Solution #2 (objective = 14, objective maximum = 16, time = 0 ms, branches = 44, failures = 4, depth = 33, BaseObject, neighbors = 3, filtered neighbors = 2, accepted neighbors = 2, memory used = 6.56 MB)
+I0306 13:03:36.833033 9527074 search.cc:285] Solution #3 (objective = 13, objective maximum = 16, time = 0 ms, branches = 47, failures = 6, depth = 33, BaseObject, neighbors = 5, filtered neighbors = 3, accepted neighbors = 3, memory used = 6.56 MB)
+I0306 13:03:36.833061 9527074 search.cc:285] Solution #4 (objective = 12, objective maximum = 16, time = 0 ms, branches = 52, failures = 8, depth = 33, BaseObject, neighbors = 7, filtered neighbors = 4, accepted neighbors = 4, memory used = 6.56 MB)
+I0306 13:03:36.833087 9527074 search.cc:285] Solution #5 (objective = 11, objective maximum = 16, time = 0 ms, branches = 55, failures = 10, depth = 33, BaseObject, neighbors = 9, filtered neighbors = 5, accepted neighbors = 5, memory used = 6.56 MB)
+I0306 13:03:36.833113 9527074 search.cc:285] Solution #6 (objective = 10, objective maximum = 16, time = 0 ms, branches = 59, failures = 12, depth = 33, BaseObject, neighbors = 11, filtered neighbors = 6, accepted neighbors = 6, memory used = 6.56 MB)
+I0306 13:03:36.833140 9527074 search.cc:285] Solution #7 (objective = 9, objective maximum = 16, time = 0 ms, branches = 62, failures = 14, depth = 33, BaseObject, neighbors = 13, filtered neighbors = 7, accepted neighbors = 7, memory used = 6.56 MB)
+I0306 13:03:36.833166 9527074 search.cc:285] Solution #8 (objective = 8, objective maximum = 16, time = 0 ms, branches = 68, failures = 16, depth = 33, BaseObject, neighbors = 15, filtered neighbors = 8, accepted neighbors = 8, memory used = 6.56 MB)
+I0306 13:03:36.833192 9527074 search.cc:285] Solution #9 (objective = 7, objective maximum = 16, time = 0 ms, branches = 71, failures = 18, depth = 33, BaseObject, neighbors = 17, filtered neighbors = 9, accepted neighbors = 9, memory used = 6.56 MB)
+I0306 13:03:36.833219 9527074 search.cc:285] Solution #10 (objective = 6, objective maximum = 16, time = 0 ms, branches = 75, failures = 20, depth = 33, BaseObject, neighbors = 19, filtered neighbors = 10, accepted neighbors = 10, memory used = 6.56 MB)
+I0306 13:03:36.833245 9527074 search.cc:285] Solution #11 (objective = 5, objective maximum = 16, time = 0 ms, branches = 78, failures = 22, depth = 33, BaseObject, neighbors = 21, filtered neighbors = 11, accepted neighbors = 11, memory used = 6.56 MB)
+I0306 13:03:36.833271 9527074 search.cc:285] Solution #12 (objective = 4, objective maximum = 16, time = 0 ms, branches = 83, failures = 24, depth = 33, BaseObject, neighbors = 23, filtered neighbors = 12, accepted neighbors = 12, memory used = 6.56 MB)
+I0306 13:03:36.833298 9527074 search.cc:285] Solution #13 (objective = 3, objective maximum = 16, time = 0 ms, branches = 86, failures = 26, depth = 33, BaseObject, neighbors = 25, filtered neighbors = 13, accepted neighbors = 13, memory used = 6.56 MB)
+I0306 13:03:36.833325 9527074 search.cc:285] Solution #14 (objective = 2, objective maximum = 16, time = 0 ms, branches = 90, failures = 28, depth = 33, BaseObject, neighbors = 27, filtered neighbors = 14, accepted neighbors = 14, memory used = 6.56 MB)
+I0306 13:03:36.833352 9527074 search.cc:285] Solution #15 (objective = 1, objective maximum = 16, time = 0 ms, branches = 93, failures = 30, depth = 33, BaseObject, neighbors = 29, filtered neighbors = 15, accepted neighbors = 15, memory used = 6.56 MB)
+I0306 13:03:36.833379 9527074 search.cc:285] Solution #16 (objective = 0, objective maximum = 16, time = 0 ms, branches = 100, failures = 32, depth = 33, BaseObject, neighbors = 31, filtered neighbors = 16, accepted neighbors = 16, memory used = 6.56 MB)
+I0306 13:03:36.833458 9527074 search.cc:285] Finished search tree (time = 0 ms, branches = 100, failures = 65, neighbors = 31, filtered neighbors = 16, accepted neigbors = 16, memory used = 6.56 MB)
+I0306 13:03:36.833463 9527074 search.cc:285] End search (time = 1 ms, branches = 100, failures = 65, memory used = 6.56 MB, speed = 100000 branches/s)
+I0306 13:03:36.833465 9527074 simple_ls_program.cc:196] Objective value = 0
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_simple_ls_program" end time: Mar 06 13:03 EST
+"test_simple_ls_program" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 06 13:03 EST

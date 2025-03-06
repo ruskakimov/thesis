@@ -1,0 +1,30 @@
+Start testing: Mar 06 13:03 EST
+----------------------------------------------------------
+1/1 Testing: test_simple_mip_program
+1/1 Test: test_simple_mip_program
+Command: "/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/simple_mip_program/build/bin/simple_mip_program"
+Directory: /Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/simple_mip_program/build
+"test_simple_mip_program" start time: Mar 06 13:03 EST
+Output:
+----------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1741284207.128332 9526374 simple_mip_program.cc:39] Number of variables = 2
+I0000 00:00:1741284207.128387 9526374 simple_mip_program.cc:53] Number of constraints = 2
+I0000 00:00:1741284207.129480 9526374 simple_mip_program.cc:73] Solution:
+I0000 00:00:1741284207.129487 9526374 simple_mip_program.cc:74] Objective value = 23
+I0000 00:00:1741284207.129492 9526374 simple_mip_program.cc:75] x = 3
+I0000 00:00:1741284207.129494 9526374 simple_mip_program.cc:76] y = 2
+I0000 00:00:1741284207.129496 9526374 simple_mip_program.cc:80] 
+Advanced usage:
+I0000 00:00:1741284207.129497 9526374 simple_mip_program.cc:81] Problem solved in 3 milliseconds
+I0000 00:00:1741284207.129502 9526374 simple_mip_program.cc:82] Problem solved in 0 iterations
+I0000 00:00:1741284207.129506 9526374 simple_mip_program.cc:83] Problem solved in 1 branch-and-bound nodes
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"test_simple_mip_program" end time: Mar 06 13:03 EST
+"test_simple_mip_program" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 06 13:03 EST

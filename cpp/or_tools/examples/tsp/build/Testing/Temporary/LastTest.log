@@ -1,0 +1,18 @@
+Start testing: Mar 06 13:03 EST
+----------------------------------------------------------
+1/1 Testing: test_tsp
+1/1 Test: test_tsp
+Command: "/Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/tsp/build/bin/tsp"
+Directory: /Users/rustemkakimov/Code/thesis_container/thesis/cpp/or_tools/examples/tsp/build
+"test_tsp" start time: Mar 06 13:03 EST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"test_tsp" end time: Mar 06 13:03 EST
+"test_tsp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 06 13:03 EST
