@@ -18,12 +18,8 @@ def AMO(cnf, vars, var_count):
 
     # Group `i`
     def G(i): # 0-indexed
-        a = i * group_size
-        b = a + 1
-        if b < n:
-            return [vars[a], vars[b]]
-        else:
-            return [vars[a]]
+        start = i * group_size
+        return [vars[i] for i in range(start, min(start + group_size, n))]
     
     # Aux variables (commander, bin representation)
     def B(j): # 0-indexed
