@@ -12,18 +12,29 @@ def AMO(cnf, vars, var_count):
     #         clause = [-vars[i], -vars[j]]
     #         cnf.append(clause)
 
-    m = math.ceil(n / 2)
-    logm = math.ceil(math.log(m) / math.log(2))
+    group_size = 2 # most optimal is 2
+    m = math.ceil(n / group_size)
+    log_m = math.ceil(math.log(m) / math.log(2))
 
     def G(i): # 0-indexed
-        a = 2*i
+        a = i * group_size
         b = a + 1
         if b < n:
             return [a, b]
         else:
             return [a]
+    
+    # 1) pairwise AMO
+    for i in range(m):
+        g = G(i)
+        if len(g) < 2:
+            continue
+        for a in range(len(g)):
+            for b in range(a+1, len(g)):
+                clause = [-g[a], -g[b]]
+                cnf.append(clause)
 
-    return var_count
+    return var_count + log_m
 
 def get_variables(N, M):
     # X_v_i - node `v` has label `i`. Range is [1, n*(m+1)].
