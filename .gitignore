@@ -7,7 +7,7 @@ grid_dag_*
 
 cnf/north_*
 cnf/random_*
-cnf/rome_GL
+cnf/rome_GL_*
 
 ./temp.csv
 

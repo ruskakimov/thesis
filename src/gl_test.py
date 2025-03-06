@@ -20,7 +20,7 @@ def generate_cnfs(max_nodes):
         
         T.start(G.name)
         cnf = encode_graceful_labeling(G)
-        write_cnf(cnf, cnf_dir / 'rome_GL' / f'gl_{G.name}.cnf')
+        write_cnf(cnf, cnf_dir / 'rome_GL_SAT1' / f'gl_{G.name}.cnf')
         T.stop(G.name)
         print('-' * 30)
 
@@ -56,3 +56,5 @@ def test_encoding(nodes, max_cases):
         print('-' * 30)
 
 # test_encoding(nodes=30, max_cases=3)
+
+generate_cnfs(10)
