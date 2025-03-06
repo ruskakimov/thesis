@@ -99,8 +99,9 @@ def solve(n, edges):
         print("No solution found.")
 
 # # # Example usage
-# G = generate_grid_dag(8, 8)
-# edges = list(G.edges())
+G = generate_grid_dag(10, 10)
+edges = list(G.edges())
+print(edges)
 # n = G.number_of_nodes()
 
 # T.start('Solve')
@@ -135,22 +136,22 @@ def solve(n, edges):
 #     print('='*50)
 
 
-i = 0
+# i = 0
 
-for G in random_dag_graphs():
-    i += 1
+# for G in random_dag_graphs():
+#     i += 1
 
-    print(f"Working on graph {i}", file=sys.stderr)
+#     print(f"Working on graph {i}", file=sys.stderr)
 
-    edges = [(int(u[1:]), int(v[1:])) for u, v in G.edges()]
-    node_count = G.number_of_nodes()
+#     edges = [(int(u[1:]), int(v[1:])) for u, v in G.edges()]
+#     node_count = G.number_of_nodes()
 
-    T.start(G.name)
-    solution = solve(node_count, edges)
-    T.stop(G.name)
+#     T.start(G.name)
+#     solution = solve(node_count, edges)
+#     T.stop(G.name)
 
-    if solution:
-        node_order, edge_assignment = solution
-        print('Correct:', verify_2UBE(G, node_order, edge_assignment))
+#     if solution:
+#         node_order, edge_assignment = solution
+#         print('Correct:', verify_2UBE(G, node_order, edge_assignment))
     
-    print('---')
+#     print('---')
