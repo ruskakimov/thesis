@@ -1,13 +1,28 @@
+import math
 from pysat.formula import CNF
 
 # At-most-one clauses
+# Bimander encoding (Van-Hau Nguyen et. al.)
 def AMO(cnf, vars, var_count):
     n = len(vars)
+
     # pairwise
-    for i in range(n):
-        for j in range(i+1, n):
-            clause = [-vars[i], -vars[j]]
-            cnf.append(clause)
+    # for i in range(n):
+    #     for j in range(i+1, n):
+    #         clause = [-vars[i], -vars[j]]
+    #         cnf.append(clause)
+
+    m = math.ceil(n / 2)
+    logm = math.ceil(math.log(m) / math.log(2))
+
+    def G(i): # 0-indexed
+        a = 2*i
+        b = a + 1
+        if b < n:
+            return [a, b]
+        else:
+            return [a]
+
     return var_count
 
 def get_variables(N, M):
