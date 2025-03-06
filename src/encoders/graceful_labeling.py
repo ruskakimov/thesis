@@ -1,6 +1,13 @@
 import math
 from pysat.formula import CNF
 
+def AMO_pairwise(cnf, vars, var_count):
+    n = len(vars)
+    for i in range(n):
+        for j in range(i+1, n):
+            cnf.append([-vars[i], -vars[j]])
+    return var_count
+
 # At-most-one clauses
 # Bimander encoding (Van-Hau Nguyen et. al.)
 def AMO(cnf, vars, var_count, group_size=2):
@@ -101,11 +108,11 @@ def encode_graceful_labeling(graph):
 
     # Constraint: At most one node has label `i`
     for i in node_labels:
-        var_count = AMO(cnf, [X(v, i) for v in range(N)], var_count)
+        var_count = AMO_pairwise(cnf, [X(v, i) for v in range(N)], var_count)
 
     # Constraint: At most one edge has label `j`
     for j in edge_labels:
-        var_count = AMO(cnf, [Y(vw, j) for vw in range(M)], var_count)
+        var_count = AMO_pairwise(cnf, [Y(vw, j) for vw in range(M)], var_count)
 
     # Constraint: If vertex `v` has label `i` and vertex `w` has label `j` then edge `v,w` has label `abs(i-j)`
     for vw, (v, w) in enumerate(graph.edges):
