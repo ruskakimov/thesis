@@ -10,25 +10,40 @@ def solve(cnf):
         return (result, model)
 
 cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
-    
-for G in rome_graphs():
-    N = G.number_of_nodes()
-    
-    # if N > 10:
-    #     continue
 
-    # print(G.name)
-    
-    T.start(G.name)
-    cnf = encode_graceful_labeling(G)
-    write_cnf(cnf, cnf_dir / 'rome_GL' / f'gl_{G.name}.cnf')
-    T.stop(G.name)
-    
-    # result, solution = solve(cnf)
-    # print('SAT:', result)
-    
-    # node_labels = decode_graceful_labeling(G, solution)
-    # print('Node labels:', node_labels)
+def generate_cnfs(max_nodes):
+    for G in rome_graphs():
+        N = G.number_of_nodes()
+        
+        if N > max_nodes:
+            continue
+        
+        T.start(G.name)
+        cnf = encode_graceful_labeling(G)
+        write_cnf(cnf, cnf_dir / 'rome_GL' / f'gl_{G.name}.cnf')
+        T.stop(G.name)
+        print('-' * 30)
 
-    # print('Correct GL:', is_valid_graceful_labeling(G, node_labels))
-    print('-' * 30)
+def test_encoding():
+    for G in rome_graphs():
+        N = G.number_of_nodes()
+        
+        if N > 10:
+            continue
+
+        print(G.name)
+        
+        T.start('encode')
+        cnf = encode_graceful_labeling(G)
+        T.stop('encode')
+        
+        T.start('solve')
+        result, solution = solve(cnf)
+        T.stop('solve')
+        
+        print('SAT:', result)
+        node_labels = decode_graceful_labeling(G, solution)
+        print('Node labels:', node_labels)
+
+        print('Correct GL:', is_valid_graceful_labeling(G, node_labels))
+        print('-' * 30)
