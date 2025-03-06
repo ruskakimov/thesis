@@ -24,13 +24,13 @@ def generate_cnfs(max_nodes):
         T.stop(G.name)
         print('-' * 30)
 
-def test_encoding(max_nodes, max_cases):
+def test_encoding(nodes, max_cases):
     i = 1
 
     for G in rome_graphs():
         N = G.number_of_nodes()
         
-        if N > max_nodes:
+        if N != nodes:
             continue
 
         if i > max_cases:
@@ -55,4 +55,4 @@ def test_encoding(max_nodes, max_cases):
         print('Correct GL:', is_valid_graceful_labeling(G, node_labels))
         print('-' * 30)
 
-test_encoding(max_nodes=10, max_cases=3)
+test_encoding(nodes=16, max_cases=3)
