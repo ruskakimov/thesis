@@ -1,4 +1,6 @@
+import sys
 from ortools.sat.python import cp_model
+from helpers import T, rome_graphs
 
 def solve_graceful_labeling(n, edges):
     """
@@ -38,16 +40,30 @@ def solve_graceful_labeling(n, edges):
     status = solver.Solve(model)
     
     if status in (cp_model.FEASIBLE, cp_model.OPTIMAL):
-        print('Graceful labeling found:')
-        for i in range(n):
-            print(f'  Node {i}: label = {solver.Value(x[i])}')
-        print('Edge differences:')
-        for k, (i, j) in enumerate(edges):
-            print(f'  Edge ({i}, {j}): |{solver.Value(x[i])} - {solver.Value(x[j])}| = {solver.Value(diffs[k])}')
+        print('SAT')
+        # for i in range(n):
+        #     print(f'  Node {i}: label = {solver.Value(x[i])}')
+        # print('Edge differences:')
+        # for k, (i, j) in enumerate(edges):
+        #     print(f'  Edge ({i}, {j}): |{solver.Value(x[i])} - {solver.Value(x[j])}| = {solver.Value(diffs[k])}')
     else:
-        print('No graceful labeling exists for this graph.')
+        print('UNSAT')
 
 # Example: a path graph with 4 nodes and 3 edges.
-n = 4
-edges = [(0, 1), (1, 2), (2, 3)]
-solve_graceful_labeling(n, edges)
+# n = 4
+# edges = [(0, 1), (1, 2), (2, 3)]
+# solve_graceful_labeling(n, edges)
+
+i = 1
+
+for G in rome_graphs():
+    n = G.number_of_nodes()
+    if n <= 20:
+        print(f"Working on graph {i}", file=sys.stderr)
+        i += 1
+        nodes = list(G.nodes())
+        edges = [(nodes.index(u), nodes.index(v)) for u,v in G.edges()]
+        T.start(G.name)
+        solve_graceful_labeling(n, edges)
+        T.stop(G.name)
+        print('-' * 30)

@@ -1,0 +1,6000 @@
+'grafo1657.10.gml' started.
+SAT
+'grafo1657.10.gml' stopped. Elapsed time: 0.1120 seconds.
+------------------------------
+'grafo1917.11.gml' started.
+SAT
+'grafo1917.11.gml' stopped. Elapsed time: 0.0944 seconds.
+------------------------------
+'grafo709.17.gml' started.
+SAT
+'grafo709.17.gml' stopped. Elapsed time: 0.1923 seconds.
+------------------------------
+'grafo2420.16.gml' started.
+SAT
+'grafo2420.16.gml' stopped. Elapsed time: 0.1299 seconds.
+------------------------------
+'grafo2697.16.gml' started.
+SAT
+'grafo2697.16.gml' stopped. Elapsed time: 0.1658 seconds.
+------------------------------
+'grafo2324.17.gml' started.
+SAT
+'grafo2324.17.gml' stopped. Elapsed time: 0.1836 seconds.
+------------------------------
+'grafo532.11.gml' started.
+SAT
+'grafo532.11.gml' stopped. Elapsed time: 0.0499 seconds.
+------------------------------
+'grafo263.11.gml' started.
+SAT
+'grafo263.11.gml' stopped. Elapsed time: 0.0490 seconds.
+------------------------------
+'grafo338.15.gml' started.
+SAT
+'grafo338.15.gml' stopped. Elapsed time: 0.1022 seconds.
+------------------------------
+'grafo685.11.gml' started.
+SAT
+'grafo685.11.gml' stopped. Elapsed time: 0.0834 seconds.
+------------------------------
+'grafo310.14.gml' started.
+SAT
+'grafo310.14.gml' stopped. Elapsed time: 0.1130 seconds.
+------------------------------
+'grafo774.17.gml' started.
+SAT
+'grafo774.17.gml' stopped. Elapsed time: 0.1372 seconds.
+------------------------------
+'grafo934.16.gml' started.
+SAT
+'grafo934.16.gml' stopped. Elapsed time: 0.2068 seconds.
+------------------------------
+'grafo413.20.gml' started.
+SAT
+'grafo413.20.gml' stopped. Elapsed time: 0.2552 seconds.
+------------------------------
+'grafo802.17.gml' started.
+SAT
+'grafo802.17.gml' stopped. Elapsed time: 0.1706 seconds.
+------------------------------
+'grafo2153.19.gml' started.
+SAT
+'grafo2153.19.gml' stopped. Elapsed time: 0.2700 seconds.
+------------------------------
+'grafo1855.20.gml' started.
+SAT
+'grafo1855.20.gml' stopped. Elapsed time: 0.2836 seconds.
+------------------------------
+'grafo328.10.gml' started.
+SAT
+'grafo328.10.gml' stopped. Elapsed time: 0.0497 seconds.
+------------------------------
+'grafo795.14.gml' started.
+SAT
+'grafo795.14.gml' stopped. Elapsed time: 0.1493 seconds.
+------------------------------
+'grafo617.17.gml' started.
+SAT
+'grafo617.17.gml' stopped. Elapsed time: 0.2559 seconds.
+------------------------------
+'grafo1826.19.gml' started.
+SAT
+'grafo1826.19.gml' stopped. Elapsed time: 0.3438 seconds.
+------------------------------
+'grafo200.11.gml' started.
+SAT
+'grafo200.11.gml' stopped. Elapsed time: 0.1118 seconds.
+------------------------------
+'grafo486.13.gml' started.
+SAT
+'grafo486.13.gml' stopped. Elapsed time: 0.1008 seconds.
+------------------------------
+'grafo885.18.gml' started.
+SAT
+'grafo885.18.gml' stopped. Elapsed time: 0.1956 seconds.
+------------------------------
+'grafo699.14.gml' started.
+SAT
+'grafo699.14.gml' stopped. Elapsed time: 0.1462 seconds.
+------------------------------
+'grafo800.12.gml' started.
+SAT
+'grafo800.12.gml' stopped. Elapsed time: 0.0527 seconds.
+------------------------------
+'grafo1146.18.gml' started.
+SAT
+'grafo1146.18.gml' stopped. Elapsed time: 0.2976 seconds.
+------------------------------
+'grafo2151.20.gml' started.
+SAT
+'grafo2151.20.gml' stopped. Elapsed time: 0.3224 seconds.
+------------------------------
+'grafo2336.17.gml' started.
+SAT
+'grafo2336.17.gml' stopped. Elapsed time: 0.1684 seconds.
+------------------------------
+'grafo955.13.gml' started.
+SAT
+'grafo955.13.gml' stopped. Elapsed time: 0.0761 seconds.
+------------------------------
+'grafo144.12.gml' started.
+SAT
+'grafo144.12.gml' stopped. Elapsed time: 0.0552 seconds.
+------------------------------
+'grafo2491.18.gml' started.
+SAT
+'grafo2491.18.gml' stopped. Elapsed time: 0.1516 seconds.
+------------------------------
+'grafo928.13.gml' started.
+SAT
+'grafo928.13.gml' stopped. Elapsed time: 0.0962 seconds.
+------------------------------
+'grafo261.14.gml' started.
+SAT
+'grafo261.14.gml' stopped. Elapsed time: 0.0919 seconds.
+------------------------------
+'grafo845.16.gml' started.
+SAT
+'grafo845.16.gml' stopped. Elapsed time: 0.1383 seconds.
+------------------------------
+'grafo2619.15.gml' started.
+SAT
+'grafo2619.15.gml' stopped. Elapsed time: 0.2512 seconds.
+------------------------------
+'grafo687.14.gml' started.
+SAT
+'grafo687.14.gml' stopped. Elapsed time: 0.2291 seconds.
+------------------------------
+'grafo2763.20.gml' started.
+SAT
+'grafo2763.20.gml' stopped. Elapsed time: 0.2492 seconds.
+------------------------------
+'grafo518.15.gml' started.
+SAT
+'grafo518.15.gml' stopped. Elapsed time: 0.1239 seconds.
+------------------------------
+'grafo1834.19.gml' started.
+SAT
+'grafo1834.19.gml' stopped. Elapsed time: 0.1982 seconds.
+------------------------------
+'grafo623.13.gml' started.
+SAT
+'grafo623.13.gml' stopped. Elapsed time: 0.0603 seconds.
+------------------------------
+'grafo1866.11.gml' started.
+SAT
+'grafo1866.11.gml' stopped. Elapsed time: 0.1096 seconds.
+------------------------------
+'grafo2878.19.gml' started.
+SAT
+'grafo2878.19.gml' stopped. Elapsed time: 0.4396 seconds.
+------------------------------
+'grafo494.13.gml' started.
+SAT
+'grafo494.13.gml' stopped. Elapsed time: 0.0884 seconds.
+------------------------------
+'grafo678.17.gml' started.
+SAT
+'grafo678.17.gml' stopped. Elapsed time: 0.2556 seconds.
+------------------------------
+'grafo838.16.gml' started.
+SAT
+'grafo838.16.gml' stopped. Elapsed time: 0.0867 seconds.
+------------------------------
+'grafo1077.11.gml' started.
+SAT
+'grafo1077.11.gml' stopped. Elapsed time: 0.0640 seconds.
+------------------------------
+'grafo2300.17.gml' started.
+SAT
+'grafo2300.17.gml' stopped. Elapsed time: 0.1487 seconds.
+------------------------------
+'grafo2451.17.gml' started.
+SAT
+'grafo2451.17.gml' stopped. Elapsed time: 0.1726 seconds.
+------------------------------
+'grafo2586.15.gml' started.
+SAT
+'grafo2586.15.gml' stopped. Elapsed time: 0.1393 seconds.
+------------------------------
+'grafo936.12.gml' started.
+SAT
+'grafo936.12.gml' stopped. Elapsed time: 0.0618 seconds.
+------------------------------
+'grafo2355.16.gml' started.
+SAT
+'grafo2355.16.gml' stopped. Elapsed time: 0.1825 seconds.
+------------------------------
+'grafo390.13.gml' started.
+SAT
+'grafo390.13.gml' stopped. Elapsed time: 0.0785 seconds.
+------------------------------
+'grafo2486.15.gml' started.
+SAT
+'grafo2486.15.gml' stopped. Elapsed time: 0.1442 seconds.
+------------------------------
+'grafo2160.15.gml' started.
+SAT
+'grafo2160.15.gml' stopped. Elapsed time: 0.1390 seconds.
+------------------------------
+'grafo705.16.gml' started.
+SAT
+'grafo705.16.gml' stopped. Elapsed time: 0.2279 seconds.
+------------------------------
+'grafo1700.15.gml' started.
+SAT
+'grafo1700.15.gml' stopped. Elapsed time: 0.1484 seconds.
+------------------------------
+'grafo945.17.gml' started.
+SAT
+'grafo945.17.gml' stopped. Elapsed time: 0.2040 seconds.
+------------------------------
+'grafo2805.18.gml' started.
+SAT
+'grafo2805.18.gml' stopped. Elapsed time: 0.2461 seconds.
+------------------------------
+'grafo787.15.gml' started.
+SAT
+'grafo787.15.gml' stopped. Elapsed time: 0.1050 seconds.
+------------------------------
+'grafo3097.11.gml' started.
+SAT
+'grafo3097.11.gml' stopped. Elapsed time: 0.0502 seconds.
+------------------------------
+'grafo689.10.gml' started.
+SAT
+'grafo689.10.gml' stopped. Elapsed time: 0.0366 seconds.
+------------------------------
+'grafo810.16.gml' started.
+SAT
+'grafo810.16.gml' stopped. Elapsed time: 0.0944 seconds.
+------------------------------
+'grafo1403.17.gml' started.
+SAT
+'grafo1403.17.gml' stopped. Elapsed time: 0.1763 seconds.
+------------------------------
+'grafo357.14.gml' started.
+SAT
+'grafo357.14.gml' stopped. Elapsed time: 0.1412 seconds.
+------------------------------
+'grafo1764.20.gml' started.
+SAT
+'grafo1764.20.gml' stopped. Elapsed time: 0.2196 seconds.
+------------------------------
+'grafo408.11.gml' started.
+SAT
+'grafo408.11.gml' stopped. Elapsed time: 0.0376 seconds.
+------------------------------
+'grafo429.20.gml' started.
+SAT
+'grafo429.20.gml' stopped. Elapsed time: 0.2374 seconds.
+------------------------------
+'grafo2752.15.gml' started.
+SAT
+'grafo2752.15.gml' stopped. Elapsed time: 0.1681 seconds.
+------------------------------
+'grafo2467.16.gml' started.
+SAT
+'grafo2467.16.gml' stopped. Elapsed time: 0.1228 seconds.
+------------------------------
+'grafo2236.16.gml' started.
+SAT
+'grafo2236.16.gml' stopped. Elapsed time: 0.1177 seconds.
+------------------------------
+'grafo1642.18.gml' started.
+SAT
+'grafo1642.18.gml' stopped. Elapsed time: 0.1219 seconds.
+------------------------------
+'grafo324.11.gml' started.
+SAT
+'grafo324.11.gml' stopped. Elapsed time: 0.0413 seconds.
+------------------------------
+'grafo3087.14.gml' started.
+SAT
+'grafo3087.14.gml' stopped. Elapsed time: 0.1655 seconds.
+------------------------------
+'grafo1734.11.gml' started.
+SAT
+'grafo1734.11.gml' stopped. Elapsed time: 0.0730 seconds.
+------------------------------
+'grafo2518.13.gml' started.
+SAT
+'grafo2518.13.gml' stopped. Elapsed time: 0.0734 seconds.
+------------------------------
+'grafo1666.19.gml' started.
+SAT
+'grafo1666.19.gml' stopped. Elapsed time: 0.3104 seconds.
+------------------------------
+'grafo824.12.gml' started.
+SAT
+'grafo824.12.gml' stopped. Elapsed time: 0.0583 seconds.
+------------------------------
+'grafo2129.11.gml' started.
+SAT
+'grafo2129.11.gml' stopped. Elapsed time: 0.1024 seconds.
+------------------------------
+'grafo1043.15.gml' started.
+SAT
+'grafo1043.15.gml' stopped. Elapsed time: 0.1219 seconds.
+------------------------------
+'grafo1790.16.gml' started.
+SAT
+'grafo1790.16.gml' stopped. Elapsed time: 0.1023 seconds.
+------------------------------
+'grafo198.18.gml' started.
+SAT
+'grafo198.18.gml' stopped. Elapsed time: 0.2045 seconds.
+------------------------------
+'grafo3009.17.gml' started.
+SAT
+'grafo3009.17.gml' stopped. Elapsed time: 0.1486 seconds.
+------------------------------
+'grafo2261.12.gml' started.
+SAT
+'grafo2261.12.gml' stopped. Elapsed time: 0.0622 seconds.
+------------------------------
+'grafo1094.17.gml' started.
+SAT
+'grafo1094.17.gml' stopped. Elapsed time: 0.1169 seconds.
+------------------------------
+'grafo326.14.gml' started.
+SAT
+'grafo326.14.gml' stopped. Elapsed time: 0.1060 seconds.
+------------------------------
+'grafo619.13.gml' started.
+SAT
+'grafo619.13.gml' stopped. Elapsed time: 0.0727 seconds.
+------------------------------
+'grafo226.14.gml' started.
+SAT
+'grafo226.14.gml' stopped. Elapsed time: 0.0885 seconds.
+------------------------------
+'grafo414.14.gml' started.
+SAT
+'grafo414.14.gml' stopped. Elapsed time: 0.0751 seconds.
+------------------------------
+'grafo345.14.gml' started.
+SAT
+'grafo345.14.gml' stopped. Elapsed time: 0.0641 seconds.
+------------------------------
+'grafo721.17.gml' started.
+SAT
+'grafo721.17.gml' stopped. Elapsed time: 0.1496 seconds.
+------------------------------
+'grafo1676.20.gml' started.
+SAT
+'grafo1676.20.gml' stopped. Elapsed time: 0.1887 seconds.
+------------------------------
+'grafo498.12.gml' started.
+SAT
+'grafo498.12.gml' stopped. Elapsed time: 0.0989 seconds.
+------------------------------
+'grafo292.16.gml' started.
+SAT
+'grafo292.16.gml' stopped. Elapsed time: 0.1164 seconds.
+------------------------------
+'grafo2928.15.gml' started.
+SAT
+'grafo2928.15.gml' stopped. Elapsed time: 0.1178 seconds.
+------------------------------
+'grafo2882.17.gml' started.
+SAT
+'grafo2882.17.gml' stopped. Elapsed time: 0.1240 seconds.
+------------------------------
+'grafo363.10.gml' started.
+SAT
+'grafo363.10.gml' stopped. Elapsed time: 0.0421 seconds.
+------------------------------
+'grafo2900.14.gml' started.
+SAT
+'grafo2900.14.gml' stopped. Elapsed time: 0.0668 seconds.
+------------------------------
+'grafo2740.15.gml' started.
+SAT
+'grafo2740.15.gml' stopped. Elapsed time: 0.1362 seconds.
+------------------------------
+'grafo1705.19.gml' started.
+SAT
+'grafo1705.19.gml' stopped. Elapsed time: 0.2049 seconds.
+------------------------------
+'grafo560.18.gml' started.
+SAT
+'grafo560.18.gml' stopped. Elapsed time: 0.1411 seconds.
+------------------------------
+'grafo1006.11.gml' started.
+SAT
+'grafo1006.11.gml' stopped. Elapsed time: 0.0567 seconds.
+------------------------------
+'grafo2520.17.gml' started.
+SAT
+'grafo2520.17.gml' stopped. Elapsed time: 0.2021 seconds.
+------------------------------
+'grafo2797.15.gml' started.
+SAT
+'grafo2797.15.gml' stopped. Elapsed time: 0.1067 seconds.
+------------------------------
+'grafo3042.14.gml' started.
+SAT
+'grafo3042.14.gml' stopped. Elapsed time: 0.0969 seconds.
+------------------------------
+'grafo1671.17.gml' started.
+SAT
+'grafo1671.17.gml' stopped. Elapsed time: 0.1228 seconds.
+------------------------------
+'grafo2259.14.gml' started.
+SAT
+'grafo2259.14.gml' stopped. Elapsed time: 0.0849 seconds.
+------------------------------
+'grafo496.15.gml' started.
+SAT
+'grafo496.15.gml' stopped. Elapsed time: 0.1501 seconds.
+------------------------------
+'grafo1116.16.gml' started.
+SAT
+'grafo1116.16.gml' stopped. Elapsed time: 0.1080 seconds.
+------------------------------
+'grafo880.17.gml' started.
+SAT
+'grafo880.17.gml' stopped. Elapsed time: 0.0927 seconds.
+------------------------------
+'grafo2268.20.gml' started.
+SAT
+'grafo2268.20.gml' stopped. Elapsed time: 0.2250 seconds.
+------------------------------
+'grafo2001.12.gml' started.
+SAT
+'grafo2001.12.gml' stopped. Elapsed time: 0.0620 seconds.
+------------------------------
+'grafo2184.18.gml' started.
+SAT
+'grafo2184.18.gml' stopped. Elapsed time: 0.1431 seconds.
+------------------------------
+'grafo422.17.gml' started.
+SAT
+'grafo422.17.gml' stopped. Elapsed time: 0.1034 seconds.
+------------------------------
+'grafo2494.17.gml' started.
+SAT
+'grafo2494.17.gml' stopped. Elapsed time: 0.2367 seconds.
+------------------------------
+'grafo2938.12.gml' started.
+SAT
+'grafo2938.12.gml' stopped. Elapsed time: 0.0550 seconds.
+------------------------------
+'grafo763.18.gml' started.
+SAT
+'grafo763.18.gml' stopped. Elapsed time: 0.1863 seconds.
+------------------------------
+'grafo2594.17.gml' started.
+SAT
+'grafo2594.17.gml' stopped. Elapsed time: 0.1387 seconds.
+------------------------------
+'grafo586.10.gml' started.
+SAT
+'grafo586.10.gml' stopped. Elapsed time: 0.0366 seconds.
+------------------------------
+'grafo2432.15.gml' started.
+SAT
+'grafo2432.15.gml' stopped. Elapsed time: 0.1050 seconds.
+------------------------------
+'grafo900.11.gml' started.
+SAT
+'grafo900.11.gml' stopped. Elapsed time: 0.0560 seconds.
+------------------------------
+'grafo952.19.gml' started.
+SAT
+'grafo952.19.gml' stopped. Elapsed time: 0.2981 seconds.
+------------------------------
+'grafo2949.12.gml' started.
+SAT
+'grafo2949.12.gml' stopped. Elapsed time: 0.0453 seconds.
+------------------------------
+'grafo852.19.gml' started.
+SAT
+'grafo852.19.gml' stopped. Elapsed time: 0.1667 seconds.
+------------------------------
+'grafo302.17.gml' started.
+SAT
+'grafo302.17.gml' stopped. Elapsed time: 0.1303 seconds.
+------------------------------
+'grafo2342.18.gml' started.
+SAT
+'grafo2342.18.gml' stopped. Elapsed time: 0.1403 seconds.
+------------------------------
+'grafo973.14.gml' started.
+SAT
+'grafo973.14.gml' stopped. Elapsed time: 0.0675 seconds.
+------------------------------
+'grafo2546.19.gml' started.
+SAT
+'grafo2546.19.gml' stopped. Elapsed time: 0.1948 seconds.
+------------------------------
+'grafo2425.19.gml' started.
+SAT
+'grafo2425.19.gml' stopped. Elapsed time: 0.1661 seconds.
+------------------------------
+'grafo2228.14.gml' started.
+SAT
+'grafo2228.14.gml' stopped. Elapsed time: 0.0644 seconds.
+------------------------------
+'grafo2989.20.gml' started.
+SAT
+'grafo2989.20.gml' stopped. Elapsed time: 0.1937 seconds.
+------------------------------
+'grafo543.12.gml' started.
+SAT
+'grafo543.12.gml' stopped. Elapsed time: 0.0556 seconds.
+------------------------------
+'grafo676.11.gml' started.
+SAT
+'grafo676.11.gml' stopped. Elapsed time: 0.0368 seconds.
+------------------------------
+'grafo836.10.gml' started.
+SAT
+'grafo836.10.gml' stopped. Elapsed time: 0.0392 seconds.
+------------------------------
+'grafo418.16.gml' started.
+SAT
+'grafo418.16.gml' stopped. Elapsed time: 0.1065 seconds.
+------------------------------
+'grafo2924.17.gml' started.
+SAT
+'grafo2924.17.gml' stopped. Elapsed time: 0.1479 seconds.
+------------------------------
+'grafo347.13.gml' started.
+SAT
+'grafo347.13.gml' stopped. Elapsed time: 0.0506 seconds.
+------------------------------
+'grafo2764.16.gml' started.
+SAT
+'grafo2764.16.gml' stopped. Elapsed time: 0.1920 seconds.
+------------------------------
+'grafo724.18.gml' started.
+SAT
+'grafo724.18.gml' stopped. Elapsed time: 0.1509 seconds.
+------------------------------
+'grafo778.15.gml' started.
+SAT
+'grafo778.15.gml' stopped. Elapsed time: 0.0918 seconds.
+------------------------------
+'grafo594.11.gml' started.
+SAT
+'grafo594.11.gml' stopped. Elapsed time: 0.0425 seconds.
+------------------------------
+'grafo2488.13.gml' started.
+SAT
+'grafo2488.13.gml' stopped. Elapsed time: 0.0587 seconds.
+------------------------------
+'grafo443.13.gml' started.
+SAT
+'grafo443.13.gml' stopped. Elapsed time: 0.0913 seconds.
+------------------------------
+'grafo771.19.gml' started.
+SAT
+'grafo771.19.gml' stopped. Elapsed time: 0.1321 seconds.
+------------------------------
+'grafo1179.17.gml' started.
+SAT
+'grafo1179.17.gml' stopped. Elapsed time: 0.1408 seconds.
+------------------------------
+'grafo2871.17.gml' started.
+SAT
+'grafo2871.17.gml' stopped. Elapsed time: 0.0925 seconds.
+------------------------------
+'grafo3049.20.gml' started.
+SAT
+'grafo3049.20.gml' stopped. Elapsed time: 0.2385 seconds.
+------------------------------
+'grafo1782.15.gml' started.
+SAT
+'grafo1782.15.gml' stopped. Elapsed time: 0.1653 seconds.
+------------------------------
+'grafo1088.11.gml' started.
+SAT
+'grafo1088.11.gml' stopped. Elapsed time: 0.0996 seconds.
+------------------------------
+'grafo2642.13.gml' started.
+SAT
+'grafo2642.13.gml' stopped. Elapsed time: 0.0985 seconds.
+------------------------------
+'grafo992.16.gml' started.
+SAT
+'grafo992.16.gml' stopped. Elapsed time: 0.1466 seconds.
+------------------------------
+'grafo565.17.gml' started.
+SAT
+'grafo565.17.gml' stopped. Elapsed time: 0.1115 seconds.
+------------------------------
+'grafo389.19.gml' started.
+SAT
+'grafo389.19.gml' stopped. Elapsed time: 0.2139 seconds.
+------------------------------
+'grafo874.20.gml' started.
+SAT
+'grafo874.20.gml' stopped. Elapsed time: 0.2065 seconds.
+------------------------------
+'grafo553.16.gml' started.
+SAT
+'grafo553.16.gml' stopped. Elapsed time: 0.0847 seconds.
+------------------------------
+'grafo926.14.gml' started.
+SAT
+'grafo926.14.gml' stopped. Elapsed time: 0.1003 seconds.
+------------------------------
+'grafo259.12.gml' started.
+SAT
+'grafo259.12.gml' stopped. Elapsed time: 0.0427 seconds.
+------------------------------
+'grafo2170.13.gml' started.
+SAT
+'grafo2170.13.gml' stopped. Elapsed time: 0.1039 seconds.
+------------------------------
+'grafo2652.16.gml' started.
+SAT
+'grafo2652.16.gml' stopped. Elapsed time: 0.1345 seconds.
+------------------------------
+'grafo193.12.gml' started.
+SAT
+'grafo193.12.gml' stopped. Elapsed time: 0.0581 seconds.
+------------------------------
+'grafo2532.14.gml' started.
+SAT
+'grafo2532.14.gml' stopped. Elapsed time: 0.0787 seconds.
+------------------------------
+'grafo1905.13.gml' started.
+SAT
+'grafo1905.13.gml' stopped. Elapsed time: 0.0676 seconds.
+------------------------------
+'grafo740.11.gml' started.
+SAT
+'grafo740.11.gml' stopped. Elapsed time: 0.0483 seconds.
+------------------------------
+'grafo2785.14.gml' started.
+SAT
+'grafo2785.14.gml' stopped. Elapsed time: 0.0867 seconds.
+------------------------------
+'grafo404.12.gml' started.
+SAT
+'grafo404.12.gml' stopped. Elapsed time: 0.0549 seconds.
+------------------------------
+'grafo976.19.gml' started.
+SAT
+'grafo976.19.gml' stopped. Elapsed time: 0.2944 seconds.
+------------------------------
+'grafo663.19.gml' started.
+SAT
+'grafo663.19.gml' stopped. Elapsed time: 0.1450 seconds.
+------------------------------
+'grafo300.13.gml' started.
+SAT
+'grafo300.13.gml' stopped. Elapsed time: 0.0849 seconds.
+------------------------------
+'grafo2562.19.gml' started.
+SAT
+'grafo2562.19.gml' stopped. Elapsed time: 0.2595 seconds.
+------------------------------
+'grafo1909.13.gml' started.
+SAT
+'grafo1909.13.gml' stopped. Elapsed time: 0.0999 seconds.
+------------------------------
+'grafo2810.12.gml' started.
+SAT
+'grafo2810.12.gml' stopped. Elapsed time: 0.0358 seconds.
+------------------------------
+'grafo642.14.gml' started.
+SAT
+'grafo642.14.gml' stopped. Elapsed time: 0.0727 seconds.
+------------------------------
+'grafo1907.16.gml' started.
+SAT
+'grafo1907.16.gml' stopped. Elapsed time: 0.1008 seconds.
+------------------------------
+'grafo2380.12.gml' started.
+SAT
+'grafo2380.12.gml' stopped. Elapsed time: 0.0467 seconds.
+------------------------------
+'grafo596.14.gml' started.
+SAT
+'grafo596.14.gml' stopped. Elapsed time: 0.0834 seconds.
+------------------------------
+'grafo2501.19.gml' started.
+SAT
+'grafo2501.19.gml' stopped. Elapsed time: 0.2106 seconds.
+------------------------------
+'grafo1831.17.gml' started.
+SAT
+'grafo1831.17.gml' stopped. Elapsed time: 0.1300 seconds.
+------------------------------
+'grafo674.15.gml' started.
+SAT
+'grafo674.15.gml' stopped. Elapsed time: 0.0997 seconds.
+------------------------------
+'grafo600.19.gml' started.
+SAT
+'grafo600.19.gml' stopped. Elapsed time: 0.1760 seconds.
+------------------------------
+'grafo2615.17.gml' started.
+SAT
+'grafo2615.17.gml' stopped. Elapsed time: 0.1271 seconds.
+------------------------------
+'grafo1084.11.gml' started.
+SAT
+'grafo1084.11.gml' stopped. Elapsed time: 0.0371 seconds.
+------------------------------
+'grafo990.13.gml' started.
+SAT
+'grafo990.13.gml' stopped. Elapsed time: 0.0631 seconds.
+------------------------------
+'grafo1439.15.gml' started.
+SAT
+'grafo1439.15.gml' stopped. Elapsed time: 0.1514 seconds.
+------------------------------
+'grafo890.13.gml' started.
+SAT
+'grafo890.13.gml' stopped. Elapsed time: 0.0926 seconds.
+------------------------------
+'grafo947.15.gml' started.
+SAT
+'grafo947.15.gml' stopped. Elapsed time: 0.2032 seconds.
+------------------------------
+'grafo755.20.gml' started.
+SAT
+'grafo755.20.gml' stopped. Elapsed time: 0.1550 seconds.
+------------------------------
+'grafo912.14.gml' started.
+SAT
+'grafo912.14.gml' stopped. Elapsed time: 0.0640 seconds.
+------------------------------
+'grafo2427.19.gml' started.
+SAT
+'grafo2427.19.gml' stopped. Elapsed time: 0.1868 seconds.
+------------------------------
+'grafo949.10.gml' started.
+SAT
+'grafo949.10.gml' stopped. Elapsed time: 0.0388 seconds.
+------------------------------
+'grafo2855.12.gml' started.
+SAT
+'grafo2855.12.gml' stopped. Elapsed time: 0.1205 seconds.
+------------------------------
+'grafo812.14.gml' started.
+SAT
+'grafo812.14.gml' stopped. Elapsed time: 0.1010 seconds.
+------------------------------
+'grafo1895.14.gml' started.
+SAT
+'grafo1895.14.gml' stopped. Elapsed time: 0.0822 seconds.
+------------------------------
+'grafo3010.19.gml' started.
+SAT
+'grafo3010.19.gml' stopped. Elapsed time: 0.2429 seconds.
+------------------------------
+'grafo940.20.gml' started.
+SAT
+'grafo940.20.gml' stopped. Elapsed time: 0.1909 seconds.
+------------------------------
+'grafo514.13.gml' started.
+SAT
+'grafo514.13.gml' stopped. Elapsed time: 0.0501 seconds.
+------------------------------
+'grafo673.18.gml' started.
+SAT
+'grafo673.18.gml' stopped. Elapsed time: 0.1763 seconds.
+------------------------------
+'grafo2554.20.gml' started.
+SAT
+'grafo2554.20.gml' stopped. Elapsed time: 0.1883 seconds.
+------------------------------
+'grafo1020.12.gml' started.
+SAT
+'grafo1020.12.gml' stopped. Elapsed time: 0.0432 seconds.
+------------------------------
+'grafo2633.17.gml' started.
+SAT
+'grafo2633.17.gml' stopped. Elapsed time: 0.1866 seconds.
+------------------------------
+'grafo2484.17.gml' started.
+SAT
+'grafo2484.17.gml' stopped. Elapsed time: 0.1217 seconds.
+------------------------------
+'grafo2257.14.gml' started.
+SAT
+'grafo2257.14.gml' stopped. Elapsed time: 0.0763 seconds.
+------------------------------
+'grafo950.19.gml' started.
+SAT
+'grafo950.19.gml' stopped. Elapsed time: 0.1900 seconds.
+------------------------------
+'grafo2750.17.gml' started.
+SAT
+'grafo2750.17.gml' stopped. Elapsed time: 0.2619 seconds.
+------------------------------
+'grafo1809.17.gml' started.
+SAT
+'grafo1809.17.gml' stopped. Elapsed time: 0.1429 seconds.
+------------------------------
+'grafo2234.14.gml' started.
+SAT
+'grafo2234.14.gml' stopped. Elapsed time: 0.1696 seconds.
+------------------------------
+'grafo2101.17.gml' started.
+SAT
+'grafo2101.17.gml' stopped. Elapsed time: 0.1474 seconds.
+------------------------------
+'grafo2995.20.gml' started.
+SAT
+'grafo2995.20.gml' stopped. Elapsed time: 0.2488 seconds.
+------------------------------
+'grafo719.14.gml' started.
+SAT
+'grafo719.14.gml' stopped. Elapsed time: 0.0757 seconds.
+------------------------------
+'grafo477.13.gml' started.
+SAT
+'grafo477.13.gml' stopped. Elapsed time: 0.0679 seconds.
+------------------------------
+'grafo1807.12.gml' started.
+SAT
+'grafo1807.12.gml' stopped. Elapsed time: 0.0977 seconds.
+------------------------------
+'grafo577.13.gml' started.
+SAT
+'grafo577.13.gml' stopped. Elapsed time: 0.0818 seconds.
+------------------------------
+'grafo2936.12.gml' started.
+SAT
+'grafo2936.12.gml' stopped. Elapsed time: 0.0751 seconds.
+------------------------------
+'grafo1165.16.gml' started.
+SAT
+'grafo1165.16.gml' stopped. Elapsed time: 0.1862 seconds.
+------------------------------
+'grafo871.14.gml' started.
+SAT
+'grafo871.14.gml' stopped. Elapsed time: 0.1022 seconds.
+------------------------------
+'grafo282.14.gml' started.
+SAT
+'grafo282.14.gml' stopped. Elapsed time: 0.1965 seconds.
+------------------------------
+'grafo2849.17.gml' started.
+SAT
+'grafo2849.17.gml' stopped. Elapsed time: 0.1148 seconds.
+------------------------------
+'grafo2186.18.gml' started.
+SAT
+'grafo2186.18.gml' stopped. Elapsed time: 0.1643 seconds.
+------------------------------
+'grafo1098.10.gml' started.
+SAT
+'grafo1098.10.gml' stopped. Elapsed time: 0.0260 seconds.
+------------------------------
+'grafo420.17.gml' started.
+SAT
+'grafo420.17.gml' stopped. Elapsed time: 0.1843 seconds.
+------------------------------
+'grafo855.15.gml' started.
+SAT
+'grafo855.15.gml' stopped. Elapsed time: 0.0985 seconds.
+------------------------------
+'grafo2569.14.gml' started.
+SAT
+'grafo2569.14.gml' stopped. Elapsed time: 0.0960 seconds.
+------------------------------
+'grafo2338.14.gml' started.
+SAT
+'grafo2338.14.gml' stopped. Elapsed time: 0.0626 seconds.
+------------------------------
+'grafo1067.13.gml' started.
+SAT
+'grafo1067.13.gml' stopped. Elapsed time: 0.0669 seconds.
+------------------------------
+'grafo633.10.gml' started.
+SAT
+'grafo633.10.gml' stopped. Elapsed time: 0.0271 seconds.
+------------------------------
+'grafo2125.16.gml' started.
+SAT
+'grafo2125.16.gml' stopped. Elapsed time: 0.1215 seconds.
+------------------------------
+'grafo406.13.gml' started.
+SAT
+'grafo406.13.gml' stopped. Elapsed time: 0.0996 seconds.
+------------------------------
+'grafo280.11.gml' started.
+SAT
+'grafo280.11.gml' stopped. Elapsed time: 0.0502 seconds.
+------------------------------
+'grafo2317.20.gml' started.
+SAT
+'grafo2317.20.gml' stopped. Elapsed time: 0.1809 seconds.
+------------------------------
+'grafo453.12.gml' started.
+SAT
+'grafo453.12.gml' stopped. Elapsed time: 0.0410 seconds.
+------------------------------
+'grafo1763.12.gml' started.
+SAT
+'grafo1763.12.gml' stopped. Elapsed time: 0.1454 seconds.
+------------------------------
+'grafo2861.16.gml' started.
+SAT
+'grafo2861.16.gml' stopped. Elapsed time: 0.0844 seconds.
+------------------------------
+'grafo1069.16.gml' started.
+SAT
+'grafo1069.16.gml' stopped. Elapsed time: 0.0783 seconds.
+------------------------------
+'grafo817.18.gml' started.
+SAT
+'grafo817.18.gml' stopped. Elapsed time: 0.1190 seconds.
+------------------------------
+'grafo2579.11.gml' started.
+SAT
+'grafo2579.11.gml' stopped. Elapsed time: 0.0376 seconds.
+------------------------------
+'grafo1177.16.gml' started.
+SAT
+'grafo1177.16.gml' stopped. Elapsed time: 0.0829 seconds.
+------------------------------
+'grafo2209.20.gml' started.
+SAT
+'grafo2209.20.gml' stopped. Elapsed time: 0.3023 seconds.
+------------------------------
+'grafo2824.12.gml' started.
+SAT
+'grafo2824.12.gml' stopped. Elapsed time: 0.0620 seconds.
+------------------------------
+'grafo938.10.gml' started.
+SAT
+'grafo938.10.gml' stopped. Elapsed time: 0.0559 seconds.
+------------------------------
+'grafo1022.17.gml' started.
+SAT
+'grafo1022.17.gml' stopped. Elapsed time: 0.1047 seconds.
+------------------------------
+'grafo1122.17.gml' started.
+SAT
+'grafo1122.17.gml' stopped. Elapsed time: 0.1029 seconds.
+------------------------------
+'grafo349.13.gml' started.
+SAT
+'grafo349.13.gml' stopped. Elapsed time: 0.0698 seconds.
+------------------------------
+'grafo2307.18.gml' started.
+SAT
+'grafo2307.18.gml' stopped. Elapsed time: 0.1676 seconds.
+------------------------------
+'grafo299.19.gml' started.
+SAT
+'grafo299.19.gml' stopped. Elapsed time: 0.1529 seconds.
+------------------------------
+'grafo2556.18.gml' started.
+SAT
+'grafo2556.18.gml' stopped. Elapsed time: 0.1585 seconds.
+------------------------------
+'grafo334.12.gml' started.
+SAT
+'grafo334.12.gml' stopped. Elapsed time: 0.0633 seconds.
+------------------------------
+'grafo2146.17.gml' started.
+SAT
+'grafo2146.17.gml' stopped. Elapsed time: 0.1089 seconds.
+------------------------------
+'grafo2889.18.gml' started.
+SAT
+'grafo2889.18.gml' stopped. Elapsed time: 0.1656 seconds.
+------------------------------
+'grafo2717.17.gml' started.
+SAT
+'grafo2717.17.gml' stopped. Elapsed time: 0.1117 seconds.
+------------------------------
+'grafo234.12.gml' started.
+SAT
+'grafo234.12.gml' stopped. Elapsed time: 0.0693 seconds.
+------------------------------
+'grafo910.10.gml' started.
+SAT
+'grafo910.10.gml' stopped. Elapsed time: 0.0232 seconds.
+------------------------------
+'grafo2802.17.gml' started.
+SAT
+'grafo2802.17.gml' stopped. Elapsed time: 0.1264 seconds.
+------------------------------
+'grafo530.13.gml' started.
+SAT
+'grafo530.13.gml' stopped. Elapsed time: 0.0584 seconds.
+------------------------------
+'grafo361.13.gml' started.
+SAT
+'grafo361.13.gml' stopped. Elapsed time: 0.0623 seconds.
+------------------------------
+'grafo430.13.gml' started.
+SAT
+'grafo430.13.gml' stopped. Elapsed time: 0.0639 seconds.
+------------------------------
+'grafo2902.17.gml' started.
+SAT
+'grafo2902.17.gml' stopped. Elapsed time: 0.2041 seconds.
+------------------------------
+'grafo2414.15.gml' started.
+SAT
+'grafo2414.15.gml' stopped. Elapsed time: 0.1462 seconds.
+------------------------------
+'grafo1878.16.gml' started.
+SAT
+'grafo1878.16.gml' stopped. Elapsed time: 0.1080 seconds.
+------------------------------
+'grafo202.13.gml' started.
+SAT
+'grafo202.13.gml' stopped. Elapsed time: 0.0654 seconds.
+------------------------------
+'grafo2514.15.gml' started.
+SAT
+'grafo2514.15.gml' stopped. Elapsed time: 0.1145 seconds.
+------------------------------
+'grafo287.19.gml' started.
+SAT
+'grafo287.19.gml' stopped. Elapsed time: 0.1921 seconds.
+------------------------------
+'grafo2541.14.gml' started.
+SAT
+'grafo2541.14.gml' stopped. Elapsed time: 0.1606 seconds.
+------------------------------
+'grafo2707.12.gml' started.
+SAT
+'grafo2707.12.gml' stopped. Elapsed time: 0.0735 seconds.
+------------------------------
+'grafo2435.18.gml' started.
+SAT
+'grafo2435.18.gml' stopped. Elapsed time: 0.2296 seconds.
+------------------------------
+'grafo224.17.gml' started.
+SAT
+'grafo224.17.gml' stopped. Elapsed time: 0.1085 seconds.
+------------------------------
+'grafo1745.17.gml' started.
+SAT
+'grafo1745.17.gml' stopped. Elapsed time: 0.1310 seconds.
+------------------------------
+'grafo2607.12.gml' started.
+SAT
+'grafo2607.12.gml' stopped. Elapsed time: 0.0707 seconds.
+------------------------------
+'grafo615.15.gml' started.
+SAT
+'grafo615.15.gml' stopped. Elapsed time: 0.1512 seconds.
+------------------------------
+'grafo382.15.gml' started.
+SAT
+'grafo382.15.gml' stopped. Elapsed time: 0.1019 seconds.
+------------------------------
+'grafo731.14.gml' started.
+SAT
+'grafo731.14.gml' stopped. Elapsed time: 0.0851 seconds.
+------------------------------
+'grafo1634.17.gml' started.
+SAT
+'grafo1634.17.gml' stopped. Elapsed time: 0.1122 seconds.
+------------------------------
+'grafo2312.11.gml' started.
+SAT
+'grafo2312.11.gml' stopped. Elapsed time: 0.0470 seconds.
+------------------------------
+'grafo2430.14.gml' started.
+SAT
+'grafo2430.14.gml' stopped. Elapsed time: 0.0798 seconds.
+------------------------------
+'grafo1882.19.gml' started.
+SAT
+'grafo1882.19.gml' stopped. Elapsed time: 0.1767 seconds.
+------------------------------
+'grafo479.17.gml' started.
+SAT
+'grafo479.17.gml' stopped. Elapsed time: 0.1660 seconds.
+------------------------------
+'grafo717.10.gml' started.
+SAT
+'grafo717.10.gml' stopped. Elapsed time: 0.0408 seconds.
+------------------------------
+'grafo857.11.gml' started.
+SAT
+'grafo857.11.gml' stopped. Elapsed time: 0.0400 seconds.
+------------------------------
+'grafo373.13.gml' started.
+SAT
+'grafo373.13.gml' stopped. Elapsed time: 0.1622 seconds.
+------------------------------
+'grafo1797.19.gml' started.
+SAT
+'grafo1797.19.gml' stopped. Elapsed time: 0.2378 seconds.
+------------------------------
+'grafo2668.12.gml' started.
+SAT
+'grafo2668.12.gml' stopped. Elapsed time: 0.0637 seconds.
+------------------------------
+'grafo834.11.gml' started.
+SAT
+'grafo834.11.gml' stopped. Elapsed time: 0.0508 seconds.
+------------------------------
+'grafo2584.16.gml' started.
+SAT
+'grafo2584.16.gml' stopped. Elapsed time: 0.1444 seconds.
+------------------------------
+'grafo961.10.gml' started.
+SAT
+'grafo961.10.gml' stopped. Elapsed time: 0.0356 seconds.
+------------------------------
+'grafo866.19.gml' started.
+SAT
+'grafo866.19.gml' stopped. Elapsed time: 0.1443 seconds.
+------------------------------
+'grafo2144.12.gml' started.
+SAT
+'grafo2144.12.gml' stopped. Elapsed time: 0.0922 seconds.
+------------------------------
+'grafo849.11.gml' started.
+SAT
+'grafo849.11.gml' stopped. Elapsed time: 0.0447 seconds.
+------------------------------
+'grafo652.14.gml' started.
+SAT
+'grafo652.14.gml' stopped. Elapsed time: 0.0563 seconds.
+------------------------------
+'grafo607.15.gml' started.
+SAT
+'grafo607.15.gml' stopped. Elapsed time: 0.1022 seconds.
+------------------------------
+'grafo785.16.gml' started.
+SAT
+'grafo785.16.gml' stopped. Elapsed time: 0.0947 seconds.
+------------------------------
+'grafo1008.12.gml' started.
+SAT
+'grafo1008.12.gml' stopped. Elapsed time: 0.0409 seconds.
+------------------------------
+'grafo707.15.gml' started.
+SAT
+'grafo707.15.gml' stopped. Elapsed time: 0.0867 seconds.
+------------------------------
+'grafo238.10.gml' started.
+SAT
+'grafo238.10.gml' stopped. Elapsed time: 0.0398 seconds.
+------------------------------
+'grafo2799.16.gml' started.
+SAT
+'grafo2799.16.gml' stopped. Elapsed time: 0.1419 seconds.
+------------------------------
+'grafo467.15.gml' started.
+SAT
+'grafo467.15.gml' stopped. Elapsed time: 0.2348 seconds.
+------------------------------
+'grafo2143.19.gml' started.
+SAT
+'grafo2143.19.gml' stopped. Elapsed time: 0.2404 seconds.
+------------------------------
+'grafo236.15.gml' started.
+SAT
+'grafo236.15.gml' stopped. Elapsed time: 0.0994 seconds.
+------------------------------
+'grafo609.12.gml' started.
+SAT
+'grafo609.12.gml' stopped. Elapsed time: 0.0548 seconds.
+------------------------------
+'grafo2302.16.gml' started.
+SAT
+'grafo2302.16.gml' stopped. Elapsed time: 0.1208 seconds.
+------------------------------
+'grafo2280.15.gml' started.
+SAT
+'grafo2280.15.gml' stopped. Elapsed time: 0.0846 seconds.
+------------------------------
+'grafo2359.12.gml' started.
+SAT
+'grafo2359.12.gml' stopped. Elapsed time: 0.0873 seconds.
+------------------------------
+'grafo861.12.gml' started.
+SAT
+'grafo861.12.gml' stopped. Elapsed time: 0.0646 seconds.
+------------------------------
+'grafo2926.14.gml' started.
+SAT
+'grafo2926.14.gml' stopped. Elapsed time: 0.0714 seconds.
+------------------------------
+'grafo1172.19.gml' started.
+SAT
+'grafo1172.19.gml' stopped. Elapsed time: 0.1799 seconds.
+------------------------------
+'grafo441.11.gml' started.
+SAT
+'grafo441.11.gml' stopped. Elapsed time: 0.0437 seconds.
+------------------------------
+'grafo2733.14.gml' started.
+SAT
+'grafo2733.14.gml' stopped. Elapsed time: 0.0829 seconds.
+------------------------------
+'grafo374.18.gml' started.
+SAT
+'grafo374.18.gml' stopped. Elapsed time: 0.1939 seconds.
+------------------------------
+'grafo2565.17.gml' started.
+SAT
+'grafo2565.17.gml' stopped. Elapsed time: 0.1658 seconds.
+------------------------------
+'grafo273.11.gml' started.
+SAT
+'grafo273.11.gml' stopped. Elapsed time: 0.0345 seconds.
+------------------------------
+'grafo1011.19.gml' started.
+SAT
+'grafo1011.19.gml' stopped. Elapsed time: 0.1837 seconds.
+------------------------------
+'grafo2705.15.gml' started.
+SAT
+'grafo2705.15.gml' stopped. Elapsed time: 0.0892 seconds.
+------------------------------
+'grafo2845.14.gml' started.
+SAT
+'grafo2845.14.gml' stopped. Elapsed time: 0.0804 seconds.
+------------------------------
+'grafo742.13.gml' started.
+SAT
+'grafo742.13.gml' stopped. Elapsed time: 0.0749 seconds.
+------------------------------
+'grafo631.16.gml' started.
+SAT
+'grafo631.16.gml' stopped. Elapsed time: 0.1036 seconds.
+------------------------------
+'grafo971.17.gml' started.
+SAT
+'grafo971.17.gml' stopped. Elapsed time: 0.1311 seconds.
+------------------------------
+'grafo2418.17.gml' started.
+SAT
+'grafo2418.17.gml' stopped. Elapsed time: 0.1302 seconds.
+------------------------------
+'grafo1733.20.gml' started.
+SAT
+'grafo1733.20.gml' stopped. Elapsed time: 0.1945 seconds.
+------------------------------
+'grafo2609.15.gml' started.
+SAT
+'grafo2609.15.gml' stopped. Elapsed time: 0.1079 seconds.
+------------------------------
+'grafo2655.18.gml' started.
+SAT
+'grafo2655.18.gml' stopped. Elapsed time: 0.2018 seconds.
+------------------------------
+'grafo371.14.gml' started.
+SAT
+'grafo371.14.gml' stopped. Elapsed time: 0.0597 seconds.
+------------------------------
+'grafo797.14.gml' started.
+SAT
+'grafo797.14.gml' stopped. Elapsed time: 0.0776 seconds.
+------------------------------
+'grafo2709.15.gml' started.
+SAT
+'grafo2709.15.gml' stopped. Elapsed time: 0.0913 seconds.
+------------------------------
+'grafo1113.20.gml' started.
+SAT
+'grafo1113.20.gml' stopped. Elapsed time: 0.1849 seconds.
+------------------------------
+'grafo520.14.gml' started.
+SAT
+'grafo520.14.gml' stopped. Elapsed time: 0.1413 seconds.
+------------------------------
+'grafo1048.18.gml' started.
+SAT
+'grafo1048.18.gml' stopped. Elapsed time: 0.1859 seconds.
+------------------------------
+'grafo640.16.gml' started.
+SAT
+'grafo640.16.gml' stopped. Elapsed time: 0.0877 seconds.
+------------------------------
+'grafo475.15.gml' started.
+SAT
+'grafo475.15.gml' stopped. Elapsed time: 0.1428 seconds.
+------------------------------
+'grafo257.10.gml' started.
+SAT
+'grafo257.10.gml' stopped. Elapsed time: 0.0412 seconds.
+------------------------------
+'grafo2441.16.gml' started.
+SAT
+'grafo2441.16.gml' stopped. Elapsed time: 0.1187 seconds.
+------------------------------
+'grafo1876.11.gml' started.
+SAT
+'grafo1876.11.gml' stopped. Elapsed time: 0.0932 seconds.
+------------------------------
+'grafo1738.15.gml' started.
+SAT
+'grafo1738.15.gml' stopped. Elapsed time: 0.0779 seconds.
+------------------------------
+'grafo2345.17.gml' started.
+SAT
+'grafo2345.17.gml' stopped. Elapsed time: 0.1243 seconds.
+------------------------------
+'grafo2122.20.gml' started.
+SAT
+'grafo2122.20.gml' stopped. Elapsed time: 0.1491 seconds.
+------------------------------
+'grafo666.12.gml' started.
+SAT
+'grafo666.12.gml' stopped. Elapsed time: 0.0658 seconds.
+------------------------------
+'grafo2621.14.gml' started.
+SAT
+'grafo2621.14.gml' stopped. Elapsed time: 0.0921 seconds.
+------------------------------
+'grafo766.12.gml' started.
+SAT
+'grafo766.12.gml' stopped. Elapsed time: 0.0514 seconds.
+------------------------------
+'grafo2245.17.gml' started.
+SAT
+'grafo2245.17.gml' stopped. Elapsed time: 0.1222 seconds.
+------------------------------
+'grafo1707.18.gml' started.
+SAT
+'grafo1707.18.gml' stopped. Elapsed time: 0.1504 seconds.
+------------------------------
+'grafo1151.11.gml' started.
+SAT
+'grafo1151.11.gml' stopped. Elapsed time: 0.0812 seconds.
+------------------------------
+'grafo2577.17.gml' started.
+SAT
+'grafo2577.17.gml' stopped. Elapsed time: 0.1339 seconds.
+------------------------------
+'grafo2880.16.gml' started.
+SAT
+'grafo2880.16.gml' stopped. Elapsed time: 0.1069 seconds.
+------------------------------
+'grafo333.19.gml' started.
+SAT
+'grafo333.19.gml' stopped. Elapsed time: 0.1582 seconds.
+------------------------------
+'grafo995.18.gml' started.
+SAT
+'grafo995.18.gml' stopped. Elapsed time: 0.1014 seconds.
+------------------------------
+'grafo465.10.gml' started.
+SAT
+'grafo465.10.gml' stopped. Elapsed time: 0.0394 seconds.
+------------------------------
+'grafo2373.16.gml' started.
+SAT
+'grafo2373.16.gml' stopped. Elapsed time: 0.1044 seconds.
+------------------------------
+'grafo247.15.gml' started.
+SAT
+'grafo247.15.gml' stopped. Elapsed time: 0.0829 seconds.
+------------------------------
+'grafo516.15.gml' started.
+SAT
+'grafo516.15.gml' stopped. Elapsed time: 0.0858 seconds.
+------------------------------
+'grafo212.14.gml' started.
+SAT
+'grafo212.14.gml' stopped. Elapsed time: 0.0686 seconds.
+------------------------------
+'grafo2971.11.gml' started.
+SAT
+'grafo2971.11.gml' stopped. Elapsed time: 0.0368 seconds.
+------------------------------
+'grafo2976.18.gml' started.
+SAT
+'grafo2976.18.gml' stopped. Elapsed time: 0.1360 seconds.
+------------------------------
+'grafo215.20.gml' started.
+SAT
+'grafo215.20.gml' stopped. Elapsed time: 0.1654 seconds.
+------------------------------
+'grafo723.17.gml' started.
+SAT
+'grafo723.17.gml' stopped. Elapsed time: 0.1297 seconds.
+------------------------------
+'grafo650.12.gml' started.
+SAT
+'grafo650.12.gml' stopped. Elapsed time: 0.0434 seconds.
+------------------------------
+'grafo1004.11.gml' started.
+SAT
+'grafo1004.11.gml' stopped. Elapsed time: 0.0457 seconds.
+------------------------------
+'grafo1812.19.gml' started.
+SAT
+'grafo1812.19.gml' stopped. Elapsed time: 0.1470 seconds.
+------------------------------
+'grafo750.12.gml' started.
+SAT
+'grafo750.12.gml' stopped. Elapsed time: 0.0463 seconds.
+------------------------------
+'grafo1652.18.gml' started.
+SAT
+'grafo1652.18.gml' stopped. Elapsed time: 0.1392 seconds.
+------------------------------
+'grafo2326.16.gml' started.
+SAT
+'grafo2326.16.gml' stopped. Elapsed time: 0.1455 seconds.
+------------------------------
+'grafo2191.16.gml' started.
+SAT
+'grafo2191.16.gml' stopped. Elapsed time: 0.1218 seconds.
+------------------------------
+'grafo1824.18.gml' started.
+SAT
+'grafo1824.18.gml' stopped. Elapsed time: 0.1715 seconds.
+------------------------------
+'grafo1032.10.gml' started.
+SAT
+'grafo1032.10.gml' stopped. Elapsed time: 0.0238 seconds.
+------------------------------
+'grafo668.16.gml' started.
+SAT
+'grafo668.16.gml' stopped. Elapsed time: 0.1210 seconds.
+------------------------------
+'grafo2079.19.gml' started.
+SAT
+'grafo2079.19.gml' stopped. Elapsed time: 0.1770 seconds.
+------------------------------
+'grafo2292.14.gml' started.
+SAT
+'grafo2292.14.gml' stopped. Elapsed time: 0.1104 seconds.
+------------------------------
+'grafo2392.14.gml' started.
+SAT
+'grafo2392.14.gml' stopped. Elapsed time: 0.0847 seconds.
+------------------------------
+'grafo1636.11.gml' started.
+SAT
+'grafo1636.11.gml' stopped. Elapsed time: 0.1208 seconds.
+------------------------------
+'grafo982.15.gml' started.
+SAT
+'grafo982.15.gml' stopped. Elapsed time: 0.0826 seconds.
+------------------------------
+'grafo2940.19.gml' started.
+SAT
+'grafo2940.19.gml' stopped. Elapsed time: 0.1583 seconds.
+------------------------------
+'grafo1014.14.gml' started.
+SAT
+'grafo1014.14.gml' stopped. Elapsed time: 0.1020 seconds.
+------------------------------
+'grafo1692.16.gml' started.
+SAT
+'grafo1692.16.gml' stopped. Elapsed time: 0.0995 seconds.
+------------------------------
+'grafo2812.11.gml' started.
+SAT
+'grafo2812.11.gml' stopped. Elapsed time: 0.0327 seconds.
+------------------------------
+'grafo697.15.gml' started.
+SAT
+'grafo697.15.gml' stopped. Elapsed time: 0.1794 seconds.
+------------------------------
+'grafo1792.16.gml' started.
+SAT
+'grafo1792.16.gml' stopped. Elapsed time: 0.1540 seconds.
+------------------------------
+'grafo2567.13.gml' started.
+SAT
+'grafo2567.13.gml' stopped. Elapsed time: 0.0584 seconds.
+------------------------------
+'grafo2158.14.gml' started.
+SAT
+'grafo2158.14.gml' stopped. Elapsed time: 0.0981 seconds.
+------------------------------
+'grafo2890.12.gml' started.
+SAT
+'grafo2890.12.gml' stopped. Elapsed time: 0.0586 seconds.
+------------------------------
+'grafo1873.20.gml' started.
+SAT
+'grafo1873.20.gml' stopped. Elapsed time: 0.2311 seconds.
+------------------------------
+'grafo1030.15.gml' started.
+SAT
+'grafo1030.15.gml' stopped. Elapsed time: 0.0854 seconds.
+------------------------------
+'grafo1065.14.gml' started.
+SAT
+'grafo1065.14.gml' stopped. Elapsed time: 0.1202 seconds.
+------------------------------
+'grafo255.14.gml' started.
+SAT
+'grafo255.14.gml' stopped. Elapsed time: 0.1186 seconds.
+------------------------------
+'grafo2349.16.gml' started.
+SAT
+'grafo2349.16.gml' stopped. Elapsed time: 0.1155 seconds.
+------------------------------
+'grafo355.14.gml' started.
+SAT
+'grafo355.14.gml' stopped. Elapsed time: 0.0575 seconds.
+------------------------------
+'grafo1900.19.gml' started.
+SAT
+'grafo1900.19.gml' stopped. Elapsed time: 0.2313 seconds.
+------------------------------
+'grafo2154.14.gml' started.
+SAT
+'grafo2154.14.gml' stopped. Elapsed time: 0.0991 seconds.
+------------------------------
+'grafo1885.13.gml' started.
+SAT
+'grafo1885.13.gml' stopped. Elapsed time: 0.1027 seconds.
+------------------------------
+'grafo1800.19.gml' started.
+SAT
+'grafo1800.19.gml' stopped. Elapsed time: 0.2399 seconds.
+------------------------------
+'grafo2183.16.gml' started.
+SAT
+'grafo2183.16.gml' stopped. Elapsed time: 0.1205 seconds.
+------------------------------
+'grafo957.12.gml' started.
+SAT
+'grafo957.12.gml' stopped. Elapsed time: 0.0476 seconds.
+------------------------------
+'grafo2334.16.gml' started.
+SAT
+'grafo2334.16.gml' stopped. Elapsed time: 0.1359 seconds.
+------------------------------
+'grafo2910.14.gml' started.
+SAT
+'grafo2910.14.gml' stopped. Elapsed time: 0.0924 seconds.
+------------------------------
+'grafo2289.18.gml' started.
+SAT
+'grafo2289.18.gml' stopped. Elapsed time: 0.1570 seconds.
+------------------------------
+'grafo392.13.gml' started.
+SAT
+'grafo392.13.gml' stopped. Elapsed time: 0.0633 seconds.
+------------------------------
+'grafo541.10.gml' started.
+SAT
+'grafo541.10.gml' stopped. Elapsed time: 0.0371 seconds.
+------------------------------
+'grafo210.10.gml' started.
+SAT
+'grafo210.10.gml' stopped. Elapsed time: 0.0376 seconds.
+------------------------------
+'grafo3031.16.gml' started.
+SAT
+'grafo3031.16.gml' stopped. Elapsed time: 0.1184 seconds.
+------------------------------
+'grafo1120.10.gml' started.
+SAT
+'grafo1120.10.gml' stopped. Elapsed time: 0.0361 seconds.
+------------------------------
+'grafo2139.11.gml' started.
+SAT
+'grafo2139.11.gml' stopped. Elapsed time: 0.0800 seconds.
+------------------------------
+'grafo1936.18.gml' started.
+SAT
+'grafo1936.18.gml' stopped. Elapsed time: 0.3417 seconds.
+------------------------------
+'grafo1127.19.gml' started.
+SAT
+'grafo1127.19.gml' stopped. Elapsed time: 0.1848 seconds.
+------------------------------
+'grafo567.14.gml' started.
+SAT
+'grafo567.14.gml' stopped. Elapsed time: 0.1098 seconds.
+------------------------------
+'grafo535.20.gml' started.
+SAT
+'grafo535.20.gml' stopped. Elapsed time: 0.3113 seconds.
+------------------------------
+'grafo2111.10.gml' started.
+SAT
+'grafo2111.10.gml' stopped. Elapsed time: 0.0777 seconds.
+------------------------------
+'grafo1659.11.gml' started.
+SAT
+'grafo1659.11.gml' stopped. Elapsed time: 0.0807 seconds.
+------------------------------
+'grafo2907.18.gml' started.
+SAT
+'grafo2907.18.gml' stopped. Elapsed time: 0.2243 seconds.
+------------------------------
+'grafo2575.13.gml' started.
+SAT
+'grafo2575.13.gml' stopped. Elapsed time: 0.0648 seconds.
+------------------------------
+'grafo279.16.gml' started.
+SAT
+'grafo279.16.gml' stopped. Elapsed time: 0.1241 seconds.
+------------------------------
+'grafo3051.20.gml' started.
+SAT
+'grafo3051.20.gml' stopped. Elapsed time: 0.1897 seconds.
+------------------------------
+'grafo2601.17.gml' started.
+SAT
+'grafo2601.17.gml' stopped. Elapsed time: 0.3009 seconds.
+------------------------------
+'grafo377.13.gml' started.
+SAT
+'grafo377.13.gml' stopped. Elapsed time: 0.1016 seconds.
+------------------------------
+'grafo613.10.gml' started.
+SAT
+'grafo613.10.gml' stopped. Elapsed time: 0.0357 seconds.
+------------------------------
+'grafo791.13.gml' started.
+SAT
+'grafo791.13.gml' stopped. Elapsed time: 0.0854 seconds.
+------------------------------
+'grafo2754.16.gml' started.
+SAT
+'grafo2754.16.gml' stopped. Elapsed time: 0.1841 seconds.
+------------------------------
+'grafo277.13.gml' started.
+SAT
+'grafo277.13.gml' stopped. Elapsed time: 0.0868 seconds.
+------------------------------
+'grafo2867.12.gml' started.
+SAT
+'grafo2867.12.gml' stopped. Elapsed time: 0.1143 seconds.
+------------------------------
+'grafo386.15.gml' started.
+SAT
+'grafo386.15.gml' stopped. Elapsed time: 0.2056 seconds.
+------------------------------
+'grafo1161.17.gml' started.
+SAT
+'grafo1161.17.gml' stopped. Elapsed time: 0.1328 seconds.
+------------------------------
+'grafo2832.13.gml' started.
+SAT
+'grafo2832.13.gml' stopped. Elapsed time: 0.0728 seconds.
+------------------------------
+'grafo894.16.gml' started.
+SAT
+'grafo894.16.gml' stopped. Elapsed time: 0.2052 seconds.
+------------------------------
+'grafo3113.11.gml' started.
+SAT
+'grafo3113.11.gml' stopped. Elapsed time: 0.0380 seconds.
+------------------------------
+'grafo1057.16.gml' started.
+SAT
+'grafo1057.16.gml' stopped. Elapsed time: 0.1008 seconds.
+------------------------------
+'grafo843.14.gml' started.
+SAT
+'grafo843.14.gml' stopped. Elapsed time: 0.0704 seconds.
+------------------------------
+'grafo2502.15.gml' started.
+SAT
+'grafo2502.15.gml' stopped. Elapsed time: 0.1219 seconds.
+------------------------------
+'grafo679.20.gml' started.
+SAT
+'grafo679.20.gml' stopped. Elapsed time: 0.2052 seconds.
+------------------------------
+'grafo998.16.gml' started.
+SAT
+'grafo998.16.gml' stopped. Elapsed time: 0.0829 seconds.
+------------------------------
+'grafo2646.16.gml' started.
+SAT
+'grafo2646.16.gml' stopped. Elapsed time: 0.2559 seconds.
+------------------------------
+'grafo599.18.gml' started.
+SAT
+'grafo599.18.gml' stopped. Elapsed time: 0.1169 seconds.
+------------------------------
+'grafo869.10.gml' started.
+SAT
+'grafo869.10.gml' stopped. Elapsed time: 0.0364 seconds.
+------------------------------
+'grafo547.16.gml' started.
+SAT
+'grafo547.16.gml' stopped. Elapsed time: 0.1057 seconds.
+------------------------------
+'grafo644.14.gml' started.
+SAT
+'grafo644.14.gml' stopped. Elapsed time: 0.1016 seconds.
+------------------------------
+'grafo3101.11.gml' started.
+SAT
+'grafo3101.11.gml' stopped. Elapsed time: 0.0370 seconds.
+------------------------------
+'grafo1883.15.gml' started.
+SAT
+'grafo1883.15.gml' stopped. Elapsed time: 0.0882 seconds.
+------------------------------
+'grafo693.16.gml' started.
+SAT
+'grafo693.16.gml' stopped. Elapsed time: 0.1285 seconds.
+------------------------------
+'grafo275.16.gml' started.
+SAT
+'grafo275.16.gml' stopped. Elapsed time: 0.1160 seconds.
+------------------------------
+'grafo639.14.gml' started.
+SAT
+'grafo639.14.gml' stopped. Elapsed time: 0.1241 seconds.
+------------------------------
+'grafo822.11.gml' started.
+SAT
+'grafo822.11.gml' stopped. Elapsed time: 0.0545 seconds.
+------------------------------
+'grafo879.15.gml' started.
+SAT
+'grafo879.15.gml' stopped. Elapsed time: 0.1265 seconds.
+------------------------------
+'grafo1769.16.gml' started.
+SAT
+'grafo1769.16.gml' stopped. Elapsed time: 0.1386 seconds.
+------------------------------
+'grafo2246.20.gml' started.
+SAT
+'grafo2246.20.gml' stopped. Elapsed time: 0.3401 seconds.
+------------------------------
+'grafo166.10.gml' started.
+SAT
+'grafo166.10.gml' stopped. Elapsed time: 0.0384 seconds.
+------------------------------
+'grafo459.17.gml' started.
+SAT
+'grafo459.17.gml' stopped. Elapsed time: 0.1414 seconds.
+------------------------------
+'grafo353.13.gml' started.
+SAT
+'grafo353.13.gml' stopped. Elapsed time: 0.0762 seconds.
+------------------------------
+'grafo2174.17.gml' started.
+SAT
+'grafo2174.17.gml' stopped. Elapsed time: 0.1957 seconds.
+------------------------------
+'grafo739.15.gml' started.
+SAT
+'grafo739.15.gml' stopped. Elapsed time: 0.1106 seconds.
+------------------------------
+'grafo457.12.gml' started.
+SAT
+'grafo457.12.gml' stopped. Elapsed time: 0.0670 seconds.
+------------------------------
+'grafo1827.13.gml' started.
+SAT
+'grafo1827.13.gml' stopped. Elapsed time: 0.0910 seconds.
+------------------------------
+'grafo206.12.gml' started.
+SAT
+'grafo206.12.gml' stopped. Elapsed time: 0.0561 seconds.
+------------------------------
+'grafo2213.20.gml' started.
+SAT
+'grafo2213.20.gml' stopped. Elapsed time: 0.2544 seconds.
+------------------------------
+'grafo2298.13.gml' started.
+SAT
+'grafo2298.13.gml' stopped. Elapsed time: 0.0663 seconds.
+------------------------------
+'grafo888.12.gml' started.
+SAT
+'grafo888.12.gml' stopped. Elapsed time: 0.0555 seconds.
+------------------------------
+'grafo199.13.gml' started.
+SAT
+'grafo199.13.gml' stopped. Elapsed time: 0.1165 seconds.
+------------------------------
+'grafo375.17.gml' started.
+SAT
+'grafo375.17.gml' stopped. Elapsed time: 0.1303 seconds.
+------------------------------
+'grafo2918.16.gml' started.
+SAT
+'grafo2918.16.gml' stopped. Elapsed time: 0.1995 seconds.
+------------------------------
+'grafo1741.16.gml' started.
+SAT
+'grafo1741.16.gml' stopped. Elapsed time: 0.0962 seconds.
+------------------------------
+'grafo2758.17.gml' started.
+SAT
+'grafo2758.17.gml' stopped. Elapsed time: 0.1246 seconds.
+------------------------------
+'grafo1173.16.gml' started.
+SAT
+'grafo1173.16.gml' stopped. Elapsed time: 0.1279 seconds.
+------------------------------
+'grafo590.15.gml' started.
+SAT
+'grafo590.15.gml' stopped. Elapsed time: 0.1718 seconds.
+------------------------------
+'grafo512.16.gml' started.
+SAT
+'grafo512.16.gml' stopped. Elapsed time: 0.1091 seconds.
+------------------------------
+'grafo1839.13.gml' started.
+SAT
+'grafo1839.13.gml' stopped. Elapsed time: 0.1117 seconds.
+------------------------------
+'grafo2288.16.gml' started.
+SAT
+'grafo2288.16.gml' stopped. Elapsed time: 0.1976 seconds.
+------------------------------
+'grafo706.18.gml' started.
+SAT
+'grafo706.18.gml' stopped. Elapsed time: 0.2544 seconds.
+------------------------------
+'grafo2377.15.gml' started.
+SAT
+'grafo2377.15.gml' stopped. Elapsed time: 0.0910 seconds.
+------------------------------
+'grafo2142.16.gml' started.
+SAT
+'grafo2142.16.gml' stopped. Elapsed time: 0.1168 seconds.
+------------------------------
+'grafo2791.15.gml' started.
+SAT
+'grafo2791.15.gml' stopped. Elapsed time: 0.0946 seconds.
+------------------------------
+'grafo2908.13.gml' started.
+SAT
+'grafo2908.13.gml' stopped. Elapsed time: 0.0531 seconds.
+------------------------------
+'grafo510.13.gml' started.
+SAT
+'grafo510.13.gml' stopped. Elapsed time: 0.0849 seconds.
+------------------------------
+'grafo2068.12.gml' started.
+SAT
+'grafo2068.12.gml' stopped. Elapsed time: 0.0756 seconds.
+------------------------------
+'grafo1935.13.gml' started.
+SAT
+'grafo1935.13.gml' stopped. Elapsed time: 0.1062 seconds.
+------------------------------
+'grafo2115.12.gml' started.
+SAT
+'grafo2115.12.gml' stopped. Elapsed time: 0.0834 seconds.
+------------------------------
+'grafo2576.18.gml' started.
+SAT
+'grafo2576.18.gml' stopped. Elapsed time: 0.2399 seconds.
+------------------------------
+'grafo758.10.gml' started.
+SAT
+'grafo758.10.gml' stopped. Elapsed time: 0.0482 seconds.
+------------------------------
+'grafo269.12.gml' started.
+SAT
+'grafo269.12.gml' stopped. Elapsed time: 0.0556 seconds.
+------------------------------
+'grafo1753.16.gml' started.
+SAT
+'grafo1753.16.gml' stopped. Elapsed time: 0.2115 seconds.
+------------------------------
+'grafo232.16.gml' started.
+SAT
+'grafo232.16.gml' stopped. Elapsed time: 0.1085 seconds.
+------------------------------
+'grafo582.15.gml' started.
+SAT
+'grafo582.15.gml' stopped. Elapsed time: 0.0870 seconds.
+------------------------------
+'grafo400.16.gml' started.
+SAT
+'grafo400.16.gml' stopped. Elapsed time: 0.1178 seconds.
+------------------------------
+'grafo735.15.gml' started.
+SAT
+'grafo735.15.gml' stopped. Elapsed time: 0.0712 seconds.
+------------------------------
+'grafo2244.18.gml' started.
+SAT
+'grafo2244.18.gml' stopped. Elapsed time: 0.2487 seconds.
+------------------------------
+'grafo1665.17.gml' started.
+SAT
+'grafo1665.17.gml' stopped. Elapsed time: 0.1189 seconds.
+------------------------------
+'grafo2318.15.gml' started.
+SAT
+'grafo2318.15.gml' stopped. Elapsed time: 0.0924 seconds.
+------------------------------
+'grafo526.12.gml' started.
+SAT
+'grafo526.12.gml' stopped. Elapsed time: 0.0807 seconds.
+------------------------------
+'grafo691.12.gml' started.
+SAT
+'grafo691.12.gml' stopped. Elapsed time: 0.0665 seconds.
+------------------------------
+'grafo2561.14.gml' started.
+SAT
+'grafo2561.14.gml' stopped. Elapsed time: 0.1259 seconds.
+------------------------------
+'grafo2150.16.gml' started.
+SAT
+'grafo2150.16.gml' stopped. Elapsed time: 0.1450 seconds.
+------------------------------
+'grafo2783.15.gml' started.
+SAT
+'grafo2783.15.gml' stopped. Elapsed time: 0.1097 seconds.
+------------------------------
+'grafo573.13.gml' started.
+SAT
+'grafo573.13.gml' stopped. Elapsed time: 0.1391 seconds.
+------------------------------
+'grafo2841.17.gml' started.
+SAT
+'grafo2841.17.gml' stopped. Elapsed time: 0.1452 seconds.
+------------------------------
+'grafo1644.18.gml' started.
+SAT
+'grafo1644.18.gml' stopped. Elapsed time: 0.2247 seconds.
+------------------------------
+'grafo983.19.gml' started.
+SAT
+'grafo983.19.gml' stopped. Elapsed time: 0.2129 seconds.
+------------------------------
+'grafo1618.15.gml' started.
+SAT
+'grafo1618.15.gml' stopped. Elapsed time: 0.1269 seconds.
+------------------------------
+'grafo379.15.gml' started.
+SAT
+'grafo379.15.gml' stopped. Elapsed time: 0.1104 seconds.
+------------------------------
+'grafo222.11.gml' started.
+SAT
+'grafo222.11.gml' stopped. Elapsed time: 0.0439 seconds.
+------------------------------
+'grafo1804.19.gml' started.
+SAT
+'grafo1804.19.gml' stopped. Elapsed time: 0.3652 seconds.
+------------------------------
+'grafo698.20.gml' started.
+SAT
+'grafo698.20.gml' stopped. Elapsed time: 0.2337 seconds.
+------------------------------
+'grafo2608.18.gml' started.
+SAT
+'grafo2608.18.gml' stopped. Elapsed time: 0.1679 seconds.
+------------------------------
+'grafo2171.19.gml' started.
+SAT
+'grafo2171.19.gml' stopped. Elapsed time: 0.1753 seconds.
+------------------------------
+'grafo304.15.gml' started.
+SAT
+'grafo304.15.gml' stopped. Elapsed time: 0.0947 seconds.
+------------------------------
+'grafo2860.18.gml' started.
+SAT
+'grafo2860.18.gml' stopped. Elapsed time: 0.1491 seconds.
+------------------------------
+'grafo204.15.gml' started.
+SAT
+'grafo204.15.gml' stopped. Elapsed time: 0.0892 seconds.
+------------------------------
+'grafo388.13.gml' started.
+SAT
+'grafo388.13.gml' stopped. Elapsed time: 0.1599 seconds.
+------------------------------
+'grafo1970.15.gml' started.
+SAT
+'grafo1970.15.gml' stopped. Elapsed time: 0.1010 seconds.
+------------------------------
+'grafo3091.11.gml' started.
+SAT
+'grafo3091.11.gml' stopped. Elapsed time: 0.0561 seconds.
+------------------------------
+'grafo786.20.gml' started.
+SAT
+'grafo786.20.gml' stopped. Elapsed time: 0.2199 seconds.
+------------------------------
+'grafo818.13.gml' started.
+SAT
+'grafo818.13.gml' stopped. Elapsed time: 0.0716 seconds.
+------------------------------
+'grafo2643.19.gml' started.
+SAT
+'grafo2643.19.gml' stopped. Elapsed time: 0.1826 seconds.
+------------------------------
+'grafo2197.13.gml' started.
+SAT
+'grafo2197.13.gml' stopped. Elapsed time: 0.0914 seconds.
+------------------------------
+'grafo1835.11.gml' started.
+SAT
+'grafo1835.11.gml' stopped. Elapsed time: 0.0773 seconds.
+------------------------------
+'grafo2580.15.gml' started.
+SAT
+'grafo2580.15.gml' stopped. Elapsed time: 0.0910 seconds.
+------------------------------
+'grafo1672.19.gml' started.
+SAT
+'grafo1672.19.gml' stopped. Elapsed time: 0.1673 seconds.
+------------------------------
+'grafo2489.19.gml' started.
+SAT
+'grafo2489.19.gml' stopped. Elapsed time: 0.2418 seconds.
+------------------------------
+'grafo2979.11.gml' started.
+SAT
+'grafo2979.11.gml' stopped. Elapsed time: 0.0396 seconds.
+------------------------------
+'grafo1076.18.gml' started.
+SAT
+'grafo1076.18.gml' stopped. Elapsed time: 0.1745 seconds.
+------------------------------
+'grafo566.18.gml' started.
+SAT
+'grafo566.18.gml' stopped. Elapsed time: 0.1338 seconds.
+------------------------------
+'grafo1100.11.gml' started.
+SAT
+'grafo1100.11.gml' stopped. Elapsed time: 0.0458 seconds.
+------------------------------
+'grafo362.19.gml' started.
+SAT
+'grafo362.19.gml' stopped. Elapsed time: 0.1272 seconds.
+------------------------------
+'grafo1704.10.gml' started.
+SAT
+'grafo1704.10.gml' stopped. Elapsed time: 0.0631 seconds.
+------------------------------
+'grafo265.10.gml' started.
+SAT
+'grafo265.10.gml' stopped. Elapsed time: 0.0550 seconds.
+------------------------------
+'grafo2632.19.gml' started.
+SAT
+'grafo2632.19.gml' stopped. Elapsed time: 0.1486 seconds.
+------------------------------
+'grafo343.14.gml' started.
+SAT
+'grafo343.14.gml' stopped. Elapsed time: 0.0789 seconds.
+------------------------------
+'grafo967.16.gml' started.
+SAT
+'grafo967.16.gml' stopped. Elapsed time: 0.1012 seconds.
+------------------------------
+'grafo2604.18.gml' started.
+SAT
+'grafo2604.18.gml' stopped. Elapsed time: 0.1723 seconds.
+------------------------------
+'grafo523.20.gml' started.
+SAT
+'grafo523.20.gml' stopped. Elapsed time: 0.1927 seconds.
+------------------------------
+'grafo2844.19.gml' started.
+SAT
+'grafo2844.19.gml' stopped. Elapsed time: 0.2779 seconds.
+------------------------------
+'grafo886.15.gml' started.
+SAT
+'grafo886.15.gml' stopped. Elapsed time: 0.0805 seconds.
+------------------------------
+'grafo2367.12.gml' started.
+SAT
+'grafo2367.12.gml' stopped. Elapsed time: 0.0706 seconds.
+------------------------------
+'grafo1648.18.gml' started.
+SAT
+'grafo1648.18.gml' stopped. Elapsed time: 0.1893 seconds.
+------------------------------
+'grafo851.17.gml' started.
+SAT
+'grafo851.17.gml' stopped. Elapsed time: 0.1206 seconds.
+------------------------------
+'grafo2939.19.gml' started.
+SAT
+'grafo2939.19.gml' stopped. Elapsed time: 0.2378 seconds.
+------------------------------
+'grafo1660.19.gml' started.
+SAT
+'grafo1660.19.gml' stopped. Elapsed time: 0.1663 seconds.
+------------------------------
+'grafo2241.16.gml' started.
+SAT
+'grafo2241.16.gml' stopped. Elapsed time: 0.1252 seconds.
+------------------------------
+'grafo1820.18.gml' started.
+SAT
+'grafo1820.18.gml' stopped. Elapsed time: 0.2197 seconds.
+------------------------------
+'grafo1138.15.gml' started.
+SAT
+'grafo1138.15.gml' stopped. Elapsed time: 0.0630 seconds.
+------------------------------
+'grafo1972.10.gml' started.
+SAT
+'grafo1972.10.gml' stopped. Elapsed time: 0.0639 seconds.
+------------------------------
+'grafo402.10.gml' started.
+SAT
+'grafo402.10.gml' stopped. Elapsed time: 0.0357 seconds.
+------------------------------
+'grafo308.14.gml' started.
+SAT
+'grafo308.14.gml' stopped. Elapsed time: 0.1363 seconds.
+------------------------------
+'grafo2830.14.gml' started.
+SAT
+'grafo2830.14.gml' stopped. Elapsed time: 0.0745 seconds.
+------------------------------
+'grafo1829.15.gml' started.
+SAT
+'grafo1829.15.gml' stopped. Elapsed time: 0.1100 seconds.
+------------------------------
+'grafo2296.15.gml' started.
+SAT
+'grafo2296.15.gml' stopped. Elapsed time: 0.1280 seconds.
+------------------------------
+'grafo637.13.gml' started.
+SAT
+'grafo637.13.gml' stopped. Elapsed time: 0.0545 seconds.
+------------------------------
+'grafo557.11.gml' started.
+SAT
+'grafo557.11.gml' stopped. Elapsed time: 0.0497 seconds.
+------------------------------
+'grafo2625.14.gml' started.
+SAT
+'grafo2625.14.gml' stopped. Elapsed time: 0.0730 seconds.
+------------------------------
+'grafo2128.19.gml' started.
+SAT
+'grafo2128.19.gml' stopped. Elapsed time: 0.1290 seconds.
+------------------------------
+'grafo1614.14.gml' started.
+SAT
+'grafo1614.14.gml' stopped. Elapsed time: 0.0663 seconds.
+------------------------------
+'grafo2894.13.gml' started.
+SAT
+'grafo2894.13.gml' stopped. Elapsed time: 0.0768 seconds.
+------------------------------
+'grafo988.11.gml' started.
+SAT
+'grafo988.11.gml' stopped. Elapsed time: 0.0429 seconds.
+------------------------------
+'grafo524.14.gml' started.
+SAT
+'grafo524.14.gml' stopped. Elapsed time: 0.0856 seconds.
+------------------------------
+'grafo190.20.gml' started.
+SAT
+'grafo190.20.gml' stopped. Elapsed time: 0.2344 seconds.
+------------------------------
+'grafo197.15.gml' started.
+SAT
+'grafo197.15.gml' stopped. Elapsed time: 0.0805 seconds.
+------------------------------
+'grafo1128.11.gml' started.
+SAT
+'grafo1128.11.gml' stopped. Elapsed time: 0.0488 seconds.
+------------------------------
+'grafo2204.13.gml' started.
+SAT
+'grafo2204.13.gml' stopped. Elapsed time: 0.0558 seconds.
+------------------------------
+'grafo447.14.gml' started.
+SAT
+'grafo447.14.gml' stopped. Elapsed time: 0.0821 seconds.
+------------------------------
+'grafo244.20.gml' started.
+SAT
+'grafo244.20.gml' stopped. Elapsed time: 0.1657 seconds.
+------------------------------
+'grafo2500.12.gml' started.
+SAT
+'grafo2500.12.gml' stopped. Elapsed time: 0.0888 seconds.
+------------------------------
+'grafo969.12.gml' started.
+SAT
+'grafo969.12.gml' stopped. Elapsed time: 0.0492 seconds.
+------------------------------
+'grafo1703.18.gml' started.
+SAT
+'grafo1703.18.gml' stopped. Elapsed time: 0.1363 seconds.
+------------------------------
+'grafo784.18.gml' started.
+SAT
+'grafo784.18.gml' stopped. Elapsed time: 0.1721 seconds.
+------------------------------
+'grafo2806.15.gml' started.
+SAT
+'grafo2806.15.gml' stopped. Elapsed time: 0.0840 seconds.
+------------------------------
+'grafo1155.11.gml' started.
+SAT
+'grafo1155.11.gml' stopped. Elapsed time: 0.0452 seconds.
+------------------------------
+'grafo2222.17.gml' started.
+SAT
+'grafo2222.17.gml' stopped. Elapsed time: 0.0965 seconds.
+------------------------------
+'grafo1152.18.gml' started.
+SAT
+'grafo1152.18.gml' stopped. Elapsed time: 0.1742 seconds.
+------------------------------
+'grafo996.11.gml' started.
+SAT
+'grafo996.11.gml' stopped. Elapsed time: 0.0542 seconds.
+------------------------------
+'grafo568.20.gml' started.
+SAT
+'grafo568.20.gml' stopped. Elapsed time: 0.1514 seconds.
+------------------------------
+'grafo2613.15.gml' started.
+SAT
+'grafo2613.15.gml' stopped. Elapsed time: 0.0919 seconds.
+------------------------------
+'grafo461.10.gml' started.
+SAT
+'grafo461.10.gml' stopped. Elapsed time: 0.0339 seconds.
+------------------------------
+'grafo1071.10.gml' started.
+SAT
+'grafo1071.10.gml' stopped. Elapsed time: 0.0369 seconds.
+------------------------------
+'grafo348.20.gml' started.
+SAT
+'grafo348.20.gml' stopped. Elapsed time: 0.1490 seconds.
+------------------------------
+'grafo346.19.gml' started.
+SAT
+'grafo346.19.gml' stopped. Elapsed time: 0.1559 seconds.
+------------------------------
+'grafo770.12.gml' started.
+SAT
+'grafo770.12.gml' stopped. Elapsed time: 0.0501 seconds.
+------------------------------
+'grafo2559.13.gml' started.
+SAT
+'grafo2559.13.gml' stopped. Elapsed time: 0.0727 seconds.
+------------------------------
+'grafo213.18.gml' started.
+SAT
+'grafo213.18.gml' stopped. Elapsed time: 0.1426 seconds.
+------------------------------
+'grafo930.13.gml' started.
+SAT
+'grafo930.13.gml' stopped. Elapsed time: 0.1024 seconds.
+------------------------------
+'grafo536.14.gml' started.
+SAT
+'grafo536.14.gml' stopped. Elapsed time: 0.0667 seconds.
+------------------------------
+'grafo367.14.gml' started.
+SAT
+'grafo367.14.gml' stopped. Elapsed time: 0.0727 seconds.
+------------------------------
+'grafo2718.20.gml' started.
+SAT
+'grafo2718.20.gml' stopped. Elapsed time: 0.2892 seconds.
+------------------------------
+'grafo463.15.gml' started.
+SAT
+'grafo463.15.gml' stopped. Elapsed time: 0.1498 seconds.
+------------------------------
+'grafo816.17.gml' started.
+SAT
+'grafo816.17.gml' stopped. Elapsed time: 0.1106 seconds.
+------------------------------
+'grafo1080.16.gml' started.
+SAT
+'grafo1080.16.gml' stopped. Elapsed time: 0.1043 seconds.
+------------------------------
+'grafo2693.13.gml' started.
+SAT
+'grafo2693.13.gml' stopped. Elapsed time: 0.0593 seconds.
+------------------------------
+'grafo1870.14.gml' started.
+SAT
+'grafo1870.14.gml' stopped. Elapsed time: 0.1249 seconds.
+------------------------------
+'grafo500.15.gml' started.
+SAT
+'grafo500.15.gml' stopped. Elapsed time: 0.0932 seconds.
+------------------------------
+'grafo2343.12.gml' started.
+SAT
+'grafo2343.12.gml' stopped. Elapsed time: 0.0485 seconds.
+------------------------------
+'grafo2512.12.gml' started.
+SAT
+'grafo2512.12.gml' stopped. Elapsed time: 0.0631 seconds.
+------------------------------
+'grafo409.19.gml' started.
+SAT
+'grafo409.19.gml' stopped. Elapsed time: 0.1553 seconds.
+------------------------------
+'grafo2549.16.gml' started.
+SAT
+'grafo2549.16.gml' stopped. Elapsed time: 0.1206 seconds.
+------------------------------
+'grafo713.12.gml' started.
+SAT
+'grafo713.12.gml' stopped. Elapsed time: 0.0559 seconds.
+------------------------------
+'grafo906.12.gml' started.
+SAT
+'grafo906.12.gml' stopped. Elapsed time: 0.0430 seconds.
+------------------------------
+'grafo473.10.gml' started.
+SAT
+'grafo473.10.gml' stopped. Elapsed time: 0.0365 seconds.
+------------------------------
+'grafo746.13.gml' started.
+SAT
+'grafo746.13.gml' stopped. Elapsed time: 0.0666 seconds.
+------------------------------
+'grafo1643.10.gml' started.
+SAT
+'grafo1643.10.gml' stopped. Elapsed time: 0.0279 seconds.
+------------------------------
+'grafo1856.14.gml' started.
+SAT
+'grafo1856.14.gml' stopped. Elapsed time: 0.0668 seconds.
+------------------------------
+'grafo2105.10.gml' started.
+SAT
+'grafo2105.10.gml' stopped. Elapsed time: 0.0536 seconds.
+------------------------------
+'grafo2265.12.gml' started.
+SAT
+'grafo2265.12.gml' stopped. Elapsed time: 0.0695 seconds.
+------------------------------
+'grafo521.20.gml' started.
+SAT
+'grafo521.20.gml' stopped. Elapsed time: 0.1532 seconds.
+------------------------------
+'grafo270.20.gml' started.
+SAT
+'grafo270.20.gml' stopped. Elapsed time: 0.2790 seconds.
+------------------------------
+'grafo2772.14.gml' started.
+SAT
+'grafo2772.14.gml' stopped. Elapsed time: 0.0710 seconds.
+------------------------------
+'grafo1061.11.gml' started.
+SAT
+'grafo1061.11.gml' stopped. Elapsed time: 0.0427 seconds.
+------------------------------
+'grafo2547.17.gml' started.
+SAT
+'grafo2547.17.gml' stopped. Elapsed time: 0.1266 seconds.
+------------------------------
+'grafo455.10.gml' started.
+SAT
+'grafo455.10.gml' stopped. Elapsed time: 0.0347 seconds.
+------------------------------
+'grafo760.13.gml' started.
+SAT
+'grafo760.13.gml' stopped. Elapsed time: 0.0654 seconds.
+------------------------------
+'grafo660.13.gml' started.
+SAT
+'grafo660.13.gml' stopped. Elapsed time: 0.1121 seconds.
+------------------------------
+'grafo3098.18.gml' started.
+SAT
+'grafo3098.18.gml' stopped. Elapsed time: 0.1794 seconds.
+------------------------------
+'grafo1841.18.gml' started.
+SAT
+'grafo1841.18.gml' stopped. Elapsed time: 0.2099 seconds.
+------------------------------
+'grafo2858.19.gml' started.
+SAT
+'grafo2858.19.gml' stopped. Elapsed time: 0.1616 seconds.
+------------------------------
+'grafo756.12.gml' started.
+SAT
+'grafo756.12.gml' stopped. Elapsed time: 0.0423 seconds.
+------------------------------
+'grafo410.14.gml' started.
+SAT
+'grafo410.14.gml' stopped. Elapsed time: 0.0794 seconds.
+------------------------------
+'grafo2383.18.gml' started.
+SAT
+'grafo2383.18.gml' stopped. Elapsed time: 0.2090 seconds.
+------------------------------
+'grafo2384.11.gml' started.
+SAT
+'grafo2384.11.gml' stopped. Elapsed time: 0.0466 seconds.
+------------------------------
+'grafo1620.14.gml' started.
+SAT
+'grafo1620.14.gml' stopped. Elapsed time: 0.0747 seconds.
+------------------------------
+'grafo2765.18.gml' started.
+SAT
+'grafo2765.18.gml' stopped. Elapsed time: 0.1567 seconds.
+------------------------------
+'grafo1124.15.gml' started.
+SAT
+'grafo1124.15.gml' stopped. Elapsed time: 0.0854 seconds.
+------------------------------
+'grafo339.18.gml' started.
+SAT
+'grafo339.18.gml' stopped. Elapsed time: 0.1106 seconds.
+------------------------------
+'grafo1916.20.gml' started.
+SAT
+'grafo1916.20.gml' stopped. Elapsed time: 0.1721 seconds.
+------------------------------
+'grafo534.15.gml' started.
+SAT
+'grafo534.15.gml' stopped. Elapsed time: 0.0654 seconds.
+------------------------------
+'grafo898.10.gml' started.
+SAT
+'grafo898.10.gml' stopped. Elapsed time: 0.0227 seconds.
+------------------------------
+'grafo1686.16.gml' started.
+SAT
+'grafo1686.16.gml' stopped. Elapsed time: 0.1053 seconds.
+------------------------------
+'grafo783.15.gml' started.
+SAT
+'grafo783.15.gml' stopped. Elapsed time: 0.1247 seconds.
+------------------------------
+'grafo230.14.gml' started.
+SAT
+'grafo230.14.gml' stopped. Elapsed time: 0.1110 seconds.
+------------------------------
+'grafo1688.13.gml' started.
+SAT
+'grafo1688.13.gml' stopped. Elapsed time: 0.0852 seconds.
+------------------------------
+'grafo1000.14.gml' started.
+SAT
+'grafo1000.14.gml' stopped. Elapsed time: 0.1149 seconds.
+------------------------------
+'grafo2426.12.gml' started.
+SAT
+'grafo2426.12.gml' stopped. Elapsed time: 0.0931 seconds.
+------------------------------
+'grafo549.15.gml' started.
+SAT
+'grafo549.15.gml' stopped. Elapsed time: 0.1145 seconds.
+------------------------------
+'grafo2482.15.gml' started.
+SAT
+'grafo2482.15.gml' stopped. Elapsed time: 0.0992 seconds.
+------------------------------
+'grafo1126.10.gml' started.
+SAT
+'grafo1126.10.gml' stopped. Elapsed time: 0.0298 seconds.
+------------------------------
+'grafo794.19.gml' started.
+SAT
+'grafo794.19.gml' stopped. Elapsed time: 0.1507 seconds.
+------------------------------
+'grafo1713.19.gml' started.
+SAT
+'grafo1713.19.gml' stopped. Elapsed time: 0.1263 seconds.
+------------------------------
+'grafo711.13.gml' started.
+SAT
+'grafo711.13.gml' stopped. Elapsed time: 0.0704 seconds.
+------------------------------
+'grafo423.19.gml' started.
+SAT
+'grafo423.19.gml' stopped. Elapsed time: 0.1502 seconds.
+------------------------------
+'grafo1063.14.gml' started.
+SAT
+'grafo1063.14.gml' stopped. Elapsed time: 0.0745 seconds.
+------------------------------
+'grafo877.16.gml' started.
+SAT
+'grafo877.16.gml' stopped. Elapsed time: 0.0948 seconds.
+------------------------------
+'grafo1136.15.gml' started.
+SAT
+'grafo1136.15.gml' stopped. Elapsed time: 0.0954 seconds.
+------------------------------
+'grafo133.16.gml' started.
+SAT
+'grafo133.16.gml' stopped. Elapsed time: 0.0972 seconds.
+------------------------------
+'grafo979.13.gml' started.
+SAT
+'grafo979.13.gml' stopped. Elapsed time: 0.1216 seconds.
+------------------------------
+'grafo253.15.gml' started.
+SAT
+'grafo253.15.gml' stopped. Elapsed time: 0.0789 seconds.
+------------------------------
+'grafo1010.10.gml' started.
+SAT
+'grafo1010.10.gml' stopped. Elapsed time: 0.0364 seconds.
+------------------------------
+'grafo2109.11.gml' started.
+SAT
+'grafo2109.11.gml' stopped. Elapsed time: 0.0944 seconds.
+------------------------------
+'grafo476.19.gml' started.
+SAT
+'grafo476.19.gml' stopped. Elapsed time: 0.1101 seconds.
+------------------------------
+'grafo611.12.gml' started.
+SAT
+'grafo611.12.gml' stopped. Elapsed time: 0.0502 seconds.
+------------------------------
+'grafo951.13.gml' started.
+SAT
+'grafo951.13.gml' stopped. Elapsed time: 0.0973 seconds.
+------------------------------
+'grafo2767.20.gml' started.
+SAT
+'grafo2767.20.gml' stopped. Elapsed time: 0.1622 seconds.
+------------------------------
+'grafo316.11.gml' started.
+SAT
+'grafo316.11.gml' stopped. Elapsed time: 0.0537 seconds.
+------------------------------
+'grafo2286.15.gml' started.
+SAT
+'grafo2286.15.gml' stopped. Elapsed time: 0.0836 seconds.
+------------------------------
+'grafo1865.18.gml' started.
+SAT
+'grafo1865.18.gml' stopped. Elapsed time: 0.1357 seconds.
+------------------------------
+'grafo2820.14.gml' started.
+SAT
+'grafo2820.14.gml' stopped. Elapsed time: 0.0715 seconds.
+------------------------------
+'grafo727.13.gml' started.
+SAT
+'grafo727.13.gml' stopped. Elapsed time: 0.1022 seconds.
+------------------------------
+'grafo867.12.gml' started.
+SAT
+'grafo867.12.gml' stopped. Elapsed time: 0.0415 seconds.
+------------------------------
+'grafo1625.19.gml' started.
+SAT
+'grafo1625.19.gml' stopped. Elapsed time: 0.1830 seconds.
+------------------------------
+'grafo2953.11.gml' started.
+SAT
+'grafo2953.11.gml' stopped. Elapsed time: 0.0443 seconds.
+------------------------------
+'grafo330.15.gml' started.
+SAT
+'grafo330.15.gml' stopped. Elapsed time: 0.0833 seconds.
+------------------------------
+'grafo754.16.gml' started.
+SAT
+'grafo754.16.gml' stopped. Elapsed time: 0.1327 seconds.
+------------------------------
+'grafo187.15.gml' started.
+SAT
+'grafo187.15.gml' stopped. Elapsed time: 0.1108 seconds.
+------------------------------
+'grafo2526.13.gml' started.
+SAT
+'grafo2526.13.gml' stopped. Elapsed time: 0.0716 seconds.
+------------------------------
+'grafo468.19.gml' started.
+SAT
+'grafo468.19.gml' stopped. Elapsed time: 0.3113 seconds.
+------------------------------
+'grafo1007.20.gml' started.
+SAT
+'grafo1007.20.gml' stopped. Elapsed time: 0.1757 seconds.
+------------------------------
+'grafo2279.16.gml' started.
+SAT
+'grafo2279.16.gml' stopped. Elapsed time: 0.1021 seconds.
+------------------------------
+'grafo2306.13.gml' started.
+SAT
+'grafo2306.13.gml' stopped. Elapsed time: 0.0683 seconds.
+------------------------------
+'grafo2825.18.gml' started.
+SAT
+'grafo2825.18.gml' stopped. Elapsed time: 0.1283 seconds.
+------------------------------
+'grafo1913.11.gml' started.
+SAT
+'grafo1913.11.gml' stopped. Elapsed time: 0.0959 seconds.
+------------------------------
+'grafo993.18.gml' started.
+SAT
+'grafo993.18.gml' stopped. Elapsed time: 0.2387 seconds.
+------------------------------
+'grafo1105.19.gml' started.
+SAT
+'grafo1105.19.gml' stopped. Elapsed time: 0.2352 seconds.
+------------------------------
+'grafo267.11.gml' started.
+SAT
+'grafo267.11.gml' stopped. Elapsed time: 0.0509 seconds.
+------------------------------
+'grafo1050.18.gml' started.
+SAT
+'grafo1050.18.gml' stopped. Elapsed time: 0.3207 seconds.
+------------------------------
+'grafo2220.17.gml' started.
+SAT
+'grafo2220.17.gml' stopped. Elapsed time: 0.2151 seconds.
+------------------------------
+'grafo2590.14.gml' started.
+SAT
+'grafo2590.14.gml' stopped. Elapsed time: 0.0904 seconds.
+------------------------------
+'grafo2218.13.gml' started.
+SAT
+'grafo2218.13.gml' stopped. Elapsed time: 0.0743 seconds.
+------------------------------
+'grafo1133.18.gml' started.
+SAT
+'grafo1133.18.gml' stopped. Elapsed time: 0.1986 seconds.
+------------------------------
+'grafo1134.11.gml' started.
+SAT
+'grafo1134.11.gml' stopped. Elapsed time: 0.0557 seconds.
+------------------------------
+'grafo356.19.gml' started.
+SAT
+'grafo356.19.gml' stopped. Elapsed time: 0.2000 seconds.
+------------------------------
+'grafo482.13.gml' started.
+SAT
+'grafo482.13.gml' stopped. Elapsed time: 0.1289 seconds.
+------------------------------
+'grafo635.13.gml' started.
+SAT
+'grafo635.13.gml' stopped. Elapsed time: 0.1319 seconds.
+------------------------------
+'grafo2683.13.gml' started.
+SAT
+'grafo2683.13.gml' stopped. Elapsed time: 0.0901 seconds.
+------------------------------
+'grafo195.15.gml' started.
+SAT
+'grafo195.15.gml' stopped. Elapsed time: 0.1968 seconds.
+------------------------------
+'grafo853.16.gml' started.
+SAT
+'grafo853.16.gml' stopped. Elapsed time: 0.0979 seconds.
+------------------------------
+'grafo1794.17.gml' started.
+SAT
+'grafo1794.17.gml' stopped. Elapsed time: 0.1730 seconds.
+------------------------------
+'grafo808.12.gml' started.
+SAT
+'grafo808.12.gml' stopped. Elapsed time: 0.1105 seconds.
+------------------------------
+'grafo2753.18.gml' started.
+SAT
+'grafo2753.18.gml' stopped. Elapsed time: 0.5180 seconds.
+------------------------------
+'grafo908.12.gml' started.
+SAT
+'grafo908.12.gml' stopped. Elapsed time: 0.0795 seconds.
+------------------------------
+'grafo748.11.gml' started.
+SAT
+'grafo748.11.gml' stopped. Elapsed time: 0.0649 seconds.
+------------------------------
+'grafo1047.16.gml' started.
+SAT
+'grafo1047.16.gml' stopped. Elapsed time: 0.2394 seconds.
+------------------------------
+'grafo2533.18.gml' started.
+SAT
+'grafo2533.18.gml' stopped. Elapsed time: 0.1937 seconds.
+------------------------------
+'grafo2898.14.gml' started.
+SAT
+'grafo2898.14.gml' stopped. Elapsed time: 0.1345 seconds.
+------------------------------
+'grafo806.15.gml' started.
+SAT
+'grafo806.15.gml' stopped. Elapsed time: 0.1151 seconds.
+------------------------------
+'grafo288.15.gml' started.
+SAT
+'grafo288.15.gml' stopped. Elapsed time: 0.1101 seconds.
+------------------------------
+'grafo994.13.gml' started.
+SAT
+'grafo994.13.gml' stopped. Elapsed time: 0.0880 seconds.
+------------------------------
+'grafo625.14.gml' started.
+SAT
+'grafo625.14.gml' stopped. Elapsed time: 0.0849 seconds.
+------------------------------
+'grafo965.15.gml' started.
+SAT
+'grafo965.15.gml' stopped. Elapsed time: 0.0855 seconds.
+------------------------------
+'grafo291.20.gml' started.
+SAT
+'grafo291.20.gml' stopped. Elapsed time: 0.1678 seconds.
+------------------------------
+'grafo2168.16.gml' started.
+SAT
+'grafo2168.16.gml' stopped. Elapsed time: 0.1194 seconds.
+------------------------------
+'grafo592.14.gml' started.
+SAT
+'grafo592.14.gml' stopped. Elapsed time: 0.0789 seconds.
+------------------------------
+'grafo670.15.gml' started.
+SAT
+'grafo670.15.gml' stopped. Elapsed time: 0.1218 seconds.
+------------------------------
+'grafo396.15.gml' started.
+SAT
+'grafo396.15.gml' stopped. Elapsed time: 0.1119 seconds.
+------------------------------
+'grafo841.14.gml' started.
+SAT
+'grafo841.14.gml' stopped. Elapsed time: 0.0653 seconds.
+------------------------------
+'grafo1751.17.gml' started.
+SAT
+'grafo1751.17.gml' stopped. Elapsed time: 0.1528 seconds.
+------------------------------
+'grafo896.16.gml' started.
+SAT
+'grafo896.16.gml' stopped. Elapsed time: 0.1930 seconds.
+------------------------------
+'grafo1028.16.gml' started.
+SAT
+'grafo1028.16.gml' stopped. Elapsed time: 0.1746 seconds.
+------------------------------
+'grafo1722.12.gml' started.
+SAT
+'grafo1722.12.gml' stopped. Elapsed time: 0.1479 seconds.
+------------------------------
+'grafo2555.14.gml' started.
+SAT
+'grafo2555.14.gml' stopped. Elapsed time: 0.1227 seconds.
+------------------------------
+'grafo2164.16.gml' started.
+SAT
+'grafo2164.16.gml' stopped. Elapsed time: 0.1338 seconds.
+------------------------------
+'grafo629.14.gml' started.
+SAT
+'grafo629.14.gml' stopped. Elapsed time: 0.1248 seconds.
+------------------------------
+'grafo2232.15.gml' started.
+SAT
+'grafo2232.15.gml' stopped. Elapsed time: 0.0894 seconds.
+------------------------------
+'grafo793.13.gml' started.
+SAT
+'grafo793.13.gml' stopped. Elapsed time: 0.0760 seconds.
+------------------------------
+'grafo616.19.gml' started.
+SAT
+'grafo616.19.gml' stopped. Elapsed time: 0.3181 seconds.
+------------------------------
+'grafo2564.20.gml' started.
+SAT
+'grafo2564.20.gml' stopped. Elapsed time: 0.2059 seconds.
+------------------------------
+'grafo571.12.gml' started.
+SAT
+'grafo571.12.gml' stopped. Elapsed time: 0.0457 seconds.
+------------------------------
+'grafo737.14.gml' started.
+SAT
+'grafo737.14.gml' stopped. Elapsed time: 0.0784 seconds.
+------------------------------
+'grafo1732.17.gml' started.
+SAT
+'grafo1732.17.gml' stopped. Elapsed time: 0.1621 seconds.
+------------------------------
+'grafo559.13.gml' started.
+SAT
+'grafo559.13.gml' stopped. Elapsed time: 0.0860 seconds.
+------------------------------
+'grafo922.14.gml' started.
+SAT
+'grafo922.14.gml' stopped. Elapsed time: 0.1263 seconds.
+------------------------------
+'grafo662.14.gml' started.
+SAT
+'grafo662.14.gml' stopped. Elapsed time: 0.0960 seconds.
+------------------------------
+'grafo2592.12.gml' started.
+SAT
+'grafo2592.12.gml' stopped. Elapsed time: 0.0895 seconds.
+------------------------------
+'grafo480.15.gml' started.
+SAT
+'grafo480.15.gml' stopped. Elapsed time: 0.0784 seconds.
+------------------------------
+'grafo2121.13.gml' started.
+SAT
+'grafo2121.13.gml' stopped. Elapsed time: 0.1700 seconds.
+------------------------------
+'grafo986.12.gml' started.
+SAT
+'grafo986.12.gml' stopped. Elapsed time: 0.0450 seconds.
+------------------------------
+'grafo220.13.gml' started.
+SAT
+'grafo220.13.gml' stopped. Elapsed time: 0.0981 seconds.
+------------------------------
+'grafo2681.15.gml' started.
+SAT
+'grafo2681.15.gml' stopped. Elapsed time: 0.1677 seconds.
+------------------------------
+'grafo1714.12.gml' started.
+SAT
+'grafo1714.12.gml' stopped. Elapsed time: 0.1116 seconds.
+------------------------------
+'grafo2563.14.gml' started.
+SAT
+'grafo2563.14.gml' stopped. Elapsed time: 0.1071 seconds.
+------------------------------
+'grafo2916.16.gml' started.
+SAT
+'grafo2916.16.gml' stopped. Elapsed time: 0.2375 seconds.
+------------------------------
+'grafo2538.10.gml' started.
+SAT
+'grafo2538.10.gml' stopped. Elapsed time: 0.0516 seconds.
+------------------------------
+'grafo394.11.gml' started.
+SAT
+'grafo394.11.gml' stopped. Elapsed time: 0.0858 seconds.
+------------------------------
+'grafo729.15.gml' started.
+SAT
+'grafo729.15.gml' stopped. Elapsed time: 0.1038 seconds.
+------------------------------
+'grafo772.11.gml' started.
+SAT
+'grafo772.11.gml' stopped. Elapsed time: 0.0731 seconds.
+------------------------------
+'grafo218.17.gml' started.
+SAT
+'grafo218.17.gml' stopped. Elapsed time: 0.2142 seconds.
+------------------------------
+'grafo814.14.gml' started.
+SAT
+'grafo814.14.gml' stopped. Elapsed time: 0.1048 seconds.
+------------------------------
+'grafo2796.19.gml' started.
+SAT
+'grafo2796.19.gml' stopped. Elapsed time: 0.2161 seconds.
+------------------------------
+'grafo701.14.gml' started.
+SAT
+'grafo701.14.gml' stopped. Elapsed time: 0.1279 seconds.
+------------------------------
+'grafo2459.15.gml' started.
+SAT
+'grafo2459.15.gml' stopped. Elapsed time: 0.1419 seconds.
+------------------------------
+'grafo495.20.gml' started.
+SAT
+'grafo495.20.gml' stopped. Elapsed time: 0.1864 seconds.
+------------------------------
+'grafo725.15.gml' started.
+SAT
+'grafo725.15.gml' stopped. Elapsed time: 0.0809 seconds.
+------------------------------
+'grafo241.16.gml' started.
+SAT
+'grafo241.16.gml' stopped. Elapsed time: 0.1842 seconds.
+------------------------------
+'grafo2644.17.gml' started.
+SAT
+'grafo2644.17.gml' stopped. Elapsed time: 0.1613 seconds.
+------------------------------
+'grafo436.12.gml' started.
+SAT
+'grafo436.12.gml' stopped. Elapsed time: 0.0733 seconds.
+------------------------------
+'grafo2272.20.gml' started.
+SAT
+'grafo2272.20.gml' stopped. Elapsed time: 0.1947 seconds.
+------------------------------
+'grafo658.15.gml' started.
+SAT
+'grafo658.15.gml' stopped. Elapsed time: 0.1670 seconds.
+------------------------------
+'grafo2471.14.gml' started.
+SAT
+'grafo2471.14.gml' stopped. Elapsed time: 0.0856 seconds.
+------------------------------
+'grafo781.12.gml' started.
+SAT
+'grafo781.12.gml' stopped. Elapsed time: 0.0504 seconds.
+------------------------------
+'grafo555.12.gml' started.
+SAT
+'grafo555.12.gml' stopped. Elapsed time: 0.0576 seconds.
+------------------------------
+'grafo2294.16.gml' started.
+SAT
+'grafo2294.16.gml' stopped. Elapsed time: 0.0918 seconds.
+------------------------------
+'grafo972.18.gml' started.
+SAT
+'grafo972.18.gml' stopped. Elapsed time: 0.1214 seconds.
+------------------------------
+'grafo2023.16.gml' started.
+SAT
+'grafo2023.16.gml' stopped. Elapsed time: 0.1237 seconds.
+------------------------------
+'grafo2216.15.gml' started.
+SAT
+'grafo2216.15.gml' stopped. Elapsed time: 0.1197 seconds.
+------------------------------
+'grafo351.13.gml' started.
+SAT
+'grafo351.13.gml' stopped. Elapsed time: 0.0769 seconds.
+------------------------------
+'grafo322.16.gml' started.
+SAT
+'grafo322.16.gml' stopped. Elapsed time: 0.0760 seconds.
+------------------------------
+'grafo1112.16.gml' started.
+SAT
+'grafo1112.16.gml' stopped. Elapsed time: 0.1556 seconds.
+------------------------------
+'grafo884.17.gml' started.
+SAT
+'grafo884.17.gml' stopped. Elapsed time: 0.1577 seconds.
+------------------------------
+'grafo2189.14.gml' started.
+SAT
+'grafo2189.14.gml' stopped. Elapsed time: 0.0834 seconds.
+------------------------------
+'grafo1803.17.gml' started.
+SAT
+'grafo1803.17.gml' stopped. Elapsed time: 0.1008 seconds.
+------------------------------
+'grafo2896.10.gml' started.
+SAT
+'grafo2896.10.gml' stopped. Elapsed time: 0.0355 seconds.
+------------------------------
+'grafo1616.17.gml' started.
+SAT
+'grafo1616.17.gml' stopped. Elapsed time: 0.1609 seconds.
+------------------------------
+'grafo953.18.gml' started.
+SAT
+'grafo953.18.gml' stopped. Elapsed time: 0.1152 seconds.
+------------------------------
+'grafo1888.15.gml' started.
+SAT
+'grafo1888.15.gml' stopped. Elapsed time: 0.0908 seconds.
+------------------------------
+'grafo1881.19.gml' started.
+SAT
+'grafo1881.19.gml' stopped. Elapsed time: 0.2335 seconds.
+------------------------------
+'grafo1744.12.gml' started.
+SAT
+'grafo1744.12.gml' stopped. Elapsed time: 0.0829 seconds.
+------------------------------
+'grafo2998.18.gml' started.
+SAT
+'grafo2998.18.gml' stopped. Elapsed time: 0.1498 seconds.
+------------------------------
+'grafo574.12.gml' started.
+SAT
+'grafo574.12.gml' stopped. Elapsed time: 0.1384 seconds.
+------------------------------
+'grafo225.12.gml' started.
+SAT
+'grafo225.12.gml' stopped. Elapsed time: 0.1377 seconds.
+------------------------------
+'grafo2675.12.gml' started.
+SAT
+'grafo2675.12.gml' stopped. Elapsed time: 0.0742 seconds.
+------------------------------
+'grafo2620.13.gml' started.
+SAT
+'grafo2620.13.gml' stopped. Elapsed time: 0.0960 seconds.
+------------------------------
+'grafo1068.12.gml' started.
+SAT
+'grafo1068.12.gml' stopped. Elapsed time: 0.0414 seconds.
+------------------------------
+'grafo875.20.gml' started.
+SAT
+'grafo875.20.gml' stopped. Elapsed time: 0.2729 seconds.
+------------------------------
+'grafo1150.16.gml' started.
+SAT
+'grafo1150.16.gml' stopped. Elapsed time: 0.1605 seconds.
+------------------------------
+'grafo1898.10.gml' started.
+SAT
+'grafo1898.10.gml' stopped. Elapsed time: 0.0706 seconds.
+------------------------------
+'grafo944.14.gml' started.
+SAT
+'grafo944.14.gml' stopped. Elapsed time: 0.0570 seconds.
+------------------------------
+'grafo1087.14.gml' started.
+SAT
+'grafo1087.14.gml' stopped. Elapsed time: 0.1443 seconds.
+------------------------------
+'grafo464.17.gml' started.
+SAT
+'grafo464.17.gml' stopped. Elapsed time: 0.1935 seconds.
+------------------------------
+'grafo839.14.gml' started.
+SAT
+'grafo839.14.gml' stopped. Elapsed time: 0.1791 seconds.
+------------------------------
+'grafo962.10.gml' started.
+SAT
+'grafo962.10.gml' stopped. Elapsed time: 0.0453 seconds.
+------------------------------
+'grafo492.18.gml' started.
+SAT
+'grafo492.18.gml' stopped. Elapsed time: 0.1664 seconds.
+------------------------------
+'grafo2450.14.gml' started.
+SAT
+'grafo2450.14.gml' stopped. Elapsed time: 0.0673 seconds.
+------------------------------
+'grafo298.20.gml' started.
+SAT
+'grafo298.20.gml' stopped. Elapsed time: 0.2369 seconds.
+------------------------------
+'grafo937.11.gml' started.
+SAT
+'grafo937.11.gml' stopped. Elapsed time: 0.0357 seconds.
+------------------------------
+'grafo1918.16.gml' started.
+SAT
+'grafo1918.16.gml' stopped. Elapsed time: 0.2196 seconds.
+------------------------------
+'grafo2574.15.gml' started.
+SAT
+'grafo2574.15.gml' stopped. Elapsed time: 0.1146 seconds.
+------------------------------
+'grafo2225.15.gml' started.
+SAT
+'grafo2225.15.gml' stopped. Elapsed time: 0.1021 seconds.
+------------------------------
+'grafo1943.12.gml' started.
+SAT
+'grafo1943.12.gml' stopped. Elapsed time: 0.0708 seconds.
+------------------------------
+'grafo1009.17.gml' started.
+SAT
+'grafo1009.17.gml' stopped. Elapsed time: 0.1030 seconds.
+------------------------------
+'grafo601.19.gml' started.
+SAT
+'grafo601.19.gml' stopped. Elapsed time: 0.1678 seconds.
+------------------------------
+'grafo1843.12.gml' started.
+SAT
+'grafo1843.12.gml' stopped. Elapsed time: 0.0697 seconds.
+------------------------------
+'grafo891.13.gml' started.
+SAT
+'grafo891.13.gml' stopped. Elapsed time: 0.0635 seconds.
+------------------------------
+'grafo991.13.gml' started.
+SAT
+'grafo991.13.gml' stopped. Elapsed time: 0.0634 seconds.
+------------------------------
+'grafo720.14.gml' started.
+SAT
+'grafo720.14.gml' stopped. Elapsed time: 0.0854 seconds.
+------------------------------
+'grafo415.17.gml' started.
+SAT
+'grafo415.17.gml' stopped. Elapsed time: 0.1949 seconds.
+------------------------------
+'grafo2927.13.gml' started.
+SAT
+'grafo2927.13.gml' stopped. Elapsed time: 0.0930 seconds.
+------------------------------
+'grafo2409.15.gml' started.
+SAT
+'grafo2409.15.gml' stopped. Elapsed time: 0.1427 seconds.
+------------------------------
+'grafo540.16.gml' started.
+SAT
+'grafo540.16.gml' stopped. Elapsed time: 0.1447 seconds.
+------------------------------
+'grafo2138.17.gml' started.
+SAT
+'grafo2138.17.gml' stopped. Elapsed time: 0.1484 seconds.
+------------------------------
+'grafo2485.13.gml' started.
+SAT
+'grafo2485.13.gml' stopped. Elapsed time: 0.1021 seconds.
+------------------------------
+'grafo1670.16.gml' started.
+SAT
+'grafo1670.16.gml' stopped. Elapsed time: 0.1339 seconds.
+------------------------------
+'grafo311.16.gml' started.
+SAT
+'grafo311.16.gml' stopped. Elapsed time: 0.1311 seconds.
+------------------------------
+'grafo2332.19.gml' started.
+SAT
+'grafo2332.19.gml' stopped. Elapsed time: 0.1874 seconds.
+------------------------------
+'grafo956.14.gml' started.
+SAT
+'grafo956.14.gml' stopped. Elapsed time: 0.1031 seconds.
+------------------------------
+'grafo904.20.gml' started.
+SAT
+'grafo904.20.gml' stopped. Elapsed time: 0.2271 seconds.
+------------------------------
+'grafo718.10.gml' started.
+SAT
+'grafo718.10.gml' stopped. Elapsed time: 0.0368 seconds.
+------------------------------
+'grafo981.16.gml' started.
+SAT
+'grafo981.16.gml' stopped. Elapsed time: 0.1227 seconds.
+------------------------------
+'grafo803.15.gml' started.
+SAT
+'grafo803.15.gml' stopped. Elapsed time: 0.0964 seconds.
+------------------------------
+'grafo2442.14.gml' started.
+SAT
+'grafo2442.14.gml' stopped. Elapsed time: 0.1038 seconds.
+------------------------------
+'grafo977.19.gml' started.
+SAT
+'grafo977.19.gml' stopped. Elapsed time: 0.1454 seconds.
+------------------------------
+'grafo870.10.gml' started.
+SAT
+'grafo870.10.gml' stopped. Elapsed time: 0.0425 seconds.
+------------------------------
+'grafo354.12.gml' started.
+SAT
+'grafo354.12.gml' stopped. Elapsed time: 0.0565 seconds.
+------------------------------
+'grafo2495.16.gml' started.
+SAT
+'grafo2495.16.gml' stopped. Elapsed time: 0.1533 seconds.
+------------------------------
+'grafo489.14.gml' started.
+SAT
+'grafo489.14.gml' stopped. Elapsed time: 0.0760 seconds.
+------------------------------
+'grafo384.19.gml' started.
+SAT
+'grafo384.19.gml' stopped. Elapsed time: 0.1738 seconds.
+------------------------------
+'grafo2862.17.gml' started.
+SAT
+'grafo2862.17.gml' stopped. Elapsed time: 0.1384 seconds.
+------------------------------
+'grafo201.13.gml' started.
+SAT
+'grafo201.13.gml' stopped. Elapsed time: 0.1587 seconds.
+------------------------------
+'grafo2417.14.gml' started.
+SAT
+'grafo2417.14.gml' stopped. Elapsed time: 0.1418 seconds.
+------------------------------
+'grafo2545.20.gml' started.
+SAT
+'grafo2545.20.gml' stopped. Elapsed time: 0.2797 seconds.
+------------------------------
+'grafo587.10.gml' started.
+SAT
+'grafo587.10.gml' stopped. Elapsed time: 0.0407 seconds.
+------------------------------
+'grafo505.13.gml' started.
+SAT
+'grafo505.13.gml' stopped. Elapsed time: 0.0434 seconds.
+------------------------------
+'grafo2944.12.gml' started.
+SAT
+'grafo2944.12.gml' stopped. Elapsed time: 0.0663 seconds.
+------------------------------
+'grafo3054.18.gml' started.
+SAT
+'grafo3054.18.gml' stopped. Elapsed time: 0.1697 seconds.
+------------------------------
+'grafo2651.12.gml' started.
+SAT
+'grafo2651.12.gml' stopped. Elapsed time: 0.0624 seconds.
+------------------------------
+'grafo229.13.gml' started.
+SAT
+'grafo229.13.gml' stopped. Elapsed time: 0.0558 seconds.
+------------------------------
+'grafo1121.17.gml' started.
+SAT
+'grafo1121.17.gml' stopped. Elapsed time: 0.1380 seconds.
+------------------------------
+'grafo2829.17.gml' started.
+SAT
+'grafo2829.17.gml' stopped. Elapsed time: 0.1215 seconds.
+------------------------------
+'grafo2872.13.gml' started.
+SAT
+'grafo2872.13.gml' stopped. Elapsed time: 0.0770 seconds.
+------------------------------
+'grafo497.15.gml' started.
+SAT
+'grafo497.15.gml' stopped. Elapsed time: 0.0934 seconds.
+------------------------------
+'grafo2614.16.gml' started.
+SAT
+'grafo2614.16.gml' stopped. Elapsed time: 0.1125 seconds.
+------------------------------
+'grafo1893.18.gml' started.
+SAT
+'grafo1893.18.gml' stopped. Elapsed time: 0.1072 seconds.
+------------------------------
+'grafo948.15.gml' started.
+SAT
+'grafo948.15.gml' stopped. Elapsed time: 0.1179 seconds.
+------------------------------
+'grafo1816.12.gml' started.
+SAT
+'grafo1816.12.gml' stopped. Elapsed time: 0.1006 seconds.
+------------------------------
+'grafo2428.19.gml' started.
+SAT
+'grafo2428.19.gml' stopped. Elapsed time: 0.1623 seconds.
+------------------------------
+'grafo2641.17.gml' started.
+SAT
+'grafo2641.17.gml' stopped. Elapsed time: 0.1680 seconds.
+------------------------------
+'grafo2883.15.gml' started.
+SAT
+'grafo2883.15.gml' stopped. Elapsed time: 0.0921 seconds.
+------------------------------
+'grafo684.12.gml' started.
+SAT
+'grafo684.12.gml' stopped. Elapsed time: 0.0845 seconds.
+------------------------------
+'grafo442.12.gml' started.
+SAT
+'grafo442.12.gml' stopped. Elapsed time: 0.0503 seconds.
+------------------------------
+'grafo837.10.gml' started.
+SAT
+'grafo837.10.gml' stopped. Elapsed time: 0.0354 seconds.
+------------------------------
+'grafo1932.13.gml' started.
+SAT
+'grafo1932.13.gml' stopped. Elapsed time: 0.0854 seconds.
+------------------------------
+'grafo542.12.gml' started.
+SAT
+'grafo542.12.gml' stopped. Elapsed time: 0.0616 seconds.
+------------------------------
+'grafo2308.19.gml' started.
+SAT
+'grafo2308.19.gml' stopped. Elapsed time: 0.1392 seconds.
+------------------------------
+'grafo939.15.gml' started.
+SAT
+'grafo939.15.gml' stopped. Elapsed time: 0.0847 seconds.
+------------------------------
+'grafo417.13.gml' started.
+SAT
+'grafo417.13.gml' stopped. Elapsed time: 0.0475 seconds.
+------------------------------
+'grafo811.14.gml' started.
+SAT
+'grafo811.14.gml' stopped. Elapsed time: 0.1217 seconds.
+------------------------------
+'grafo893.17.gml' started.
+SAT
+'grafo893.17.gml' stopped. Elapsed time: 0.1383 seconds.
+------------------------------
+'grafo2375.19.gml' started.
+SAT
+'grafo2375.19.gml' stopped. Elapsed time: 0.3668 seconds.
+------------------------------
+'grafo531.17.gml' started.
+SAT
+'grafo531.17.gml' stopped. Elapsed time: 0.1292 seconds.
+------------------------------
+'grafo360.17.gml' started.
+SAT
+'grafo360.17.gml' stopped. Elapsed time: 0.1357 seconds.
+------------------------------
+'grafo258.13.gml' started.
+SAT
+'grafo258.13.gml' stopped. Elapsed time: 0.0634 seconds.
+------------------------------
+'grafo281.14.gml' started.
+SAT
+'grafo281.14.gml' stopped. Elapsed time: 0.0563 seconds.
+------------------------------
+'grafo585.15.gml' started.
+SAT
+'grafo585.15.gml' stopped. Elapsed time: 0.0826 seconds.
+------------------------------
+'grafo2293.13.gml' started.
+SAT
+'grafo2293.13.gml' stopped. Elapsed time: 0.0614 seconds.
+------------------------------
+'grafo192.13.gml' started.
+SAT
+'grafo192.13.gml' stopped. Elapsed time: 0.0891 seconds.
+------------------------------
+'grafo325.13.gml' started.
+SAT
+'grafo325.13.gml' stopped. Elapsed time: 0.0655 seconds.
+------------------------------
+'grafo696.12.gml' started.
+SAT
+'grafo696.12.gml' stopped. Elapsed time: 0.0916 seconds.
+------------------------------
+'grafo2466.14.gml' started.
+SAT
+'grafo2466.14.gml' stopped. Elapsed time: 0.0553 seconds.
+------------------------------
+'grafo2891.17.gml' started.
+SAT
+'grafo2891.17.gml' stopped. Elapsed time: 0.1370 seconds.
+------------------------------
+'grafo426.19.gml' started.
+SAT
+'grafo426.19.gml' stopped. Elapsed time: 0.1449 seconds.
+------------------------------
+'grafo714.13.gml' started.
+SAT
+'grafo714.13.gml' stopped. Elapsed time: 0.0713 seconds.
+------------------------------
+'grafo854.12.gml' started.
+SAT
+'grafo854.12.gml' stopped. Elapsed time: 0.0414 seconds.
+------------------------------
+'grafo954.12.gml' started.
+SAT
+'grafo954.12.gml' stopped. Elapsed time: 0.0420 seconds.
+------------------------------
+'grafo801.13.gml' started.
+SAT
+'grafo801.13.gml' stopped. Elapsed time: 0.0626 seconds.
+------------------------------
+'grafo2415.13.gml' started.
+SAT
+'grafo2415.13.gml' stopped. Elapsed time: 0.0610 seconds.
+------------------------------
+'grafo688.10.gml' started.
+SAT
+'grafo688.10.gml' stopped. Elapsed time: 0.0351 seconds.
+------------------------------
+'grafo2951.19.gml' started.
+SAT
+'grafo2951.19.gml' stopped. Elapsed time: 0.1797 seconds.
+------------------------------
+'grafo1848.18.gml' started.
+SAT
+'grafo1848.18.gml' stopped. Elapsed time: 0.1543 seconds.
+------------------------------
+'grafo2166.20.gml' started.
+SAT
+'grafo2166.20.gml' stopped. Elapsed time: 0.2503 seconds.
+------------------------------
+'grafo246.11.gml' started.
+SAT
+'grafo246.11.gml' stopped. Elapsed time: 0.0351 seconds.
+------------------------------
+'grafo1176.11.gml' started.
+SAT
+'grafo1176.11.gml' stopped. Elapsed time: 0.0504 seconds.
+------------------------------
+'grafo1123.10.gml' started.
+SAT
+'grafo1123.10.gml' stopped. Elapsed time: 0.0409 seconds.
+------------------------------
+'grafo2487.15.gml' started.
+SAT
+'grafo2487.15.gml' stopped. Elapsed time: 0.0937 seconds.
+------------------------------
+'grafo1675.19.gml' started.
+SAT
+'grafo1675.19.gml' stopped. Elapsed time: 0.1463 seconds.
+------------------------------
+'grafo1832.11.gml' started.
+SAT
+'grafo1832.11.gml' stopped. Elapsed time: 0.0455 seconds.
+------------------------------
+'grafo2922.20.gml' started.
+SAT
+'grafo2922.20.gml' stopped. Elapsed time: 0.1860 seconds.
+------------------------------
+'grafo2730.15.gml' started.
+SAT
+'grafo2730.15.gml' stopped. Elapsed time: 0.0809 seconds.
+------------------------------
+'grafo2870.14.gml' started.
+SAT
+'grafo2870.14.gml' stopped. Elapsed time: 0.1011 seconds.
+------------------------------
+'grafo1055.19.gml' started.
+SAT
+'grafo1055.19.gml' stopped. Elapsed time: 0.2513 seconds.
+------------------------------
+'grafo2192.16.gml' started.
+SAT
+'grafo2192.16.gml' stopped. Elapsed time: 0.1032 seconds.
+------------------------------
+'grafo1658.14.gml' started.
+SAT
+'grafo1658.14.gml' stopped. Elapsed time: 0.0747 seconds.
+------------------------------
+'grafo813.13.gml' started.
+SAT
+'grafo813.13.gml' stopped. Elapsed time: 0.1027 seconds.
+------------------------------
+'grafo653.12.gml' started.
+SAT
+'grafo653.12.gml' stopped. Elapsed time: 0.0488 seconds.
+------------------------------
+'grafo2421.17.gml' started.
+SAT
+'grafo2421.17.gml' stopped. Elapsed time: 0.1087 seconds.
+------------------------------
+'grafo1074.14.gml' started.
+SAT
+'grafo1074.14.gml' stopped. Elapsed time: 0.1121 seconds.
+------------------------------
+'grafo2136.11.gml' started.
+SAT
+'grafo2136.11.gml' stopped. Elapsed time: 0.0803 seconds.
+------------------------------
+'grafo597.17.gml' started.
+SAT
+'grafo597.17.gml' stopped. Elapsed time: 0.1719 seconds.
+------------------------------
+'grafo1142.15.gml' started.
+SAT
+'grafo1142.15.gml' stopped. Elapsed time: 0.1741 seconds.
+------------------------------
+'grafo1801.20.gml' started.
+SAT
+'grafo1801.20.gml' stopped. Elapsed time: 0.1876 seconds.
+------------------------------
+'grafo2688.17.gml' started.
+SAT
+'grafo2688.17.gml' stopped. Elapsed time: 0.1808 seconds.
+------------------------------
+'grafo1691.16.gml' started.
+SAT
+'grafo1691.16.gml' stopped. Elapsed time: 0.1092 seconds.
+------------------------------
+'grafo2816.18.gml' started.
+SAT
+'grafo2816.18.gml' stopped. Elapsed time: 0.2321 seconds.
+------------------------------
+'grafo1019.11.gml' started.
+SAT
+'grafo1019.11.gml' stopped. Elapsed time: 0.0434 seconds.
+------------------------------
+'grafo1901.20.gml' started.
+SAT
+'grafo1901.20.gml' stopped. Elapsed time: 0.2222 seconds.
+------------------------------
+'grafo618.13.gml' started.
+SAT
+'grafo618.13.gml' stopped. Elapsed time: 0.1040 seconds.
+------------------------------
+'grafo1884.16.gml' started.
+SAT
+'grafo1884.16.gml' stopped. Elapsed time: 0.0901 seconds.
+------------------------------
+'grafo730.12.gml' started.
+SAT
+'grafo730.12.gml' stopped. Elapsed time: 0.0621 seconds.
+------------------------------
+'grafo2291.14.gml' started.
+SAT
+'grafo2291.14.gml' stopped. Elapsed time: 0.0688 seconds.
+------------------------------
+'grafo1735.11.gml' started.
+SAT
+'grafo1735.11.gml' stopped. Elapsed time: 0.0577 seconds.
+------------------------------
+'grafo665.13.gml' started.
+SAT
+'grafo665.13.gml' stopped. Elapsed time: 0.0625 seconds.
+------------------------------
+'grafo1920.11.gml' started.
+SAT
+'grafo1920.11.gml' stopped. Elapsed time: 0.1282 seconds.
+------------------------------
+'grafo1131.11.gml' started.
+SAT
+'grafo1131.11.gml' stopped. Elapsed time: 0.0534 seconds.
+------------------------------
+'grafo306.18.gml' started.
+SAT
+'grafo306.18.gml' stopped. Elapsed time: 0.1921 seconds.
+------------------------------
+'grafo2396.20.gml' started.
+SAT
+'grafo2396.20.gml' stopped. Elapsed time: 0.1828 seconds.
+------------------------------
+'grafo383.12.gml' started.
+SAT
+'grafo383.12.gml' stopped. Elapsed time: 0.0622 seconds.
+------------------------------
+'grafo2670.20.gml' started.
+SAT
+'grafo2670.20.gml' stopped. Elapsed time: 0.2367 seconds.
+------------------------------
+'grafo254.10.gml' started.
+SAT
+'grafo254.10.gml' stopped. Elapsed time: 0.0409 seconds.
+------------------------------
+'grafo970.12.gml' started.
+SAT
+'grafo970.12.gml' stopped. Elapsed time: 0.0785 seconds.
+------------------------------
+'grafo1163.19.gml' started.
+SAT
+'grafo1163.19.gml' stopped. Elapsed time: 0.1155 seconds.
+------------------------------
+'grafo1164.10.gml' started.
+SAT
+'grafo1164.10.gml' stopped. Elapsed time: 0.0366 seconds.
+------------------------------
+'grafo2542.16.gml' started.
+SAT
+'grafo2542.16.gml' stopped. Elapsed time: 0.1273 seconds.
+------------------------------
+'grafo903.17.gml' started.
+SAT
+'grafo903.17.gml' stopped. Elapsed time: 0.1091 seconds.
+------------------------------
+'grafo1017.15.gml' started.
+SAT
+'grafo1017.15.gml' stopped. Elapsed time: 0.0824 seconds.
+------------------------------
+'grafo958.13.gml' started.
+SAT
+'grafo958.13.gml' stopped. Elapsed time: 0.0801 seconds.
+------------------------------
+'grafo2335.12.gml' started.
+SAT
+'grafo2335.12.gml' stopped. Elapsed time: 0.0594 seconds.
+------------------------------
+'grafo1042.14.gml' started.
+SAT
+'grafo1042.14.gml' stopped. Elapsed time: 0.0983 seconds.
+------------------------------
+'grafo272.14.gml' started.
+SAT
+'grafo272.14.gml' stopped. Elapsed time: 0.0634 seconds.
+------------------------------
+'grafo1110.20.gml' started.
+SAT
+'grafo1110.20.gml' stopped. Elapsed time: 0.1660 seconds.
+------------------------------
+'grafo211.14.gml' started.
+SAT
+'grafo211.14.gml' stopped. Elapsed time: 0.0771 seconds.
+------------------------------
+'grafo1021.14.gml' started.
+SAT
+'grafo1021.14.gml' stopped. Elapsed time: 0.0666 seconds.
+------------------------------
+'grafo293.17.gml' started.
+SAT
+'grafo293.17.gml' stopped. Elapsed time: 0.1267 seconds.
+------------------------------
+'grafo775.17.gml' started.
+SAT
+'grafo775.17.gml' stopped. Elapsed time: 0.1569 seconds.
+------------------------------
+'grafo449.18.gml' started.
+SAT
+'grafo449.18.gml' stopped. Elapsed time: 0.1874 seconds.
+------------------------------
+'grafo1837.20.gml' started.
+SAT
+'grafo1837.20.gml' stopped. Elapsed time: 0.1969 seconds.
+------------------------------
+'grafo1679.18.gml' started.
+SAT
+'grafo1679.18.gml' stopped. Elapsed time: 0.1771 seconds.
+------------------------------
+'grafo2131.19.gml' started.
+SAT
+'grafo2131.19.gml' stopped. Elapsed time: 0.1961 seconds.
+------------------------------
+'grafo2303.13.gml' started.
+SAT
+'grafo2303.13.gml' stopped. Elapsed time: 0.1033 seconds.
+------------------------------
+'grafo1811.18.gml' started.
+SAT
+'grafo1811.18.gml' stopped. Elapsed time: 0.2261 seconds.
+------------------------------
+'grafo466.10.gml' started.
+SAT
+'grafo466.10.gml' stopped. Elapsed time: 0.0369 seconds.
+------------------------------
+'grafo1944.19.gml' started.
+SAT
+'grafo1944.19.gml' stopped. Elapsed time: 0.1875 seconds.
+------------------------------
+'grafo239.15.gml' started.
+SAT
+'grafo239.15.gml' stopped. Elapsed time: 0.1362 seconds.
+------------------------------
+'grafo533.11.gml' started.
+SAT
+'grafo533.11.gml' stopped. Elapsed time: 0.0419 seconds.
+------------------------------
+'grafo262.11.gml' started.
+SAT
+'grafo262.11.gml' stopped. Elapsed time: 0.0476 seconds.
+------------------------------
+'grafo1023.11.gml' started.
+SAT
+'grafo1023.11.gml' stopped. Elapsed time: 0.0406 seconds.
+------------------------------
+'grafo314.18.gml' started.
+SAT
+'grafo314.18.gml' stopped. Elapsed time: 0.1139 seconds.
+------------------------------
+'grafo419.15.gml' started.
+SAT
+'grafo419.15.gml' stopped. Elapsed time: 0.1100 seconds.
+------------------------------
+'grafo1969.14.gml' started.
+SAT
+'grafo1969.14.gml' stopped. Elapsed time: 0.0684 seconds.
+------------------------------
+'grafo313.11.gml' started.
+SAT
+'grafo313.11.gml' stopped. Elapsed time: 0.0381 seconds.
+------------------------------
+'grafo2284.20.gml' started.
+SAT
+'grafo2284.20.gml' stopped. Elapsed time: 0.2744 seconds.
+------------------------------
+'grafo1627.10.gml' started.
+SAT
+'grafo1627.10.gml' stopped. Elapsed time: 0.0627 seconds.
+------------------------------
+'grafo595.13.gml' started.
+SAT
+'grafo595.13.gml' stopped. Elapsed time: 0.0707 seconds.
+------------------------------
+'grafo1720.19.gml' started.
+SAT
+'grafo1720.19.gml' stopped. Elapsed time: 0.1893 seconds.
+------------------------------
+'grafo538.18.gml' started.
+SAT
+'grafo538.18.gml' stopped. Elapsed time: 0.1276 seconds.
+------------------------------
+'grafo1059.18.gml' started.
+SAT
+'grafo1059.18.gml' stopped. Elapsed time: 0.1163 seconds.
+------------------------------
+'grafo651.16.gml' started.
+SAT
+'grafo651.16.gml' stopped. Elapsed time: 0.0704 seconds.
+------------------------------
+'grafo1002.20.gml' started.
+SAT
+'grafo1002.20.gml' stopped. Elapsed time: 0.1506 seconds.
+------------------------------
+'grafo704.17.gml' started.
+SAT
+'grafo704.17.gml' stopped. Elapsed time: 0.1140 seconds.
+------------------------------
+'grafo260.14.gml' started.
+SAT
+'grafo260.14.gml' stopped. Elapsed time: 0.0734 seconds.
+------------------------------
+'grafo2744.18.gml' started.
+SAT
+'grafo2744.18.gml' stopped. Elapsed time: 0.1833 seconds.
+------------------------------
+'grafo2804.19.gml' started.
+SAT
+'grafo2804.19.gml' stopped. Elapsed time: 0.2110 seconds.
+------------------------------
+'grafo251.20.gml' started.
+SAT
+'grafo251.20.gml' stopped. Elapsed time: 0.1752 seconds.
+------------------------------
+'grafo1662.14.gml' started.
+SAT
+'grafo1662.14.gml' stopped. Elapsed time: 0.1139 seconds.
+------------------------------
+'grafo2515.12.gml' started.
+SAT
+'grafo2515.12.gml' stopped. Elapsed time: 0.0587 seconds.
+------------------------------
+'grafo452.14.gml' started.
+SAT
+'grafo452.14.gml' stopped. Elapsed time: 0.0623 seconds.
+------------------------------
+'grafo2344.12.gml' started.
+SAT
+'grafo2344.12.gml' stopped. Elapsed time: 0.0592 seconds.
+------------------------------
+'grafo669.12.gml' started.
+SAT
+'grafo669.12.gml' stopped. Elapsed time: 0.0522 seconds.
+------------------------------
+'grafo485.16.gml' started.
+SAT
+'grafo485.16.gml' stopped. Elapsed time: 0.1347 seconds.
+------------------------------
+'grafo2935.11.gml' started.
+SAT
+'grafo2935.11.gml' stopped. Elapsed time: 0.0334 seconds.
+------------------------------
+'grafo2157.15.gml' started.
+SAT
+'grafo2157.15.gml' stopped. Elapsed time: 0.0823 seconds.
+------------------------------
+'grafo984.18.gml' started.
+SAT
+'grafo984.18.gml' stopped. Elapsed time: 0.1775 seconds.
+------------------------------
+'grafo2784.16.gml' started.
+SAT
+'grafo2784.16.gml' stopped. Elapsed time: 0.1225 seconds.
+------------------------------
+'grafo474.10.gml' started.
+SAT
+'grafo474.10.gml' stopped. Elapsed time: 0.0358 seconds.
+------------------------------
+'grafo1903.18.gml' started.
+SAT
+'grafo1903.18.gml' stopped. Elapsed time: 0.1412 seconds.
+------------------------------
+'grafo1693.12.gml' started.
+SAT
+'grafo1693.12.gml' stopped. Elapsed time: 0.0573 seconds.
+------------------------------
+'grafo2653.14.gml' started.
+SAT
+'grafo2653.14.gml' stopped. Elapsed time: 0.0985 seconds.
+------------------------------
+'grafo1147.18.gml' started.
+SAT
+'grafo1147.18.gml' stopped. Elapsed time: 0.1217 seconds.
+------------------------------
+'grafo2701.20.gml' started.
+SAT
+'grafo2701.20.gml' stopped. Elapsed time: 0.2050 seconds.
+------------------------------
+'grafo1716.20.gml' started.
+SAT
+'grafo1716.20.gml' stopped. Elapsed time: 0.1778 seconds.
+------------------------------
+'grafo428.19.gml' started.
+SAT
+'grafo428.19.gml' stopped. Elapsed time: 0.1530 seconds.
+------------------------------
+'grafo1140.15.gml' started.
+SAT
+'grafo1140.15.gml' stopped. Elapsed time: 0.1440 seconds.
+------------------------------
+'grafo1951.14.gml' started.
+SAT
+'grafo1951.14.gml' stopped. Elapsed time: 0.1789 seconds.
+------------------------------
+'grafo1822.11.gml' started.
+SAT
+'grafo1822.11.gml' stopped. Elapsed time: 0.0819 seconds.
+------------------------------
+'grafo2597.15.gml' started.
+SAT
+'grafo2597.15.gml' stopped. Elapsed time: 0.0930 seconds.
+------------------------------
+'grafo1639.14.gml' started.
+SAT
+'grafo1639.14.gml' stopped. Elapsed time: 0.0838 seconds.
+------------------------------
+'grafo827.12.gml' started.
+SAT
+'grafo827.12.gml' stopped. Elapsed time: 0.0538 seconds.
+------------------------------
+'grafo829.17.gml' started.
+SAT
+'grafo829.17.gml' stopped. Elapsed time: 0.1398 seconds.
+------------------------------
+'grafo2393.14.gml' started.
+SAT
+'grafo2393.14.gml' stopped. Elapsed time: 0.0804 seconds.
+------------------------------
+'grafo1166.11.gml' started.
+SAT
+'grafo1166.11.gml' stopped. Elapsed time: 0.0498 seconds.
+------------------------------
+'grafo1066.11.gml' started.
+SAT
+'grafo1066.11.gml' stopped. Elapsed time: 0.0434 seconds.
+------------------------------
+'grafo1653.18.gml' started.
+SAT
+'grafo1653.18.gml' stopped. Elapsed time: 0.1122 seconds.
+------------------------------
+'grafo1005.11.gml' started.
+SAT
+'grafo1005.11.gml' stopped. Elapsed time: 0.0424 seconds.
+------------------------------
+'grafo2716.14.gml' started.
+SAT
+'grafo2716.14.gml' stopped. Elapsed time: 0.1044 seconds.
+------------------------------
+'grafo369.20.gml' started.
+SAT
+'grafo369.20.gml' stopped. Elapsed time: 0.2549 seconds.
+------------------------------
+'grafo2803.14.gml' started.
+SAT
+'grafo2803.14.gml' stopped. Elapsed time: 0.0796 seconds.
+------------------------------
+'grafo844.12.gml' started.
+SAT
+'grafo844.12.gml' stopped. Elapsed time: 0.0944 seconds.
+------------------------------
+'grafo1860.20.gml' started.
+SAT
+'grafo1860.20.gml' stopped. Elapsed time: 0.1603 seconds.
+------------------------------
+'grafo1629.11.gml' started.
+SAT
+'grafo1629.11.gml' stopped. Elapsed time: 0.0431 seconds.
+------------------------------
+'grafo2505.13.gml' started.
+SAT
+'grafo2505.13.gml' stopped. Elapsed time: 0.0614 seconds.
+------------------------------
+'grafo1078.11.gml' started.
+SAT
+'grafo1078.11.gml' stopped. Elapsed time: 0.0457 seconds.
+------------------------------
+'grafo1772.15.gml' started.
+SAT
+'grafo1772.15.gml' stopped. Elapsed time: 0.1945 seconds.
+------------------------------
+'grafo2354.13.gml' started.
+SAT
+'grafo2354.13.gml' stopped. Elapsed time: 0.0788 seconds.
+------------------------------
+'grafo1024.20.gml' started.
+SAT
+'grafo1024.20.gml' stopped. Elapsed time: 0.1571 seconds.
+------------------------------
+'grafo779.13.gml' started.
+SAT
+'grafo779.13.gml' stopped. Elapsed time: 0.0706 seconds.
+------------------------------
+'grafo1085.17.gml' started.
+SAT
+'grafo1085.17.gml' stopped. Elapsed time: 0.1089 seconds.
+------------------------------
+'grafo2714.11.gml' started.
+SAT
+'grafo2714.11.gml' stopped. Elapsed time: 0.0364 seconds.
+------------------------------
+'grafo608.13.gml' started.
+SAT
+'grafo608.13.gml' stopped. Elapsed time: 0.0478 seconds.
+------------------------------
+'grafo434.20.gml' started.
+SAT
+'grafo434.20.gml' stopped. Elapsed time: 0.1696 seconds.
+------------------------------
+'grafo2325.13.gml' started.
+SAT
+'grafo2325.13.gml' stopped. Elapsed time: 0.0567 seconds.
+------------------------------
+'grafo393.13.gml' started.
+SAT
+'grafo393.13.gml' stopped. Elapsed time: 0.0949 seconds.
+------------------------------
+'grafo318.20.gml' started.
+SAT
+'grafo318.20.gml' stopped. Elapsed time: 0.1989 seconds.
+------------------------------
+'grafo515.11.gml' started.
+SAT
+'grafo515.11.gml' stopped. Elapsed time: 0.0416 seconds.
+------------------------------
+'grafo3065.17.gml' started.
+SAT
+'grafo3065.17.gml' stopped. Elapsed time: 0.1963 seconds.
+------------------------------
+'grafo2818.18.gml' started.
+SAT
+'grafo2818.18.gml' stopped. Elapsed time: 0.1475 seconds.
+------------------------------
+'grafo643.12.gml' started.
+SAT
+'grafo643.12.gml' stopped. Elapsed time: 0.0684 seconds.
+------------------------------
+'grafo881.10.gml' started.
+SAT
+'grafo881.10.gml' stopped. Elapsed time: 0.0297 seconds.
+------------------------------
+'grafo2360.17.gml' started.
+SAT
+'grafo2360.17.gml' stopped. Elapsed time: 0.1345 seconds.
+------------------------------
+'grafo1117.11.gml' started.
+SAT
+'grafo1117.11.gml' stopped. Elapsed time: 0.0344 seconds.
+------------------------------
+'grafo471.18.gml' started.
+SAT
+'grafo471.18.gml' stopped. Elapsed time: 0.1223 seconds.
+------------------------------
+'grafo716.13.gml' started.
+SAT
+'grafo716.13.gml' stopped. Elapsed time: 0.0582 seconds.
+------------------------------
+'grafo1808.15.gml' started.
+SAT
+'grafo1808.15.gml' stopped. Elapsed time: 0.0786 seconds.
+------------------------------
+'grafo550.15.gml' started.
+SAT
+'grafo550.15.gml' stopped. Elapsed time: 0.1054 seconds.
+------------------------------
+'grafo589.12.gml' started.
+SAT
+'grafo589.12.gml' stopped. Elapsed time: 0.0558 seconds.
+------------------------------
+'grafo1036.20.gml' started.
+SAT
+'grafo1036.20.gml' stopped. Elapsed time: 0.1832 seconds.
+------------------------------
+'grafo2126.11.gml' started.
+SAT
+'grafo2126.11.gml' stopped. Elapsed time: 0.0661 seconds.
+------------------------------
+'grafo2313.13.gml' started.
+SAT
+'grafo2313.13.gml' stopped. Elapsed time: 0.0652 seconds.
+------------------------------
+'grafo502.20.gml' started.
+SAT
+'grafo502.20.gml' stopped. Elapsed time: 0.1594 seconds.
+------------------------------
+'grafo2911.15.gml' started.
+SAT
+'grafo2911.15.gml' stopped. Elapsed time: 0.1271 seconds.
+------------------------------
+'grafo1145.18.gml' started.
+SAT
+'grafo1145.18.gml' stopped. Elapsed time: 0.1767 seconds.
+------------------------------
+'grafo2893.16.gml' started.
+SAT
+'grafo2893.16.gml' stopped. Elapsed time: 0.1114 seconds.
+------------------------------
+'grafo424.18.gml' started.
+SAT
+'grafo424.18.gml' stopped. Elapsed time: 0.1609 seconds.
+------------------------------
+'grafo327.10.gml' started.
+SAT
+'grafo327.10.gml' stopped. Elapsed time: 0.0423 seconds.
+------------------------------
+'grafo2658.18.gml' started.
+SAT
+'grafo2658.18.gml' stopped. Elapsed time: 0.1640 seconds.
+------------------------------
+'grafo1622.19.gml' started.
+SAT
+'grafo1622.19.gml' stopped. Elapsed time: 0.1469 seconds.
+------------------------------
+'grafo216.18.gml' started.
+SAT
+'grafo216.18.gml' stopped. Elapsed time: 0.1212 seconds.
+------------------------------
+'grafo2507.17.gml' started.
+SAT
+'grafo2507.17.gml' stopped. Elapsed time: 0.2039 seconds.
+------------------------------
+'grafo2110.11.gml' started.
+SAT
+'grafo2110.11.gml' stopped. Elapsed time: 0.0433 seconds.
+------------------------------
+'grafo561.20.gml' started.
+SAT
+'grafo561.20.gml' stopped. Elapsed time: 0.1959 seconds.
+------------------------------
+'grafo2117.18.gml' started.
+SAT
+'grafo2117.18.gml' stopped. Elapsed time: 0.1404 seconds.
+------------------------------
+'grafo2798.16.gml' started.
+SAT
+'grafo2798.16.gml' stopped. Elapsed time: 0.1052 seconds.
+------------------------------
+'grafo1651.20.gml' started.
+SAT
+'grafo1651.20.gml' stopped. Elapsed time: 0.1550 seconds.
+------------------------------
+'grafo2698.16.gml' started.
+SAT
+'grafo2698.16.gml' stopped. Elapsed time: 0.1016 seconds.
+------------------------------
+'grafo848.13.gml' started.
+SAT
+'grafo848.13.gml' stopped. Elapsed time: 0.0674 seconds.
+------------------------------
+'grafo337.15.gml' started.
+SAT
+'grafo337.15.gml' stopped. Elapsed time: 0.1491 seconds.
+------------------------------
+'grafo1107.15.gml' started.
+SAT
+'grafo1107.15.gml' stopped. Elapsed time: 0.1123 seconds.
+------------------------------
+'grafo2662.19.gml' started.
+SAT
+'grafo2662.19.gml' stopped. Elapsed time: 0.1528 seconds.
+------------------------------
+'grafo677.17.gml' started.
+SAT
+'grafo677.17.gml' stopped. Elapsed time: 0.1911 seconds.
+------------------------------
+'grafo2480.18.gml' started.
+SAT
+'grafo2480.18.gml' stopped. Elapsed time: 0.1437 seconds.
+------------------------------
+'grafo2227.17.gml' started.
+SAT
+'grafo2227.17.gml' stopped. Elapsed time: 0.1903 seconds.
+------------------------------
+'grafo2903.15.gml' started.
+SAT
+'grafo2903.15.gml' stopped. Elapsed time: 0.0851 seconds.
+------------------------------
+'grafo2090.17.gml' started.
+SAT
+'grafo2090.17.gml' stopped. Elapsed time: 0.1144 seconds.
+------------------------------
+'grafo2611.20.gml' started.
+SAT
+'grafo2611.20.gml' stopped. Elapsed time: 0.1174 seconds.
+------------------------------
+'grafo604.12.gml' started.
+SAT
+'grafo604.12.gml' stopped. Elapsed time: 0.0413 seconds.
+------------------------------
+'grafo1846.19.gml' started.
+SAT
+'grafo1846.19.gml' stopped. Elapsed time: 0.1796 seconds.
+------------------------------
+'grafo2372.16.gml' started.
+SAT
+'grafo2372.16.gml' stopped. Elapsed time: 0.1284 seconds.
+------------------------------
+'grafo563.19.gml' started.
+SAT
+'grafo563.19.gml' stopped. Elapsed time: 0.2522 seconds.
+------------------------------
+'grafo911.12.gml' started.
+SAT
+'grafo911.12.gml' stopped. Elapsed time: 0.0566 seconds.
+------------------------------
+'grafo1654.10.gml' started.
+SAT
+'grafo1654.10.gml' stopped. Elapsed time: 0.0425 seconds.
+------------------------------
+'grafo929.16.gml' started.
+SAT
+'grafo929.16.gml' stopped. Elapsed time: 0.1295 seconds.
+------------------------------
+'grafo2440.16.gml' started.
+SAT
+'grafo2440.16.gml' stopped. Elapsed time: 0.1250 seconds.
+------------------------------
+'grafo632.13.gml' started.
+SAT
+'grafo632.13.gml' stopped. Elapsed time: 0.0851 seconds.
+------------------------------
+'grafo407.10.gml' started.
+SAT
+'grafo407.10.gml' stopped. Elapsed time: 0.0249 seconds.
+------------------------------
+'grafo2211.16.gml' started.
+SAT
+'grafo2211.16.gml' stopped. Elapsed time: 0.2359 seconds.
+------------------------------
+'grafo303.11.gml' started.
+SAT
+'grafo303.11.gml' stopped. Elapsed time: 0.0353 seconds.
+------------------------------
+'grafo2720.14.gml' started.
+SAT
+'grafo2720.14.gml' stopped. Elapsed time: 0.0889 seconds.
+------------------------------
+'grafo667.12.gml' started.
+SAT
+'grafo667.12.gml' stopped. Elapsed time: 0.0540 seconds.
+------------------------------
+'grafo796.14.gml' started.
+SAT
+'grafo796.14.gml' stopped. Elapsed time: 0.1067 seconds.
+------------------------------
+'grafo370.14.gml' started.
+SAT
+'grafo370.14.gml' stopped. Elapsed time: 0.1073 seconds.
+------------------------------
+'grafo1097.16.gml' started.
+SAT
+'grafo1097.16.gml' stopped. Elapsed time: 0.1031 seconds.
+------------------------------
+'grafo2946.11.gml' started.
+SAT
+'grafo2946.11.gml' stopped. Elapsed time: 0.0330 seconds.
+------------------------------
+'grafo2239.17.gml' started.
+SAT
+'grafo2239.17.gml' stopped. Elapsed time: 0.2077 seconds.
+------------------------------
+'grafo1858.19.gml' started.
+SAT
+'grafo1858.19.gml' stopped. Elapsed time: 0.1458 seconds.
+------------------------------
+'grafo883.14.gml' started.
+SAT
+'grafo883.14.gml' stopped. Elapsed time: 0.1569 seconds.
+------------------------------
+'grafo528.18.gml' started.
+SAT
+'grafo528.18.gml' stopped. Elapsed time: 0.1197 seconds.
+------------------------------
+'grafo2568.15.gml' started.
+SAT
+'grafo2568.15.gml' stopped. Elapsed time: 0.0807 seconds.
+------------------------------
+'grafo741.14.gml' started.
+SAT
+'grafo741.14.gml' stopped. Elapsed time: 0.0665 seconds.
+------------------------------
+'grafo2468.15.gml' started.
+SAT
+'grafo2468.15.gml' stopped. Elapsed time: 0.1063 seconds.
+------------------------------
+'grafo2433.11.gml' started.
+SAT
+'grafo2433.11.gml' stopped. Elapsed time: 0.0326 seconds.
+------------------------------
+'grafo2187.19.gml' started.
+SAT
+'grafo2187.19.gml' stopped. Elapsed time: 0.1613 seconds.
+------------------------------
+'grafo1851.17.gml' started.
+SAT
+'grafo1851.17.gml' stopped. Elapsed time: 0.1491 seconds.
+------------------------------
+'grafo421.16.gml' started.
+SAT
+'grafo421.16.gml' stopped. Elapsed time: 0.1489 seconds.
+------------------------------
+'grafo1099.11.gml' started.
+SAT
+'grafo1099.11.gml' stopped. Elapsed time: 0.0438 seconds.
+------------------------------
+'grafo2159.17.gml' started.
+SAT
+'grafo2159.17.gml' stopped. Elapsed time: 0.1189 seconds.
+------------------------------
+'grafo820.18.gml' started.
+SAT
+'grafo820.18.gml' stopped. Elapsed time: 0.1440 seconds.
+------------------------------
+'grafo927.11.gml' started.
+SAT
+'grafo927.11.gml' stopped. Elapsed time: 0.0337 seconds.
+------------------------------
+'grafo203.13.gml' started.
+SAT
+'grafo203.13.gml' stopped. Elapsed time: 0.0650 seconds.
+------------------------------
+'grafo2599.13.gml' started.
+SAT
+'grafo2599.13.gml' stopped. Elapsed time: 0.0894 seconds.
+------------------------------
+'grafo256.12.gml' started.
+SAT
+'grafo256.12.gml' stopped. Elapsed time: 0.0436 seconds.
+------------------------------
+'grafo2856.16.gml' started.
+SAT
+'grafo2856.16.gml' stopped. Elapsed time: 0.1029 seconds.
+------------------------------
+'grafo788.16.gml' started.
+SAT
+'grafo788.16.gml' stopped. Elapsed time: 0.1944 seconds.
+------------------------------
+'grafo564.12.gml' started.
+SAT
+'grafo564.12.gml' stopped. Elapsed time: 0.0406 seconds.
+------------------------------
+'grafo2147.17.gml' started.
+SAT
+'grafo2147.17.gml' stopped. Elapsed time: 0.1246 seconds.
+------------------------------
+'grafo751.11.gml' started.
+SAT
+'grafo751.11.gml' stopped. Elapsed time: 0.0470 seconds.
+------------------------------
+'grafo703.19.gml' started.
+SAT
+'grafo703.19.gml' stopped. Elapsed time: 0.3198 seconds.
+------------------------------
+'grafo431.13.gml' started.
+SAT
+'grafo431.13.gml' stopped. Elapsed time: 0.0689 seconds.
+------------------------------
+'grafo1684.19.gml' started.
+SAT
+'grafo1684.19.gml' stopped. Elapsed time: 0.1649 seconds.
+------------------------------
+'grafo155.10.gml' started.
+SAT
+'grafo155.10.gml' stopped. Elapsed time: 0.0364 seconds.
+------------------------------
+'grafo2327.15.gml' started.
+SAT
+'grafo2327.15.gml' stopped. Elapsed time: 0.1062 seconds.
+------------------------------
+'grafo519.12.gml' started.
+SAT
+'grafo519.12.gml' stopped. Elapsed time: 0.0676 seconds.
+------------------------------
+'grafo391.15.gml' started.
+SAT
+'grafo391.15.gml' stopped. Elapsed time: 0.1188 seconds.
+------------------------------
+'grafo121.20.gml' started.
+SAT
+'grafo121.20.gml' stopped. Elapsed time: 0.2030 seconds.
+------------------------------
+'grafo2665.12.gml' started.
+SAT
+'grafo2665.12.gml' stopped. Elapsed time: 0.0514 seconds.
+------------------------------
+'grafo517.17.gml' started.
+SAT
+'grafo517.17.gml' stopped. Elapsed time: 0.1647 seconds.
+------------------------------
+'grafo913.15.gml' started.
+SAT
+'grafo913.15.gml' stopped. Elapsed time: 0.0779 seconds.
+------------------------------
+'grafo1656.17.gml' started.
+SAT
+'grafo1656.17.gml' stopped. Elapsed time: 0.1466 seconds.
+------------------------------
+'grafo2277.18.gml' started.
+SAT
+'grafo2277.18.gml' stopped. Elapsed time: 0.1359 seconds.
+------------------------------
+'grafo2884.18.gml' started.
+SAT
+'grafo2884.18.gml' stopped. Elapsed time: 0.1996 seconds.
+------------------------------
+'grafo2585.16.gml' started.
+SAT
+'grafo2585.16.gml' stopped. Elapsed time: 0.1358 seconds.
+------------------------------
+'grafo440.13.gml' started.
+SAT
+'grafo440.13.gml' stopped. Elapsed time: 0.0648 seconds.
+------------------------------
+'grafo2351.20.gml' started.
+SAT
+'grafo2351.20.gml' stopped. Elapsed time: 0.2151 seconds.
+------------------------------
+'grafo2260.14.gml' started.
+SAT
+'grafo2260.14.gml' stopped. Elapsed time: 0.0796 seconds.
+------------------------------
+'grafo1095.11.gml' started.
+SAT
+'grafo1095.11.gml' stopped. Elapsed time: 0.0618 seconds.
+------------------------------
+'grafo576.12.gml' started.
+SAT
+'grafo576.12.gml' stopped. Elapsed time: 0.0635 seconds.
+------------------------------
+'grafo2438.18.gml' started.
+SAT
+'grafo2438.18.gml' stopped. Elapsed time: 0.1628 seconds.
+------------------------------
+'grafo2751.16.gml' started.
+SAT
+'grafo2751.16.gml' stopped. Elapsed time: 0.1758 seconds.
+------------------------------
+'grafo329.17.gml' started.
+SAT
+'grafo329.17.gml' stopped. Elapsed time: 0.1081 seconds.
+------------------------------
+'grafo856.11.gml' started.
+SAT
+'grafo856.11.gml' stopped. Elapsed time: 0.0508 seconds.
+------------------------------
+'grafo2679.17.gml' started.
+SAT
+'grafo2679.17.gml' stopped. Elapsed time: 0.1199 seconds.
+------------------------------
+'grafo2595.13.gml' started.
+SAT
+'grafo2595.13.gml' stopped. Elapsed time: 0.0490 seconds.
+------------------------------
+'grafo1031.16.gml' started.
+SAT
+'grafo1031.16.gml' stopped. Elapsed time: 0.0954 seconds.
+------------------------------
+'grafo487.14.gml' started.
+SAT
+'grafo487.14.gml' stopped. Elapsed time: 0.0677 seconds.
+------------------------------
+'grafo2214.19.gml' started.
+SAT
+'grafo2214.19.gml' stopped. Elapsed time: 0.1400 seconds.
+------------------------------
+'grafo405.16.gml' started.
+SAT
+'grafo405.16.gml' stopped. Elapsed time: 0.1018 seconds.
+------------------------------
+'grafo1635.16.gml' started.
+SAT
+'grafo1635.16.gml' stopped. Elapsed time: 0.1773 seconds.
+------------------------------
+'grafo2419.14.gml' started.
+SAT
+'grafo2419.14.gml' stopped. Elapsed time: 0.0892 seconds.
+------------------------------
+'grafo1875.17.gml' started.
+SAT
+'grafo1875.17.gml' stopped. Elapsed time: 0.1467 seconds.
+------------------------------
+'grafo301.17.gml' started.
+SAT
+'grafo301.17.gml' stopped. Elapsed time: 0.1478 seconds.
+------------------------------
+'grafo825.15.gml' started.
+SAT
+'grafo825.15.gml' stopped. Elapsed time: 0.0921 seconds.
+------------------------------
+'grafo1791.11.gml' started.
+SAT
+'grafo1791.11.gml' stopped. Elapsed time: 0.0639 seconds.
+------------------------------
+'grafo1119.16.gml' started.
+SAT
+'grafo1119.16.gml' stopped. Elapsed time: 0.1425 seconds.
+------------------------------
+'grafo1853.13.gml' started.
+SAT
+'grafo1853.13.gml' stopped. Elapsed time: 0.0722 seconds.
+------------------------------
+'grafo1748.16.gml' started.
+SAT
+'grafo1748.16.gml' stopped. Elapsed time: 0.1004 seconds.
+------------------------------
+'grafo2281.16.gml' started.
+SAT
+'grafo2281.16.gml' stopped. Elapsed time: 0.1361 seconds.
+------------------------------
+'grafo1930.13.gml' started.
+SAT
+'grafo1930.13.gml' stopped. Elapsed time: 0.0603 seconds.
+------------------------------
+'grafo2669.13.gml' started.
+SAT
+'grafo2669.13.gml' stopped. Elapsed time: 0.0841 seconds.
+------------------------------
+'grafo675.11.gml' started.
+SAT
+'grafo675.11.gml' stopped. Elapsed time: 0.0456 seconds.
+------------------------------
+'grafo1781.14.gml' started.
+SAT
+'grafo1781.14.gml' stopped. Elapsed time: 0.1206 seconds.
+------------------------------
+'grafo2901.13.gml' started.
+SAT
+'grafo2901.13.gml' stopped. Elapsed time: 0.0815 seconds.
+------------------------------
+'grafo1994.14.gml' started.
+SAT
+'grafo1994.14.gml' stopped. Elapsed time: 0.1062 seconds.
+------------------------------
+'grafo1756.16.gml' started.
+SAT
+'grafo1756.16.gml' stopped. Elapsed time: 0.1211 seconds.
+------------------------------
+'grafo237.16.gml' started.
+SAT
+'grafo237.16.gml' stopped. Elapsed time: 0.0976 seconds.
+------------------------------
+'grafo2283.13.gml' started.
+SAT
+'grafo2283.13.gml' stopped. Elapsed time: 0.1034 seconds.
+------------------------------
+'grafo722.15.gml' started.
+SAT
+'grafo722.15.gml' stopped. Elapsed time: 0.0939 seconds.
+------------------------------
+'grafo2206.19.gml' started.
+SAT
+'grafo2206.19.gml' stopped. Elapsed time: 0.2606 seconds.
+------------------------------
+'grafo777.14.gml' started.
+SAT
+'grafo777.14.gml' stopped. Elapsed time: 0.0911 seconds.
+------------------------------
+'grafo2253.18.gml' started.
+SAT
+'grafo2253.18.gml' stopped. Elapsed time: 0.2949 seconds.
+------------------------------
+'grafo1729.13.gml' started.
+SAT
+'grafo1729.13.gml' stopped. Elapsed time: 0.1110 seconds.
+------------------------------
+'grafo1683.11.gml' started.
+SAT
+'grafo1683.11.gml' stopped. Elapsed time: 0.0952 seconds.
+------------------------------
+'grafo1891.18.gml' started.
+SAT
+'grafo1891.18.gml' stopped. Elapsed time: 0.1319 seconds.
+------------------------------
+'grafo335.13.gml' started.
+SAT
+'grafo335.13.gml' stopped. Elapsed time: 0.0999 seconds.
+------------------------------
+'grafo235.13.gml' started.
+SAT
+'grafo235.13.gml' stopped. Elapsed time: 0.0492 seconds.
+------------------------------
+'grafo1754.13.gml' started.
+SAT
+'grafo1754.13.gml' stopped. Elapsed time: 0.1215 seconds.
+------------------------------
+'grafo769.14.gml' started.
+SAT
+'grafo769.14.gml' stopped. Elapsed time: 0.0572 seconds.
+------------------------------
+'grafo2311.15.gml' started.
+SAT
+'grafo2311.15.gml' stopped. Elapsed time: 0.0765 seconds.
+------------------------------
+'grafo2835.17.gml' started.
+SAT
+'grafo2835.17.gml' stopped. Elapsed time: 0.1286 seconds.
+------------------------------
+'grafo2449.19.gml' started.
+SAT
+'grafo2449.19.gml' stopped. Elapsed time: 0.1855 seconds.
+------------------------------
+'grafo1739.16.gml' started.
+SAT
+'grafo1739.16.gml' stopped. Elapsed time: 0.1292 seconds.
+------------------------------
+'grafo286.18.gml' started.
+SAT
+'grafo286.18.gml' stopped. Elapsed time: 0.1278 seconds.
+------------------------------
+'grafo117.20.gml' started.
+SAT
+'grafo117.20.gml' stopped. Elapsed time: 0.1516 seconds.
+------------------------------
+'grafo2461.18.gml' started.
+SAT
+'grafo2461.18.gml' stopped. Elapsed time: 0.1749 seconds.
+------------------------------
+'grafo2339.14.gml' started.
+SAT
+'grafo2339.14.gml' stopped. Elapsed time: 0.0781 seconds.
+------------------------------
+'grafo2706.13.gml' started.
+SAT
+'grafo2706.13.gml' stopped. Elapsed time: 0.0686 seconds.
+------------------------------
+'grafo1015.16.gml' started.
+SAT
+'grafo1015.16.gml' stopped. Elapsed time: 0.1312 seconds.
+------------------------------
+'grafo2885.16.gml' started.
+SAT
+'grafo2885.16.gml' stopped. Elapsed time: 0.1035 seconds.
+------------------------------
+'grafo1054.11.gml' started.
+SAT
+'grafo1054.11.gml' stopped. Elapsed time: 0.0639 seconds.
+------------------------------
+'grafo899.14.gml' started.
+SAT
+'grafo899.14.gml' stopped. Elapsed time: 0.0709 seconds.
+------------------------------
+'grafo2376.16.gml' started.
+SAT
+'grafo2376.16.gml' stopped. Elapsed time: 0.1216 seconds.
+------------------------------
+'grafo997.11.gml' started.
+SAT
+'grafo997.11.gml' stopped. Elapsed time: 0.0490 seconds.
+------------------------------
+'grafo2276.16.gml' started.
+SAT
+'grafo2276.16.gml' stopped. Elapsed time: 0.1355 seconds.
+------------------------------
+'grafo2790.16.gml' started.
+SAT
+'grafo2790.16.gml' stopped. Elapsed time: 0.1071 seconds.
+------------------------------
+'grafo460.10.gml' started.
+SAT
+'grafo460.10.gml' stopped. Elapsed time: 0.0230 seconds.
+------------------------------
+'grafo448.11.gml' started.
+SAT
+'grafo448.11.gml' stopped. Elapsed time: 0.0438 seconds.
+------------------------------
+'grafo1931.20.gml' started.
+SAT
+'grafo1931.20.gml' stopped. Elapsed time: 0.2556 seconds.
+------------------------------
+'grafo219.11.gml' started.
+SAT
+'grafo219.11.gml' stopped. Elapsed time: 0.0541 seconds.
+------------------------------
+'grafo217.14.gml' started.
+SAT
+'grafo217.14.gml' stopped. Elapsed time: 0.0870 seconds.
+------------------------------
+'grafo868.12.gml' started.
+SAT
+'grafo868.12.gml' stopped. Elapsed time: 0.0532 seconds.
+------------------------------
+'grafo228.19.gml' started.
+SAT
+'grafo228.19.gml' stopped. Elapsed time: 0.1771 seconds.
+------------------------------
+'grafo1111.15.gml' started.
+SAT
+'grafo1111.15.gml' stopped. Elapsed time: 0.1577 seconds.
+------------------------------
+'grafo321.15.gml' started.
+SAT
+'grafo321.15.gml' stopped. Elapsed time: 0.0817 seconds.
+------------------------------
+'grafo221.15.gml' started.
+SAT
+'grafo221.15.gml' stopped. Elapsed time: 0.0855 seconds.
+------------------------------
+'grafo1039.14.gml' started.
+SAT
+'grafo1039.14.gml' stopped. Elapsed time: 0.1264 seconds.
+------------------------------
+'grafo736.13.gml' started.
+SAT
+'grafo736.13.gml' stopped. Elapsed time: 0.0626 seconds.
+------------------------------
+'grafo458.14.gml' started.
+SAT
+'grafo458.14.gml' stopped. Elapsed time: 0.0915 seconds.
+------------------------------
+'grafo2776.20.gml' started.
+SAT
+'grafo2776.20.gml' stopped. Elapsed time: 0.1801 seconds.
+------------------------------
+'grafo1821.19.gml' started.
+SAT
+'grafo1821.19.gml' stopped. Elapsed time: 0.1408 seconds.
+------------------------------
+'grafo1766.11.gml' started.
+SAT
+'grafo1766.11.gml' stopped. Elapsed time: 0.0791 seconds.
+------------------------------
+'grafo1857.10.gml' started.
+SAT
+'grafo1857.10.gml' stopped. Elapsed time: 0.0456 seconds.
+------------------------------
+'grafo1957.10.gml' started.
+SAT
+'grafo1957.10.gml' stopped. Elapsed time: 0.0692 seconds.
+------------------------------
+'grafo690.11.gml' started.
+SAT
+'grafo690.11.gml' stopped. Elapsed time: 0.0822 seconds.
+------------------------------
+'grafo2056.20.gml' started.
+SAT
+'grafo2056.20.gml' stopped. Elapsed time: 0.1577 seconds.
+------------------------------
+'grafo807.12.gml' started.
+SAT
+'grafo807.12.gml' stopped. Elapsed time: 0.0503 seconds.
+------------------------------
+'grafo378.14.gml' started.
+SAT
+'grafo378.14.gml' stopped. Elapsed time: 0.0900 seconds.
+------------------------------
+'grafo2179.14.gml' started.
+SAT
+'grafo2179.14.gml' stopped. Elapsed time: 0.1058 seconds.
+------------------------------
+'grafo821.16.gml' started.
+SAT
+'grafo821.16.gml' stopped. Elapsed time: 0.1446 seconds.
+------------------------------
+'grafo921.16.gml' started.
+SAT
+'grafo921.16.gml' stopped. Elapsed time: 0.1100 seconds.
+------------------------------
+'grafo1755.20.gml' started.
+SAT
+'grafo1755.20.gml' stopped. Elapsed time: 0.1593 seconds.
+------------------------------
+'grafo1156.14.gml' started.
+SAT
+'grafo1156.14.gml' stopped. Elapsed time: 0.0832 seconds.
+------------------------------
+'grafo919.12.gml' started.
+SAT
+'grafo919.12.gml' stopped. Elapsed time: 0.0623 seconds.
+------------------------------
+'grafo3112.13.gml' started.
+SAT
+'grafo3112.13.gml' stopped. Elapsed time: 0.0650 seconds.
+------------------------------
+'grafo917.17.gml' started.
+SAT
+'grafo917.17.gml' stopped. Elapsed time: 0.1232 seconds.
+------------------------------
+'grafo757.16.gml' started.
+SAT
+'grafo757.16.gml' stopped. Elapsed time: 0.1274 seconds.
+------------------------------
+'grafo439.11.gml' started.
+SAT
+'grafo439.11.gml' stopped. Elapsed time: 0.0592 seconds.
+------------------------------
+'grafo368.11.gml' started.
+SAT
+'grafo368.11.gml' stopped. Elapsed time: 0.0551 seconds.
+------------------------------
+'grafo1621.10.gml' started.
+SAT
+'grafo1621.10.gml' stopped. Elapsed time: 0.0637 seconds.
+------------------------------
+'grafo1070.10.gml' started.
+SAT
+'grafo1070.10.gml' stopped. Elapsed time: 0.0368 seconds.
+------------------------------
+'grafo931.13.gml' started.
+SAT
+'grafo931.13.gml' stopped. Elapsed time: 0.0719 seconds.
+------------------------------
+'grafo2382.20.gml' started.
+SAT
+'grafo2382.20.gml' stopped. Elapsed time: 0.2109 seconds.
+------------------------------
+'grafo2282.20.gml' started.
+SAT
+'grafo2282.20.gml' stopped. Elapsed time: 0.1901 seconds.
+------------------------------
+'grafo2481.15.gml' started.
+SAT
+'grafo2481.15.gml' stopped. Elapsed time: 0.1034 seconds.
+------------------------------
+'grafo1774.10.gml' started.
+SAT
+'grafo1774.10.gml' stopped. Elapsed time: 0.0631 seconds.
+------------------------------
+'grafo671.13.gml' started.
+SAT
+'grafo671.13.gml' stopped. Elapsed time: 0.0678 seconds.
+------------------------------
+'grafo2458.12.gml' started.
+SAT
+'grafo2458.12.gml' stopped. Elapsed time: 0.0556 seconds.
+------------------------------
+'grafo964.13.gml' started.
+SAT
+'grafo964.13.gml' stopped. Elapsed time: 0.0783 seconds.
+------------------------------
+'grafo493.12.gml' started.
+SAT
+'grafo493.12.gml' stopped. Elapsed time: 0.0489 seconds.
+------------------------------
+'grafo240.11.gml' started.
+SAT
+'grafo240.11.gml' stopped. Elapsed time: 0.0886 seconds.
+------------------------------
+'grafo416.18.gml' started.
+SAT
+'grafo416.18.gml' stopped. Elapsed time: 0.1139 seconds.
+------------------------------
+'grafo1626.18.gml' started.
+SAT
+'grafo1626.18.gml' stopped. Elapsed time: 0.2123 seconds.
+------------------------------
+'grafo593.12.gml' started.
+SAT
+'grafo593.12.gml' stopped. Elapsed time: 0.0739 seconds.
+------------------------------
+'grafo562.14.gml' started.
+SAT
+'grafo562.14.gml' stopped. Elapsed time: 0.1341 seconds.
+------------------------------
+'grafo2198.16.gml' started.
+SAT
+'grafo2198.16.gml' stopped. Elapsed time: 0.1210 seconds.
+------------------------------
+'grafo780.15.gml' started.
+SAT
+'grafo780.15.gml' stopped. Elapsed time: 0.0936 seconds.
+------------------------------
+'grafo2113.19.gml' started.
+SAT
+'grafo2113.19.gml' stopped. Elapsed time: 0.1890 seconds.
+------------------------------
+'grafo2221.13.gml' started.
+SAT
+'grafo2221.13.gml' stopped. Elapsed time: 0.0583 seconds.
+------------------------------
+'grafo1947.14.gml' started.
+SAT
+'grafo1947.14.gml' stopped. Elapsed time: 0.0983 seconds.
+------------------------------
+'grafo661.16.gml' started.
+SAT
+'grafo661.16.gml' stopped. Elapsed time: 0.1013 seconds.
+------------------------------
+'grafo1169.18.gml' started.
+SAT
+'grafo1169.18.gml' stopped. Elapsed time: 0.1260 seconds.
+------------------------------
+'grafo2674.18.gml' started.
+SAT
+'grafo2674.18.gml' stopped. Elapsed time: 0.1721 seconds.
+------------------------------
+'grafo2934.19.gml' started.
+SAT
+'grafo2934.19.gml' stopped. Elapsed time: 0.1665 seconds.
+------------------------------
+'grafo1971.15.gml' started.
+SAT
+'grafo1971.15.gml' stopped. Elapsed time: 0.1319 seconds.
+------------------------------
+'grafo2673.11.gml' started.
+SAT
+'grafo2673.11.gml' stopped. Elapsed time: 0.0348 seconds.
+------------------------------
+'grafo2682.17.gml' started.
+SAT
+'grafo2682.17.gml' stopped. Elapsed time: 0.1311 seconds.
+------------------------------
+'grafo2782.17.gml' started.
+SAT
+'grafo2782.17.gml' stopped. Elapsed time: 0.1218 seconds.
+------------------------------
+'grafo747.12.gml' started.
+SAT
+'grafo747.12.gml' stopped. Elapsed time: 0.0566 seconds.
+------------------------------
+'grafo376.10.gml' started.
+SAT
+'grafo376.10.gml' stopped. Elapsed time: 0.0219 seconds.
+------------------------------
+'grafo2231.16.gml' started.
+SAT
+'grafo2231.16.gml' stopped. Elapsed time: 0.1175 seconds.
+------------------------------
+'grafo1661.19.gml' started.
+SAT
+'grafo1661.19.gml' stopped. Elapsed time: 0.1469 seconds.
+------------------------------
+'grafo1137.10.gml' started.
+SAT
+'grafo1137.10.gml' stopped. Elapsed time: 0.0285 seconds.
+------------------------------
+'grafo1139.15.gml' started.
+SAT
+'grafo1139.15.gml' stopped. Elapsed time: 0.0725 seconds.
+------------------------------
+'grafo1162.11.gml' started.
+SAT
+'grafo1162.11.gml' stopped. Elapsed time: 0.0437 seconds.
+------------------------------
+'grafo503.11.gml' started.
+SAT
+'grafo503.11.gml' stopped. Elapsed time: 0.0589 seconds.
+------------------------------
+'grafo558.15.gml' started.
+SAT
+'grafo558.15.gml' stopped. Elapsed time: 0.1102 seconds.
+------------------------------
+'grafo645.17.gml' started.
+SAT
+'grafo645.17.gml' stopped. Elapsed time: 0.1205 seconds.
+------------------------------
+'grafo2919.14.gml' started.
+SAT
+'grafo2919.14.gml' stopped. Elapsed time: 0.0719 seconds.
+------------------------------
+'grafo2333.13.gml' started.
+SAT
+'grafo2333.13.gml' stopped. Elapsed time: 0.0735 seconds.
+------------------------------
+'grafo980.20.gml' started.
+SAT
+'grafo980.20.gml' stopped. Elapsed time: 0.2109 seconds.
+------------------------------
+'grafo968.13.gml' started.
+SAT
+'grafo968.13.gml' stopped. Elapsed time: 0.1216 seconds.
+------------------------------
+'grafo242.14.gml' started.
+SAT
+'grafo242.14.gml' stopped. Elapsed time: 0.0798 seconds.
+------------------------------
+'grafo1072.14.gml' started.
+SAT
+'grafo1072.14.gml' stopped. Elapsed time: 0.0973 seconds.
+------------------------------
+'grafo2809.11.gml' started.
+SAT
+'grafo2809.11.gml' stopped. Elapsed time: 0.0337 seconds.
+------------------------------
+'grafo782.10.gml' started.
+SAT
+'grafo782.10.gml' stopped. Elapsed time: 0.0226 seconds.
+------------------------------
+'grafo432.19.gml' started.
+SAT
+'grafo432.19.gml' stopped. Elapsed time: 0.1401 seconds.
+------------------------------
+'grafo1942.18.gml' started.
+SAT
+'grafo1942.18.gml' stopped. Elapsed time: 0.1226 seconds.
+------------------------------
+'grafo3017.20.gml' started.
+SAT
+'grafo3017.20.gml' stopped. Elapsed time: 0.1984 seconds.
+------------------------------
+'grafo1780.18.gml' started.
+SAT
+'grafo1780.18.gml' stopped. Elapsed time: 0.1774 seconds.
+------------------------------
+'grafo2647.17.gml' started.
+SAT
+'grafo2647.17.gml' stopped. Elapsed time: 0.1174 seconds.
+------------------------------
+'grafo435.12.gml' started.
+SAT
+'grafo435.12.gml' stopped. Elapsed time: 0.0408 seconds.
+------------------------------
+'grafo897.12.gml' started.
+SAT
+'grafo897.12.gml' stopped. Elapsed time: 0.0524 seconds.
+------------------------------
+'grafo2287.13.gml' started.
+SAT
+'grafo2287.13.gml' stopped. Elapsed time: 0.0587 seconds.
+------------------------------
+'grafo342.16.gml' started.
+SAT
+'grafo342.16.gml' stopped. Elapsed time: 0.1272 seconds.
+------------------------------
+'grafo446.17.gml' started.
+SAT
+'grafo446.17.gml' stopped. Elapsed time: 0.1705 seconds.
+------------------------------
+'grafo2350.11.gml' started.
+SAT
+'grafo2350.11.gml' stopped. Elapsed time: 0.0499 seconds.
+------------------------------
+'grafo274.17.gml' started.
+SAT
+'grafo274.17.gml' stopped. Elapsed time: 0.0989 seconds.
+------------------------------
+'grafo570.16.gml' started.
+SAT
+'grafo570.16.gml' stopped. Elapsed time: 0.1310 seconds.
+------------------------------
+'grafo1093.15.gml' started.
+SAT
+'grafo1093.15.gml' stopped. Elapsed time: 0.0933 seconds.
+------------------------------
+'grafo207.12.gml' started.
+SAT
+'grafo207.12.gml' stopped. Elapsed time: 0.0567 seconds.
+------------------------------
+'grafo924.19.gml' started.
+SAT
+'grafo924.19.gml' stopped. Elapsed time: 0.1457 seconds.
+------------------------------
+'grafo1795.11.gml' started.
+SAT
+'grafo1795.11.gml' stopped. Elapsed time: 0.0651 seconds.
+------------------------------
+'grafo2460.14.gml' started.
+SAT
+'grafo2460.14.gml' stopped. Elapsed time: 0.0674 seconds.
+------------------------------
+'grafo612.11.gml' started.
+SAT
+'grafo612.11.gml' stopped. Elapsed time: 0.0437 seconds.
+------------------------------
+'grafo1902.12.gml' started.
+SAT
+'grafo1902.12.gml' stopped. Elapsed time: 0.0590 seconds.
+------------------------------
+'grafo2264.15.gml' started.
+SAT
+'grafo2264.15.gml' stopped. Elapsed time: 0.0962 seconds.
+------------------------------
+'grafo1148.17.gml' started.
+SAT
+'grafo1148.17.gml' stopped. Elapsed time: 0.1454 seconds.
+------------------------------
+'grafo583.15.gml' started.
+SAT
+'grafo583.15.gml' stopped. Elapsed time: 0.1135 seconds.
+------------------------------
+'grafo1631.16.gml' started.
+SAT
+'grafo1631.16.gml' stopped. Elapsed time: 0.1281 seconds.
+------------------------------
+'grafo483.15.gml' started.
+SAT
+'grafo483.15.gml' stopped. Elapsed time: 0.1283 seconds.
+------------------------------
+'grafo974.14.gml' started.
+SAT
+'grafo974.14.gml' stopped. Elapsed time: 0.0638 seconds.
+------------------------------
+'grafo1731.16.gml' started.
+SAT
+'grafo1731.16.gml' stopped. Elapsed time: 0.1229 seconds.
+------------------------------
+'grafo1871.17.gml' started.
+SAT
+'grafo1871.17.gml' stopped. Elapsed time: 0.1049 seconds.
+------------------------------
+'grafo2448.15.gml' started.
+SAT
+'grafo2448.15.gml' stopped. Elapsed time: 0.1486 seconds.
+------------------------------
+'grafo2219.15.gml' started.
+SAT
+'grafo2219.15.gml' stopped. Elapsed time: 0.1092 seconds.
+------------------------------
+'grafo454.17.gml' started.
+SAT
+'grafo454.17.gml' stopped. Elapsed time: 0.1004 seconds.
+------------------------------
+'grafo1924.16.gml' started.
+SAT
+'grafo1924.16.gml' stopped. Elapsed time: 0.1031 seconds.
+------------------------------
+'grafo1056.17.gml' started.
+SAT
+'grafo1056.17.gml' stopped. Elapsed time: 0.2035 seconds.
+------------------------------
+'grafo1081.15.gml' started.
+SAT
+'grafo1081.15.gml' stopped. Elapsed time: 0.1677 seconds.
+------------------------------
+'grafo657.15.gml' started.
+SAT
+'grafo657.15.gml' stopped. Elapsed time: 0.1422 seconds.
+------------------------------
+'grafo511.13.gml' started.
+SAT
+'grafo511.13.gml' stopped. Elapsed time: 0.0631 seconds.
+------------------------------
+'grafo2823.17.gml' started.
+SAT
+'grafo2823.17.gml' stopped. Elapsed time: 0.1339 seconds.
+------------------------------
+'grafo863.18.gml' started.
+SAT
+'grafo863.18.gml' stopped. Elapsed time: 0.1171 seconds.
+------------------------------
+'grafo1674.12.gml' started.
+SAT
+'grafo1674.12.gml' stopped. Elapsed time: 0.0728 seconds.
+------------------------------
+'grafo290.18.gml' started.
+SAT
+'grafo290.18.gml' stopped. Elapsed time: 0.1166 seconds.
+------------------------------
+'grafo397.11.gml' started.
+SAT
+'grafo397.11.gml' stopped. Elapsed time: 0.0452 seconds.
+------------------------------
+'grafo2736.16.gml' started.
+SAT
+'grafo2736.16.gml' stopped. Elapsed time: 0.1098 seconds.
+------------------------------
+'grafo2403.15.gml' started.
+SAT
+'grafo2403.15.gml' stopped. Elapsed time: 0.1156 seconds.
+------------------------------
+'grafo2352.15.gml' started.
+SAT
+'grafo2352.15.gml' stopped. Elapsed time: 0.0952 seconds.
+------------------------------
+'grafo2636.16.gml' started.
+SAT
+'grafo2636.16.gml' stopped. Elapsed time: 0.1602 seconds.
+------------------------------
+'grafo2252.15.gml' started.
+SAT
+'grafo2252.15.gml' stopped. Elapsed time: 0.1497 seconds.
+------------------------------
+'grafo963.19.gml' started.
+SAT
+'grafo963.19.gml' stopped. Elapsed time: 0.1604 seconds.
+------------------------------
+'grafo399.15.gml' started.
+SAT
+'grafo399.15.gml' stopped. Elapsed time: 0.0889 seconds.
+------------------------------
+'grafo1709.13.gml' started.
+SAT
+'grafo1709.13.gml' stopped. Elapsed time: 0.1137 seconds.
+------------------------------
+'grafo2792.11.gml' started.
+SAT
+'grafo2792.11.gml' stopped. Elapsed time: 0.0324 seconds.
+------------------------------
+'grafo366.16.gml' started.
+SAT
+'grafo366.16.gml' stopped. Elapsed time: 0.0878 seconds.
+------------------------------
+'grafo759.11.gml' started.
+SAT
+'grafo759.11.gml' stopped. Elapsed time: 0.0505 seconds.
+------------------------------
+'grafo2645.13.gml' started.
+SAT
+'grafo2645.13.gml' stopped. Elapsed time: 0.1032 seconds.
+------------------------------
+'grafo602.15.gml' started.
+SAT
+'grafo602.15.gml' stopped. Elapsed time: 0.1073 seconds.
+------------------------------
+'grafo305.16.gml' started.
+SAT
+'grafo305.16.gml' stopped. Elapsed time: 0.1246 seconds.
+------------------------------
+'grafo3024.10.gml' started.
+SAT
+'grafo3024.10.gml' stopped. Elapsed time: 0.0365 seconds.
+------------------------------
+'grafo873.20.gml' started.
+SAT
+'grafo873.20.gml' stopped. Elapsed time: 0.1959 seconds.
+------------------------------
+'grafo2319.14.gml' started.
+SAT
+'grafo2319.14.gml' stopped. Elapsed time: 0.0790 seconds.
+------------------------------
+'grafo2728.16.gml' started.
+SAT
+'grafo2728.16.gml' stopped. Elapsed time: 0.1001 seconds.
+------------------------------
+'grafo2868.17.gml' started.
+SAT
+'grafo2868.17.gml' stopped. Elapsed time: 0.2431 seconds.
+------------------------------
+'grafo1160.17.gml' started.
+SAT
+'grafo1160.17.gml' stopped. Elapsed time: 0.1602 seconds.
+------------------------------
+'grafo734.14.gml' started.
+SAT
+'grafo734.14.gml' stopped. Elapsed time: 0.1016 seconds.
+------------------------------
+'grafo472.12.gml' started.
+SAT
+'grafo472.12.gml' stopped. Elapsed time: 0.0412 seconds.
+------------------------------
+'grafo1802.13.gml' started.
+SAT
+'grafo1802.13.gml' stopped. Elapsed time: 0.0921 seconds.
+------------------------------
+'grafo907.10.gml' started.
+SAT
+'grafo907.10.gml' stopped. Elapsed time: 0.0366 seconds.
+------------------------------
+'grafo529.16.gml' started.
+SAT
+'grafo529.16.gml' stopped. Elapsed time: 0.1508 seconds.
+------------------------------
+'grafo223.12.gml' started.
+SAT
+'grafo223.12.gml' stopped. Elapsed time: 0.0418 seconds.
+------------------------------
+'grafo2331.15.gml' started.
+SAT
+'grafo2331.15.gml' stopped. Elapsed time: 0.0909 seconds.
+------------------------------
+'grafo649.14.gml' started.
+SAT
+'grafo649.14.gml' stopped. Elapsed time: 0.1736 seconds.
+------------------------------
+'grafo2560.15.gml' started.
+SAT
+'grafo2560.15.gml' stopped. Elapsed time: 0.0971 seconds.
+------------------------------
+'grafo809.15.gml' started.
+SAT
+'grafo809.15.gml' stopped. Elapsed time: 0.0631 seconds.
+------------------------------
+'grafo2493.16.gml' started.
+SAT
+'grafo2493.16.gml' stopped. Elapsed time: 0.1127 seconds.
+------------------------------
+'grafo307.13.gml' started.
+SAT
+'grafo307.13.gml' stopped. Elapsed time: 0.0590 seconds.
+------------------------------
+'grafo2297.17.gml' started.
+SAT
+'grafo2297.17.gml' stopped. Elapsed time: 0.1328 seconds.
+------------------------------
+'grafo252.12.gml' started.
+SAT
+'grafo252.12.gml' stopped. Elapsed time: 0.0394 seconds.
+------------------------------
+'grafo352.12.gml' started.
+SAT
+'grafo352.12.gml' stopped. Elapsed time: 0.0498 seconds.
+------------------------------
+'grafo2347.20.gml' started.
+SAT
+'grafo2347.20.gml' stopped. Elapsed time: 0.1617 seconds.
+------------------------------
+'grafo470.17.gml' started.
+SAT
+'grafo470.17.gml' stopped. Elapsed time: 0.1194 seconds.
+------------------------------
+'grafo1690.20.gml' started.
+SAT
+'grafo1690.20.gml' stopped. Elapsed time: 0.1857 seconds.
+------------------------------
+'grafo1640.17.gml' started.
+SAT
+'grafo1640.17.gml' stopped. Elapsed time: 0.1170 seconds.
+------------------------------
+'grafo2842.13.gml' started.
+SAT
+'grafo2842.13.gml' stopped. Elapsed time: 0.0607 seconds.
+------------------------------
+'grafo905.15.gml' started.
+SAT
+'grafo905.15.gml' stopped. Elapsed time: 0.0976 seconds.
+------------------------------
+'grafo2759.16.gml' started.
+SAT
+'grafo2759.16.gml' stopped. Elapsed time: 0.1045 seconds.
+------------------------------
+'grafo1982.15.gml' started.
+SAT
+'grafo1982.15.gml' stopped. Elapsed time: 0.0916 seconds.
+------------------------------
+'grafo2368.14.gml' started.
+SAT
+'grafo2368.14.gml' stopped. Elapsed time: 0.0880 seconds.
+------------------------------
+'grafo525.16.gml' started.
+SAT
+'grafo525.16.gml' stopped. Elapsed time: 0.1251 seconds.
+------------------------------
+'grafo989.13.gml' started.
+SAT
+'grafo989.13.gml' stopped. Elapsed time: 0.0663 seconds.
+------------------------------
+'grafo710.15.gml' started.
+SAT
+'grafo710.15.gml' stopped. Elapsed time: 0.1243 seconds.
+------------------------------
+'grafo1144.16.gml' started.
+SAT
+'grafo1144.16.gml' stopped. Elapsed time: 0.1400 seconds.
+------------------------------
+'grafo295.15.gml' started.
+SAT
+'grafo295.15.gml' stopped. Elapsed time: 0.1306 seconds.
+------------------------------
+'grafo726.14.gml' started.
+SAT
+'grafo726.14.gml' stopped. Elapsed time: 0.0754 seconds.
+------------------------------
+'grafo1938.12.gml' started.
+SAT
+'grafo1938.12.gml' stopped. Elapsed time: 0.0684 seconds.
+------------------------------
+'grafo2553.18.gml' started.
+SAT
+'grafo2553.18.gml' stopped. Elapsed time: 0.1236 seconds.
+------------------------------
+'grafo548.13.gml' started.
+SAT
+'grafo548.13.gml' stopped. Elapsed time: 0.0508 seconds.
+------------------------------
+'grafo2852.16.gml' started.
+SAT
+'grafo2852.16.gml' stopped. Elapsed time: 0.1009 seconds.
+------------------------------
+'grafo231.12.gml' started.
+SAT
+'grafo231.12.gml' stopped. Elapsed time: 0.0947 seconds.
+------------------------------
+'grafo1001.12.gml' started.
+SAT
+'grafo1001.12.gml' stopped. Elapsed time: 0.0602 seconds.
+------------------------------
+'grafo1750.12.gml' started.
+SAT
+'grafo1750.12.gml' stopped. Elapsed time: 0.1495 seconds.
+------------------------------
+'grafo2527.14.gml' started.
+SAT
+'grafo2527.14.gml' stopped. Elapsed time: 0.0761 seconds.
+------------------------------
+'grafo2747.16.gml' started.
+SAT
+'grafo2747.16.gml' stopped. Elapsed time: 0.1122 seconds.
+------------------------------
+'grafo2371.19.gml' started.
+SAT
+'grafo2371.19.gml' stopped. Elapsed time: 0.1757 seconds.
+------------------------------
+'grafo264.17.gml' started.
+SAT
+'grafo264.17.gml' stopped. Elapsed time: 0.1523 seconds.
+------------------------------
+'grafo700.14.gml' started.
+SAT
+'grafo700.14.gml' stopped. Elapsed time: 0.0570 seconds.
+------------------------------
+'grafo1945.16.gml' started.
+SAT
+'grafo1945.16.gml' stopped. Elapsed time: 0.0951 seconds.
+------------------------------
+'grafo546.12.gml' started.
+SAT
+'grafo546.12.gml' stopped. Elapsed time: 0.0449 seconds.
+------------------------------
+'grafo2202.20.gml' started.
+SAT
+'grafo2202.20.gml' stopped. Elapsed time: 0.1977 seconds.
+------------------------------
+'grafo621.19.gml' started.
+SAT
+'grafo621.19.gml' stopped. Elapsed time: 0.2295 seconds.
+------------------------------
+'grafo2408.18.gml' started.
+SAT
+'grafo2408.18.gml' stopped. Elapsed time: 0.1957 seconds.
+------------------------------
+'grafo2266.15.gml' started.
+SAT
+'grafo2266.15.gml' stopped. Elapsed time: 0.0850 seconds.
+------------------------------
+'grafo1615.12.gml' started.
+SAT
+'grafo1615.12.gml' stopped. Elapsed time: 0.0633 seconds.
+------------------------------
+'grafo2106.17.gml' started.
+SAT
+'grafo2106.17.gml' stopped. Elapsed time: 0.1134 seconds.
+------------------------------
+'grafo2895.15.gml' started.
+SAT
+'grafo2895.15.gml' stopped. Elapsed time: 0.0957 seconds.
+------------------------------
+'grafo1697.11.gml' started.
+SAT
+'grafo1697.11.gml' stopped. Elapsed time: 0.0779 seconds.
+------------------------------
+'grafo2247.18.gml' started.
+SAT
+'grafo2247.18.gml' stopped. Elapsed time: 0.1942 seconds.
+------------------------------
+'grafo285.14.gml' started.
+SAT
+'grafo285.14.gml' stopped. Elapsed time: 0.1067 seconds.
+------------------------------
+'grafo588.19.gml' started.
+SAT
+'grafo588.19.gml' stopped. Elapsed time: 0.1409 seconds.
+------------------------------
+'grafo2120.13.gml' started.
+SAT
+'grafo2120.13.gml' stopped. Elapsed time: 0.1178 seconds.
+------------------------------
+'grafo278.12.gml' started.
+SAT
+'grafo278.12.gml' stopped. Elapsed time: 0.0817 seconds.
+------------------------------
+'grafo527.17.gml' started.
+SAT
+'grafo527.17.gml' stopped. Elapsed time: 0.1560 seconds.
+------------------------------
+'grafo276.17.gml' started.
+SAT
+'grafo276.17.gml' stopped. Elapsed time: 0.1224 seconds.
+------------------------------
+'grafo790.17.gml' started.
+SAT
+'grafo790.17.gml' stopped. Elapsed time: 0.1056 seconds.
+------------------------------
+'grafo1046.17.gml' started.
+SAT
+'grafo1046.17.gml' stopped. Elapsed time: 0.1464 seconds.
+------------------------------
+'grafo2177.17.gml' started.
+SAT
+'grafo2177.17.gml' stopped. Elapsed time: 0.1463 seconds.
+------------------------------
+'grafo250.13.gml' started.
+SAT
+'grafo250.13.gml' stopped. Elapsed time: 0.1130 seconds.
+------------------------------
+'grafo501.13.gml' started.
+SAT
+'grafo501.13.gml' stopped. Elapsed time: 0.0484 seconds.
+------------------------------
+'grafo1849.16.gml' started.
+SAT
+'grafo1849.16.gml' stopped. Elapsed time: 0.1174 seconds.
+------------------------------
+'grafo895.12.gml' started.
+SAT
+'grafo895.12.gml' stopped. Elapsed time: 0.0420 seconds.
+------------------------------
+'grafo2745.17.gml' started.
+SAT
+'grafo2745.17.gml' stopped. Elapsed time: 0.1174 seconds.
+------------------------------
+'grafo2422.20.gml' started.
+SAT
+'grafo2422.20.gml' stopped. Elapsed time: 0.2239 seconds.
+------------------------------
+'grafo2887.15.gml' started.
+SAT
+'grafo2887.15.gml' stopped. Elapsed time: 0.0942 seconds.
+------------------------------
+'grafo437.12.gml' started.
+SAT
+'grafo437.12.gml' stopped. Elapsed time: 0.1212 seconds.
+------------------------------
+'grafo1861.17.gml' started.
+SAT
+'grafo1861.17.gml' stopped. Elapsed time: 0.1352 seconds.
+------------------------------
+'grafo2385.13.gml' started.
+SAT
+'grafo2385.13.gml' stopped. Elapsed time: 0.0652 seconds.
+------------------------------
+'grafo411.16.gml' started.
+SAT
+'grafo411.16.gml' stopped. Elapsed time: 0.1525 seconds.
+------------------------------
+'grafo2663.12.gml' started.
+SAT
+'grafo2663.12.gml' stopped. Elapsed time: 0.0560 seconds.
+------------------------------
+'grafo444.16.gml' started.
+SAT
+'grafo444.16.gml' stopped. Elapsed time: 0.0780 seconds.
+------------------------------
+'grafo297.15.gml' started.
+SAT
+'grafo297.15.gml' stopped. Elapsed time: 0.1107 seconds.
+------------------------------
+'grafo2570.15.gml' started.
+SAT
+'grafo2570.15.gml' stopped. Elapsed time: 0.1383 seconds.
+------------------------------
+'grafo659.14.gml' started.
+SAT
+'grafo659.14.gml' stopped. Elapsed time: 0.0872 seconds.
+------------------------------
+'grafo266.13.gml' started.
+SAT
+'grafo266.13.gml' stopped. Elapsed time: 0.0659 seconds.
+------------------------------
+'grafo1086.18.gml' started.
+SAT
+'grafo1086.18.gml' stopped. Elapsed time: 0.2016 seconds.
+------------------------------
+'grafo2610.17.gml' started.
+SAT
+'grafo2610.17.gml' stopped. Elapsed time: 0.1154 seconds.
+------------------------------
+'grafo1897.19.gml' started.
+SAT
+'grafo1897.19.gml' stopped. Elapsed time: 0.1370 seconds.
+------------------------------
+'grafo2933.16.gml' started.
+SAT
+'grafo2933.16.gml' stopped. Elapsed time: 0.1044 seconds.
+------------------------------
+'grafo2866.17.gml' started.
+SAT
+'grafo2866.17.gml' stopped. Elapsed time: 0.1706 seconds.
+------------------------------
+'grafo1695.15.gml' started.
+SAT
+'grafo1695.15.gml' stopped. Elapsed time: 0.0907 seconds.
+------------------------------
+'grafo749.11.gml' started.
+SAT
+'grafo749.11.gml' stopped. Elapsed time: 0.0355 seconds.
+------------------------------
+'grafo1719.13.gml' started.
+SAT
+'grafo1719.13.gml' stopped. Elapsed time: 0.0793 seconds.
+------------------------------
+'grafo572.17.gml' started.
+SAT
+'grafo572.17.gml' stopped. Elapsed time: 0.1080 seconds.
+------------------------------
+'grafo3073.11.gml' started.
+SAT
+'grafo3073.11.gml' stopped. Elapsed time: 0.0340 seconds.
+------------------------------
+'grafo1633.17.gml' started.
+SAT
+'grafo1633.17.gml' stopped. Elapsed time: 0.1101 seconds.
+------------------------------
+'grafo2511.10.gml' started.
+SAT
+'grafo2511.10.gml' stopped. Elapsed time: 0.0359 seconds.
+------------------------------
+'grafo978.10.gml' started.
+SAT
+'grafo978.10.gml' stopped. Elapsed time: 0.0359 seconds.
+------------------------------
+'grafo792.13.gml' started.
+SAT
+'grafo792.13.gml' stopped. Elapsed time: 0.0643 seconds.
+------------------------------
+'grafo2233.15.gml' started.
+SAT
+'grafo2233.15.gml' stopped. Elapsed time: 0.1334 seconds.
+------------------------------
+'grafo425.13.gml' started.
+SAT
+'grafo425.13.gml' stopped. Elapsed time: 0.0722 seconds.
+------------------------------
+'grafo2659.13.gml' started.
+SAT
+'grafo2659.13.gml' stopped. Elapsed time: 0.0766 seconds.
+------------------------------
+'grafo887.13.gml' started.
+SAT
+'grafo887.13.gml' stopped. Elapsed time: 0.0718 seconds.
+------------------------------
+'grafo3052.20.gml' started.
+SAT
+'grafo3052.20.gml' stopped. Elapsed time: 0.1684 seconds.
+------------------------------
+'grafo1029.16.gml' started.
+SAT
+'grafo1029.16.gml' stopped. Elapsed time: 0.0891 seconds.
+------------------------------
+'grafo626.11.gml' started.
+SAT
+'grafo626.11.gml' stopped. Elapsed time: 0.0729 seconds.
+------------------------------
+'grafo177.11.gml' started.
+SAT
+'grafo177.11.gml' stopped. Elapsed time: 0.0458 seconds.
+------------------------------
+'grafo628.14.gml' started.
+SAT
+'grafo628.14.gml' stopped. Elapsed time: 0.0907 seconds.
+------------------------------
+'grafo2583.16.gml' started.
+SAT
+'grafo2583.16.gml' stopped. Elapsed time: 0.0979 seconds.
+------------------------------
+'grafo317.13.gml' started.
+SAT
+'grafo317.13.gml' stopped. Elapsed time: 0.1835 seconds.
+------------------------------
+'grafo682.16.gml' started.
+SAT
+'grafo682.16.gml' stopped. Elapsed time: 0.1419 seconds.
+------------------------------
+'grafo999.13.gml' started.
+SAT
+'grafo999.13.gml' stopped. Elapsed time: 0.0584 seconds.
+------------------------------
+'grafo1845.17.gml' started.
+SAT
+'grafo1845.17.gml' stopped. Elapsed time: 0.1136 seconds.
+------------------------------
+'grafo1083.14.gml' started.
+SAT
+'grafo1083.14.gml' stopped. Elapsed time: 0.1043 seconds.
+------------------------------
+'grafo815.15.gml' started.
+SAT
+'grafo815.15.gml' stopped. Elapsed time: 0.1121 seconds.
+------------------------------
+'grafo331.15.gml' started.
+SAT
+'grafo331.15.gml' stopped. Elapsed time: 0.1129 seconds.
+------------------------------
+'grafo364.14.gml' started.
+SAT
+'grafo364.14.gml' stopped. Elapsed time: 0.0738 seconds.
+------------------------------
+'grafo1757.20.gml' started.
+SAT
+'grafo1757.20.gml' stopped. Elapsed time: 0.2666 seconds.
+------------------------------
+'grafo2401.17.gml' started.
+SAT
+'grafo2401.17.gml' stopped. Elapsed time: 0.3936 seconds.
+------------------------------
+'grafo122.12.gml' started.
+SAT
+'grafo122.12.gml' stopped. Elapsed time: 0.0428 seconds.
+------------------------------
+'grafo1027.11.gml' started.
+SAT
+'grafo1027.11.gml' stopped. Elapsed time: 0.0558 seconds.
+------------------------------
+'grafo773.12.gml' started.
+SAT
+'grafo773.12.gml' stopped. Elapsed time: 0.0792 seconds.
+------------------------------
+'grafo833.13.gml' started.
+SAT
+'grafo833.13.gml' stopped. Elapsed time: 0.1489 seconds.
+------------------------------
+'grafo2634.14.gml' started.
+SAT
+'grafo2634.14.gml' stopped. Elapsed time: 0.0614 seconds.
+------------------------------
+'grafo1175.19.gml' started.
+SAT
+'grafo1175.19.gml' stopped. Elapsed time: 0.1534 seconds.
+------------------------------
+'grafo1723.10.gml' started.
+SAT
+'grafo1723.10.gml' stopped. Elapsed time: 0.0642 seconds.
+------------------------------
+'grafo513.10.gml' started.
+SAT
+'grafo513.10.gml' stopped. Elapsed time: 0.0378 seconds.
+------------------------------
+'grafo1724.19.gml' started.
+SAT
+'grafo1724.19.gml' stopped. Elapsed time: 0.1508 seconds.
+------------------------------
+'grafo1864.18.gml' started.
+SAT
+'grafo1864.18.gml' stopped. Elapsed time: 0.1178 seconds.
+------------------------------
+'grafo2537.16.gml' started.
+SAT
+'grafo2537.16.gml' stopped. Elapsed time: 0.1142 seconds.
+------------------------------
+'grafo1747.19.gml' started.
+SAT
+'grafo1747.19.gml' stopped. Elapsed time: 0.3171 seconds.
+------------------------------
+'grafo2366.16.gml' started.
+SAT
+'grafo2366.16.gml' stopped. Elapsed time: 0.1274 seconds.
+------------------------------
+'grafo1649.20.gml' started.
+SAT
+'grafo1649.20.gml' stopped. Elapsed time: 0.1587 seconds.
+------------------------------
+'grafo1740.10.gml' started.
+SAT
+'grafo1740.10.gml' stopped. Elapsed time: 0.0522 seconds.
+------------------------------
+'grafo1852.19.gml' started.
+SAT
+'grafo1852.19.gml' stopped. Elapsed time: 0.2302 seconds.
+------------------------------
+'grafo2817.15.gml' started.
+SAT
+'grafo2817.15.gml' stopped. Elapsed time: 0.0899 seconds.
+------------------------------
+'grafo1143.18.gml' started.
+SAT
+'grafo1143.18.gml' stopped. Elapsed time: 0.1422 seconds.
+------------------------------
+'grafo1955.10.gml' started.
+SAT
+'grafo1955.10.gml' stopped. Elapsed time: 0.0634 seconds.
+------------------------------
+'grafo823.16.gml' started.
+SAT
+'grafo823.16.gml' stopped. Elapsed time: 0.0880 seconds.
+------------------------------
+'grafo2240.12.gml' started.
+SAT
+'grafo2240.12.gml' stopped. Elapsed time: 0.0542 seconds.
+------------------------------
+'grafo2723.18.gml' started.
+SAT
+'grafo2723.18.gml' stopped. Elapsed time: 0.2328 seconds.
+------------------------------
+'grafo385.17.gml' started.
+SAT
+'grafo385.17.gml' stopped. Elapsed time: 0.1810 seconds.
+------------------------------
+'grafo1062.15.gml' started.
+SAT
+'grafo1062.15.gml' stopped. Elapsed time: 0.1205 seconds.
+------------------------------
+'grafo2290.19.gml' started.
+SAT
+'grafo2290.19.gml' stopped. Elapsed time: 0.1641 seconds.
+------------------------------
+'grafo2931.11.gml' started.
+SAT
+'grafo2931.11.gml' stopped. Elapsed time: 0.0569 seconds.
+------------------------------
+'grafo2390.19.gml' started.
+SAT
+'grafo2390.19.gml' stopped. Elapsed time: 0.1687 seconds.
+------------------------------
+'grafo1619.11.gml' started.
+SAT
+'grafo1619.11.gml' stopped. Elapsed time: 0.0682 seconds.
+------------------------------
+'grafo323.15.gml' started.
+SAT
+'grafo323.15.gml' stopped. Elapsed time: 0.1286 seconds.
+------------------------------
+'grafo2847.18.gml' started.
+SAT
+'grafo2847.18.gml' stopped. Elapsed time: 0.1302 seconds.
+------------------------------
+'grafo1013.15.gml' started.
+SAT
+'grafo1013.15.gml' stopped. Elapsed time: 0.1570 seconds.
+------------------------------
+'grafo1717.14.gml' started.
+SAT
+'grafo1717.14.gml' stopped. Elapsed time: 0.0651 seconds.
+------------------------------
+'grafo1823.19.gml' started.
+SAT
+'grafo1823.19.gml' stopped. Elapsed time: 0.1906 seconds.
+------------------------------
+'grafo508.20.gml' started.
+SAT
+'grafo508.20.gml' stopped. Elapsed time: 0.1480 seconds.
+------------------------------
+'grafo1058.14.gml' started.
+SAT
+'grafo1058.14.gml' stopped. Elapsed time: 0.0554 seconds.
+------------------------------
+'grafo2850.14.gml' started.
+SAT
+'grafo2850.14.gml' stopped. Elapsed time: 0.0953 seconds.
+------------------------------
+'grafo1912.11.gml' started.
+SAT
+'grafo1912.11.gml' stopped. Elapsed time: 0.0848 seconds.
+------------------------------
+'grafo2525.16.gml' started.
+SAT
+'grafo2525.16.gml' stopped. Elapsed time: 0.1228 seconds.
+------------------------------
+'grafo462.10.gml' started.
+SAT
+'grafo462.10.gml' stopped. Elapsed time: 0.0362 seconds.
+------------------------------
+'grafo702.12.gml' started.
+SAT
+'grafo702.12.gml' stopped. Elapsed time: 0.0583 seconds.
+------------------------------
+'grafo1079.19.gml' started.
+SAT
+'grafo1079.19.gml' stopped. Elapsed time: 0.1075 seconds.
+------------------------------
+'grafo2731.18.gml' started.
+SAT
+'grafo2731.18.gml' stopped. Elapsed time: 0.1640 seconds.
+------------------------------
+'grafo315.14.gml' started.
+SAT
+'grafo315.14.gml' stopped. Elapsed time: 0.0817 seconds.
+------------------------------
+'grafo831.16.gml' started.
+SAT
+'grafo831.16.gml' stopped. Elapsed time: 0.1063 seconds.
+------------------------------
+'grafo340.15.gml' started.
+SAT
+'grafo340.15.gml' stopped. Elapsed time: 0.0898 seconds.
+------------------------------
+'grafo2135.19.gml' started.
+SAT
+'grafo2135.19.gml' stopped. Elapsed time: 0.1693 seconds.
+------------------------------
+'grafo2738.14.gml' started.
+SAT
+'grafo2738.14.gml' stopped. Elapsed time: 0.1592 seconds.
+------------------------------
+'grafo1673.20.gml' started.
+SAT
+'grafo1673.20.gml' stopped. Elapsed time: 0.1584 seconds.
+------------------------------
+'grafo624.17.gml' started.
+SAT
+'grafo624.17.gml' stopped. Elapsed time: 0.1120 seconds.
+------------------------------
+'grafo1961.15.gml' started.
+SAT
+'grafo1961.15.gml' stopped. Elapsed time: 0.0885 seconds.
+------------------------------
+'grafo864.16.gml' started.
+SAT
+'grafo864.16.gml' stopped. Elapsed time: 0.1246 seconds.
+------------------------------
+'grafo2169.15.gml' started.
+SAT
+'grafo2169.15.gml' stopped. Elapsed time: 0.1266 seconds.
+------------------------------
+'grafo1934.14.gml' started.
+SAT
+'grafo1934.14.gml' stopped. Elapsed time: 0.0671 seconds.
+------------------------------
+'grafo1025.15.gml' started.
+SAT
+'grafo1025.15.gml' stopped. Elapsed time: 0.0852 seconds.
+------------------------------
+'grafo2470.16.gml' started.
+SAT
+'grafo2470.16.gml' stopped. Elapsed time: 0.1208 seconds.
+------------------------------
+'grafo2196.16.gml' started.
+SAT
+'grafo2196.16.gml' stopped. Elapsed time: 0.1000 seconds.
+------------------------------
+'grafo2987.17.gml' started.
+SAT
+'grafo2987.17.gml' stopped. Elapsed time: 0.1845 seconds.
+------------------------------
+'grafo1940.18.gml' started.
+SAT
+'grafo1940.18.gml' stopped. Elapsed time: 0.1688 seconds.
+------------------------------
+'grafo1003.11.gml' started.
+SAT
+'grafo1003.11.gml' stopped. Elapsed time: 0.0479 seconds.
+------------------------------
+'grafo268.15.gml' started.
+SAT
+'grafo268.15.gml' stopped. Elapsed time: 0.0792 seconds.
+------------------------------
+'grafo233.11.gml' started.
+SAT
+'grafo233.11.gml' stopped. Elapsed time: 0.0468 seconds.
+------------------------------
+'grafo401.11.gml' started.
+SAT
+'grafo401.11.gml' stopped. Elapsed time: 0.0539 seconds.
+------------------------------
+'grafo2628.10.gml' started.
+SAT
+'grafo2628.10.gml' stopped. Elapsed time: 0.0397 seconds.
+------------------------------
+'grafo2773.14.gml' started.
+SAT
+'grafo2773.14.gml' stopped. Elapsed time: 0.0765 seconds.
+------------------------------
+'grafo1060.11.gml' started.
+SAT
+'grafo1060.11.gml' stopped. Elapsed time: 0.0462 seconds.
+------------------------------
+'grafo387.13.gml' started.
+SAT
+'grafo387.13.gml' stopped. Elapsed time: 0.0754 seconds.
+------------------------------
+'grafo554.10.gml' started.
+SAT
+'grafo554.10.gml' stopped. Elapsed time: 0.0244 seconds.
+------------------------------
+'grafo2591.15.gml' started.
+SAT
+'grafo2591.15.gml' stopped. Elapsed time: 0.1518 seconds.
+------------------------------
+'grafo2413.16.gml' started.
+SAT
+'grafo2413.16.gml' stopped. Elapsed time: 0.1195 seconds.
+------------------------------
+'grafo1132.19.gml' started.
+SAT
+'grafo1132.19.gml' stopped. Elapsed time: 0.1238 seconds.
+------------------------------
+'grafo2626.15.gml' started.
+SAT
+'grafo2626.15.gml' stopped. Elapsed time: 0.1341 seconds.
+------------------------------
+'grafo761.13.gml' started.
+SAT
+'grafo761.13.gml' stopped. Elapsed time: 0.0577 seconds.
+------------------------------
+'grafo985.15.gml' started.
+SAT
+'grafo985.15.gml' stopped. Elapsed time: 0.0981 seconds.
+------------------------------
+'grafo2127.18.gml' started.
+SAT
+'grafo2127.18.gml' stopped. Elapsed time: 0.1949 seconds.
+------------------------------
+'grafo1761.20.gml' started.
+SAT
+'grafo1761.20.gml' stopped. Elapsed time: 0.2150 seconds.
+------------------------------
+'grafo403.14.gml' started.
+SAT
+'grafo403.14.gml' stopped. Elapsed time: 0.0746 seconds.
+------------------------------
+'grafo209.10.gml' started.
+SAT
+'grafo209.10.gml' stopped. Elapsed time: 0.0360 seconds.
+------------------------------
+'grafo923.17.gml' started.
+SAT
+'grafo923.17.gml' stopped. Elapsed time: 0.1493 seconds.
+------------------------------
+'grafo2340.13.gml' started.
+SAT
+'grafo2340.13.gml' stopped. Elapsed time: 0.0736 seconds.
+------------------------------
+'grafo638.12.gml' started.
+SAT
+'grafo638.12.gml' stopped. Elapsed time: 0.0828 seconds.
+------------------------------
+'grafo556.15.gml' started.
+SAT
+'grafo556.15.gml' stopped. Elapsed time: 0.0913 seconds.
+------------------------------
+'grafo2964.11.gml' started.
+SAT
+'grafo2964.11.gml' stopped. Elapsed time: 0.0461 seconds.
+------------------------------
+'grafo738.12.gml' started.
+SAT
+'grafo738.12.gml' stopped. Elapsed time: 0.0582 seconds.
+------------------------------
+'grafo878.13.gml' started.
+SAT
+'grafo878.13.gml' stopped. Elapsed time: 0.0779 seconds.
+------------------------------
+'grafo2917.14.gml' started.
+SAT
+'grafo2917.14.gml' stopped. Elapsed time: 0.0802 seconds.
+------------------------------
+'grafo850.12.gml' started.
+SAT
+'grafo850.12.gml' stopped. Elapsed time: 0.0524 seconds.
+------------------------------
+'grafo2439.12.gml' started.
+SAT
+'grafo2439.12.gml' stopped. Elapsed time: 0.0493 seconds.
+------------------------------
+'grafo1016.18.gml' started.
+SAT
+'grafo1016.18.gml' stopped. Elapsed time: 0.1227 seconds.
+------------------------------
+'grafo2680.17.gml' started.
+SAT
+'grafo2680.17.gml' stopped. Elapsed time: 0.1542 seconds.
+------------------------------
+'grafo2780.17.gml' started.
+SAT
+'grafo2780.17.gml' stopped. Elapsed time: 0.1629 seconds.
+------------------------------
+'grafo805.13.gml' started.
+SAT
+'grafo805.13.gml' stopped. Elapsed time: 0.1320 seconds.
+------------------------------
+'grafo966.13.gml' started.
+SAT
+'grafo966.13.gml' stopped. Elapsed time: 0.0605 seconds.
+------------------------------
+'grafo491.12.gml' started.
+SAT
+'grafo491.12.gml' stopped. Elapsed time: 0.0411 seconds.
+------------------------------
+'grafo1778.15.gml' started.
+SAT
+'grafo1778.15.gml' stopped. Elapsed time: 0.1183 seconds.
+------------------------------
+'grafo1129.15.gml' started.
+SAT
+'grafo1129.15.gml' stopped. Elapsed time: 0.2088 seconds.
+------------------------------
+'grafo2921.15.gml' started.
+SAT
+'grafo2921.15.gml' stopped. Elapsed time: 0.0909 seconds.
+------------------------------
+'grafo933.12.gml' started.
+SAT
+'grafo933.12.gml' stopped. Elapsed time: 0.0407 seconds.
+------------------------------
+'grafo2768.18.gml' started.
+SAT
+'grafo2768.18.gml' stopped. Elapsed time: 0.1735 seconds.
+------------------------------
+'grafo469.18.gml' started.
+SAT
+'grafo469.18.gml' stopped. Elapsed time: 0.1383 seconds.
+------------------------------
+'grafo1108.18.gml' started.
+SAT
+'grafo1108.18.gml' stopped. Elapsed time: 0.1874 seconds.
+------------------------------
+'grafo1787.16.gml' started.
+SAT
+'grafo1787.16.gml' stopped. Elapsed time: 0.0948 seconds.
+------------------------------
+'grafo2640.19.gml' started.
+SAT
+'grafo2640.19.gml' stopped. Elapsed time: 0.2405 seconds.
+------------------------------
+'grafo840.17.gml' started.
+SAT
+'grafo840.17.gml' stopped. Elapsed time: 0.1167 seconds.
+------------------------------
+'grafo2118.15.gml' started.
+SAT
+'grafo2118.15.gml' stopped. Elapsed time: 0.0720 seconds.
+------------------------------
+'grafo2715.18.gml' started.
+SAT
+'grafo2715.18.gml' stopped. Elapsed time: 0.1380 seconds.
+------------------------------
