@@ -1,4 +1,5 @@
 import re
+import numpy as np
 import matplotlib.pyplot as plt
 from helpers import rome_graphs
 
@@ -90,5 +91,45 @@ def plot_time_vs_size(node_model_results, combined_model_results, graph_stats):
     # plt.show()
     plt.savefig("time_vs_density_scatter.pdf", format="pdf", bbox_inches="tight")
 
+def compute_mean_time_per_n(results, graph_stats):
+    """Compute the mean elapsed time for each unique n value."""
+    time_by_n = {}
+    
+    for graph, data in results.items():
+        if data['time_s'] is not None and graph in graph_stats:
+            n = graph_stats[graph]['n']
+            if n not in time_by_n:
+                time_by_n[n] = []
+            time_by_n[n].append(data['time_s'])
+    
+    unique_ns = sorted(time_by_n.keys())
+    mean_times = [np.mean(time_by_n[n]) for n in unique_ns]
+    
+    return unique_ns, mean_times
+
+def plot_time_vs_node(node_model_results, combined_model_results, graph_stats):
+    """Plot mean elapsed time vs. number of nodes (n) for both models."""
+    node_ns, node_mean_times = compute_mean_time_per_n(node_model_results, graph_stats)
+    combined_ns, combined_mean_times = compute_mean_time_per_n(combined_model_results, graph_stats)
+    
+    plt.figure(figsize=(8, 6))
+    
+    # Line plot for Node Model
+    plt.plot(node_ns, node_mean_times, label='Node Model', marker='o', linestyle='-', color='blue')
+    
+    # Line plot for Combined Model
+    plt.plot(combined_ns, combined_mean_times, label='Combined Model', marker='s', linestyle='-', color='red')
+    
+    # Labels, title, and legend
+    plt.xlabel("Number of Nodes (n)")
+    plt.ylabel("Mean Time (seconds)")
+    plt.title("Mean Time vs. Number of Nodes (n)")
+    plt.legend()
+    
+    # Show the plot
+    # plt.savefig("time_vs_nodes_mean.pdf", format="pdf", bbox_inches="tight")
+    plt.show()
+
 # Example usage
-plot_time_vs_size(node_model_results, combined_model_results, graph_stats)
+# plot_time_vs_size(node_model_results, combined_model_results, graph_stats)
+plot_time_vs_node(node_model_results, combined_model_results, graph_stats)
