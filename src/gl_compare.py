@@ -1,4 +1,5 @@
 import re
+import csv
 import numpy as np
 import matplotlib.pyplot as plt
 from helpers import rome_graphs
@@ -107,18 +108,70 @@ def compute_mean_time_per_n(results, graph_stats):
     
     return unique_ns, mean_times
 
-def plot_time_vs_node(node_model_results, combined_model_results, graph_stats):
-    """Plot mean elapsed time vs. number of nodes (n) for both models."""
+def parse_csv(file_path):
+    """Parse the CSV file containing SAT solver execution times."""
+    sat_results = {}
+    
+    with open(file_path, 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            command = row['command']
+            graph_name = command.split('/')[-1].replace('.cnf', '')  # Extract graph name
+            mean_time = float(row['mean'])
+            
+            sat_results[graph_name] = mean_time
+    
+    return sat_results
+
+def compute_mean_time_per_n(results, graph_stats):
+    """Compute the mean elapsed time for each unique n value."""
+    time_by_n = {}
+    
+    for graph, data in results.items():
+        if data['time_s'] is not None and graph in graph_stats:
+            n = graph_stats[graph]['n']
+            if n not in time_by_n:
+                time_by_n[n] = []
+            time_by_n[n].append(data['time_s'])
+    
+    unique_ns = sorted(time_by_n.keys())
+    mean_times = [np.mean(time_by_n[n]) for n in unique_ns]
+    
+    return unique_ns, mean_times
+
+def compute_mean_sat_time_per_n(sat_results, graph_stats):
+    """Compute the mean SAT solver execution time for each unique n value."""
+    time_by_n = {}
+    
+    for graph, mean_time in sat_results.items():
+        graph = graph[3:]
+        if graph in graph_stats:
+            n = graph_stats[graph]['n']
+            if n not in time_by_n:
+                time_by_n[n] = []
+            time_by_n[n].append(mean_time)
+    
+    unique_ns = sorted(time_by_n.keys())
+    mean_times = [np.mean(time_by_n[n]) for n in unique_ns]
+    
+    return unique_ns, mean_times
+
+def plot_time_vs_node(node_model_results, combined_model_results, sat_results, graph_stats):
+    """Plot mean elapsed time vs. number of nodes (n) for both models and SAT solver."""
     node_ns, node_mean_times = compute_mean_time_per_n(node_model_results, graph_stats)
     combined_ns, combined_mean_times = compute_mean_time_per_n(combined_model_results, graph_stats)
+    sat_ns, sat_mean_times = compute_mean_sat_time_per_n(sat_results, graph_stats)
     
     plt.figure(figsize=(8, 6))
     
     # Line plot for Node Model
-    plt.plot(node_ns, node_mean_times, label='Node Model', marker='o', linestyle='-', color='blue')
+    plt.plot(node_ns, node_mean_times, label='Node CP', marker='o', linestyle='-', color='blue')
     
     # Line plot for Combined Model
-    plt.plot(combined_ns, combined_mean_times, label='Combined Model', marker='s', linestyle='-', color='red')
+    plt.plot(combined_ns, combined_mean_times, label='Combined CP', marker='s', linestyle='-', color='red')
+    
+    # Line plot for SAT solver
+    plt.plot(sat_ns, sat_mean_times, label='SAT', marker='^', linestyle='-', color='green')
     
     # Labels, title, and legend
     plt.xlabel("Number of Nodes (n)")
@@ -127,9 +180,9 @@ def plot_time_vs_node(node_model_results, combined_model_results, graph_stats):
     plt.legend()
     
     # Show the plot
-    # plt.savefig("time_vs_nodes_mean.pdf", format="pdf", bbox_inches="tight")
-    plt.show()
+    plt.savefig("time_vs_nodes_mean.pdf", format="pdf", bbox_inches="tight")
+    # plt.show()
 
 # Example usage
-# plot_time_vs_size(node_model_results, combined_model_results, graph_stats)
-plot_time_vs_node(node_model_results, combined_model_results, graph_stats)
+sat_results = parse_csv("./GL_benchmarks/bench_rome_gl_sat1_hyperfine.csv")
+plot_time_vs_node(node_model_results, combined_model_results, sat_results, graph_stats)
