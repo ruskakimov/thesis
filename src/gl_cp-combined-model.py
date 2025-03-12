@@ -73,14 +73,14 @@ def solve_graceful_labeling_combined(n, edges):
 
 i = 1
 
+# TODO: Is this really correct? Go over solutions and check if they are correct
 for G in rome_graphs():
     n = G.number_of_nodes()
-    if n <= 20:
-        print(f"Working on graph {i}", file=sys.stderr)
-        i += 1
-        nodes = list(G.nodes())
-        edges = [(nodes.index(u), nodes.index(v)) for u,v in G.edges()]
-        T.start(G.name)
-        solve_graceful_labeling_combined(n, edges)
-        T.stop(G.name)
-        print('-' * 30)
+    print(f"Working on graph {i}", file=sys.stderr)
+    i += 1
+    nodes = list(G.nodes())
+    edges = [(nodes.index(u), nodes.index(v)) for u,v in G.edges()]
+    T.start(G.name)
+    solve_graceful_labeling_combined(n, edges)
+    T.stop(G.name)
+    print('-' * 30)

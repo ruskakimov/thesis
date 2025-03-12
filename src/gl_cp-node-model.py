@@ -58,7 +58,7 @@ i = 1
 
 for G in rome_graphs():
     n = G.number_of_nodes()
-    if n <= 20:
+    if n == 100:
         print(f"Working on graph {i}", file=sys.stderr)
         i += 1
         nodes = list(G.nodes())
