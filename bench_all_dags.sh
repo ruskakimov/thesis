@@ -1,36 +1,26 @@
 #!/bin/bash
 
-# Output CSV file
-output="bench_rome_gl_sat1_results.csv"
+# Print the table header
+echo "Filename | Processing Time"
+echo "-----------------------------------------"
 
-# Write CSV header
-echo "name,time_seconds,result" > "$output"
+n=5
+output=all_dags_$n\_bench_hyperfine.csv
 
-# Loop through all CNF files in ./cnf/rome_GL_SAT1
-for file in ./cnf/rome_GL_SAT1/*.cnf; do
-    echo "Processing file: $file"
+echo "command,mean,stddev,median,user,system,min,max" > $output
 
-    # Record start time in seconds with nanosecond precision
-    start=$(date +%s.%N)
-    
-    # Run kissat and capture its output
-    solver_output=$(./solvers/kissat-4.0.1-apple-amd64 -q "$file")
-    
-    # Record end time
-    end=$(date +%s.%N)
-    
-    # Compute elapsed time using bc for floating point arithmetic
-    elapsed=$(echo "$end - $start" | bc)
-    
-    # Determine result from solver output
-    if echo "$solver_output" | grep -q "UNSATISFIABLE"; then
-        result="UNSAT"
-    elif echo "$solver_output" | grep -q "SATISFIABLE"; then
-        result="SAT"
-    else
-        result="UNKNOWN"
-    fi
+# Loop through all CNF files in ./cnf/north_SAT1
+for file in ./cnf/all_dags_$n/*.cnf
+do
+    printf "Running for file: %s\n" "$file"
 
-    # Append file name (basename), time, and result to the CSV
-    echo "$(basename "$file"),$elapsed,$result" >> "$output"
+    hyperfine --warmup 1 -i --time-unit second --runs 10 --export-csv temp.csv "./solvers/kissat-4.0.1-apple-amd64 -q $file"
+
+    tail -n +2 temp.csv >> $output  # Append results without header
+
+    echo "-----------------------------------------"
+
+# Cleanup
+rm temp.csv
+
 done

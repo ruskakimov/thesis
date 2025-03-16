@@ -6,6 +6,9 @@ from pysat.solvers import Solver
 from helpers import T, write_cnf
 from encoders import encode_2UBE
 
+# Expected counts from OEIS A003024
+correct_counts = [1, 1, 3, 25, 543, 29281, 3781503, 1138779265, 783702329343]
+
 def generate_all_dags(n=3):
     nodes = list(range(n))
     all_possible_edges = [(u, v) for u in nodes for v in nodes if u != v]  # Allow any direction
@@ -13,6 +16,7 @@ def generate_all_dags(n=3):
     dags = []
     
     for edge_subset in itertools.chain.from_iterable(itertools.combinations(all_possible_edges, r) for r in range(len(all_possible_edges) + 1)):
+        print(f"{len(dags) / correct_counts[n] * 100}%", file=sys.stderr)
         G = nx.DiGraph()
         G.add_nodes_from(nodes)
         G.add_edges_from(edge_subset)
@@ -25,16 +29,13 @@ def generate_all_dags(n=3):
     
     return dags
 
-# Expected counts from OEIS A003024
-correct_counts = [1, 1, 3, 25, 543, 29281, 3781503, 1138779265, 783702329343]
-
 def solve(cnf):
     with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
         result = solver.solve()
         model = solver.get_model() if result else None
         return (result, model)
 
-n = 5
+n = 6
 dags = generate_all_dags(n)
 print(f"Generated {len(dags)} DAGs with {n} nodes.", file=sys.stderr)
 print(f"Matches {correct_counts[n]}:", len(dags) == correct_counts[n], file=sys.stderr)
