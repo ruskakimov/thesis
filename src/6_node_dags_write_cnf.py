@@ -51,8 +51,10 @@ for G in dags:
 
     # T.start(G.name)
     
+    n = G.number_of_nodes()
+    m = G.number_of_edges()
     cnf = encode_2UBE(G)
-    write_cnf(cnf, cnf_dir / f'all_dags_{n}' / f'{i}.cnf')
+    write_cnf(cnf, cnf_dir / f'all_dags_{n}' / f'{i}.{n}.{m}.cnf')
     
     # T.stop(G.name)
 
