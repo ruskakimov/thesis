@@ -20,6 +20,7 @@ def generate_all_dags(n=3):
         if nx.is_directed_acyclic_graph(G):  # Ensure the graph is a DAG
             hash = frozenset(edge_subset)  # Use a hashable form to store unique DAGs
             if hash not in dag_hashes:
+                print(f"{len(dags) / correct_counts[n] * 100}%", file=sys.stderr)
                 dag_hashes.add(hash)
                 dags.append(G)
     
@@ -59,7 +60,7 @@ for G in dags:
     times = []
     result, _ = solve(cnf)
 
-    for j in range(10):
+    for j in range(30):
         T.start('solve')
         solve(cnf)
         times.append(T.stop('solve'))

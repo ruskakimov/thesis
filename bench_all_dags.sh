@@ -5,6 +5,8 @@ output=all_dags_$n\_bench_hyperfine.csv
 
 echo "command,mean,stddev,median,user,system,min,max" > $output
 
+counter=1
+
 # Loop through all CNF files in ./cnf/north_SAT1
 for file in ./cnf/all_dags_$n/*.cnf
 do
@@ -14,6 +16,8 @@ do
 
     tail -n +2 temp.csv >> $output  # Append results without header
 
+    echo "$counter done"
+    ((counter++))
     echo "-----------------------------------------"
 
 # Cleanup
