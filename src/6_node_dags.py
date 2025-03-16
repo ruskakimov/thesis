@@ -43,7 +43,7 @@ i = 0
 
 cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
 
-print('n, m, time(s)')
+print('n,m,time(s),sat')
 
 for G in dags:
     i += 1
@@ -57,12 +57,12 @@ for G in dags:
     # T.stop(G.name)
 
     T.start('solve')
-    solve(cnf)
+    result, model = solve(cnf)
     solve_time = T.stop('solve')
 
     n = G.number_of_nodes()
     m = G.number_of_edges()
 
-    print(f'{n}, {m}, {solve_time:.9f}')
+    print(f'{n},{m},{solve_time:.9f},{result}')
 
     # print('---')
