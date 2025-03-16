@@ -1,51 +1,46 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
-
-# Scatter plot: Time vs m/n
-def plot_scatter(df):
-    plt.figure(figsize=(8, 5))
-    plt.scatter(df["m/n"], df["time(s)"], alpha=0.5)
-    plt.xlabel("m/n")
-    plt.ylabel("Time (s)")
-    plt.title("Scatter Plot: Time vs m/n")
-    plt.grid()
-    plt.show()
 
 df = pd.read_csv("all_dags_5_bench.csv")
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
 
-# Example usage
+# Scatter plot: Time vs m/n
+def plot_scatter(df):
+    plt.figure(figsize=(8, 5))
+    plt.scatter(df["m/n"], df["time(s)"], alpha=0.1, color='red')
+    plt.xlabel("m/n")
+    plt.ylabel("Time (s)")
+    plt.title("Scatter Plot: Time vs m/n")
+    plt.grid()
+    plt.show()
+
 plot_scatter(df)
 
-mn_res_time = [(entry['m'] / entry['n'], entry['result'], entry['sat2']) for entry in data.values()]
 
-mn_bucket_mid = []
-runtimes = []
 
-r = 1
-step = 0.1
-while r < 2.5 + step:
-    bucket = [time for mn, sat, time in mn_res_time if (r - step) < mn <= r]
-    if len(bucket) == 0:
-        r += step
-        continue
 
-    bucket_mid = r - step/2
-    mean_runtime = sum(bucket) / len(bucket)
-    
-    mn_bucket_mid.append(bucket_mid)
-    runtimes.append(mean_runtime)
 
-    print(f'({r-step:.1f}, {r:.1f}]', f'{mean_runtime:.3f}')
-    r += step
+# Assuming df is your DataFrame
+grouped_mean = df.groupby("m/n")["time(s)"].mean()
+grouped_median = df.groupby("m/n")["time(s)"].median()
 
-plt.plot(mn_bucket_mid, runtimes, color='red', marker='o', linestyle='-', linewidth=3)
+plt.figure(figsize=(8, 5))
+
+# Scatter plot of original data
+plt.scatter(df["m/n"], df["time(s)"], alpha=0.5, color="red", label="Original Data")
+
+# Scatter plot of mean points
+plt.scatter(grouped_mean.index, grouped_mean.values, color="blue", marker="o", s=80, label="Mean")
+
+# Scatter plot of median points
+# plt.scatter(grouped_median.index, grouped_median.values, color="green", marker="D", s=80, label="Median")
+
 plt.xlabel("m/n")
-plt.ylabel("time (seconds)")
-# plt.ylim(0, 1)
-# plt.title(f'bucket size: {step}')
-plt.tight_layout()
+plt.ylabel("Time (s)")
+plt.title("Scatter Plot: Time vs m/n with Mean & Median")
+plt.legend()
+plt.grid(True)
+
 plt.show()

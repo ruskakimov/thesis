@@ -34,7 +34,7 @@ def solve(cnf):
         model = solver.get_model() if result else None
         return (result, model)
 
-n = 5
+n = 4
 dags = generate_all_dags(n)
 print(f"Generated {len(dags)} DAGs with {n} nodes.", file=sys.stderr)
 print(f"Matches {correct_counts[n]}:", len(dags) == correct_counts[n], file=sys.stderr)
