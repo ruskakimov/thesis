@@ -34,7 +34,7 @@ def solve(cnf):
         model = solver.get_model() if result else None
         return (result, model)
 
-n = 4
+n = 5
 dags = generate_all_dags(n)
 print(f"Generated {len(dags)} DAGs with {n} nodes.", file=sys.stderr)
 print(f"Matches {correct_counts[n]}:", len(dags) == correct_counts[n], file=sys.stderr)
@@ -56,13 +56,19 @@ for G in dags:
     
     # T.stop(G.name)
 
-    T.start('solve')
-    result, model = solve(cnf)
-    solve_time = T.stop('solve')
+    times = []
+    result, _ = solve(cnf)
+
+    for j in range(10):
+        T.start('solve')
+        solve(cnf)
+        times.append(T.stop('solve'))
+    
+    mean_solve_time = sum(times) / len(times)
 
     n = G.number_of_nodes()
     m = G.number_of_edges()
 
-    print(f'{n},{m},{solve_time:.9f},{result}')
+    print(f'{n},{m},{mean_solve_time:.9f},{result}')
 
     # print('---')

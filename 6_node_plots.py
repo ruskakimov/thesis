@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("all_dags_5_bench.csv")
+df = pd.read_csv("all_dags_4_bench.csv")
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
