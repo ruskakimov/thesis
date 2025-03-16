@@ -9,6 +9,8 @@ cnf/north_*
 cnf/random_*
 cnf/rome_GL_*
 
+cnf/all_dags_*
+
 ./temp.csv
 
 /dataset/ALF_CU
