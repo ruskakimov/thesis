@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Print the table header
-echo "Filename | Processing Time"
-echo "-----------------------------------------"
-
 n=5
 output=all_dags_$n\_bench_hyperfine.csv
 
