@@ -53,29 +53,13 @@ man_mean_time = [7.702e-05, 5.8549999999999987e-05, 6.029247619047618e-05, 6.554
 
 
 
-# Group by 'm' and calculate the SAT percentage
-sat_percentage = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
-
-# Plotting
-plt.figure(figsize=(8, 5))
-plt.plot(sat_percentage.index, sat_percentage.values, color='royalblue', marker='o', linestyle='-', linewidth=3)
-plt.xlabel('m')
-plt.ylabel('Percentage of SAT (%)')
-plt.title('Percentage of SAT per m')
-# plt.ylim(0, 100)
-plt.xticks(sat_percentage.index)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.show()
 
 
 
 
 
 
-
-
-
-
+# 1) time vs m/n
 # Assuming df is your DataFrame
 # grouped_mean = df.groupby("m/n")["time(s)"].median()
 # # grouped_median = df.groupby("m/n")["time(s)"].median()
@@ -98,3 +82,27 @@ plt.show()
 # plt.grid(True)
 
 # plt.show()
+
+
+
+
+
+
+
+
+
+
+# 2) percentage vs m
+# Group by 'm' and calculate the SAT percentage
+sat_percentage = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+
+# Plotting
+plt.figure(figsize=(8, 5))
+plt.plot(sat_percentage.index, sat_percentage.values, color='royalblue', marker='o', linestyle='-', linewidth=3)
+plt.xlabel('m')
+plt.ylabel('Percentage of SAT (%)')
+plt.title('Percentage of SAT per m')
+# plt.ylim(0, 100)
+plt.xticks(sat_percentage.index)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
