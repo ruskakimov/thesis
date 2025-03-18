@@ -14,3 +14,5 @@ cnf/all_dags_*
 ./temp.csv
 
 /dataset/ALF_CU
+
+all_dags_with_6_nodes.txt

@@ -30,4 +30,4 @@ def generate_all_dags(n=3):
 # Expected counts from OEIS A003024
 correct_counts = [1, 1, 3, 25, 543, 29281, 3781503, 1138779265, 783702329343]
 
-print('Done, generated graphs:', len(generate_all_dags(5)), file=sys.stderr)
+print('Done, generated graphs:', len(generate_all_dags(6)), file=sys.stderr)
