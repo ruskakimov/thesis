@@ -27,12 +27,12 @@ def solve(cnf):
         # model = solver.get_model() if result else None
         return (elapsed_time, result)
 
-RUNS = 100
+RUNS = 30
 
 print('n,m,time(s),sat,median_time(s)')
 
 i = 0
-for G in all_dags(5):
+for G in all_dags(6):
     i += 1
     print(f"Working on graph {i}", file=sys.stderr)
     
