@@ -93,16 +93,32 @@ man_mean_time = [7.702e-05, 5.8549999999999987e-05, 6.029247619047618e-05, 6.554
 
 
 # 2) percentage vs m
-# Group by 'm' and calculate the SAT percentage
-sat_percentage = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+# # Group by 'm' and calculate the SAT percentage
+# m_counts = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
 
-# Plotting
+# # Plotting
+# plt.figure(figsize=(8, 5))
+# plt.plot(m_counts.index, m_counts.values, color='royalblue', marker='o', linestyle='-', linewidth=3)
+# plt.xlabel('m')
+# plt.ylabel('Percentage of SAT (%)')
+# plt.title('Percentage of SAT per m')
+# # plt.ylim(0, 100)
+# plt.xticks(m_counts.index)
+# plt.grid(axis='y', linestyle='--', alpha=0.7)
+# plt.show()
+
+
+
+
+
+
+# 3) graph distribution vs m
+m_counts = df.groupby('m')['sat'].size()
 plt.figure(figsize=(8, 5))
-plt.plot(sat_percentage.index, sat_percentage.values, color='royalblue', marker='o', linestyle='-', linewidth=3)
+plt.bar(m_counts.index, m_counts.values, color='royalblue')
 plt.xlabel('m')
-plt.ylabel('Percentage of SAT (%)')
-plt.title('Percentage of SAT per m')
-# plt.ylim(0, 100)
-plt.xticks(sat_percentage.index)
+plt.ylabel('dag count')
+plt.title('Distribution of DAGs with 6 nodes')
+plt.xticks(m_counts.index)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
