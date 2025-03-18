@@ -2,7 +2,7 @@ from collections import defaultdict
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("all_dags_5_bench_maple_30_runs.csv")
+df = pd.read_csv("all_dags_5_bench_lingeling_100_runs_2.csv")
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
@@ -18,7 +18,7 @@ def plot_scatter(df):
     plt.grid()
     plt.show()
 
-plot_scatter(df)
+# plot_scatter(df)
 
 # print(sorted(df["m/n"].unique()))
 
@@ -61,7 +61,7 @@ man_mean_time = [7.702e-05, 5.8549999999999987e-05, 6.029247619047618e-05, 6.554
 
 # 1) time vs m/n
 grouped_mean = df.groupby("m/n")["time(s)"].mean()
-grouped_median = df.groupby("m/n")["time(s)"].median()
+grouped_median = df.groupby("m/n")["median_time(s)"].mean()
 
 plt.figure(figsize=(8, 5))
 

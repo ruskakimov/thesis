@@ -27,9 +27,9 @@ def solve(cnf):
         # model = solver.get_model() if result else None
         return (elapsed_time, result)
 
-RUNS = 30
+RUNS = 100
 
-print('n,m,time(s),sat')
+print('n,m,time(s),sat,median_time(s)')
 
 i = 0
 for G in all_dags(5):
@@ -46,10 +46,10 @@ for G in all_dags(5):
         times.append(t)
     
     mean_solve_time = sum(times) / len(times)
-    # times.sort()
-    # median_solve_time = times[len(times) // 2]
+    times.sort()
+    median_solve_time = times[len(times) // 2]
 
     n = G.number_of_nodes()
     m = G.number_of_edges()
 
-    print(f'{n},{m},{mean_solve_time:.9f},{result}')
+    print(f'{n},{m},{mean_solve_time:.9f},{result},{median_solve_time:.9f}')
