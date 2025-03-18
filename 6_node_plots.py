@@ -2,7 +2,7 @@ from collections import defaultdict
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("all_dags_6_bench.csv")
+df = pd.read_csv("all_dags_5_bench_maple_30_runs.csv")
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
@@ -18,7 +18,7 @@ def plot_scatter(df):
     plt.grid()
     plt.show()
 
-# plot_scatter(df)
+plot_scatter(df)
 
 # print(sorted(df["m/n"].unique()))
 
@@ -60,28 +60,27 @@ man_mean_time = [7.702e-05, 5.8549999999999987e-05, 6.029247619047618e-05, 6.554
 
 
 # 1) time vs m/n
-# Assuming df is your DataFrame
-# grouped_mean = df.groupby("m/n")["time(s)"].median()
-# # grouped_median = df.groupby("m/n")["time(s)"].median()
+grouped_mean = df.groupby("m/n")["time(s)"].mean()
+grouped_median = df.groupby("m/n")["time(s)"].median()
 
-# plt.figure(figsize=(8, 5))
+plt.figure(figsize=(8, 5))
 
-# # Scatter plot of original data
-# # plt.scatter(df["m/n"], df["time(s)"], alpha=0.5, color="red", label="Original Data")
+# Scatter plot of original data
+# plt.scatter(df["m/n"], df["time(s)"], alpha=0.5, color="red", label="Original Data")
 
-# # Scatter plot of mean points
-# plt.plot(grouped_mean.index, grouped_mean.values, color='red', marker='o', linestyle='-', linewidth=3)
+# Scatter plot of mean points
+plt.plot(grouped_mean.index, grouped_mean.values, color='red', marker='o', linestyle='-', linewidth=3, label="Mean")
 
-# # Scatter plot of median points
-# # plt.scatter(grouped_median.index, grouped_median.values, color="green", marker="D", s=80, label="Median")
+# Scatter plot of median points
+# plt.plot(grouped_median.index, grouped_median.values, color="green", marker="D", linestyle='-', linewidth=3, label="Median")
 
-# plt.xlabel("m/n")
-# plt.ylabel("median time (s)")
-# plt.title("median time vs m/n")
-# # plt.legend()
-# plt.grid(True)
+plt.xlabel("m/n")
+plt.ylabel("mean time (s)")
+plt.title("mean time vs m/n")
+plt.legend()
+plt.grid(True)
 
-# plt.show()
+plt.show()
 
 
 
@@ -113,12 +112,12 @@ man_mean_time = [7.702e-05, 5.8549999999999987e-05, 6.029247619047618e-05, 6.554
 
 
 # 3) graph distribution vs m
-m_counts = df.groupby('m')['sat'].size()
-plt.figure(figsize=(8, 5))
-plt.bar(m_counts.index, m_counts.values, color='royalblue')
-plt.xlabel('m')
-plt.ylabel('dag count')
-plt.title('Distribution of DAGs with 6 nodes')
-plt.xticks(m_counts.index)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.show()
+# m_counts = df.groupby('m')['sat'].size()
+# plt.figure(figsize=(8, 5))
+# plt.bar(m_counts.index, m_counts.values, color='royalblue')
+# plt.xlabel('m')
+# plt.ylabel('dag count')
+# plt.title('Distribution of DAGs with 6 nodes')
+# plt.xticks(m_counts.index)
+# plt.grid(axis='y', linestyle='--', alpha=0.7)
+# plt.show()
