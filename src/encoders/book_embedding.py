@@ -243,12 +243,16 @@ def decode_book_embedding(graph, P, solution):
     print()
     
     print('Edge to page assignment:')
+    by_pages = [[] for _ in range(P)]
     for i in range(M):
         pages = [f'p{p}' for p in range(P) if value_of[EP(i, p)]]
         pages_str = ', '.join(pages)
         u, v = edges[i]
         print(f'e{i} (v{u}, v{v}) - {pages_str}')
+        by_pages[int(pages_str[1:])].append((u,v))
     # print()
+
+    return (vertices, by_pages)
     
     # print('Edge is on the same page with:')
     # for i in range(M):

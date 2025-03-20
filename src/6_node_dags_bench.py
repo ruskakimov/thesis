@@ -5,7 +5,7 @@ from pathlib import Path
 import networkx as nx
 from pysat.solvers import Solver
 from helpers import T
-from encoders import encode_2UBE, encode_book_embedding
+from encoders import encode_2UBE, encode_book_embedding, encode_upward_book_embedding
 
 def all_dags(n):
     with open(f'./src/all_dags_with_{n}_nodes.txt', 'r') as file:
@@ -37,7 +37,7 @@ for G in all_dags(6):
     print(f"Working on graph {i}", file=sys.stderr)
     
     # cnf = encode_2UBE(G)
-    cnf = encode_book_embedding(G, 3)
+    cnf = encode_upward_book_embedding(G, 3)
 
     times = []
     _, result = solve(cnf)
