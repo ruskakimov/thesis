@@ -1,6 +1,7 @@
 from collections import defaultdict
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 df = pd.read_csv("all_dags_6_bench_lingeling_10_runs_sat1.csv")
 
@@ -56,7 +57,7 @@ man_mean_time = [7.702e-05, 5.8549999999999987e-05, 6.029247619047618e-05, 6.554
 
 
 
-
+plt.rcParams.update({'font.size': 18})
 
 
 # 1) time vs m/n
@@ -75,11 +76,13 @@ plt.plot(grouped_mean.index, grouped_mean.values, color='red', marker='o', lines
 # plt.plot(grouped_median.index, grouped_median.values, color="green", marker="D", linestyle='-', linewidth=3, label="Median")
 
 plt.xlabel("m/n")
-plt.ylabel("mean time (s)")
-plt.title("mean time vs m/n")
-plt.legend()
+plt.ylabel("time (seconds)")
+# plt.title("mean time vs m/n")
+# plt.legend()
+plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1e'))
 plt.grid(True)
-
+plt.tight_layout()
+plt.savefig("PT_plots/all_6_node_sat1___mean_time_vs_mn.pdf")
 plt.show()
 
 
