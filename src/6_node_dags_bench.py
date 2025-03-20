@@ -27,17 +27,17 @@ def solve(cnf):
         # model = solver.get_model() if result else None
         return (elapsed_time, result)
 
-RUNS = 1
+RUNS = 10
 
 print('n,m,time(s),sat,median_time(s)')
 
 i = 0
-for G in all_dags(6):
+for G in all_dags(5):
     i += 1
     print(f"Working on graph {i}", file=sys.stderr)
     
     # cnf = encode_2UBE(G)
-    cnf = encode_upward_book_embedding(G, 3)
+    cnf = encode_upward_book_embedding(G, 2)
 
     times = []
     _, result = solve(cnf)
