@@ -82,7 +82,7 @@ plt.ylabel("time (seconds)")
 plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1e'))
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("PT_plots/all_5_node_sat1___mean_time_vs_mn.pdf")
+# plt.savefig("PT_plots/all_5_node_sat1___mean_time_vs_mn.pdf")
 plt.show()
 
 
