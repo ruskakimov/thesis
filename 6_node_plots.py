@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
-df = pd.read_csv("all_dags_6_bench_lingeling_10_runs_sat1.csv")
+df = pd.read_csv("all_dags_5_bench_lingeling_10_runs_sat1.csv")
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
@@ -82,7 +82,7 @@ plt.ylabel("time (seconds)")
 plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1e'))
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("PT_plots/all_6_node_sat1___mean_time_vs_mn.pdf")
+plt.savefig("PT_plots/all_5_node_sat1___mean_time_vs_mn.pdf")
 plt.show()
 
 
