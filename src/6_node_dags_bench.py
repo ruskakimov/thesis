@@ -32,7 +32,7 @@ RUNS = 10
 print('n,m,time(s),sat,median_time(s)')
 
 i = 0
-for G in all_dags(5):
+for G in all_dags(6):
     i += 1
     print(f"Working on graph {i}", file=sys.stderr)
     
