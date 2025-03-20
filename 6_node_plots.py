@@ -2,7 +2,7 @@ from collections import defaultdict
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("all_dags_5_bench_lingeling_10_runs_sat1.csv")
+df = pd.read_csv("all_dags_5_bench_lingeling_10_runs_sat1_2.csv")
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
