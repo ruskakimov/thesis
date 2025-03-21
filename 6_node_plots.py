@@ -1,12 +1,15 @@
+from pathlib import Path
 from collections import defaultdict
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
-df = pd.read_csv("all_dags_5_bench_lingeling_10_runs_sat1.csv")
+df = pd.read_csv(Path("./PT/bench/n6_1page___sat1_lingeling_1_run.csv"))
+df2 = pd.read_csv(Path("./PT/bench/n6_2page___sat1_lingeling_10_runs.csv"))
 
 # Compute m/n ratio
 df["m/n"] = df["m"] / df["n"]
+df2["m/n"] = df2["m"] / df2["n"]
 # df["m/n"] = df["m/n"].round(4)
 
 # Scatter plot: Time vs m/n
@@ -61,29 +64,31 @@ plt.rcParams.update({'font.size': 18})
 
 
 # 1) time vs m/n
-grouped_mean = df.groupby("m/n")["time(s)"].mean()
-# grouped_median = df.groupby("m/n")["time(s)"].median()
+# grouped_mean = df.groupby("m/n")["time(s)"].mean()
+# grouped_mean2 = df2.groupby("m/n")["time(s)"].mean()
+# # grouped_median = df.groupby("m/n")["time(s)"].median()
 
-plt.figure(figsize=(8, 5))
+# plt.figure(figsize=(8, 5))
 
-# Scatter plot of original data
-# plt.scatter(df["m/n"], df["time(s)"], alpha=0.5, color="red", label="Original Data")
+# # Scatter plot of original data
+# # plt.scatter(df["m/n"], df["time(s)"], alpha=0.5, color="red", label="Original Data")
 
-# Scatter plot of mean points
-plt.plot(grouped_mean.index, grouped_mean.values, color='red', marker='o', linestyle='-', linewidth=3, label="Mean")
+# # Scatter plot of mean points
+# plt.plot(grouped_mean.index, grouped_mean.values, color='red', marker='o', linestyle='-', linewidth=3, label="Mean")
+# plt.plot(grouped_mean2.index, grouped_mean2.values, color='blue', marker='o', linestyle='-', linewidth=3, label="Mean")
 
-# Scatter plot of median points
-# plt.plot(grouped_median.index, grouped_median.values, color="green", marker="D", linestyle='-', linewidth=3, label="Median")
+# # Scatter plot of median points
+# # plt.plot(grouped_median.index, grouped_median.values, color="green", marker="D", linestyle='-', linewidth=3, label="Median")
 
-plt.xlabel("m/n")
-plt.ylabel("time (seconds)")
-# plt.title("mean time vs m/n")
-# plt.legend()
-plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1e'))
-plt.grid(True)
-plt.tight_layout()
-# plt.savefig("PT_plots/all_5_node_sat1___mean_time_vs_mn.pdf")
-plt.show()
+# plt.xlabel("m/n")
+# plt.ylabel("time (seconds)")
+# # plt.title("mean time vs m/n")
+# # plt.legend()
+# plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1e'))
+# plt.grid(True)
+# plt.tight_layout()
+# # plt.savefig("PT_plots/all_5_node_sat1___mean_time_vs_mn.pdf")
+# plt.show()
 
 
 
@@ -95,19 +100,24 @@ plt.show()
 
 
 # 2) percentage vs m
-# # Group by 'm' and calculate the SAT percentage
-# m_counts = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+# Group by 'm' and calculate the SAT percentage
+m_counts = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+m_counts2 = df2.groupby('m')['sat'].mean() * 100
 
-# # Plotting
-# plt.figure(figsize=(8, 5))
-# plt.plot(m_counts.index, m_counts.values, color='royalblue', marker='o', linestyle='-', linewidth=3)
-# plt.xlabel('m')
-# plt.ylabel('Percentage of SAT (%)')
-# plt.title('Percentage of SAT per m')
-# # plt.ylim(0, 100)
-# plt.xticks(m_counts.index)
-# plt.grid(axis='y', linestyle='--', alpha=0.7)
-# plt.show()
+# Plotting
+plt.figure(figsize=(8, 5))
+plt.plot(m_counts.index, m_counts.values, color='orange', marker='o', linestyle='-', linewidth=3, label='1UBE')
+plt.plot(m_counts2.index, m_counts2.values, color='royalblue', marker='o', linestyle='-', linewidth=3, label='2UBE')
+plt.xlabel('m')
+plt.ylabel('Percentage of SAT (%)')
+# plt.title('Satisfiability for 6-node DAGs')
+# plt.ylim(0, 100)
+plt.xticks(m_counts.index)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.legend()
+plt.tight_layout()
+plt.savefig("PT/plots/all_6_node_sat1___SAT_curve_1_2_page.pdf")
+plt.show()
 
 
 
