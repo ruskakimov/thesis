@@ -20,56 +20,61 @@ def generate_all_dags(n=3):
         if nx.is_directed_acyclic_graph(G):  # Ensure the graph is a DAG
             hash = frozenset(edge_subset)  # Use a hashable form to store unique DAGs
             if hash not in dag_hashes:
-                print(f"{len(dags) / correct_counts[n] * 100}%", file=sys.stderr)
+                # print(f"{len(dags) / correct_counts[n] * 100}%", file=sys.stderr)
                 dag_hashes.add(hash)
                 dags.append(G)
+            else:
+                print('duplicate', edge_subset)
+                break
     
     return dags
 
-# Expected counts from OEIS A003024
-correct_counts = [1, 1, 3, 25, 543, 29281, 3781503, 1138779265, 783702329343]
+generate_all_dags(5)
 
-def solve(cnf):
-    with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
-        result = solver.solve()
-        model = solver.get_model() if result else None
-        return (result, model)
+# # Expected counts from OEIS A003024
+# correct_counts = [1, 1, 3, 25, 543, 29281, 3781503, 1138779265, 783702329343]
 
-n = 6
-dags = generate_all_dags(n)
-print(f"Generated {len(dags)} DAGs with {n} nodes.", file=sys.stderr)
-print(f"Matches {correct_counts[n]}:", len(dags) == correct_counts[n], file=sys.stderr)
+# def solve(cnf):
+#     with Solver(name='Maplesat', bootstrap_with=cnf) as solver:
+#         result = solver.solve()
+#         model = solver.get_model() if result else None
+#         return (result, model)
 
-i = 0
+# n = 6
+# dags = generate_all_dags(n)
+# print(f"Generated {len(dags)} DAGs with {n} nodes.", file=sys.stderr)
+# print(f"Matches {correct_counts[n]}:", len(dags) == correct_counts[n], file=sys.stderr)
 
-cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
+# i = 0
 
-print('n,m,time(s),sat')
+# cnf_dir = Path(__file__).resolve().parent.parent / 'cnf'
 
-for G in dags:
-    i += 1
-    print(f"Working on graph {i}", file=sys.stderr)
+# print('n,m,time(s),sat')
 
-    # T.start(G.name)
+# for G in dags:
+#     i += 1
+#     print(f"Working on graph {i}", file=sys.stderr)
+
+#     # T.start(G.name)
     
-    cnf = encode_2UBE(G)
-    # write_cnf(cnf, cnf_dir / 'all_dags' / f'{G.name}.cnf')
+#     cnf = encode_2UBE(G)
+#     # write_cnf(cnf, cnf_dir / 'all_dags' / f'{G.name}.cnf')
     
-    # T.stop(G.name)
+#     # T.stop(G.name)
 
-    times = []
-    result, _ = solve(cnf)
+#     times = []
+#     result, _ = solve(cnf)
 
-    # for j in range(5):
-    T.start('solve')
-    solve(cnf)
-    times.append(T.stop('solve'))
+#     # for j in range(5):
+#     T.start('solve')
+#     solve(cnf)
+#     times.append(T.stop('solve'))
     
-    mean_solve_time = sum(times) / len(times)
+#     mean_solve_time = sum(times) / len(times)
 
-    n = G.number_of_nodes()
-    m = G.number_of_edges()
+#     n = G.number_of_nodes()
+#     m = G.number_of_edges()
 
-    print(f'{n},{m},{mean_solve_time:.9f},{result}')
+#     print(f'{n},{m},{mean_solve_time:.9f},{result}')
 
-    # print('---')
+#     # print('---')

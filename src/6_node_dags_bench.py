@@ -27,7 +27,7 @@ def solve(cnf):
         # model = solver.get_model() if result else None
         return (elapsed_time, result)
 
-RUNS = 10
+RUNS = 1
 
 print('n,m,time(s),sat,median_time(s)')
 
@@ -37,7 +37,7 @@ for G in all_dags(6):
     print(f"Working on graph {i}", file=sys.stderr)
     
     # cnf = encode_2UBE(G)
-    cnf = encode_upward_book_embedding(G, 2)
+    cnf = encode_upward_book_embedding(G, 1)
 
     times = []
     _, result = solve(cnf)
