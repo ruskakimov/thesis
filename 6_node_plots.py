@@ -4,8 +4,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
-df = pd.read_csv(Path("./PT/bench/n3_k1___lingeling_10_runs.csv"))
-# df2 = pd.read_csv(Path("./PT/bench/n4_k2___lingeling_10_runs.csv"))
+df_n6_k1 = pd.read_csv(Path("./PT/bench/n6_k1___lingeling_1_run.csv"))
+df_n6_k2 = pd.read_csv(Path("./PT/bench/n6_k2___lingeling_10_runs.csv"))
+
+df_n5_k1 = pd.read_csv(Path("./PT/bench/n5_k1___lingeling_10_runs.csv"))
+df_n5_k2 = pd.read_csv(Path("./PT/bench/n5_k2___lingeling_10_runs.csv"))
+
+df_n4_k1 = pd.read_csv(Path("./PT/bench/n4_k1___lingeling_10_runs.csv"))
 
 # Compute m/n ratio
 # df["m/n"] = df["m"] / df["n"]
@@ -60,7 +65,7 @@ df = pd.read_csv(Path("./PT/bench/n3_k1___lingeling_10_runs.csv"))
 
 
 
-plt.rcParams.update({'font.size': 18})
+plt.rcParams.update({'font.size': 14})
 
 
 # 1) time vs m/n
@@ -108,26 +113,39 @@ k_colours = [
     "#17becf",  # Cyan
 ]
 
-
+k1_col = k_colours[0]
+k2_col = k_colours[1]
 
 # 2) percentage vs m
 # Group by 'm' and calculate the SAT percentage
-m_counts = df.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+n6_k1 = df_n6_k1.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+n6_k2 = df_n6_k2.groupby('m')['sat'].mean() * 100
+
+n5_k1 = df_n5_k1.groupby('m')['sat'].mean() * 100
+n5_k2 = df_n5_k2.groupby('m')['sat'].mean() * 100
+
+n4_k1 = df_n4_k1.groupby('m')['sat'].mean() * 100
 # m_counts2 = df2.groupby('m')['sat'].mean() * 100
 
 # Plotting
-plt.figure(figsize=(8, 5))
-plt.plot(m_counts.index, m_counts.values, color=k_colours[0], marker='o', linestyle='-', linewidth=3, label='1UBE')
+plt.figure(figsize=(8, 3))
+plt.plot(n6_k1.index, n6_k1.values, color=k1_col, marker='o', linestyle='-', linewidth=1, label='n=6, k=1')
+plt.plot(n6_k2.index, n6_k2.values, color=k2_col, marker='o', linestyle='-', linewidth=1, label='n=6, k=2')
+
+plt.plot(n5_k1.index, n5_k1.values, color=k1_col, marker='x', linestyle='--', linewidth=1, label='n=5, k=1')
+plt.plot(n5_k2.index, n5_k2.values, color=k2_col, marker='x', linestyle='--', linewidth=1, label='n=5, k=2')
+
+plt.plot(n4_k1.index, n4_k1.values, color=k1_col, marker='^', linestyle=':', linewidth=1, label='n=4, k=1')
 # plt.plot(m_counts2.index, m_counts2.values, color=k_colours[1], marker='o', linestyle='-', linewidth=3, label='2UBE')
 plt.xlabel('m')
-plt.ylabel('Percentage of SAT (%)')
+plt.ylabel('satisfiable (%)')
 # plt.title('Satisfiability for 6-node DAGs')
 # plt.ylim(0, 100)
-plt.xticks(m_counts.index)
+plt.xticks(n6_k1.index)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.legend()
 plt.tight_layout()
-plt.savefig("PT/plots/sat_curves_n3.pdf")
+plt.savefig("PT/plots/sat_curves_n4-6.pdf")
 plt.show()
 
 
