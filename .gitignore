@@ -16,3 +16,5 @@ cnf/all_dags_*
 /dataset/ALF_CU
 
 all_dags_with_6_nodes.txt
+all_dags_6_*
+/PT/bench/*
