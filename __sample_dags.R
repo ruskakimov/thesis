@@ -2,10 +2,10 @@ library(unifDAG)
 
 # Range of n values
 n_values <- 7:20
-num_samples <- 1000
+num_samples <- 10000
 
 for (n in n_values) {
-  output_file <- sprintf("uniform_n%d_1000_dags.txt", n)
+  output_file <- sprintf("uniform_n%d_%d_dags.txt", n, num_samples)
   file_conn <- file(output_file, open = "w")
 
   cat(sprintf("Generating %d DAGs for n = %d → %s\n", num_samples, n, output_file))
