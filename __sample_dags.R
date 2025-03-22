@@ -5,7 +5,7 @@ n_values <- 7:20
 num_samples <- 10000
 
 for (n in n_values) {
-  output_file <- sprintf("uniform_n%d_%d_dags.txt", n, num_samples)
+  output_file <- sprintf("n%d_%d_dags.txt", n, num_samples)
   file_conn <- file(output_file, open = "w")
 
   cat(sprintf("Generating %d DAGs for n = %d → %s\n", num_samples, n, output_file))
