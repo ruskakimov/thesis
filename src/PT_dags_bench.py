@@ -10,7 +10,7 @@ from helpers import T
 from encoders import encode_2UBE, encode_book_embedding, encode_upward_book_embedding
 
 def dags(n):
-    filepath = f'./PT/dags/uniform_n{n}_1000_dags.txt'
+    filepath = f'./PT/dags/n{n}_100_per_m.txt'
     if not os.path.exists(filepath):
         print(f"Warning: File {filepath} not found.", file=sys.stderr)
         return []
@@ -30,7 +30,7 @@ def solve(cnf):
         elapsed_time = time.perf_counter() - start
         return elapsed_time, result
 
-RUNS = 10
+RUNS = 1
 
 def run_benchmarks():
     output_dir = Path("./PT/bench/")
@@ -38,7 +38,7 @@ def run_benchmarks():
     
     for n in range(7, 21):  # n = 7 to 20
         for k in range(1, math.ceil(n / 2)):  # k = 1 to ceil(n/2)-1
-            output_file = output_dir / f"n{n}_k{k}___{RUNS}_runs.csv"
+            output_file = output_dir / f"n{n}_k{k}___{RUNS}_run_eq_m_bins.csv"
             
             with open(output_file, 'w') as f:
                 f.write('n,m,time(s),sat,median_time(s)\n')
