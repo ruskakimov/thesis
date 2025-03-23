@@ -4,13 +4,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
-df_n6_k1 = pd.read_csv(Path("./PT/bench/n6_k1___lingeling_1_run.csv"))
-df_n6_k2 = pd.read_csv(Path("./PT/bench/n6_k2___lingeling_10_runs.csv"))
+df = pd.read_csv(Path("./PT/bench/n10_10000_dags.csv"))
+# df_n6_k2 = pd.read_csv(Path("./PT/bench/n6_k2___lingeling_10_runs.csv"))
 
-df_n5_k1 = pd.read_csv(Path("./PT/bench/n5_k1___lingeling_10_runs.csv"))
-df_n5_k2 = pd.read_csv(Path("./PT/bench/n5_k2___lingeling_10_runs.csv"))
+# df_n5_k1 = pd.read_csv(Path("./PT/bench/n5_k1___lingeling_10_runs.csv"))
+# df_n5_k2 = pd.read_csv(Path("./PT/bench/n5_k2___lingeling_10_runs.csv"))
 
-df_n4_k1 = pd.read_csv(Path("./PT/bench/n4_k1___lingeling_10_runs.csv"))
+# df_n4_k1 = pd.read_csv(Path("./PT/bench/n4_k1___lingeling_10_runs.csv"))
 
 # Compute m/n ratio
 # df["m/n"] = df["m"] / df["n"]
@@ -118,35 +118,35 @@ k2_col = k_colours[1]
 
 # 2) percentage vs m
 # Group by 'm' and calculate the SAT percentage
-n6_k1 = df_n6_k1.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
-n6_k2 = df_n6_k2.groupby('m')['sat'].mean() * 100
+# n6_k1 = df_n6_k1.groupby('m')['sat'].mean() * 100  # Mean gives the proportion of True values
+# n6_k2 = df_n6_k2.groupby('m')['sat'].mean() * 100
 
-n5_k1 = df_n5_k1.groupby('m')['sat'].mean() * 100
-n5_k2 = df_n5_k2.groupby('m')['sat'].mean() * 100
+# n5_k1 = df_n5_k1.groupby('m')['sat'].mean() * 100
+# n5_k2 = df_n5_k2.groupby('m')['sat'].mean() * 100
 
-n4_k1 = df_n4_k1.groupby('m')['sat'].mean() * 100
-# m_counts2 = df2.groupby('m')['sat'].mean() * 100
+# n4_k1 = df_n4_k1.groupby('m')['sat'].mean() * 100
+# # m_counts2 = df2.groupby('m')['sat'].mean() * 100
 
-# Plotting
-plt.figure(figsize=(8, 3))
-plt.plot(n6_k1.index, n6_k1.values, color=k1_col, marker='o', linestyle='-', linewidth=1, label='n=6, k=1')
-plt.plot(n6_k2.index, n6_k2.values, color=k2_col, marker='o', linestyle='-', linewidth=1, label='n=6, k=2')
+# # Plotting
+# plt.figure(figsize=(8, 3))
+# plt.plot(n6_k1.index, n6_k1.values, color=k1_col, marker='o', linestyle='-', linewidth=1, label='n=6, k=1')
+# plt.plot(n6_k2.index, n6_k2.values, color=k2_col, marker='o', linestyle='-', linewidth=1, label='n=6, k=2')
 
-plt.plot(n5_k1.index, n5_k1.values, color=k1_col, marker='x', linestyle='--', linewidth=1, label='n=5, k=1')
-plt.plot(n5_k2.index, n5_k2.values, color=k2_col, marker='x', linestyle='--', linewidth=1, label='n=5, k=2')
+# plt.plot(n5_k1.index, n5_k1.values, color=k1_col, marker='x', linestyle='--', linewidth=1, label='n=5, k=1')
+# plt.plot(n5_k2.index, n5_k2.values, color=k2_col, marker='x', linestyle='--', linewidth=1, label='n=5, k=2')
 
-plt.plot(n4_k1.index, n4_k1.values, color=k1_col, marker='^', linestyle=':', linewidth=1, label='n=4, k=1')
-# plt.plot(m_counts2.index, m_counts2.values, color=k_colours[1], marker='o', linestyle='-', linewidth=3, label='2UBE')
-plt.xlabel('m')
-plt.ylabel('satisfiable (%)')
-# plt.title('Satisfiability for 6-node DAGs')
-# plt.ylim(0, 100)
-plt.xticks(n6_k1.index)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.legend()
-plt.tight_layout()
-plt.savefig("PT/plots/sat_curves_n4-6.pdf")
-plt.show()
+# plt.plot(n4_k1.index, n4_k1.values, color=k1_col, marker='^', linestyle=':', linewidth=1, label='n=4, k=1')
+# # plt.plot(m_counts2.index, m_counts2.values, color=k_colours[1], marker='o', linestyle='-', linewidth=3, label='2UBE')
+# plt.xlabel('m')
+# plt.ylabel('satisfiable (%)')
+# # plt.title('Satisfiability for 6-node DAGs')
+# # plt.ylim(0, 100)
+# plt.xticks(n6_k1.index)
+# plt.grid(axis='y', linestyle='--', alpha=0.7)
+# plt.legend()
+# plt.tight_layout()
+# plt.savefig("PT/plots/sat_curves_n4-6.pdf")
+# plt.show()
 
 
 
@@ -154,12 +154,12 @@ plt.show()
 
 
 # 3) graph distribution vs m
-# m_counts = df.groupby('m')['sat'].size()
-# plt.figure(figsize=(8, 5))
-# plt.bar(m_counts.index, m_counts.values, color='royalblue')
-# plt.xlabel('m')
-# plt.ylabel('dag count')
-# plt.title('Distribution of DAGs with 6 nodes')
-# plt.xticks(m_counts.index)
-# plt.grid(axis='y', linestyle='--', alpha=0.7)
-# plt.show()
+m_counts = df.groupby('m')['sat'].size()
+plt.figure(figsize=(8, 5))
+plt.bar(m_counts.index, m_counts.values, color='royalblue')
+plt.xlabel('m')
+plt.ylabel('dag count')
+plt.title('Distribution of DAGs with 6 nodes')
+plt.xticks(m_counts.index)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
