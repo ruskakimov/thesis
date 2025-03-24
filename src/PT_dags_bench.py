@@ -38,6 +38,8 @@ def run_benchmarks():
     
     for n in range(7, 21):  # n = 7 to 20
         for k in range(1, math.ceil(n / 2)):  # k = 1 to ceil(n/2)-1
+            print(f"Working on n={n}, k={k}", file=sys.stderr)
+
             output_file = output_dir / f"n{n}_k{k}___{RUNS}_run_eq_m_bins.csv"
             
             with open(output_file, 'w') as f:
@@ -46,7 +48,6 @@ def run_benchmarks():
                 i = 0
                 for G in dags(n):
                     i += 1
-                    print(f"Processing graph {i} for n={n}, k={k}", file=sys.stderr)
                     
                     cnf = encode_upward_book_embedding(G, k)
                     

@@ -12,8 +12,8 @@ dags_dir = script_dir.parent / "dags"          # ../dags
 output_path = Path("sat_curves.pdf")           # ./sat_curves.pdf
 
 # --- Configurable Parameters ---
-default_n_values = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-default_k_values = [7]
+default_n_values = [10]
+default_k_values = list(range(20))
 
 # --- Style Settings ---
 plt.rcParams.update({'font.size': 14})
@@ -31,7 +31,9 @@ k_colours = [
 ]
 
 # --- Helper Functions ---
-def get_filename(n, k):
+def get_filename(n, k, eq_bins=True):
+    if eq_bins:
+        return f"n{n}_k{k}___1_run_eq_m_bins.csv"
     runs = 1 if (n == 6 and k == 1) else 10
     return f"n{n}_k{k}___{runs}_runs.csv"
 
@@ -96,6 +98,5 @@ def plot_dag_count_per_m(filename):
 
 # --- Example usage ---
 if __name__ == "__main__":
-    # plot_sat_curves()
-    plot_dag_count_per_m("n7_1000_dags.txt")
-    plot_dag_count_per_m("n7_10000_dags.txt")
+    plot_sat_curves()
+    # plot_dag_count_per_m("n7_1000_dags.txt")
