@@ -8,6 +8,7 @@ import networkx as nx
 from pysat.solvers import Solver
 from helpers import T
 from encoders import encode_2UBE, encode_book_embedding, encode_upward_book_embedding
+import threading
 
 def dags(n):
     filepath = f'./PT/dags/n{n}_100_per_m.txt'
@@ -23,12 +24,26 @@ def dags(n):
             G.add_edges_from(edges)
             yield G
 
-def solve(cnf):
+def solve(cnf, timeout_seconds=1200):
     with Solver(name='Lingeling', bootstrap_with=cnf) as solver:
+        # Create a timer thread to interrupt the solver
+        timer = None
+        if timeout_seconds is not None:
+            timer = threading.Timer(timeout_seconds, solver.interrupt)
+            timer.start()
+
         start = time.perf_counter()
-        result = solver.solve()
-        elapsed_time = time.perf_counter() - start
-        return elapsed_time, result
+        try:
+            result = solver.solve()
+        except Exception as e:
+            print(f"Solver was interrupted: {e}")
+            result = None
+        finally:
+            elapsed = time.perf_counter() - start
+            if timer is not None:
+                timer.cancel()  # Stop the timer if still running
+
+        return elapsed, result
 
 RUNS = 1
 
