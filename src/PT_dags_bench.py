@@ -10,9 +10,14 @@ from helpers import T
 from encoders import encode_2UBE, encode_book_embedding, encode_upward_book_embedding
 import threading
 
+# TODO: Run PER_M=10, N_VALS=[20], K_VALS=[1..9]
+
 PER_M = 100
 TIMEOUT_PER_DAG_SEC = 60 * 5
 RUNS = 1
+
+N_VALS = [15]
+K_VALS = [7]
 
 def dags(n):
     filepath = f'./PT/dags/n{n}_{PER_M}_per_m.txt'
@@ -68,8 +73,8 @@ def run_benchmarks():
     output_dir = Path("./PT/bench/")
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    for n in [15]:
-        for k in [7]:
+    for n in N_VALS:
+        for k in K_VALS:
             print(f"Working on n={n}, k={k}", file=sys.stderr)
             output_file = output_dir / f"n{n}_k{k}___{RUNS}_run_eq_m_bins_2.csv"
             start_time = time.time()
