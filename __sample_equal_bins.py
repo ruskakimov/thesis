@@ -29,5 +29,5 @@ def generate_dags(n, per_m=100, output_dir="PT/dags"):
             print(f"  ✓ m={m:3d}: {per_m} DAGs")
 
 # Generate DAGs for n in 7 to 20
-for n in range(7, 21):
-    generate_dags(n, per_m=100)
+for n in [20]:
+    generate_dags(n, per_m=50)
