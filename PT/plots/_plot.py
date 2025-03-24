@@ -12,8 +12,8 @@ dags_dir = script_dir.parent / "dags"          # ../dags
 output_path = Path("sat_curves.pdf")           # ./sat_curves.pdf
 
 # --- Configurable Parameters ---
-default_n_values = [10]
-default_k_values = list(range(20))
+default_n_values = [15]
+default_k_values = [7]
 
 # --- Style Settings ---
 plt.rcParams.update({'font.size': 14})
@@ -29,6 +29,18 @@ k_colours = [
     "#bcbd22",  # Yellow-Green
     "#17becf",  # Cyan
 ]
+k_markers = [
+    'o',  # Circle
+    'x',  # X
+    '^',  # Triangle Up
+    's',  # Square
+    'D',  # Diamond
+    '*',  # Star
+    'P',  # Plus (filled)
+    'X',  # X (filled)
+    'v',  # Triangle Down
+    'd',  # Thin diamond
+]
 
 # --- Helper Functions ---
 def get_filename(n, k, eq_bins=True):
@@ -37,8 +49,8 @@ def get_filename(n, k, eq_bins=True):
     runs = 1 if (n == 6 and k == 1) else 10
     return f"n{n}_k{k}___{runs}_runs.csv"
 
-def load_and_process_csv(n, k):
-    filepath = data_dir / get_filename(n, k)
+def load_and_process_csv(n, k, eq_bins=True):
+    filepath = data_dir / get_filename(n, k, eq_bins)
     df = pd.read_csv(filepath)
     return df
 
@@ -47,17 +59,16 @@ def load_and_process_csv(n, k):
 def plot_sat_curves(n_values=default_n_values, k_values=default_k_values, output_file=output_path):
     plt.figure(figsize=(8, 3))
 
-    for idx_n, n in enumerate(n_values):
+    for n in n_values:
         for k in k_values:
             try:
                 df = load_and_process_csv(n, k)
                 grouped = df.groupby("m")["sat"].mean() * 100  # Convert to %
                 color = k_colours[k - 1]
-                style = ['-', '--', ':'][idx_n % 3]
-                marker = ['o', 'x', '^'][idx_n % 3]
+                marker = k_markers[k - 1]
                 label = f"n={n}, k={k}"
                 plt.plot(grouped.index, grouped.values, color=color, marker=marker,
-                         linestyle=style, linewidth=1, label=label)
+                         linestyle='-', linewidth=1, label=label)
             except FileNotFoundError:
                 print(f"Missing data for n={n}, k={k} ({get_filename(n, k)})")
 
@@ -69,6 +80,34 @@ def plot_sat_curves(n_values=default_n_values, k_values=default_k_values, output
     plt.savefig(output_file)
     plt.show()
 
+def plot_mean_runtime_vs_mn_ratio(n_values=default_n_values, k_values=default_k_values):
+    plt.figure(figsize=(8, 5))
+
+    for n in n_values:
+        for k in k_values:
+            try:
+                df = load_and_process_csv(n, k, False)
+                # df = df.dropna(subset=["time(s)"]) # drop rows with missing time
+
+                df["m/n"] = df["m"] / n
+                grouped = df.groupby("m/n")["time(s)"].mean()
+
+                color = k_colours[k - 1]
+                marker = k_markers[k - 1]
+                label = f"n={n}, k={k}"
+
+                plt.plot(grouped.index, grouped.values, color=color, linestyle='-',
+                         marker=marker, linewidth=1, label=label)
+            except FileNotFoundError:
+                print(f"Missing data for n={n}, k={k} ({get_filename(n, k)})")
+
+    plt.xlabel("m/n")
+    plt.ylabel("time (s)")
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.legend()
+    plt.tight_layout()
+    # plt.savefig(output_file)
+    plt.show()
 
 def plot_dag_count_per_m(filename):
     path = dags_dir / filename
@@ -98,5 +137,6 @@ def plot_dag_count_per_m(filename):
 
 # --- Example usage ---
 if __name__ == "__main__":
-    plot_sat_curves()
+    # plot_sat_curves()
+    plot_mean_runtime_vs_mn_ratio()
     # plot_dag_count_per_m("n7_1000_dags.txt")
