@@ -14,7 +14,7 @@ output_path = Path("sat_curves.pdf")           # ./sat_curves.pdf
 
 # --- Configurable Parameters ---
 default_n_values = [10]
-default_k_values = [1,2,3,4]
+default_k_values = [2,3,4]
 dataset_runs = 1
 
 # --- Style Settings ---
@@ -139,57 +139,61 @@ def plot_dag_count_per_m(filename):
     plt.tight_layout()
     plt.show()
 
-def plot_sat_and_time_shared_x(n_values, k_values, dataset_runs, data_dir, k_colours, k_markers, output_file="sat_time_shared_axis.pdf"):
+def plot_sat_and_time_shared_x(n_values, k_values):
+    # Plot
+    fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 5), height_ratios=(1, 1))
+    
     for n in n_values:
         for k in k_values:
-            try:
-                df = load_and_process_csv(n, k, True)
-                
-                # Group data
-                m_vals = sorted(df["m"].unique())
-                sat_percent = df.groupby("m")["sat"].mean() * 100
-                avg_time = df.groupby("m")["time(s)"].mean()
+            df = load_and_process_csv(n, k, True)
+            
+            # Group data
+            m_vals = sorted(df["m"].unique())
+            sat_percent = df.groupby("m")["sat"].mean() * 100
+            avg_time = df.groupby("m")["time(s)"].mean()
 
-                # Estimate PT at ~50% SAT
-                pt_candidates = (sat_percent - 50).abs()
-                pt_m = pt_candidates.idxmin()
+            # Reset index so 'm' becomes a column
+            sat_df = sat_percent.reset_index().sort_values("m")
 
-                # Plot
-                fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 5), height_ratios=(1, 1))
+            # Find the two points that straddle 50%
+            above = sat_df[sat_df["sat"] >= 50].iloc[-1]
+            below = sat_df[sat_df["sat"] < 50].iloc[0]
 
-                # SAT%
-                ax1.plot(m_vals, sat_percent, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}")
-                ax1.set_ylabel("satisfiable (%)")
-                ax1.set_ylim(-5, 105)
-                ax1.grid(True)
-                ax1.legend(loc="lower left")
+            # Linear interpolation to estimate where sat == 50
+            m1, s1 = above["m"], above["sat"]
+            m2, s2 = below["m"], below["sat"]
+            pt_m_sat50 = m1 + (50 - s1) * (m2 - m1) / (s2 - s1)
 
-                # Time (log scale)
-                ax2.plot(m_vals, avg_time, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}")
-                ax2.set_ylabel("time (s)")
-                ax2.set_xlabel("m")
-                ax2.set_yscale("log")
-                ax2.yaxis.set_major_locator(ticker.LogLocator(base=10.0, subs=[1.0], numticks=6))
-                ax2.yaxis.set_minor_locator(ticker.NullLocator())
-                ax2.grid(True, which='both')
-                ax2.legend(loc="upper left")
+            # SAT%
+            ax1.plot(m_vals, sat_percent, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}", markersize=4)
+            ax1.set_ylabel("satisfiable (%)")
+            ax1.set_ylim(-5, 105)
+            ax1.grid(True)
+            ax1.legend(loc="upper right")
 
-                # Shared vertical line at PT
-                for ax in [ax1, ax2]:
-                    ax.axvline(x=pt_m, linestyle='--', color='gray', linewidth=1)
+            # Time (log scale)
+            ax2.plot(m_vals, avg_time, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}", markersize=4)
+            ax2.set_ylabel("time (s)")
+            ax2.set_xlabel("m")
+            ax2.set_yscale("log")
+            ax2.yaxis.set_major_locator(ticker.LogLocator(base=10.0, subs=[1.0], numticks=6))
+            ax2.yaxis.set_minor_locator(ticker.NullLocator())
+            ax2.grid(True, which='both')
+            # ax2.legend(loc="upper left")
 
-                fig.align_ylabels([ax1, ax2])
-                plt.tight_layout()
-                plt.savefig(f"sat_time_n{n}_k{k}.pdf")
-                plt.show()
-
-            except FileNotFoundError:
-                print(f"Some error")
+            # Shared vertical line at PT
+            for ax in [ax1, ax2]:
+                ax.axvline(x=pt_m_sat50, linestyle=':', color=k_colours[k-1], linewidth=2)
+        
+        fig.align_ylabels([ax1, ax2])
+        plt.tight_layout()
+        plt.savefig(f"sat_time_n{n}_k{k}.pdf")
+        plt.show()
 
 
 # --- Example usage ---
 if __name__ == "__main__":
     # plot_sat_curves()
     # plot_mean_runtime_vs_mn_ratio()
-    plot_sat_and_time_shared_x([10], [1, 2, 3, 4], 1, "../bench", k_colours, k_markers)
+    plot_sat_and_time_shared_x(default_n_values, default_k_values)
     # plot_dag_count_per_m("n7_1000_dags.txt")
