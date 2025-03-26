@@ -47,7 +47,10 @@ k_markers = [
 # --- Helper Functions ---
 def get_filename(n, k, eq_bins=True):
     if eq_bins:
-        return f"n{n}_k{k}___{dataset_runs}_run_eq_m_bins.csv"
+        runs = dataset_runs
+        if k == 1:
+            runs = 30
+        return f"n{n}_k{k}___{runs}_run_eq_m_bins.csv"
     return f"n{n}_k{k}___{dataset_runs}_runs.csv"
 
 def load_and_process_csv(n, k, eq_bins=True):
@@ -141,7 +144,7 @@ def plot_dag_count_per_m(filename):
 
 def plot_sat_and_time_shared_x(n_values, k_values):
     # Plot
-    fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 5), height_ratios=(1, 1))
+    fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 6), height_ratios=(1, 2))
     
     for n in n_values:
         for k in k_values:
@@ -169,7 +172,7 @@ def plot_sat_and_time_shared_x(n_values, k_values):
             ax1.set_ylabel("satisfiable (%)")
             ax1.set_ylim(-5, 105)
             ax1.grid(True)
-            ax1.legend(loc="upper right")
+            ax1.legend(loc="lower left")
 
             # Time (log scale)
             ax2.plot(m_vals, avg_time, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}", markersize=4)
