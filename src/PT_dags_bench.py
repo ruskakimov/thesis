@@ -9,10 +9,10 @@ from helpers import T
 from encoders import encode_upward_book_embedding
 
 PER_M = 100
-TIMEOUT_PER_DAG_SEC = 60 * 5
-RUNS = 10
+# TIMEOUT_PER_DAG_SEC = 60 * 5
+RUNS = 30
 
-N_VALS = [10]
+N_VALS = [15]
 K_VALS = [1]
 
 def dags(n):
@@ -30,7 +30,7 @@ def dags(n):
             yield G
 
 def solve(cnf):
-    with Solver(name='Lingeling', bootstrap_with=cnf) as solver:
+    with Solver(name='Cadical195', bootstrap_with=cnf) as solver:
         start = time.perf_counter()
         result = solver.solve()
         elapsed = time.perf_counter() - start

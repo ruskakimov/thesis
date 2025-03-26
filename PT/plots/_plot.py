@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 import ast
 from collections import Counter
+import matplotlib.ticker as ticker
 
 # --- Paths ---
 script_dir = Path(__file__).resolve().parent
@@ -138,9 +139,57 @@ def plot_dag_count_per_m(filename):
     plt.tight_layout()
     plt.show()
 
+def plot_sat_and_time_shared_x(n_values, k_values, dataset_runs, data_dir, k_colours, k_markers, output_file="sat_time_shared_axis.pdf"):
+    for n in n_values:
+        for k in k_values:
+            try:
+                df = load_and_process_csv(n, k, True)
+                
+                # Group data
+                m_vals = sorted(df["m"].unique())
+                sat_percent = df.groupby("m")["sat"].mean() * 100
+                avg_time = df.groupby("m")["time(s)"].mean()
+
+                # Estimate PT at ~50% SAT
+                pt_candidates = (sat_percent - 50).abs()
+                pt_m = pt_candidates.idxmin()
+
+                # Plot
+                fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(8, 5), height_ratios=(1, 1))
+
+                # SAT%
+                ax1.plot(m_vals, sat_percent, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}")
+                ax1.set_ylabel("satisfiable (%)")
+                ax1.set_ylim(-5, 105)
+                ax1.grid(True)
+                ax1.legend(loc="lower left")
+
+                # Time (log scale)
+                ax2.plot(m_vals, avg_time, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}")
+                ax2.set_ylabel("time (s)")
+                ax2.set_xlabel("m")
+                ax2.set_yscale("log")
+                ax2.yaxis.set_major_locator(ticker.LogLocator(base=10.0, subs=[1.0], numticks=6))
+                ax2.yaxis.set_minor_locator(ticker.NullLocator())
+                ax2.grid(True, which='both')
+                ax2.legend(loc="upper left")
+
+                # Shared vertical line at PT
+                for ax in [ax1, ax2]:
+                    ax.axvline(x=pt_m, linestyle='--', color='gray', linewidth=1)
+
+                fig.align_ylabels([ax1, ax2])
+                plt.tight_layout()
+                plt.savefig(f"sat_time_n{n}_k{k}.pdf")
+                plt.show()
+
+            except FileNotFoundError:
+                print(f"Some error")
+
 
 # --- Example usage ---
 if __name__ == "__main__":
-    plot_sat_curves()
-    plot_mean_runtime_vs_mn_ratio()
+    # plot_sat_curves()
+    # plot_mean_runtime_vs_mn_ratio()
+    plot_sat_and_time_shared_x([10], [1, 2, 3, 4], 1, "../bench", k_colours, k_markers)
     # plot_dag_count_per_m("n7_1000_dags.txt")
