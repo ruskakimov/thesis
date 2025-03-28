@@ -14,7 +14,7 @@ output_path = Path("sat_curves.pdf")           # ./sat_curves.pdf
 
 # --- Configurable Parameters ---
 default_n_values = [10]
-default_k_values = [2,3,4]
+default_k_values = [1]
 dataset_runs = 1
 
 # --- Style Settings ---
@@ -50,6 +50,8 @@ def get_filename(n, k, eq_bins=True):
         runs = dataset_runs
         if k == 1:
             runs = 30
+        if n == 20 and k >= 6:
+            return f"n20_k{k}___1_run_30_per_m.csv"
         return f"n{n}_k{k}___{runs}_run_eq_m_bins.csv"
     return f"n{n}_k{k}___{dataset_runs}_runs.csv"
 
@@ -167,22 +169,27 @@ def plot_sat_and_time_shared_x(n_values, k_values):
             m2, s2 = below["m"], below["sat"]
             pt_m_sat50 = m1 + (50 - s1) * (m2 - m1) / (s2 - s1)
 
+            print(f"n={n}, k={k}, m_sat50={pt_m_sat50}")
+
+            marker = None
+            # marker = k_markers[k - 1]
+
             # SAT%
-            ax1.plot(m_vals, sat_percent, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}", markersize=4)
+            ax1.plot(m_vals, sat_percent, marker=marker, color=k_colours[k - 1], label=f"k={k}", markersize=5, markevery=5, linestyle='-', linewidth=2.5)
             ax1.set_ylabel("satisfiable (%)")
             ax1.set_ylim(-5, 105)
             ax1.grid(True)
-            ax1.legend(loc="lower left")
+            # ax1.legend(loc="lower left")
 
             # Time (log scale)
-            ax2.plot(m_vals, avg_time, marker=k_markers[k - 1], color=k_colours[k - 1], label=f"n={n}, k={k}", markersize=4)
+            ax2.plot(m_vals, avg_time, marker=marker, color=k_colours[k - 1], label=f"k={k}", markersize=5, markevery=5, linestyle='-', linewidth=2.5)
             ax2.set_ylabel("time (s)")
             ax2.set_xlabel("m")
             ax2.set_yscale("log")
             ax2.yaxis.set_major_locator(ticker.LogLocator(base=10.0, subs=[1.0], numticks=6))
             ax2.yaxis.set_minor_locator(ticker.NullLocator())
             ax2.grid(True, which='both')
-            # ax2.legend(loc="upper left")
+            ax2.legend(loc="upper right")
 
             # Shared vertical line at PT
             for ax in [ax1, ax2]:

@@ -8,12 +8,12 @@ from pysat.solvers import Solver
 from helpers import T
 from encoders import encode_upward_book_embedding
 
-PER_M = 100
+PER_M = 30
 # TIMEOUT_PER_DAG_SEC = 60 * 5
-RUNS = 30
+RUNS = 1
 
-N_VALS = [15]
-K_VALS = [1]
+N_VALS = [20]
+K_VALS = [6,7,8,9]
 
 def dags(n):
     filepath = f'./PT/dags/n{n}_{PER_M}_per_m.txt'
@@ -53,7 +53,7 @@ def run_benchmarks():
     for n in N_VALS:
         for k in K_VALS:
             print(f"\n\nWorking on n={n}, k={k}", file=sys.stderr)
-            output_file = output_dir / f"n{n}_k{k}___{RUNS}_run_eq_m_bins.csv"
+            output_file = output_dir / f"n{n}_k{k}___{RUNS}_run_{PER_M}_per_m.csv"
             print(f"Writing to {output_file}")
             start_time = time.time()
 
