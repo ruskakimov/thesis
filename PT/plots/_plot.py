@@ -13,8 +13,8 @@ dags_dir = script_dir.parent / "dags"          # ../dags
 output_path = Path("sat_curves.pdf")           # ./sat_curves.pdf
 
 # --- Configurable Parameters ---
-default_n_values = [10]
-default_k_values = [1]
+default_n_values = [15]
+default_k_values = [2,3,4,5,6,7]
 dataset_runs = 1
 
 # --- Style Settings ---
@@ -178,7 +178,7 @@ def plot_sat_and_time_shared_x(n_values, k_values):
             ax1.plot(m_vals, sat_percent, marker=marker, color=k_colours[k - 1], label=f"k={k}", markersize=5, markevery=5, linestyle='-', linewidth=2.5)
             ax1.set_ylabel("satisfiable (%)")
             ax1.set_ylim(-5, 105)
-            ax1.grid(True)
+            ax1.yaxis.grid(True)
             # ax1.legend(loc="lower left")
 
             # Time (log scale)
@@ -187,9 +187,9 @@ def plot_sat_and_time_shared_x(n_values, k_values):
             ax2.set_xlabel("m")
             ax2.set_yscale("log")
             ax2.yaxis.set_major_locator(ticker.LogLocator(base=10.0, subs=[1.0], numticks=6))
-            ax2.yaxis.set_minor_locator(ticker.NullLocator())
-            ax2.grid(True, which='both')
-            ax2.legend(loc="upper right")
+            ax2.xaxis.set_minor_locator(ticker.NullLocator())
+            ax2.yaxis.grid(True, which='major')
+            ax2.legend(loc="upper left")
 
             # Shared vertical line at PT
             for ax in [ax1, ax2]:
